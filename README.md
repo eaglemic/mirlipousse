@@ -8,9 +8,9 @@
 </p>
 
 <p align="center">
-  <a href="https://mirlipousse-boutique.yellowghost64.chatgpt.site"><strong>🌱 Ouvrir Mirlipousse</strong></a>
+  <a href="https://mirlipousse.onrender.com"><strong>🌱 Ouvrir Mirlipousse</strong></a>
   &nbsp; · &nbsp;
-  <a href="https://mirlipousse-boutique.yellowghost64.chatgpt.site/medias"><strong>▶ Découvrir les médias</strong></a>
+  <a href="https://mirlipousse.onrender.com/medias"><strong>▶ Découvrir les médias</strong></a>
   &nbsp; · &nbsp;
   <a href="#le-projet"><strong>↓ Le projet</strong></a>
 </p>
@@ -20,7 +20,7 @@
 <p align="center">
   <img src="docs/readme-motion.gif" alt="Aperçu animé de l’univers Mirlipousse : couleurs douces, jouets et petites découvertes" width="288">
   <br>
-  <sub>Un aperçu animé de 6 secondes. <a href="https://mirlipousse-boutique.yellowghost64.chatgpt.site/medias">Voir la vidéo et télécharger les médias</a>.</sub>
+  <sub>Un aperçu animé de 6 secondes. <a href="https://mirlipousse.onrender.com/medias">Voir la vidéo et télécharger les médias</a>.</sub>
 </p>
 
 <a id="le-projet"></a>
@@ -51,7 +51,7 @@ La vitrine présente **8 concepts illustrés**, des collections par âge, deux g
 | :--- | :--- |
 | Vitrine et médias | Présentés dans ce dépôt. |
 | Paiement SumUp | Compte existant ; connexion technique et parcours de paiement à qualifier. |
-| Fournisseur CJdropshipping | Compte à créer, catalogue et raccordement à préparer. |
+| Fournisseur CJdropshipping | Compte créé ; autorisation API et catalogue réel à raccorder. |
 | Produits, stocks et livraison | À vérifier avec le fournisseur avant ouverture des ventes. |
 | Commandes réelles | Fermées ; cet export ne déploie aucune API de paiement ou de commande. |
 
