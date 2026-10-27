@@ -1,0 +1,193 @@
+{
+  "format": "boutique-remise-v2/1",
+  "dateUTC": "2026-10-27T21:13:00.476345+00:00",
+  "brandSlug": "feuillory",
+  "succes": true,
+  "termine": true,
+  "applique": false,
+  "publicationFaite": false,
+  "paquet": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/feuillory",
+  "branch": "entreprise/feuillory",
+  "products": 3,
+  "publicFiles": 24,
+  "origin": "https://feuillory.onrender.com",
+  "salesEnabled": false,
+  "avisEnabled": true,
+  "planCAS": {
+    "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/plans-cas/feuillory.json",
+    "sha256": "c8cafb2a11a0beb02ae84ac024b2e8d7602571c5e2f59528416ba77ff7459cb3"
+  },
+  "export": {
+    "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/feuillory/verification/EXPORT.json",
+    "sha256": "b36bf5d1ae1115595c2ecab43a073399fd48b26ea8e30a9f1a04e667ef359fa3",
+    "octets": 4296
+  },
+  "codePublic": [
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/feuillory/public/404.html",
+      "sha256": "afedc7e0111b20138e41ade0fa8f31f401df713d7896d5d1b3d34647739010c6",
+      "octets": 6421,
+      "relativePath": "public/404.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/feuillory/public/app.js",
+      "sha256": "b6354e9cd002e432a34a873a0ba6e3e48cababab656bb82f1835e6a51d5d61f5",
+      "octets": 14451,
+      "relativePath": "public/app.js"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/feuillory/public/avis.html",
+      "sha256": "f6c14389ea05b6c66fff2e321f40638bc1518bc57a688850bb3a384cd807cc9c",
+      "octets": 8446,
+      "relativePath": "public/avis.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/feuillory/public/brand.json",
+      "sha256": "8b434e32a147a508560e9eb139d60a39e3413ff068a84c25cbcb55e1bcbf5a43",
+      "octets": 213,
+      "relativePath": "public/brand.json"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/feuillory/public/catalogue.html",
+      "sha256": "9e2c5587ad9550154bd9455f466a2f0a36de1561f799f9c981240cd39af369c1",
+      "octets": 10624,
+      "relativePath": "public/catalogue.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/feuillory/public/catalogue.json",
+      "sha256": "bddd37681eda4e51088045eb3b20c6527e3dfe1e34f440ed07d3ea7e8c553347",
+      "octets": 2778,
+      "relativePath": "public/catalogue.json"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/feuillory/public/conditions.html",
+      "sha256": "cb6da11ca0927004c70b8d12ae7bc01a7f6792d9f1e8725eea76aae957f49ea1",
+      "octets": 7150,
+      "relativePath": "public/conditions.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/feuillory/public/confidentialite.html",
+      "sha256": "4da2606f63b79589dc4e1c671ce5efe0cf8298cf06d37bcdb951108fa403cafe",
+      "octets": 8554,
+      "relativePath": "public/confidentialite.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/feuillory/public/contact.html",
+      "sha256": "8060f7053102dbcacc28f8baed5f0d8efac667df2b777c318f48618e789a1d3c",
+      "octets": 6809,
+      "relativePath": "public/contact.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/feuillory/public/guide.html",
+      "sha256": "6d37415cfb7958a6766189c90f5a6fcbcc3882eb291f6c51e561dbeb40551fa4",
+      "octets": 6827,
+      "relativePath": "public/guide.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/feuillory/public/index.html",
+      "sha256": "5f87e50df3f07f140f4c40cbaf260a913225c9d4e85f1d8dda6bf94404738b87",
+      "octets": 15069,
+      "relativePath": "public/index.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/feuillory/public/livraison.html",
+      "sha256": "b9a4d8523492087cbb3aebed7a5644ec0b31c60bfa23a30413511f76f4e2a039",
+      "octets": 7043,
+      "relativePath": "public/livraison.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/feuillory/public/media/embleme.svg",
+      "sha256": "8cbedf37a43c32a12f88e670105aab2c300b937d05b8e54b2cd85f751ab35a63",
+      "octets": 321,
+      "relativePath": "public/media/embleme.svg"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/feuillory/public/media/feuillory-cj-12fc11a9-45bc-430b-bf9e-e1e8c6551b4e.png",
+      "sha256": "12bf0ee03b2ce12fe7b17d6282e54189c2f807e883e231743e51a92b5c977261",
+      "octets": 165556,
+      "relativePath": "public/media/feuillory-cj-12fc11a9-45bc-430b-bf9e-e1e8c6551b4e.png"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/feuillory/public/media/feuillory-cj-1394173368693035008.jpg",
+      "sha256": "fdea06e9d0689bb4f683ec1922e7295373ffb0f95ee1bfa519e2936211199808",
+      "octets": 79105,
+      "relativePath": "public/media/feuillory-cj-1394173368693035008.jpg"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/feuillory/public/media/feuillory-cj-2503120220541603100.jpg",
+      "sha256": "95952a1f4b59270f1372ced11487fe011a267299b13902634dc94ac9d3ee5f93",
+      "octets": 228864,
+      "relativePath": "public/media/feuillory-cj-2503120220541603100.jpg"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/feuillory/public/mentions-legales.html",
+      "sha256": "904d6ff03ea708682816e381a19651bbc48cd5c167d76052ff25fa7ebb128489",
+      "octets": 7327,
+      "relativePath": "public/mentions-legales.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/feuillory/public/produits/feuillory-cj-12fc11a9-45bc-430b-bf9e-e1e8c6551b4e.html",
+      "sha256": "5c77e71743b29a0eee5ec2fffa16376e206e8d8c1a492185af35d2e49b2f3990",
+      "octets": 8219,
+      "relativePath": "public/produits/feuillory-cj-12fc11a9-45bc-430b-bf9e-e1e8c6551b4e.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/feuillory/public/produits/feuillory-cj-1394173368693035008.html",
+      "sha256": "725af901fa3d393b517a5fc4794a9a52645cdfa564b4ccb1460c58c6ce74b2e4",
+      "octets": 8199,
+      "relativePath": "public/produits/feuillory-cj-1394173368693035008.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/feuillory/public/produits/feuillory-cj-2503120220541603100.html",
+      "sha256": "684e4c37c5e2b7e4f261016824bc5020577be69b72de8643e79037d651f80545",
+      "octets": 8271,
+      "relativePath": "public/produits/feuillory-cj-2503120220541603100.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/feuillory/public/retours.html",
+      "sha256": "0640a8e140d892bf48588ccaaeef453e5e86259052ffc375a327db6cd274650b",
+      "octets": 7115,
+      "relativePath": "public/retours.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/feuillory/public/robots.txt",
+      "sha256": "e9bae95c5bac84a8817ca6b0959ab28b3422fa539fa3888d7a24cb7f2647098c",
+      "octets": 75,
+      "relativePath": "public/robots.txt"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/feuillory/public/sitemap.xml",
+      "sha256": "f3214b684fe64610720f1bbc1c4469cd3fb52dc55eff2de548316702f35cb974",
+      "octets": 1088,
+      "relativePath": "public/sitemap.xml"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/feuillory/public/style.css",
+      "sha256": "d4874a8ca0f6d91377de2ed6e2b6c6d854234729eebaaabf685ab76bf9f1831f",
+      "octets": 29097,
+      "relativePath": "public/style.css"
+    }
+  ],
+  "preuveFonctionnelle12": {
+    "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/verification/recette-2026-10-27T21-01-36-999Z/RECETTE-NAVIGATEUR.json",
+    "sha256": "1efb0f7f45efa79af1d53e55fd30cf7e0e0adcca96f27cb8b30c5a2c1c84fb7d",
+    "octets": 79639
+  },
+  "complementCSSReference3": {
+    "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/verification/complement-motion-2026-10-27T21-10-29-869Z/RECETTE-NAVIGATEUR.json",
+    "sha256": "4ddd5f2f7c8ab6358f8375e4d4f8d009b978181b884120b62c35127c8f089d13",
+    "octets": 4648
+  },
+  "porteeReuse": "HTML, produits, images, sélection, filtres, dialogue et formulaires de la recette12 inchangés. Le JS de retour POST et CSS décorative ont ensuite reçu les deux finitions explicitement qualifiées sur trois profils.",
+  "finitions": {
+    "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/verification/FINITIONS-BORNE-REFERENCE.json",
+    "sha256": "978416bae59d21ba8bdf90c7328f8cb05a892769ccf561a9e017e72ba965fadc",
+    "octets": 6817
+  },
+  "limites": [
+    "Ventes fermées et prix client non définis.",
+    "Avis du navigateur en recette interceptés par fixture locale explicite ; aucun avis produit créé ou publié.",
+    "Chromium headless local seulement, aucun téléphone physique.",
+    "Root seul opérateur publication, aucun push ou service modifié par cet agent."
+  ]
+}

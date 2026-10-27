@@ -1,31 +1,31 @@
 {
   "format": "boutique-export/1",
-  "dateUTC": "2026-10-27T20:39:11.458552Z",
+  "dateUTC": "2026-10-27T20:55:30.383145Z",
   "brandSlug": "feuillory",
   "name": "Feuillory",
   "branche": "entreprise/feuillory",
   "publicRoot": "public",
   "salesEnabled": false,
   "adultOnly": false,
-  "origin": null,
+  "origin": "https://feuillory.onrender.com",
   "products": 3,
-  "sourceBrandSHA256": "0082e729bd8143852a42dfbfb0c465989c6f82a1204806fcff608277a4ec30db",
+  "sourceBrandSHA256": "b9a2363a54ba0d6a4bf86f4aaec4c3c3e7c32e00a44f657551ead44d3be17093",
   "sourceCatalogueSHA256": "4165fe42cb9cfaab72dbeb0e17426fd0bb41f1c3a4c59f54cb1d6a78b478aa52",
   "files": [
     {
       "path": "404.html",
-      "sha256": "a7d0078c9b681504487a17d140885ab1e944741301fa0ba9402451a12cc87dd0",
-      "octets": 6359
+      "sha256": "afedc7e0111b20138e41ade0fa8f31f401df713d7896d5d1b3d34647739010c6",
+      "octets": 6421
     },
     {
       "path": "app.js",
-      "sha256": "a6d3ce60454f724e8e2ddbfed1bc68d559f23387a6c2822dda34e96dcaa6bbcb",
-      "octets": 11142
+      "sha256": "b6354e9cd002e432a34a873a0ba6e3e48cababab656bb82f1835e6a51d5d61f5",
+      "octets": 14451
     },
     {
       "path": "avis.html",
-      "sha256": "7d9cdeb6fd58b5ad126f639b71c9d9f08426e42732f72e9547af6a5aeb12e7af",
-      "octets": 8216
+      "sha256": "f6c14389ea05b6c66fff2e321f40638bc1518bc57a688850bb3a384cd807cc9c",
+      "octets": 8446
     },
     {
       "path": "brand.json",
@@ -34,8 +34,8 @@
     },
     {
       "path": "catalogue.html",
-      "sha256": "a8ced6cb19b04895d7689d04d17ce3d724412632402b60e46ea07dc7fff578c7",
-      "octets": 10556
+      "sha256": "9e2c5587ad9550154bd9455f466a2f0a36de1561f799f9c981240cd39af369c1",
+      "octets": 10624
     },
     {
       "path": "catalogue.json",
@@ -44,33 +44,33 @@
     },
     {
       "path": "conditions.html",
-      "sha256": "84dcfe48105cf8ec68eac23ab69b4b3988a575384475f97e229228c73dfeaa98",
-      "octets": 7081
+      "sha256": "cb6da11ca0927004c70b8d12ae7bc01a7f6792d9f1e8725eea76aae957f49ea1",
+      "octets": 7150
     },
     {
       "path": "confidentialite.html",
-      "sha256": "fc8d2032a9ee431abdee565e144b420cd6e7bd14651ebe605041fddd38cc7efa",
-      "octets": 7408
+      "sha256": "4da2606f63b79589dc4e1c671ce5efe0cf8298cf06d37bcdb951108fa403cafe",
+      "octets": 8554
     },
     {
       "path": "contact.html",
-      "sha256": "bb1495c6456badcb7062d2c5d872476fa3517ca5d77ed764cc8c9ed9c2fcef19",
-      "octets": 6743
+      "sha256": "8060f7053102dbcacc28f8baed5f0d8efac667df2b777c318f48618e789a1d3c",
+      "octets": 6809
     },
     {
       "path": "guide.html",
-      "sha256": "efc8e07667d030c79d58a170f58627972bf482c1e6aa8a730471d6aa7bedcdb8",
-      "octets": 6763
+      "sha256": "6d37415cfb7958a6766189c90f5a6fcbcc3882eb291f6c51e561dbeb40551fa4",
+      "octets": 6827
     },
     {
       "path": "index.html",
-      "sha256": "b0ca84b70a949cd34a16831a8415c9e20edcadfd5aa2d52450af0bbaad77c43f",
-      "octets": 14838
+      "sha256": "5f87e50df3f07f140f4c40cbaf260a913225c9d4e85f1d8dda6bf94404738b87",
+      "octets": 15069
     },
     {
       "path": "livraison.html",
-      "sha256": "428cea3462b539d9dcaa67e2851a54861d7727589c8fe2d682fc8c6e543ec1bd",
-      "octets": 6975
+      "sha256": "b9a4d8523492087cbb3aebed7a5644ec0b31c60bfa23a30413511f76f4e2a039",
+      "octets": 7043
     },
     {
       "path": "media/embleme.svg",
@@ -94,43 +94,43 @@
     },
     {
       "path": "mentions-legales.html",
-      "sha256": "d97fe36c9aeda88d316ae8035102e644a398051090f7db43f137607d7ab9287f",
-      "octets": 7252
+      "sha256": "904d6ff03ea708682816e381a19651bbc48cd5c167d76052ff25fa7ebb128489",
+      "octets": 7327
     },
     {
       "path": "produits/feuillory-cj-12fc11a9-45bc-430b-bf9e-e1e8c6551b4e.html",
-      "sha256": "600421e8494af83f36c127b52d5e37756a0db824a60db916f61f7bdc72dc5b07",
-      "octets": 8102
+      "sha256": "5c77e71743b29a0eee5ec2fffa16376e206e8d8c1a492185af35d2e49b2f3990",
+      "octets": 8219
     },
     {
       "path": "produits/feuillory-cj-1394173368693035008.html",
-      "sha256": "104b768048db879357d07068f39eec3d04a610a368d981f2ef3ecac99e56142a",
-      "octets": 8099
+      "sha256": "725af901fa3d393b517a5fc4794a9a52645cdfa564b4ccb1460c58c6ce74b2e4",
+      "octets": 8199
     },
     {
       "path": "produits/feuillory-cj-2503120220541603100.html",
-      "sha256": "47bac59926fd7d97a0295be658528216fc4c2917eed5549cefcd8537a5d4eb5c",
-      "octets": 8171
+      "sha256": "684e4c37c5e2b7e4f261016824bc5020577be69b72de8643e79037d651f80545",
+      "octets": 8271
     },
     {
       "path": "retours.html",
-      "sha256": "07c33bef7f3e456a8240f23ba6f05a77a853bb135b73a4b1cb48047f4806e3f0",
-      "octets": 7049
+      "sha256": "0640a8e140d892bf48588ccaaeef453e5e86259052ffc375a327db6cd274650b",
+      "octets": 7115
     },
     {
       "path": "robots.txt",
-      "sha256": "331ea9090db0c9f6f597bd9840fd5b171830f6e0b3ba1cb24dfa91f0c95aedc1",
-      "octets": 26
+      "sha256": "e9bae95c5bac84a8817ca6b0959ab28b3422fa539fa3888d7a24cb7f2647098c",
+      "octets": 75
     },
     {
       "path": "sitemap.xml",
-      "sha256": "68ab08991efaca902bcb8a6518106d8b29964c5651f39abbb7eb7c9713ca2770",
-      "octets": 107
+      "sha256": "f3214b684fe64610720f1bbc1c4469cd3fb52dc55eff2de548316702f35cb974",
+      "octets": 1088
     },
     {
       "path": "style.css",
-      "sha256": "12bf50161fe8aa8ddc6f0692c4073b1715e1987ab524c1a2e4a880fc17d10ef0",
-      "octets": 25136
+      "sha256": "d4874a8ca0f6d91377de2ed6e2b6c6d854234729eebaaabf685ab76bf9f1831f",
+      "octets": 29097
     }
   ]
 }

@@ -1,0 +1,198 @@
+{
+  "format": "boutiques-complement-motion-bornee-reference/1",
+  "dateUTC": "2026-10-27T21:10:29.869Z",
+  "succes": true,
+  "limites": [
+    "Chromium headless local uniquement",
+    "Aucun téléphone physique ni commande",
+    "Aucune URL publique testée ici"
+  ],
+  "groupes": [
+    {
+      "slug": "mini-et-moi",
+      "succes": true,
+      "CSSDebut": [
+        {
+          "name": "boutique-caption",
+          "state": "running",
+          "currentTime": 249.95200019888574,
+          "iterations": 1,
+          "endTime": 1050
+        }
+      ],
+      "CSSFin": [
+        {
+          "name": "boutique-caption",
+          "state": "finished",
+          "currentTime": 1050,
+          "endTime": 1050
+        }
+      ],
+      "revelation": {
+        "visible": "visible",
+        "opacity": "0.682393",
+        "animations": [
+          {
+            "state": "running",
+            "currentTime": 66.63000014722354,
+            "duration": 560
+          }
+        ]
+      },
+      "reduit": {
+        "mode": "reduced",
+        "running": 0,
+        "opacity": "1"
+      },
+      "reference": "Merci, votre avis a été reçu. Il sera visible après modération. Référence : fixture-only-mini-et-moi. Conservez-la pour demander son retrait.",
+      "horizontal": {
+        "client": 390,
+        "scroll": 390
+      }
+    },
+    {
+      "slug": "rubaloria",
+      "succes": true,
+      "CSSDebut": [
+        {
+          "name": "boutique-ambience",
+          "state": "running",
+          "currentTime": 266.65900006331503,
+          "iterations": 2,
+          "endTime": 4400
+        }
+      ],
+      "CSSFin": [
+        {
+          "name": "boutique-ambience",
+          "state": "finished",
+          "currentTime": 4400,
+          "endTime": 4400
+        }
+      ],
+      "revelation": {
+        "visible": "visible",
+        "opacity": "1",
+        "animations": [
+          {
+            "state": "running",
+            "currentTime": 50.07100000120701,
+            "duration": 560
+          }
+        ]
+      },
+      "reduit": {
+        "mode": "reduced",
+        "running": 0,
+        "opacity": "1"
+      },
+      "reference": "Merci, votre avis a été reçu. Il sera visible après modération. Référence : fixture-only-rubaloria. Conservez-la pour demander son retrait.",
+      "horizontal": {
+        "client": 390,
+        "scroll": 390
+      }
+    },
+    {
+      "slug": "feerivane",
+      "succes": true,
+      "CSSDebut": [
+        {
+          "name": "boutique-ambience",
+          "state": "running",
+          "currentTime": 250.05799993015825,
+          "iterations": 2,
+          "endTime": 4800
+        }
+      ],
+      "CSSFin": [
+        {
+          "name": "boutique-ambience",
+          "state": "finished",
+          "currentTime": 4800,
+          "endTime": 4800
+        }
+      ],
+      "revelation": {
+        "visible": "visible",
+        "opacity": "0.682622",
+        "animations": [
+          {
+            "state": "running",
+            "currentTime": 66.70200012177219,
+            "duration": 560
+          }
+        ]
+      },
+      "reduit": {
+        "mode": "reduced",
+        "running": 0,
+        "opacity": "1"
+      },
+      "avisFermes": true,
+      "horizontal": {
+        "client": 390,
+        "scroll": 390
+      }
+    }
+  ],
+  "erreursJS": [],
+  "externes": [],
+  "fixtureAvis": {
+    "mode": "locale_factice_aucun_stockage_production",
+    "reponses": [
+      {
+        "brand": "mini-et-moi",
+        "method": "GET",
+        "status": 200,
+        "appelExterneEffectif": false
+      },
+      {
+        "brand": "mini-et-moi",
+        "method": "GET",
+        "status": 200,
+        "appelExterneEffectif": false
+      },
+      {
+        "brand": "mini-et-moi",
+        "method": "OPTIONS",
+        "status": 204,
+        "appelExterneEffectif": false
+      },
+      {
+        "brand": "mini-et-moi",
+        "method": "POST",
+        "status": 201,
+        "appelExterneEffectif": false
+      },
+      {
+        "brand": "rubaloria",
+        "method": "GET",
+        "status": 200,
+        "appelExterneEffectif": false
+      },
+      {
+        "brand": "rubaloria",
+        "method": "GET",
+        "status": 200,
+        "appelExterneEffectif": false
+      },
+      {
+        "brand": "rubaloria",
+        "method": "OPTIONS",
+        "status": 204,
+        "appelExterneEffectif": false
+      },
+      {
+        "brand": "rubaloria",
+        "method": "POST",
+        "status": 201,
+        "appelExterneEffectif": false
+      }
+    ]
+  },
+  "scriptsBloques": [],
+  "profilTemporaireSupprime": true,
+  "termine": true,
+  "navigateurFerme": true,
+  "portLocalFerme": true
+}
