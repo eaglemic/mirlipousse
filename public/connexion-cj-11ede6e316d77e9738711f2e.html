@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow,nosnippet"><meta name="referrer" content="no-referrer"><meta http-equiv="Content-Security-Policy" content="default-src &#x27;none&#x27;; script-src &#x27;sha256-3rFrZ3Qh9GfLh3Dr4DizDNjKQl6RJMhpErnmqy+j1/4=&#x27; &#x27;sha256-hOwcxTWBDWtSj5ibM312C4V+U62S6DRzs0/8P0bU04c=&#x27; &#x27;sha256-wFiOPgOetToFgG1oPydrlQj08dzSYtQmwlYNqlC3Yuo=&#x27;; style-src &#x27;sha256-/ZlmYIIGNyqIPB9L1uVAlFFAZCXZSapy4Bt1mn/sZPg=&#x27;; connect-src &#x27;none&#x27;; img-src &#x27;none&#x27;; font-src &#x27;none&#x27;; base-uri &#x27;none&#x27;; form-action &#x27;none&#x27;; object-src &#x27;none&#x27;"><title>Mirlipousse · Connexion privée CJ</title><style>:root{color-scheme:light;font-family:system-ui,sans-serif;background:#faf7f1;color:#263f34}*{box-sizing:border-box}body{margin:0;padding:24px 16px}main{max-width:640px;margin:0 auto;padding:28px clamp(18px,5vw,40px);background:#fffefa;border:1px solid #d8dfd5;border-radius:24px;box-shadow:0 14px 50px #263f3410}.brand{font-weight:750;letter-spacing:.05em;color:#526b50}h1{font-size:clamp(26px,6vw,36px);line-height:1.15}p,li{line-height:1.65}ol{padding-left:22px}label{display:block;font-weight:700;margin:24px 0 8px}input,button{font:inherit;min-height:48px;width:100%;border-radius:12px}input{padding:12px;border:1px solid #839782;background:white;color:#152f23}input:focus{outline:3px solid #bdd3a9;outline-offset:2px}button{border:0;background:#345b41;color:white;font-weight:700;padding:14px;margin-top:16px;cursor:pointer}button:disabled{opacity:.65;cursor:wait}button:focus-visible{outline:3px solid #bb7a56;outline-offset:3px}.muted{font-size:14px;color:#526251}#status{font-weight:650;overflow-wrap:anywhere}
+</style></head>
+<body><main><p class="brand">Mirlipousse</p><h1>Autoriser la connexion CJ</h1><p>Cette page chiffre votre clé sur votre appareil. Elle ne l’envoie à aucun serveur. Le fichier créé ne peut être ouvert qu’avec la clé privée conservée par l’opérateur Mirlipousse.</p><ol><li>Copiez votre clé API depuis votre compte CJdropshipping.</li><li>Collez-la dans le champ ci-dessous.</li><li>Téléchargez le fichier chiffré, puis joignez ce fichier dans votre conversation.</li></ol><label for="cj-key">Clé API CJdropshipping</label><input id="cj-key" type="password" autocomplete="off" autocapitalize="off" spellcheck="false" maxlength="200" inputmode="text" aria-describedby="usage"><p id="usage" class="muted">Usage limité à la connexion fournisseur CJ. Aucun achat ni paiement n’est déclenché ici.</p><button id="seal" type="button">Créer le fichier chiffré</button><p id="status" role="status" aria-live="polite"></p><p class="muted">Gardez votre clé secrète. Ne l’envoyez pas en message ni en photo. Cette page ne stocke rien sur votre appareil ; le presse-papiers reste sous votre contrôle.</p></main><script id="public-config" type="application/json">{"format":"mirlipousse-cj-public/1","keyId":"11ede6e316d77e9738711f2e","publicKeySPKI":"MIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEAoltVX2MorkcH/2KXSUJKoIzTB2UG+DFHIrWYWmZT12gVMQ+H9eGkIDHVoMLQa3s4M+JOYIi+r1KPc9pfnqyY4MO3jqXYg7qzJBnUWUtvQG/CRLKNsFOI72Mm10Rlew0xDrK1t6TSaJ0tffbyClaBP1NS5tJ94KBd5Nv/5ptQSvQN0R6UjMMX2m+rD3Q33TXYDYKH7mTlHoCSBpzjuIMQRV5ze1y1zpBgIpcxrMtKBIPSacsxFM5+0saxTE5SctcwNjJsHX7YOUS43my5MCS2ILyJnA9mDJDfww8w6rI+aHj1YZLPlRV9WPmRTaLQgW+EjtW5OPr6Y3zKO0MjiKTK3FmV1Ew3+Zq42dR03ZZ9JpZyW4Z+AG661qi6Nv0gTB7+iyXbKSspx8++0WbVTuFB6f4uQYsmn5nW7yHNOn6G0W1kHtd1CPsYyVgaD8kpenTeCOp2XvK/A3cs43Ez/IjKgd+JhbqES1VkeQ1RipjnoTj1viChiYYkL3gtoQZrdG+xAgMBAAE=","expiresUTC":"2026-10-30T18:52:03.266523+00:00"}</script><script>/* Standard WebCrypto only; no network, persistence, or logging. */
+(() => {
+  'use strict';
+  const FORMAT = 'mirlipousse-cj-capsule/1';
+  const ALGORITHM = 'RSA-OAEP-256+A256GCM';
+  const exact = (value, keys) => value && typeof value === 'object'
+    && !Array.isArray(value) && Object.keys(value).sort().join('|') === keys.sort().join('|');
+  const decode = value => {
+    if (typeof value !== 'string' || value.length > 4096 || !/^[A-Za-z0-9+/]+={0,2}$/.test(value)) throw Error('CONFIGURATION_INVALIDE');
+    const binary = atob(value);
+    const bytes = Uint8Array.from(binary, letter => letter.charCodeAt(0));
+    if (encode(bytes) !== value) throw Error('CONFIGURATION_INVALIDE');
+    return bytes;
+  };
+  const encode = bytes => btoa(String.fromCharCode(...bytes));
+  async function encrypt(config, apiKey) {
+    if (!exact(config, ['format', 'keyId', 'publicKeySPKI', 'expiresUTC'])
+        || config.format !== 'mirlipousse-cj-public/1'
+        || typeof config.keyId !== 'string' || !/^[a-f0-9]{24}$/.test(config.keyId)
+        || typeof config.expiresUTC !== 'string'
+        || !Number.isFinite(Date.parse(config.expiresUTC))
+        || Date.parse(config.expiresUTC) <= Date.now()) throw Error('CONFIGURATION_EXPIREE_OU_INVALIDE');
+    if (typeof apiKey !== 'string' || !/^[!-~]{8,200}$/.test(apiKey)) throw Error('CLE_API_INVALIDE');
+    if (!globalThis.crypto?.subtle) throw Error('NAVIGATEUR_HTTPS_REQUIS');
+    const publicKey = await crypto.subtle.importKey('spki', decode(config.publicKeySPKI),
+      { name: 'RSA-OAEP', hash: 'SHA-256' }, false, ['encrypt']);
+    if (publicKey.algorithm.modulusLength < 3072
+        || [...publicKey.algorithm.publicExponent].join(',') !== '1,0,1') throw Error('CONFIGURATION_INVALIDE');
+    const key = await crypto.subtle.generateKey({ name: 'AES-GCM', length: 256 }, true, ['encrypt']);
+    const rawKey = new Uint8Array(await crypto.subtle.exportKey('raw', key));
+    const iv = crypto.getRandomValues(new Uint8Array(12));
+    const aad = new TextEncoder().encode(`${FORMAT}\n${config.keyId}\n${ALGORITHM}`);
+    const plaintext = new TextEncoder().encode(JSON.stringify({ CJ_API_KEY: apiKey }));
+    try {
+      const wrappedKey = await crypto.subtle.encrypt({ name: 'RSA-OAEP' }, publicKey, rawKey);
+      const ciphertext = await crypto.subtle.encrypt({ name: 'AES-GCM', iv, additionalData: aad, tagLength: 128 }, key, plaintext);
+      return { format: FORMAT, keyId: config.keyId, alg: ALGORITHM,
+        wrappedKey: encode(new Uint8Array(wrappedKey)), iv: encode(iv), ciphertext: encode(new Uint8Array(ciphertext)) };
+    } finally {
+      rawKey.fill(0);
+      plaintext.fill(0);
+    }
+  }
+  globalThis.MirlipousseCapsule = Object.freeze({ encrypt });
+})();
+</script><script>(() => {
+  'use strict';
+  const input = document.querySelector('#cj-key');
+  const button = document.querySelector('#seal');
+  const status = document.querySelector('#status');
+  const config = JSON.parse(document.querySelector('#public-config').textContent);
+  button.addEventListener('click', async () => {
+    button.disabled = true;
+    status.textContent = 'Chiffrement en cours sur votre appareil…';
+    try {
+      const capsule = await MirlipousseCapsule.encrypt(config, input.value);
+      const file = new Blob([JSON.stringify(capsule)], { type: 'application/json' });
+      const link = document.createElement('a');
+      const url = URL.createObjectURL(file);
+      link.href = url;
+      link.download = 'connexion.mirlipousse-cj.json';
+      document.body.append(link);
+      link.click();
+      link.remove();
+      setTimeout(() => URL.revokeObjectURL(url), 60000);
+      input.value = '';
+      status.textContent = 'Le fichier chiffré est prêt. Joignez uniquement connexion.mirlipousse-cj.json dans votre conversation. Ne transmettez jamais la clé en texte ou en capture.';
+    } catch {
+      status.textContent = 'Impossible de préparer le fichier. Vérifiez la clé, la date du téléphone et l’ouverture en HTTPS dans Safari ou Chrome. Si le problème continue, demandez un nouveau lien sans communiquer la clé.';
+    } finally {
+      button.disabled = false;
+    }
+  });
+})();
+</script></body></html>

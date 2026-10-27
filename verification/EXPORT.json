@@ -3,7 +3,7 @@
   "dateUTC": "2026-10-27T16:26:36.692860+00:00",
   "succes": true,
   "origineCandidateNonReservee": "https://mirlipousse.onrender.com",
-  "pagesHTML": 18,
+  "pagesHTML": 19,
   "assetsEtPages": 58,
   "achatsOuverts": false,
   "apiDeployee": false,
@@ -67,7 +67,8 @@
     "ouverture/index.html": "21d8ae2a8d9d9194dd5e1de3f5c864f92d7abf31eb477e0253e1194af3dc5dc3",
     "robots.txt": "aa608eaf067988adf9f0f8c64369e34e5e6afef865caf65c49c0c5d3a42dfc02",
     "sitemap.xml": "49e59c4d0c22fe897380157e4db92d48ba125afbf44d7e7efd78d1ad46188c7e",
-    "vinext-client-entry-manifest.json": "f1832dd91bb1978f91a84d32abec92367602727538b7c9711fb64bdceba4763f"
+    "vinext-client-entry-manifest.json": "f1832dd91bb1978f91a84d32abec92367602727538b7c9711fb64bdceba4763f",
+    "connexion-cj-11ede6e316d77e9738711f2e.html": "09182db03794112b2eb71dd0bec3e82d3cd23bcf2d54249be414b498cd681fed"
   },
   "limites": [
     "Adresse candidate non réservée et non publiée",
@@ -76,5 +77,14 @@
   ],
   "reactHydrateUniquementAccueil": true,
   "pagesEditorialesHTMLNatifSansBootstrapJS": 17,
-  "correctionMetadataHeadEtBootstrapEditorial": true
+  "correctionMetadataHeadEtBootstrapEditorial": true,
+  "pagesVitrine": 18,
+  "pagesConnexionPrivee": 1,
+  "capsuleCJ": {
+    "chemin": "connexion-cj-11ede6e316d77e9738711f2e.html",
+    "keyId": "11ede6e316d77e9738711f2e",
+    "expireUTC": "2026-10-30T18:52:03.266523+00:00",
+    "chiffrementLocalSeulement": true,
+    "aucunSecretDansPage": true
+  }
 }
