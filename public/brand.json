@@ -1,0 +1,12 @@
+{
+  "slug": "feuillory",
+  "nom": "Feuillory",
+  "theme": "Organisation des plantes d’intérieur",
+  "palette": [
+    "#234B35",
+    "#F2E8CE",
+    "#C99548"
+  ],
+  "salesEnabled": false,
+  "adultOnly": false
+}

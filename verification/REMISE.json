@@ -1,0 +1,82 @@
+{
+  "format": "boutique-remise-site/1",
+  "dateUTC": "2026-10-27T20:45:08.854574+00:00",
+  "succes": true,
+  "termine": true,
+  "applique": false,
+  "publicationFaite": false,
+  "brandSlug": "feuillory",
+  "branch": "entreprise/feuillory",
+  "repo": "eaglemic/mirlipousse",
+  "paquet": "/home/bach/Donnees/Livraisons/Dix-boutiques-construction-20261027/sorties/feuillory",
+  "public": "/home/bach/Donnees/Livraisons/Dix-boutiques-construction-20261027/sorties/feuillory/public",
+  "publicFiles": 24,
+  "referencesReelles": 3,
+  "salesEnabled": false,
+  "avisActifs": false,
+  "origin": null,
+  "preuves": [
+    {
+      "path": "/home/bach/Donnees/Livraisons/Dix-boutiques-construction-20261027/sorties/feuillory/verification/EXPORT.json",
+      "sha256": "4ed580f5681611bb303be4ef7584a10f013d0ef70ca5fc99097374521b6c2d22",
+      "octets": 4267
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Dix-boutiques-construction-20261027/sorties/feuillory/scripts/verifier-paquet.py",
+      "sha256": "2fc1c117a43ef98fc2b901d1631d38b4c982be65e587dc0635a437776f35bdfe",
+      "octets": 2372
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Dix-boutiques-construction-20261027/sorties/feuillory/README.md",
+      "sha256": "a8629d4a523469f041d8eef0c54eac65f8e998afe720a786a0a732f402b706b0",
+      "octets": 1609
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Dix-boutiques-construction-20261027/sorties/feuillory/presentation.svg",
+      "sha256": "c5db807c7432f3a8b9b7566e57ecaba8dd898736cb32d5f608bd06c9f2f8416b",
+      "octets": 1035
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Dix-boutiques-construction-20261027/sorties/feuillory/verification/RECETTE-MARQUE.json",
+      "sha256": "7326c421fd6a28e7ef8ce0d63c750e80fc3bbe1d00b78c726a4e0015657dbac9",
+      "octets": 5611
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Dix-boutiques-construction-20261027/sorties/feuillory/verification/VERIFICATION-PAQUET.json",
+      "sha256": "02caad4a8183a62c444bd5ecf6ae0d1a0447099beca2c65a663b4bc08c1f1482",
+      "octets": 100
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Mirlipousse-multiboutiques-produits-20261027/feuillory/CATALOGUE.json",
+      "sha256": "4165fe42cb9cfaab72dbeb0e17426fd0bb41f1c3a4c59f54cb1d6a78b478aa52",
+      "octets": 24189
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Mirlipousse-multiboutiques-produits-20261027/feuillory/REMISE.json",
+      "sha256": "8eee17353521142351a97f9a1ddb1a74236afab799b7ea57a1268876013e6092",
+      "octets": 2084
+    }
+  ],
+  "recette": {
+    "PC1440": true,
+    "mobile390": true,
+    "mobile360": true,
+    "photosChargees": true,
+    "selectionEtRechargement": true,
+    "echapFermeDialogue": true,
+    "cibles44px": true,
+    "reducedMotion": true,
+    "0JS": true,
+    "0Externes": true,
+    "navigateurEtPortFermes": true,
+    "adultGate": false,
+    "aucunDebordementHorizontal": true,
+    "mesureCompareeALaLargeurCliente": true
+  },
+  "limites": [
+    "Ventes et avis fermés, aucun paiement ni fournisseur commandé.",
+    "Origine HTTPS non encore attribuée : noindex explicite ; aucun lien supposé actif.",
+    "Pas de téléphone physique, recette Chromium locale.",
+    "Identité du vendeur et conformité avant ouverture commerciale non qualifiées."
+  ]
+}

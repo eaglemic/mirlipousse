@@ -1,0 +1,56 @@
+{
+  "format": "boutique-catalogue-public/1",
+  "brandSlug": "feuillory",
+  "salesEnabled": false,
+  "adultOnly": false,
+  "products": [
+    {
+      "id": "feuillory-cj-12fc11a9-45bc-430b-bf9e-e1e8c6551b4e",
+      "pid": "12FC11A9-45BC-430B-BF9E-E1E8C6551B4E",
+      "vid": "248D2C6C-D254-4510-A67A-3E50EB3CDFC1",
+      "name": "Étiquettes de jardinage en PVC",
+      "description": "Un repère jaune pour identifier les plantations. Le fournisseur indique un format de 21 × 2 cm ; le nombre d’unités doit être confirmé avant vente.",
+      "category": "reperes",
+      "categoryLabel": "Repères de jardin",
+      "materialsText": "PVC indiqué dans le titre fournisseur ; composition à confirmer.",
+      "image": "/media/feuillory-cj-12fc11a9-45bc-430b-bf9e-e1e8c6551b4e.png",
+      "imageAlt": "Étiquettes de jardinage en PVC — photo fournisseur",
+      "priceCustomer": null,
+      "purchaseEnabled": false,
+      "audienceTags": [],
+      "audienceSource": []
+    },
+    {
+      "id": "feuillory-cj-1394173368693035008",
+      "pid": "1394173368693035008",
+      "vid": "1394173370039406592",
+      "name": "Étiquettes rondes effaçables",
+      "description": "Des étiquettes rondes noires pour écrire un nom sur une surface lisse et sèche. La fiche fournisseur décrit une planche de 28 pastilles ; elles ne sont pas annoncées comme résistantes à la pluie.",
+      "category": "etiquettes",
+      "categoryLabel": "Étiquettes & organisation",
+      "materialsText": "PVC déclaré par le fournisseur ; adhésif à base d’eau mentionné dans sa description.",
+      "image": "/media/feuillory-cj-1394173368693035008.jpg",
+      "imageAlt": "Étiquettes rondes effaçables — photo fournisseur",
+      "priceCustomer": null,
+      "purchaseEnabled": false,
+      "audienceTags": [],
+      "audienceSource": []
+    },
+    {
+      "id": "feuillory-cj-2503120220541603100",
+      "pid": "2503120220541603100",
+      "vid": "2503120220541603300",
+      "name": "Vaporisateur manuel pour les plantes",
+      "description": "Un vaporisateur manuel pour le coin des plantes. La fiche propose plusieurs couleurs et annonce une contenance de 360 ml. Aucun usage de soin ou de désinfection n’est revendiqué ici. La photographie présente la gamme ; la couleur exacte de la variante devra être confirmée avant vente.",
+      "category": "arrosage",
+      "categoryLabel": "Arrosage manuel",
+      "materialsText": "Plastique déclaré par le fournisseur ; nature précise à confirmer.",
+      "image": "/media/feuillory-cj-2503120220541603100.jpg",
+      "imageAlt": "Vaporisateur manuel pour les plantes — photo fournisseur",
+      "priceCustomer": null,
+      "purchaseEnabled": false,
+      "audienceTags": [],
+      "audienceSource": []
+    }
+  ]
+}
