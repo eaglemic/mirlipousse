@@ -1,0 +1,40 @@
+{
+  "format": "boutique-catalogue-public/1",
+  "brandSlug": "filavane",
+  "salesEnabled": false,
+  "adultOnly": false,
+  "products": [
+    {
+      "id": "filavane-cj-26918b87-3ab3-45ce-b949-418ada7ac672",
+      "pid": "26918B87-3AB3-45CE-B949-418ADA7AC672",
+      "vid": "8089802E-9E86-46ED-B4D8-2DAF42241D85",
+      "name": "Crochet pour broderie au tambour",
+      "description": "Un crochet à manche rouge pour travailler au tambour de broderie. La photographie montre l’outil et des accessoires ; le contenu exact de la référence reste à confirmer.",
+      "category": "outils",
+      "categoryLabel": "Outils de création",
+      "materialsText": "Alliage d’aluminium déclaré par le fournisseur ; composition et contenu à confirmer.",
+      "image": "/media/filavane-cj-26918b87-3ab3-45ce-b949-418ada7ac672.jpg",
+      "imageAlt": "Crochet pour broderie au tambour — photo fournisseur",
+      "priceCustomer": null,
+      "purchaseEnabled": false,
+      "audienceTags": [],
+      "audienceSource": []
+    },
+    {
+      "id": "filavane-cj-2407010828011603600",
+      "pid": "2407010828011603600",
+      "vid": "2407010828011603800",
+      "name": "Fil pour projets de crochet et tricot",
+      "description": "Un fil blanc pour les projets de crochet et de tricot. La référence fournisseur indique cinq brins ; le poids et la longueur de l’unité vendue restent à vérifier.",
+      "category": "fils",
+      "categoryLabel": "Fils & matières",
+      "materialsText": "Composition exacte non documentée ; la dénomination fournisseur « milk cotton » ne suffit pas à établir un pourcentage de coton.",
+      "image": "/media/filavane-cj-2407010828011603600.jpg",
+      "imageAlt": "Fil pour projets de crochet et tricot — photo fournisseur",
+      "priceCustomer": null,
+      "purchaseEnabled": false,
+      "audienceTags": [],
+      "audienceSource": []
+    }
+  ]
+}

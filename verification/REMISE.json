@@ -1,0 +1,82 @@
+{
+  "format": "boutique-remise-site/1",
+  "dateUTC": "2026-10-27T20:45:08.744820+00:00",
+  "succes": true,
+  "termine": true,
+  "applique": false,
+  "publicationFaite": false,
+  "brandSlug": "filavane",
+  "branch": "entreprise/filavane",
+  "repo": "eaglemic/mirlipousse",
+  "paquet": "/home/bach/Donnees/Livraisons/Dix-boutiques-construction-20261027/sorties/filavane",
+  "public": "/home/bach/Donnees/Livraisons/Dix-boutiques-construction-20261027/sorties/filavane/public",
+  "publicFiles": 22,
+  "referencesReelles": 2,
+  "salesEnabled": false,
+  "avisActifs": false,
+  "origin": null,
+  "preuves": [
+    {
+      "path": "/home/bach/Donnees/Livraisons/Dix-boutiques-construction-20261027/sorties/filavane/verification/EXPORT.json",
+      "sha256": "9bfffda56558d1f9b6a630459659daf3eeb627fc410150929d06448484844bca",
+      "octets": 3897
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Dix-boutiques-construction-20261027/sorties/filavane/scripts/verifier-paquet.py",
+      "sha256": "7b86f6840bc91641e5ac07e6efc1da9ff966b611bc0a0f39353d68cc4e9820b8",
+      "octets": 2371
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Dix-boutiques-construction-20261027/sorties/filavane/README.md",
+      "sha256": "3a4c8ecf7f8d473a255d04eac3c094632e2932763718fde3211944d41b290147",
+      "octets": 1648
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Dix-boutiques-construction-20261027/sorties/filavane/presentation.svg",
+      "sha256": "08e3f810a4b31a4b4a63962490e4bcc5a193cd13f352178b65fa7eed6b26c059",
+      "octets": 1047
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Dix-boutiques-construction-20261027/sorties/filavane/verification/RECETTE-MARQUE.json",
+      "sha256": "392d52fb2964fb38fb9b8f7bb3d7e3a6b2f7bcfdacf32495460876e072a687cc",
+      "octets": 4979
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Dix-boutiques-construction-20261027/sorties/filavane/verification/VERIFICATION-PAQUET.json",
+      "sha256": "98fe0ea2948f0ec32db1e2444ae1df91f2f7381c4ead8a9d52caddb311ac3136",
+      "octets": 99
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Mirlipousse-multiboutiques-produits-20261027/filavane/CATALOGUE.json",
+      "sha256": "09cdef0b22c95859992b12b03b6ed04cd487f58acacaebb52572eb99f49a4042",
+      "octets": 25479
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Mirlipousse-multiboutiques-produits-20261027/filavane/REMISE.json",
+      "sha256": "14bbfab174a0d30d16b40e0c8e56260ccd6e9cdd0a662a8a37810b8db13aa3f5",
+      "octets": 1989
+    }
+  ],
+  "recette": {
+    "PC1440": true,
+    "mobile390": true,
+    "mobile360": true,
+    "photosChargees": true,
+    "selectionEtRechargement": true,
+    "echapFermeDialogue": true,
+    "cibles44px": true,
+    "reducedMotion": true,
+    "0JS": true,
+    "0Externes": true,
+    "navigateurEtPortFermes": true,
+    "adultGate": false,
+    "aucunDebordementHorizontal": true,
+    "mesureCompareeALaLargeurCliente": true
+  },
+  "limites": [
+    "Ventes et avis fermés, aucun paiement ni fournisseur commandé.",
+    "Origine HTTPS non encore attribuée : noindex explicite ; aucun lien supposé actif.",
+    "Pas de téléphone physique, recette Chromium locale.",
+    "Identité du vendeur et conformité avant ouverture commerciale non qualifiées."
+  ]
+}

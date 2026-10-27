@@ -1,21 +1,40 @@
-"""Refuser un export incomplet ou altéré avant sa publication statique."""
+#!/usr/bin/env python3
 from pathlib import Path
-import hashlib
-import json
-
-root = Path(__file__).resolve().parents[1]
-proof = json.loads((root / 'verification/EXPORT.json').read_text())
-if proof['succes'] is not True or proof['pagesHTML'] != 19:
-    raise ValueError('EXPORT_NON_QUALIFIE')
-if proof['achatsOuverts'] is not False or proof['apiDeployee'] is not False:
-    raise ValueError('EXPORT_STATIQUE_SEUL_AUTORISE')
-for relative, expected in proof['SHA256'].items():
-    file = (root / 'public' / relative)
-    if not file.resolve().is_relative_to((root / 'public').resolve()) or file.is_symlink() or not file.is_file():
-        raise ValueError('CHEMIN_REFUSE: ' + relative)
-    if hashlib.sha256(file.read_bytes()).hexdigest() != expected:
-        raise ValueError('EMPREINTE_DIVERGENTE: ' + relative)
-actual = {str(file.relative_to(root / 'public')) for file in (root / 'public').rglob('*') if file.is_file()}
-if actual != set(proof['SHA256']):
-    raise ValueError('INVENTAIRE_DIVERGENT')
-print('Export statique vérifié : 18 pages vitrine + 1 saisie chiffrée ; aucune API ni vente activée.')
+from html.parser import HTMLParser
+from urllib.parse import urlsplit,unquote
+import json,hashlib,re
+BASE=Path(__file__).resolve().parents[1];PUBLIC=BASE/'public';EXPECTED='filavane'
+r=json.loads((BASE/'verification'/'EXPORT.json').read_text())
+assert r['format']=='boutique-export/1' and r['brandSlug']==EXPECTED
+assert r['salesEnabled'] is False
+expected={x['path']:x for x in r['files']};actual={str(x.relative_to(PUBLIC)) for x in PUBLIC.rglob('*') if x.is_file()}
+assert actual==set(expected),('Carte publique divergente',actual^set(expected))
+for name,x in expected.items():
+ p=PUBLIC/name;assert p.resolve().is_relative_to(PUBLIC.resolve()) and not p.is_symlink()
+ data=p.read_bytes();assert hashlib.sha256(data).hexdigest()==x['sha256'],name;assert len(data)==x['octets'],name
+ if p.suffix in ('.html','.json','.js','.css'):
+  text=data.decode();assert not re.search(r'CJ_API_KEY|ADMIN_API_TOKEN|sk_live_[A-Za-z0-9]{12,}',text),('Secret détecté',name)
+catalogue=json.loads((PUBLIC/'catalogue.json').read_text());assert catalogue['brandSlug']==EXPECTED and catalogue['salesEnabled'] is False
+assert len(catalogue['products'])==r['products']>0
+assert all(p['priceCustomer'] is None and p['purchaseEnabled'] is False for p in catalogue['products'])
+if EXPECTED=='nuitrelia':
+ assert catalogue['adultOnly'] is True
+ assert 'mirlipousse' not in ''.join(p.read_text() for p in PUBLIC.rglob('*.html')).lower()
+else:assert catalogue['adultOnly'] is False
+class Links(HTMLParser):
+ def __init__(self):super().__init__();self.links=[]
+ def handle_starttag(self,tag,attrs):
+  a=dict(attrs)
+  if tag in ('a','script','img','link'):
+   for key in ('href','src'):
+    if a.get(key):self.links.append(a[key])
+for f in PUBLIC.rglob('*.html'):
+ l=Links();l.feed(f.read_text())
+ for u in l.links:
+  path=urlsplit(u)
+  if path.scheme or path.netloc or not path.path:continue
+  local=(PUBLIC/path.path.lstrip('/')) if path.path.startswith('/') else (f.parent/path.path)
+  if local.is_dir():local=local/'index.html'
+  assert local.resolve().is_relative_to(PUBLIC.resolve()) and local.is_file(),(str(f),u)
+css=(PUBLIC/'style.css').read_text();assert 'prefers-reduced-motion:reduce' in css
+print(json.dumps({'succes':True,'brandSlug':EXPECTED,'publicFiles':len(actual),'produits':r['products'],'salesEnabled':False},ensure_ascii=False))
