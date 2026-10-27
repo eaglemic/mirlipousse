@@ -1,0 +1,84 @@
+{
+  "format": "boutique-remise-site/1",
+  "dateUTC": "2026-10-27T20:45:09.072816+00:00",
+  "succes": true,
+  "termine": true,
+  "applique": false,
+  "publicationFaite": false,
+  "brandSlug": "nuitrelia",
+  "branch": "entreprise/nuitrelia",
+  "repo": "eaglemic/mirlipousse",
+  "paquet": "/home/bach/Donnees/Livraisons/Dix-boutiques-construction-20261027/sorties/nuitrelia",
+  "public": "/home/bach/Donnees/Livraisons/Dix-boutiques-construction-20261027/sorties/nuitrelia/public",
+  "publicFiles": 22,
+  "referencesReelles": 2,
+  "salesEnabled": false,
+  "avisActifs": false,
+  "origin": null,
+  "preuves": [
+    {
+      "path": "/home/bach/Donnees/Livraisons/Dix-boutiques-construction-20261027/sorties/nuitrelia/verification/EXPORT.json",
+      "sha256": "e5541357f77c29ca763e2e6fa5716ea60feb929efd6e8aeab516874187a71bc6",
+      "octets": 3904
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Dix-boutiques-construction-20261027/sorties/nuitrelia/scripts/verifier-paquet.py",
+      "sha256": "40e8d556e9002d4fd8a28808cf8ac3f4fc1e231c80f89dd51480525f1a88a80f",
+      "octets": 2679
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Dix-boutiques-construction-20261027/sorties/nuitrelia/README.md",
+      "sha256": "49491d70a064d9a23ce5e78fd64b36597d65efc76e76cf4d6701c930a0843c50",
+      "octets": 1850
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Dix-boutiques-construction-20261027/sorties/nuitrelia/presentation.svg",
+      "sha256": "8d7783ca0af8cde4dfff09b4d2e0a7e0ce4dbdbe4386d60ed57791896a8846a5",
+      "octets": 1057
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Dix-boutiques-construction-20261027/sorties/nuitrelia/verification/RECETTE-MARQUE.json",
+      "sha256": "2bc264d2721fab52d93b3b1bafe14df994367daac6b5588a38914faa42abb8a5",
+      "octets": 4984
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Dix-boutiques-construction-20261027/sorties/nuitrelia/verification/VERIFICATION-PAQUET.json",
+      "sha256": "c66fe59c63cc8a02eb74dd9fb3506f96022e486c1d8121b715e8f018766970e4",
+      "octets": 100
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Mirlipousse-multiboutiques-produits-20261027/nuitrelia/CATALOGUE.json",
+      "sha256": "5d973709d557cc22d2dce5cb94338ccc8ea0ed195fdb11556c17fd6994084dfc",
+      "octets": 19640
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Mirlipousse-multiboutiques-produits-20261027/nuitrelia/REMISE.json",
+      "sha256": "2aebf5ef3288cdc3bbcbf6e140db6b0b1f2768e3ad94e89d6aa9007b1bf332dd",
+      "octets": 2206
+    }
+  ],
+  "recette": {
+    "PC1440": true,
+    "mobile390": true,
+    "mobile360": true,
+    "photosChargees": true,
+    "selectionEtRechargement": true,
+    "echapFermeDialogue": true,
+    "cibles44px": true,
+    "reducedMotion": true,
+    "0JS": true,
+    "0Externes": true,
+    "navigateurEtPortFermes": true,
+    "adultGate": true,
+    "aucunDebordementHorizontal": true,
+    "mesureCompareeALaLargeurCliente": true
+  },
+  "limites": [
+    "Ventes et avis fermés, aucun paiement ni fournisseur commandé.",
+    "Origine HTTPS non encore attribuée : noindex explicite ; aucun lien supposé actif.",
+    "Pas de téléphone physique, recette Chromium locale.",
+    "Identité du vendeur et conformité avant ouverture commerciale non qualifiées.",
+    "Deux masques de repos ordinaires uniquement : aucune fonction intime ni médicale inventée.",
+    "Vrai catalogue adulte intime restant à qualifier dans un lot distinct."
+  ]
+}

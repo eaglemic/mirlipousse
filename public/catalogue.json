@@ -1,0 +1,40 @@
+{
+  "format": "boutique-catalogue-public/1",
+  "brandSlug": "nuitrelia",
+  "salesEnabled": false,
+  "adultOnly": true,
+  "products": [
+    {
+      "id": "nuitrelia-cj-b15d8d56-5637-4be9-a14c-c11f1c141055",
+      "pid": "B15D8D56-5637-4BE9-A14C-C11F1C141055",
+      "vid": "1459754131047714816",
+      "name": "Masque de repos ajustable",
+      "description": "Un masque de nuit noir, de forme enveloppante, avec une fixation réglable. Cette référence est un masque de repos ordinaire ; aucune fonction intime ou médicale n’est revendiquée.",
+      "category": "nuit",
+      "categoryLabel": "Masques de nuit",
+      "materialsText": "Mousse annoncée par le fournisseur ; enveloppe et composition exacte à confirmer.",
+      "image": "/media/nuitrelia-cj-b15d8d56-5637-4be9-a14c-c11f1c141055.png",
+      "imageAlt": "Masque de repos ajustable — photo fournisseur",
+      "priceCustomer": null,
+      "purchaseEnabled": false,
+      "audienceTags": [],
+      "audienceSource": []
+    },
+    {
+      "id": "nuitrelia-cj-2406100533441623200",
+      "pid": "2406100533441623200",
+      "vid": "2406100533441623400",
+      "name": "Masque de repos à motif tacheté",
+      "description": "Un masque de nuit à motif de taches noires et blanches, annoncé en 20 × 9,5 cm par le fournisseur. Cette référence est un accessoire de repos, sans promesse de résultat ni usage médical. La photographie présente la gamme ; la couleur exacte de la variante devra être confirmée avant vente.",
+      "category": "nuit",
+      "categoryLabel": "Masques de nuit",
+      "materialsText": "Polyester déclaré par le fournisseur ; étiquette de composition à confirmer.",
+      "image": "/media/nuitrelia-cj-2406100533441623200.jpg",
+      "imageAlt": "Masque de repos à motif tacheté — photo fournisseur",
+      "priceCustomer": null,
+      "purchaseEnabled": false,
+      "audienceTags": [],
+      "audienceSource": []
+    }
+  ]
+}

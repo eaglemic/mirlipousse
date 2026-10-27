@@ -1,0 +1,12 @@
+{
+  "slug": "nuitrelia",
+  "nom": "Nuitrélia",
+  "theme": "Bien-être intime premium réservé aux adultes",
+  "palette": [
+    "#241A2B",
+    "#EEE5D9",
+    "#9E725C"
+  ],
+  "salesEnabled": false,
+  "adultOnly": true
+}
