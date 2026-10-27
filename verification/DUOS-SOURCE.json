@@ -1,0 +1,783 @@
+{
+  "format": "mini-et-moi-duos-source/1",
+  "dateUTC": "2026-10-27T22:40:47.703051+00:00",
+  "basePublicHEAD": "5225e6b020938004b04eb4c2c2f33a9034ce0c42",
+  "basePublicCatalogue": {
+    "path": "/home/bach/Donnees/Livraisons/Mirlipousse-extension-multiboutiques-20261027/worktrees/mini-et-moi/public/catalogue.json",
+    "sha256": "fd7644de6d109682a3a71c7635c229e0239cf80b63b39961750b3d9a66e59490",
+    "count": 18
+  },
+  "allowedPIDs": [
+    "1388007897690148864",
+    "1452549799793528832",
+    "1465609787336167424"
+  ],
+  "models": [
+    {
+      "pid": "1388007897690148864",
+      "publicId": "mini-et-moi-cj-1388007897690148864",
+      "title": "Family Matching Family Denim Sling Skirt Baby Girl Mom Dad Boy Boy Shirt Parent-Child",
+      "productType": "ORDINARY_PRODUCT",
+      "sameSupplierModel": true,
+      "coordinatedFamilyRange": true,
+      "enfantEtAdulteProuves": true,
+      "variantRolesExplicit": true,
+      "childVariants": [
+        {
+          "vid": "1388007899032326144",
+          "variantKey": "Dark Blue-A",
+          "variantName": "Family Matching Family Denim Sling Skirt Baby Girl Mom Dad Boy Boy Shirt Parent-Child Dark Blue A",
+          "role": "enfant",
+          "supplierRole": "Baby",
+          "supplierSize": "3-6M",
+          "sourceField": "products[0].details.description (texte HTML normalisé)",
+          "sourceText": "A: 3-6M",
+          "roleDerivation": "code variantKey relié à la légende explicite de la description",
+          "priceOrStockClaimed": false
+        },
+        {
+          "vid": "1388007899049103360",
+          "variantKey": "Dark Blue-B",
+          "variantName": "Family Matching Family Denim Sling Skirt Baby Girl Mom Dad Boy Boy Shirt Parent-Child Dark Blue B",
+          "role": "enfant",
+          "supplierRole": "Baby",
+          "supplierSize": "6-9M",
+          "sourceField": "products[0].details.description (texte HTML normalisé)",
+          "sourceText": "B: 6-9M",
+          "roleDerivation": "code variantKey relié à la légende explicite de la description",
+          "priceOrStockClaimed": false
+        },
+        {
+          "vid": "1388007899057491968",
+          "variantKey": "Dark Blue-C",
+          "variantName": "Family Matching Family Denim Sling Skirt Baby Girl Mom Dad Boy Boy Shirt Parent-Child Dark Blue C",
+          "role": "enfant",
+          "supplierRole": "Baby",
+          "supplierSize": "9-12M",
+          "sourceField": "products[0].details.description (texte HTML normalisé)",
+          "sourceText": "C: 9-12M",
+          "roleDerivation": "code variantKey relié à la légende explicite de la description",
+          "priceOrStockClaimed": false
+        },
+        {
+          "vid": "1388007899065880576",
+          "variantKey": "Dark Blue-D",
+          "variantName": "Family Matching Family Denim Sling Skirt Baby Girl Mom Dad Boy Boy Shirt Parent-Child Dark Blue D",
+          "role": "enfant",
+          "supplierRole": "Baby",
+          "supplierSize": "12-18M",
+          "sourceField": "products[0].details.description (texte HTML normalisé)",
+          "sourceText": "D: 12-18M",
+          "roleDerivation": "code variantKey relié à la légende explicite de la description",
+          "priceOrStockClaimed": false
+        },
+        {
+          "vid": "1388007899074269184",
+          "variantKey": "Dark Blue-E",
+          "variantName": "Family Matching Family Denim Sling Skirt Baby Girl Mom Dad Boy Boy Shirt Parent-Child Dark Blue E",
+          "role": "enfant",
+          "supplierRole": "Baby",
+          "supplierSize": "18-24M",
+          "sourceField": "products[0].details.description (texte HTML normalisé)",
+          "sourceText": "E: 18-24M",
+          "roleDerivation": "code variantKey relié à la légende explicite de la description",
+          "priceOrStockClaimed": false
+        },
+        {
+          "vid": "1388007899082657792",
+          "variantKey": "Dark Blue-F",
+          "variantName": "Family Matching Family Denim Sling Skirt Baby Girl Mom Dad Boy Boy Shirt Parent-Child Dark Blue F",
+          "role": "enfant",
+          "supplierRole": "Girls",
+          "supplierSize": "2T",
+          "sourceField": "products[0].details.description (texte HTML normalisé)",
+          "sourceText": "F: Girls: 2T",
+          "roleDerivation": "code variantKey relié à la légende explicite de la description",
+          "priceOrStockClaimed": false
+        },
+        {
+          "vid": "1388007899091046400",
+          "variantKey": "Dark Blue-G",
+          "variantName": "Family Matching Family Denim Sling Skirt Baby Girl Mom Dad Boy Boy Shirt Parent-Child Dark Blue G",
+          "role": "enfant",
+          "supplierRole": "Girls",
+          "supplierSize": "3-4T",
+          "sourceField": "products[0].details.description (texte HTML normalisé)",
+          "sourceText": "G: Girls: 3-4T",
+          "roleDerivation": "code variantKey relié à la légende explicite de la description",
+          "priceOrStockClaimed": false
+        },
+        {
+          "vid": "1388007899099435008",
+          "variantKey": "Dark Blue-H",
+          "variantName": "Family Matching Family Denim Sling Skirt Baby Girl Mom Dad Boy Boy Shirt Parent-Child Dark Blue H",
+          "role": "enfant",
+          "supplierRole": "Girls",
+          "supplierSize": "4-5T",
+          "sourceField": "products[0].details.description (texte HTML normalisé)",
+          "sourceText": "H: Girls: 4-5T",
+          "roleDerivation": "code variantKey relié à la légende explicite de la description",
+          "priceOrStockClaimed": false
+        },
+        {
+          "vid": "1388007899107823616",
+          "variantKey": "Dark Blue-I",
+          "variantName": "Family Matching Family Denim Sling Skirt Baby Girl Mom Dad Boy Boy Shirt Parent-Child Dark Blue I",
+          "role": "enfant",
+          "supplierRole": "Girls",
+          "supplierSize": "6-7T",
+          "sourceField": "products[0].details.description (texte HTML normalisé)",
+          "sourceText": "I: Girls: 6-7T",
+          "roleDerivation": "code variantKey relié à la légende explicite de la description",
+          "priceOrStockClaimed": false
+        },
+        {
+          "vid": "1388007899112017920",
+          "variantKey": "Dark Blue-J",
+          "variantName": "Family Matching Family Denim Sling Skirt Baby Girl Mom Dad Boy Boy Shirt Parent-Child Dark Blue J",
+          "role": "enfant",
+          "supplierRole": "Girls",
+          "supplierSize": "8-9T",
+          "sourceField": "products[0].details.description (texte HTML normalisé)",
+          "sourceText": "J: Girls: 8-9T",
+          "roleDerivation": "code variantKey relié à la légende explicite de la description",
+          "priceOrStockClaimed": false
+        },
+        {
+          "vid": "1388007899120406528",
+          "variantKey": "Dark Blue-K",
+          "variantName": "Family Matching Family Denim Sling Skirt Baby Girl Mom Dad Boy Boy Shirt Parent-Child Dark Blue K",
+          "role": "enfant",
+          "supplierRole": "Boys",
+          "supplierSize": "2T",
+          "sourceField": "products[0].details.description (texte HTML normalisé)",
+          "sourceText": "K: Boys: 2T",
+          "roleDerivation": "code variantKey relié à la légende explicite de la description",
+          "priceOrStockClaimed": false
+        },
+        {
+          "vid": "1388007899128795136",
+          "variantKey": "Dark Blue-L",
+          "variantName": "Family Matching Family Denim Sling Skirt Baby Girl Mom Dad Boy Boy Shirt Parent-Child Dark Blue L",
+          "role": "enfant",
+          "supplierRole": "Boys",
+          "supplierSize": "3-4T",
+          "sourceField": "products[0].details.description (texte HTML normalisé)",
+          "sourceText": "L: Boys: 3-4T",
+          "roleDerivation": "code variantKey relié à la légende explicite de la description",
+          "priceOrStockClaimed": false
+        },
+        {
+          "vid": "1388007899137183744",
+          "variantKey": "Dark Blue-M",
+          "variantName": "Family Matching Family Denim Sling Skirt Baby Girl Mom Dad Boy Boy Shirt Parent-Child Dark Blue M",
+          "role": "enfant",
+          "supplierRole": "Boys",
+          "supplierSize": "4-5T",
+          "sourceField": "products[0].details.description (texte HTML normalisé)",
+          "sourceText": "M: Boys: 4-5T",
+          "roleDerivation": "code variantKey relié à la légende explicite de la description",
+          "priceOrStockClaimed": false
+        },
+        {
+          "vid": "1388007899145572352",
+          "variantKey": "Dark Blue-N",
+          "variantName": "Family Matching Family Denim Sling Skirt Baby Girl Mom Dad Boy Boy Shirt Parent-Child Dark Blue N",
+          "role": "enfant",
+          "supplierRole": "Boys",
+          "supplierSize": "6-7T",
+          "sourceField": "products[0].details.description (texte HTML normalisé)",
+          "sourceText": "N: Boys: 6-7T",
+          "roleDerivation": "code variantKey relié à la légende explicite de la description",
+          "priceOrStockClaimed": false
+        },
+        {
+          "vid": "1388007899153960960",
+          "variantKey": "Dark Blue-O",
+          "variantName": "Family Matching Family Denim Sling Skirt Baby Girl Mom Dad Boy Boy Shirt Parent-Child Dark Blue O",
+          "role": "enfant",
+          "supplierRole": "Boys",
+          "supplierSize": "8-9T",
+          "sourceField": "products[0].details.description (texte HTML normalisé)",
+          "sourceText": "O: Boys: 8-9T",
+          "roleDerivation": "code variantKey relié à la légende explicite de la description",
+          "priceOrStockClaimed": false
+        }
+      ],
+      "adultVariants": [
+        {
+          "vid": "1388007899158155264",
+          "variantKey": "Dark Blue-P",
+          "variantName": "Family Matching Family Denim Sling Skirt Baby Girl Mom Dad Boy Boy Shirt Parent-Child Dark Blue P",
+          "role": "adulte",
+          "supplierRole": "Mom",
+          "supplierSize": "S",
+          "sourceField": "products[0].details.description (texte HTML normalisé)",
+          "sourceText": "P: Mom: S",
+          "roleDerivation": "code variantKey relié à la légende explicite de la description",
+          "priceOrStockClaimed": false
+        },
+        {
+          "vid": "1388007899166543872",
+          "variantKey": "Dark Blue-Q",
+          "variantName": "Family Matching Family Denim Sling Skirt Baby Girl Mom Dad Boy Boy Shirt Parent-Child Dark Blue Q",
+          "role": "adulte",
+          "supplierRole": "Mom",
+          "supplierSize": "M",
+          "sourceField": "products[0].details.description (texte HTML normalisé)",
+          "sourceText": "Q: Mom: M",
+          "roleDerivation": "code variantKey relié à la légende explicite de la description",
+          "priceOrStockClaimed": false
+        },
+        {
+          "vid": "1388007899174932480",
+          "variantKey": "Dark Blue-R",
+          "variantName": "Family Matching Family Denim Sling Skirt Baby Girl Mom Dad Boy Boy Shirt Parent-Child Dark Blue R",
+          "role": "adulte",
+          "supplierRole": "Mom",
+          "supplierSize": "L",
+          "sourceField": "products[0].details.description (texte HTML normalisé)",
+          "sourceText": "R: Mom: L",
+          "roleDerivation": "code variantKey relié à la légende explicite de la description",
+          "priceOrStockClaimed": false
+        },
+        {
+          "vid": "1388007899183321088",
+          "variantKey": "Dark Blue-S",
+          "variantName": "Family Matching Family Denim Sling Skirt Baby Girl Mom Dad Boy Boy Shirt Parent-Child Dark Blue S",
+          "role": "adulte",
+          "supplierRole": "Mom",
+          "supplierSize": "XL",
+          "sourceField": "products[0].details.description (texte HTML normalisé)",
+          "sourceText": "S: Mom: XL",
+          "roleDerivation": "code variantKey relié à la légende explicite de la description",
+          "priceOrStockClaimed": false
+        },
+        {
+          "vid": "1388007899191709696",
+          "variantKey": "Dark Blue-T",
+          "variantName": "Family Matching Family Denim Sling Skirt Baby Girl Mom Dad Boy Boy Shirt Parent-Child Dark Blue T",
+          "role": "adulte",
+          "supplierRole": "Dad",
+          "supplierSize": "M",
+          "sourceField": "products[0].details.description (texte HTML normalisé)",
+          "sourceText": "T: Dad: M",
+          "roleDerivation": "code variantKey relié à la légende explicite de la description",
+          "priceOrStockClaimed": false
+        },
+        {
+          "vid": "1388007899200098304",
+          "variantKey": "Dark Blue-U",
+          "variantName": "Family Matching Family Denim Sling Skirt Baby Girl Mom Dad Boy Boy Shirt Parent-Child Dark Blue U",
+          "role": "adulte",
+          "supplierRole": "Dad",
+          "supplierSize": "L",
+          "sourceField": "products[0].details.description (texte HTML normalisé)",
+          "sourceText": "U: Dad: L",
+          "roleDerivation": "code variantKey relié à la légende explicite de la description",
+          "priceOrStockClaimed": false
+        },
+        {
+          "vid": "1388007899208486912",
+          "variantKey": "Dark Blue-V",
+          "variantName": "Family Matching Family Denim Sling Skirt Baby Girl Mom Dad Boy Boy Shirt Parent-Child Dark Blue V",
+          "role": "adulte",
+          "supplierRole": "Dad",
+          "supplierSize": "XL",
+          "sourceField": "products[0].details.description (texte HTML normalisé)",
+          "sourceText": "V: Dad: XL",
+          "roleDerivation": "code variantKey relié à la légende explicite de la description",
+          "priceOrStockClaimed": false
+        },
+        {
+          "vid": "1388007899212681216",
+          "variantKey": "Dark Blue-W",
+          "variantName": "Family Matching Family Denim Sling Skirt Baby Girl Mom Dad Boy Boy Shirt Parent-Child Dark Blue W",
+          "role": "adulte",
+          "supplierRole": "Dad",
+          "supplierSize": "XXL",
+          "sourceField": "products[0].details.description (texte HTML normalisé)",
+          "sourceText": "W: Dad: XXL",
+          "roleDerivation": "code variantKey relié à la légende explicite de la description",
+          "priceOrStockClaimed": false
+        }
+      ],
+      "sampleDuo": {
+        "childVID": "1388007899082657792",
+        "adultVID": "1388007899158155264",
+        "bothWithinPID": "1388007897690148864",
+        "sharedVariantFamily": "Dark Blue",
+        "stockOfBothVariantsVerified": false
+      },
+      "source": {
+        "path": "/home/bach/Donnees/Livraisons/Mirlipousse-multiboutiques-produits-20261027/mini-et-moi/RAW.json",
+        "sha256": "7c7e41850b0356842e6b3aaf8c69102c883452d941f8ae4d7ca43b3d14fe8780",
+        "productIndex": 0,
+        "productField": "products[0]"
+      },
+      "sourceTitle": "Family Matching Family Denim Sling Skirt Baby Girl Mom Dad Boy Boy Shirt Parent-Child",
+      "sourceDescriptionText": "Product information: Applicable age: 3 years old, 4 years old, 5 years old, 6 years old, 7 years old, 8 years old. Mother size: L MS XL Made of: Cotton Pattern: Floral Style: European and American Place of Origin: Mainland China Province: Guangdong Province Baby male and female models: female unisex Clothing category: pajamas/home wear Dad size: ML XL XXL Color classification: dark blue Size: A: 3-6M B: 6-9M C: 9-12M D: 12-18M E: 18-24M F: Girls: 2T G: Girls: 3-4T H: Girls: 4-5T I: Girls: 6-7T J: Girls: 8-9T K: Boys: 2T L: Boys: 3-4T M: Boys: 4-5T N: Boys: 6-7T O: Boys: 8-9T P: Mom: S Q: Mom: M R: Mom: L S: Mom: XL T: Dad: M U: Dad: L V: Dad: XL W: Dad: XXL Applicable season: winter Thickness: conventional Applicable object: a family of three Safety level: Class A Material composition: cotton 100%",
+      "unitWarning": "Chaque variante correspond à une pièce ou une tenue pour une personne. Deux variantes coordonnées ne prouvent pas un lot vendu ensemble.",
+      "stockObservationExisting": {
+        "vid": "1388007899032326144",
+        "observedAt": "2026-10-27T20:21:25.906Z",
+        "onlyThisVariantWasChecked": true,
+        "duoAvailabilityVerified": false
+      },
+      "publicImage": {
+        "path": "/media/mini-et-moi-cj-1388007897690148864.jpg",
+        "sourceLocal": "/home/bach/Donnees/Livraisons/Mirlipousse-extension-multiboutiques-20261027/worktrees/mini-et-moi/public/media/mini-et-moi-cj-1388007897690148864.jpg",
+        "sha256": "9ddf0ddccf30ec76a69c097287fa47d271161bfbb18da2bd17f5cecd4a5c6a47"
+      },
+      "publicPrice": null,
+      "purchaseEnabled": false,
+      "limits": [
+        "Aucune nouvelle vérification de stock ou de transport des deux variantes ; aucune promesse de disponibilité simultanée.",
+        "Tailles fournisseur recopiées sans équivalence âge/taille européenne inventée.",
+        "Aucune certification, prix client ou ouverture de vente."
+      ]
+    },
+    {
+      "pid": "1452549799793528832",
+      "publicId": "mini-et-moi-cj-1452549799793528832",
+      "title": "Printed Parent Child Home Service Set Pajamas",
+      "productType": "ORDINARY_PRODUCT",
+      "sameSupplierModel": true,
+      "coordinatedFamilyRange": true,
+      "enfantEtAdulteProuves": true,
+      "variantRolesExplicit": true,
+      "childVariants": [
+        {
+          "vid": "1452549799902580736",
+          "variantKey": "Red-Child 2T",
+          "variantName": "Printed Parent Child Home Service Set Pajamas Red Child 2T",
+          "role": "enfant",
+          "supplierRole": "Child",
+          "supplierSize": "2T",
+          "sourceField": "products[2].variants[].key",
+          "sourceText": "Red-Child 2T",
+          "roleDerivation": "rôle nommé dans variantKey et le nom de variante",
+          "priceOrStockClaimed": false
+        },
+        {
+          "vid": "1452549799902580737",
+          "variantKey": "Red-Child 3T",
+          "variantName": "Printed Parent Child Home Service Set Pajamas Red Child 3T",
+          "role": "enfant",
+          "supplierRole": "Child",
+          "supplierSize": "3T",
+          "sourceField": "products[2].variants[].key",
+          "sourceText": "Red-Child 3T",
+          "roleDerivation": "rôle nommé dans variantKey et le nom de variante",
+          "priceOrStockClaimed": false
+        },
+        {
+          "vid": "1452549799902580738",
+          "variantKey": "Red-Child 4T",
+          "variantName": "Printed Parent Child Home Service Set Pajamas Red Child 4T",
+          "role": "enfant",
+          "supplierRole": "Child",
+          "supplierSize": "4T",
+          "sourceField": "products[2].variants[].key",
+          "sourceText": "Red-Child 4T",
+          "roleDerivation": "rôle nommé dans variantKey et le nom de variante",
+          "priceOrStockClaimed": false
+        },
+        {
+          "vid": "1452549799902580739",
+          "variantKey": "Red-Child 5T",
+          "variantName": "Printed Parent Child Home Service Set Pajamas Red Child 5T",
+          "role": "enfant",
+          "supplierRole": "Child",
+          "supplierSize": "5T",
+          "sourceField": "products[2].variants[].key",
+          "sourceText": "Red-Child 5T",
+          "roleDerivation": "rôle nommé dans variantKey et le nom de variante",
+          "priceOrStockClaimed": false
+        },
+        {
+          "vid": "1452549799906775040",
+          "variantKey": "Red-Child 6T",
+          "variantName": "Printed Parent Child Home Service Set Pajamas Red Child 6T",
+          "role": "enfant",
+          "supplierRole": "Child",
+          "supplierSize": "6T",
+          "sourceField": "products[2].variants[].key",
+          "sourceText": "Red-Child 6T",
+          "roleDerivation": "rôle nommé dans variantKey et le nom de variante",
+          "priceOrStockClaimed": false
+        },
+        {
+          "vid": "1452549799906775041",
+          "variantKey": "Red-Child 8T",
+          "variantName": "Printed Parent Child Home Service Set Pajamas Red Child 8T",
+          "role": "enfant",
+          "supplierRole": "Child",
+          "supplierSize": "8T",
+          "sourceField": "products[2].variants[].key",
+          "sourceText": "Red-Child 8T",
+          "roleDerivation": "rôle nommé dans variantKey et le nom de variante",
+          "priceOrStockClaimed": false
+        },
+        {
+          "vid": "1452549799906775042",
+          "variantKey": "Red-Child 10T",
+          "variantName": "Printed Parent Child Home Service Set Pajamas Red Child 10T",
+          "role": "enfant",
+          "supplierRole": "Child",
+          "supplierSize": "10T",
+          "sourceField": "products[2].variants[].key",
+          "sourceText": "Red-Child 10T",
+          "roleDerivation": "rôle nommé dans variantKey et le nom de variante",
+          "priceOrStockClaimed": false
+        },
+        {
+          "vid": "1452549799910969344",
+          "variantKey": "Red-Child 12T",
+          "variantName": "Printed Parent Child Home Service Set Pajamas Red Child 12T",
+          "role": "enfant",
+          "supplierRole": "Child",
+          "supplierSize": "12T",
+          "sourceField": "products[2].variants[].key",
+          "sourceText": "Red-Child 12T",
+          "roleDerivation": "rôle nommé dans variantKey et le nom de variante",
+          "priceOrStockClaimed": false
+        },
+        {
+          "vid": "1452549799910969345",
+          "variantKey": "Red-Child 14T",
+          "variantName": "Printed Parent Child Home Service Set Pajamas Red Child 14T",
+          "role": "enfant",
+          "supplierRole": "Child",
+          "supplierSize": "14T",
+          "sourceField": "products[2].variants[].key",
+          "sourceText": "Red-Child 14T",
+          "roleDerivation": "rôle nommé dans variantKey et le nom de variante",
+          "priceOrStockClaimed": false
+        }
+      ],
+      "adultVariants": [
+        {
+          "vid": "1452549799873220608",
+          "variantKey": "Red-Dad S",
+          "variantName": "Printed Parent Child Home Service Set Pajamas Red Dad S",
+          "role": "adulte",
+          "supplierRole": "Dad",
+          "supplierSize": "S",
+          "sourceField": "products[2].variants[].key",
+          "sourceText": "Red-Dad S",
+          "roleDerivation": "rôle nommé dans variantKey et le nom de variante",
+          "priceOrStockClaimed": false
+        },
+        {
+          "vid": "1452549799873220609",
+          "variantKey": "Red-Dad M",
+          "variantName": "Printed Parent Child Home Service Set Pajamas Red Dad M",
+          "role": "adulte",
+          "supplierRole": "Dad",
+          "supplierSize": "M",
+          "sourceField": "products[2].variants[].key",
+          "sourceText": "Red-Dad M",
+          "roleDerivation": "rôle nommé dans variantKey et le nom de variante",
+          "priceOrStockClaimed": false
+        },
+        {
+          "vid": "1452549799877414912",
+          "variantKey": "Red-Dad L",
+          "variantName": "Printed Parent Child Home Service Set Pajamas Red Dad L",
+          "role": "adulte",
+          "supplierRole": "Dad",
+          "supplierSize": "L",
+          "sourceField": "products[2].variants[].key",
+          "sourceText": "Red-Dad L",
+          "roleDerivation": "rôle nommé dans variantKey et le nom de variante",
+          "priceOrStockClaimed": false
+        },
+        {
+          "vid": "1452549799877414913",
+          "variantKey": "Red-Dad XL",
+          "variantName": "Printed Parent Child Home Service Set Pajamas Red Dad XL",
+          "role": "adulte",
+          "supplierRole": "Dad",
+          "supplierSize": "XL",
+          "sourceField": "products[2].variants[].key",
+          "sourceText": "Red-Dad XL",
+          "roleDerivation": "rôle nommé dans variantKey et le nom de variante",
+          "priceOrStockClaimed": false
+        },
+        {
+          "vid": "1452549799881609216",
+          "variantKey": "Red-Dad 2XL",
+          "variantName": "Printed Parent Child Home Service Set Pajamas Red Dad 2XL",
+          "role": "adulte",
+          "supplierRole": "Dad",
+          "supplierSize": "2XL",
+          "sourceField": "products[2].variants[].key",
+          "sourceText": "Red-Dad 2XL",
+          "roleDerivation": "rôle nommé dans variantKey et le nom de variante",
+          "priceOrStockClaimed": false
+        },
+        {
+          "vid": "1452549799881609217",
+          "variantKey": "Red-Mom S",
+          "variantName": "Printed Parent Child Home Service Set Pajamas Red Mom S",
+          "role": "adulte",
+          "supplierRole": "Mom",
+          "supplierSize": "S",
+          "sourceField": "products[2].variants[].key",
+          "sourceText": "Red-Mom S",
+          "roleDerivation": "rôle nommé dans variantKey et le nom de variante",
+          "priceOrStockClaimed": false
+        },
+        {
+          "vid": "1452549799881609218",
+          "variantKey": "Red-Mom M",
+          "variantName": "Printed Parent Child Home Service Set Pajamas Red Mom M",
+          "role": "adulte",
+          "supplierRole": "Mom",
+          "supplierSize": "M",
+          "sourceField": "products[2].variants[].key",
+          "sourceText": "Red-Mom M",
+          "roleDerivation": "rôle nommé dans variantKey et le nom de variante",
+          "priceOrStockClaimed": false
+        },
+        {
+          "vid": "1452549799885803520",
+          "variantKey": "Red-Mom L",
+          "variantName": "Printed Parent Child Home Service Set Pajamas Red Mom L",
+          "role": "adulte",
+          "supplierRole": "Mom",
+          "supplierSize": "L",
+          "sourceField": "products[2].variants[].key",
+          "sourceText": "Red-Mom L",
+          "roleDerivation": "rôle nommé dans variantKey et le nom de variante",
+          "priceOrStockClaimed": false
+        },
+        {
+          "vid": "1452549799898386432",
+          "variantKey": "Red-Mom XL",
+          "variantName": "Printed Parent Child Home Service Set Pajamas Red Mom XL",
+          "role": "adulte",
+          "supplierRole": "Mom",
+          "supplierSize": "XL",
+          "sourceField": "products[2].variants[].key",
+          "sourceText": "Red-Mom XL",
+          "roleDerivation": "rôle nommé dans variantKey et le nom de variante",
+          "priceOrStockClaimed": false
+        },
+        {
+          "vid": "1452549799898386433",
+          "variantKey": "Red-Mom 2XL",
+          "variantName": "Printed Parent Child Home Service Set Pajamas Red Mom 2XL",
+          "role": "adulte",
+          "supplierRole": "Mom",
+          "supplierSize": "2XL",
+          "sourceField": "products[2].variants[].key",
+          "sourceText": "Red-Mom 2XL",
+          "roleDerivation": "rôle nommé dans variantKey et le nom de variante",
+          "priceOrStockClaimed": false
+        }
+      ],
+      "sampleDuo": {
+        "childVID": "1452549799902580736",
+        "adultVID": "1452549799873220608",
+        "bothWithinPID": "1452549799793528832",
+        "sharedVariantFamily": "Red",
+        "stockOfBothVariantsVerified": false
+      },
+      "source": {
+        "path": "/home/bach/Donnees/Livraisons/Mirlipousse-multiboutiques-produits-20261027/mini-et-moi/RAW.json",
+        "sha256": "7c7e41850b0356842e6b3aaf8c69102c883452d941f8ae4d7ca43b3d14fe8780",
+        "productIndex": 2,
+        "productField": "products[2]"
+      },
+      "sourceTitle": "Printed Parent Child Home Service Set Pajamas",
+      "sourceDescriptionText": "Product information: Material: Cotton Style: Europe and America Features:Print Colour: red, soft Size Information: Note: 1. Asian sizes are 1 to 2 sizes smaller than European and American people. Choose the larger size if your size between two sizes. Please allow 2-3cm differences due to manual measurement. 2. Please check the size chart carefully before you buy the item, if you don't know how to choose size, please contact our customer service. 3.As you know, the different computers display colors differently, the color of the actual item may vary slightly from the following images. Packing list: Clothes *1 Pants *1 Product Image:",
+      "unitWarning": "Chaque variante correspond à une pièce ou une tenue pour une personne. Deux variantes coordonnées ne prouvent pas un lot vendu ensemble.",
+      "stockObservationExisting": {
+        "vid": "1452549799873220608",
+        "observedAt": "2026-10-27T20:21:32.740Z",
+        "onlyThisVariantWasChecked": true,
+        "duoAvailabilityVerified": false
+      },
+      "publicImage": {
+        "path": "/media/mini-et-moi-cj-1452549799793528832.jpg",
+        "sourceLocal": "/home/bach/Donnees/Livraisons/Mirlipousse-extension-multiboutiques-20261027/worktrees/mini-et-moi/public/media/mini-et-moi-cj-1452549799793528832.jpg",
+        "sha256": "3c1328da8151e970c6151847617c6b4ffbfaf6fbb638b21a72267390c93f992f"
+      },
+      "publicPrice": null,
+      "purchaseEnabled": false,
+      "limits": [
+        "Aucune nouvelle vérification de stock ou de transport des deux variantes ; aucune promesse de disponibilité simultanée.",
+        "Tailles fournisseur recopiées sans équivalence âge/taille européenne inventée.",
+        "Aucune certification, prix client ou ouverture de vente."
+      ]
+    },
+    {
+      "pid": "1465609787336167424",
+      "publicId": "mini-et-moi-cj-1465609787336167424",
+      "title": "Hot Sale Green Plaid Parent-child Raglan Sleeve Home Wear",
+      "productType": "DIY_PRODUCT",
+      "sameSupplierModel": true,
+      "coordinatedFamilyRange": true,
+      "enfantEtAdulteProuves": true,
+      "variantRolesExplicit": true,
+      "childVariants": [
+        {
+          "vid": "1465854084069330946",
+          "variantKey": "Baby 6M-Red",
+          "variantName": "Hot Sale Green Plaid Parent-child Raglan Sleeve Home Wear Baby 6M Red",
+          "role": "enfant",
+          "supplierRole": "Baby",
+          "supplierSize": "6M",
+          "sourceField": "products[3].variants[].key",
+          "sourceText": "Baby 6M-Red",
+          "roleDerivation": "rôle nommé dans variantKey et le nom de variante",
+          "priceOrStockClaimed": false
+        },
+        {
+          "vid": "1465854084073525249",
+          "variantKey": "Childrens clothing 3Yor4Y-Red",
+          "variantName": "Hot Sale Green Plaid Parent-child Raglan Sleeve Home Wear Childrens clothing 3Yor4Y Red",
+          "role": "enfant",
+          "supplierRole": "Childrens clothing",
+          "supplierSize": "3Yor4Y",
+          "sourceField": "products[3].variants[].key",
+          "sourceText": "Childrens clothing 3Yor4Y-Red",
+          "roleDerivation": "rôle nommé dans variantKey et le nom de variante",
+          "priceOrStockClaimed": false
+        },
+        {
+          "vid": "1465854084073525250",
+          "variantKey": "Childrens clothing 4Yor5Y-Red",
+          "variantName": "Hot Sale Green Plaid Parent-child Raglan Sleeve Home Wear Childrens clothing 4Yor5Y Red",
+          "role": "enfant",
+          "supplierRole": "Childrens clothing",
+          "supplierSize": "4Yor5Y",
+          "sourceField": "products[3].variants[].key",
+          "sourceText": "Childrens clothing 4Yor5Y-Red",
+          "roleDerivation": "rôle nommé dans variantKey et le nom de variante",
+          "priceOrStockClaimed": false
+        },
+        {
+          "vid": "1465854084077719552",
+          "variantKey": "Childrens clothing 6Yor7Y-Red",
+          "variantName": "Hot Sale Green Plaid Parent-child Raglan Sleeve Home Wear Childrens clothing 6Yor7Y Red",
+          "role": "enfant",
+          "supplierRole": "Childrens clothing",
+          "supplierSize": "6Yor7Y",
+          "sourceField": "products[3].variants[].key",
+          "sourceText": "Childrens clothing 6Yor7Y-Red",
+          "roleDerivation": "rôle nommé dans variantKey et le nom de variante",
+          "priceOrStockClaimed": false
+        }
+      ],
+      "adultVariants": [
+        {
+          "vid": "1465854084069330945",
+          "variantKey": "Mom L-Red",
+          "variantName": "Hot Sale Green Plaid Parent-child Raglan Sleeve Home Wear Mom L Red",
+          "role": "adulte",
+          "supplierRole": "Mom",
+          "supplierSize": "L",
+          "sourceField": "products[3].variants[].key",
+          "sourceText": "Mom L-Red",
+          "roleDerivation": "rôle nommé dans variantKey et le nom de variante",
+          "priceOrStockClaimed": false
+        },
+        {
+          "vid": "1465854084069330947",
+          "variantKey": "Dad M-Red",
+          "variantName": "Hot Sale Green Plaid Parent-child Raglan Sleeve Home Wear Dad M",
+          "role": "adulte",
+          "supplierRole": "Dad",
+          "supplierSize": "M",
+          "sourceField": "products[3].variants[].key",
+          "sourceText": "Dad M-Red",
+          "roleDerivation": "rôle nommé dans variantKey et le nom de variante",
+          "priceOrStockClaimed": false
+        },
+        {
+          "vid": "1465854084077719554",
+          "variantKey": "Dad L-Red",
+          "variantName": "Hot Sale Green Plaid Parent-child Raglan Sleeve Home Wear Dad L Red",
+          "role": "adulte",
+          "supplierRole": "Dad",
+          "supplierSize": "L",
+          "sourceField": "products[3].variants[].key",
+          "sourceText": "Dad L-Red",
+          "roleDerivation": "rôle nommé dans variantKey et le nom de variante",
+          "priceOrStockClaimed": false
+        },
+        {
+          "vid": "1465854084086108160",
+          "variantKey": "Mom S-Red",
+          "variantName": "Hot Sale Green Plaid Parent-child Raglan Sleeve Home Wear Mom S Red",
+          "role": "adulte",
+          "supplierRole": "Mom",
+          "supplierSize": "S",
+          "sourceField": "products[3].variants[].key",
+          "sourceText": "Mom S-Red",
+          "roleDerivation": "rôle nommé dans variantKey et le nom de variante",
+          "priceOrStockClaimed": false
+        }
+      ],
+      "sampleDuo": {
+        "childVID": "1465854084073525249",
+        "adultVID": "1465854084069330945",
+        "bothWithinPID": "1465609787336167424",
+        "sharedVariantFamily": "Red",
+        "stockOfBothVariantsVerified": false
+      },
+      "source": {
+        "path": "/home/bach/Donnees/Livraisons/Mini-et-moi-inscriptions-20261027/mini-et-moi/RAW.json",
+        "sha256": "927e40eb371c0ecde9d78a8d184461668de069b4fc38b995d4eab55be837b121",
+        "productIndex": 3,
+        "productField": "products[3]"
+      },
+      "sourceTitle": "Hot Sale Green Plaid Parent-child Raglan Sleeve Home Wear",
+      "sourceDescriptionText": "Product information: Parent-child clothing category: home clothing Applicable people: family wear Main fabric composition: polyester fiber (polyester) Main fabric ingredient content: 100 (%) Suitable height: Mom S, Mom M, Mom L, Mom XL, Dad M, Dad L, Dad XL, Dad 2XL, Children's wear 2Y, Children's wear 3-4Y, Children's wear 4-5Y, Children's wear 6-7Y, Children's wear 8-9Y Packing list: Parent-child wear*1",
+      "unitWarning": "Chaque variante correspond à une pièce ou une tenue pour une personne. Deux variantes coordonnées ne prouvent pas un lot vendu ensemble.",
+      "stockObservationExisting": {
+        "vid": "1465854084069330945",
+        "observedAt": "2026-10-27T20:45:28.318Z",
+        "onlyThisVariantWasChecked": true,
+        "duoAvailabilityVerified": false
+      },
+      "publicImage": {
+        "path": "/media/mini-et-moi-cj-1465609787336167424.jpg",
+        "sourceLocal": "/home/bach/Donnees/Livraisons/Mirlipousse-extension-multiboutiques-20261027/worktrees/mini-et-moi/public/media/mini-et-moi-cj-1465609787336167424.jpg",
+        "sha256": "a8aebbc09f478eeeff22601c02f213487bb858ccdd2902bccb323aeff8423277"
+      },
+      "publicPrice": null,
+      "purchaseEnabled": false,
+      "limits": [
+        "Aucune nouvelle vérification de stock ou de transport des deux variantes ; aucune promesse de disponibilité simultanée.",
+        "Tailles fournisseur recopiées sans équivalence âge/taille européenne inventée.",
+        "Aucune certification, prix client ou ouverture de vente.",
+        "Support DIY : aucun prénom, mot de parenté ni impression française appliquée ou validée par cette preuve."
+      ]
+    }
+  ],
+  "salesEnabled": false,
+  "purchaseEnabled": false,
+  "APIcalls": 0,
+  "selectionPolicy": "Seuls modèles avec enfant ET adulte dans le même PID coordonné, et rôles des VID directement établis par clé ou légende fournisseur explicite. Les tags marketing, photos de personnes et tailles seules ne suffisent pas.",
+  "blockedPIDs": [
+    "6DA8A127-BC96-401D-8492-EA0EE0CA9F99",
+    "2508290707461613900",
+    "2511221039181611900",
+    "2508290654511604500",
+    "2511270210011616600",
+    "2505181122211602700",
+    "1454993111116812288",
+    "1764827588926644224",
+    "1663800764688510976",
+    "1388025743379927040",
+    "2407230648071607600",
+    "1363773849132470272",
+    "1473179439629209600",
+    "1435126867530223616",
+    "2502240643111602000"
+  ]
+}

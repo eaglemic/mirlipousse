@@ -6,11 +6,11 @@ Les liens se portent aussi.
 
 Vêtements assortis pour familles et liens de cœur. [Découvrir le site](https://mini-et-moi.onrender.com)
 
-La vitrine présente **11 références fournisseur réelles** avec leurs photographies et une sélection locale, sans encaissement ni commande. Les prix, la livraison France/Belgique et les informations commerciales restent à qualifier.
+La vitrine présente **3 collections enfant + adulte documentées** avec leurs photographies et une sélection locale, sans encaissement ni commande. Les prix, la livraison France/Belgique et les informations commerciales restent à qualifier.
 
 ## L’univers
 
-Parents et enfants, frères et sœurs, cousins ou famille de cœur : des vêtements pour créer des échos, sans être tous identiques.
+Un enfant et un adulte, toujours assortis : des collections coordonnées pour les liens de famille.
 
 - Une direction graphique et des animations dédiées, avec réduction des mouvements.
 - Un catalogue et des fiches fondés sur les références collectées, sans avis fictifs.
@@ -35,6 +35,7 @@ L’illustration fournie par l’utilisateur représente l’univers Mini & Moi,
 [Découvrir les dix motifs numériques](https://mini-et-moi.onrender.com/motifs/) — créations graphiques, sans vêtement fabriqué ni commande de personnalisation.
 
 
-## Collections enfants et adultes
 
-Accès directs : [Enfants](https://mini-et-moi.onrender.com/enfants.html), [Adultes](https://mini-et-moi.onrender.com/adultes.html), [Duos & famille](https://mini-et-moi.onrender.com/duos.html). 18 références physiques réelles, dont 12 avec une tranche enfant/bébé documentée, 10 adultes et 4 mixtes (les nombres se recoupent). Les 10 motifs restent des créations numériques, sans vêtement fabriqué inclus. Aucun paiement ou commande.
+## Tenues coordonnées enfant + adulte
+
+Le catalogue est exclusivement composé de 3 références documentant de vraies variantes assorties enfant et adulte. Aucun article enfant ou adulte seul. Les anciennes pages non assorties indiquent leur retrait et sont noindex ; le sitemap ne les publie plus. Chaque pièce fournisseur reste individuelle : aucune offre de lot famille ou de prix duo n’est inventée. Les dix motifs restent des projets numériques. Ventes fermées. Les anciens caches CDN d’images ne sont pas prétendus purgés.
