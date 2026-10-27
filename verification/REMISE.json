@@ -1,0 +1,82 @@
+{
+  "format": "boutique-remise-site/1",
+  "dateUTC": "2026-10-27T20:45:08.076668+00:00",
+  "succes": true,
+  "termine": true,
+  "applique": false,
+  "publicationFaite": false,
+  "brandSlug": "vadrouvane",
+  "branch": "entreprise/vadrouvane",
+  "repo": "eaglemic/mirlipousse",
+  "paquet": "/home/bach/Donnees/Livraisons/Dix-boutiques-construction-20261027/sorties/vadrouvane",
+  "public": "/home/bach/Donnees/Livraisons/Dix-boutiques-construction-20261027/sorties/vadrouvane/public",
+  "publicFiles": 22,
+  "referencesReelles": 2,
+  "salesEnabled": false,
+  "avisActifs": false,
+  "origin": null,
+  "preuves": [
+    {
+      "path": "/home/bach/Donnees/Livraisons/Dix-boutiques-construction-20261027/sorties/vadrouvane/verification/EXPORT.json",
+      "sha256": "7f7d86f11241847873224e244fd044ebadfcf38ace120aad14c58b313f1c77e9",
+      "octets": 3876
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Dix-boutiques-construction-20261027/sorties/vadrouvane/scripts/verifier-paquet.py",
+      "sha256": "d1782c38eba752e3b4da3d1ec582a2fff83626779f38e01255c3231a8b80818f",
+      "octets": 2373
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Dix-boutiques-construction-20261027/sorties/vadrouvane/README.md",
+      "sha256": "341f85881ab67bdb6fe13984962a83ccc5a280d39b6d32d3e8541b31ed964203",
+      "octets": 1632
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Dix-boutiques-construction-20261027/sorties/vadrouvane/presentation.svg",
+      "sha256": "c9cd82e958c925d54adb9127fad8a808079e37b0a36d68f83792c8297eefd0df",
+      "octets": 1046
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Dix-boutiques-construction-20261027/sorties/vadrouvane/verification/RECETTE-MARQUE.json",
+      "sha256": "665cfc35c817e447ea21c73410a7381a14534c22aceee8b42b184f9a5bf2d5be",
+      "octets": 4908
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Dix-boutiques-construction-20261027/sorties/vadrouvane/verification/VERIFICATION-PAQUET.json",
+      "sha256": "ce6e0a31b9deef4176060f74b2273c71fc9bb875c2007237802415a91e4f35a3",
+      "octets": 101
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Mirlipousse-multiboutiques-produits-20261027/vadrouvane/CATALOGUE.json",
+      "sha256": "aff03e80d32661d2aaeaa9a333702f49b4ef364034218ceca6c3cdb5182061d4",
+      "octets": 28838
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Mirlipousse-multiboutiques-produits-20261027/vadrouvane/REMISE.json",
+      "sha256": "550ab6784038753d1d4effe4d233f0fb4e80612d6d4fbb246758c7cb07df221d",
+      "octets": 2195
+    }
+  ],
+  "recette": {
+    "PC1440": true,
+    "mobile390": true,
+    "mobile360": true,
+    "photosChargees": true,
+    "selectionEtRechargement": true,
+    "echapFermeDialogue": true,
+    "cibles44px": true,
+    "reducedMotion": true,
+    "0JS": true,
+    "0Externes": true,
+    "navigateurEtPortFermes": true,
+    "adultGate": false,
+    "aucunDebordementHorizontal": true,
+    "mesureCompareeALaLargeurCliente": true
+  },
+  "limites": [
+    "Ventes et avis fermés, aucun paiement ni fournisseur commandé.",
+    "Origine HTTPS non encore attribuée : noindex explicite ; aucun lien supposé actif.",
+    "Pas de téléphone physique, recette Chromium locale.",
+    "Identité du vendeur et conformité avant ouverture commerciale non qualifiées."
+  ]
+}

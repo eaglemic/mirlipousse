@@ -1,0 +1,40 @@
+{
+  "format": "boutique-catalogue-public/1",
+  "brandSlug": "vadrouvane",
+  "salesEnabled": false,
+  "adultOnly": false,
+  "products": [
+    {
+      "id": "vadrouvane-cj-1382909456957968384",
+      "pid": "1382909456957968384",
+      "vid": "1382909458363060224",
+      "name": "Trousse de toilette suspendue",
+      "description": "Une trousse à suspendre, avec des compartiments et des poches pour répartir les affaires de toilette. Les produits et accessoires visibles dans la mise en scène ne sont pas inclus.",
+      "category": "trousses",
+      "categoryLabel": "Trousses de toilette",
+      "materialsText": "Composition à confirmer avant vente.",
+      "image": "/media/vadrouvane-cj-1382909456957968384.jpg",
+      "imageAlt": "Trousse de toilette suspendue — photo fournisseur",
+      "priceCustomer": null,
+      "purchaseEnabled": false,
+      "audienceTags": [],
+      "audienceSource": []
+    },
+    {
+      "id": "vadrouvane-cj-1484810775192276992",
+      "pid": "1484810775192276992",
+      "vid": "1484810775322300416",
+      "name": "Trousse de toilette à poignée",
+      "description": "Une trousse noire à poignée, avec une fermeture et des rangements intérieurs. La photo fournisseur indique les dimensions du modèle présenté ; elles devront être confirmées avant vente.",
+      "category": "trousses",
+      "categoryLabel": "Trousses de toilette",
+      "materialsText": "Textile décrit comme « cationic » par le fournisseur ; composition exacte à confirmer.",
+      "image": "/media/vadrouvane-cj-1484810775192276992.jpg",
+      "imageAlt": "Trousse de toilette à poignée — photo fournisseur",
+      "priceCustomer": null,
+      "purchaseEnabled": false,
+      "audienceTags": [],
+      "audienceSource": []
+    }
+  ]
+}

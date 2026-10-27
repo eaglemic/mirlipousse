@@ -1,0 +1,12 @@
+{
+  "slug": "vadrouvane",
+  "nom": "Vadrouvane",
+  "theme": "Organisation de voyage légère",
+  "palette": [
+    "#102F38",
+    "#E7DCC4",
+    "#D27148"
+  ],
+  "salesEnabled": false,
+  "adultOnly": false
+}
