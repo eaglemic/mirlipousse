@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" fill="none" role="img" aria-labelledby="title desc">
+<title id="title">Le cube tout doux</title><desc id="desc">Illustration originale de concept pour la sélection de démonstration Mirlipousse.</desc>
+<defs>
+ <linearGradient id="wood" x1="170" y1="140" x2="410" y2="490" gradientUnits="userSpaceOnUse"><stop stop-color="#EFD1A7"/><stop offset=".6" stop-color="#D9AF7B"/><stop offset="1" stop-color="#BF8B58"/></linearGradient>
+ <linearGradient id="sage" x1="200" y1="160" x2="420" y2="500" gradientUnits="userSpaceOnUse"><stop stop-color="#A9B7A0"/><stop offset="1" stop-color="#7D9175"/></linearGradient>
+ <linearGradient id="coral" x1="180" y1="150" x2="390" y2="490" gradientUnits="userSpaceOnUse"><stop stop-color="#DF9B80"/><stop offset="1" stop-color="#C8785D"/></linearGradient>
+ <linearGradient id="cream" x1="180" y1="160" x2="410" y2="470" gradientUnits="userSpaceOnUse"><stop stop-color="#FFFCF5"/><stop offset="1" stop-color="#DDCDB7"/></linearGradient>
+ <filter id="shadow" x="-40%" y="-40%" width="190%" height="190%"><feDropShadow dx="3" dy="17" stdDeviation="15" flood-color="#5F4736" flood-opacity=".13"/></filter>
+ <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".7" numOctaves="3" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope=".022"/></feComponentTransfer><feBlend in="SourceGraphic" mode="multiply"/></filter>
+</defs>
+<rect width="600" height="600" rx="12" fill="#EFE8DD"/>
+<circle cx="300" cy="300" r="213" fill="#FFFDF6" opacity=".28"/>
+<ellipse cx="305" cy="484" rx="170" ry="20" fill="#76604B" opacity=".08"/>
+
+<g filter="url(#shadow)" transform="rotate(-11 300 310)">
+ <path d="M174 232 302 163 429 235 302 310Z" fill="#EAD0BA"/>
+ <path d="M174 232 302 310 302 455 174 380Z" fill="#BA9477"/>
+ <path d="M302 310 429 235 429 381 302 455Z" fill="#D6B699"/>
+ <path d="m188 239 114 69v132m13-132 101-59M187 371V251m127-75 102 59" stroke="#FFF1DF" stroke-width="3" stroke-dasharray="4 6" opacity=".7"/>
+ <path d="m250 224 25-14 22 13-3 20-25 8-20-13Z" fill="#F8EFE0"/>
+ <path d="m344 336 29-32 30 32-30 49Z" fill="#9AA88D"/>
+ <circle cx="238" cy="337" r="27" fill="#F8ECD7"/>
+ <path d="M223 338h30m-15-15v30" stroke="#C88770" stroke-width="6" stroke-linecap="round"/>
+ <path d="M175 279c-31 4-42 31-32 49" stroke="#A4AF95" stroke-width="18" stroke-linecap="round"/>
+ <path d="M383 207c15-24 36-23 46-8" stroke="#D6937A" stroke-width="15" stroke-linecap="round"/>
+</g>
+<path d="m144 176 6-15 6 15 16 6-16 6-6 15-6-15-16-6Z" fill="#C49163" opacity=".55"/>
+<rect width="600" height="600" rx="12" fill="transparent" filter="url(#grain)" opacity=".55"/>
+</svg>
