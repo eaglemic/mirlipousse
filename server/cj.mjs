@@ -138,12 +138,12 @@ export function createCJClient(configuration = {}) {
     const current = monotonic();
     const wait = Math.max(0, nextAllowedAt - current);
     if (wait > TIMEOUT_MS - 1000) throw new CJError('CJ_RATE_LIMIT', 503);
-    nextAllowedAt = Math.max(nextAllowedAt, current) + 1000;
+    nextAllowedAt = Math.max(nextAllowedAt, current) + 1100;
     if (signal.aborted) throw new CJError('CJ_TIMEOUT', 504);
     if (wait <= 0) return;
     await new Promise((resolve, reject) => {
       const stop = () => { clearTimeout(handle); reject(new CJError('CJ_TIMEOUT', 504)); };
-      const handle = setTimeout(() => { signal.removeEventListener('abort', stop); resolve(); }, wait);
+      const handle = setTimeout(() => { signal.removeEventListener('abort', stop); resolve(); }, Math.ceil(wait));
       signal.addEventListener('abort', stop, { once: true });
       if (signal.aborted) stop();
     });

@@ -33,14 +33,14 @@ Mirlipousse prépare une boutique de jouets et d’accessoires pour enfants. Son
 | :--- | :--- | :--- |
 | Des idées classées par âge, de 0 à 12 ans. | Des univers de jeu, de création et d’aventure. | Des guides simples pour aider les familles à choisir. |
 
-La vitrine présente **8 concepts illustrés**, des collections par âge, deux guides et une galerie de **13 médias**, dont une vidéo de présentation.
+La vitrine présente **13 références fournisseur réelles et leurs photos CJ**, des collections, deux guides et une galerie de **13 médias de présentation**, dont une vidéo. Les anciennes illustrations restent uniquement dans cette galerie, clairement identifiées.
 
-> **Vitrine de démonstration : les achats sont fermés.** Les illustrations présentent des concepts. Elles ne prouvent ni stock disponible, ni fournisseur confirmé, ni conformité ou certification d’un produit.
+> **Catalogue en préparation : les achats sont fermés.** Les photos des fiches viennent du fournisseur. Les âges, la conformité enfant, les documents fabricant et les conditions de livraison restent à qualifier. Aucun prix client n’est inventé ; le panier est un essai sans paiement.
 
 ## Ce que l’on peut déjà explorer
 
 - Parcourir les collections et les idées selon l’âge.
-- Chercher et filtrer les concepts, consulter leurs détails.
+- Chercher et filtrer les produits, consulter leurs photos et leur référence fournisseur. Les âges non documentés restent « à confirmer ».
 - Conserver des favoris et un panier de démonstration sur son appareil.
 - Lire les guides et découvrir les visuels, la vidéo et leurs téléchargements.
 - Profiter du design responsive et des animations du site.
@@ -51,13 +51,13 @@ La vitrine présente **8 concepts illustrés**, des collections par âge, deux g
 | :--- | :--- |
 | Vitrine et médias | Présentés dans ce dépôt. |
 | Paiement SumUp | Compte existant ; connexion technique et parcours de paiement à qualifier. |
-| Fournisseur CJdropshipping | Compte créé ; autorisation API et catalogue réel à raccorder. |
-| Produits, stocks et livraison | À vérifier avec le fournisseur avant ouverture des ventes. |
+| Fournisseur CJdropshipping | Authentification et paramètres réels vérifiés ; catalogue, détail d’un produit et stock fournisseur positif contrôlés. Service privé authentifié sur Render. |
+| Produits, stocks et livraison | Références et photos importées. Stocks observés à la collecte, sans garantie de livraison en France/Belgique ; frais, taxes, conformité et délais à vérifier. |
 | Commandes réelles | Fermées ; cet export ne déploie aucune API de paiement ou de commande. |
 
 ## Une vitrine légère à publier
 
-Ce dépôt contient l’export statique de la vitrine : **18 pages HTML**, les ressources du site et ses médias. Il est préparé pour un hébergement statique sur Render.
+Ce dépôt contient l’export statique de la vitrine : **18 pages vitrine et une page de saisie chiffrée**, les ressources du site et ses médias. Il est préparé pour un hébergement statique sur Render.
 
 ```text
 public/                  Pages, styles, scripts et médias du site
@@ -66,6 +66,8 @@ scripts/verifier-paquet.py
 verification/EXPORT.json Empreintes des fichiers publics
 render.yaml              Configuration de publication statique
 ```
+
+La vitrine publique ne contient aucune clé CJ. Le service fournisseur (`server/`) reste protégé par authentification et n’exécute aucune commande ni paiement. SumUp n’est pas encore raccordé.
 
 Le paquet se vérifie avant publication avec :
 
