@@ -1,6 +1,6 @@
 {
   "format": "mirlipousse-export-statique/2",
-  "dateUTC": "2026-10-27T22:30:41.552957+00:00",
+  "dateUTC": "2026-10-27T23:04:59.540123+00:00",
   "succes": true,
   "origineCandidateNonReservee": "https://mirlipousse.onrender.com",
   "pagesHTML": 22,
@@ -107,7 +107,7 @@
     "media/univers-mirlipousse.webp": "95a74251a4da82618e853741fb10aa9d49a8a2930fe675666cf87f16ee3a6395",
     "medias/index.html": "1587518aaca555571271c297163896443cf409dae6e5be076340ffec9b6efc54",
     "mentions-legales/index.html": "da21b6c918d70b80076fea897786b0bbe28a0f4de4ed52249daf9f9c7a3a29a5",
-    "ouverture/index.html": "bc57188fd1742b3a1613a661d1293c659f0b6c7de76d29fa4421ba70c88de087",
+    "ouverture/index.html": "5cbe6876795acb85aedccc092dd9c9e05e055c575f89c68ed4472f5feaab288d",
     "robots.txt": "aa608eaf067988adf9f0f8c64369e34e5e6afef865caf65c49c0c5d3a42dfc02",
     "sitemap.xml": "1593248eda5083d663e01b9f1f2e43954f2dec0ed9760a6cb467a4e191f975a4",
     "vinext-client-entry-manifest.json": "f1832dd91bb1978f91a84d32abec92367602727538b7c9711fb64bdceba4763f"
@@ -174,6 +174,13 @@
     "expireUTC": "2026-10-30T22:27:04+00:00",
     "chiffrementLocalSeulement": true,
     "aucunSecretDansPage": true,
-    "configurationMarchandConnectee": false
+    "configurationMarchandConnectee": true
+  },
+  "raccordSumUp": {
+    "connexionAPIReelleVerifiee": true,
+    "secretsServeurConfigures": true,
+    "encaissementReelQualifie": false,
+    "ventesOuvertes": false,
+    "revisionRuntime": 4
   }
 }

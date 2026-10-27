@@ -51,7 +51,7 @@ La vitrine présente **30 références fournisseur réelles et leurs photos CJ**
 | Étape | État réel |
 | :--- | :--- |
 | Vitrine et médias | Présentés dans ce dépôt. |
-| Paiement SumUp | Compte existant ; connexion technique et parcours de paiement à qualifier. |
+| Paiement SumUp | Compte relié · paiements fermés. Connexion API vérifiée ; encaissement réel et parcours complet encore à qualifier. |
 | Fournisseur CJdropshipping | Authentification et paramètres réels vérifiés ; catalogue, détail d’un produit et stock fournisseur positif contrôlés. Service privé authentifié sur Render. |
 | Produits, stocks et livraison | Références et photos importées. Stocks observés à la collecte, sans garantie de livraison en France/Belgique ; frais, taxes, conformité et délais à vérifier. |
 | Commandes réelles | Fermées ; cet export ne déploie aucune API de paiement ou de commande. |
@@ -68,7 +68,7 @@ verification/EXPORT.json Empreintes des fichiers publics
 render.yaml              Configuration de publication statique
 ```
 
-La vitrine publique ne contient aucune clé CJ. Le service fournisseur (`server/`) reste protégé par authentification et n’exécute aucune commande ni paiement. SumUp n’est pas encore raccordé. Les avis utilisent un service durable distinct : aucun avis global n’est simulé dans le stockage local.
+La vitrine publique ne contient aucune clé CJ. Le service fournisseur (`server/`) reste protégé par authentification et n’exécute aucune commande ni paiement. La connexion API SumUp est vérifiée ; les paiements restent fermés. Aucun encaissement réel ni parcours complet n’est encore qualifié. Les avis utilisent un service durable distinct : aucun avis global n’est simulé dans le stockage local.
 
 Le paquet se vérifie avant publication avec :
 
