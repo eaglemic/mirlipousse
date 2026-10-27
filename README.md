@@ -4,7 +4,7 @@
 
 Faire de ses mains, à son rythme.
 
-Rangement et outils de loisirs textiles adultes. L’adresse publique est en cours d’attribution ; aucun lien non vérifié n’est présenté comme actif.
+Rangement et outils de loisirs textiles adultes. [Découvrir le site](https://filavane.onrender.com)
 
 La vitrine présente **2 références fournisseur réelles** avec leurs photographies et une sélection locale, sans encaissement ni commande. Les prix, la livraison France/Belgique et les informations commerciales restent à qualifier.
 

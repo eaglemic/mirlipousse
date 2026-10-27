@@ -1,31 +1,31 @@
 {
   "format": "boutique-export/1",
-  "dateUTC": "2026-10-27T20:39:11.258769Z",
+  "dateUTC": "2026-10-27T20:55:30.161017Z",
   "brandSlug": "filavane",
   "name": "Filavane",
   "branche": "entreprise/filavane",
   "publicRoot": "public",
   "salesEnabled": false,
   "adultOnly": false,
-  "origin": null,
+  "origin": "https://filavane.onrender.com",
   "products": 2,
-  "sourceBrandSHA256": "7a5067e24807d89a1451387b4e929d083b43c736e85647427e454aee778084e0",
+  "sourceBrandSHA256": "2e8a425d2126349355b855523e47898483f025773beb087c057fa0df29a5e551",
   "sourceCatalogueSHA256": "09cdef0b22c95859992b12b03b6ed04cd487f58acacaebb52572eb99f49a4042",
   "files": [
     {
       "path": "404.html",
-      "sha256": "23c0785993e030614f81c8ef1a96ff439c2597002a72944e1db428ea264e91e0",
-      "octets": 5601
+      "sha256": "d0ce3d7f8d74e89b99a098154f26b9fac35c2fd8029de76afb5b0e2383ca3a32",
+      "octets": 5661
     },
     {
       "path": "app.js",
-      "sha256": "a6d3ce60454f724e8e2ddbfed1bc68d559f23387a6c2822dda34e96dcaa6bbcb",
-      "octets": 11142
+      "sha256": "b6354e9cd002e432a34a873a0ba6e3e48cababab656bb82f1835e6a51d5d61f5",
+      "octets": 14451
     },
     {
       "path": "avis.html",
-      "sha256": "59a9c40b6f112e2e51d94c5f12d482cd123e9482f7d868ee523b8eaf2b2f8d2a",
-      "octets": 7456
+      "sha256": "ee85d53b634aad70f9ef677ccad530d9a72b4e87794265df3b61437ee85f125d",
+      "octets": 7684
     },
     {
       "path": "brand.json",
@@ -34,8 +34,8 @@
     },
     {
       "path": "catalogue.html",
-      "sha256": "1748094cca06410d348fabc253c7f9bc8a03dd0a451e6e1676f60d3538c231d9",
-      "octets": 8459
+      "sha256": "47fc5ab8692398dfa05a1b9726343a131fb35b55830d84269d751e31952a5338",
+      "octets": 8525
     },
     {
       "path": "catalogue.json",
@@ -44,33 +44,33 @@
     },
     {
       "path": "conditions.html",
-      "sha256": "55741225e8c9f89c412bf4efe663b476806f960122fa16d0cc5d963d257f3865",
-      "octets": 6323
+      "sha256": "568a1664be656628f53900a9b10621950f37c7429022b5dff55e07e0ac146de3",
+      "octets": 6390
     },
     {
       "path": "confidentialite.html",
-      "sha256": "97f92a1c3afb59e3a945f319fc33e3390df6bb2ff2d27ead33c9bf0a0ac6efde",
-      "octets": 6650
+      "sha256": "5ed2008c205417af021383a4484d93a53f248045175b7fe4fbfb70cca77fb51a",
+      "octets": 7794
     },
     {
       "path": "contact.html",
-      "sha256": "903447093662eaf9c5165ff54ff3ccb4fdb03fcb09baab62a4b451b081c8f09b",
-      "octets": 5985
+      "sha256": "3579df63cb9eeaffa726339a6d6e9b91c6a9e3132e654e7fb7f3d3f1fb4128b0",
+      "octets": 6049
     },
     {
       "path": "guide.html",
-      "sha256": "02c31866dc4da49f60b48e557df299f2f592ea32cdff0ba2f232b15e7401c431",
-      "octets": 6086
+      "sha256": "b0e62b4f1402050cc395d19f4af8084ccce5e8116bb389368814119758add76c",
+      "octets": 6148
     },
     {
       "path": "index.html",
-      "sha256": "fdd65b1807a9cbd407d89d6a084fa4e4f957fd742045329ee1016dae73daf30a",
-      "octets": 13008
+      "sha256": "f38d47f609f8a2b20fe50e29b11fc472c13cb91f6a5cdb51b5574be828087dbd",
+      "octets": 13237
     },
     {
       "path": "livraison.html",
-      "sha256": "5172acf7adb522f92820f3c32d77d072bfe98ff27a559ef8f037ed87ac801fca",
-      "octets": 6217
+      "sha256": "2ee23acaea93ad29c89bce169084e7924e09dcbf9068942f9cb38b64297a5b49",
+      "octets": 6283
     },
     {
       "path": "media/embleme.svg",
@@ -89,38 +89,38 @@
     },
     {
       "path": "mentions-legales.html",
-      "sha256": "abf3e1c561c1b849f6f5be1b8fed56fd0cc790621b0e1cea2df224fd41a4067a",
-      "octets": 6494
+      "sha256": "b59a4fc79481f663e0921d70621b831c41c168f92573ba738ac5ba89f2294a7b",
+      "octets": 6567
     },
     {
       "path": "produits/filavane-cj-2407010828011603600.html",
-      "sha256": "c6a82e3d85b49d77b6b2524a4373f75859c9bcf1d08d93cbe56c40929ebfd0e4",
-      "octets": 7359
+      "sha256": "03ccf2bc4304b4aed1e005c0237acef24b5e0e990be82107de83b785ae268ec9",
+      "octets": 7456
     },
     {
       "path": "produits/filavane-cj-26918b87-3ab3-45ce-b949-418ada7ac672.html",
-      "sha256": "413cd7b42f33c6d1524b5e58a8790fe1c676a1ca4ba76f2621ae464562e7178b",
-      "octets": 7389
+      "sha256": "ff22d0532caae0a2ab37fbc28ac35696c007e76abdb459b7fc709149834bc60c",
+      "octets": 7503
     },
     {
       "path": "retours.html",
-      "sha256": "10d8aa73a0548823fbe86b78bfb38cccdf63920342615b59eaa9d58acb1694cd",
-      "octets": 6291
+      "sha256": "fe3fe72d317a220507ed171953fbee0798e3ffca5dd0bd28083d6ab9cf9c44d5",
+      "octets": 6355
     },
     {
       "path": "robots.txt",
-      "sha256": "331ea9090db0c9f6f597bd9840fd5b171830f6e0b3ba1cb24dfa91f0c95aedc1",
-      "octets": 26
+      "sha256": "45a2ac7df5245aa46c74c5e613ea6382f1902e75ee84b34f07aa6496128f4869",
+      "octets": 74
     },
     {
       "path": "sitemap.xml",
-      "sha256": "68ab08991efaca902bcb8a6518106d8b29964c5651f39abbb7eb7c9713ca2770",
-      "octets": 107
+      "sha256": "f951c0658c8f9c8e6b850d72093d4210c2d2f8f02e816fa529db25689011caf1",
+      "octets": 975
     },
     {
       "path": "style.css",
-      "sha256": "2065002654bf3b62ce7f4b65f00f20030318f99b0899716dc1a4cd7be0d2e402",
-      "octets": 25136
+      "sha256": "660fc389efcfb8194039c27b3d0f56825a402a5739ffc46af08de7a8add87306",
+      "octets": 29097
     }
   ]
 }

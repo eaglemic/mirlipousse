@@ -1,0 +1,181 @@
+{
+  "format": "boutique-remise-v2/1",
+  "dateUTC": "2026-10-27T21:13:00.587019+00:00",
+  "brandSlug": "filavane",
+  "succes": true,
+  "termine": true,
+  "applique": false,
+  "publicationFaite": false,
+  "paquet": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/filavane",
+  "branch": "entreprise/filavane",
+  "products": 2,
+  "publicFiles": 22,
+  "origin": "https://filavane.onrender.com",
+  "salesEnabled": false,
+  "avisEnabled": true,
+  "planCAS": {
+    "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/plans-cas/filavane.json",
+    "sha256": "a1aa390e4f25c1a08eaef1b901c3e98db81b1d836dd5fcecc4c235ff7794ff0c"
+  },
+  "export": {
+    "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/filavane/verification/EXPORT.json",
+    "sha256": "e4442caa2b22688d4f1c0c124ca35ad7d0004427e65abd29f7bde09b8fbeb4eb",
+    "octets": 3924
+  },
+  "codePublic": [
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/filavane/public/404.html",
+      "sha256": "d0ce3d7f8d74e89b99a098154f26b9fac35c2fd8029de76afb5b0e2383ca3a32",
+      "octets": 5661,
+      "relativePath": "public/404.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/filavane/public/app.js",
+      "sha256": "b6354e9cd002e432a34a873a0ba6e3e48cababab656bb82f1835e6a51d5d61f5",
+      "octets": 14451,
+      "relativePath": "public/app.js"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/filavane/public/avis.html",
+      "sha256": "ee85d53b634aad70f9ef677ccad530d9a72b4e87794265df3b61437ee85f125d",
+      "octets": 7684,
+      "relativePath": "public/avis.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/filavane/public/brand.json",
+      "sha256": "776149fb061f70962b4cbbd5856d53b4b893fd5e471b9503dbe7404205f78a73",
+      "octets": 219,
+      "relativePath": "public/brand.json"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/filavane/public/catalogue.html",
+      "sha256": "47fc5ab8692398dfa05a1b9726343a131fb35b55830d84269d751e31952a5338",
+      "octets": 8525,
+      "relativePath": "public/catalogue.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/filavane/public/catalogue.json",
+      "sha256": "8bbfe42b9b32aa4a5ec4e99c3347ed4e88dd327d973c83502352805d96852211",
+      "octets": 1898,
+      "relativePath": "public/catalogue.json"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/filavane/public/conditions.html",
+      "sha256": "568a1664be656628f53900a9b10621950f37c7429022b5dff55e07e0ac146de3",
+      "octets": 6390,
+      "relativePath": "public/conditions.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/filavane/public/confidentialite.html",
+      "sha256": "5ed2008c205417af021383a4484d93a53f248045175b7fe4fbfb70cca77fb51a",
+      "octets": 7794,
+      "relativePath": "public/confidentialite.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/filavane/public/contact.html",
+      "sha256": "3579df63cb9eeaffa726339a6d6e9b91c6a9e3132e654e7fb7f3d3f1fb4128b0",
+      "octets": 6049,
+      "relativePath": "public/contact.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/filavane/public/guide.html",
+      "sha256": "b0e62b4f1402050cc395d19f4af8084ccce5e8116bb389368814119758add76c",
+      "octets": 6148,
+      "relativePath": "public/guide.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/filavane/public/index.html",
+      "sha256": "f38d47f609f8a2b20fe50e29b11fc472c13cb91f6a5cdb51b5574be828087dbd",
+      "octets": 13237,
+      "relativePath": "public/index.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/filavane/public/livraison.html",
+      "sha256": "2ee23acaea93ad29c89bce169084e7924e09dcbf9068942f9cb38b64297a5b49",
+      "octets": 6283,
+      "relativePath": "public/livraison.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/filavane/public/media/embleme.svg",
+      "sha256": "cfeab15f5d2b86913e8689c73ffda46a5a3d50f597875327694f4d1e047f0c7a",
+      "octets": 317,
+      "relativePath": "public/media/embleme.svg"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/filavane/public/media/filavane-cj-2407010828011603600.jpg",
+      "sha256": "49cebf9fdff78806c6d472011877ca4156a8b7c38956e75e9fb1bb7aa05d41c0",
+      "octets": 65129,
+      "relativePath": "public/media/filavane-cj-2407010828011603600.jpg"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/filavane/public/media/filavane-cj-26918b87-3ab3-45ce-b949-418ada7ac672.jpg",
+      "sha256": "5c894c163f868329da7fbe753122fcc462103b187b8e812b61df67d484e56bb0",
+      "octets": 120141,
+      "relativePath": "public/media/filavane-cj-26918b87-3ab3-45ce-b949-418ada7ac672.jpg"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/filavane/public/mentions-legales.html",
+      "sha256": "b59a4fc79481f663e0921d70621b831c41c168f92573ba738ac5ba89f2294a7b",
+      "octets": 6567,
+      "relativePath": "public/mentions-legales.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/filavane/public/produits/filavane-cj-2407010828011603600.html",
+      "sha256": "03ccf2bc4304b4aed1e005c0237acef24b5e0e990be82107de83b785ae268ec9",
+      "octets": 7456,
+      "relativePath": "public/produits/filavane-cj-2407010828011603600.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/filavane/public/produits/filavane-cj-26918b87-3ab3-45ce-b949-418ada7ac672.html",
+      "sha256": "ff22d0532caae0a2ab37fbc28ac35696c007e76abdb459b7fc709149834bc60c",
+      "octets": 7503,
+      "relativePath": "public/produits/filavane-cj-26918b87-3ab3-45ce-b949-418ada7ac672.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/filavane/public/retours.html",
+      "sha256": "fe3fe72d317a220507ed171953fbee0798e3ffca5dd0bd28083d6ab9cf9c44d5",
+      "octets": 6355,
+      "relativePath": "public/retours.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/filavane/public/robots.txt",
+      "sha256": "45a2ac7df5245aa46c74c5e613ea6382f1902e75ee84b34f07aa6496128f4869",
+      "octets": 74,
+      "relativePath": "public/robots.txt"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/filavane/public/sitemap.xml",
+      "sha256": "f951c0658c8f9c8e6b850d72093d4210c2d2f8f02e816fa529db25689011caf1",
+      "octets": 975,
+      "relativePath": "public/sitemap.xml"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/filavane/public/style.css",
+      "sha256": "660fc389efcfb8194039c27b3d0f56825a402a5739ffc46af08de7a8add87306",
+      "octets": 29097,
+      "relativePath": "public/style.css"
+    }
+  ],
+  "preuveFonctionnelle12": {
+    "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/verification/recette-2026-10-27T21-01-36-999Z/RECETTE-NAVIGATEUR.json",
+    "sha256": "1efb0f7f45efa79af1d53e55fd30cf7e0e0adcca96f27cb8b30c5a2c1c84fb7d",
+    "octets": 79639
+  },
+  "complementCSSReference3": {
+    "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/verification/complement-motion-2026-10-27T21-10-29-869Z/RECETTE-NAVIGATEUR.json",
+    "sha256": "4ddd5f2f7c8ab6358f8375e4d4f8d009b978181b884120b62c35127c8f089d13",
+    "octets": 4648
+  },
+  "porteeReuse": "HTML, produits, images, sélection, filtres, dialogue et formulaires de la recette12 inchangés. Le JS de retour POST et CSS décorative ont ensuite reçu les deux finitions explicitement qualifiées sur trois profils.",
+  "finitions": {
+    "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/verification/FINITIONS-BORNE-REFERENCE.json",
+    "sha256": "978416bae59d21ba8bdf90c7328f8cb05a892769ccf561a9e017e72ba965fadc",
+    "octets": 6817
+  },
+  "limites": [
+    "Ventes fermées et prix client non définis.",
+    "Avis du navigateur en recette interceptés par fixture locale explicite ; aucun avis produit créé ou publié.",
+    "Chromium headless local seulement, aucun téléphone physique.",
+    "Root seul opérateur publication, aucun push ou service modifié par cet agent."
+  ]
+}
