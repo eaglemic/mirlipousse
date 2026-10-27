@@ -208,6 +208,207 @@
         "adulte"
       ],
       "audienceSource": "Intitulé fournisseur Women’s Fashion Casual Fly-knit Sneakers ; pointures 36 à 43 dans les clés de variantes."
+    },
+    {
+      "id": "mini-et-moi-cj-1663800764688510976",
+      "pid": "1663800764688510976",
+      "vid": "1663800764755619840",
+      "name": "Baskets enfant à semelle épaisse",
+      "description": "Des baskets enfant à semelle épaisse et lacets élastiques. Photo de plusieurs coloris : la variante de référence contrôlée est noire, pointure fournisseur 25.",
+      "category": "chaussures",
+      "categoryLabel": "Chaussures enfants",
+      "materialsText": "Dessus PU et semelle caoutchouc déclarés par le fournisseur ; étiquetage à confirmer.",
+      "image": "/media/mini-et-moi-cj-1663800764688510976.jpg",
+      "imageAlt": "Baskets enfant à semelle épaisse — photo fournisseur",
+      "priceCustomer": null,
+      "purchaseEnabled": false,
+      "audienceTags": [
+        "enfant"
+      ],
+      "audienceSource": "enfant : Applicable age: toddler clothes (1-3 years old), medium children clothing (7-12 years old), small children clothing (4-6 years old) (product/query : titre, description et variantes fournisseur)",
+      "supplierSizes": [
+        "Size 23",
+        "Size 24",
+        "25 Yards",
+        "Size 26",
+        "27 Yards",
+        "28 Yards",
+        "Size 29",
+        "Size 30",
+        "31 Yards",
+        "32 Yards",
+        "Size 33",
+        "34 Yards",
+        "35 Yards",
+        "36 Yards",
+        "Size 37"
+      ],
+      "sizeGuide": "Pointures fournisseur 23 à 37 ; variante contrôlée noire 25."
+    },
+    {
+      "id": "mini-et-moi-cj-1388025743379927040",
+      "pid": "1388025743379927040",
+      "vid": "1388025744785018880",
+      "name": "Baskets maille enfant à enfiler",
+      "description": "Des baskets basses à enfiler, avec dessus en maille et embout contrasté. La photo correspond au coloris jaune de la variante contrôlée.",
+      "category": "chaussures",
+      "categoryLabel": "Chaussures enfants",
+      "materialsText": "Semelle PVC déclarée par le fournisseur ; matière du dessus à confirmer.",
+      "image": "/media/mini-et-moi-cj-1388025743379927040.jpg",
+      "imageAlt": "Baskets maille enfant à enfiler — photo fournisseur",
+      "priceCustomer": null,
+      "purchaseEnabled": false,
+      "audienceTags": [
+        "bebe",
+        "enfant"
+      ],
+      "audienceSource": "bebe : Suitable age: Toddler clothes (1-3 years old), children clothes (4-6 years old) (product/query : titre, description et variantes fournisseur) ; enfant : Suitable age: Toddler clothes (1-3 years old), children clothes (4-6 years old) (product/query : titre, description et variantes fournisseur)",
+      "supplierSizes": [
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30"
+      ],
+      "sizeGuide": "Pointures fournisseur 21 à 30 ; variante contrôlée jaune 23. Guide fournisseur : longueur intérieure 12 à 16,5 cm."
+    },
+    {
+      "id": "mini-et-moi-cj-2407230648071607600",
+      "pid": "2407230648071607600",
+      "vid": "2407230648071608100",
+      "name": "Ensemble sweat et pantalon bébé « Little Bestie »",
+      "description": "Un ensemble bébé composé d’un sweat à message « Mama’s Little Bestie » et d’un pantalon. La variante de référence est brun rouge, 12–18 mois.",
+      "category": "joggings",
+      "categoryLabel": "Joggings et ensembles enfants",
+      "materialsText": "Coton déclaré par le fournisseur ; composition et étiquetage à confirmer.",
+      "image": "/media/mini-et-moi-cj-2407230648071607600.jpg",
+      "imageAlt": "Ensemble sweat et pantalon bébé « Little Bestie » — photo fournisseur",
+      "priceCustomer": null,
+      "purchaseEnabled": false,
+      "audienceTags": [
+        "bebe",
+        "enfant"
+      ],
+      "audienceSource": "bebe : Size table: 3-6Months, 6-12Months, 12-18Months, 18-24Months, 2-3Years; variants 0to6M, 6to12M, 12to18M, 18to24M, 2to3Y (product/query : titre, description et variantes fournisseur) ; enfant : Size table: 3-6Months, 6-12Months, 12-18Months, 18-24Months, 2-3Years; variants 0to6M, 6to12M, 12to18M, 18to24M, 2to3Y (product/query : titre, description et variantes fournisseur)",
+      "supplierSizes": [
+        "0to6M",
+        "6to12M",
+        "12to18M",
+        "18to24M",
+        "2to3Y"
+      ],
+      "sizeGuide": "Variantes fournisseur 0–6 mois, 6–12 mois, 12–18 mois, 18–24 mois et 2–3 ans. La table commence à 3–6 mois : faire confirmer la plus petite taille."
+    },
+    {
+      "id": "mini-et-moi-cj-1363773849132470272",
+      "pid": "1363773849132470272",
+      "vid": "1363773850550145024",
+      "name": "T-shirt enfant manches longues à licornes",
+      "description": "Un t-shirt enfant à manches longues, col rond et motif de deux licornes. La photo correspond au modèle bleu marine contrôlé.",
+      "category": "tshirts",
+      "categoryLabel": "T-shirts et hauts enfants",
+      "materialsText": "Coton déclaré par le fournisseur ; composition et étiquetage à confirmer.",
+      "image": "/media/mini-et-moi-cj-1363773849132470272.jpg",
+      "imageAlt": "T-shirt enfant manches longues à licornes — photo fournisseur",
+      "priceCustomer": null,
+      "purchaseEnabled": false,
+      "audienceTags": [
+        "enfant"
+      ],
+      "audienceSource": "enfant : Suitable age: Middle and small children (3~8 years old, 100~140cm); size table 2T–7T, height 90–140 cm (product/query : titre, description et variantes fournisseur)",
+      "supplierSizes": [
+        "2T",
+        "3T",
+        "4T",
+        "5T",
+        "6T",
+        "7T"
+      ],
+      "sizeGuide": "Tailles fournisseur 2T, 3T, 4T, 5T, 6T, 7T, avec tableau 90–140 cm. La fiche annonce aussi 3–8 ans : ces indications fournisseur ne constituent pas une équivalence d’âge certifiée."
+    },
+    {
+      "id": "mini-et-moi-cj-1473179439629209600",
+      "pid": "1473179439629209600",
+      "vid": "1473179440002502657",
+      "name": "Pantalon maille enfant à petits pois",
+      "description": "Un pantalon en maille à petits pois, avec taille élastiquée et chevilles resserrées. Le modèle photographié est rose.",
+      "category": "pantalons",
+      "categoryLabel": "Pantalons enfants",
+      "materialsText": "Coton déclaré dans la composition principale ; le titre évoque de la maille, sans composition laine confirmée.",
+      "image": "/media/mini-et-moi-cj-1473179439629209600.jpg",
+      "imageAlt": "Pantalon maille enfant à petits pois — photo fournisseur",
+      "priceCustomer": null,
+      "purchaseEnabled": false,
+      "audienceTags": [
+        "enfant"
+      ],
+      "audienceSource": "enfant : Product name: Children Cotton Knitted Wool Polka Dot Pants; Size 66cm,73cm,80cm,90cm,100cm (product/query : titre, description et variantes fournisseur)",
+      "supplierSizes": [
+        "66CM",
+        "73CM",
+        "80CM",
+        "90CM",
+        "100CM"
+      ],
+      "sizeGuide": "Tailles fournisseur 66, 73, 80, 90 et 100 cm ; variante contrôlée rose 80 cm. Aucun âge déduit de la photo."
+    },
+    {
+      "id": "mini-et-moi-cj-1435126867530223616",
+      "pid": "1435126867530223616",
+      "vid": "1435126867609915392",
+      "name": "Blouse enfant fleurie à col volanté",
+      "description": "Une blouse enfant à petites fleurs, manches longues et col volanté. La référence contrôlée est le haut beige ; le pantalon n’est pas garanti dans cette référence.",
+      "category": "tshirts",
+      "categoryLabel": "T-shirts et hauts enfants",
+      "materialsText": "Coton déclaré par le fournisseur ; composition et étiquetage à confirmer.",
+      "image": "/media/mini-et-moi-cj-1435126867530223616.jpg",
+      "imageAlt": "Blouse enfant fleurie à col volanté — photo fournisseur",
+      "priceCustomer": null,
+      "purchaseEnabled": false,
+      "audienceTags": [
+        "enfant"
+      ],
+      "audienceSource": "enfant : Product name: Girl Small Floral Blouse; Suitable height 66cm,73cm,80cm,90cm,100cm; variant Beige top-80cm (product/query : titre, description et variantes fournisseur)",
+      "supplierSizes": [
+        "66cm",
+        "73cm",
+        "80cm",
+        "90cm",
+        "100cm"
+      ],
+      "sizeGuide": "Tailles fournisseur 66, 73, 80, 90 et 100 cm ; variante contrôlée haut beige 80 cm."
+    },
+    {
+      "id": "mini-et-moi-cj-2502240643111602000",
+      "pid": "2502240643111602000",
+      "vid": "2502240643111603900",
+      "name": "Legging enfant uni",
+      "description": "Un legging enfant uni à taille élastiquée. Plusieurs hauteurs et coloris sont référencés par le fournisseur ; seule la variante noire 140 cm a son stock contrôlé ici.",
+      "category": "pantalons",
+      "categoryLabel": "Pantalons enfants",
+      "materialsText": "Le fournisseur déclare 92,3 % coton et 7,7 % élasthanne ; composition à vérifier sur étiquette.",
+      "image": "/media/mini-et-moi-cj-2502240643111602000.jpg",
+      "imageAlt": "Legging enfant uni — photo fournisseur",
+      "priceCustomer": null,
+      "purchaseEnabled": false,
+      "audienceTags": [
+        "enfant"
+      ],
+      "audienceSource": "enfant : Product name: Girls Solid Color High-elastic Leggings; Reference height 80cm,90cm,100cm,110cm,120cm,130cm,140cm (product/query : titre, description et variantes fournisseur)",
+      "supplierSizes": [
+        "80cm",
+        "90cm",
+        "110cm",
+        "120cm",
+        "130cm",
+        "140cm"
+      ],
+      "sizeGuide": "Hauteurs fournisseur indiquées 80 à 140 cm ; variantes reçues selon coloris. Variante contrôlée noire 140 cm. Aucun âge adolescent déduit."
     }
   ]
 }

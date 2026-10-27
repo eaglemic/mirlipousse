@@ -33,3 +33,8 @@ L’illustration fournie par l’utilisateur représente l’univers Mini & Moi,
 ## Les motifs en français
 
 [Découvrir les dix motifs numériques](https://mini-et-moi.onrender.com/motifs/) — créations graphiques, sans vêtement fabriqué ni commande de personnalisation.
+
+
+## Collections enfants et adultes
+
+Accès directs : [Enfants](https://mini-et-moi.onrender.com/enfants.html), [Adultes](https://mini-et-moi.onrender.com/adultes.html), [Duos & famille](https://mini-et-moi.onrender.com/duos.html). 18 références physiques réelles, dont 12 avec une tranche enfant/bébé documentée, 10 adultes et 4 mixtes (les nombres se recoupent). Les 10 motifs restent des créations numériques, sans vêtement fabriqué inclus. Aucun paiement ou commande.

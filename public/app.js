@@ -40,7 +40,8 @@
   const menu = document.querySelector('.menu-toggle'), navigation = document.getElementById('navigation');
   menu.addEventListener('click', () => { const open = menu.getAttribute('aria-expanded') !== 'true'; menu.setAttribute('aria-expanded', String(open)); navigation.classList.toggle('open', open); });
   document.addEventListener('keydown', event => { if (event.key === 'Escape' && navigation.classList.contains('open')) { navigation.classList.remove('open'); menu.setAttribute('aria-expanded', 'false'); menu.focus(); } });
-  let category = 'all', audience = 'all';
+  const initialAudience = new URL(location.href).searchParams.get('audience');
+  let category = 'all', audience = ['naissance','bebe','enfant','ado','adulte'].includes(initialAudience) ? initialAudience : 'all';
   function applyFilters() {
     let visible = 0;
     document.querySelectorAll('.filter-item').forEach(item => {
@@ -57,6 +58,7 @@
   }
   document.querySelectorAll('[data-filter]').forEach(button => button.addEventListener('click', () => { category = button.dataset.filter; applyFilters(); }));
   document.querySelectorAll('[data-audience-filter]').forEach(button => button.addEventListener('click', () => { audience = button.dataset.audienceFilter; applyFilters(); }));
+  if (document.querySelector('.filter-item')) applyFilters();
   if (config.adultOnly === true) {
     if (config.brandSlug !== 'nuitrelia') throw new Error('Univers adulte incohérent');
     const gate = document.getElementById('adult-gate');
