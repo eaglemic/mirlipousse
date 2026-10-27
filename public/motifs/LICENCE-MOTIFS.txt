@@ -1,0 +1,7 @@
+Mini & Moi — motifs originaux français
+
+Les compositions graphiques de cette remise sont originales et créées pour le projet Mini & Moi : elles peuvent être utilisées, adaptées, imprimées et diffusées commercialement pour ce projet, sans redevance ajoutée par cette remise. Aucun logo, personnage ou photographie fournisseur n’est repris.
+
+La typographie est vectorisée à partir des fontes libres DejaVu et Noto installées sur le poste. Les notices de leurs licences respectives ainsi que celle de l’outil de conversion OpenType sont conservées dans licences/. Aucune police complète n’est redistribuée et aucun nom de police modifié n’est présenté comme une nouvelle police.
+
+Cette autorisation de réutilisation des compositions ne vaut pas validation de fabrication chez un fournisseur, de conformité du vêtement, de prix de vente ou de disponibilité de marque. Les supports physiques CJ sont documentés dans un autre lot et ne sont pas inclus dans ces fichiers.

@@ -29,3 +29,7 @@ Le vérificateur contrôle uniquement le manifeste de cette marque, ses empreint
 La disponibilité juridique du nom est en cours de vérification. Aucune société fictive, délai de livraison, certification ou vente qualifiée n’est annoncé.
 
 L’illustration fournie par l’utilisateur représente l’univers Mini & Moi, pas les SKU de la collection. Une photographie familiale ne constitue pas une offre de lot. Les tranches d’âge sont signalées uniquement selon les indications fournisseur documentées.
+
+## Les motifs en français
+
+[Découvrir les dix motifs numériques](https://mini-et-moi.onrender.com/motifs/) — créations graphiques, sans vêtement fabriqué ni commande de personnalisation.

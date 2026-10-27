@@ -1,0 +1,122 @@
+{
+  "format": "mini-et-moi-motifs-originaux/1",
+  "brand": "Mini & Moi",
+  "type": "designs_numeriques_pas_articles_fabriques",
+  "width": 4000,
+  "height": 4000,
+  "background": "transparent",
+  "textAsPaths": true,
+  "noExternalAssets": true,
+  "designs": [
+    {
+      "slug": "parrain",
+      "label": "Parrain",
+      "captionTop": "LES LIENS QUI COMPTENT",
+      "captionBottom": "pour la vie",
+      "svg": "svg/parrain.svg",
+      "png": "png/parrain.png",
+      "style": "seal",
+      "productionValidated": false,
+      "purchaseEnabled": false
+    },
+    {
+      "slug": "marraine",
+      "label": "Marraine",
+      "captionTop": "UN LIEN PRÉCIEUX",
+      "captionBottom": "tout simplement",
+      "svg": "svg/marraine.svg",
+      "png": "png/marraine.png",
+      "style": "heart",
+      "productionValidated": false,
+      "purchaseEnabled": false
+    },
+    {
+      "slug": "tonton",
+      "label": "Tonton",
+      "captionTop": "COMPLICE EN GRAND",
+      "captionBottom": "des petits bonheurs",
+      "svg": "svg/tonton.svg",
+      "png": "png/tonton.png",
+      "style": "ribbon",
+      "productionValidated": false,
+      "purchaseEnabled": false
+    },
+    {
+      "slug": "tata",
+      "label": "Tata",
+      "captionTop": "UNE TATA",
+      "captionBottom": "au grand cœur",
+      "svg": "svg/tata.svg",
+      "png": "png/tata.png",
+      "style": "heart",
+      "productionValidated": false,
+      "purchaseEnabled": false
+    },
+    {
+      "slug": "neveu",
+      "label": "Neveu",
+      "captionTop": "PETITE ÉTOILE",
+      "captionBottom": "grands liens",
+      "svg": "svg/neveu.svg",
+      "png": "png/neveu.png",
+      "style": "stars",
+      "productionValidated": false,
+      "purchaseEnabled": false
+    },
+    {
+      "slug": "niece",
+      "label": "Nièce",
+      "captionTop": "PETITE ÉTOILE",
+      "captionBottom": "grands liens",
+      "svg": "svg/niece.svg",
+      "png": "png/niece.png",
+      "style": "stars",
+      "productionValidated": false,
+      "purchaseEnabled": false
+    },
+    {
+      "slug": "papa",
+      "label": "Papa",
+      "captionTop": "NOTRE REPÈRE",
+      "captionBottom": "chaque jour",
+      "svg": "svg/papa.svg",
+      "png": "png/papa.png",
+      "style": "seal",
+      "productionValidated": false,
+      "purchaseEnabled": false
+    },
+    {
+      "slug": "maman",
+      "label": "Maman",
+      "captionTop": "TOUS CES PETITS LIENS",
+      "captionBottom": "un grand amour",
+      "svg": "svg/maman.svg",
+      "png": "png/maman.png",
+      "style": "heart",
+      "productionValidated": false,
+      "purchaseEnabled": false
+    },
+    {
+      "slug": "frere",
+      "label": "Frère",
+      "captionTop": "DANS LA MÊME ÉQUIPE",
+      "captionBottom": "depuis toujours",
+      "svg": "svg/frere.svg",
+      "png": "png/frere.png",
+      "style": "ribbon",
+      "productionValidated": false,
+      "purchaseEnabled": false
+    },
+    {
+      "slug": "soeur",
+      "label": "Sœur",
+      "captionTop": "DANS LA MÊME ÉQUIPE",
+      "captionBottom": "depuis toujours",
+      "svg": "svg/soeur.svg",
+      "png": "png/soeur.png",
+      "style": "ribbon",
+      "productionValidated": false,
+      "purchaseEnabled": false
+    }
+  ]
+}

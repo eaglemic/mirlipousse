@@ -1,6 +1,6 @@
 {
   "format": "boutique-export/1",
-  "dateUTC": "2026-10-27T20:59:50.447696Z",
+  "dateUTC": "2026-10-27T21:20:43.704551+00:00",
   "brandSlug": "mini-et-moi",
   "name": "Mini & Moi",
   "branche": "entreprise/mini-et-moi",
@@ -64,8 +64,8 @@
     },
     {
       "path": "familles.html",
-      "sha256": "b4fb449705b84d25d2543ed7e9a1981b041abc24c3110900919e3e38c619ba6e",
-      "octets": 16279
+      "sha256": "989430bf79dcf09d6ab02cd0f6a0695f09a58d0a4b58d80c44ff0b9c78218e58",
+      "octets": 16610
     },
     {
       "path": "guide.html",
@@ -74,8 +74,8 @@
     },
     {
       "path": "index.html",
-      "sha256": "f192709bdbd36e01739b774eef85a91d5b49e368e32fbb350dc832eda79884c9",
-      "octets": 33500
+      "sha256": "fc4a01dd9e6b6ec785e4c949fe62167b6f55a5ba6a51624cb5ed4fd258b3b3a0",
+      "octets": 33548
     },
     {
       "path": "livraison.html",
@@ -153,6 +153,141 @@
       "octets": 15894
     },
     {
+      "path": "motifs/DESIGNS.json",
+      "sha256": "1c34532fd905918e7aacf29762710ec852110e314f321521959eea2170d2194b",
+      "octets": 3210
+    },
+    {
+      "path": "motifs/LICENCE-MOTIFS.txt",
+      "sha256": "79ec01da7d8c8199d291ac4445066fe2ae9d1be4657601fb995116b99b641910",
+      "octets": 998
+    },
+    {
+      "path": "motifs/galerie.css",
+      "sha256": "7bdafa039209386acf98c237507b637afbb5c048f4165aeca75b829b49796578",
+      "octets": 1814
+    },
+    {
+      "path": "motifs/index.html",
+      "sha256": "2bb66354c467b5bf6f7977f317668da3acbf7887e53de8fdcd7c5d2d42907a84",
+      "octets": 22636
+    },
+    {
+      "path": "motifs/licences/DEJAVU-PERMISSION.txt",
+      "sha256": "63d3ba759d12804c5b31a9d5940d855c1820d1f5999e6b0872eb1c7ff045fbc9",
+      "octets": 3859
+    },
+    {
+      "path": "motifs/licences/NOTO-OFL.txt",
+      "sha256": "075f91382875da1c4b491f1facf2586f55448705133264d98ce15cab6211b125",
+      "octets": 5208
+    },
+    {
+      "path": "motifs/licences/OPENTYPE-MIT.txt",
+      "sha256": "a5b87c9bc191e7f9c06b07bd7cbbed3ed846dfdb50e859484b2c245aa1ab2e61",
+      "octets": 1085
+    },
+    {
+      "path": "motifs/png/frere.png",
+      "sha256": "4b41014cc713cf51040644c6f69fbfeaddbbd8dd10006f5853b56dc23eb07ef5",
+      "octets": 45115
+    },
+    {
+      "path": "motifs/png/maman.png",
+      "sha256": "d7f40571d1fe4852dc5acec7c2efde4c20feb09c3bd5171896105761680cd1ec",
+      "octets": 62157
+    },
+    {
+      "path": "motifs/png/marraine.png",
+      "sha256": "03e41a3ddea30d6340c6d6b0e7d8e38df0ad14cedbdb12715fd2bc8cc7f3727e",
+      "octets": 64979
+    },
+    {
+      "path": "motifs/png/neveu.png",
+      "sha256": "10c55069bb84fa9aa2914289fbda43b039f6bb282d5c63ab03f6a5155c16340a",
+      "octets": 47164
+    },
+    {
+      "path": "motifs/png/niece.png",
+      "sha256": "8a7e2a38c5925353fc779950a6c8e0c60e3c857f8dd6721505cf035dd67ad18b",
+      "octets": 50809
+    },
+    {
+      "path": "motifs/png/papa.png",
+      "sha256": "c581145e5f9f02759e6004dcf634ddf48ea88013f268cd311e61a2db976cd08a",
+      "octets": 96208
+    },
+    {
+      "path": "motifs/png/parrain.png",
+      "sha256": "cfbedddd8695c0d71e261768943d989b572fd282340a4646e3ebca28267dae58",
+      "octets": 98692
+    },
+    {
+      "path": "motifs/png/soeur.png",
+      "sha256": "5e20be4a3fe5606b37b8ca91b9f95776011308ddea5c3f957cd15e3acff6475e",
+      "octets": 50951
+    },
+    {
+      "path": "motifs/png/tata.png",
+      "sha256": "529e53a6755197bdac03cd83a4a8edbcadfa72c95adb048de670adb929e68152",
+      "octets": 48340
+    },
+    {
+      "path": "motifs/png/tonton.png",
+      "sha256": "45da47b834be6f11e5c370dcf72dddbbfe8596c6638aecab49c7646890868467",
+      "octets": 48818
+    },
+    {
+      "path": "motifs/svg/frere.svg",
+      "sha256": "e859ee46d48cbcc92f718244e231bc6a08b62c0930c3d9a3bbf0367767d84204",
+      "octets": 27725
+    },
+    {
+      "path": "motifs/svg/maman.svg",
+      "sha256": "c2b85425671945d6cdb827282e3b0db2998771ee6bee49b6a6184ccac7a1bc82",
+      "octets": 35367
+    },
+    {
+      "path": "motifs/svg/marraine.svg",
+      "sha256": "dd2651f3f5bc508615d2d05b5bd96b8d5b5f4d3894f8e6bf9eefe8a8c7b8c494",
+      "octets": 33400
+    },
+    {
+      "path": "motifs/svg/neveu.svg",
+      "sha256": "626214acd7b8fb161ada105b368b3821b792c09f67d78b9a9887fc99eb3ec411",
+      "octets": 22951
+    },
+    {
+      "path": "motifs/svg/niece.svg",
+      "sha256": "f4d752ac90a4e2e2cd3674ca235732659cf5d97023d3082b7d4b1fcdbddf67e1",
+      "octets": 25906
+    },
+    {
+      "path": "motifs/svg/papa.svg",
+      "sha256": "aacf995ad3269a9dc72f80db5ef7c2d744e72004ce2237b35dc1fe6ab9316c2b",
+      "octets": 23184
+    },
+    {
+      "path": "motifs/svg/parrain.svg",
+      "sha256": "ea02a43c2ccd612b2535ffb74c94af06f00fd3da07267d930b7b3c361de6de1f",
+      "octets": 25145
+    },
+    {
+      "path": "motifs/svg/soeur.svg",
+      "sha256": "d007847daffa428d0b5e58384a3c7196e3a5d2745cc8d5f06229360ec5baee25",
+      "octets": 30163
+    },
+    {
+      "path": "motifs/svg/tata.svg",
+      "sha256": "501525d72c9d6b2a976eefa3a1e9234f2bf6418c5e3ec40ad3f01e92a8fc1dca",
+      "octets": 24462
+    },
+    {
+      "path": "motifs/svg/tonton.svg",
+      "sha256": "a91aec317da7aa25ac96d39743eaa983ce91e1a67da9aaeca9b94df07ba26df8",
+      "octets": 31862
+    },
+    {
       "path": "produits/mini-et-moi-cj-1388007897690148864.html",
       "sha256": "342e20b85d7d91fad1317eb7d36fc5d21c4e21040fac0399babba214ddcead7f",
       "octets": 16764
@@ -219,13 +354,16 @@
     },
     {
       "path": "sitemap.xml",
-      "sha256": "a5932b06ee8318cff00527c835a1b6f814ad017eee77d4886a1bde8f261de20a",
-      "octets": 2076
+      "sha256": "80d9425981a8325e477eb8c28526e20149cd251b4fa13e4d9c1a0d6b77a4fd3b",
+      "octets": 2138
     },
     {
       "path": "style.css",
       "sha256": "0f4e0f8a01a59e7f3072158a46062d81f5039d89cad8902f28641061e962c007",
       "octets": 29097
     }
-  ]
+  ],
+  "motifsNumeriques": 10,
+  "nouveauxSKU": 0,
+  "sourceMotifsRemiseSHA256": "12d1b5398c27fb31628be388d713d14a1b9916f1c980439c0e85a4f97a6436a9"
 }
