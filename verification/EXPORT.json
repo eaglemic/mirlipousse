@@ -1,10 +1,10 @@
 {
   "format": "mirlipousse-export-statique/2",
-  "dateUTC": "2026-10-27T20:36:07.447928+00:00",
+  "dateUTC": "2026-10-27T20:57:15.846239+00:00",
   "succes": true,
   "origineCandidateNonReservee": "https://mirlipousse.onrender.com",
   "pagesHTML": 20,
-  "assetsEtPages": 96,
+  "assetsEtPages": 98,
   "achatsOuverts": false,
   "apiDeployee": false,
   "serveurOuSecretsInclus": false,
@@ -25,8 +25,10 @@
     "_next/static/css/page.D_71ifoz.css": "795d871f7682abc54a574eb21f976e1c26bd39efcc61ca7d577c7edfc04e9273",
     "apple-touch-icon.png": "90b5de154394609ccfeccde3e6d67306403184386c8db83dfda12e3d2556156f",
     "assets/catalogue-B9PpX3N_.js": "98276cb4c6dd4144e44c286bc46ba6a84a7963bdb2b6f5f87c45cf455457dbb4",
+    "assets/catalogue-BBds7_pu.js": "c7cc8f45512d04f05f2458a72c71551a302faa497c42002464a450f9ade673aa",
     "assets/catalogue-Bhmass9N.css": "efc633d567c018ef6f99c40b71d447d2d66a67c21d0c613c83e1d4ebb21fbb2b",
     "assets/catalogue-CzHWsMMC.js": "2aaceaaa77d0d2b08229c995264673f2cdeb24fc6bbe45adfbc7554340198cbe",
+    "assets/catalogue-DCvd8723.css": "f2a794edd9b4d8dfcfcfbb26ef264c691f8f870de79473d09eda6f39e1578971",
     "assets/catalogue-R-yjRTmN.css": "d093dfae80965eea7785b6a74f78a4f5211e41c59977e36ab641a26887d1bfcc",
     "avis.css": "baf409a177206325ef6b7df2a87ba61fbd8804e40e941f820192acc9b036be3f",
     "avis.html": "2f20d335bba1b845cc4a5b28054e90567999a1f289d6784c8267cc9fcb7f7942",
@@ -55,7 +57,7 @@
     "illustrations/petits-batisseurs.svg": "4abaeea0fd8840f1b06e61471b27aec77a5180a828ead6b90a1333ec3b07f918",
     "illustrations/pochon-tresors.svg": "4ef96c0b9bc7abeb91f3a2fb7036d11e1290fb37397bebd9379f58c58b273a6d",
     "illustrations/sac-exploration.svg": "1683dafc1770b20f97001b227620009a4f9eb3449f348dd170d918f9423ced65",
-    "index.html": "4c00d84ab49094335c7a4360ce0eda9f064ddaeae9d3054ea7b1d9e0894a919d",
+    "index.html": "b414c6a1ab84103f0984e05d3590fe2ca9402ef5c193c3b4e74370b8852ae15a",
     "livraison-retours/index.html": "21f0fb6a36e19e5659818b37720462422deadf0322af44744f00916caf8207e6",
     "media/campagne/mirlipousse-post-1080x1350-v1.png": "c27ba6b0f7a9691e86fc37c029517562f1058d8fa26cfd5bfa71d22a02b8c5c6",
     "media/campagne/mirlipousse-story-1080x1920-v1.png": "fb6668e69cd1789a26ce861235cb950342fdc098826347504bfbc8bb5cba03e3",
@@ -140,5 +142,14 @@
   },
   "apiDeployeePortee": "Aucune API embarquée dans cet export statique ; API d’avis externe déjà déployée et vérifiée séparément.",
   "pagesHTMLHors404": true,
-  "pages404": 1
+  "pages404": 1,
+  "motionRefinement": {
+    "heroAccentsSVG": 3,
+    "rasterProduitModifie": false,
+    "animationsDecorativesIterationsMax": 3,
+    "bouclesJSAnimationContinues": false,
+    "pauseHeroHorsChamp": true,
+    "reducedMotion": "préférence système, runtime aussi",
+    "tactile": "sans parallaxe"
+  }
 }
