@@ -1,0 +1,193 @@
+{
+  "format": "boutique-remise-v2/1",
+  "dateUTC": "2026-10-27T21:13:00.085765+00:00",
+  "brandSlug": "burozea",
+  "succes": true,
+  "termine": true,
+  "applique": false,
+  "publicationFaite": false,
+  "paquet": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/burozea",
+  "branch": "entreprise/burozea",
+  "products": 3,
+  "publicFiles": 24,
+  "origin": "https://burozea.onrender.com",
+  "salesEnabled": false,
+  "avisEnabled": true,
+  "planCAS": {
+    "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/plans-cas/burozea.json",
+    "sha256": "a9ab5d92e468e8072da97cdf67ac899304822b1401ba98e8d01a143964664a32"
+  },
+  "export": {
+    "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/burozea/verification/EXPORT.json",
+    "sha256": "9ce7e0eeb5d8def3ec342276f349ea63cc5ff138e6cff546af7bcbe49f425573",
+    "octets": 4244
+  },
+  "codePublic": [
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/burozea/public/404.html",
+      "sha256": "0d07bdef3a1488587efcc7197434fb1456c8a2c492e889503272d7192e9e0ee7",
+      "octets": 6159,
+      "relativePath": "public/404.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/burozea/public/app.js",
+      "sha256": "b6354e9cd002e432a34a873a0ba6e3e48cababab656bb82f1835e6a51d5d61f5",
+      "octets": 14451,
+      "relativePath": "public/app.js"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/burozea/public/avis.html",
+      "sha256": "ccaf89c4da9fa484b0e80ca5d20df84624a782712f1742557e9de9bbcbc9e153",
+      "octets": 8181,
+      "relativePath": "public/avis.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/burozea/public/brand.json",
+      "sha256": "45924b786a32a83f6f0af3d34ad09710fd839c6fed73e5e1ebc824ef3b66fbe9",
+      "octets": 203,
+      "relativePath": "public/brand.json"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/burozea/public/catalogue.html",
+      "sha256": "cfbd29b23a37e80c028085eebca89bc78576d9da14567aec0a85eefef5250def",
+      "octets": 10090,
+      "relativePath": "public/catalogue.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/burozea/public/catalogue.json",
+      "sha256": "b19b4c2efe646247e12781b57f2025abf0452abbde059d464c6b43c0e6a919f4",
+      "octets": 2521,
+      "relativePath": "public/catalogue.json"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/burozea/public/conditions.html",
+      "sha256": "697c795218f2c65223642e55a3e80c8178356b52950d34d2477bcdb8b78a00db",
+      "octets": 6888,
+      "relativePath": "public/conditions.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/burozea/public/confidentialite.html",
+      "sha256": "132ceed8b84da63f9788396be91cdf4c78529346de97c0ddc6ab8221de371edf",
+      "octets": 8292,
+      "relativePath": "public/confidentialite.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/burozea/public/contact.html",
+      "sha256": "138671467a6823632c7159cf431267cb16ce8c582d711be04cea90e3fecce646",
+      "octets": 6547,
+      "relativePath": "public/contact.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/burozea/public/guide.html",
+      "sha256": "1ecf1e5a61e32549831f5ec7803562a03e1983302d651ab402daff6018496b83",
+      "octets": 6621,
+      "relativePath": "public/guide.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/burozea/public/index.html",
+      "sha256": "376838187a8cd9d39d5a1e96dc0c77223c5a5e2da9d775e145b788acd5396e75",
+      "octets": 14676,
+      "relativePath": "public/index.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/burozea/public/livraison.html",
+      "sha256": "2a15d202285302516a20a4613c9d9a09158f26e265ec72e50b1cd26c2362ebf9",
+      "octets": 6781,
+      "relativePath": "public/livraison.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/burozea/public/media/burozea-cj-1380028552015122432.jpg",
+      "sha256": "9d5746b94069938362c0f4e85184f0c05f76aa5041ed27ee1729a25989ccd581",
+      "octets": 202420,
+      "relativePath": "public/media/burozea-cj-1380028552015122432.jpg"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/burozea/public/media/burozea-cj-1646726512265547776.jpg",
+      "sha256": "f9f323cb6aaf040ab10f655f2de0048f76f7bab865eacfa5a9afc0e6b91a391f",
+      "octets": 241727,
+      "relativePath": "public/media/burozea-cj-1646726512265547776.jpg"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/burozea/public/media/burozea-cj-1703055389602238464.jpg",
+      "sha256": "95975a359aab60c4ff939542de1b15831cf9d1f065123c5265c0958a52b9665b",
+      "octets": 589210,
+      "relativePath": "public/media/burozea-cj-1703055389602238464.jpg"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/burozea/public/media/embleme.svg",
+      "sha256": "e704abe6efd2528953f34cccac6c03f9ed95f41e0ede86663686c3f10318bf00",
+      "octets": 341,
+      "relativePath": "public/media/embleme.svg"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/burozea/public/mentions-legales.html",
+      "sha256": "e1269da6c753dc10ed547855605c9ba20e77327383c7f041465a367f07c9d039",
+      "octets": 7065,
+      "relativePath": "public/mentions-legales.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/burozea/public/produits/burozea-cj-1380028552015122432.html",
+      "sha256": "67b1108be84f1bd30170579e2ac8192674e07b9e3e98334fbb1711f1c26bb50b",
+      "octets": 7862,
+      "relativePath": "public/produits/burozea-cj-1380028552015122432.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/burozea/public/produits/burozea-cj-1646726512265547776.html",
+      "sha256": "1cf68a4b11ecafa1f76733c4f8e09e515b58ec10b6b84f7a1a362fd686b27f03",
+      "octets": 7857,
+      "relativePath": "public/produits/burozea-cj-1646726512265547776.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/burozea/public/produits/burozea-cj-1703055389602238464.html",
+      "sha256": "27ba8dba7e267361d409e8f6830f4360958f679c180c2a5462fb3a38409990a2",
+      "octets": 7880,
+      "relativePath": "public/produits/burozea-cj-1703055389602238464.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/burozea/public/retours.html",
+      "sha256": "5c8df24116cdbf2b506ebb9d10efd64dd3fbaa8d6897ed3b2de60c273cdb5f32",
+      "octets": 6853,
+      "relativePath": "public/retours.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/burozea/public/robots.txt",
+      "sha256": "86758fb60364718ebbb6b9da624dae91c410d74bb93ca8a37482b30cd99df736",
+      "octets": 73,
+      "relativePath": "public/robots.txt"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/burozea/public/sitemap.xml",
+      "sha256": "6f1449104e696d18c02d7cbcd9fa78782fbf0d8b8faf398ecacb1ae1d7e561b2",
+      "octets": 1039,
+      "relativePath": "public/sitemap.xml"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/burozea/public/style.css",
+      "sha256": "eb4b0252f4b1d54359035c957b43aeec9fcaf931be2aac3487c54d9cc7c03381",
+      "octets": 29097,
+      "relativePath": "public/style.css"
+    }
+  ],
+  "preuveFonctionnelle12": {
+    "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/verification/recette-2026-10-27T21-01-36-999Z/RECETTE-NAVIGATEUR.json",
+    "sha256": "1efb0f7f45efa79af1d53e55fd30cf7e0e0adcca96f27cb8b30c5a2c1c84fb7d",
+    "octets": 79639
+  },
+  "complementCSSReference3": {
+    "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/verification/complement-motion-2026-10-27T21-10-29-869Z/RECETTE-NAVIGATEUR.json",
+    "sha256": "4ddd5f2f7c8ab6358f8375e4d4f8d009b978181b884120b62c35127c8f089d13",
+    "octets": 4648
+  },
+  "porteeReuse": "HTML, produits, images, sélection, filtres, dialogue et formulaires de la recette12 inchangés. Le JS de retour POST et CSS décorative ont ensuite reçu les deux finitions explicitement qualifiées sur trois profils.",
+  "finitions": {
+    "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/verification/FINITIONS-BORNE-REFERENCE.json",
+    "sha256": "978416bae59d21ba8bdf90c7328f8cb05a892769ccf561a9e017e72ba965fadc",
+    "octets": 6817
+  },
+  "limites": [
+    "Ventes fermées et prix client non définis.",
+    "Avis du navigateur en recette interceptés par fixture locale explicite ; aucun avis produit créé ou publié.",
+    "Chromium headless local seulement, aucun téléphone physique.",
+    "Root seul opérateur publication, aucun push ou service modifié par cet agent."
+  ]
+}

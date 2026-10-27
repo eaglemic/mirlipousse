@@ -106,12 +106,53 @@
       try {
         const response = await fetch(endpoint, {method:'POST',credentials:'omit',headers:{'Content-Type':'application/json',Accept:'application/json'},body:JSON.stringify(payload)});
         const data = await response.json();
-        if (response.status !== 201 || data.received !== true || data.status !== 'pending' || typeof data.id !== 'string') {
+        if (response.status !== 201 || data.received !== true || data.status !== 'pending' || typeof data.id !== 'string' || !/^[A-Za-z0-9-]{10,80}$/.test(data.id)) {
           const messages = {INVALID_INPUT:'Vérifiez les champs de votre avis.',ORIGIN_DENIED:'Le dépôt est fermé depuis cette adresse du site.',RATE_LIMITED:'Trop de tentatives : patientez avant de réessayer.',REVIEWS_UNAVAILABLE:'Le dépôt est temporairement indisponible.'};
           say(messages[data.error?.code] || 'L’envoi de votre avis n’a pas été confirmé.');button.disabled = false;return;
         }
-        form.reset();fieldset.disabled = true; say('Merci, votre avis a été reçu. Il sera visible après modération.');button.textContent = 'Avis transmis pour relecture';
+        form.reset();fieldset.disabled = true; say(`Merci, votre avis a été reçu. Il sera visible après modération. Référence : ${data.id}. Conservez-la pour demander son retrait.`);button.textContent = 'Avis transmis pour relecture';
       } catch {say('La réception n’est pas confirmée. Aucun renvoi automatique n’est effectué.');button.disabled = false;}
     });
   } catch { publicError(); }
+})();
+
+/* Présentation seulement : aucun réseau, prix, paiement ou stockage supplémentaire. */
+(() => {
+  'use strict';
+  const root=document.documentElement;
+  if(root.dataset.motionStudio)return;
+  const preference=typeof matchMedia==='function'?matchMedia('(prefers-reduced-motion: reduce)'):null;
+  const running=new Set(),seen=new WeakSet();let observer=null;
+  function animate(node,frames,options){
+    if(preference?.matches||document.hidden||typeof node.animate!=='function')return;
+    try{const animation=node.animate(frames,{fill:'none',...options});running.add(animation);animation.finished.then(()=>running.delete(animation),()=>running.delete(animation));return animation;}catch{/* Le contenu et les contrôles restent disponibles sans motion. */}
+  }
+  function stop(){for(const animation of running)animation.cancel();running.clear();observer?.disconnect();observer=null;}
+  function update(){
+    root.dataset.motionPaused=String(document.hidden);
+    if(preference?.matches){root.dataset.motionStudio='reduced';stop();return;}
+    if(document.hidden){root.dataset.motionStudio='paused';stop();return;}
+    root.dataset.motionStudio='active';
+    if(observer||typeof IntersectionObserver!=='function')return;
+    const targets=Array.from(document.querySelectorAll('.product-card,.section-heading,.ritual-strip>div,.guide-promo>div,.three-columns>div,.reviews-heading,.reviews-grid>* , .prose>section,.age-card')).slice(0,80);
+    const order=new WeakMap(targets.map((node,index)=>[node,index]));
+    observer=new IntersectionObserver(entries=>{
+      for(const entry of entries){
+        if(!entry.isIntersecting||seen.has(entry.target))continue;
+        seen.add(entry.target);entry.target.dataset.motionRevealed='true';
+        animate(entry.target,[{opacity:.45,transform:'translateY(18px)'},{opacity:1,transform:'translateY(0)'}],{duration:560,delay:(order.get(entry.target)%3)*65,easing:'cubic-bezier(.2,.7,.2,1)'});
+        observer?.unobserve(entry.target);
+      }
+    },{threshold:.08,rootMargin:'0px 0px -24px 0px'});
+    for(const node of targets)if(!seen.has(node))observer.observe(node);
+  }
+  document.querySelectorAll('.add-selection,.selection-toggle,.filter').forEach(button=>button.addEventListener('click',()=>{
+    animate(button,[{transform:'scale(1)'},{transform:'scale(.95)'},{transform:'scale(1)'}],{duration:230,easing:'ease-out'});
+  }));
+  document.querySelectorAll('details').forEach(node=>node.addEventListener('toggle',()=>{if(node.open)for(const child of node.children)if(child.tagName!=='SUMMARY')animate(child,[{opacity:.6,transform:'translateY(-4px)'},{opacity:1,transform:'none'}],{duration:180,easing:'ease-out'});}));
+  if(typeof MutationObserver==='function'){
+    const modals=new MutationObserver(records=>{for(const record of records)if(record.target.open)animate(record.target,[{opacity:.75,transform:'translateY(8px)'},{opacity:1,transform:'translateY(0)'}],{duration:190,easing:'ease-out'});});
+    document.querySelectorAll('dialog').forEach(dialog=>modals.observe(dialog,{attributes:true,attributeFilter:['open']}));
+  }
+  preference?.addEventListener?.('change',update);document.addEventListener('visibilitychange',update);update();
 })();
