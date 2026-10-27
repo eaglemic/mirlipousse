@@ -1,0 +1,193 @@
+{
+  "format": "boutique-remise-v2/1",
+  "dateUTC": "2026-10-27T21:13:00.905631+00:00",
+  "brandSlug": "moustelio",
+  "succes": true,
+  "termine": true,
+  "applique": false,
+  "publicationFaite": false,
+  "paquet": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/moustelio",
+  "branch": "entreprise/moustelio",
+  "products": 3,
+  "publicFiles": 24,
+  "origin": "https://moustelio.onrender.com",
+  "salesEnabled": false,
+  "avisEnabled": true,
+  "planCAS": {
+    "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/plans-cas/moustelio.json",
+    "sha256": "7562410ed09e7d63705264939c5e00de6a50d6df680ee65452ae281591e171c8"
+  },
+  "export": {
+    "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/moustelio/verification/EXPORT.json",
+    "sha256": "0cc7a5611e9115973716bed3b9e18881fbc486d49dc0410d5226f3e2c9f4f29c",
+    "octets": 4264
+  },
+  "codePublic": [
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/moustelio/public/404.html",
+      "sha256": "2ae653a1a9d7087a9608a4034146088c504c1d5d2b804730e3903cd3d61bdeb9",
+      "octets": 6430,
+      "relativePath": "public/404.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/moustelio/public/app.js",
+      "sha256": "b6354e9cd002e432a34a873a0ba6e3e48cababab656bb82f1835e6a51d5d61f5",
+      "octets": 14451,
+      "relativePath": "public/app.js"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/moustelio/public/avis.html",
+      "sha256": "08096d85981aa1d243aa596b232ea9bc2a6d6c7745b7edb254adfbe11facf5e2",
+      "octets": 8456,
+      "relativePath": "public/avis.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/moustelio/public/brand.json",
+      "sha256": "a314ec8b8785f8dd644b861511cbf7449d5c348d93b4ba87ea2cd3dc7b067939",
+      "octets": 212,
+      "relativePath": "public/brand.json"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/moustelio/public/catalogue.html",
+      "sha256": "6819fd520aec6a088dd6f46e7a0a86551b9cefdb65dd535aae24fc37cd3d2c13",
+      "octets": 10293,
+      "relativePath": "public/catalogue.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/moustelio/public/catalogue.json",
+      "sha256": "a8241b920ad89769d32da1130f3bf2d9ee1a7e8480b82f2aaeea2a75ff2705ca",
+      "octets": 2674,
+      "relativePath": "public/catalogue.json"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/moustelio/public/conditions.html",
+      "sha256": "8df06f86a1df9de350ea21e0833b7f18baa6774dfa02f37cfe6ef5ae25dc91c1",
+      "octets": 7159,
+      "relativePath": "public/conditions.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/moustelio/public/confidentialite.html",
+      "sha256": "4169e47c429e495233501b437e3fd13a5b422c2814001ccc582adf9601e6c0d5",
+      "octets": 8563,
+      "relativePath": "public/confidentialite.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/moustelio/public/contact.html",
+      "sha256": "8cccdc762b59ceefe0674eee788d7343aec5398e2ce47e4562987adf03f053f5",
+      "octets": 6818,
+      "relativePath": "public/contact.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/moustelio/public/guide.html",
+      "sha256": "448671fbb9fce08130c5a312ac83177f1b87e80ec9177eb886f7e3db41cc3326",
+      "octets": 6881,
+      "relativePath": "public/guide.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/moustelio/public/index.html",
+      "sha256": "b3be9df2ce3dd560230787c87d84f5f119eb374ec6a1bd6c703cbad789fccc2b",
+      "octets": 15143,
+      "relativePath": "public/index.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/moustelio/public/livraison.html",
+      "sha256": "24396c2da856bce0f7dc0d072cecae03262c44bf35bb19b204488f686c91a0ef",
+      "octets": 7052,
+      "relativePath": "public/livraison.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/moustelio/public/media/embleme.svg",
+      "sha256": "1dec96772583bd4aafa1bab985ac47af0cbbb68dd87506c1b62c6dc8b447ee4a",
+      "octets": 398,
+      "relativePath": "public/media/embleme.svg"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/moustelio/public/media/moustelio-cj-1393471868522074112.jpg",
+      "sha256": "83e5111d69796d4a6ebced11d1e569a6dffdab332b8fad25f3aebc7f8e4152bb",
+      "octets": 479080,
+      "relativePath": "public/media/moustelio-cj-1393471868522074112.jpg"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/moustelio/public/media/moustelio-cj-1432907858357391360.jpg",
+      "sha256": "5aecf68ad6df18c46d612173a91d90d93b452c8e8d9a533ef4386997868398b0",
+      "octets": 873807,
+      "relativePath": "public/media/moustelio-cj-1432907858357391360.jpg"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/moustelio/public/media/moustelio-cj-2408220512361601700.jpg",
+      "sha256": "bb81cf9742cc790c8705c9549ccfa60bce6e321e309f1dbe79706ce03cadab07",
+      "octets": 374161,
+      "relativePath": "public/media/moustelio-cj-2408220512361601700.jpg"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/moustelio/public/mentions-legales.html",
+      "sha256": "06ac375536442ac129158c47dede31189a2cea0ee3546e42e4a01bad5cbf6852",
+      "octets": 7336,
+      "relativePath": "public/mentions-legales.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/moustelio/public/produits/moustelio-cj-1393471868522074112.html",
+      "sha256": "3d097e3ba283a9e9017004d9f178ab717ce445f478c9ac3e5d394b3f6b671773",
+      "octets": 8179,
+      "relativePath": "public/produits/moustelio-cj-1393471868522074112.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/moustelio/public/produits/moustelio-cj-1432907858357391360.html",
+      "sha256": "5bc7ce6e926f2e62ae5a1fcaebe31ef05ef7310b42c06f35ed235734e0d5487c",
+      "octets": 8169,
+      "relativePath": "public/produits/moustelio-cj-1432907858357391360.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/moustelio/public/produits/moustelio-cj-2408220512361601700.html",
+      "sha256": "5fa8ca4fc40249ef95a72ed2c6810a571c28cd0bedd0060be0116044301fbc33",
+      "octets": 8254,
+      "relativePath": "public/produits/moustelio-cj-2408220512361601700.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/moustelio/public/retours.html",
+      "sha256": "1ee79e52a8752478f4934700f10f0a61c0c8faac2975d726bc2943d1689be747",
+      "octets": 7124,
+      "relativePath": "public/retours.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/moustelio/public/robots.txt",
+      "sha256": "c5fa2849fe8f7bfefd2fef9ab0be1399cab3a624df36fdfc69957fd28b3ce122",
+      "octets": 75,
+      "relativePath": "public/robots.txt"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/moustelio/public/sitemap.xml",
+      "sha256": "653d698634bf79f1e9ed4baf92b1266186f42eb7298f34fde744fddf6c13e67c",
+      "octets": 1071,
+      "relativePath": "public/sitemap.xml"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/moustelio/public/style.css",
+      "sha256": "649640a9a3fa10dc2ebf777f8d9fd4bc22fff5f5df821515fac71b7f3121041a",
+      "octets": 29097,
+      "relativePath": "public/style.css"
+    }
+  ],
+  "preuveFonctionnelle12": {
+    "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/verification/recette-2026-10-27T21-01-36-999Z/RECETTE-NAVIGATEUR.json",
+    "sha256": "1efb0f7f45efa79af1d53e55fd30cf7e0e0adcca96f27cb8b30c5a2c1c84fb7d",
+    "octets": 79639
+  },
+  "complementCSSReference3": {
+    "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/verification/complement-motion-2026-10-27T21-10-29-869Z/RECETTE-NAVIGATEUR.json",
+    "sha256": "4ddd5f2f7c8ab6358f8375e4d4f8d009b978181b884120b62c35127c8f089d13",
+    "octets": 4648
+  },
+  "porteeReuse": "HTML, produits, images, sélection, filtres, dialogue et formulaires de la recette12 inchangés. Le JS de retour POST et CSS décorative ont ensuite reçu les deux finitions explicitement qualifiées sur trois profils.",
+  "finitions": {
+    "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/verification/FINITIONS-BORNE-REFERENCE.json",
+    "sha256": "978416bae59d21ba8bdf90c7328f8cb05a892769ccf561a9e017e72ba965fadc",
+    "octets": 6817
+  },
+  "limites": [
+    "Ventes fermées et prix client non définis.",
+    "Avis du navigateur en recette interceptés par fixture locale explicite ; aucun avis produit créé ou publié.",
+    "Chromium headless local seulement, aucun téléphone physique.",
+    "Root seul opérateur publication, aucun push ou service modifié par cet agent."
+  ]
+}
