@@ -35,6 +35,22 @@
       "purchaseEnabled": false,
       "audienceTags": [],
       "audienceSource": []
+    },
+    {
+      "id": "nuitrelia-cj-1790316378436669440",
+      "pid": "1790316378436669440",
+      "vid": "1790316378516361216",
+      "name": "Lingerie noire à lettres décoratives",
+      "description": "Une pièce de lingerie noire à lettres décoratives, photographiée seule. L’inscription visible est « LOVE YOU », en anglais. Le fournisseur annonce une taille unique ; les dimensions, la composition et l’adaptation doivent être vérifiées avant toute vente. Aucun texte français personnalisé n’est qualifié.",
+      "category": "lingerie",
+      "categoryLabel": "Lingerie adulte",
+      "materialsText": "Polyester et dentelle annoncés par le fournisseur ; composition exacte et étiquette à confirmer.",
+      "image": "/media/nuitrelia-cj-1790316378436669440.jpg",
+      "imageAlt": "Lingerie noire à lettres décoratives — photo fournisseur",
+      "priceCustomer": null,
+      "purchaseEnabled": false,
+      "audienceTags": [],
+      "audienceSource": "Référence de sous-vêtement adulte, aucun âge précis déduit."
     }
   ]
 }

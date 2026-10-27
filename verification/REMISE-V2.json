@@ -1,0 +1,195 @@
+{
+  "format": "boutique-remise-v2/1",
+  "dateUTC": "2026-10-27T21:13:01.023686+00:00",
+  "brandSlug": "nuitrelia",
+  "succes": true,
+  "termine": true,
+  "applique": false,
+  "publicationFaite": false,
+  "paquet": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/nuitrelia",
+  "branch": "entreprise/nuitrelia",
+  "products": 3,
+  "publicFiles": 24,
+  "origin": "https://nuitrelia.onrender.com",
+  "salesEnabled": false,
+  "avisEnabled": true,
+  "planCAS": {
+    "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/plans-cas/nuitrelia.json",
+    "sha256": "da1a8d6ac5aebecab29eda37fc45d472283ded76848ec53a27e87f30e6635c2c"
+  },
+  "export": {
+    "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/nuitrelia/verification/EXPORT.json",
+    "sha256": "8e29296067c28d1e647506243cadb9df1824da9315070ca504eee13a424cb735",
+    "octets": 4296
+  },
+  "codePublic": [
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/nuitrelia/public/404.html",
+      "sha256": "7f26adccf8ef53619f8ab2abbe2ed8f8009a275eaed4e9730862ecc2c6e31278",
+      "octets": 7373,
+      "relativePath": "public/404.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/nuitrelia/public/app.js",
+      "sha256": "b6354e9cd002e432a34a873a0ba6e3e48cababab656bb82f1835e6a51d5d61f5",
+      "octets": 14451,
+      "relativePath": "public/app.js"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/nuitrelia/public/avis.html",
+      "sha256": "f6a7acde55b30b4e9a1688f9e86286162967c5c90a72dbc8241bd544c6c266cd",
+      "octets": 9399,
+      "relativePath": "public/avis.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/nuitrelia/public/brand.json",
+      "sha256": "fdcc645af61986761f188f9add2128343ae09a597dc6a95ef56d1cb6f493c0ae",
+      "octets": 221,
+      "relativePath": "public/brand.json"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/nuitrelia/public/catalogue.html",
+      "sha256": "a9f17a36ae87b6724e9e59e7c665dc38d90f1e060f1005b03cb90074d87eddc0",
+      "octets": 11578,
+      "relativePath": "public/catalogue.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/nuitrelia/public/catalogue.json",
+      "sha256": "2903a5235adfc4608e1adccfb480950679df0dfb7a1109f549cc9245ca93b960",
+      "octets": 2995,
+      "relativePath": "public/catalogue.json"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/nuitrelia/public/conditions.html",
+      "sha256": "624044706a3f9b8abf6a38973f6d78d8db574be09ddf4de6f66be51373c73c1f",
+      "octets": 8102,
+      "relativePath": "public/conditions.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/nuitrelia/public/confidentialite.html",
+      "sha256": "19fd5c116a42ef0caebc0c3c980d86e9d6060fc90dcead0f72e17de90110941b",
+      "octets": 9506,
+      "relativePath": "public/confidentialite.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/nuitrelia/public/contact.html",
+      "sha256": "3bafe644d39f180af2ef130881e8371bb7ff0c22adebf17ffe2e85b2f0e8bb0d",
+      "octets": 7761,
+      "relativePath": "public/contact.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/nuitrelia/public/guide.html",
+      "sha256": "6ea06d2864edfbe0f80bb8d1d272fdb8ba9a9d35fa2ab4c43ea06c28ace2724f",
+      "octets": 7911,
+      "relativePath": "public/guide.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/nuitrelia/public/index.html",
+      "sha256": "a367b93146171ead8460d888f01d513bb630a6b1b6c0b7d17b602263b26d3285",
+      "octets": 16188,
+      "relativePath": "public/index.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/nuitrelia/public/livraison.html",
+      "sha256": "146eef7d4a01e3e73140085ed7f4378e8186adf08e83a1b748e18f6e1f1dff5e",
+      "octets": 7995,
+      "relativePath": "public/livraison.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/nuitrelia/public/media/embleme.svg",
+      "sha256": "877fb1a3e022d131adaeaa806de47710270b95b52d682a283405a91317bb6b02",
+      "octets": 311,
+      "relativePath": "public/media/embleme.svg"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/nuitrelia/public/media/nuitrelia-cj-1790316378436669440.jpg",
+      "sha256": "670dde620cb545df8891138d1eb0329c52721fa66889dd19c6237b2b37cf3fdf",
+      "octets": 283011,
+      "relativePath": "public/media/nuitrelia-cj-1790316378436669440.jpg"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/nuitrelia/public/media/nuitrelia-cj-2406100533441623200.jpg",
+      "sha256": "0742aeebdbcdd8a6ec469d2b4e894200824dacb5a1d12dfd811dcc8617e67b8f",
+      "octets": 272111,
+      "relativePath": "public/media/nuitrelia-cj-2406100533441623200.jpg"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/nuitrelia/public/media/nuitrelia-cj-b15d8d56-5637-4be9-a14c-c11f1c141055.png",
+      "sha256": "79ff72fea7e37be35a9dff303beb32c440de63fee03f8a07984e44080c95f416",
+      "octets": 36047,
+      "relativePath": "public/media/nuitrelia-cj-b15d8d56-5637-4be9-a14c-c11f1c141055.png"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/nuitrelia/public/mentions-legales.html",
+      "sha256": "2b8b200e800f5297e0a65c41138bf02f1651450f6b04154d677d8d093bd42a68",
+      "octets": 8279,
+      "relativePath": "public/mentions-legales.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/nuitrelia/public/produits/nuitrelia-cj-1790316378436669440.html",
+      "sha256": "ec384d0b7d11aaab2da8b1dfc60f3a4ea8886e44e538f662bb8dd2248fe55857",
+      "octets": 9289,
+      "relativePath": "public/produits/nuitrelia-cj-1790316378436669440.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/nuitrelia/public/produits/nuitrelia-cj-2406100533441623200.html",
+      "sha256": "6ea50df8ead50476ab07c5b519c05e508be8545effacd0945c99ac4b55f96b87",
+      "octets": 9231,
+      "relativePath": "public/produits/nuitrelia-cj-2406100533441623200.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/nuitrelia/public/produits/nuitrelia-cj-b15d8d56-5637-4be9-a14c-c11f1c141055.html",
+      "sha256": "fc78a9a2e46027b184da0c36a63f7d8ccd89d04b47d7a8b87890afc234e5bb84",
+      "octets": 9182,
+      "relativePath": "public/produits/nuitrelia-cj-b15d8d56-5637-4be9-a14c-c11f1c141055.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/nuitrelia/public/retours.html",
+      "sha256": "339b0913beeee740fb2b4ff71ab84f6dfe99c8b2167df179786e86eea8b53d31",
+      "octets": 8067,
+      "relativePath": "public/retours.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/nuitrelia/public/robots.txt",
+      "sha256": "e35e6b3c7ca6be64aa57e727692c7f250e48d6cabf0121f72c7202923cfe663a",
+      "octets": 75,
+      "relativePath": "public/robots.txt"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/nuitrelia/public/sitemap.xml",
+      "sha256": "e917f7bb33a7ee01762703b76ad1885ba235c5dd86ea56466b8e43d80ae7a78c",
+      "octets": 1088,
+      "relativePath": "public/sitemap.xml"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/nuitrelia/public/style.css",
+      "sha256": "9edb7a05a7a83468f3f0477be57fb9674f7d4f6299d48ccf0a618bf28eda64a9",
+      "octets": 29097,
+      "relativePath": "public/style.css"
+    }
+  ],
+  "preuveFonctionnelle12": {
+    "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/verification/recette-2026-10-27T21-01-36-999Z/RECETTE-NAVIGATEUR.json",
+    "sha256": "1efb0f7f45efa79af1d53e55fd30cf7e0e0adcca96f27cb8b30c5a2c1c84fb7d",
+    "octets": 79639
+  },
+  "complementCSSReference3": {
+    "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/verification/complement-motion-2026-10-27T21-10-29-869Z/RECETTE-NAVIGATEUR.json",
+    "sha256": "4ddd5f2f7c8ab6358f8375e4d4f8d009b978181b884120b62c35127c8f089d13",
+    "octets": 4648
+  },
+  "porteeReuse": "HTML, produits, images, sélection, filtres, dialogue et formulaires de la recette12 inchangés. Le JS de retour POST et CSS décorative ont ensuite reçu les deux finitions explicitement qualifiées sur trois profils.",
+  "finitions": {
+    "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/verification/FINITIONS-BORNE-REFERENCE.json",
+    "sha256": "978416bae59d21ba8bdf90c7328f8cb05a892769ccf561a9e017e72ba965fadc",
+    "octets": 6817
+  },
+  "limites": [
+    "Ventes fermées et prix client non définis.",
+    "Avis du navigateur en recette interceptés par fixture locale explicite ; aucun avis produit créé ou publié.",
+    "Chromium headless local seulement, aucun téléphone physique.",
+    "Root seul opérateur publication, aucun push ou service modifié par cet agent.",
+    "Deux masques de repos ordinaires et une lingerie adulte ; inscription LOVE YOU réellement anglaise, non traduite comme français imprimé.",
+    "Aucun paiement de gamme intime autorisé."
+  ]
+}

@@ -4,9 +4,9 @@
 
 L’intimité, avec soin et discrétion.
 
-Bien-être intime premium réservé aux adultes. L’adresse publique est en cours d’attribution ; aucun lien non vérifié n’est présenté comme actif.
+Bien-être intime premium réservé aux adultes. [Découvrir le site](https://nuitrelia.onrender.com)
 
-La vitrine présente **2 références fournisseur réelles** avec leurs photographies et une sélection locale, sans encaissement ni commande. Les prix, la livraison France/Belgique et les informations commerciales restent à qualifier.
+La vitrine présente **3 références fournisseur réelles** avec leurs photographies et une sélection locale, sans encaissement ni commande. Les prix, la livraison France/Belgique et les informations commerciales restent à qualifier.
 
 ## L’univers
 
