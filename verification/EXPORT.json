@@ -1,31 +1,31 @@
 {
   "format": "boutique-export/1",
-  "dateUTC": "2026-10-27T20:39:10.175337Z",
+  "dateUTC": "2026-10-27T20:55:29.060925Z",
   "brandSlug": "pliorea",
   "name": "Plioréa",
   "branche": "entreprise/pliorea",
   "publicRoot": "public",
   "salesEnabled": false,
   "adultOnly": false,
-  "origin": null,
+  "origin": "https://pliorea.onrender.com",
   "products": 2,
-  "sourceBrandSHA256": "d0d1568e813b58cd549b21a1860c2fe9ee79bfed55a078208cbc490b0e6d3c53",
+  "sourceBrandSHA256": "53a3028d4ce5f3c82d358c1cc856be7e5ee745c84fa55ffe49371918ef7d9f46",
   "sourceCatalogueSHA256": "ad30d0df8418721d303c4f8ad9c6859d1d6c717bf9cb0d70efc5e4a616e2469d",
   "files": [
     {
       "path": "404.html",
-      "sha256": "e395d1369043bff660bf9223967b3b16d6329e01944469aa1253702876b7cc2d",
-      "octets": 5688
+      "sha256": "466beb8e6f2881f9da15ecc13f2c77a1da927420dfd9d44461e64b45448b5bd6",
+      "octets": 5746
     },
     {
       "path": "app.js",
-      "sha256": "a6d3ce60454f724e8e2ddbfed1bc68d559f23387a6c2822dda34e96dcaa6bbcb",
-      "octets": 11142
+      "sha256": "b6354e9cd002e432a34a873a0ba6e3e48cababab656bb82f1835e6a51d5d61f5",
+      "octets": 14451
     },
     {
       "path": "avis.html",
-      "sha256": "5c8cbc84df08ecec87edf5a3729944b4c894b06eef52f50781fa072f3ab08d27",
-      "octets": 7542
+      "sha256": "d1aad0cddf8846c46af5ba08437b728b9f6ed67818c75004e7107d4a00f17af8",
+      "octets": 7768
     },
     {
       "path": "brand.json",
@@ -34,8 +34,8 @@
     },
     {
       "path": "catalogue.html",
-      "sha256": "ff932773fc6fd85b4394b37b27018edc08ddee8b27646345c2b08f5c2e626f4f",
-      "octets": 8683
+      "sha256": "5bde7d6e7b9044bcd58767db1452d2d73097a453dad0392577e1bdc3b4f4058e",
+      "octets": 8747
     },
     {
       "path": "catalogue.json",
@@ -44,33 +44,33 @@
     },
     {
       "path": "conditions.html",
-      "sha256": "eeaabf50a1661137023724800c92b11d0a71177defcebea06b7c88c3be885069",
-      "octets": 6410
+      "sha256": "b601564378b40d4823cf3adf2677aa0d46866e1e7390e557f2cc086bfcd30203",
+      "octets": 6475
     },
     {
       "path": "confidentialite.html",
-      "sha256": "e57783ffd85a555a4f2de18730d18d042f4bac0726189387e95c2d62a5b84bbd",
-      "octets": 6737
+      "sha256": "2977631172ef994e470d6c65f3d8dd9516dc5d9aebcaa3253914b3130bea4fbc",
+      "octets": 7879
     },
     {
       "path": "contact.html",
-      "sha256": "98b9d98c0f198a2dc27fb59ad291df69323b1cd0696b45733282793eb5e00a33",
-      "octets": 6072
+      "sha256": "ce3140591f6265c4368cd82765a624617586b05ee4bbda2748f1cc15a79518de",
+      "octets": 6134
     },
     {
       "path": "guide.html",
-      "sha256": "a8d1208117ef05a0369d7bf777c214979f627b32d7febb0af5e47b8ecb3bc92e",
-      "octets": 6137
+      "sha256": "25f61b44146dbb49e4dbc72f3a1bddd0bf9d3ab5ac73ecbcc8e0f5f8e3dd27ee",
+      "octets": 6197
     },
     {
       "path": "index.html",
-      "sha256": "86101adce5407f129534089170f30ef4949dc4ace7f92180f5d9cf17754159c0",
-      "octets": 13293
+      "sha256": "60ee3552a8aeaac433082831ec2696ccbbc790aaa8707b624118ff0a302d743c",
+      "octets": 13520
     },
     {
       "path": "livraison.html",
-      "sha256": "9b6a282f74fa39ee1fdace2def0c8dbdd9cf1a3f5a023264292226d30ed22e97",
-      "octets": 6304
+      "sha256": "0113e1481b85dd13b0de4dae37cc4553d59807470e5c85f6088803576addba95",
+      "octets": 6368
     },
     {
       "path": "media/embleme.svg",
@@ -89,38 +89,38 @@
     },
     {
       "path": "mentions-legales.html",
-      "sha256": "bd9f0caccca7849eadbabe021961d4fa8a52655a268b77989d23af4dae358b41",
-      "octets": 6581
+      "sha256": "37531fd1a021e587ed9e8055b7f0ff553dc6d61a6d9953f5fa33fea226035bee",
+      "octets": 6652
     },
     {
       "path": "produits/pliorea-cj-1386852733046362112.html",
-      "sha256": "1b57329f88d39121e40d8a997ec1d4e296753434fa9121ee393f04b55f30ca1c",
-      "octets": 7456
+      "sha256": "2011721507651b2b790d9d26410848866fe7da49a658c34be52788ac70475d25",
+      "octets": 7550
     },
     {
       "path": "produits/pliorea-cj-f7ac6d42-0df8-41bc-a1b1-fb43131085e3.html",
-      "sha256": "ba65672c9b278b47690020fd78e6ca24edd51853d93b28dc639dea911a644fbf",
-      "octets": 7503
+      "sha256": "b13d0f6c138111bcbb56506aff8ebee5ba12b670adf80258f5f7973b4b952523",
+      "octets": 7614
     },
     {
       "path": "retours.html",
-      "sha256": "95cb76e240df522274f85dd5f556ca6e05e3c025413be9c7ae19a8866620161f",
-      "octets": 6378
+      "sha256": "c68152b12e08b612c2372250183bff8bbd095860d47fcbff177860ed117df2e8",
+      "octets": 6440
     },
     {
       "path": "robots.txt",
-      "sha256": "331ea9090db0c9f6f597bd9840fd5b171830f6e0b3ba1cb24dfa91f0c95aedc1",
-      "octets": 26
+      "sha256": "993dc790a03991b7148376bbb2c6b3779f597c2d11efb7486904cfdf92d65f17",
+      "octets": 73
     },
     {
       "path": "sitemap.xml",
-      "sha256": "68ab08991efaca902bcb8a6518106d8b29964c5651f39abbb7eb7c9713ca2770",
-      "octets": 107
+      "sha256": "d17c8fdd864e9d3a08ecd67c30543970db981eec00584387e8070de2beda7db4",
+      "octets": 961
     },
     {
       "path": "style.css",
-      "sha256": "52070326f722b4313cf625a2ec9e4688368ff357d83021a5482ac2a0dc3f048f",
-      "octets": 25136
+      "sha256": "e1191f5541daf42b0c6596507d080f133aed4220a9e3b842158b27fdd8b2d8ae",
+      "octets": 29097
     }
   ]
 }
