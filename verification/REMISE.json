@@ -1,0 +1,82 @@
+{
+  "format": "boutique-remise-site/1",
+  "dateUTC": "2026-10-27T20:45:08.523648+00:00",
+  "succes": true,
+  "termine": true,
+  "applique": false,
+  "publicationFaite": false,
+  "brandSlug": "rubaloria",
+  "branch": "entreprise/rubaloria",
+  "repo": "eaglemic/mirlipousse",
+  "paquet": "/home/bach/Donnees/Livraisons/Dix-boutiques-construction-20261027/sorties/rubaloria",
+  "public": "/home/bach/Donnees/Livraisons/Dix-boutiques-construction-20261027/sorties/rubaloria/public",
+  "publicFiles": 24,
+  "referencesReelles": 3,
+  "salesEnabled": false,
+  "avisActifs": false,
+  "origin": null,
+  "preuves": [
+    {
+      "path": "/home/bach/Donnees/Livraisons/Dix-boutiques-construction-20261027/sorties/rubaloria/verification/EXPORT.json",
+      "sha256": "b49bd11c75b1b0075c6ae7f51fcc71bbe54f1cd787058683c4a67325a1ac0111",
+      "octets": 4234
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Dix-boutiques-construction-20261027/sorties/rubaloria/scripts/verifier-paquet.py",
+      "sha256": "d0c293324f5466cd29496321e335acc941db3069503d4117b7f0ec7a989838e7",
+      "octets": 2372
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Dix-boutiques-construction-20261027/sorties/rubaloria/README.md",
+      "sha256": "e131330e067b615db91b2adb8f5b3567de81b2059ae8f637f7421e12b151ade9",
+      "octets": 1612
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Dix-boutiques-construction-20261027/sorties/rubaloria/presentation.svg",
+      "sha256": "d05b57689485e355c6611ac4b34b331212ab8f20de3f59bb900dcd818826c24a",
+      "octets": 1079
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Dix-boutiques-construction-20261027/sorties/rubaloria/verification/RECETTE-MARQUE.json",
+      "sha256": "7112f4e6eb903bde8d14414fc56c2292fd0c3ec085a6c0c120c44bf549a4eb7f",
+      "octets": 5491
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Dix-boutiques-construction-20261027/sorties/rubaloria/verification/VERIFICATION-PAQUET.json",
+      "sha256": "545568ca6af390b3c2d7c63cce653f175b8dc61dc9dff250fd40d2368dfa5730",
+      "octets": 100
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Mirlipousse-multiboutiques-produits-20261027/rubaloria/CATALOGUE.json",
+      "sha256": "2937226bc75008ad0bc9b6019494071874ccef64f9cb187e50eca4367bc66a03",
+      "octets": 48122
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Mirlipousse-multiboutiques-produits-20261027/rubaloria/REMISE.json",
+      "sha256": "dbc3cd921b5a3310d524f8cf3f57889552a9be96a9ad58addf9ea5c94f5d9bed",
+      "octets": 2331
+    }
+  ],
+  "recette": {
+    "PC1440": true,
+    "mobile390": true,
+    "mobile360": true,
+    "photosChargees": true,
+    "selectionEtRechargement": true,
+    "echapFermeDialogue": true,
+    "cibles44px": true,
+    "reducedMotion": true,
+    "0JS": true,
+    "0Externes": true,
+    "navigateurEtPortFermes": true,
+    "adultGate": false,
+    "aucunDebordementHorizontal": true,
+    "mesureCompareeALaLargeurCliente": true
+  },
+  "limites": [
+    "Ventes et avis fermés, aucun paiement ni fournisseur commandé.",
+    "Origine HTTPS non encore attribuée : noindex explicite ; aucun lien supposé actif.",
+    "Pas de téléphone physique, recette Chromium locale.",
+    "Identité du vendeur et conformité avant ouverture commerciale non qualifiées."
+  ]
+}

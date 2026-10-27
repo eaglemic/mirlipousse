@@ -1,0 +1,56 @@
+{
+  "format": "boutique-catalogue-public/1",
+  "brandSlug": "rubaloria",
+  "salesEnabled": false,
+  "adultOnly": false,
+  "products": [
+    {
+      "id": "rubaloria-cj-2406290601291625000",
+      "pid": "2406290601291625000",
+      "vid": "2406290601291625700",
+      "name": "Assortiment de chouchous textiles",
+      "description": "La variante contrôlée porte la mention fournisseur « 40PCs A Set ». La photo présente plusieurs couleurs ; le nombre exact de pièces et les coloris du lot devront être confirmés avant vente.",
+      "category": "chouchous",
+      "categoryLabel": "Chouchous",
+      "materialsText": "Composition textile à confirmer ; aucune matière naturelle n’est présumée.",
+      "image": "/media/rubaloria-cj-2406290601291625000.jpg",
+      "imageAlt": "Assortiment de chouchous textiles — photo fournisseur",
+      "priceCustomer": null,
+      "purchaseEnabled": false,
+      "audienceTags": [],
+      "audienceSource": []
+    },
+    {
+      "id": "rubaloria-cj-1385099563165159424",
+      "pid": "1385099563165159424",
+      "vid": "1385099564498948096",
+      "name": "Élastique à ruban fleuri",
+      "description": "Un élastique accompagné d’un ruban à motif fleuri, présenté dans la variante rouge rosé. Les objets du décor ne sont pas inclus. Les dimensions et la fixation restent à confirmer avant vente.",
+      "category": "rubans",
+      "categoryLabel": "Rubans et nœuds",
+      "materialsText": "Textile déclaré par le fournisseur ; composition exacte à confirmer.",
+      "image": "/media/rubaloria-cj-1385099563165159424.jpg",
+      "imageAlt": "Élastique à ruban fleuri — photo fournisseur",
+      "priceCustomer": null,
+      "purchaseEnabled": false,
+      "audienceTags": [],
+      "audienceSource": []
+    },
+    {
+      "id": "rubaloria-cj-1379230694693277696",
+      "pid": "1379230694693277696",
+      "vid": "1379230696295501824",
+      "name": "Chouchou rose d’aspect satiné",
+      "description": "Un chouchou rose à l’aspect satiné pour attacher les cheveux. Cet aspect ne permet pas de conclure qu’il s’agit de soie. Les dimensions et la composition seront à confirmer avant vente.",
+      "category": "chouchous",
+      "categoryLabel": "Chouchous",
+      "materialsText": "Textile d’aspect satiné ; composition réelle à confirmer, sans promesse de soie.",
+      "image": "/media/rubaloria-cj-1379230694693277696.jpg",
+      "imageAlt": "Chouchou rose d’aspect satiné — photo fournisseur",
+      "priceCustomer": null,
+      "purchaseEnabled": false,
+      "audienceTags": [],
+      "audienceSource": []
+    }
+  ]
+}
