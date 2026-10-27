@@ -33,7 +33,7 @@ Mirlipousse prépare une boutique de jouets et d’accessoires pour enfants. Son
 | :--- | :--- | :--- |
 | Des idées classées par âge, de 0 à 12 ans. | Des univers de jeu, de création et d’aventure. | Des guides simples pour aider les familles à choisir. |
 
-La vitrine présente **13 références fournisseur réelles et leurs photos CJ**, des collections, deux guides et une galerie de **13 médias de présentation**, dont une vidéo. Les anciennes illustrations restent uniquement dans cette galerie, clairement identifiées.
+La vitrine présente **30 références fournisseur réelles et leurs photos CJ**, des collections, deux guides et une galerie de **13 médias de présentation**, dont une vidéo. Les anciennes illustrations restent uniquement dans cette galerie, clairement identifiées.
 
 > **Catalogue en préparation : les achats sont fermés.** Les photos des fiches viennent du fournisseur. Les âges, la conformité enfant, les documents fabricant et les conditions de livraison restent à qualifier. Aucun prix client n’est inventé ; le panier est un essai sans paiement.
 
@@ -44,6 +44,7 @@ La vitrine présente **13 références fournisseur réelles et leurs photos CJ**
 - Conserver des favoris et un panier de démonstration sur son appareil.
 - Lire les guides et découvrir les visuels, la vidéo et leurs téléchargements.
 - Profiter du design responsive et des animations du site.
+- Donner un avis sur le site : note et commentaire sont conservés côté serveur, puis publiés après modération. Le pseudonyme est facultatif ; aucun achat vérifié n’est prétendu.
 
 ## Avant les premières commandes
 
@@ -57,7 +58,7 @@ La vitrine présente **13 références fournisseur réelles et leurs photos CJ**
 
 ## Une vitrine légère à publier
 
-Ce dépôt contient l’export statique de la vitrine : **18 pages vitrine et une page de saisie chiffrée**, les ressources du site et ses médias. Il est préparé pour un hébergement statique sur Render.
+Ce dépôt contient l’export statique de la vitrine : **19 pages vitrine, dont la page d’avis, et une page de saisie chiffrée**, les ressources du site et ses médias. Il est préparé pour un hébergement statique sur Render.
 
 ```text
 public/                  Pages, styles, scripts et médias du site
@@ -67,7 +68,7 @@ verification/EXPORT.json Empreintes des fichiers publics
 render.yaml              Configuration de publication statique
 ```
 
-La vitrine publique ne contient aucune clé CJ. Le service fournisseur (`server/`) reste protégé par authentification et n’exécute aucune commande ni paiement. SumUp n’est pas encore raccordé.
+La vitrine publique ne contient aucune clé CJ. Le service fournisseur (`server/`) reste protégé par authentification et n’exécute aucune commande ni paiement. SumUp n’est pas encore raccordé. Les avis utilisent un service durable distinct : aucun avis global n’est simulé dans le stockage local.
 
 Le paquet se vérifie avant publication avec :
 
