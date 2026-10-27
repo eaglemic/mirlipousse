@@ -1,0 +1,193 @@
+{
+  "format": "boutique-remise-v2/1",
+  "dateUTC": "2026-10-27T21:13:00.202151+00:00",
+  "brandSlug": "encrivoie",
+  "succes": true,
+  "termine": true,
+  "applique": false,
+  "publicationFaite": false,
+  "paquet": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/encrivoie",
+  "branch": "entreprise/encrivoie",
+  "products": 3,
+  "publicFiles": 24,
+  "origin": "https://encrivoie.onrender.com",
+  "salesEnabled": false,
+  "avisEnabled": true,
+  "planCAS": {
+    "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/plans-cas/encrivoie.json",
+    "sha256": "69be4bcd2f0948a76731a8d0901f304f54e15001acb7b19481d811ac434b666a"
+  },
+  "export": {
+    "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/encrivoie/verification/EXPORT.json",
+    "sha256": "82426fe4b980eb7b423884ff011544319fae4258e9a6d4c80a60d50b73bef863",
+    "octets": 4262
+  },
+  "codePublic": [
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/encrivoie/public/404.html",
+      "sha256": "dbb81b6c9972e8a514a02e1d908e2257294b199da3d68cb395b87ec744c6f206",
+      "octets": 6370,
+      "relativePath": "public/404.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/encrivoie/public/app.js",
+      "sha256": "b6354e9cd002e432a34a873a0ba6e3e48cababab656bb82f1835e6a51d5d61f5",
+      "octets": 14451,
+      "relativePath": "public/app.js"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/encrivoie/public/avis.html",
+      "sha256": "55fb28ae1e12bbccbe689ab640fab76a487ca024d16106fbef487773629171d2",
+      "octets": 8395,
+      "relativePath": "public/avis.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/encrivoie/public/brand.json",
+      "sha256": "24b87b7dfd3db6d3700d0192a726538273797999923d1e9a0dce5b5ae32038d0",
+      "octets": 214,
+      "relativePath": "public/brand.json"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/encrivoie/public/catalogue.html",
+      "sha256": "80ec7fec57b26de4a2f91c4a86e2062b8095495b6da9d0b7cac4b3db1f0c19f7",
+      "octets": 10477,
+      "relativePath": "public/catalogue.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/encrivoie/public/catalogue.json",
+      "sha256": "4287a4301c94158ccd75dc642b8928d3deadfde2af9c1c2c37e7e38abd432e28",
+      "octets": 2696,
+      "relativePath": "public/catalogue.json"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/encrivoie/public/conditions.html",
+      "sha256": "3eba3e6b181f8ca441c0341291eb2239e4e39eab52ec88a0a1969e77c849b9a1",
+      "octets": 7099,
+      "relativePath": "public/conditions.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/encrivoie/public/confidentialite.html",
+      "sha256": "dfee219b3ac82d91a5fd8291aa527d1b4e4fc54ba40131854fc463379af6b7b3",
+      "octets": 8503,
+      "relativePath": "public/confidentialite.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/encrivoie/public/contact.html",
+      "sha256": "8873bfeb437fb71c6f55a66bd66bbab9e737bf850f18c22d5246fbb07fbe1220",
+      "octets": 6758,
+      "relativePath": "public/contact.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/encrivoie/public/guide.html",
+      "sha256": "bd59203ba2de4f599fb2baee9989965260dbd2b367fff25dc15da4156981e9ea",
+      "octets": 6873,
+      "relativePath": "public/guide.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/encrivoie/public/index.html",
+      "sha256": "b61b61b4a49e272c6a679d23a3bac91bbf22271839b6a40021bdeab131b3596b",
+      "octets": 14583,
+      "relativePath": "public/index.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/encrivoie/public/livraison.html",
+      "sha256": "28f98a60b455aeee2233afbffbdaf6e4b07fd2d39ea34d91ec6312a1ee9c343b",
+      "octets": 6992,
+      "relativePath": "public/livraison.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/encrivoie/public/media/embleme.svg",
+      "sha256": "887d9a3e159ebb65fde339d18366710bf34ae10121ea6eacc0417e2f720fa48f",
+      "octets": 341,
+      "relativePath": "public/media/embleme.svg"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/encrivoie/public/media/encrivoie-cj-1590896399049306112.jpg",
+      "sha256": "bd20546e933aef01c140820272405c2e7d3c2083311636ea200dd5593ba7cf23",
+      "octets": 67385,
+      "relativePath": "public/media/encrivoie-cj-1590896399049306112.jpg"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/encrivoie/public/media/encrivoie-cj-1738032478780141568.jpg",
+      "sha256": "0b9640acd01d0eda9cce638ea92a8e4557f0606e2dc7b8f5d256ff2864819c3c",
+      "octets": 141278,
+      "relativePath": "public/media/encrivoie-cj-1738032478780141568.jpg"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/encrivoie/public/media/encrivoie-cj-2503170539411623200.jpg",
+      "sha256": "9176950a51c3271510adba1f33f7975047f3fe5f4cdff51e81e729f73177d83d",
+      "octets": 109343,
+      "relativePath": "public/media/encrivoie-cj-2503170539411623200.jpg"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/encrivoie/public/mentions-legales.html",
+      "sha256": "c7a54ac1271891a441fae0c0962505378072fddd35a7593b225f37bc250391e8",
+      "octets": 7276,
+      "relativePath": "public/mentions-legales.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/encrivoie/public/produits/encrivoie-cj-1590896399049306112.html",
+      "sha256": "82b1a81c8ba650247300cb1eea480029b103dff9707b4bd631f7ca25015666bf",
+      "octets": 8121,
+      "relativePath": "public/produits/encrivoie-cj-1590896399049306112.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/encrivoie/public/produits/encrivoie-cj-1738032478780141568.html",
+      "sha256": "5d767c0bd3730f33ea8b5b9ee825a3e896e96e18b00e8989ab8771b7c32cb6c0",
+      "octets": 8152,
+      "relativePath": "public/produits/encrivoie-cj-1738032478780141568.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/encrivoie/public/produits/encrivoie-cj-2503170539411623200.html",
+      "sha256": "6a6aa6f79385e73099aabe767e43b7b8a32ac1bf7df55f2621059755b36ea36d",
+      "octets": 8146,
+      "relativePath": "public/produits/encrivoie-cj-2503170539411623200.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/encrivoie/public/retours.html",
+      "sha256": "88ef5a4548cf239ba0005d1c13278e3aa0ddaf32552b4201ed17f256ee63a1bb",
+      "octets": 7064,
+      "relativePath": "public/retours.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/encrivoie/public/robots.txt",
+      "sha256": "dfcd54943865e99f37752a29439d3df487c4274e11fb164163ef25d1324e2cc9",
+      "octets": 75,
+      "relativePath": "public/robots.txt"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/encrivoie/public/sitemap.xml",
+      "sha256": "3468da3252ee13d7db4b93e1370eaed1e65451dc27770ea41e6eeff283b46b66",
+      "octets": 1071,
+      "relativePath": "public/sitemap.xml"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/encrivoie/public/style.css",
+      "sha256": "c79e7955cb34e4691bc6e1d39163cb9bb7a11b22c231ad4d5260ea1990b0e597",
+      "octets": 29097,
+      "relativePath": "public/style.css"
+    }
+  ],
+  "preuveFonctionnelle12": {
+    "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/verification/recette-2026-10-27T21-01-36-999Z/RECETTE-NAVIGATEUR.json",
+    "sha256": "1efb0f7f45efa79af1d53e55fd30cf7e0e0adcca96f27cb8b30c5a2c1c84fb7d",
+    "octets": 79639
+  },
+  "complementCSSReference3": {
+    "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/verification/complement-motion-2026-10-27T21-10-29-869Z/RECETTE-NAVIGATEUR.json",
+    "sha256": "4ddd5f2f7c8ab6358f8375e4d4f8d009b978181b884120b62c35127c8f089d13",
+    "octets": 4648
+  },
+  "porteeReuse": "HTML, produits, images, sélection, filtres, dialogue et formulaires de la recette12 inchangés. Le JS de retour POST et CSS décorative ont ensuite reçu les deux finitions explicitement qualifiées sur trois profils.",
+  "finitions": {
+    "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/verification/FINITIONS-BORNE-REFERENCE.json",
+    "sha256": "978416bae59d21ba8bdf90c7328f8cb05a892769ccf561a9e017e72ba965fadc",
+    "octets": 6817
+  },
+  "limites": [
+    "Ventes fermées et prix client non définis.",
+    "Avis du navigateur en recette interceptés par fixture locale explicite ; aucun avis produit créé ou publié.",
+    "Chromium headless local seulement, aucun téléphone physique.",
+    "Root seul opérateur publication, aucun push ou service modifié par cet agent."
+  ]
+}

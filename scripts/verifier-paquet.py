@@ -19,7 +19,11 @@ assert len(catalogue['products'])==r['products']>0
 assert all(p['priceCustomer'] is None and p['purchaseEnabled'] is False for p in catalogue['products'])
 if EXPECTED=='nuitrelia':
  assert catalogue['adultOnly'] is True
- assert 'mirlipousse' not in ''.join(p.read_text() for p in PUBLIC.rglob('*.html')).lower()
+ # Le backend d'avis est partagé : cette seule URL est un raccord technique,
+ # pas un lien vers la boutique enfants ni une copie de son catalogue.
+ shared_reviews='"endpoint": "https://mirlipousse-boutique.yellowghost64.chatgpt.site/api/reviews"'
+ markup=''.join(p.read_text() for p in PUBLIC.rglob('*.html'))
+ assert 'mirlipousse' not in markup.replace(shared_reviews,'"endpoint": null').lower()
 else:assert catalogue['adultOnly'] is False
 class Links(HTMLParser):
  def __init__(self):super().__init__();self.links=[]

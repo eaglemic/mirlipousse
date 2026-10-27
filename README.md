@@ -4,7 +4,7 @@
 
 De la place pour vos idées.
 
-Papeterie créative et journaling adulte. L’adresse publique est en cours d’attribution ; aucun lien non vérifié n’est présenté comme actif.
+Papeterie créative et journaling adulte. [Découvrir le site](https://encrivoie.onrender.com)
 
 La vitrine présente **3 références fournisseur réelles** avec leurs photographies et une sélection locale, sans encaissement ni commande. Les prix, la livraison France/Belgique et les informations commerciales restent à qualifier.
 
