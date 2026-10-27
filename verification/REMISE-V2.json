@@ -1,0 +1,181 @@
+{
+  "format": "boutique-remise-v2/1",
+  "dateUTC": "2026-10-27T21:13:01.470877+00:00",
+  "brandSlug": "vadrouvane",
+  "succes": true,
+  "termine": true,
+  "applique": false,
+  "publicationFaite": false,
+  "paquet": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/vadrouvane",
+  "branch": "entreprise/vadrouvane",
+  "products": 2,
+  "publicFiles": 22,
+  "origin": "https://vadrouvane.onrender.com",
+  "salesEnabled": false,
+  "avisEnabled": true,
+  "planCAS": {
+    "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/plans-cas/vadrouvane.json",
+    "sha256": "ef0038da7e957edad08a0b2a05c2b70b618e7c07b547e35fd8d7bb4583d3fe5e"
+  },
+  "export": {
+    "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/vadrouvane/verification/EXPORT.json",
+    "sha256": "148e946165956841804b6fbce1d7b3f4afdabb423a9673fa47b0b70b042af3bd",
+    "octets": 3905
+  },
+  "codePublic": [
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/vadrouvane/public/404.html",
+      "sha256": "cfccc81884412ac6af68ccac48664a3d1429f7532868393c8e45d8ce9dc82139",
+      "octets": 5520,
+      "relativePath": "public/404.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/vadrouvane/public/app.js",
+      "sha256": "b6354e9cd002e432a34a873a0ba6e3e48cababab656bb82f1835e6a51d5d61f5",
+      "octets": 14451,
+      "relativePath": "public/app.js"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/vadrouvane/public/avis.html",
+      "sha256": "745bbcc6d0c317001059f167edb856b8ad4dde68297bf080557c75b43b7a2b79",
+      "octets": 7547,
+      "relativePath": "public/avis.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/vadrouvane/public/brand.json",
+      "sha256": "7447511e9ffd425187e786bea086a5793073b30b7cc606e3ad1891fb6b3c1a2d",
+      "octets": 207,
+      "relativePath": "public/brand.json"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/vadrouvane/public/catalogue.html",
+      "sha256": "7a6ed83fd212b50f1d00ddee7aa942ba7af75b614f0bb2348a264aa2d4e7ccbe",
+      "octets": 8241,
+      "relativePath": "public/catalogue.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/vadrouvane/public/catalogue.json",
+      "sha256": "31883bf53ddbcad41da96f793da64cc345c6e734b4ef03f8580890658c6ad73f",
+      "octets": 1769,
+      "relativePath": "public/catalogue.json"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/vadrouvane/public/conditions.html",
+      "sha256": "27354e0fa1a3e9b2bab3217ce5e99d0b84dab6791b71ccbd640d109fec9cf337",
+      "octets": 6249,
+      "relativePath": "public/conditions.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/vadrouvane/public/confidentialite.html",
+      "sha256": "687280dd50d04b8eff6ddfb801deeb419b421a67ee3192ae3640f652023f52ee",
+      "octets": 7653,
+      "relativePath": "public/confidentialite.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/vadrouvane/public/contact.html",
+      "sha256": "b177a07994de04f7daad1eeac70f137194b4b650b6e685736145dae5050e73d1",
+      "octets": 5908,
+      "relativePath": "public/contact.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/vadrouvane/public/guide.html",
+      "sha256": "245ad1e880b111611aa87f1c6ae21aa7e50497c946fe1e52e536667d03571a89",
+      "octets": 6002,
+      "relativePath": "public/guide.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/vadrouvane/public/index.html",
+      "sha256": "af2025932de7dd827de481143e55c90109dfe8c04704868c68386f5e8898c64d",
+      "octets": 12999,
+      "relativePath": "public/index.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/vadrouvane/public/livraison.html",
+      "sha256": "24d331989ade76376fd3d05eaa9653cc60f4911498b23770886803bb0e774bd8",
+      "octets": 6142,
+      "relativePath": "public/livraison.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/vadrouvane/public/media/embleme.svg",
+      "sha256": "1424feb97997e2daec5024a6a676e17c828fed578cc4658a3889eb1d5c447a41",
+      "octets": 302,
+      "relativePath": "public/media/embleme.svg"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/vadrouvane/public/media/vadrouvane-cj-1382909456957968384.jpg",
+      "sha256": "a46f867fd2420968200a681e6bb88e94ff7fc402f6c4be535569711f3b9c041b",
+      "octets": 43658,
+      "relativePath": "public/media/vadrouvane-cj-1382909456957968384.jpg"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/vadrouvane/public/media/vadrouvane-cj-1484810775192276992.jpg",
+      "sha256": "391a56b7d8db8f855470243ab75f31b996a227143a1637fa1d4b01813e9354d2",
+      "octets": 32099,
+      "relativePath": "public/media/vadrouvane-cj-1484810775192276992.jpg"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/vadrouvane/public/mentions-legales.html",
+      "sha256": "7f51516ce9e0b28f432cfed04914e9fe2ad10539b80c412deefb2c138e65b46b",
+      "octets": 6426,
+      "relativePath": "public/mentions-legales.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/vadrouvane/public/produits/vadrouvane-cj-1382909456957968384.html",
+      "sha256": "893f98822dd64433cab7214da342eaa9867fd90c260f89d91b7c7a6eafc55250",
+      "octets": 7216,
+      "relativePath": "public/produits/vadrouvane-cj-1382909456957968384.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/vadrouvane/public/produits/vadrouvane-cj-1484810775192276992.html",
+      "sha256": "93d7a5719961d595fd0186151cb170a93a38116438e3bcc07bf853a430e1c8dc",
+      "octets": 7285,
+      "relativePath": "public/produits/vadrouvane-cj-1484810775192276992.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/vadrouvane/public/retours.html",
+      "sha256": "0dd19c73135f25da726906fed310cad8f1d0c577cd3515d7c02251b917a2ea9f",
+      "octets": 6214,
+      "relativePath": "public/retours.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/vadrouvane/public/robots.txt",
+      "sha256": "b0a25071ab55c86680dfed03a86a119ab220c88b536d828fbf3fb86933d1f238",
+      "octets": 76,
+      "relativePath": "public/robots.txt"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/vadrouvane/public/sitemap.xml",
+      "sha256": "c0b7b88fa79128b665f363e9d0a165907cabb8724674ba5998f2ab4fb9fa549d",
+      "octets": 986,
+      "relativePath": "public/sitemap.xml"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/vadrouvane/public/style.css",
+      "sha256": "ad499a13837647af3202762f96a100d08973c1ee7f50a1683d30a9c8d4027fa3",
+      "octets": 29097,
+      "relativePath": "public/style.css"
+    }
+  ],
+  "preuveFonctionnelle12": {
+    "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/verification/recette-2026-10-27T21-01-36-999Z/RECETTE-NAVIGATEUR.json",
+    "sha256": "1efb0f7f45efa79af1d53e55fd30cf7e0e0adcca96f27cb8b30c5a2c1c84fb7d",
+    "octets": 79639
+  },
+  "complementCSSReference3": {
+    "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/verification/complement-motion-2026-10-27T21-10-29-869Z/RECETTE-NAVIGATEUR.json",
+    "sha256": "4ddd5f2f7c8ab6358f8375e4d4f8d009b978181b884120b62c35127c8f089d13",
+    "octets": 4648
+  },
+  "porteeReuse": "HTML, produits, images, sélection, filtres, dialogue et formulaires de la recette12 inchangés. Le JS de retour POST et CSS décorative ont ensuite reçu les deux finitions explicitement qualifiées sur trois profils.",
+  "finitions": {
+    "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/verification/FINITIONS-BORNE-REFERENCE.json",
+    "sha256": "978416bae59d21ba8bdf90c7328f8cb05a892769ccf561a9e017e72ba965fadc",
+    "octets": 6817
+  },
+  "limites": [
+    "Ventes fermées et prix client non définis.",
+    "Avis du navigateur en recette interceptés par fixture locale explicite ; aucun avis produit créé ou publié.",
+    "Chromium headless local seulement, aucun téléphone physique.",
+    "Root seul opérateur publication, aucun push ou service modifié par cet agent."
+  ]
+}

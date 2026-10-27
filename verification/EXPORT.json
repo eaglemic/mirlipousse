@@ -1,31 +1,31 @@
 {
   "format": "boutique-export/1",
-  "dateUTC": "2026-10-27T20:39:09.975279Z",
+  "dateUTC": "2026-10-27T20:55:28.863973Z",
   "brandSlug": "vadrouvane",
   "name": "Vadrouvane",
   "branche": "entreprise/vadrouvane",
   "publicRoot": "public",
   "salesEnabled": false,
   "adultOnly": false,
-  "origin": null,
+  "origin": "https://vadrouvane.onrender.com",
   "products": 2,
-  "sourceBrandSHA256": "3c5863caa293c7377765d9c5d50db9367b268bf97648394e0692b69300c042e4",
+  "sourceBrandSHA256": "b7df34ec2d07bee5fe1af0e24815e014981efda0d94bbcf3c07df093c15a5582",
   "sourceCatalogueSHA256": "aff03e80d32661d2aaeaa9a333702f49b4ef364034218ceca6c3cdb5182061d4",
   "files": [
     {
       "path": "404.html",
-      "sha256": "5a2fd34f9df889643170a6c8500699e205bdd97ffa150b144ab8a5ed7bb9b0b5",
-      "octets": 5456
+      "sha256": "cfccc81884412ac6af68ccac48664a3d1429f7532868393c8e45d8ce9dc82139",
+      "octets": 5520
     },
     {
       "path": "app.js",
-      "sha256": "a6d3ce60454f724e8e2ddbfed1bc68d559f23387a6c2822dda34e96dcaa6bbcb",
-      "octets": 11142
+      "sha256": "b6354e9cd002e432a34a873a0ba6e3e48cababab656bb82f1835e6a51d5d61f5",
+      "octets": 14451
     },
     {
       "path": "avis.html",
-      "sha256": "d246fd297c00f5e29a3321c468805f2d9a83369a36029df4e9d08ad60554b23c",
-      "octets": 7315
+      "sha256": "745bbcc6d0c317001059f167edb856b8ad4dde68297bf080557c75b43b7a2b79",
+      "octets": 7547
     },
     {
       "path": "brand.json",
@@ -34,8 +34,8 @@
     },
     {
       "path": "catalogue.html",
-      "sha256": "f69b6c1ee9b536bc18cd7ca54462b0e595823466fb250d2c6339e373eae24454",
-      "octets": 8171
+      "sha256": "7a6ed83fd212b50f1d00ddee7aa942ba7af75b614f0bb2348a264aa2d4e7ccbe",
+      "octets": 8241
     },
     {
       "path": "catalogue.json",
@@ -44,33 +44,33 @@
     },
     {
       "path": "conditions.html",
-      "sha256": "d2cbe9d6a5ed8149474bb1c44d0c6c876631e9a3465dbb3cd939c4b76ec4d0fa",
-      "octets": 6178
+      "sha256": "27354e0fa1a3e9b2bab3217ce5e99d0b84dab6791b71ccbd640d109fec9cf337",
+      "octets": 6249
     },
     {
       "path": "confidentialite.html",
-      "sha256": "431984ec21bfef426e1896f901b58022ef7f70672cda114ef60ad89af7ab2c97",
-      "octets": 6505
+      "sha256": "687280dd50d04b8eff6ddfb801deeb419b421a67ee3192ae3640f652023f52ee",
+      "octets": 7653
     },
     {
       "path": "contact.html",
-      "sha256": "3c18dc779c4fb1fd3c6e3a4ed9dc0949d42b5921d5413bd43bd1fcc5580db57f",
-      "octets": 5840
+      "sha256": "b177a07994de04f7daad1eeac70f137194b4b650b6e685736145dae5050e73d1",
+      "octets": 5908
     },
     {
       "path": "guide.html",
-      "sha256": "0801d7b41d6bc5e9274b0af5ed53e9ac232cd75b270e9f2737d8d7a5ca38e351",
-      "octets": 5936
+      "sha256": "245ad1e880b111611aa87f1c6ae21aa7e50497c946fe1e52e536667d03571a89",
+      "octets": 6002
     },
     {
       "path": "index.html",
-      "sha256": "fc0922f7560bceeeafd530aff424ff79946e91366f1ba5bc54e164e370900cb8",
-      "octets": 12766
+      "sha256": "af2025932de7dd827de481143e55c90109dfe8c04704868c68386f5e8898c64d",
+      "octets": 12999
     },
     {
       "path": "livraison.html",
-      "sha256": "7a4b59ffed847fcb5534f199b1dd5ee9f6aaaf8925d14e286b8c43e3122c8fee",
-      "octets": 6072
+      "sha256": "24d331989ade76376fd3d05eaa9653cc60f4911498b23770886803bb0e774bd8",
+      "octets": 6142
     },
     {
       "path": "media/embleme.svg",
@@ -89,38 +89,38 @@
     },
     {
       "path": "mentions-legales.html",
-      "sha256": "28192e29e40820f3df8c716e8a8a8b08a472e7b7179dbae32ce7b297dac6f26d",
-      "octets": 6349
+      "sha256": "7f51516ce9e0b28f432cfed04914e9fe2ad10539b80c412deefb2c138e65b46b",
+      "octets": 6426
     },
     {
       "path": "produits/vadrouvane-cj-1382909456957968384.html",
-      "sha256": "e79e5297fb62a7decadf370c00b372cbae1c0314eb520a7b7fe1bedb865546bd",
-      "octets": 7113
+      "sha256": "893f98822dd64433cab7214da342eaa9867fd90c260f89d91b7c7a6eafc55250",
+      "octets": 7216
     },
     {
       "path": "produits/vadrouvane-cj-1484810775192276992.html",
-      "sha256": "ac77a3bd4e59817107cdab3b115a9b683e9750a5aa7b4d35278fe99046e70eaa",
-      "octets": 7182
+      "sha256": "93d7a5719961d595fd0186151cb170a93a38116438e3bcc07bf853a430e1c8dc",
+      "octets": 7285
     },
     {
       "path": "retours.html",
-      "sha256": "dec2d11ceadc7673de3eb1db5169ef2fe618b70bfa0e869b768dc8648f570bd1",
-      "octets": 6146
+      "sha256": "0dd19c73135f25da726906fed310cad8f1d0c577cd3515d7c02251b917a2ea9f",
+      "octets": 6214
     },
     {
       "path": "robots.txt",
-      "sha256": "331ea9090db0c9f6f597bd9840fd5b171830f6e0b3ba1cb24dfa91f0c95aedc1",
-      "octets": 26
+      "sha256": "b0a25071ab55c86680dfed03a86a119ab220c88b536d828fbf3fb86933d1f238",
+      "octets": 76
     },
     {
       "path": "sitemap.xml",
-      "sha256": "68ab08991efaca902bcb8a6518106d8b29964c5651f39abbb7eb7c9713ca2770",
-      "octets": 107
+      "sha256": "c0b7b88fa79128b665f363e9d0a165907cabb8724674ba5998f2ab4fb9fa549d",
+      "octets": 986
     },
     {
       "path": "style.css",
-      "sha256": "6ae19466573f77dfe992eeeec9eedb34dbbb1c5aef7ec006af91d6644079e2b8",
-      "octets": 25136
+      "sha256": "ad499a13837647af3202762f96a100d08973c1ee7f50a1683d30a9c8d4027fa3",
+      "octets": 29097
     }
   ]
 }
