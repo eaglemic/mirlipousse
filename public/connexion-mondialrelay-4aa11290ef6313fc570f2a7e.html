@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow,nosnippet"><meta name="referrer" content="no-referrer"><meta http-equiv="Content-Security-Policy" content="default-src &#x27;none&#x27;; script-src &#x27;sha256-HOw2HN+M8NxGxIMZLLoZaZUZXHRfWufb6/s4EURh4So=&#x27; &#x27;sha256-s3vLiJJpIk3SSAsq4ored4g3fjSV2kfhnFHJjX0SolI=&#x27; &#x27;sha256-1RnLLK9ISr+UD4XPOSpGYE+e8LiaFxRT4jB1HN/08Uw=&#x27;; style-src &#x27;sha256-/ZlmYIIGNyqIPB9L1uVAlFFAZCXZSapy4Bt1mn/sZPg=&#x27;; connect-src &#x27;none&#x27;; img-src &#x27;none&#x27;; font-src &#x27;none&#x27;; base-uri &#x27;none&#x27;; form-action &#x27;none&#x27;; object-src &#x27;none&#x27;"><title>Mirlipousse · Connexion privée Mondial Relay</title><style>:root{color-scheme:light;font-family:system-ui,sans-serif;background:#faf7f1;color:#263f34}*{box-sizing:border-box}body{margin:0;padding:24px 16px}main{max-width:640px;margin:0 auto;padding:28px clamp(18px,5vw,40px);background:#fffefa;border:1px solid #d8dfd5;border-radius:24px;box-shadow:0 14px 50px #263f3410}.brand{font-weight:750;letter-spacing:.05em;color:#526b50}h1{font-size:clamp(26px,6vw,36px);line-height:1.15}p,li{line-height:1.65}ol{padding-left:22px}label{display:block;font-weight:700;margin:24px 0 8px}input,button{font:inherit;min-height:48px;width:100%;border-radius:12px}input{padding:12px;border:1px solid #839782;background:white;color:#152f23}input:focus{outline:3px solid #bdd3a9;outline-offset:2px}button{border:0;background:#345b41;color:white;font-weight:700;padding:14px;margin-top:16px;cursor:pointer}button:disabled{opacity:.65;cursor:wait}button:focus-visible{outline:3px solid #bb7a56;outline-offset:3px}.muted{font-size:14px;color:#526251}#status{font-weight:650;overflow-wrap:anywhere}
+</style></head>
+<body><main><p class="brand">Mirlipousse</p><h1>Relier votre compte Mondial Relay</h1><p>Cette page chiffre vos paramètres sur votre téléphone. Elle ne les envoie à aucun serveur. Seul l’opérateur Mirlipousse détient la clé privée permettant d’ouvrir le fichier créé.</p><ol><li>Ouvrez votre compte professionnel Mondial Relay dans votre navigateur : <strong>Mon profil → Mes paramètres de connexion</strong>. Dans Connect, cherchez <strong>Administration → Configuration des API → API 1</strong>.</li><li>Copiez le <strong>code enseigne</strong> et la <strong>clé privée API Mondial Relay</strong>. Si vous avez un <strong>code marque</strong>, ajoutez-le aussi. Aucun identifiant de connexion ni mot de passe n’est demandé.</li><li>Créez le fichier chiffré ci-dessous, puis joignez <strong>ce fichier seulement</strong> dans votre conversation. Ne partagez ni les valeurs en texte ni une capture d’écran de vos paramètres.</li></ol><p><a href="https://www.mondialrelay.fr/faq-pro/votre-compte/ou-trouver-mes-parametres-code-enseigne-code-marque-cle-privee-pour-configurer-mon-module/" target="_blank" rel="noreferrer noopener">Voir le guide officiel Mondial Relay ↗</a></p>
+<label for="mr-enseigne">Code enseigne Mondial Relay</label><input id="mr-enseigne" type="text" maxlength="32" autocomplete="off" autocapitalize="none" spellcheck="false" placeholder="Code enseigne API" aria-describedby="help">
+<label for="mr-private-key">Clé privée API Mondial Relay</label><input id="mr-private-key" type="password" maxlength="200" autocomplete="off" autocapitalize="none" spellcheck="false" placeholder="Clé privée Mondial Relay" aria-describedby="help">
+<label for="mr-code-marque">Code marque <small>(facultatif)</small></label><input id="mr-code-marque" type="text" maxlength="32" autocomplete="off" autocapitalize="none" spellcheck="false" placeholder="Laissez vide si vous n’en avez pas">
+<p id="help">Aucune valeur n’est conservée dans le navigateur. La connexion du compte aux relais et la livraison des articles CJ sont deux vérifications distinctes. Cette page ne crée ni compte, ni étiquette, ni expédition et ne prélève aucun paiement.</p><button id="seal" type="button">Créer le fichier chiffré</button><p id="status" role="status" aria-live="polite">Le fichier sera chiffré avant son téléchargement.</p><p class="footnote">Lien temporaire. Si le lien a expiré, demandez-en un nouveau sans communiquer vos paramètres en clair.</p></main>
+<script id="public-config" type="application/json">{"format":"mirlipousse-mondialrelay-public/1","keyId":"4aa11290ef6313fc570f2a7e","publicKeySPKI":"MIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEA1fp6I9Is03xUh8GbalpoQvu5zgSuai5cESxRxORJgrp/w+hPioXI3XWNjF2oSK++nYdCoVZ22i7YAPssDbmZ+Wg3DFSyuz7xnh5wyBUgzeBrkgyhB8bIpkpG9sNq3f68uEZ7tyITw8iHkmcIxnSLQWI6IhXjTva7xUMZaWM6H0h1m+zF8JB6bxMM3yNfBoaMirAHqVr7Oc3cbtw48eD5Ws4lSV/1GeTu8gS5yU+oSGtaV0zZ9QBVjPudafaYl1E5IhOVkRxBodr/DXiPJ+VdxqDDIJOgCfIteWgXKRoX7neRStAaf0GeiGKzCk1QOSx0oV0TNLXVEaRjWm6I9vGu66MmIsCxePIilf9McoMsIHADhRj1BMXaE5FMa/u2KncU5k+3du7I6E0TulH4Xy5TyksmnO0nNF++us1s6aHQRDBxQN8bQ7D/7uW2DBUEX2HHWJOG+dz+6zBzD3RSJKxHGWel1sCt1v/r5sXgJ7h97ER790dSwhM0TbcOzuvIiquFAgMBAAE=","expiresUTC":"2026-10-30T23:32:43.734409Z"}</script><script>/* Standard WebCrypto only; no network, persistence, or logging. */
+(() => {
+  'use strict';
+  const FORMAT = 'mirlipousse-mondialrelay-capsule/1';
+  const ALGORITHM = 'RSA-OAEP-256+A256GCM';
+  const exact = (value, keys) => value && typeof value === 'object'
+    && !Array.isArray(value) && Object.keys(value).sort().join('|') === keys.sort().join('|');
+  const decode = value => {
+    if (typeof value !== 'string' || value.length > 4096 || !/^[A-Za-z0-9+/]+={0,2}$/.test(value)) throw Error('CONFIGURATION_INVALIDE');
+    const binary = atob(value);
+    const bytes = Uint8Array.from(binary, letter => letter.charCodeAt(0));
+    if (encode(bytes) !== value) throw Error('CONFIGURATION_INVALIDE');
+    return bytes;
+  };
+  const encode = bytes => btoa(String.fromCharCode(...bytes));
+  async function encrypt(config, credentials) {
+    if (!exact(config, ['format', 'keyId', 'publicKeySPKI', 'expiresUTC'])
+        || config.format !== 'mirlipousse-mondialrelay-public/1'
+        || typeof config.keyId !== 'string' || !/^[a-f0-9]{24}$/.test(config.keyId)
+        || typeof config.expiresUTC !== 'string'
+        || !Number.isFinite(Date.parse(config.expiresUTC))
+        || Date.parse(config.expiresUTC) <= Date.now()) throw Error('CONFIGURATION_EXPIREE_OU_INVALIDE');
+    if (!credentials || typeof credentials !== 'object' || Array.isArray(credentials) || Object.keys(credentials).some(k => !['MR_ENSEIGNE','MR_PRIVATE_KEY','MR_CODE_MARQUE'].includes(k))) throw Error('CHAMPS_MONDIALRELAY_INVALIDES');
+    const {MR_ENSEIGNE,MR_PRIVATE_KEY,MR_CODE_MARQUE=''}=credentials;
+    if(typeof MR_ENSEIGNE!=='string'||! /^[A-Za-z0-9]{2,32}$/.test(MR_ENSEIGNE))throw Error('ENSEIGNE_INVALIDE');
+    if(typeof MR_PRIVATE_KEY!=='string'||! /^[!-~]{8,200}$/.test(MR_PRIVATE_KEY)||/^sup_(?:sk|pk)_/i.test(MR_PRIVATE_KEY))throw Error('CLE_MONDIALRELAY_INVALIDE');
+    if(typeof MR_CODE_MARQUE!=='string'||MR_CODE_MARQUE&&! /^[A-Za-z0-9]{1,32}$/.test(MR_CODE_MARQUE))throw Error('CODE_MARQUE_INVALIDE');
+    if (!globalThis.crypto?.subtle) throw Error('NAVIGATEUR_HTTPS_REQUIS');
+    const spki = decode(config.publicKeySPKI);
+    const fingerprint = [...new Uint8Array(await crypto.subtle.digest('SHA-256', spki))].map(v => v.toString(16).padStart(2, '0')).join('');
+    if (fingerprint.slice(0, 24) !== config.keyId) throw Error('CONFIGURATION_INVALIDE');
+    const publicKey = await crypto.subtle.importKey('spki', spki,
+      { name: 'RSA-OAEP', hash: 'SHA-256' }, false, ['encrypt']);
+    if (publicKey.algorithm.modulusLength < 3072
+        || [...publicKey.algorithm.publicExponent].join(',') !== '1,0,1') throw Error('CONFIGURATION_INVALIDE');
+    const key = await crypto.subtle.generateKey({ name: 'AES-GCM', length: 256 }, true, ['encrypt']);
+    const rawKey = new Uint8Array(await crypto.subtle.exportKey('raw', key));
+    const iv = crypto.getRandomValues(new Uint8Array(12));
+    const aad = new TextEncoder().encode(`${FORMAT}\n${config.keyId}\n${ALGORITHM}`);
+    const plaintext = new TextEncoder().encode(JSON.stringify({MR_ENSEIGNE,MR_PRIVATE_KEY,...(MR_CODE_MARQUE?{MR_CODE_MARQUE}:{})}));
+    try {
+      const wrappedKey = await crypto.subtle.encrypt({ name: 'RSA-OAEP' }, publicKey, rawKey);
+      const ciphertext = await crypto.subtle.encrypt({ name: 'AES-GCM', iv, additionalData: aad, tagLength: 128 }, key, plaintext);
+      return { format: FORMAT, keyId: config.keyId, alg: ALGORITHM,
+        wrappedKey: encode(new Uint8Array(wrappedKey)), iv: encode(iv), ciphertext: encode(new Uint8Array(ciphertext)) };
+    } finally {
+      rawKey.fill(0);
+      plaintext.fill(0);
+    }
+  }
+  globalThis.MirlipousseMondialRelayCapsule = Object.freeze({ encrypt });
+})();
+</script><script>(() => {
+  'use strict';
+  const enseigne=document.querySelector('#mr-enseigne'),privateKey=document.querySelector('#mr-private-key'),brand=document.querySelector('#mr-code-marque');
+  const button=document.querySelector('#seal'),status=document.querySelector('#status');
+  const config=JSON.parse(document.querySelector('#public-config').textContent);
+  button.addEventListener('click',async()=>{
+    button.disabled=true;status.textContent='Chiffrement sur votre appareil…';
+    try{
+      const capsule=await MirlipousseMondialRelayCapsule.encrypt(config,{MR_ENSEIGNE:enseigne.value.trim(),MR_PRIVATE_KEY:privateKey.value,MR_CODE_MARQUE:brand.value.trim()});
+      const url=URL.createObjectURL(new Blob([JSON.stringify(capsule)],{type:'application/json'}));
+      const link=document.createElement('a');link.href=url;link.download='connexion.mirlipousse-mondialrelay.json';document.body.append(link);link.click();link.remove();
+      setTimeout(()=>URL.revokeObjectURL(url),60000);
+      enseigne.value='';privateKey.value='';brand.value='';
+      status.textContent='Le fichier chiffré est prêt. Joignez uniquement connexion.mirlipousse-mondialrelay.json dans votre conversation. Cette étape ne crée aucune étiquette et ne valide pas encore le transport des produits CJ.';
+    }catch{
+      status.textContent='Impossible de créer le fichier. Vérifiez le code enseigne, la clé privée Mondial Relay, la date du téléphone et l’ouverture en HTTPS dans Chrome ou Safari. Le code marque est facultatif. Ne communiquez aucun identifiant en clair.';
+    }finally{button.disabled=false;}
+  });
+})();
+</script></body></html>

@@ -1,0 +1,11 @@
+/* Le catalogue garde la composition et les animations de la vitrine. */
+.product-image .product-open img,.editorial-product img,.detail-image img{object-fit:contain;background:#fff}
+.product-image{background:#fff!important}
+.product-copy>div{align-items:flex-start;gap:10px}
+.product-copy .product-price-pending{font-size:12px;line-height:1.5;white-space:nowrap;font-weight:500;color:#59665e}
+.product-name{overflow-wrap:anywhere}
+.age-badge{max-width:calc(100% - 68px);font-size:10px;line-height:1.45}
+.detail-price small{display:block;font-size:12px;line-height:1.5}
+.cart-line-price{font-size:12px}
+.subtotal strong{font-size:14px}
+@media(max-width:600px){.product-copy>div{display:block}.product-copy .product-price-pending{display:block;margin-top:6px}.product-copy .product-name{font-size:15px;line-height:1.35}.cart-line-price{max-width:88px}.subtotal{gap:16px}.subtotal strong{max-width:150px;text-align:right}}

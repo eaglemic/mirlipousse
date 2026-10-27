@@ -35,12 +35,12 @@ Mirlipousse prépare une boutique de jouets et d’accessoires pour enfants. Son
 
 La vitrine présente **30 références fournisseur réelles et leurs photos CJ**, des collections, deux guides et une galerie de **13 médias de présentation**, dont une vidéo. Les anciennes illustrations restent uniquement dans cette galerie, clairement identifiées.
 
-> **Catalogue en préparation : les achats sont fermés.** Les photos des fiches viennent du fournisseur. Les âges, la conformité enfant, les documents fabricant et les conditions de livraison restent à qualifier. Aucun prix client n’est inventé ; le panier est un essai sans paiement.
+> **Catalogue en préparation : les achats sont fermés.** Les photos des fiches viennent du fournisseur. Les âges, la conformité enfant, les documents fabricant et les conditions de livraison restent à qualifier. Les tarifs EUR affichés sont indicatifs et hors livraison : aucun prix encaissable n’est qualifié ; le panier reste sans paiement.
 
 ## Ce que l’on peut déjà explorer
 
 - Parcourir les collections et les idées selon l’âge.
-- Chercher et filtrer les produits, consulter leurs photos et leur référence fournisseur. Les âges non documentés restent « à confirmer ».
+- Chercher et trier les30 produits dans7 catégories, consulter leurs photos, leur variante documentée et leur tarif EUR indicatif. Les âges non documentés restent « à confirmer ».
 - Conserver des favoris et un panier de démonstration sur son appareil.
 - Lire les guides et découvrir les visuels, la vidéo et leurs téléchargements.
 - Profiter du design responsive et des animations du site.
@@ -54,11 +54,19 @@ La vitrine présente **30 références fournisseur réelles et leurs photos CJ**
 | Paiement SumUp | Compte relié · paiements fermés. Connexion API vérifiée ; encaissement réel et parcours complet encore à qualifier. |
 | Fournisseur CJdropshipping | Authentification et paramètres réels vérifiés ; catalogue, détail d’un produit et stock fournisseur positif contrôlés. Service privé authentifié sur Render. |
 | Produits, stocks et livraison | Références et photos importées. Stocks observés à la collecte, sans garantie de livraison en France/Belgique ; frais, taxes, conformité et délais à vérifier. |
-| Commandes réelles | Fermées ; cet export ne déploie aucune API de paiement ou de commande. |
+| Parcours de commande | Panier, estimation pays/standard, formulaire futur, reprise et suivi préparés. Ventes fermées ; aucune commande ni paiement réel qualifié par cette vitrine. |
+
+## Des parcours prêts à qualifier
+
+Sept catégories, recherche, tri et tarifs indicatifs couvrent les30 références. Les anciens favoris et paniers gardent leurs identifiants et leurs quantités. La livraison prévue est standard à domicile en France/Belgique ; le point relais n’est proposé que selon des points et une méthode effectivement disponibles. Un annuaire de points ne prouve pas la compatibilité logistique. Aucun frais, délai ou suivi manquant n’est inventé.
+
+Les coordonnées ne sont demandées que si le serveur et le devis ouvrent réellement le parcours. Le téléphone de livraison est alors obligatoire. Aucune adresse n’est conservée dans le navigateur ; seuls les accès privés de reprise sont enregistrés. Les états de paiement et d’annulation sont vérifiés côté serveur, jamais déduits du retour navigateur.
+
+Les sources frontend maintenables et leurs tests se trouvent dans `sources/parcours-client/`, sans secret ni backend Sites copié.
 
 ## Une vitrine légère à publier
 
-Ce dépôt contient l’export statique de la vitrine : **19 pages vitrine, dont la page d’avis, et une page de saisie chiffrée**, les ressources du site et ses médias. Il est préparé pour un hébergement statique sur Render.
+Ce dépôt contient l’export statique de la vitrine : **23 pages :20 pages vitrine dont avis, contact et suivi, plus3 saisies chiffrées privées**, les ressources du site et ses médias. Il est préparé pour un hébergement statique sur Render.
 
 ```text
 public/                  Pages, styles, scripts et médias du site
