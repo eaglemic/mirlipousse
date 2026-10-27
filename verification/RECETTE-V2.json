@@ -1,0 +1,18 @@
+{
+  "format": "boutiques-liaison-preuves-v2/1",
+  "auteur": "Codex root intégrateur",
+  "dateUTC": "2026-10-27T21:21:13.526220+00:00",
+  "brandSlug": "mini-et-moi",
+  "aucunRawModifie": true,
+  "perimetre": "12 groupes fonctionnels historiques avant seules finitions CSS/référence, puis complément final 3 profils ; aucune extension de leurs dates/portées.",
+  "references": [
+    {
+      "path": "NATIF-V2-FONCTIONNEL-12.json",
+      "sha256": "1efb0f7f45efa79af1d53e55fd30cf7e0e0adcca96f27cb8b30c5a2c1c84fb7d"
+    },
+    {
+      "path": "NATIF-V2-COMPLEMENT-3.json",
+      "sha256": "4ddd5f2f7c8ab6358f8375e4d4f8d009b978181b884120b62c35127c8f089d13"
+    }
+  ]
+}

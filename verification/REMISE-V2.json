@@ -1,0 +1,309 @@
+{
+  "format": "boutique-remise-v2/1",
+  "dateUTC": "2026-10-27T21:13:00.779759+00:00",
+  "brandSlug": "mini-et-moi",
+  "succes": true,
+  "termine": true,
+  "applique": false,
+  "publicationFaite": false,
+  "paquet": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/mini-et-moi",
+  "branch": "entreprise/mini-et-moi",
+  "products": 11,
+  "publicFiles": 43,
+  "origin": "https://mini-et-moi.onrender.com",
+  "salesEnabled": false,
+  "avisEnabled": true,
+  "planCAS": {
+    "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/plans-cas/mini-et-moi.json",
+    "sha256": "94b0075cae0bcab1d6d2565190e6932906f91128c133c20ffd6b15aa1318b3ca"
+  },
+  "export": {
+    "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/mini-et-moi/verification/EXPORT.json",
+    "sha256": "38ff01ca9d1067346d57023d19e0743a0b0a2806996b448279a10c4bc0b3dd3c",
+    "octets": 7728
+  },
+  "codePublic": [
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/mini-et-moi/public/404.html",
+      "sha256": "36b07bbffa4cba3e6c2f9cb6be2c568010630610bfd71ff76ab0194af3643fd0",
+      "octets": 14988,
+      "relativePath": "public/404.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/mini-et-moi/public/ages.html",
+      "sha256": "f5573b006699e120b69414bbf006208ca94e1626848634f35c527b64826fd72f",
+      "octets": 17006,
+      "relativePath": "public/ages.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/mini-et-moi/public/app.js",
+      "sha256": "b6354e9cd002e432a34a873a0ba6e3e48cababab656bb82f1835e6a51d5d61f5",
+      "octets": 14451,
+      "relativePath": "public/app.js"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/mini-et-moi/public/avis.html",
+      "sha256": "df41a871303aa8592719d6bc9be796fc4bd885aa7f600b4cbfc8738c0c38ea66",
+      "octets": 17020,
+      "relativePath": "public/avis.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/mini-et-moi/public/brand.json",
+      "sha256": "4e55159e1cf12dfc7f812cc2698d4b423996036a02b95f26540cc2115e4085bb",
+      "octets": 228,
+      "relativePath": "public/brand.json"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/mini-et-moi/public/catalogue.html",
+      "sha256": "e986ba7bcc34c8fb89e0a011be7b84c664462d079a2b5ffeede674b40aa0c282",
+      "octets": 30548,
+      "relativePath": "public/catalogue.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/mini-et-moi/public/catalogue.json",
+      "sha256": "c884d7f39b451c4d34fd4e3b1103aded0a0e8f28f78ccdc21ef5f777703be8d3",
+      "octets": 12219,
+      "relativePath": "public/catalogue.json"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/mini-et-moi/public/conditions.html",
+      "sha256": "86fed9018b96af2a3847ea4d8a8d448d8c74adebe0484dbce79e06b96955159a",
+      "octets": 15717,
+      "relativePath": "public/conditions.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/mini-et-moi/public/confidentialite.html",
+      "sha256": "fe427a07bdcbb0c15ecf95e3cb3f8f016febcc65bcf84d30b862f929b3b1f91b",
+      "octets": 17121,
+      "relativePath": "public/confidentialite.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/mini-et-moi/public/contact.html",
+      "sha256": "e119bba50ac1fb39f86772abbf411b84cd1d4749d361169fc5044bb2b24bcfce",
+      "octets": 15376,
+      "relativePath": "public/contact.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/mini-et-moi/public/familles.html",
+      "sha256": "b4fb449705b84d25d2543ed7e9a1981b041abc24c3110900919e3e38c619ba6e",
+      "octets": 16279,
+      "relativePath": "public/familles.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/mini-et-moi/public/guide.html",
+      "sha256": "ff4ec5bc99ba0e72d6a19ea9a0d7bf910eb4ff91601f78eebce62f808b5335dc",
+      "octets": 15601,
+      "relativePath": "public/guide.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/mini-et-moi/public/index.html",
+      "sha256": "f192709bdbd36e01739b774eef85a91d5b49e368e32fbb350dc832eda79884c9",
+      "octets": 33500,
+      "relativePath": "public/index.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/mini-et-moi/public/livraison.html",
+      "sha256": "066f2a14925ec7a349b1a76ef9bbe0c6489eedd1859c484bdd4617c08834014c",
+      "octets": 15610,
+      "relativePath": "public/livraison.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/mini-et-moi/public/media/embleme.svg",
+      "sha256": "52d80482645b90d7aedc7895d65ea4ad1704caf84090a7de91b622c203c443d0",
+      "octets": 335,
+      "relativePath": "public/media/embleme.svg"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/mini-et-moi/public/media/illustration-famille.jpg",
+      "sha256": "c865d7dd4ab1184bfabb34caf21fa8496224af633ebfa466750073e7510c1bbd",
+      "octets": 94215,
+      "relativePath": "public/media/illustration-famille.jpg"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/mini-et-moi/public/media/mini-et-moi-cj-1388007897690148864.jpg",
+      "sha256": "9ddf0ddccf30ec76a69c097287fa47d271161bfbb18da2bd17f5cecd4a5c6a47",
+      "octets": 234929,
+      "relativePath": "public/media/mini-et-moi-cj-1388007897690148864.jpg"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/mini-et-moi/public/media/mini-et-moi-cj-1452549799793528832.jpg",
+      "sha256": "3c1328da8151e970c6151847617c6b4ffbfaf6fbb638b21a72267390c93f992f",
+      "octets": 391198,
+      "relativePath": "public/media/mini-et-moi-cj-1452549799793528832.jpg"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/mini-et-moi/public/media/mini-et-moi-cj-1454993111116812288.jpg",
+      "sha256": "446d2f1345555d0f3c865245753daf0e6712d65670b55ca470d1e1b41df177d6",
+      "octets": 156646,
+      "relativePath": "public/media/mini-et-moi-cj-1454993111116812288.jpg"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/mini-et-moi/public/media/mini-et-moi-cj-1465609787336167424.jpg",
+      "sha256": "a8aebbc09f478eeeff22601c02f213487bb858ccdd2902bccb323aeff8423277",
+      "octets": 459285,
+      "relativePath": "public/media/mini-et-moi-cj-1465609787336167424.jpg"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/mini-et-moi/public/media/mini-et-moi-cj-1764827588926644224.jpg",
+      "sha256": "9203baf23d3abe33b21f24dfb1da863c7acfdc7e8f3c6beaf5346e1d6752a1fa",
+      "octets": 717180,
+      "relativePath": "public/media/mini-et-moi-cj-1764827588926644224.jpg"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/mini-et-moi/public/media/mini-et-moi-cj-2505181122211602700.jpg",
+      "sha256": "d547da92d9eb643d70579e8ab2c8dfac672b0c1133764da1f062f83ddb5ddc23",
+      "octets": 175775,
+      "relativePath": "public/media/mini-et-moi-cj-2505181122211602700.jpg"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/mini-et-moi/public/media/mini-et-moi-cj-2508290654511604500.jpg",
+      "sha256": "0bdafba73f3b7a16e00205b9ba02a86680a226499d6f5eb615b78d812f8a8cf6",
+      "octets": 509807,
+      "relativePath": "public/media/mini-et-moi-cj-2508290654511604500.jpg"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/mini-et-moi/public/media/mini-et-moi-cj-2508290707461613900.jpg",
+      "sha256": "747f9d7389eabd340530530f33ddabb57b832c17d598fbeaec7555b3e0dc428c",
+      "octets": 105884,
+      "relativePath": "public/media/mini-et-moi-cj-2508290707461613900.jpg"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/mini-et-moi/public/media/mini-et-moi-cj-2511221039181611900.jpg",
+      "sha256": "3577e9c2acaab263ccd48acc0d95087eb7e13f78f7ebf9dc66c4fecc41a3461f",
+      "octets": 63642,
+      "relativePath": "public/media/mini-et-moi-cj-2511221039181611900.jpg"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/mini-et-moi/public/media/mini-et-moi-cj-2511270210011616600.jpg",
+      "sha256": "ea8762284994ebec74e3e64ae50e6ec18850fd08e0365e1658799aed18c75a08",
+      "octets": 322933,
+      "relativePath": "public/media/mini-et-moi-cj-2511270210011616600.jpg"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/mini-et-moi/public/media/mini-et-moi-cj-6da8a127-bc96-401d-8492-ea0ee0ca9f99.jpg",
+      "sha256": "4df657288043afd8bacb1f9d6f22580ed8f685b03b619f5fa5d35c7cfd4f2c7c",
+      "octets": 168131,
+      "relativePath": "public/media/mini-et-moi-cj-6da8a127-bc96-401d-8492-ea0ee0ca9f99.jpg"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/mini-et-moi/public/mentions-legales.html",
+      "sha256": "2c69da210e6a47a82b66701182b9c4b165518fe8b6bdc347251d15b8ab1cb86b",
+      "octets": 15894,
+      "relativePath": "public/mentions-legales.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/mini-et-moi/public/produits/mini-et-moi-cj-1388007897690148864.html",
+      "sha256": "342e20b85d7d91fad1317eb7d36fc5d21c4e21040fac0399babba214ddcead7f",
+      "octets": 16764,
+      "relativePath": "public/produits/mini-et-moi-cj-1388007897690148864.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/mini-et-moi/public/produits/mini-et-moi-cj-1452549799793528832.html",
+      "sha256": "fe989b8e8e33566f3c151a7ef5530ed560221bf85421c829c199adefadb411cc",
+      "octets": 16773,
+      "relativePath": "public/produits/mini-et-moi-cj-1452549799793528832.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/mini-et-moi/public/produits/mini-et-moi-cj-1454993111116812288.html",
+      "sha256": "f8cf82e497dfde006c147ac2d2dfa3d24b967e2019373f69f937c76c1df37662",
+      "octets": 16827,
+      "relativePath": "public/produits/mini-et-moi-cj-1454993111116812288.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/mini-et-moi/public/produits/mini-et-moi-cj-1465609787336167424.html",
+      "sha256": "09f487ff5a33dc7405feb73258076c5678981419ebc72d1f2f0e2cf09d148ec3",
+      "octets": 16945,
+      "relativePath": "public/produits/mini-et-moi-cj-1465609787336167424.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/mini-et-moi/public/produits/mini-et-moi-cj-1764827588926644224.html",
+      "sha256": "f2dd194ee5e6372f0ab0def8f1329c4a90cc4c1bce29afb73de28faadc7ec1a8",
+      "octets": 16901,
+      "relativePath": "public/produits/mini-et-moi-cj-1764827588926644224.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/mini-et-moi/public/produits/mini-et-moi-cj-2505181122211602700.html",
+      "sha256": "c3f60f170085e21189cd84fba514bdd4d5a80cb17d6909bd30e5e1eb4f7d327d",
+      "octets": 16927,
+      "relativePath": "public/produits/mini-et-moi-cj-2505181122211602700.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/mini-et-moi/public/produits/mini-et-moi-cj-2508290654511604500.html",
+      "sha256": "3a54507e5dfd738d915ab020f37b4dd737afaf0e3541d58d92e30abe0098a0a7",
+      "octets": 16858,
+      "relativePath": "public/produits/mini-et-moi-cj-2508290654511604500.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/mini-et-moi/public/produits/mini-et-moi-cj-2508290707461613900.html",
+      "sha256": "b986acaaf97227afce5efd75f0713ddb1ff99dc131086615829d90e1a601f2ee",
+      "octets": 16826,
+      "relativePath": "public/produits/mini-et-moi-cj-2508290707461613900.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/mini-et-moi/public/produits/mini-et-moi-cj-2511221039181611900.html",
+      "sha256": "8eaefeeeb92daeab6d53fa845caf74cf6a4969ad4095c27e4964135a2a6d1f1b",
+      "octets": 16923,
+      "relativePath": "public/produits/mini-et-moi-cj-2511221039181611900.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/mini-et-moi/public/produits/mini-et-moi-cj-2511270210011616600.html",
+      "sha256": "ad88a1256801e5357bd68b06f1511f1d62fee97013460b3d4c9510d7506f9b08",
+      "octets": 16971,
+      "relativePath": "public/produits/mini-et-moi-cj-2511270210011616600.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/mini-et-moi/public/produits/mini-et-moi-cj-6da8a127-bc96-401d-8492-ea0ee0ca9f99.html",
+      "sha256": "1ea34cbbf6cc6b0b56837906a917c9cca458d67615eea560c3968b6ddfb120ae",
+      "octets": 16865,
+      "relativePath": "public/produits/mini-et-moi-cj-6da8a127-bc96-401d-8492-ea0ee0ca9f99.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/mini-et-moi/public/retours.html",
+      "sha256": "26dd5951066734e362676f2477da4be009ed28382de1a0536cfbe0653642732c",
+      "octets": 15682,
+      "relativePath": "public/retours.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/mini-et-moi/public/robots.txt",
+      "sha256": "c12165507fbaf70c4a48bdeb7a705e3cc6dec7ed8b62fc5068bc5e9e4629e750",
+      "octets": 77,
+      "relativePath": "public/robots.txt"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/mini-et-moi/public/sitemap.xml",
+      "sha256": "a5932b06ee8318cff00527c835a1b6f814ad017eee77d4886a1bde8f261de20a",
+      "octets": 2076,
+      "relativePath": "public/sitemap.xml"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/mini-et-moi/public/style.css",
+      "sha256": "0f4e0f8a01a59e7f3072158a46062d81f5039d89cad8902f28641061e962c007",
+      "octets": 29097,
+      "relativePath": "public/style.css"
+    }
+  ],
+  "preuveFonctionnelle12": {
+    "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/verification/recette-2026-10-27T21-01-36-999Z/RECETTE-NAVIGATEUR.json",
+    "sha256": "1efb0f7f45efa79af1d53e55fd30cf7e0e0adcca96f27cb8b30c5a2c1c84fb7d",
+    "octets": 79639
+  },
+  "complementCSSReference3": {
+    "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/verification/complement-motion-2026-10-27T21-10-29-869Z/RECETTE-NAVIGATEUR.json",
+    "sha256": "4ddd5f2f7c8ab6358f8375e4d4f8d009b978181b884120b62c35127c8f089d13",
+    "octets": 4648
+  },
+  "porteeReuse": "HTML, produits, images, sélection, filtres, dialogue et formulaires de la recette12 inchangés. Le JS de retour POST et CSS décorative ont ensuite reçu les deux finitions explicitement qualifiées sur trois profils.",
+  "finitions": {
+    "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/verification/FINITIONS-BORNE-REFERENCE.json",
+    "sha256": "978416bae59d21ba8bdf90c7328f8cb05a892769ccf561a9e017e72ba965fadc",
+    "octets": 6817
+  },
+  "limites": [
+    "Ventes fermées et prix client non définis.",
+    "Avis du navigateur en recette interceptés par fixture locale explicite ; aucun avis produit créé ou publié.",
+    "Chromium headless local seulement, aucun téléphone physique.",
+    "Root seul opérateur publication, aucun push ou service modifié par cet agent.",
+    "Inscriptions françaises Parrain/Marraine/etc non encore imprimées ou fabriquées ; les supports DIY restent décrits comme vêtements de base.",
+    "Âges et tailles seulement d’après les indications fournisseur documentées ; aucune correspondance âge/cm inventée."
+  ]
+}

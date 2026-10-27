@@ -6,7 +6,7 @@ Les liens se portent aussi.
 
 Vêtements assortis pour familles et liens de cœur. [Découvrir le site](https://mini-et-moi.onrender.com)
 
-La vitrine présente **3 références fournisseur réelles** avec leurs photographies et une sélection locale, sans encaissement ni commande. Les prix, la livraison France/Belgique et les informations commerciales restent à qualifier.
+La vitrine présente **11 références fournisseur réelles** avec leurs photographies et une sélection locale, sans encaissement ni commande. Les prix, la livraison France/Belgique et les informations commerciales restent à qualifier.
 
 ## L’univers
 

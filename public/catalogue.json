@@ -10,8 +10,8 @@
       "vid": "1388007899032326144",
       "name": "Pièces assorties en denim et fleurs",
       "description": "Des modèles coordonnés en denim et motif fleuri. Chaque variante correspond à une pièce : la photographie montre plusieurs modèles de la même collection, sans constituer un lot familial.",
-      "category": "denim-fleurs",
-      "categoryLabel": "Denim et fleurs",
+      "category": "tenues-assorties",
+      "categoryLabel": "Tenues assorties",
       "materialsText": "Coton déclaré par le fournisseur ; composition et documents à confirmer avant vente.",
       "image": "/media/mini-et-moi-cj-1388007897690148864.jpg",
       "imageAlt": "Pièces assorties en denim et fleurs — photo fournisseur",
@@ -30,8 +30,8 @@
       "vid": "0B631D0D-1107-46B6-8E66-5F3DFC087A65",
       "name": "Robe rayée · variantes parent et enfant",
       "description": "Une robe vendue à l’unité, dans les tailles de la fiche fournisseur. La photographie présente deux variantes assorties ; elle ne constitue pas une offre de deux robes.",
-      "category": "rayures",
-      "categoryLabel": "Rayures",
+      "category": "tenues-assorties",
+      "categoryLabel": "Tenues assorties",
       "materialsText": "Polyester déclaré par le fournisseur ; composition et documents à confirmer avant vente.",
       "image": "/media/mini-et-moi-cj-6da8a127-bc96-401d-8492-ea0ee0ca9f99.jpg",
       "imageAlt": "Robe rayée · variantes parent et enfant — photo fournisseur",
@@ -49,8 +49,8 @@
       "vid": "1452549799873220608",
       "name": "Pyjama imprimé · une tenue individuelle",
       "description": "Une tenue pour une personne, avec un haut et un pantalon selon la fiche fournisseur. La photographie montre plusieurs modèles parent/enfant ; aucun lot familial complet n’est garanti.",
-      "category": "pyjamas",
-      "categoryLabel": "Pyjamas",
+      "category": "tenues-assorties",
+      "categoryLabel": "Tenues assorties",
       "materialsText": "Coton déclaré par le fournisseur ; composition et documents à confirmer avant vente.",
       "image": "/media/mini-et-moi-cj-1452549799793528832.jpg",
       "imageAlt": "Pyjama imprimé · une tenue individuelle — photo fournisseur",
@@ -61,6 +61,153 @@
         "adulte"
       ],
       "audienceSource": "enfant : Child (product/query description, titre ou clé variante) ; adulte : Dad (product/query description, titre ou clé variante)"
+    },
+    {
+      "id": "mini-et-moi-cj-2508290707461613900",
+      "pid": "2508290707461613900",
+      "vid": "2508290707461614300",
+      "name": "T-shirt adulte, support à personnaliser",
+      "description": "Un t-shirt à manches courtes et col rond, référencé par le fournisseur comme support DIY. La photo montre le vêtement de base : les inscriptions françaises « Parrain », « Marraine » ou autres ne sont pas encore imprimées ni validées.",
+      "category": "supports-pod",
+      "categoryLabel": "Basiques et supports unis",
+      "materialsText": "Coton annoncé par le fournisseur ; composition et étiquette à confirmer.",
+      "image": "/media/mini-et-moi-cj-2508290707461613900.jpg",
+      "imageAlt": "T-shirt adulte, support à personnaliser — photo fournisseur",
+      "priceCustomer": null,
+      "purchaseEnabled": false,
+      "audienceTags": [
+        "adulte"
+      ],
+      "audienceSource": "Titre fournisseur : Men’s Basic Short Sleeve T-Shirt ; tailles M à 5XL dans les clés de variantes."
+    },
+    {
+      "id": "mini-et-moi-cj-2511221039181611900",
+      "pid": "2511221039181611900",
+      "vid": "2511221039181612200",
+      "name": "T-shirt adulte et grandes tailles, support à personnaliser",
+      "description": "Un t-shirt adulte proposé en plusieurs tailles et couleurs. Le fournisseur le classe en DIY et mentionne l’impression numérique. Le prix de revient complet d’un motif français et sa fabrication restent à confirmer ; aucune inscription n’est déjà livrée dans ce catalogue.",
+      "category": "supports-pod",
+      "categoryLabel": "Basiques et supports unis",
+      "materialsText": "Coton déclaré par le fournisseur ; étiquette et composition à confirmer.",
+      "image": "/media/mini-et-moi-cj-2511221039181611900.jpg",
+      "imageAlt": "T-shirt adulte et grandes tailles, support à personnaliser — photo fournisseur",
+      "priceCustomer": null,
+      "purchaseEnabled": false,
+      "audienceTags": [
+        "adulte"
+      ],
+      "audienceSource": "Titre fournisseur : US Size / Plus-size ; tailles S à 3XL dans les clés de variantes."
+    },
+    {
+      "id": "mini-et-moi-cj-1465609787336167424",
+      "pid": "1465609787336167424",
+      "vid": "1465854084069330945",
+      "name": "Tenue détente parent-enfant, support à personnaliser",
+      "description": "Des tenues de détente à carreaux, proposées avec des variantes bébé, enfant et adulte. Chaque variante correspond à une personne : la photographie de famille n’est pas une offre pour toute la famille. Le fournisseur classe la référence en DIY ; les mots français personnalisés ne sont pas encore validés.",
+      "category": "supports-pod",
+      "categoryLabel": "Basiques et supports unis",
+      "materialsText": "Polyester déclaré par le fournisseur ; étiquette et composition à confirmer.",
+      "image": "/media/mini-et-moi-cj-1465609787336167424.jpg",
+      "imageAlt": "Tenue détente parent-enfant, support à personnaliser — photo fournisseur",
+      "priceCustomer": null,
+      "purchaseEnabled": false,
+      "audienceTags": [
+        "bebe",
+        "enfant",
+        "adulte"
+      ],
+      "audienceSource": "Clés de variantes reçues : Baby 6M ; Childrens clothing 3Yor4Y / 4Yor5Y / 6Yor7Y ; Dad M/L et Mom S/L."
+    },
+    {
+      "id": "mini-et-moi-cj-2508290654511604500",
+      "pid": "2508290654511604500",
+      "vid": "2508290654511604700",
+      "name": "Sweat-shirt adulte, support à personnaliser",
+      "description": "Un sweat-shirt adulte à col rond et manches longues, présenté comme support DIY par le fournisseur. La photographie montre le vêtement de base. Les inscriptions de famille et leur coût de fabrication doivent encore être validés avant toute vente.",
+      "category": "supports-pod",
+      "categoryLabel": "Basiques et supports unis",
+      "materialsText": "Coton annoncé dans l’intitulé fournisseur ; composition et étiquette à confirmer.",
+      "image": "/media/mini-et-moi-cj-2508290654511604500.jpg",
+      "imageAlt": "Sweat-shirt adulte, support à personnaliser — photo fournisseur",
+      "priceCustomer": null,
+      "purchaseEnabled": false,
+      "audienceTags": [
+        "adulte"
+      ],
+      "audienceSource": "Intitulé fournisseur de sweat-shirt et clés de tailles S à 3XL."
+    },
+    {
+      "id": "mini-et-moi-cj-2511270210011616600",
+      "pid": "2511270210011616600",
+      "vid": "2511270210011616800",
+      "name": "Ensemble jogging adulte à pantalon large",
+      "description": "Un ensemble adulte composé d’un haut à col montant zippé et d’un pantalon ample. Le fournisseur annonce plusieurs tailles ; la photographie ne prouve pas la disponibilité de chaque taille ou couleur. Aucun ensemble enfant assorti n’est déduit de cette référence. La photographie présente la gamme ; la correspondance exacte avec la variante stockée reste à confirmer.",
+      "category": "joggings",
+      "categoryLabel": "Joggings & ensembles",
+      "materialsText": "Polyester déclaré par le fournisseur ; composition et étiquette à confirmer.",
+      "image": "/media/mini-et-moi-cj-2511270210011616600.jpg",
+      "imageAlt": "Ensemble jogging adulte à pantalon large — photo fournisseur",
+      "priceCustomer": null,
+      "purchaseEnabled": false,
+      "audienceTags": [
+        "adulte"
+      ],
+      "audienceSource": "Intitulé fournisseur Women’s Suits / tracksuit ; tailles S à XXL dans le descriptif."
+    },
+    {
+      "id": "mini-et-moi-cj-2505181122211602700",
+      "pid": "2505181122211602700",
+      "vid": "2505181122211603000",
+      "name": "Pantalon adulte à pattes évasées",
+      "description": "Un pantalon adulte à taille haute et bas évasés, proposé en plusieurs tailles. Le fournisseur décrit une matière sans élasticité. Il s’agit d’un pantalon individuel ; aucun ensemble familial ou haut assorti n’est inclus sur cette seule base. La photographie présente la gamme ; la correspondance exacte avec la variante stockée reste à confirmer.",
+      "category": "pantalons",
+      "categoryLabel": "Pantalons évasés",
+      "materialsText": "Polyester déclaré par le fournisseur ; composition et étiquette à confirmer.",
+      "image": "/media/mini-et-moi-cj-2505181122211602700.jpg",
+      "imageAlt": "Pantalon adulte à pattes évasées — photo fournisseur",
+      "priceCustomer": null,
+      "purchaseEnabled": false,
+      "audienceTags": [
+        "adulte"
+      ],
+      "audienceSource": "Intitulé fournisseur Female Flare Pants ; tailles S/M/L/XL/XXL dans le descriptif."
+    },
+    {
+      "id": "mini-et-moi-cj-1454993111116812288",
+      "pid": "1454993111116812288",
+      "vid": "1454993111171338240",
+      "name": "Grenouillère bébé à manches longues",
+      "description": "Une grenouillère à capuche, manches longues et fermeture sur le devant. Le fournisseur la décrit pour les nouveau-nés de 0 à 1 an et propose des hauteurs 59, 66, 73 et 80 cm. Ces indications ne prouvent pas la disponibilité de toutes les tailles.",
+      "category": "bebe",
+      "categoryLabel": "Bébé & naissance",
+      "materialsText": "Coton annoncé par le fournisseur ; composition et étiquette à confirmer.",
+      "image": "/media/mini-et-moi-cj-1454993111116812288.jpg",
+      "imageAlt": "Grenouillère bébé à manches longues — photo fournisseur",
+      "priceCustomer": null,
+      "purchaseEnabled": false,
+      "audienceTags": [
+        "naissance",
+        "bebe"
+      ],
+      "audienceSource": "Description fournisseur : newborns (0~1 years old, 80cm and below) ; clés de hauteur 59/66/73/80cm."
+    },
+    {
+      "id": "mini-et-moi-cj-1764827588926644224",
+      "pid": "1764827588926644224",
+      "vid": "1764827589006336000",
+      "name": "Baskets adultes en maille",
+      "description": "Des baskets adultes à lacets, avec une tige d’aspect maille et une semelle claire. La photo de présentation est bleue ; la variante dont le stock et le prix ont été mesurés est Rouge, pointure fournisseur 36. Les coloris et correspondances de pointures doivent être confirmés avant vente.",
+      "category": "chaussures",
+      "categoryLabel": "Chaussures adultes",
+      "materialsText": "Le fournisseur annonce une tige en PU artificiel et une doublure textile, tandis que le visuel présente une maille : composition exacte à confirmer.",
+      "image": "/media/mini-et-moi-cj-1764827588926644224.jpg",
+      "imageAlt": "Baskets adultes en maille — photo fournisseur",
+      "priceCustomer": null,
+      "purchaseEnabled": false,
+      "audienceTags": [
+        "adulte"
+      ],
+      "audienceSource": "Intitulé fournisseur Women’s Fashion Casual Fly-knit Sneakers ; pointures 36 à 43 dans les clés de variantes."
     }
   ]
 }

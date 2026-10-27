@@ -1,6 +1,6 @@
 {
   "format": "boutique-export/1",
-  "dateUTC": "2026-10-27T20:33:29.864496Z",
+  "dateUTC": "2026-10-27T20:59:50.447696Z",
   "brandSlug": "mini-et-moi",
   "name": "Mini & Moi",
   "branche": "entreprise/mini-et-moi",
@@ -8,29 +8,29 @@
   "salesEnabled": false,
   "adultOnly": false,
   "origin": "https://mini-et-moi.onrender.com",
-  "products": 3,
-  "sourceBrandSHA256": "f10a2cc25e73209676295b9302487df88dd6e5bb42c30f5f3182de9d06db3b42",
-  "sourceCatalogueSHA256": "f95b994c8d32b0369050ad6616cb92ba9219a6e119f7c98eccee2025e9bcff55",
+  "products": 11,
+  "sourceBrandSHA256": "6f33a6c40b775d5c2837135c52bb8401a95232cd07ac23026fb25b1e7c9e0f04",
+  "sourceCatalogueSHA256": "f00eecfc2d4fa3f195c8689f00d7837256f49dbffb7a9bcc8cdbbff5ad77d382",
   "files": [
     {
       "path": "404.html",
-      "sha256": "1872f7d8756eb433f12eae1b592ed69d5e4b9663a9d1bae3692853c9334b49f0",
-      "octets": 7031
+      "sha256": "36b07bbffa4cba3e6c2f9cb6be2c568010630610bfd71ff76ab0194af3643fd0",
+      "octets": 14988
     },
     {
       "path": "ages.html",
-      "sha256": "ebd842651f4c7e3c968e233b7ac1247c8bd46697490f61162b5ceff809d90d0a",
-      "octets": 9066
+      "sha256": "f5573b006699e120b69414bbf006208ca94e1626848634f35c527b64826fd72f",
+      "octets": 17006
     },
     {
       "path": "app.js",
-      "sha256": "a6d3ce60454f724e8e2ddbfed1bc68d559f23387a6c2822dda34e96dcaa6bbcb",
-      "octets": 11142
+      "sha256": "b6354e9cd002e432a34a873a0ba6e3e48cababab656bb82f1835e6a51d5d61f5",
+      "octets": 14451
     },
     {
       "path": "avis.html",
-      "sha256": "6793491b0dd6d7c4cdf59a58b53f107cea8ea8e4e6636731e0418a9435b87e3c",
-      "octets": 8896
+      "sha256": "df41a871303aa8592719d6bc9be796fc4bd885aa7f600b4cbfc8738c0c38ea66",
+      "octets": 17020
     },
     {
       "path": "brand.json",
@@ -39,48 +39,48 @@
     },
     {
       "path": "catalogue.html",
-      "sha256": "f863a4671d0014b3a7586f15fab1b6708d178a9b6da3d33f0c19b1d85b3d91ed",
-      "octets": 12114
+      "sha256": "e986ba7bcc34c8fb89e0a011be7b84c664462d079a2b5ffeede674b40aa0c282",
+      "octets": 30548
     },
     {
       "path": "catalogue.json",
-      "sha256": "9e3837924c06ab55c9506de8ecf0ac7a5f837c3b7fe294e6bda77682e20bfc12",
-      "octets": 3357
+      "sha256": "c884d7f39b451c4d34fd4e3b1103aded0a0e8f28f78ccdc21ef5f777703be8d3",
+      "octets": 12219
     },
     {
       "path": "conditions.html",
-      "sha256": "8c4cefd2961e6f65c6205c93850e575ab9380b0962bf3aea6eb436b8310d315c",
-      "octets": 7760
+      "sha256": "86fed9018b96af2a3847ea4d8a8d448d8c74adebe0484dbce79e06b96955159a",
+      "octets": 15717
     },
     {
       "path": "confidentialite.html",
-      "sha256": "d9edbaf1224b776bcc8224f8a8a4365ef9f5cab9e2d4c1a788d44986978e15f9",
-      "octets": 8092
+      "sha256": "fe427a07bdcbb0c15ecf95e3cb3f8f016febcc65bcf84d30b862f929b3b1f91b",
+      "octets": 17121
     },
     {
       "path": "contact.html",
-      "sha256": "fd744ad0a491e1d7bfc57139329cb17065a499dd55a296feb912aae940beca40",
-      "octets": 7419
+      "sha256": "e119bba50ac1fb39f86772abbf411b84cd1d4749d361169fc5044bb2b24bcfce",
+      "octets": 15376
     },
     {
       "path": "familles.html",
-      "sha256": "7bf99313a86a858dfe3632ae1dbfae4d30ac6791fc5026f75a6b8ca24dc9d292",
-      "octets": 8322
+      "sha256": "b4fb449705b84d25d2543ed7e9a1981b041abc24c3110900919e3e38c619ba6e",
+      "octets": 16279
     },
     {
       "path": "guide.html",
-      "sha256": "b16cbe6403ed4138cc30045d1d9a6f7c64261798c87604360892a19636760bb7",
-      "octets": 7644
+      "sha256": "ff4ec5bc99ba0e72d6a19ea9a0d7bf910eb4ff91601f78eebce62f808b5335dc",
+      "octets": 15601
     },
     {
       "path": "index.html",
-      "sha256": "813ab783d6aaaa14da5e59a77f00547efe09c5fc49fc3202f6351d6f38acc866",
-      "octets": 15398
+      "sha256": "f192709bdbd36e01739b774eef85a91d5b49e368e32fbb350dc832eda79884c9",
+      "octets": 33500
     },
     {
       "path": "livraison.html",
-      "sha256": "dd05ee6cd718184f505ab45cdb5412c2fdc546931ba22a6a66a2af5f359d8831",
-      "octets": 7653
+      "sha256": "066f2a14925ec7a349b1a76ef9bbe0c6489eedd1859c484bdd4617c08834014c",
+      "octets": 15610
     },
     {
       "path": "media/embleme.svg",
@@ -103,34 +103,114 @@
       "octets": 391198
     },
     {
+      "path": "media/mini-et-moi-cj-1454993111116812288.jpg",
+      "sha256": "446d2f1345555d0f3c865245753daf0e6712d65670b55ca470d1e1b41df177d6",
+      "octets": 156646
+    },
+    {
+      "path": "media/mini-et-moi-cj-1465609787336167424.jpg",
+      "sha256": "a8aebbc09f478eeeff22601c02f213487bb858ccdd2902bccb323aeff8423277",
+      "octets": 459285
+    },
+    {
+      "path": "media/mini-et-moi-cj-1764827588926644224.jpg",
+      "sha256": "9203baf23d3abe33b21f24dfb1da863c7acfdc7e8f3c6beaf5346e1d6752a1fa",
+      "octets": 717180
+    },
+    {
+      "path": "media/mini-et-moi-cj-2505181122211602700.jpg",
+      "sha256": "d547da92d9eb643d70579e8ab2c8dfac672b0c1133764da1f062f83ddb5ddc23",
+      "octets": 175775
+    },
+    {
+      "path": "media/mini-et-moi-cj-2508290654511604500.jpg",
+      "sha256": "0bdafba73f3b7a16e00205b9ba02a86680a226499d6f5eb615b78d812f8a8cf6",
+      "octets": 509807
+    },
+    {
+      "path": "media/mini-et-moi-cj-2508290707461613900.jpg",
+      "sha256": "747f9d7389eabd340530530f33ddabb57b832c17d598fbeaec7555b3e0dc428c",
+      "octets": 105884
+    },
+    {
+      "path": "media/mini-et-moi-cj-2511221039181611900.jpg",
+      "sha256": "3577e9c2acaab263ccd48acc0d95087eb7e13f78f7ebf9dc66c4fecc41a3461f",
+      "octets": 63642
+    },
+    {
+      "path": "media/mini-et-moi-cj-2511270210011616600.jpg",
+      "sha256": "ea8762284994ebec74e3e64ae50e6ec18850fd08e0365e1658799aed18c75a08",
+      "octets": 322933
+    },
+    {
       "path": "media/mini-et-moi-cj-6da8a127-bc96-401d-8492-ea0ee0ca9f99.jpg",
       "sha256": "4df657288043afd8bacb1f9d6f22580ed8f685b03b619f5fa5d35c7cfd4f2c7c",
       "octets": 168131
     },
     {
       "path": "mentions-legales.html",
-      "sha256": "1abfad682babb746da026d8d87163fb77fbb31e7b85fb5f1d6e7de4948e8a001",
-      "octets": 7937
+      "sha256": "2c69da210e6a47a82b66701182b9c4b165518fe8b6bdc347251d15b8ab1cb86b",
+      "octets": 15894
     },
     {
       "path": "produits/mini-et-moi-cj-1388007897690148864.html",
-      "sha256": "f8d957aacf1ceeb5929b5c4eb6837d4f7606d11b3d595b93b873ab490274890a",
-      "octets": 8806
+      "sha256": "342e20b85d7d91fad1317eb7d36fc5d21c4e21040fac0399babba214ddcead7f",
+      "octets": 16764
     },
     {
       "path": "produits/mini-et-moi-cj-1452549799793528832.html",
-      "sha256": "cc74f7e96c0e49d043270d30fb64ab00c40f625f525d4c15d48d7e0439b2a9ac",
-      "octets": 8807
+      "sha256": "fe989b8e8e33566f3c151a7ef5530ed560221bf85421c829c199adefadb411cc",
+      "octets": 16773
+    },
+    {
+      "path": "produits/mini-et-moi-cj-1454993111116812288.html",
+      "sha256": "f8cf82e497dfde006c147ac2d2dfa3d24b967e2019373f69f937c76c1df37662",
+      "octets": 16827
+    },
+    {
+      "path": "produits/mini-et-moi-cj-1465609787336167424.html",
+      "sha256": "09f487ff5a33dc7405feb73258076c5678981419ebc72d1f2f0e2cf09d148ec3",
+      "octets": 16945
+    },
+    {
+      "path": "produits/mini-et-moi-cj-1764827588926644224.html",
+      "sha256": "f2dd194ee5e6372f0ab0def8f1329c4a90cc4c1bce29afb73de28faadc7ec1a8",
+      "octets": 16901
+    },
+    {
+      "path": "produits/mini-et-moi-cj-2505181122211602700.html",
+      "sha256": "c3f60f170085e21189cd84fba514bdd4d5a80cb17d6909bd30e5e1eb4f7d327d",
+      "octets": 16927
+    },
+    {
+      "path": "produits/mini-et-moi-cj-2508290654511604500.html",
+      "sha256": "3a54507e5dfd738d915ab020f37b4dd737afaf0e3541d58d92e30abe0098a0a7",
+      "octets": 16858
+    },
+    {
+      "path": "produits/mini-et-moi-cj-2508290707461613900.html",
+      "sha256": "b986acaaf97227afce5efd75f0713ddb1ff99dc131086615829d90e1a601f2ee",
+      "octets": 16826
+    },
+    {
+      "path": "produits/mini-et-moi-cj-2511221039181611900.html",
+      "sha256": "8eaefeeeb92daeab6d53fa845caf74cf6a4969ad4095c27e4964135a2a6d1f1b",
+      "octets": 16923
+    },
+    {
+      "path": "produits/mini-et-moi-cj-2511270210011616600.html",
+      "sha256": "ad88a1256801e5357bd68b06f1511f1d62fee97013460b3d4c9510d7506f9b08",
+      "octets": 16971
     },
     {
       "path": "produits/mini-et-moi-cj-6da8a127-bc96-401d-8492-ea0ee0ca9f99.html",
-      "sha256": "63425ad6cd02b9c8a3cd44da8f66406fad1a3d4d630e20a269f44478e4ee9e9d",
-      "octets": 8899
+      "sha256": "1ea34cbbf6cc6b0b56837906a917c9cca458d67615eea560c3968b6ddfb120ae",
+      "octets": 16865
     },
     {
       "path": "retours.html",
-      "sha256": "3c40aff0c3d5b91976707b459e50231117c72049ebce25ae59b0432b2d0c6938",
-      "octets": 7725
+      "sha256": "26dd5951066734e362676f2477da4be009ed28382de1a0536cfbe0653642732c",
+      "octets": 15682
     },
     {
       "path": "robots.txt",
@@ -139,13 +219,13 @@
     },
     {
       "path": "sitemap.xml",
-      "sha256": "2a399f2019931fda8e0b0a353cba88988b4bc3cc0f975a9722cd2afb14c14da5",
-      "octets": 1252
+      "sha256": "a5932b06ee8318cff00527c835a1b6f814ad017eee77d4886a1bde8f261de20a",
+      "octets": 2076
     },
     {
       "path": "style.css",
-      "sha256": "d39fa7ee1134428fd621b3025f2a62f1ab0880ef5e2b9ceaed882cbd9f208224",
-      "octets": 25138
+      "sha256": "0f4e0f8a01a59e7f3072158a46062d81f5039d89cad8902f28641061e962c007",
+      "octets": 29097
     }
   ]
 }
