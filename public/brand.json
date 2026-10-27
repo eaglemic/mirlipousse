@@ -1,0 +1,12 @@
+{
+  "slug": "mini-et-moi",
+  "nom": "Mini & Moi",
+  "theme": "Vêtements assortis pour familles et liens de cœur",
+  "palette": [
+    "#292323",
+    "#FBF6ED",
+    "#B57B71"
+  ],
+  "salesEnabled": false,
+  "adultOnly": false
+}

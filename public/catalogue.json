@@ -1,0 +1,66 @@
+{
+  "format": "boutique-catalogue-public/1",
+  "brandSlug": "mini-et-moi",
+  "salesEnabled": false,
+  "adultOnly": false,
+  "products": [
+    {
+      "id": "mini-et-moi-cj-1388007897690148864",
+      "pid": "1388007897690148864",
+      "vid": "1388007899032326144",
+      "name": "Pièces assorties en denim et fleurs",
+      "description": "Des modèles coordonnés en denim et motif fleuri. Chaque variante correspond à une pièce : la photographie montre plusieurs modèles de la même collection, sans constituer un lot familial.",
+      "category": "denim-fleurs",
+      "categoryLabel": "Denim et fleurs",
+      "materialsText": "Coton déclaré par le fournisseur ; composition et documents à confirmer avant vente.",
+      "image": "/media/mini-et-moi-cj-1388007897690148864.jpg",
+      "imageAlt": "Pièces assorties en denim et fleurs — photo fournisseur",
+      "priceCustomer": null,
+      "purchaseEnabled": false,
+      "audienceTags": [
+        "bebe",
+        "enfant",
+        "adulte"
+      ],
+      "audienceSource": "bebe : Baby (product/query description, titre ou clé variante) ; enfant : Girl (product/query description, titre ou clé variante) ; adulte : Mom (product/query description, titre ou clé variante)"
+    },
+    {
+      "id": "mini-et-moi-cj-6da8a127-bc96-401d-8492-ea0ee0ca9f99",
+      "pid": "6DA8A127-BC96-401D-8492-EA0EE0CA9F99",
+      "vid": "0B631D0D-1107-46B6-8E66-5F3DFC087A65",
+      "name": "Robe rayée · variantes parent et enfant",
+      "description": "Une robe vendue à l’unité, dans les tailles de la fiche fournisseur. La photographie présente deux variantes assorties ; elle ne constitue pas une offre de deux robes.",
+      "category": "rayures",
+      "categoryLabel": "Rayures",
+      "materialsText": "Polyester déclaré par le fournisseur ; composition et documents à confirmer avant vente.",
+      "image": "/media/mini-et-moi-cj-6da8a127-bc96-401d-8492-ea0ee0ca9f99.jpg",
+      "imageAlt": "Robe rayée · variantes parent et enfant — photo fournisseur",
+      "priceCustomer": null,
+      "purchaseEnabled": false,
+      "audienceTags": [
+        "enfant",
+        "adulte"
+      ],
+      "audienceSource": "enfant : Daughter (product/query description, titre ou clé variante) ; adulte : Mother (product/query description, titre ou clé variante)"
+    },
+    {
+      "id": "mini-et-moi-cj-1452549799793528832",
+      "pid": "1452549799793528832",
+      "vid": "1452549799873220608",
+      "name": "Pyjama imprimé · une tenue individuelle",
+      "description": "Une tenue pour une personne, avec un haut et un pantalon selon la fiche fournisseur. La photographie montre plusieurs modèles parent/enfant ; aucun lot familial complet n’est garanti.",
+      "category": "pyjamas",
+      "categoryLabel": "Pyjamas",
+      "materialsText": "Coton déclaré par le fournisseur ; composition et documents à confirmer avant vente.",
+      "image": "/media/mini-et-moi-cj-1452549799793528832.jpg",
+      "imageAlt": "Pyjama imprimé · une tenue individuelle — photo fournisseur",
+      "priceCustomer": null,
+      "purchaseEnabled": false,
+      "audienceTags": [
+        "enfant",
+        "adulte"
+      ],
+      "audienceSource": "enfant : Child (product/query description, titre ou clé variante) ; adulte : Dad (product/query description, titre ou clé variante)"
+    }
+  ]
+}

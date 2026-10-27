@@ -1,0 +1,12 @@
+{
+  "format": "mini-et-moi-finition-editoriale/1",
+  "dateUTC": "2026-10-27T20:31:01.041045+00:00",
+  "autorisation": "Revue root explicite : remplacement du seul titre de collection, aucune nouvelle QA globale demandée.",
+  "fichier": "public/index.html",
+  "avantSHA256": "ddac6a51273e672b99c7111311994f61a39198cccc67f93bdfd83165b77c843b",
+  "apresSHA256": "17171be4b428ad626509c5efec05c5d24259b3556b3452a2503123358a772e90",
+  "ancienEXPORTSHA256": "f6af21306408256fa0dc1dcc84009ef89e6869061babbcf0fa539a1eb2f9f047",
+  "texteAvant": "Des objets à découvrir.",
+  "texteApres": "Des tenues à découvrir.",
+  "autresFichiersPublicsInchanges": true
+}
