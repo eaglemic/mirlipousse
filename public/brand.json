@@ -1,0 +1,12 @@
+{
+  "slug": "moustelio",
+  "nom": "Moustélio",
+  "theme": "Vie à la maison avec chiens et chats",
+  "palette": [
+    "#163D49",
+    "#F3DFB8",
+    "#D36B44"
+  ],
+  "salesEnabled": false,
+  "adultOnly": false
+}

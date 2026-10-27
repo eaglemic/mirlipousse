@@ -1,0 +1,56 @@
+{
+  "format": "boutique-catalogue-public/1",
+  "brandSlug": "moustelio",
+  "salesEnabled": false,
+  "adultOnly": false,
+  "products": [
+    {
+      "id": "moustelio-cj-1393471868522074112",
+      "pid": "1393471868522074112",
+      "vid": "1393471869826502656",
+      "name": "Couverture en flanelle pour animal",
+      "description": "Une couverture rectangulaire pour le coin de repos du chien ou du chat, présentée avec un motif illustré. Le format de la variante fournisseur contrôlée est 100 × 70 cm.",
+      "category": "repos",
+      "categoryLabel": "Couvertures & repos",
+      "materialsText": "Textile décrit comme flanelle par le fournisseur ; composition exacte à confirmer.",
+      "image": "/media/moustelio-cj-1393471868522074112.jpg",
+      "imageAlt": "Couverture en flanelle pour animal — photo fournisseur",
+      "priceCustomer": null,
+      "purchaseEnabled": false,
+      "audienceTags": [],
+      "audienceSource": []
+    },
+    {
+      "id": "moustelio-cj-2408220512361601700",
+      "pid": "2408220512361601700",
+      "vid": "2408220512361602000",
+      "name": "Couverture pour chien ou chat",
+      "description": "Une couverture à motif de pattes pour aménager le panier d’un chien ou d’un chat. La fiche propose plusieurs dimensions, à vérifier avant toute vente. La photographie présente la gamme ; la couleur exacte de la variante devra être confirmée avant vente.",
+      "category": "repos",
+      "categoryLabel": "Couvertures & repos",
+      "materialsText": "Textile polaire indiqué dans le titre fournisseur ; composition exacte à confirmer.",
+      "image": "/media/moustelio-cj-2408220512361601700.jpg",
+      "imageAlt": "Couverture pour chien ou chat — photo fournisseur",
+      "priceCustomer": null,
+      "purchaseEnabled": false,
+      "audienceTags": [],
+      "audienceSource": []
+    },
+    {
+      "id": "moustelio-cj-1432907858357391360",
+      "pid": "1432907858357391360",
+      "vid": "1432907858390945792",
+      "name": "Couverture douce en flanelle pour animal",
+      "description": "Une couverture douce à motif de nuages pour le coin de repos d’un chien ou d’un chat. Les dimensions exactes du format S restent à confirmer.",
+      "category": "repos",
+      "categoryLabel": "Couvertures & repos",
+      "materialsText": "Textile décrit comme flanelle par le fournisseur ; composition exacte à confirmer.",
+      "image": "/media/moustelio-cj-1432907858357391360.jpg",
+      "imageAlt": "Couverture douce en flanelle pour animal — photo fournisseur",
+      "priceCustomer": null,
+      "purchaseEnabled": false,
+      "audienceTags": [],
+      "audienceSource": []
+    }
+  ]
+}

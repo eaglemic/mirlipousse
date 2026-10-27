@@ -1,0 +1,82 @@
+{
+  "format": "boutique-remise-site/1",
+  "dateUTC": "2026-10-27T20:45:08.636925+00:00",
+  "succes": true,
+  "termine": true,
+  "applique": false,
+  "publicationFaite": false,
+  "brandSlug": "moustelio",
+  "branch": "entreprise/moustelio",
+  "repo": "eaglemic/mirlipousse",
+  "paquet": "/home/bach/Donnees/Livraisons/Dix-boutiques-construction-20261027/sorties/moustelio",
+  "public": "/home/bach/Donnees/Livraisons/Dix-boutiques-construction-20261027/sorties/moustelio/public",
+  "publicFiles": 24,
+  "referencesReelles": 3,
+  "salesEnabled": false,
+  "avisActifs": false,
+  "origin": null,
+  "preuves": [
+    {
+      "path": "/home/bach/Donnees/Livraisons/Dix-boutiques-construction-20261027/sorties/moustelio/verification/EXPORT.json",
+      "sha256": "1377895effd478c2f246e89354445f303f58674ed387d254506b41532f7ae820",
+      "octets": 4235
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Dix-boutiques-construction-20261027/sorties/moustelio/scripts/verifier-paquet.py",
+      "sha256": "ba1099c6a3f017776cc6006ea2eab508eb5a346b2a428e60b39e4bf125891d4a",
+      "octets": 2372
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Dix-boutiques-construction-20261027/sorties/moustelio/README.md",
+      "sha256": "c0965dd98c1f9f58cb52597b9e6ae33dfad272d7c82a7da95403f85884ac1dee",
+      "octets": 1643
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Dix-boutiques-construction-20261027/sorties/moustelio/presentation.svg",
+      "sha256": "8ae21a197c15ead43dca2f458d758c22bf7508ee641926394f9aa34349db0a7e",
+      "octets": 1138
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Dix-boutiques-construction-20261027/sorties/moustelio/verification/RECETTE-MARQUE.json",
+      "sha256": "da0647976f0d8048fef4ad4e8e1d5f8d8106f6756a59503191f031e88b5c9031",
+      "octets": 5500
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Dix-boutiques-construction-20261027/sorties/moustelio/verification/VERIFICATION-PAQUET.json",
+      "sha256": "ce9ba06762a318f6b82775496b0fa29edafe5359cdf081f15c65d84a52bd3b9a",
+      "octets": 100
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Mirlipousse-multiboutiques-produits-20261027/moustelio/CATALOGUE.json",
+      "sha256": "a4ec8e17ffbf8e3e6db661fbc9876acbca63402e83bc78b87fa486f574dcfbae",
+      "octets": 73082
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Mirlipousse-multiboutiques-produits-20261027/moustelio/REMISE.json",
+      "sha256": "c6f8df4833f6e49ed9c2b5b98ad5906f25af2a3c50b8f2a6c4b0335891115143",
+      "octets": 2067
+    }
+  ],
+  "recette": {
+    "PC1440": true,
+    "mobile390": true,
+    "mobile360": true,
+    "photosChargees": true,
+    "selectionEtRechargement": true,
+    "echapFermeDialogue": true,
+    "cibles44px": true,
+    "reducedMotion": true,
+    "0JS": true,
+    "0Externes": true,
+    "navigateurEtPortFermes": true,
+    "adultGate": false,
+    "aucunDebordementHorizontal": true,
+    "mesureCompareeALaLargeurCliente": true
+  },
+  "limites": [
+    "Ventes et avis fermés, aucun paiement ni fournisseur commandé.",
+    "Origine HTTPS non encore attribuée : noindex explicite ; aucun lien supposé actif.",
+    "Pas de téléphone physique, recette Chromium locale.",
+    "Identité du vendeur et conformité avant ouverture commerciale non qualifiées."
+  ]
+}
