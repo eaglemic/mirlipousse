@@ -1,0 +1,82 @@
+{
+  "format": "boutique-remise-site/1",
+  "dateUTC": "2026-10-27T20:45:08.965434+00:00",
+  "succes": true,
+  "termine": true,
+  "applique": false,
+  "publicationFaite": false,
+  "brandSlug": "ondivane",
+  "branch": "entreprise/ondivane",
+  "repo": "eaglemic/mirlipousse",
+  "paquet": "/home/bach/Donnees/Livraisons/Dix-boutiques-construction-20261027/sorties/ondivane",
+  "public": "/home/bach/Donnees/Livraisons/Dix-boutiques-construction-20261027/sorties/ondivane/public",
+  "publicFiles": 24,
+  "referencesReelles": 3,
+  "salesEnabled": false,
+  "avisActifs": false,
+  "origin": null,
+  "preuves": [
+    {
+      "path": "/home/bach/Donnees/Livraisons/Dix-boutiques-construction-20261027/sorties/ondivane/verification/EXPORT.json",
+      "sha256": "1347b958dfa1b1433dea8ca2d6e8dff26ab71f8e51035113df9ace6ab965bb99",
+      "octets": 4224
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Dix-boutiques-construction-20261027/sorties/ondivane/scripts/verifier-paquet.py",
+      "sha256": "5dc88436a33f811e6015c4f385d7a90dec46954e337e0804b6c90c145de1640d",
+      "octets": 2371
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Dix-boutiques-construction-20261027/sorties/ondivane/README.md",
+      "sha256": "7de2ec35e97f876e924bfeb597b1220e954ecbf5e01afcf144043a89eac5ebb5",
+      "octets": 1607
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Dix-boutiques-construction-20261027/sorties/ondivane/presentation.svg",
+      "sha256": "4937e1f263def0e93b09fbb3b99175c25d1d3fdbd731a4dab9e848608ca62c1c",
+      "octets": 993
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Dix-boutiques-construction-20261027/sorties/ondivane/verification/RECETTE-MARQUE.json",
+      "sha256": "aadc129b953d254b33441201e27c7c9ec33e5935e079a343c38b130bb60a40d3",
+      "octets": 5453
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Dix-boutiques-construction-20261027/sorties/ondivane/verification/VERIFICATION-PAQUET.json",
+      "sha256": "89fd664c758add4c2b627cae781d4834e0617915d3ead52eac969f07d7abddc6",
+      "octets": 99
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Mirlipousse-multiboutiques-produits-20261027/ondivane/CATALOGUE.json",
+      "sha256": "2e5f8dd1a7c959735e00655e4e9ed00b01579b9686055d0d16c1f4f7e896d380",
+      "octets": 28204
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Mirlipousse-multiboutiques-produits-20261027/ondivane/REMISE.json",
+      "sha256": "edf872aea399228b2adacbb64c81eecfd6082ecac6d704cfa83cae0dafe5d728",
+      "octets": 2060
+    }
+  ],
+  "recette": {
+    "PC1440": true,
+    "mobile390": true,
+    "mobile360": true,
+    "photosChargees": true,
+    "selectionEtRechargement": true,
+    "echapFermeDialogue": true,
+    "cibles44px": true,
+    "reducedMotion": true,
+    "0JS": true,
+    "0Externes": true,
+    "navigateurEtPortFermes": true,
+    "adultGate": false,
+    "aucunDebordementHorizontal": true,
+    "mesureCompareeALaLargeurCliente": true
+  },
+  "limites": [
+    "Ventes et avis fermés, aucun paiement ni fournisseur commandé.",
+    "Origine HTTPS non encore attribuée : noindex explicite ; aucun lien supposé actif.",
+    "Pas de téléphone physique, recette Chromium locale.",
+    "Identité du vendeur et conformité avant ouverture commerciale non qualifiées."
+  ]
+}

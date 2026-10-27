@@ -1,0 +1,56 @@
+{
+  "format": "boutique-catalogue-public/1",
+  "brandSlug": "ondivane",
+  "salesEnabled": false,
+  "adultOnly": false,
+  "products": [
+    {
+      "id": "ondivane-cj-1664837768888987648",
+      "pid": "1664837768888987648",
+      "vid": "1664837769304223744",
+      "name": "Sac de sport à bandoulière",
+      "description": "Un sac à anses pour emporter ses vêtements et de petits accessoires de pratique. La photo présente un usage de transport, sans garantir l’accueil de tous les formats de tapis. La photographie présente la gamme ; la couleur exacte de la variante devra être confirmée avant vente.",
+      "category": "sacs",
+      "categoryLabel": "Sacs de pratique",
+      "materialsText": "Tissu Oxford indiqué par le fournisseur ; composition et doublure à confirmer.",
+      "image": "/media/ondivane-cj-1664837768888987648.jpg",
+      "imageAlt": "Sac de sport à bandoulière — photo fournisseur",
+      "priceCustomer": null,
+      "purchaseEnabled": false,
+      "audienceTags": [],
+      "audienceSource": []
+    },
+    {
+      "id": "ondivane-cj-2504071556161606100",
+      "pid": "2504071556161606100",
+      "vid": "2504071556161606300",
+      "name": "Sac pour accessoires de yoga",
+      "description": "Un sac de transport bicolore avec anses et bandoulière, présenté pour les affaires de sport ou de yoga. Les dimensions et le contenu exact doivent être vérifiés avant vente.",
+      "category": "sacs",
+      "categoryLabel": "Sacs de pratique",
+      "materialsText": "Tissu Oxford indiqué par le fournisseur ; composition et doublure à confirmer.",
+      "image": "/media/ondivane-cj-2504071556161606100.jpg",
+      "imageAlt": "Sac pour accessoires de yoga — photo fournisseur",
+      "priceCustomer": null,
+      "purchaseEnabled": false,
+      "audienceTags": [],
+      "audienceSource": []
+    },
+    {
+      "id": "ondivane-cj-1793100703481733120",
+      "pid": "1793100703481733120",
+      "vid": "1793100703569813504",
+      "name": "Sac de sport avec compartiments séparés",
+      "description": "Un sac de sport à fermeture zippée, décrit par le fournisseur avec des espaces séparés. La photo montre des mesures et un exemple d’organisation ; aucune tablette ni accessoire n’est inclus sur cette seule base. La photographie présente la gamme ; la couleur exacte de la variante devra être confirmée avant vente.",
+      "category": "sacs",
+      "categoryLabel": "Sacs de pratique",
+      "materialsText": "Tissu Oxford indiqué par le fournisseur ; composition et doublure à confirmer.",
+      "image": "/media/ondivane-cj-1793100703481733120.jpg",
+      "imageAlt": "Sac de sport avec compartiments séparés — photo fournisseur",
+      "priceCustomer": null,
+      "purchaseEnabled": false,
+      "audienceTags": [],
+      "audienceSource": []
+    }
+  ]
+}

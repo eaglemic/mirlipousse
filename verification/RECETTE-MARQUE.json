@@ -1,0 +1,226 @@
+{
+  "format": "boutique-recette-marque/1",
+  "dateUTC": "2026-10-27T20:42:48.385Z",
+  "succes": true,
+  "brandSlug": "ondivane",
+  "rawSource": {
+    "path": "/home/bach/Donnees/Livraisons/Dix-boutiques-construction-20261027/verification/recette-2026-10-27T20-42-48-385Z/RECETTE-NAVIGATEUR.json",
+    "sha256": "fa76af5d161f294c7394ca19da8ae2abd6f0469014a1cf11baefc695e54fdff0",
+    "octets": 50463
+  },
+  "group": {
+    "slug": "ondivane",
+    "mesures": [
+      {
+        "width": 1440,
+        "clientWidth": 1440,
+        "height": 1000,
+        "scroll": 1440,
+        "h1": {
+          "x": 295,
+          "y": 285.9641418457031,
+          "width": 850,
+          "height": 189.71875,
+          "top": 285.9641418457031,
+          "right": 1145,
+          "bottom": 475.6828918457031,
+          "left": 295
+        },
+        "photos": [
+          {
+            "ok": true,
+            "src": "/media/ondivane-cj-1664837768888987648.jpg"
+          },
+          {
+            "ok": true,
+            "src": "/media/ondivane-cj-1664837768888987648.jpg"
+          },
+          {
+            "ok": true,
+            "src": "/media/ondivane-cj-2504071556161606100.jpg"
+          },
+          {
+            "ok": true,
+            "src": "/media/ondivane-cj-1793100703481733120.jpg"
+          }
+        ],
+        "cta": [
+          {
+            "text": "Ma sélection 0",
+            "h": 46.390625
+          },
+          {
+            "text": "Découvrir la collection ↗",
+            "h": 54.421875
+          },
+          {
+            "text": "Choisir ＋",
+            "h": 45.109375
+          },
+          {
+            "text": "Choisir ＋",
+            "h": 45.109375
+          },
+          {
+            "text": "Choisir ＋",
+            "h": 45.109375
+          },
+          {
+            "text": "Ouvrir le guide →",
+            "h": 54.421875
+          },
+          {
+            "text": "Le dépôt sera bientôt ouvert",
+            "h": 54.421875
+          }
+        ]
+      },
+      {
+        "width": 390,
+        "clientWidth": 390,
+        "height": 844,
+        "scroll": 390,
+        "h1": {
+          "x": 23.390625,
+          "y": 249.25,
+          "width": 343.21875,
+          "height": 96.75,
+          "top": 249.25,
+          "right": 366.609375,
+          "bottom": 346,
+          "left": 23.390625
+        },
+        "photos": [
+          {
+            "ok": true,
+            "src": "/media/ondivane-cj-1664837768888987648.jpg"
+          },
+          {
+            "ok": true,
+            "src": "/media/ondivane-cj-1664837768888987648.jpg"
+          },
+          {
+            "ok": true,
+            "src": "/media/ondivane-cj-2504071556161606100.jpg"
+          },
+          {
+            "ok": true,
+            "src": "/media/ondivane-cj-1793100703481733120.jpg"
+          }
+        ],
+        "cta": [
+          {
+            "text": "Menu ☰",
+            "h": 44
+          },
+          {
+            "text": "Ma sélection 0",
+            "h": 44
+          },
+          {
+            "text": "Découvrir la collection ↗",
+            "h": 54.421875
+          },
+          {
+            "text": "Choisir ＋",
+            "h": 45.109375
+          },
+          {
+            "text": "Choisir ＋",
+            "h": 45.109375
+          },
+          {
+            "text": "Choisir ＋",
+            "h": 45.109375
+          },
+          {
+            "text": "Ouvrir le guide →",
+            "h": 54.421875
+          },
+          {
+            "text": "Le dépôt sera bientôt ouvert",
+            "h": 54.421875
+          }
+        ]
+      },
+      {
+        "width": 360,
+        "clientWidth": 360,
+        "height": 740,
+        "scroll": 360,
+        "h1": {
+          "x": 21.59375,
+          "y": 249.25,
+          "width": 316.8125,
+          "height": 96.75,
+          "top": 249.25,
+          "right": 338.40625,
+          "bottom": 346,
+          "left": 21.59375
+        },
+        "photos": [
+          {
+            "ok": true,
+            "src": "/media/ondivane-cj-1664837768888987648.jpg"
+          },
+          {
+            "ok": true,
+            "src": "/media/ondivane-cj-1664837768888987648.jpg"
+          },
+          {
+            "ok": true,
+            "src": "/media/ondivane-cj-2504071556161606100.jpg"
+          },
+          {
+            "ok": true,
+            "src": "/media/ondivane-cj-1793100703481733120.jpg"
+          }
+        ],
+        "cta": [
+          {
+            "text": "Menu ☰",
+            "h": 44
+          },
+          {
+            "text": "Ma sélection 0",
+            "h": 44
+          },
+          {
+            "text": "Découvrir la collection ↗",
+            "h": 54.421875
+          },
+          {
+            "text": "Choisir ＋",
+            "h": 45.109375
+          },
+          {
+            "text": "Choisir ＋",
+            "h": 45.109375
+          },
+          {
+            "text": "Choisir ＋",
+            "h": 45.109375
+          },
+          {
+            "text": "Ouvrir le guide →",
+            "h": 54.421875
+          },
+          {
+            "text": "Le dépôt sera bientôt ouvert",
+            "h": 54.421875
+          }
+        ]
+      }
+    ],
+    "succes": true,
+    "avisDesactives": true
+  },
+  "erreursJS": [],
+  "externes": [],
+  "limites": [
+    "Chromium headless local uniquement",
+    "Aucun téléphone physique ni commande",
+    "Aucune URL publique testée ici"
+  ],
+  "navigateurEtPortFermes": true
+}
