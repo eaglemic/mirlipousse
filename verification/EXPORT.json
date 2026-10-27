@@ -1,31 +1,31 @@
 {
   "format": "boutique-export/1",
-  "dateUTC": "2026-10-27T20:39:10.805114Z",
+  "dateUTC": "2026-10-27T20:55:29.692508Z",
   "brandSlug": "rubaloria",
   "name": "Rubaloria",
   "branche": "entreprise/rubaloria",
   "publicRoot": "public",
   "salesEnabled": false,
   "adultOnly": false,
-  "origin": null,
+  "origin": "https://rubaloria.onrender.com",
   "products": 3,
-  "sourceBrandSHA256": "a90ac2cd0949082e6674bc16d97e65e80f2014df316e60983e969582cee5d1a3",
+  "sourceBrandSHA256": "30050675ac6027a908609b9e0aadb8bfe1884e6c5d2f2c9eb1aa765aaa883f32",
   "sourceCatalogueSHA256": "2937226bc75008ad0bc9b6019494071874ccef64f9cb187e50eca4367bc66a03",
   "files": [
     {
       "path": "404.html",
-      "sha256": "786f11b5f9c060d080ba0f6d63e65aa0ec054373cea844b8a0227cd9b92e2754",
-      "octets": 6261
+      "sha256": "3b962e46dc3b6a65413b2a734bb69a5124cfdaad7b1eaf9f0056f53da452365f",
+      "octets": 6323
     },
     {
       "path": "app.js",
-      "sha256": "a6d3ce60454f724e8e2ddbfed1bc68d559f23387a6c2822dda34e96dcaa6bbcb",
-      "octets": 11142
+      "sha256": "b6354e9cd002e432a34a873a0ba6e3e48cababab656bb82f1835e6a51d5d61f5",
+      "octets": 14451
     },
     {
       "path": "avis.html",
-      "sha256": "a67567c93925faff25eab975e6b4ae79df9c6f1a61c1add9d27e298549a8d7dd",
-      "octets": 8118
+      "sha256": "3a303bd88fe057e2bb968c40907da0b0bccbc4fc65f66580650eb64c90977cf1",
+      "octets": 8348
     },
     {
       "path": "brand.json",
@@ -34,8 +34,8 @@
     },
     {
       "path": "catalogue.html",
-      "sha256": "7658a533215f46f1a07911fa30f528849bda14c64297255024d0bd3da87ab7c3",
-      "octets": 10157
+      "sha256": "226c949d679ec8ca83f11478c2452d643fd3ae746edd3c1b40333fb17aee7e38",
+      "octets": 10225
     },
     {
       "path": "catalogue.json",
@@ -44,33 +44,33 @@
     },
     {
       "path": "conditions.html",
-      "sha256": "d7f6331dcee146e8c5e7a1c1ffc528505c2834fbb390b5ec9a2861ae1ce0c366",
-      "octets": 6983
+      "sha256": "65a65d8c3a08f3747a2842a6d13e4d16bbef05adb2b78079f4d7772d5df6b69d",
+      "octets": 7052
     },
     {
       "path": "confidentialite.html",
-      "sha256": "35329c7abe21e2f26e2e39ef2cd93ca494b642455b03f03a5d9fcb523b0cc554",
-      "octets": 7310
+      "sha256": "9efe97a7c822029425d0a51c2d12365050cf1a868f77eda4c43d8c26c539f095",
+      "octets": 8456
     },
     {
       "path": "contact.html",
-      "sha256": "81a5aff67caa55895fd3dccc15dd73e8393762b706f0dcf6f339ea21e805226c",
-      "octets": 6645
+      "sha256": "d705281bf0f19228c6aa5659640bbe3fec5c7ca7ec11a27a42b757a0d6cd046a",
+      "octets": 6711
     },
     {
       "path": "guide.html",
-      "sha256": "20a4de358355b19a8137e4f93deb7aa509ebdd4b32ad147aa6f73e56b5517977",
-      "octets": 6747
+      "sha256": "9d68fe45b1319b5cd0a73179fcf4ddd3924b2599a2f7f0cb7e68c167920c2323",
+      "octets": 6811
     },
     {
       "path": "index.html",
-      "sha256": "ab23a6a1fea226887e809d9c245bfa70831e369b674faaf0973c9c18e7a9b92f",
-      "octets": 14594
+      "sha256": "17c6d2dfeb719976b34c4c30c277f7efd96721896fb42b8d8cae35cb05d837a7",
+      "octets": 14825
     },
     {
       "path": "livraison.html",
-      "sha256": "5c0ad7554753f9e74b1863e9c737f202e65c74b81b503ecf8797a87ed6529e40",
-      "octets": 6877
+      "sha256": "17fc3816c84874021c0112983f428562f18655da129125c37e2b7d87781e5db2",
+      "octets": 6945
     },
     {
       "path": "media/embleme.svg",
@@ -94,43 +94,43 @@
     },
     {
       "path": "mentions-legales.html",
-      "sha256": "7101438bbd43cf9afaff3cd6adbdddbe5fa16186795c6003c7691f02c2848989",
-      "octets": 7154
+      "sha256": "030f7cf096e366d6ad22451b5c4178503a2e886b5c80ce22e716f8fdd78acc52",
+      "octets": 7229
     },
     {
       "path": "produits/rubaloria-cj-1379230694693277696.html",
-      "sha256": "4c4acf7afab59e7b5c25f9323352f724795ff5b9c7a02c2dc8ff0a8e66ca6ff3",
-      "octets": 7972
+      "sha256": "5a3f477e22e7bfb9dacfd43dd0317fcc9417f86990634e680e7f73a452718e78",
+      "octets": 8072
     },
     {
       "path": "produits/rubaloria-cj-1385099563165159424.html",
-      "sha256": "3f106a095a07e7802834675ceedb545026d7883f87514bf72f03a35113a5778f",
-      "octets": 7954
+      "sha256": "9d577ec5ed35494db4fc5784f319867d98b62d559002639d49625ac913fceff5",
+      "octets": 8054
     },
     {
       "path": "produits/rubaloria-cj-2406290601291625000.html",
-      "sha256": "bec53b02981d8855eb0d2a26c9b4bec14c54a0aaaf209adb84e98d46d27eb314",
-      "octets": 7974
+      "sha256": "6f39140d46b7684dd4328b6dc02bdc014da278f6d6730e9f1c86bb96eceacb86",
+      "octets": 8074
     },
     {
       "path": "retours.html",
-      "sha256": "41f06715a8380894ebf87ed2029de856cefd5caec19024f6f7dd9418261205bb",
-      "octets": 6951
+      "sha256": "b5478b814f533611e796a48913f2ad0ff82f1fef3d071c728c0e78ebe3f54557",
+      "octets": 7017
     },
     {
       "path": "robots.txt",
-      "sha256": "331ea9090db0c9f6f597bd9840fd5b171830f6e0b3ba1cb24dfa91f0c95aedc1",
-      "octets": 26
+      "sha256": "4db3c673ca7d68e53422f14410d8ed7ca3e90b304f24ba614318c6484f1892e0",
+      "octets": 75
     },
     {
       "path": "sitemap.xml",
-      "sha256": "68ab08991efaca902bcb8a6518106d8b29964c5651f39abbb7eb7c9713ca2770",
-      "octets": 107
+      "sha256": "6153234641df4203a1e1992a4590e05453a2770055ccbdf1c70d00957e7da8f0",
+      "octets": 1071
     },
     {
       "path": "style.css",
-      "sha256": "c88b1fba736e971e202d8e1979132ae4af7d9f59b7b1287299166c86fcaf7b12",
-      "octets": 25136
+      "sha256": "4468f3853a7ff5c4fe84d2814ef98d795741403397908f0c491b05e798f57687",
+      "octets": 29097
     }
   ]
 }

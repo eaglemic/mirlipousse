@@ -1,0 +1,3196 @@
+{
+  "format": "boutiques-recette-navigateur/1",
+  "dateUTC": "2026-10-27T21:01:36.999Z",
+  "succes": true,
+  "limites": [
+    "Chromium headless local uniquement",
+    "Aucun téléphone physique ni commande",
+    "Aucune URL publique testée ici"
+  ],
+  "groupes": [
+    {
+      "slug": "mini-et-moi",
+      "mesures": [
+        {
+          "width": 1440,
+          "clientWidth": 1425,
+          "height": 1000,
+          "scroll": 1425,
+          "h1": {
+            "x": 85.5,
+            "y": 288.5826416015625,
+            "width": 589.375,
+            "height": 189.71875,
+            "top": 288.5826416015625,
+            "right": 674.875,
+            "bottom": 478.3013916015625,
+            "left": 85.5
+          },
+          "photos": [
+            {
+              "ok": true,
+              "src": "/media/mini-et-moi-cj-1388007897690148864.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/mini-et-moi-cj-6da8a127-bc96-401d-8492-ea0ee0ca9f99.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/mini-et-moi-cj-1452549799793528832.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/mini-et-moi-cj-2508290707461613900.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/mini-et-moi-cj-2511221039181611900.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/mini-et-moi-cj-1465609787336167424.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/mini-et-moi-cj-2508290654511604500.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/mini-et-moi-cj-2511270210011616600.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/mini-et-moi-cj-2505181122211602700.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/mini-et-moi-cj-1454993111116812288.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/mini-et-moi-cj-1764827588926644224.jpg"
+            }
+          ],
+          "cta": [
+            {
+              "text": "Ma sélection 0",
+              "h": 46.390625
+            },
+            {
+              "text": "Découvrir la collection ↗",
+              "h": 54.421875
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Ouvrir le guide →",
+              "h": 54.421875
+            },
+            {
+              "text": "Envoyer mon avis",
+              "h": 54.421875
+            }
+          ]
+        },
+        {
+          "width": 390,
+          "clientWidth": 390,
+          "height": 844,
+          "scroll": 390,
+          "h1": {
+            "x": 23.390625,
+            "y": 224.25,
+            "width": 343.21875,
+            "height": 96.75,
+            "top": 224.25,
+            "right": 366.609375,
+            "bottom": 321,
+            "left": 23.390625
+          },
+          "photos": [
+            {
+              "ok": true,
+              "src": "/media/mini-et-moi-cj-1388007897690148864.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/mini-et-moi-cj-6da8a127-bc96-401d-8492-ea0ee0ca9f99.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/mini-et-moi-cj-1452549799793528832.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/mini-et-moi-cj-2508290707461613900.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/mini-et-moi-cj-2511221039181611900.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/mini-et-moi-cj-1465609787336167424.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/mini-et-moi-cj-2508290654511604500.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/mini-et-moi-cj-2511270210011616600.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/mini-et-moi-cj-2505181122211602700.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/mini-et-moi-cj-1454993111116812288.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/mini-et-moi-cj-1764827588926644224.jpg"
+            }
+          ],
+          "cta": [
+            {
+              "text": "Menu ☰",
+              "h": 44
+            },
+            {
+              "text": "Ma sélection 0",
+              "h": 44
+            },
+            {
+              "text": "Découvrir la collection ↗",
+              "h": 54.421875
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Ouvrir le guide →",
+              "h": 54.421875
+            },
+            {
+              "text": "Envoyer mon avis",
+              "h": 54.421875
+            }
+          ]
+        },
+        {
+          "width": 360,
+          "clientWidth": 360,
+          "height": 740,
+          "scroll": 360,
+          "h1": {
+            "x": 21.59375,
+            "y": 270.40625,
+            "width": 316.8125,
+            "height": 96.75,
+            "top": 270.40625,
+            "right": 338.40625,
+            "bottom": 367.15625,
+            "left": 21.59375
+          },
+          "photos": [
+            {
+              "ok": true,
+              "src": "/media/mini-et-moi-cj-1388007897690148864.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/mini-et-moi-cj-6da8a127-bc96-401d-8492-ea0ee0ca9f99.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/mini-et-moi-cj-1452549799793528832.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/mini-et-moi-cj-2508290707461613900.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/mini-et-moi-cj-2511221039181611900.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/mini-et-moi-cj-1465609787336167424.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/mini-et-moi-cj-2508290654511604500.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/mini-et-moi-cj-2511270210011616600.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/mini-et-moi-cj-2505181122211602700.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/mini-et-moi-cj-1454993111116812288.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/mini-et-moi-cj-1764827588926644224.jpg"
+            }
+          ],
+          "cta": [
+            {
+              "text": "Menu ☰",
+              "h": 44
+            },
+            {
+              "text": "Ma sélection 0",
+              "h": 44
+            },
+            {
+              "text": "Découvrir la collection ↗",
+              "h": 54.421875
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Ouvrir le guide →",
+              "h": 54.421875
+            },
+            {
+              "text": "Envoyer mon avis",
+              "h": 54.421875
+            }
+          ]
+        }
+      ],
+      "succes": true,
+      "motionActive": true,
+      "photosParcourues": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "motionReduced": true,
+      "avisFixturePending": true,
+      "tranches": [
+        {
+          "tag": "naissance",
+          "attendu": 1,
+          "visible": 1,
+          "videVisible": false
+        },
+        {
+          "tag": "bebe",
+          "attendu": 3,
+          "visible": 3,
+          "videVisible": false
+        },
+        {
+          "tag": "enfant",
+          "attendu": 4,
+          "visible": 4,
+          "videVisible": false
+        },
+        {
+          "tag": "ado",
+          "attendu": 0,
+          "visible": 0,
+          "videVisible": true
+        },
+        {
+          "tag": "adulte",
+          "attendu": 10,
+          "visible": 10,
+          "videVisible": false
+        }
+      ],
+      "navigationFamillesEtAges": true,
+      "sansScriptContenuVisible": true
+    },
+    {
+      "slug": "vadrouvane",
+      "mesures": [
+        {
+          "width": 1440,
+          "clientWidth": 1440,
+          "height": 1000,
+          "scroll": 1440,
+          "h1": {
+            "x": 86.390625,
+            "y": 244.75543212890625,
+            "width": 655.140625,
+            "height": 284.578125,
+            "top": 244.75543212890625,
+            "right": 741.53125,
+            "bottom": 529.3335571289062,
+            "left": 86.390625
+          },
+          "photos": [
+            {
+              "ok": true,
+              "src": "/media/vadrouvane-cj-1382909456957968384.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/vadrouvane-cj-1382909456957968384.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/vadrouvane-cj-1484810775192276992.jpg"
+            }
+          ],
+          "cta": [
+            {
+              "text": "Ma sélection 0",
+              "h": 46.390625
+            },
+            {
+              "text": "Découvrir la collection ↗",
+              "h": 54.421875
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Ouvrir le guide →",
+              "h": 54.421875
+            },
+            {
+              "text": "Envoyer mon avis",
+              "h": 54.421875
+            }
+          ]
+        },
+        {
+          "width": 390,
+          "clientWidth": 390,
+          "height": 844,
+          "scroll": 390,
+          "h1": {
+            "x": 23.390625,
+            "y": 224.25,
+            "width": 343.21875,
+            "height": 145.125,
+            "top": 224.25,
+            "right": 366.609375,
+            "bottom": 369.375,
+            "left": 23.390625
+          },
+          "photos": [
+            {
+              "ok": true,
+              "src": "/media/vadrouvane-cj-1382909456957968384.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/vadrouvane-cj-1382909456957968384.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/vadrouvane-cj-1484810775192276992.jpg"
+            }
+          ],
+          "cta": [
+            {
+              "text": "Menu ☰",
+              "h": 44
+            },
+            {
+              "text": "Ma sélection 0",
+              "h": 44
+            },
+            {
+              "text": "Découvrir la collection ↗",
+              "h": 54.421875
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Ouvrir le guide →",
+              "h": 54.421875
+            },
+            {
+              "text": "Envoyer mon avis",
+              "h": 54.421875
+            }
+          ]
+        },
+        {
+          "width": 360,
+          "clientWidth": 360,
+          "height": 740,
+          "scroll": 360,
+          "h1": {
+            "x": 21.59375,
+            "y": 224.25,
+            "width": 316.8125,
+            "height": 145.125,
+            "top": 224.25,
+            "right": 338.40625,
+            "bottom": 369.375,
+            "left": 21.59375
+          },
+          "photos": [
+            {
+              "ok": true,
+              "src": "/media/vadrouvane-cj-1382909456957968384.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/vadrouvane-cj-1382909456957968384.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/vadrouvane-cj-1484810775192276992.jpg"
+            }
+          ],
+          "cta": [
+            {
+              "text": "Menu ☰",
+              "h": 44
+            },
+            {
+              "text": "Ma sélection 0",
+              "h": 44
+            },
+            {
+              "text": "Découvrir la collection ↗",
+              "h": 54.421875
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Ouvrir le guide →",
+              "h": 54.421875
+            },
+            {
+              "text": "Envoyer mon avis",
+              "h": 54.421875
+            }
+          ]
+        }
+      ],
+      "succes": true,
+      "motionActive": true,
+      "photosParcourues": [
+        0,
+        1
+      ],
+      "motionReduced": true,
+      "avisFixturePending": true
+    },
+    {
+      "slug": "pliorea",
+      "mesures": [
+        {
+          "width": 1440,
+          "clientWidth": 1440,
+          "height": 1000,
+          "scroll": 1440,
+          "h1": {
+            "x": 86.390625,
+            "y": 273.71392822265625,
+            "width": 595.59375,
+            "height": 189.71875,
+            "top": 273.71392822265625,
+            "right": 681.984375,
+            "bottom": 463.43267822265625,
+            "left": 86.390625
+          },
+          "photos": [
+            {
+              "ok": true,
+              "src": "/media/pliorea-cj-1386852733046362112.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/pliorea-cj-1386852733046362112.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/pliorea-cj-f7ac6d42-0df8-41bc-a1b1-fb43131085e3.jpg"
+            }
+          ],
+          "cta": [
+            {
+              "text": "Ma sélection 0",
+              "h": 46.390625
+            },
+            {
+              "text": "Découvrir la collection ↗",
+              "h": 54.421875
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Ouvrir le guide →",
+              "h": 54.421875
+            },
+            {
+              "text": "Envoyer mon avis",
+              "h": 54.421875
+            }
+          ]
+        },
+        {
+          "width": 390,
+          "clientWidth": 390,
+          "height": 844,
+          "scroll": 390,
+          "h1": {
+            "x": 23.390625,
+            "y": 224.25,
+            "width": 343.21875,
+            "height": 96.75,
+            "top": 224.25,
+            "right": 366.609375,
+            "bottom": 321,
+            "left": 23.390625
+          },
+          "photos": [
+            {
+              "ok": true,
+              "src": "/media/pliorea-cj-1386852733046362112.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/pliorea-cj-1386852733046362112.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/pliorea-cj-f7ac6d42-0df8-41bc-a1b1-fb43131085e3.jpg"
+            }
+          ],
+          "cta": [
+            {
+              "text": "Menu ☰",
+              "h": 44
+            },
+            {
+              "text": "Ma sélection 0",
+              "h": 44
+            },
+            {
+              "text": "Découvrir la collection ↗",
+              "h": 54.421875
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Ouvrir le guide →",
+              "h": 54.421875
+            },
+            {
+              "text": "Envoyer mon avis",
+              "h": 54.421875
+            }
+          ]
+        },
+        {
+          "width": 360,
+          "clientWidth": 360,
+          "height": 740,
+          "scroll": 360,
+          "h1": {
+            "x": 21.59375,
+            "y": 224.25,
+            "width": 316.8125,
+            "height": 96.75,
+            "top": 224.25,
+            "right": 338.40625,
+            "bottom": 321,
+            "left": 21.59375
+          },
+          "photos": [
+            {
+              "ok": true,
+              "src": "/media/pliorea-cj-1386852733046362112.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/pliorea-cj-1386852733046362112.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/pliorea-cj-f7ac6d42-0df8-41bc-a1b1-fb43131085e3.jpg"
+            }
+          ],
+          "cta": [
+            {
+              "text": "Menu ☰",
+              "h": 44
+            },
+            {
+              "text": "Ma sélection 0",
+              "h": 44
+            },
+            {
+              "text": "Découvrir la collection ↗",
+              "h": 54.421875
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Ouvrir le guide →",
+              "h": 54.421875
+            },
+            {
+              "text": "Envoyer mon avis",
+              "h": 54.421875
+            }
+          ]
+        }
+      ],
+      "succes": true,
+      "motionActive": true,
+      "photosParcourues": [
+        0,
+        1
+      ],
+      "motionReduced": true,
+      "avisFixturePending": true
+    },
+    {
+      "slug": "burozea",
+      "mesures": [
+        {
+          "width": 1440,
+          "clientWidth": 1440,
+          "height": 1000,
+          "scroll": 1440,
+          "h1": {
+            "x": 86.390625,
+            "y": 259.39654541015625,
+            "width": 655.140625,
+            "height": 189.71875,
+            "top": 259.39654541015625,
+            "right": 741.53125,
+            "bottom": 449.11529541015625,
+            "left": 86.390625
+          },
+          "photos": [
+            {
+              "ok": true,
+              "src": "/media/burozea-cj-1703055389602238464.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/burozea-cj-1703055389602238464.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/burozea-cj-1646726512265547776.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/burozea-cj-1380028552015122432.jpg"
+            }
+          ],
+          "cta": [
+            {
+              "text": "Ma sélection 0",
+              "h": 46.390625
+            },
+            {
+              "text": "Découvrir la collection ↗",
+              "h": 54.421875
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Ouvrir le guide →",
+              "h": 54.421875
+            },
+            {
+              "text": "Envoyer mon avis",
+              "h": 54.421875
+            }
+          ]
+        },
+        {
+          "width": 390,
+          "clientWidth": 390,
+          "height": 844,
+          "scroll": 390,
+          "h1": {
+            "x": 23.390625,
+            "y": 224.25,
+            "width": 343.21875,
+            "height": 96.75,
+            "top": 224.25,
+            "right": 366.609375,
+            "bottom": 321,
+            "left": 23.390625
+          },
+          "photos": [
+            {
+              "ok": true,
+              "src": "/media/burozea-cj-1703055389602238464.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/burozea-cj-1703055389602238464.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/burozea-cj-1646726512265547776.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/burozea-cj-1380028552015122432.jpg"
+            }
+          ],
+          "cta": [
+            {
+              "text": "Menu ☰",
+              "h": 44
+            },
+            {
+              "text": "Ma sélection 0",
+              "h": 44
+            },
+            {
+              "text": "Découvrir la collection ↗",
+              "h": 54.421875
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Ouvrir le guide →",
+              "h": 54.421875
+            },
+            {
+              "text": "Envoyer mon avis",
+              "h": 54.421875
+            }
+          ]
+        },
+        {
+          "width": 360,
+          "clientWidth": 360,
+          "height": 740,
+          "scroll": 360,
+          "h1": {
+            "x": 21.59375,
+            "y": 224.25,
+            "width": 316.8125,
+            "height": 96.75,
+            "top": 224.25,
+            "right": 338.40625,
+            "bottom": 321,
+            "left": 21.59375
+          },
+          "photos": [
+            {
+              "ok": true,
+              "src": "/media/burozea-cj-1703055389602238464.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/burozea-cj-1703055389602238464.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/burozea-cj-1646726512265547776.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/burozea-cj-1380028552015122432.jpg"
+            }
+          ],
+          "cta": [
+            {
+              "text": "Menu ☰",
+              "h": 44
+            },
+            {
+              "text": "Ma sélection 0",
+              "h": 44
+            },
+            {
+              "text": "Découvrir la collection ↗",
+              "h": 54.421875
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Ouvrir le guide →",
+              "h": 54.421875
+            },
+            {
+              "text": "Envoyer mon avis",
+              "h": 54.421875
+            }
+          ]
+        }
+      ],
+      "succes": true,
+      "motionActive": true,
+      "photosParcourues": [
+        0,
+        1,
+        2
+      ],
+      "motionReduced": true,
+      "avisFixturePending": true
+    },
+    {
+      "slug": "encrivoie",
+      "mesures": [
+        {
+          "width": 1440,
+          "clientWidth": 1440,
+          "height": 1000,
+          "scroll": 1440,
+          "h1": {
+            "x": 86.390625,
+            "y": 255.04129028320312,
+            "width": 807.21875,
+            "height": 227.0625,
+            "top": 255.04129028320312,
+            "right": 893.609375,
+            "bottom": 482.1037902832031,
+            "left": 86.390625
+          },
+          "photos": [
+            {
+              "ok": true,
+              "src": "/media/encrivoie-cj-1738032478780141568.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/encrivoie-cj-2503170539411623200.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/encrivoie-cj-1590896399049306112.jpg"
+            }
+          ],
+          "cta": [
+            {
+              "text": "Ma sélection 0",
+              "h": 46.390625
+            },
+            {
+              "text": "Découvrir la collection ↗",
+              "h": 54.421875
+            },
+            {
+              "text": "Ouvrir le guide →",
+              "h": 54.421875
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Envoyer mon avis",
+              "h": 54.421875
+            }
+          ]
+        },
+        {
+          "width": 390,
+          "clientWidth": 390,
+          "height": 844,
+          "scroll": 390,
+          "h1": {
+            "x": 23.390625,
+            "y": 224.25,
+            "width": 343.21875,
+            "height": 96.75,
+            "top": 224.25,
+            "right": 366.609375,
+            "bottom": 321,
+            "left": 23.390625
+          },
+          "photos": [
+            {
+              "ok": true,
+              "src": "/media/encrivoie-cj-1738032478780141568.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/encrivoie-cj-2503170539411623200.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/encrivoie-cj-1590896399049306112.jpg"
+            }
+          ],
+          "cta": [
+            {
+              "text": "Menu ☰",
+              "h": 44
+            },
+            {
+              "text": "Ma sélection 0",
+              "h": 44
+            },
+            {
+              "text": "Découvrir la collection ↗",
+              "h": 54.421875
+            },
+            {
+              "text": "Ouvrir le guide →",
+              "h": 54.421875
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Envoyer mon avis",
+              "h": 54.421875
+            }
+          ]
+        },
+        {
+          "width": 360,
+          "clientWidth": 360,
+          "height": 740,
+          "scroll": 360,
+          "h1": {
+            "x": 21.59375,
+            "y": 224.25,
+            "width": 316.8125,
+            "height": 96.75,
+            "top": 224.25,
+            "right": 338.40625,
+            "bottom": 321,
+            "left": 21.59375
+          },
+          "photos": [
+            {
+              "ok": true,
+              "src": "/media/encrivoie-cj-1738032478780141568.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/encrivoie-cj-2503170539411623200.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/encrivoie-cj-1590896399049306112.jpg"
+            }
+          ],
+          "cta": [
+            {
+              "text": "Menu ☰",
+              "h": 44
+            },
+            {
+              "text": "Ma sélection 0",
+              "h": 44
+            },
+            {
+              "text": "Découvrir la collection ↗",
+              "h": 54.421875
+            },
+            {
+              "text": "Ouvrir le guide →",
+              "h": 54.421875
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Envoyer mon avis",
+              "h": 54.421875
+            }
+          ]
+        }
+      ],
+      "succes": true,
+      "motionActive": true,
+      "photosParcourues": [
+        0,
+        1,
+        2
+      ],
+      "motionReduced": true,
+      "avisFixturePending": true
+    },
+    {
+      "slug": "rubaloria",
+      "mesures": [
+        {
+          "width": 1440,
+          "clientWidth": 1440,
+          "height": 1000,
+          "scroll": 1440,
+          "h1": {
+            "x": 86.390625,
+            "y": 250.38519287109375,
+            "width": 614.59375,
+            "height": 236.375,
+            "top": 250.38519287109375,
+            "right": 700.984375,
+            "bottom": 486.76019287109375,
+            "left": 86.390625
+          },
+          "photos": [
+            {
+              "ok": true,
+              "src": "/media/rubaloria-cj-2406290601291625000.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/rubaloria-cj-2406290601291625000.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/rubaloria-cj-1385099563165159424.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/rubaloria-cj-1379230694693277696.jpg"
+            }
+          ],
+          "cta": [
+            {
+              "text": "Ma sélection 0",
+              "h": 46.390625
+            },
+            {
+              "text": "Découvrir la collection ↗",
+              "h": 54.421875
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Ouvrir le guide →",
+              "h": 54.421875
+            },
+            {
+              "text": "Envoyer mon avis",
+              "h": 54.421875
+            }
+          ]
+        },
+        {
+          "width": 390,
+          "clientWidth": 390,
+          "height": 844,
+          "scroll": 390,
+          "h1": {
+            "x": 23.390625,
+            "y": 224.25,
+            "width": 343.21875,
+            "height": 96.75,
+            "top": 224.25,
+            "right": 366.609375,
+            "bottom": 321,
+            "left": 23.390625
+          },
+          "photos": [
+            {
+              "ok": true,
+              "src": "/media/rubaloria-cj-2406290601291625000.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/rubaloria-cj-2406290601291625000.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/rubaloria-cj-1385099563165159424.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/rubaloria-cj-1379230694693277696.jpg"
+            }
+          ],
+          "cta": [
+            {
+              "text": "Menu ☰",
+              "h": 44
+            },
+            {
+              "text": "Ma sélection 0",
+              "h": 44
+            },
+            {
+              "text": "Découvrir la collection ↗",
+              "h": 54.421875
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Ouvrir le guide →",
+              "h": 54.421875
+            },
+            {
+              "text": "Envoyer mon avis",
+              "h": 54.421875
+            }
+          ]
+        },
+        {
+          "width": 360,
+          "clientWidth": 360,
+          "height": 740,
+          "scroll": 360,
+          "h1": {
+            "x": 21.59375,
+            "y": 224.25,
+            "width": 316.8125,
+            "height": 96.75,
+            "top": 224.25,
+            "right": 338.40625,
+            "bottom": 321,
+            "left": 21.59375
+          },
+          "photos": [
+            {
+              "ok": true,
+              "src": "/media/rubaloria-cj-2406290601291625000.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/rubaloria-cj-2406290601291625000.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/rubaloria-cj-1385099563165159424.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/rubaloria-cj-1379230694693277696.jpg"
+            }
+          ],
+          "cta": [
+            {
+              "text": "Menu ☰",
+              "h": 44
+            },
+            {
+              "text": "Ma sélection 0",
+              "h": 44
+            },
+            {
+              "text": "Découvrir la collection ↗",
+              "h": 54.421875
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Ouvrir le guide →",
+              "h": 54.421875
+            },
+            {
+              "text": "Envoyer mon avis",
+              "h": 54.421875
+            }
+          ]
+        }
+      ],
+      "succes": true,
+      "motionActive": true,
+      "photosParcourues": [
+        0,
+        1,
+        2
+      ],
+      "motionReduced": true,
+      "avisFixturePending": true,
+      "sansScriptContenuVisible": true
+    },
+    {
+      "slug": "moustelio",
+      "mesures": [
+        {
+          "width": 1440,
+          "clientWidth": 1440,
+          "height": 1000,
+          "scroll": 1440,
+          "h1": {
+            "x": 86.390625,
+            "y": 243.9161376953125,
+            "width": 595.59375,
+            "height": 284.578125,
+            "top": 243.9161376953125,
+            "right": 681.984375,
+            "bottom": 528.4942626953125,
+            "left": 86.390625
+          },
+          "photos": [
+            {
+              "ok": true,
+              "src": "/media/moustelio-cj-1393471868522074112.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/moustelio-cj-1393471868522074112.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/moustelio-cj-2408220512361601700.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/moustelio-cj-1432907858357391360.jpg"
+            }
+          ],
+          "cta": [
+            {
+              "text": "Ma sélection 0",
+              "h": 46.390625
+            },
+            {
+              "text": "Découvrir la collection ↗",
+              "h": 54.421875
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Ouvrir le guide →",
+              "h": 54.421875
+            },
+            {
+              "text": "Envoyer mon avis",
+              "h": 54.421875
+            }
+          ]
+        },
+        {
+          "width": 390,
+          "clientWidth": 390,
+          "height": 844,
+          "scroll": 390,
+          "h1": {
+            "x": 23.390625,
+            "y": 224.25,
+            "width": 343.21875,
+            "height": 96.75,
+            "top": 224.25,
+            "right": 366.609375,
+            "bottom": 321,
+            "left": 23.390625
+          },
+          "photos": [
+            {
+              "ok": true,
+              "src": "/media/moustelio-cj-1393471868522074112.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/moustelio-cj-1393471868522074112.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/moustelio-cj-2408220512361601700.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/moustelio-cj-1432907858357391360.jpg"
+            }
+          ],
+          "cta": [
+            {
+              "text": "Menu ☰",
+              "h": 44
+            },
+            {
+              "text": "Ma sélection 0",
+              "h": 44
+            },
+            {
+              "text": "Découvrir la collection ↗",
+              "h": 54.421875
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Ouvrir le guide →",
+              "h": 54.421875
+            },
+            {
+              "text": "Envoyer mon avis",
+              "h": 54.421875
+            }
+          ]
+        },
+        {
+          "width": 360,
+          "clientWidth": 360,
+          "height": 740,
+          "scroll": 360,
+          "h1": {
+            "x": 21.59375,
+            "y": 224.25,
+            "width": 316.8125,
+            "height": 145.125,
+            "top": 224.25,
+            "right": 338.40625,
+            "bottom": 369.375,
+            "left": 21.59375
+          },
+          "photos": [
+            {
+              "ok": true,
+              "src": "/media/moustelio-cj-1393471868522074112.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/moustelio-cj-1393471868522074112.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/moustelio-cj-2408220512361601700.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/moustelio-cj-1432907858357391360.jpg"
+            }
+          ],
+          "cta": [
+            {
+              "text": "Menu ☰",
+              "h": 44
+            },
+            {
+              "text": "Ma sélection 0",
+              "h": 44
+            },
+            {
+              "text": "Découvrir la collection ↗",
+              "h": 54.421875
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Ouvrir le guide →",
+              "h": 54.421875
+            },
+            {
+              "text": "Envoyer mon avis",
+              "h": 54.421875
+            }
+          ]
+        }
+      ],
+      "succes": true,
+      "motionActive": true,
+      "photosParcourues": [
+        0,
+        1,
+        2
+      ],
+      "motionReduced": true,
+      "avisFixturePending": true
+    },
+    {
+      "slug": "filavane",
+      "mesures": [
+        {
+          "width": 1440,
+          "clientWidth": 1440,
+          "height": 1000,
+          "scroll": 1440,
+          "h1": {
+            "x": 86.390625,
+            "y": 258.242919921875,
+            "width": 595.59375,
+            "height": 189.71875,
+            "top": 258.242919921875,
+            "right": 681.984375,
+            "bottom": 447.961669921875,
+            "left": 86.390625
+          },
+          "photos": [
+            {
+              "ok": true,
+              "src": "/media/filavane-cj-26918b87-3ab3-45ce-b949-418ada7ac672.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/filavane-cj-26918b87-3ab3-45ce-b949-418ada7ac672.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/filavane-cj-2407010828011603600.jpg"
+            }
+          ],
+          "cta": [
+            {
+              "text": "Ma sélection 0",
+              "h": 46.390625
+            },
+            {
+              "text": "Découvrir la collection ↗",
+              "h": 54.421875
+            },
+            {
+              "text": "Ouvrir le guide →",
+              "h": 54.421875
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Envoyer mon avis",
+              "h": 54.421875
+            }
+          ]
+        },
+        {
+          "width": 390,
+          "clientWidth": 390,
+          "height": 844,
+          "scroll": 390,
+          "h1": {
+            "x": 23.390625,
+            "y": 224.25,
+            "width": 343.21875,
+            "height": 96.75,
+            "top": 224.25,
+            "right": 366.609375,
+            "bottom": 321,
+            "left": 23.390625
+          },
+          "photos": [
+            {
+              "ok": true,
+              "src": "/media/filavane-cj-26918b87-3ab3-45ce-b949-418ada7ac672.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/filavane-cj-26918b87-3ab3-45ce-b949-418ada7ac672.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/filavane-cj-2407010828011603600.jpg"
+            }
+          ],
+          "cta": [
+            {
+              "text": "Menu ☰",
+              "h": 44
+            },
+            {
+              "text": "Ma sélection 0",
+              "h": 44
+            },
+            {
+              "text": "Découvrir la collection ↗",
+              "h": 54.421875
+            },
+            {
+              "text": "Ouvrir le guide →",
+              "h": 54.421875
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Envoyer mon avis",
+              "h": 54.421875
+            }
+          ]
+        },
+        {
+          "width": 360,
+          "clientWidth": 360,
+          "height": 740,
+          "scroll": 360,
+          "h1": {
+            "x": 21.59375,
+            "y": 224.25,
+            "width": 316.8125,
+            "height": 96.75,
+            "top": 224.25,
+            "right": 338.40625,
+            "bottom": 321,
+            "left": 21.59375
+          },
+          "photos": [
+            {
+              "ok": true,
+              "src": "/media/filavane-cj-26918b87-3ab3-45ce-b949-418ada7ac672.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/filavane-cj-26918b87-3ab3-45ce-b949-418ada7ac672.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/filavane-cj-2407010828011603600.jpg"
+            }
+          ],
+          "cta": [
+            {
+              "text": "Menu ☰",
+              "h": 44
+            },
+            {
+              "text": "Ma sélection 0",
+              "h": 44
+            },
+            {
+              "text": "Découvrir la collection ↗",
+              "h": 54.421875
+            },
+            {
+              "text": "Ouvrir le guide →",
+              "h": 54.421875
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Envoyer mon avis",
+              "h": 54.421875
+            }
+          ]
+        }
+      ],
+      "succes": true,
+      "motionActive": true,
+      "photosParcourues": [
+        0,
+        1
+      ],
+      "motionReduced": true,
+      "avisFixturePending": true
+    },
+    {
+      "slug": "feuillory",
+      "mesures": [
+        {
+          "width": 1440,
+          "clientWidth": 1440,
+          "height": 1000,
+          "scroll": 1440,
+          "h1": {
+            "x": 86.390625,
+            "y": 244.4466552734375,
+            "width": 610.859375,
+            "height": 284.578125,
+            "top": 244.4466552734375,
+            "right": 697.25,
+            "bottom": 529.0247802734375,
+            "left": 86.390625
+          },
+          "photos": [
+            {
+              "ok": true,
+              "src": "/media/feuillory-cj-12fc11a9-45bc-430b-bf9e-e1e8c6551b4e.png"
+            },
+            {
+              "ok": true,
+              "src": "/media/feuillory-cj-12fc11a9-45bc-430b-bf9e-e1e8c6551b4e.png"
+            },
+            {
+              "ok": true,
+              "src": "/media/feuillory-cj-1394173368693035008.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/feuillory-cj-2503120220541603100.jpg"
+            }
+          ],
+          "cta": [
+            {
+              "text": "Ma sélection 0",
+              "h": 46.390625
+            },
+            {
+              "text": "Découvrir la collection ↗",
+              "h": 54.421875
+            },
+            {
+              "text": "Ouvrir le guide →",
+              "h": 54.421875
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Envoyer mon avis",
+              "h": 54.421875
+            }
+          ]
+        },
+        {
+          "width": 390,
+          "clientWidth": 390,
+          "height": 844,
+          "scroll": 390,
+          "h1": {
+            "x": 23.390625,
+            "y": 224.25,
+            "width": 343.21875,
+            "height": 145.125,
+            "top": 224.25,
+            "right": 366.609375,
+            "bottom": 369.375,
+            "left": 23.390625
+          },
+          "photos": [
+            {
+              "ok": true,
+              "src": "/media/feuillory-cj-12fc11a9-45bc-430b-bf9e-e1e8c6551b4e.png"
+            },
+            {
+              "ok": true,
+              "src": "/media/feuillory-cj-12fc11a9-45bc-430b-bf9e-e1e8c6551b4e.png"
+            },
+            {
+              "ok": true,
+              "src": "/media/feuillory-cj-1394173368693035008.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/feuillory-cj-2503120220541603100.jpg"
+            }
+          ],
+          "cta": [
+            {
+              "text": "Menu ☰",
+              "h": 44
+            },
+            {
+              "text": "Ma sélection 0",
+              "h": 44
+            },
+            {
+              "text": "Découvrir la collection ↗",
+              "h": 54.421875
+            },
+            {
+              "text": "Ouvrir le guide →",
+              "h": 54.421875
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Envoyer mon avis",
+              "h": 54.421875
+            }
+          ]
+        },
+        {
+          "width": 360,
+          "clientWidth": 360,
+          "height": 740,
+          "scroll": 360,
+          "h1": {
+            "x": 21.59375,
+            "y": 224.25,
+            "width": 316.8125,
+            "height": 145.125,
+            "top": 224.25,
+            "right": 338.40625,
+            "bottom": 369.375,
+            "left": 21.59375
+          },
+          "photos": [
+            {
+              "ok": true,
+              "src": "/media/feuillory-cj-12fc11a9-45bc-430b-bf9e-e1e8c6551b4e.png"
+            },
+            {
+              "ok": true,
+              "src": "/media/feuillory-cj-12fc11a9-45bc-430b-bf9e-e1e8c6551b4e.png"
+            },
+            {
+              "ok": true,
+              "src": "/media/feuillory-cj-1394173368693035008.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/feuillory-cj-2503120220541603100.jpg"
+            }
+          ],
+          "cta": [
+            {
+              "text": "Menu ☰",
+              "h": 44
+            },
+            {
+              "text": "Ma sélection 0",
+              "h": 44
+            },
+            {
+              "text": "Découvrir la collection ↗",
+              "h": 54.421875
+            },
+            {
+              "text": "Ouvrir le guide →",
+              "h": 54.421875
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Envoyer mon avis",
+              "h": 54.421875
+            }
+          ]
+        }
+      ],
+      "succes": true,
+      "motionActive": true,
+      "photosParcourues": [
+        0,
+        1,
+        2
+      ],
+      "motionReduced": true,
+      "avisFixturePending": true
+    },
+    {
+      "slug": "ondivane",
+      "mesures": [
+        {
+          "width": 1440,
+          "clientWidth": 1440,
+          "height": 1000,
+          "scroll": 1440,
+          "h1": {
+            "x": 295,
+            "y": 285.9647521972656,
+            "width": 850,
+            "height": 189.71875,
+            "top": 285.9647521972656,
+            "right": 1145,
+            "bottom": 475.6835021972656,
+            "left": 295
+          },
+          "photos": [
+            {
+              "ok": true,
+              "src": "/media/ondivane-cj-1664837768888987648.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/ondivane-cj-1664837768888987648.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/ondivane-cj-2504071556161606100.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/ondivane-cj-1793100703481733120.jpg"
+            }
+          ],
+          "cta": [
+            {
+              "text": "Ma sélection 0",
+              "h": 46.390625
+            },
+            {
+              "text": "Découvrir la collection ↗",
+              "h": 54.42193603515625
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Ouvrir le guide →",
+              "h": 54.421875
+            },
+            {
+              "text": "Envoyer mon avis",
+              "h": 54.421875
+            }
+          ]
+        },
+        {
+          "width": 390,
+          "clientWidth": 390,
+          "height": 844,
+          "scroll": 390,
+          "h1": {
+            "x": 23.390625,
+            "y": 249.25,
+            "width": 343.21875,
+            "height": 96.75,
+            "top": 249.25,
+            "right": 366.609375,
+            "bottom": 346,
+            "left": 23.390625
+          },
+          "photos": [
+            {
+              "ok": true,
+              "src": "/media/ondivane-cj-1664837768888987648.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/ondivane-cj-1664837768888987648.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/ondivane-cj-2504071556161606100.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/ondivane-cj-1793100703481733120.jpg"
+            }
+          ],
+          "cta": [
+            {
+              "text": "Menu ☰",
+              "h": 44
+            },
+            {
+              "text": "Ma sélection 0",
+              "h": 44
+            },
+            {
+              "text": "Découvrir la collection ↗",
+              "h": 54.421875
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Ouvrir le guide →",
+              "h": 54.421875
+            },
+            {
+              "text": "Envoyer mon avis",
+              "h": 54.421875
+            }
+          ]
+        },
+        {
+          "width": 360,
+          "clientWidth": 360,
+          "height": 740,
+          "scroll": 360,
+          "h1": {
+            "x": 21.59375,
+            "y": 249.25,
+            "width": 316.8125,
+            "height": 96.75,
+            "top": 249.25,
+            "right": 338.40625,
+            "bottom": 346,
+            "left": 21.59375
+          },
+          "photos": [
+            {
+              "ok": true,
+              "src": "/media/ondivane-cj-1664837768888987648.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/ondivane-cj-1664837768888987648.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/ondivane-cj-2504071556161606100.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/ondivane-cj-1793100703481733120.jpg"
+            }
+          ],
+          "cta": [
+            {
+              "text": "Menu ☰",
+              "h": 44
+            },
+            {
+              "text": "Ma sélection 0",
+              "h": 44
+            },
+            {
+              "text": "Découvrir la collection ↗",
+              "h": 54.421875
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Ouvrir le guide →",
+              "h": 54.421875
+            },
+            {
+              "text": "Envoyer mon avis",
+              "h": 54.421875
+            }
+          ]
+        }
+      ],
+      "succes": true,
+      "motionActive": true,
+      "photosParcourues": [
+        0,
+        1,
+        2
+      ],
+      "motionReduced": true,
+      "avisFixturePending": true
+    },
+    {
+      "slug": "nuitrelia",
+      "mesures": [
+        {
+          "width": 1440,
+          "clientWidth": 1440,
+          "height": 1000,
+          "scroll": 1440,
+          "h1": {
+            "x": 86.390625,
+            "y": 287.9873046875,
+            "width": 595.59375,
+            "height": 189.71875,
+            "top": 287.9873046875,
+            "right": 681.984375,
+            "bottom": 477.7060546875,
+            "left": 86.390625
+          },
+          "photos": [
+            {
+              "ok": true,
+              "src": "/media/nuitrelia-cj-b15d8d56-5637-4be9-a14c-c11f1c141055.png"
+            },
+            {
+              "ok": true,
+              "src": "/media/nuitrelia-cj-b15d8d56-5637-4be9-a14c-c11f1c141055.png"
+            },
+            {
+              "ok": true,
+              "src": "/media/nuitrelia-cj-2406100533441623200.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/nuitrelia-cj-1790316378436669440.jpg"
+            }
+          ],
+          "cta": [
+            {
+              "text": "Ma sélection 0",
+              "h": 46.390625
+            },
+            {
+              "text": "Découvrir la collection ↗",
+              "h": 54.421875
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Ouvrir le guide →",
+              "h": 54.421875
+            },
+            {
+              "text": "Envoyer mon avis",
+              "h": 54.421875
+            }
+          ]
+        },
+        {
+          "width": 390,
+          "clientWidth": 390,
+          "height": 844,
+          "scroll": 390,
+          "h1": {
+            "x": 23.390625,
+            "y": 224.25,
+            "width": 343.21875,
+            "height": 96.75,
+            "top": 224.25,
+            "right": 366.609375,
+            "bottom": 321,
+            "left": 23.390625
+          },
+          "photos": [
+            {
+              "ok": true,
+              "src": "/media/nuitrelia-cj-b15d8d56-5637-4be9-a14c-c11f1c141055.png"
+            },
+            {
+              "ok": true,
+              "src": "/media/nuitrelia-cj-b15d8d56-5637-4be9-a14c-c11f1c141055.png"
+            },
+            {
+              "ok": true,
+              "src": "/media/nuitrelia-cj-2406100533441623200.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/nuitrelia-cj-1790316378436669440.jpg"
+            }
+          ],
+          "cta": [
+            {
+              "text": "Menu ☰",
+              "h": 44
+            },
+            {
+              "text": "Ma sélection 0",
+              "h": 44
+            },
+            {
+              "text": "Découvrir la collection ↗",
+              "h": 54.421875
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Ouvrir le guide →",
+              "h": 54.421875
+            },
+            {
+              "text": "Envoyer mon avis",
+              "h": 54.421875
+            }
+          ]
+        },
+        {
+          "width": 360,
+          "clientWidth": 360,
+          "height": 740,
+          "scroll": 360,
+          "h1": {
+            "x": 21.59375,
+            "y": 224.25,
+            "width": 316.8125,
+            "height": 96.75,
+            "top": 224.25,
+            "right": 338.40625,
+            "bottom": 321,
+            "left": 21.59375
+          },
+          "photos": [
+            {
+              "ok": true,
+              "src": "/media/nuitrelia-cj-b15d8d56-5637-4be9-a14c-c11f1c141055.png"
+            },
+            {
+              "ok": true,
+              "src": "/media/nuitrelia-cj-b15d8d56-5637-4be9-a14c-c11f1c141055.png"
+            },
+            {
+              "ok": true,
+              "src": "/media/nuitrelia-cj-2406100533441623200.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/nuitrelia-cj-1790316378436669440.jpg"
+            }
+          ],
+          "cta": [
+            {
+              "text": "Menu ☰",
+              "h": 44
+            },
+            {
+              "text": "Ma sélection 0",
+              "h": 44
+            },
+            {
+              "text": "Découvrir la collection ↗",
+              "h": 54.421875
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Ouvrir le guide →",
+              "h": 54.421875
+            },
+            {
+              "text": "Envoyer mon avis",
+              "h": 54.421875
+            }
+          ]
+        }
+      ],
+      "succes": true,
+      "motionActive": true,
+      "photosParcourues": [
+        0,
+        1,
+        2
+      ],
+      "motionReduced": true,
+      "avisFixturePending": true
+    },
+    {
+      "slug": "feerivane",
+      "mesures": [
+        {
+          "width": 1440,
+          "clientWidth": 1440,
+          "height": 1000,
+          "scroll": 1440,
+          "h1": {
+            "x": 86.390625,
+            "y": 283.3946533203125,
+            "width": 638.03125,
+            "height": 192.84375,
+            "top": 283.3946533203125,
+            "right": 724.421875,
+            "bottom": 476.2384033203125,
+            "left": 86.390625
+          },
+          "photos": [
+            {
+              "ok": true,
+              "src": "/media/feerivane-cj-2510170651451627900.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/feerivane-cj-2510170651451627900.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/feerivane-cj-2510081447231625000.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/feerivane-cj-2084200180513361921.png"
+            },
+            {
+              "ok": true,
+              "src": "/media/feerivane-cj-2509061500421605000.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/feerivane-cj-2510240632501620300.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/feerivane-cj-122125a0-e459-4986-b512-f92c606b99bb.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/feerivane-cj-df6dd0f2-fe0a-4d50-98ff-aa743747cdb8.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/feerivane-cj-2410220638191619000.jpg"
+            }
+          ],
+          "cta": [
+            {
+              "text": "Ma sélection 0",
+              "h": 46.390625
+            },
+            {
+              "text": "Découvrir la collection ↗",
+              "h": 54.421875
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Ouvrir le guide →",
+              "h": 54.421875
+            },
+            {
+              "text": "Le dépôt sera bientôt ouvert",
+              "h": 54.421875
+            }
+          ]
+        },
+        {
+          "width": 390,
+          "clientWidth": 390,
+          "height": 844,
+          "scroll": 390,
+          "h1": {
+            "x": 23.390625,
+            "y": 229.25,
+            "width": 343.21875,
+            "height": 96.75,
+            "top": 229.25,
+            "right": 366.609375,
+            "bottom": 326,
+            "left": 23.390625
+          },
+          "photos": [
+            {
+              "ok": true,
+              "src": "/media/feerivane-cj-2510170651451627900.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/feerivane-cj-2510170651451627900.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/feerivane-cj-2510081447231625000.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/feerivane-cj-2084200180513361921.png"
+            },
+            {
+              "ok": true,
+              "src": "/media/feerivane-cj-2509061500421605000.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/feerivane-cj-2510240632501620300.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/feerivane-cj-122125a0-e459-4986-b512-f92c606b99bb.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/feerivane-cj-df6dd0f2-fe0a-4d50-98ff-aa743747cdb8.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/feerivane-cj-2410220638191619000.jpg"
+            }
+          ],
+          "cta": [
+            {
+              "text": "Menu ☰",
+              "h": 44
+            },
+            {
+              "text": "Ma sélection 0",
+              "h": 44
+            },
+            {
+              "text": "Découvrir la collection ↗",
+              "h": 54.421875
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Ouvrir le guide →",
+              "h": 54.421875
+            },
+            {
+              "text": "Le dépôt sera bientôt ouvert",
+              "h": 54.421875
+            }
+          ]
+        },
+        {
+          "width": 360,
+          "clientWidth": 360,
+          "height": 740,
+          "scroll": 360,
+          "h1": {
+            "x": 21.59375,
+            "y": 229.25,
+            "width": 316.8125,
+            "height": 96.75,
+            "top": 229.25,
+            "right": 338.40625,
+            "bottom": 326,
+            "left": 21.59375
+          },
+          "photos": [
+            {
+              "ok": true,
+              "src": "/media/feerivane-cj-2510170651451627900.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/feerivane-cj-2510170651451627900.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/feerivane-cj-2510081447231625000.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/feerivane-cj-2084200180513361921.png"
+            },
+            {
+              "ok": true,
+              "src": "/media/feerivane-cj-2509061500421605000.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/feerivane-cj-2510240632501620300.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/feerivane-cj-122125a0-e459-4986-b512-f92c606b99bb.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/feerivane-cj-df6dd0f2-fe0a-4d50-98ff-aa743747cdb8.jpg"
+            },
+            {
+              "ok": true,
+              "src": "/media/feerivane-cj-2410220638191619000.jpg"
+            }
+          ],
+          "cta": [
+            {
+              "text": "Menu ☰",
+              "h": 44
+            },
+            {
+              "text": "Ma sélection 0",
+              "h": 44
+            },
+            {
+              "text": "Découvrir la collection ↗",
+              "h": 54.421875
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Choisir ＋",
+              "h": 45.109375
+            },
+            {
+              "text": "Ouvrir le guide →",
+              "h": 54.421875
+            },
+            {
+              "text": "Le dépôt sera bientôt ouvert",
+              "h": 54.421875
+            }
+          ]
+        }
+      ],
+      "succes": true,
+      "motionActive": true,
+      "photosParcourues": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "motionReduced": true,
+      "avisDesactives": true,
+      "sansScriptContenuVisible": true
+    }
+  ],
+  "erreursJS": [],
+  "externes": [],
+  "fixtureAvis": {
+    "mode": "locale_factice_aucun_stockage_production",
+    "reponses": [
+      {
+        "brand": "mini-et-moi",
+        "method": "GET",
+        "status": 200,
+        "appelExterneEffectif": false
+      },
+      {
+        "brand": "mini-et-moi",
+        "method": "GET",
+        "status": 200,
+        "appelExterneEffectif": false
+      },
+      {
+        "brand": "mini-et-moi",
+        "method": "GET",
+        "status": 200,
+        "appelExterneEffectif": false
+      },
+      {
+        "brand": "mini-et-moi",
+        "method": "OPTIONS",
+        "status": 204,
+        "appelExterneEffectif": false
+      },
+      {
+        "brand": "mini-et-moi",
+        "method": "POST",
+        "status": 201,
+        "appelExterneEffectif": false
+      },
+      {
+        "brand": "vadrouvane",
+        "method": "GET",
+        "status": 200,
+        "appelExterneEffectif": false
+      },
+      {
+        "brand": "vadrouvane",
+        "method": "GET",
+        "status": 200,
+        "appelExterneEffectif": false
+      },
+      {
+        "brand": "vadrouvane",
+        "method": "GET",
+        "status": 200,
+        "appelExterneEffectif": false
+      },
+      {
+        "brand": "vadrouvane",
+        "method": "OPTIONS",
+        "status": 204,
+        "appelExterneEffectif": false
+      },
+      {
+        "brand": "vadrouvane",
+        "method": "POST",
+        "status": 201,
+        "appelExterneEffectif": false
+      },
+      {
+        "brand": "pliorea",
+        "method": "GET",
+        "status": 200,
+        "appelExterneEffectif": false
+      },
+      {
+        "brand": "pliorea",
+        "method": "GET",
+        "status": 200,
+        "appelExterneEffectif": false
+      },
+      {
+        "brand": "pliorea",
+        "method": "GET",
+        "status": 200,
+        "appelExterneEffectif": false
+      },
+      {
+        "brand": "pliorea",
+        "method": "OPTIONS",
+        "status": 204,
+        "appelExterneEffectif": false
+      },
+      {
+        "brand": "pliorea",
+        "method": "POST",
+        "status": 201,
+        "appelExterneEffectif": false
+      },
+      {
+        "brand": "burozea",
+        "method": "GET",
+        "status": 200,
+        "appelExterneEffectif": false
+      },
+      {
+        "brand": "burozea",
+        "method": "GET",
+        "status": 200,
+        "appelExterneEffectif": false
+      },
+      {
+        "brand": "burozea",
+        "method": "GET",
+        "status": 200,
+        "appelExterneEffectif": false
+      },
+      {
+        "brand": "burozea",
+        "method": "OPTIONS",
+        "status": 204,
+        "appelExterneEffectif": false
+      },
+      {
+        "brand": "burozea",
+        "method": "POST",
+        "status": 201,
+        "appelExterneEffectif": false
+      },
+      {
+        "brand": "encrivoie",
+        "method": "GET",
+        "status": 200,
+        "appelExterneEffectif": false
+      },
+      {
+        "brand": "encrivoie",
+        "method": "GET",
+        "status": 200,
+        "appelExterneEffectif": false
+      },
+      {
+        "brand": "encrivoie",
+        "method": "GET",
+        "status": 200,
+        "appelExterneEffectif": false
+      },
+      {
+        "brand": "encrivoie",
+        "method": "OPTIONS",
+        "status": 204,
+        "appelExterneEffectif": false
+      },
+      {
+        "brand": "encrivoie",
+        "method": "POST",
+        "status": 201,
+        "appelExterneEffectif": false
+      },
+      {
+        "brand": "rubaloria",
+        "method": "GET",
+        "status": 200,
+        "appelExterneEffectif": false
+      },
+      {
+        "brand": "rubaloria",
+        "method": "GET",
+        "status": 200,
+        "appelExterneEffectif": false
+      },
+      {
+        "brand": "rubaloria",
+        "method": "GET",
+        "status": 200,
+        "appelExterneEffectif": false
+      },
+      {
+        "brand": "rubaloria",
+        "method": "OPTIONS",
+        "status": 204,
+        "appelExterneEffectif": false
+      },
+      {
+        "brand": "rubaloria",
+        "method": "POST",
+        "status": 201,
+        "appelExterneEffectif": false
+      },
+      {
+        "brand": "moustelio",
+        "method": "GET",
+        "status": 200,
+        "appelExterneEffectif": false
+      },
+      {
+        "brand": "moustelio",
+        "method": "GET",
+        "status": 200,
+        "appelExterneEffectif": false
+      },
+      {
+        "brand": "moustelio",
+        "method": "GET",
+        "status": 200,
+        "appelExterneEffectif": false
+      },
+      {
+        "brand": "moustelio",
+        "method": "OPTIONS",
+        "status": 204,
+        "appelExterneEffectif": false
+      },
+      {
+        "brand": "moustelio",
+        "method": "POST",
+        "status": 201,
+        "appelExterneEffectif": false
+      },
+      {
+        "brand": "filavane",
+        "method": "GET",
+        "status": 200,
+        "appelExterneEffectif": false
+      },
+      {
+        "brand": "filavane",
+        "method": "GET",
+        "status": 200,
+        "appelExterneEffectif": false
+      },
+      {
+        "brand": "filavane",
+        "method": "GET",
+        "status": 200,
+        "appelExterneEffectif": false
+      },
+      {
+        "brand": "filavane",
+        "method": "OPTIONS",
+        "status": 204,
+        "appelExterneEffectif": false
+      },
+      {
+        "brand": "filavane",
+        "method": "POST",
+        "status": 201,
+        "appelExterneEffectif": false
+      },
+      {
+        "brand": "feuillory",
+        "method": "GET",
+        "status": 200,
+        "appelExterneEffectif": false
+      },
+      {
+        "brand": "feuillory",
+        "method": "GET",
+        "status": 200,
+        "appelExterneEffectif": false
+      },
+      {
+        "brand": "feuillory",
+        "method": "GET",
+        "status": 200,
+        "appelExterneEffectif": false
+      },
+      {
+        "brand": "feuillory",
+        "method": "OPTIONS",
+        "status": 204,
+        "appelExterneEffectif": false
+      },
+      {
+        "brand": "feuillory",
+        "method": "POST",
+        "status": 201,
+        "appelExterneEffectif": false
+      },
+      {
+        "brand": "ondivane",
+        "method": "GET",
+        "status": 200,
+        "appelExterneEffectif": false
+      },
+      {
+        "brand": "ondivane",
+        "method": "GET",
+        "status": 200,
+        "appelExterneEffectif": false
+      },
+      {
+        "brand": "ondivane",
+        "method": "GET",
+        "status": 200,
+        "appelExterneEffectif": false
+      },
+      {
+        "brand": "ondivane",
+        "method": "OPTIONS",
+        "status": 204,
+        "appelExterneEffectif": false
+      },
+      {
+        "brand": "ondivane",
+        "method": "POST",
+        "status": 201,
+        "appelExterneEffectif": false
+      },
+      {
+        "brand": "nuitrelia",
+        "method": "GET",
+        "status": 200,
+        "appelExterneEffectif": false
+      },
+      {
+        "brand": "nuitrelia",
+        "method": "GET",
+        "status": 200,
+        "appelExterneEffectif": false
+      },
+      {
+        "brand": "nuitrelia",
+        "method": "GET",
+        "status": 200,
+        "appelExterneEffectif": false
+      },
+      {
+        "brand": "nuitrelia",
+        "method": "OPTIONS",
+        "status": 204,
+        "appelExterneEffectif": false
+      },
+      {
+        "brand": "nuitrelia",
+        "method": "POST",
+        "status": 201,
+        "appelExterneEffectif": false
+      }
+    ]
+  },
+  "scriptsBloques": [
+    {
+      "brand": "mini-et-moi",
+      "path": "/app.js"
+    },
+    {
+      "brand": "rubaloria",
+      "path": "/app.js"
+    },
+    {
+      "brand": "feerivane",
+      "path": "/app.js"
+    }
+  ],
+  "termine": true,
+  "navigateurFerme": true,
+  "portLocalFerme": true
+}

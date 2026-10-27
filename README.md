@@ -4,7 +4,7 @@
 
 Le détail qui change l’allure.
 
-Accessoires cheveux textiles pour adultes. L’adresse publique est en cours d’attribution ; aucun lien non vérifié n’est présenté comme actif.
+Accessoires cheveux textiles pour adultes. [Découvrir le site](https://rubaloria.onrender.com)
 
 La vitrine présente **3 références fournisseur réelles** avec leurs photographies et une sélection locale, sans encaissement ni commande. Les prix, la livraison France/Belgique et les informations commerciales restent à qualifier.
 

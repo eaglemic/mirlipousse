@@ -1,0 +1,193 @@
+{
+  "format": "boutique-remise-v2/1",
+  "dateUTC": "2026-10-27T21:13:01.368488+00:00",
+  "brandSlug": "rubaloria",
+  "succes": true,
+  "termine": true,
+  "applique": false,
+  "publicationFaite": false,
+  "paquet": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/rubaloria",
+  "branch": "entreprise/rubaloria",
+  "products": 3,
+  "publicFiles": 24,
+  "origin": "https://rubaloria.onrender.com",
+  "salesEnabled": false,
+  "avisEnabled": true,
+  "planCAS": {
+    "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/plans-cas/rubaloria.json",
+    "sha256": "20a2d2f12eb5adc8be4d8d733333fc5256e038544a163e459bfae35dedad3875"
+  },
+  "export": {
+    "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/rubaloria/verification/EXPORT.json",
+    "sha256": "a2209c0a1b5593d5c086cd363c569a8e533f5a7395f9d48140f5ea0804c8a497",
+    "octets": 4263
+  },
+  "codePublic": [
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/rubaloria/public/404.html",
+      "sha256": "3b962e46dc3b6a65413b2a734bb69a5124cfdaad7b1eaf9f0056f53da452365f",
+      "octets": 6323,
+      "relativePath": "public/404.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/rubaloria/public/app.js",
+      "sha256": "b6354e9cd002e432a34a873a0ba6e3e48cababab656bb82f1835e6a51d5d61f5",
+      "octets": 14451,
+      "relativePath": "public/app.js"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/rubaloria/public/avis.html",
+      "sha256": "3a303bd88fe057e2bb968c40907da0b0bccbc4fc65f66580650eb64c90977cf1",
+      "octets": 8348,
+      "relativePath": "public/avis.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/rubaloria/public/brand.json",
+      "sha256": "b4c1bef7484aa255bc242bd94d01a2b1310ab6976845bfd724bfc5d475f48e35",
+      "octets": 215,
+      "relativePath": "public/brand.json"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/rubaloria/public/catalogue.html",
+      "sha256": "226c949d679ec8ca83f11478c2452d643fd3ae746edd3c1b40333fb17aee7e38",
+      "octets": 10225,
+      "relativePath": "public/catalogue.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/rubaloria/public/catalogue.json",
+      "sha256": "02b6ef95512a6ec9fa673c491b290571e21131cad431b18adf88490e0c67bae1",
+      "octets": 2626,
+      "relativePath": "public/catalogue.json"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/rubaloria/public/conditions.html",
+      "sha256": "65a65d8c3a08f3747a2842a6d13e4d16bbef05adb2b78079f4d7772d5df6b69d",
+      "octets": 7052,
+      "relativePath": "public/conditions.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/rubaloria/public/confidentialite.html",
+      "sha256": "9efe97a7c822029425d0a51c2d12365050cf1a868f77eda4c43d8c26c539f095",
+      "octets": 8456,
+      "relativePath": "public/confidentialite.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/rubaloria/public/contact.html",
+      "sha256": "d705281bf0f19228c6aa5659640bbe3fec5c7ca7ec11a27a42b757a0d6cd046a",
+      "octets": 6711,
+      "relativePath": "public/contact.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/rubaloria/public/guide.html",
+      "sha256": "9d68fe45b1319b5cd0a73179fcf4ddd3924b2599a2f7f0cb7e68c167920c2323",
+      "octets": 6811,
+      "relativePath": "public/guide.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/rubaloria/public/index.html",
+      "sha256": "17c6d2dfeb719976b34c4c30c277f7efd96721896fb42b8d8cae35cb05d837a7",
+      "octets": 14825,
+      "relativePath": "public/index.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/rubaloria/public/livraison.html",
+      "sha256": "17fc3816c84874021c0112983f428562f18655da129125c37e2b7d87781e5db2",
+      "octets": 6945,
+      "relativePath": "public/livraison.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/rubaloria/public/media/embleme.svg",
+      "sha256": "3e53d06d04305aa6ed0cc4d517077cc1a6d2e20c64ad6c193024def1228bd6b9",
+      "octets": 349,
+      "relativePath": "public/media/embleme.svg"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/rubaloria/public/media/rubaloria-cj-1379230694693277696.jpg",
+      "sha256": "3e45094e806a017e06eb7c2ccf86cdc1b3e58089727974cd5cf66e6f92400d9d",
+      "octets": 144010,
+      "relativePath": "public/media/rubaloria-cj-1379230694693277696.jpg"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/rubaloria/public/media/rubaloria-cj-1385099563165159424.jpg",
+      "sha256": "482fa7016330cef8603d5346dd9319cea2b3f41a9eb970b85220833fb61f281d",
+      "octets": 533451,
+      "relativePath": "public/media/rubaloria-cj-1385099563165159424.jpg"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/rubaloria/public/media/rubaloria-cj-2406290601291625000.jpg",
+      "sha256": "94a28992f7c8321c3c74ca2bc74c3b06ff629972e1cebe8f82a9dd9ebd925cb0",
+      "octets": 233329,
+      "relativePath": "public/media/rubaloria-cj-2406290601291625000.jpg"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/rubaloria/public/mentions-legales.html",
+      "sha256": "030f7cf096e366d6ad22451b5c4178503a2e886b5c80ce22e716f8fdd78acc52",
+      "octets": 7229,
+      "relativePath": "public/mentions-legales.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/rubaloria/public/produits/rubaloria-cj-1379230694693277696.html",
+      "sha256": "5a3f477e22e7bfb9dacfd43dd0317fcc9417f86990634e680e7f73a452718e78",
+      "octets": 8072,
+      "relativePath": "public/produits/rubaloria-cj-1379230694693277696.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/rubaloria/public/produits/rubaloria-cj-1385099563165159424.html",
+      "sha256": "9d577ec5ed35494db4fc5784f319867d98b62d559002639d49625ac913fceff5",
+      "octets": 8054,
+      "relativePath": "public/produits/rubaloria-cj-1385099563165159424.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/rubaloria/public/produits/rubaloria-cj-2406290601291625000.html",
+      "sha256": "6f39140d46b7684dd4328b6dc02bdc014da278f6d6730e9f1c86bb96eceacb86",
+      "octets": 8074,
+      "relativePath": "public/produits/rubaloria-cj-2406290601291625000.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/rubaloria/public/retours.html",
+      "sha256": "b5478b814f533611e796a48913f2ad0ff82f1fef3d071c728c0e78ebe3f54557",
+      "octets": 7017,
+      "relativePath": "public/retours.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/rubaloria/public/robots.txt",
+      "sha256": "4db3c673ca7d68e53422f14410d8ed7ca3e90b304f24ba614318c6484f1892e0",
+      "octets": 75,
+      "relativePath": "public/robots.txt"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/rubaloria/public/sitemap.xml",
+      "sha256": "6153234641df4203a1e1992a4590e05453a2770055ccbdf1c70d00957e7da8f0",
+      "octets": 1071,
+      "relativePath": "public/sitemap.xml"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/rubaloria/public/style.css",
+      "sha256": "4468f3853a7ff5c4fe84d2814ef98d795741403397908f0c491b05e798f57687",
+      "octets": 29097,
+      "relativePath": "public/style.css"
+    }
+  ],
+  "preuveFonctionnelle12": {
+    "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/verification/recette-2026-10-27T21-01-36-999Z/RECETTE-NAVIGATEUR.json",
+    "sha256": "1efb0f7f45efa79af1d53e55fd30cf7e0e0adcca96f27cb8b30c5a2c1c84fb7d",
+    "octets": 79639
+  },
+  "complementCSSReference3": {
+    "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/verification/complement-motion-2026-10-27T21-10-29-869Z/RECETTE-NAVIGATEUR.json",
+    "sha256": "4ddd5f2f7c8ab6358f8375e4d4f8d009b978181b884120b62c35127c8f089d13",
+    "octets": 4648
+  },
+  "porteeReuse": "HTML, produits, images, sélection, filtres, dialogue et formulaires de la recette12 inchangés. Le JS de retour POST et CSS décorative ont ensuite reçu les deux finitions explicitement qualifiées sur trois profils.",
+  "finitions": {
+    "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/verification/FINITIONS-BORNE-REFERENCE.json",
+    "sha256": "978416bae59d21ba8bdf90c7328f8cb05a892769ccf561a9e017e72ba965fadc",
+    "octets": 6817
+  },
+  "limites": [
+    "Ventes fermées et prix client non définis.",
+    "Avis du navigateur en recette interceptés par fixture locale explicite ; aucun avis produit créé ou publié.",
+    "Chromium headless local seulement, aucun téléphone physique.",
+    "Root seul opérateur publication, aucun push ou service modifié par cet agent."
+  ]
+}
