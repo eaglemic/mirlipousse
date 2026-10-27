@@ -1,144 +1,186 @@
 {
-  "format": "mirlipousse-export-statique/2",
-  "dateUTC": "2026-10-27T20:36:07.447928+00:00",
-  "succes": true,
-  "origineCandidateNonReservee": "https://mirlipousse.onrender.com",
-  "pagesHTML": 20,
-  "assetsEtPages": 96,
-  "achatsOuverts": false,
-  "apiDeployee": false,
-  "serveurOuSecretsInclus": false,
-  "publicationEffectuee": false,
-  "SHA256": {
-    "404.html": "06575fdf44bb04fbd3b6b101ba3b274e045ba4e2aa3fe5450c40d33d79d235b3",
-    "_next/static/66c8c4ae-7e6b-40f3-b0b7-4b3428746619/_buildManifest.js": "47f02b34be6dc481257b6efce4c19e19111f37ef5c437f8ffed44f0da97fa9bb",
-    "_next/static/66c8c4ae-7e6b-40f3-b0b7-4b3428746619/_ssgManifest.js": "653f3e53e89b4f8548ff86c19e92bb3c6b84b6be7485a320b1e00893ed877479",
-    "_next/static/chunks/Icon-D0zGVybZ.js": "f3426f714786f25ed8a9e72c49b02957d2ff43e926a6c25381c556ef6b2d96d7",
-    "_next/static/chunks/app-route-prefetch-policy-B9GhpNqK.js": "84f0b3c1502e82f1118bf23d6bdfbcb9546208f352b3768c3cae5408502c3a8f",
-    "_next/static/chunks/framework-D_rUT4EX.js": "939d0fabebb3b2f01753bb866b067d8d3384fb06da19f0e6557609d3b1a9f4f7",
-    "_next/static/chunks/index-BObEJjaE.js": "d1a97dd0befdce0ce3cb2316eb5317e117ee969563aa0022724b0db2a091f89c",
-    "_next/static/chunks/layout-segment-context-APEoWGE7.js": "0ab71fe91707b7f01fdb6784447db38246813210b5e5aedcfdbf41dc4b49a0e3",
-    "_next/static/chunks/rolldown-runtime-C60lm6uB.js": "5db5ba82eef00d1dee7e86e663098c9427d01183a88d357437daff295aec3e75",
-    "_next/static/chunks/storefront-CJ_oyhgg.js": "f5bee80f0fd0cc45a6079835bd104e01b35072744ef96e9ffad7fba148764790",
-    "_next/static/chunks/streamed-icons-BbokXyyW.js": "7eb2a6b44b9c0faa7300c8dd36b0fae7a35d9f65e139dd9046b3df193aa83bc8",
-    "_next/static/css/index.DCsEXdMs.css": "c48992c81d3650577d9a92cf12961a84919c76fe95e88eabecbd0f61da657a11",
-    "_next/static/css/page.D_71ifoz.css": "795d871f7682abc54a574eb21f976e1c26bd39efcc61ca7d577c7edfc04e9273",
-    "apple-touch-icon.png": "90b5de154394609ccfeccde3e6d67306403184386c8db83dfda12e3d2556156f",
-    "assets/catalogue-B9PpX3N_.js": "98276cb4c6dd4144e44c286bc46ba6a84a7963bdb2b6f5f87c45cf455457dbb4",
-    "assets/catalogue-Bhmass9N.css": "efc633d567c018ef6f99c40b71d447d2d66a67c21d0c613c83e1d4ebb21fbb2b",
-    "assets/catalogue-CzHWsMMC.js": "2aaceaaa77d0d2b08229c995264673f2cdeb24fc6bbe45adfbc7554340198cbe",
-    "assets/catalogue-R-yjRTmN.css": "d093dfae80965eea7785b6a74f78a4f5211e41c59977e36ab641a26887d1bfcc",
-    "avis.css": "baf409a177206325ef6b7df2a87ba61fbd8804e40e941f820192acc9b036be3f",
-    "avis.html": "2f20d335bba1b845cc4a5b28054e90567999a1f289d6784c8267cc9fcb7f7942",
-    "avis.js": "d686933854663354557f723fa6cf331f6ce0e2bfcbe8d937202d304969740589",
-    "collections/0-2ans/index.html": "aeeb209d13604d6e30d2d459ca2bed64b48348c62700c100e00c5d0f9352dc6b",
-    "collections/3-5ans/index.html": "ad607ccac92e55af274fb927543161b38f9d004805d42848432f17818c786f0e",
-    "collections/6-8ans/index.html": "727ec133176b249c69d51621496ea05c883d79d9c60d152e70910edcecbc8501",
-    "collections/9-12ans/index.html": "cfc755b082094cce581bbafbbae3966f799de808607ee8ae4bb3d8ec75c193af",
-    "collections/accessoires-enfants/index.html": "7aa18912a2923c81b619af3871ddfa695a55c87069175dd8b7335712ac76d6e3",
-    "collections/jeux-aventure/index.html": "182400b152a5c9518f74343b3041b15df975f9846c64dc76d9d0e3ae18c7c254",
-    "collections/jeux-creatifs/index.html": "9a2fc7bc4eb3e4557f3d8de88809ca3dd7e4af4e2d049eb574ef4b9096acc605",
-    "collections/jouets-eveil/index.html": "35560532663f8d0b123640e93b396dfee226c9db61eca0fdbee5425ae73b7a8c",
-    "commande/merci/index.html": "2ab6b5925a9f4d626fa79b190660d92a97770195f12eb1b97b0484d224b54a5f",
-    "confidentialite/index.html": "9991f2d8b28e1e85cd447401e8167d7c607e368c67638a4ff64a95777550f75e",
-    "connexion-cj-11ede6e316d77e9738711f2e.html": "09182db03794112b2eb71dd0bec3e82d3cd23bcf2d54249be414b498cd681fed",
-    "favicon.svg": "511605fbbe3844de6b132af38c67c7822aa8b5ab3ff9711af2740301b83bd0bc",
-    "guides/choisir-un-jouet-selon-age/index.html": "60cee088afebe1684aaf0f69a023500ea4f1235f41b6070bd79011def8038060",
-    "guides/idees-jeux-creatifs-sans-ecran/index.html": "75a4ddee6fb8e3f98edbdad7fdd3187140ea236e1bf4862e15055ecf5ff87256",
-    "guides/index.html": "5da8e49aa95fa2ee4062889f98e43d6e07d7fa7985e4b96ec8afb9afa3d0bbb4",
-    "illustrations/arc-en-ciel.svg": "d8ff190554a45ed4f640adb49b81a88987b963f1ade556456c49367deb268c5f",
-    "illustrations/atelier-couleurs.svg": "e00d1e3d8b81f017f58837acc342f93210cc0a1b4480e37adf04327840cd18ec",
-    "illustrations/carnets-aventures.svg": "72989f54e10b42645cd9779776e00d0089c800695b34f24cb4215020df49a308",
-    "illustrations/cube-tout-doux.svg": "cfc24dc9410d88c9f8c30fa44376a5586c104dd81f254e14856dfebabee7fe40",
-    "illustrations/fusee-lunaire.svg": "39623b33b94dcbf6b6579a159be42961482529998f8ef56a541a4a73edf0a1f7",
-    "illustrations/hero-mirlipousse.svg": "4a144ed96bef8e2173bb1e13381f8627a5536dd3a16eca91102b045be27c7117",
-    "illustrations/petits-batisseurs.svg": "4abaeea0fd8840f1b06e61471b27aec77a5180a828ead6b90a1333ec3b07f918",
-    "illustrations/pochon-tresors.svg": "4ef96c0b9bc7abeb91f3a2fb7036d11e1290fb37397bebd9379f58c58b273a6d",
-    "illustrations/sac-exploration.svg": "1683dafc1770b20f97001b227620009a4f9eb3449f348dd170d918f9423ced65",
-    "index.html": "4c00d84ab49094335c7a4360ce0eda9f064ddaeae9d3054ea7b1d9e0894a919d",
-    "livraison-retours/index.html": "21f0fb6a36e19e5659818b37720462422deadf0322af44744f00916caf8207e6",
-    "media/campagne/mirlipousse-post-1080x1350-v1.png": "c27ba6b0f7a9691e86fc37c029517562f1058d8fa26cfd5bfa71d22a02b8c5c6",
-    "media/campagne/mirlipousse-story-1080x1920-v1.png": "fb6668e69cd1789a26ce861235cb950342fdc098826347504bfbc8bb5cba03e3",
-    "media/campagne/mirlipousse-teaser-12s-1080x1920-v1.mp4": "1edd843d34c9a4ba10ca76f668039cb83bbce06d5f33f09c72cb9f03b9f30599",
-    "media/catalogue-cj/0371a284-5c24-49ec-900a-59d7c824c310.webp": "ee5bbeed0c9ae1f0a1b711dbf3d81379b6e7d8535885dcd8a299ea6046680d30",
-    "media/catalogue-cj/1382549875220156416.webp": "f01e154c9472fcdef0fcc054b3b59fd8ff015429aa87e583d5511f70c6ba12cf",
-    "media/catalogue-cj/1399662745170874368.webp": "c0c167ff6071a7ef9cd95915f62b2d809792943a71d1d33c887c97785904ebad",
-    "media/catalogue-cj/1402446458522832896.webp": "21bf7ef30914b9d95861f459ef3cf09050e4921a48de14bebd103603eb4d0c81",
-    "media/catalogue-cj/1443498935560835072.webp": "a858534955ac5bcc8f65aec3029fc0ed196f3fac9a0cff8a732c5a72032728d6",
-    "media/catalogue-cj/1677148647701618688.webp": "a337cf6b7f73dd6e2e9183b889006a6260afe639c57c778da767e971a5434b8d",
-    "media/catalogue-cj/1695327556238581760.webp": "7d06e82bfbfe0e1db7dfef7c76ada445010d15cb675cd5ca2bf7a1b2e438754c",
-    "media/catalogue-cj/1726049085276303360.webp": "cbd737bcb8fc508a7203be4b5737f27644255487461f69bf8ed557307bf3cea3",
-    "media/catalogue-cj/1728960399522926592.webp": "93654c798f14c2777d7d440493dffea41643aaba372269a4c155f731900faf6a",
-    "media/catalogue-cj/1765008428654661632.webp": "8853a6fe8349e8b5a5c33ab662668d9b0f79eff767cce6e2fdf5b4e97e1cb6a0",
-    "media/catalogue-cj/1768205411733221376.webp": "25e6a2fbe6a240d2bce029e00bfe9dfbc37d0a0583871ba7c6bf2e38c470fa4d",
-    "media/catalogue-cj/1796776735170637824.webp": "01a4ea3c3933e6468644d86528ffb38ff97c3bfdcb8a32605d1671f0d50f6e31",
-    "media/catalogue-cj/1824293787209191424.webp": "d0de35e47bd1e8a02666fd848db87b0dba57f0b6a8eb7fba2e7a92524fcb1aad",
-    "media/catalogue-cj/2406150900481611300.webp": "660ac65076404da4732d638ec658d6f69698e1dd6d46b69d099d44d66dfb0002",
-    "media/catalogue-cj/2406150930491617200.webp": "ec5b1c788d8b0efdb8b21a2b355b7530545fc066a23ccddf5b1b190e497e3718",
-    "media/catalogue-cj/2406200657031625700.webp": "3af8a3e576015d0699016e30b3eeb20a8b175e1e9797c53d7f483f6e686bc73a",
-    "media/catalogue-cj/2406260653231601900.webp": "c5c139126af533d425aa9bff77db70b4b9eaad3bcfbd6f517fe07476e3b2e5df",
-    "media/catalogue-cj/2407170610431615300.webp": "7aad7d36c53d33ee4e318510d965f9480a4099461fda2db1230db868a33ada1a",
-    "media/catalogue-cj/2410260314571602100.webp": "6477f9323cc94f0b009ffcaa17719c5ecec87f422810ff90294c33213ddf0bc5",
-    "media/catalogue-cj/2411100316571609400.webp": "29ff422042836076a68cbf96d59a7939b1d29bba4d4e947137e29be7d2687026",
-    "media/catalogue-cj/2412090236531628600.webp": "248364638eba4626c3c905e3b859f25889631295f65a0d5b068875e211549968",
-    "media/catalogue-cj/2507060525441623500.webp": "e877096285ab686d07e0cea0c22ebe3d6f73677ff565bccc427ca7495488321a",
-    "media/catalogue-cj/2508141412481628100.webp": "51689b5b014689b23b3d8926e73f4f995deb649feedf99bf6ad4e623de7971d8",
-    "media/catalogue-cj/28d791f0-e7f4-4f7c-b9a1-9c4bd728c047.webp": "46e692be825a6d26fb9a64adb86f3107af166245eb3e7ebd6db4a2d35951f0cc",
-    "media/catalogue-cj/6803c9e5-7539-4e9d-b1a3-8b3bd8c92b63.webp": "e70964abb4d2503824fc7486e134abb966472c899d697e9aa5d9387499cdd972",
-    "media/catalogue-cj/7d9cb8a7-0917-47fc-825e-c26cab320373.webp": "e29c89d3d5061df5e38702ac5c9a3fa3279e998fbfdcb418ea56dd1b5ae97dde",
-    "media/catalogue-cj/90e2c080-d1cf-414b-9b38-74fe6f8709d8.webp": "68a34a2e1f799836fa5d7774d7efdfa98bb04ea9ee8b2e6077d71d47e4ebd3ae",
-    "media/catalogue-cj/a98eba8c-80a7-4027-b33d-45fe2d33dbc8.webp": "6d0c6fde42140500d150710bde8364455cb486fc549fae1a5b384a1cb018f47f",
-    "media/catalogue-cj/d4a2c882-1da7-459a-9b7f-06044f3e381a.webp": "2635a5d7ac69a34c44fac50d0822fe3eebfee03f0ab83569690c00f1d28108b2",
-    "media/catalogue-cj/ffd645ea-e4eb-4976-9c8e-80cc0b436c6a.webp": "f51ecc0d638be63a197e314505335cad1672a13941ef807eddecf87088c44ec1",
-    "media/mirlipousse-partage.png": "7af2e1826d411a8ceaaf865338d1f59015ad1e11685444383deb0b132c67efa5",
-    "media/produits/atelier-couleurs.webp": "5b1c50deb16133eb90f53e66c0f591c9e0e067023088c818707c03cdf2f3acad",
-    "media/produits/carnets-aventures.webp": "63d11f960325881b4bfdca771a7bfb4ff7c75f9d1ff682982eb85089042276ce",
-    "media/produits/cube-tout-doux.webp": "c21054f0677c6b318bcc91036f3ca546f8056edf34a4e3fb7d3b8cc5929e914b",
-    "media/produits/fusee-reveurs.webp": "1bf6eca8dae4144bc5958d6a78cf07b78b357e841e8be9c770e7709643f10298",
-    "media/produits/petits-batisseurs.webp": "c732482dc1420302cb2d5d3ef79227b123d16e89ece7ad1a2daf255fb3333a0d",
-    "media/produits/petits-ponts.webp": "9ae8e654a4013834118c79b3f6c8f7e11741521f191503bb922716d4144cd61f",
-    "media/produits/pochon-tresors.webp": "2827055f14ec5542c9a5e4ca64d759090a021dc38ce52396c5af0b9f9fe11a10",
-    "media/produits/sac-escapades.webp": "0545525fc4ece08873ddeeac2aed13c37f8bbd2be562deb13dc564ccd7533aaf",
-    "media/univers-mirlipousse.webp": "95a74251a4da82618e853741fb10aa9d49a8a2930fe675666cf87f16ee3a6395",
-    "medias/index.html": "218b3480d293e3d9d84bc628a547e2ab0f342a5ce315815790e6a211274ab388",
-    "mentions-legales/index.html": "9a71db6109d8565d42e60290d1b04bff1aa6c3b380ad5e2e9b5abbd8a728a336",
-    "ouverture/index.html": "152ba245c019a6d8e9270dec3c5addc7ca88415d432c926ff5fb62aa6c010e4b",
-    "robots.txt": "aa608eaf067988adf9f0f8c64369e34e5e6afef865caf65c49c0c5d3a42dfc02",
-    "sitemap.xml": "77663353d5afbb538476b05eb8a59653b85d07c5f85248e301b9a617e939ab41",
-    "vinext-client-entry-manifest.json": "f1832dd91bb1978f91a84d32abec92367602727538b7c9711fb64bdceba4763f"
-  },
-  "limites": [
-    "Catalogue réel importé, aucune qualification de vente, conformité ou âge déduite des photos.",
-    "Prix client et coûts livrés non qualifiés : aucun tarif ni paiement affiché.",
-    "Panier et favoris locaux ; aucune commande fournisseur possible depuis cet export."
-  ],
-  "reactHydrateUniquementAccueil": true,
-  "pagesEditorialesHTMLNatifSansBootstrapJS": 18,
-  "correctionMetadataHeadEtBootstrapEditorial": true,
-  "pagesVitrine": 19,
-  "pagesConnexionPrivee": 1,
-  "capsuleCJ": {
-    "chemin": "connexion-cj-11ede6e316d77e9738711f2e.html",
-    "keyId": "11ede6e316d77e9738711f2e",
-    "expireUTC": "2026-10-30T18:52:03.266523+00:00",
-    "chiffrementLocalSeulement": true,
-    "aucunSecretDansPage": true
-  },
-  "catalogueReel": {
-    "produits": 30,
-    "datasetSHA256": "54685ad32bbd8fcb928ffd3b6584ee2dc451b0f680f595caf277d58227662bdd",
-    "photosFournisseur": true,
-    "prixClient": null,
-    "commandesFermees": true,
-    "ageNonAtteste": null
-  },
-  "avisPartages": {
-    "endpoint": "https://mirlipousse-boutique.yellowghost64.chatgpt.site/api/reviews?brand=mirlipousse",
-    "publicationApresModeration": true,
-    "avisLocauxGlobaux": false,
-    "donneesInitiales": 0
-  },
-  "apiDeployeePortee": "Aucune API embarquée dans cet export statique ; API d’avis externe déjà déployée et vérifiée séparément.",
-  "pagesHTMLHors404": true,
-  "pages404": 1
+  "format": "boutique-export/1",
+  "dateUTC": "2026-10-27T20:59:50.580259Z",
+  "brandSlug": "feerivane",
+  "name": "Féérivane",
+  "branche": "entreprise/feerivane",
+  "publicRoot": "public",
+  "salesEnabled": false,
+  "adultOnly": false,
+  "origin": null,
+  "products": 8,
+  "sourceBrandSHA256": "6635fee9c8dbffe259517a42231012479432bcd6729974a70276eaa6bf644258",
+  "sourceCatalogueSHA256": "eca540e01d8cd43a4f73ec2c2a1badd85370c28128d7292a3ee82981a8e9eb23",
+  "files": [
+    {
+      "path": "404.html",
+      "sha256": "9b40a41b64ff8467bfb7e1d3d2cbf39ff679554b3d9bb22f6b5b0954a43cb403",
+      "octets": 11210
+    },
+    {
+      "path": "app.js",
+      "sha256": "b6354e9cd002e432a34a873a0ba6e3e48cababab656bb82f1835e6a51d5d61f5",
+      "octets": 14451
+    },
+    {
+      "path": "avis.html",
+      "sha256": "80b30f7887c06d114413442bd8e8d3286fb2c9390d0e6f64abe5b2968b777d5b",
+      "octets": 13069
+    },
+    {
+      "path": "brand.json",
+      "sha256": "4976210fb3d4ce29db13b3cfced250ddd0af5320cedc0e9c028fc8b93fc0415c",
+      "octets": 219
+    },
+    {
+      "path": "catalogue.html",
+      "sha256": "970f8e86a770ef9d249566687e277daa4de5a5fbf3656fd2de1b49fc2d213424",
+      "octets": 22114
+    },
+    {
+      "path": "catalogue.json",
+      "sha256": "0465f4920c6292f4378ab9df16be01d9e47c70558c9576e1154b10bd105cfdf4",
+      "octets": 8000
+    },
+    {
+      "path": "conditions.html",
+      "sha256": "62806f9f925eeadab15399991fc3a767b48001853b6e1db7b1bd22e42bd50170",
+      "octets": 11932
+    },
+    {
+      "path": "confidentialite.html",
+      "sha256": "9639b0a825036c130d700f4c9fa489450026d92a51d4614c1955df8b6524f83b",
+      "octets": 13331
+    },
+    {
+      "path": "contact.html",
+      "sha256": "288efb5097904b48058365a50ab1db8a051a4a52b04517c7cddb27cfd7124e5a",
+      "octets": 11594
+    },
+    {
+      "path": "guide.html",
+      "sha256": "bc80eaa58b02832c3887b642a6ca60da88619f58606c9a4c70bd393816e76219",
+      "octets": 11779
+    },
+    {
+      "path": "index.html",
+      "sha256": "4bf6b5f3c8aa488ff52adce1b075038100f745fc8b39315868a7aab25d364b08",
+      "octets": 26044
+    },
+    {
+      "path": "livraison.html",
+      "sha256": "30e00974cdbe92bdf15cc4bf3d624ca9515c20704072bf9aaaab35640c3cc619",
+      "octets": 11826
+    },
+    {
+      "path": "media/embleme.svg",
+      "sha256": "b30cdaff5216edddb032b874d44719ad3b435c29f9d47d0f06aa33df380e1730",
+      "octets": 392
+    },
+    {
+      "path": "media/feerivane-cj-122125a0-e459-4986-b512-f92c606b99bb.jpg",
+      "sha256": "f81e9ade015b198c47920ef2304e178895386250e5697d73f70becc426dcf9de",
+      "octets": 119673
+    },
+    {
+      "path": "media/feerivane-cj-2084200180513361921.png",
+      "sha256": "91f997d78f60e127e4acbb60ed7a9762c34e41e924a1580405549cd276d45c9d",
+      "octets": 189835
+    },
+    {
+      "path": "media/feerivane-cj-2410220638191619000.jpg",
+      "sha256": "9632d5880f4fae6deafcbede1ada34723dcaa1ec6eb10d45962e45c536337f66",
+      "octets": 579618
+    },
+    {
+      "path": "media/feerivane-cj-2509061500421605000.jpg",
+      "sha256": "dab9a8b0e4baf1874e1a67d8fe6340d0e1cc0446fc84e2ff852b983665b12d99",
+      "octets": 69519
+    },
+    {
+      "path": "media/feerivane-cj-2510081447231625000.jpg",
+      "sha256": "a39a6828123e53bdea06ed99a8eeec2f810826ece162a77b662f98e9590d94d1",
+      "octets": 674389
+    },
+    {
+      "path": "media/feerivane-cj-2510170651451627900.jpg",
+      "sha256": "86b62095752a5ed85efda2a472a81aa1b60ad847be31e579108f758f44e25076",
+      "octets": 124127
+    },
+    {
+      "path": "media/feerivane-cj-2510240632501620300.jpg",
+      "sha256": "bf8b53c01cc80e7c099a0602039324c839a1051cf74def82409d44a677d55d45",
+      "octets": 77142
+    },
+    {
+      "path": "media/feerivane-cj-df6dd0f2-fe0a-4d50-98ff-aa743747cdb8.jpg",
+      "sha256": "968b5e5236866a493c13102aeaa90bb29b22b9eab8c0a07836b55beddcadcd7c",
+      "octets": 250946
+    },
+    {
+      "path": "mentions-legales.html",
+      "sha256": "70d59b53de6ca4728aaccdb59605fe72279a61b736d1f8a274a507e2319a6220",
+      "octets": 12103
+    },
+    {
+      "path": "produits/feerivane-cj-122125a0-e459-4986-b512-f92c606b99bb.html",
+      "sha256": "759f24526817a368667bdf13908d11dab0beed3184bb6c5bf4722b42eb34868c",
+      "octets": 13174
+    },
+    {
+      "path": "produits/feerivane-cj-2084200180513361921.html",
+      "sha256": "1ce70f2e777186407fe332ba78adea07654f314a740e8ace3056a14cf7849fdb",
+      "octets": 13044
+    },
+    {
+      "path": "produits/feerivane-cj-2410220638191619000.html",
+      "sha256": "3f818577fc16a2e1703d074fe2b9227040469c37f1023599935636109248fef0",
+      "octets": 13133
+    },
+    {
+      "path": "produits/feerivane-cj-2509061500421605000.html",
+      "sha256": "6f25e3ca22c06745af868cafe8f699bd44083352aa1e8e0738e10fe29293c0da",
+      "octets": 12960
+    },
+    {
+      "path": "produits/feerivane-cj-2510081447231625000.html",
+      "sha256": "48f4c62dee53ba3b3e39da1fa15604ddf4ca350eda8fb3445530d446cd498418",
+      "octets": 13106
+    },
+    {
+      "path": "produits/feerivane-cj-2510170651451627900.html",
+      "sha256": "5dbbdb43d027273922b2f8565d8db476a5c5442a88b1c07e7c094122962e5af2",
+      "octets": 13130
+    },
+    {
+      "path": "produits/feerivane-cj-2510240632501620300.html",
+      "sha256": "a007d56b5b3016a062763a596348afdc92d7db68b0c615c79885bee1ad3707cc",
+      "octets": 12975
+    },
+    {
+      "path": "produits/feerivane-cj-df6dd0f2-fe0a-4d50-98ff-aa743747cdb8.html",
+      "sha256": "45a315f0842df0544caae26427b5acf666b6110a3f9fa1f167f1e3e3721ddef4",
+      "octets": 13121
+    },
+    {
+      "path": "retours.html",
+      "sha256": "28c009cec956f7a32ca89756a066374b1081e5935a8800df5f492a4439df006a",
+      "octets": 11900
+    },
+    {
+      "path": "robots.txt",
+      "sha256": "331ea9090db0c9f6f597bd9840fd5b171830f6e0b3ba1cb24dfa91f0c95aedc1",
+      "octets": 26
+    },
+    {
+      "path": "sitemap.xml",
+      "sha256": "68ab08991efaca902bcb8a6518106d8b29964c5651f39abbb7eb7c9713ca2770",
+      "octets": 107
+    },
+    {
+      "path": "style.css",
+      "sha256": "d1d5743e37e21b21d16fb158bd6930cf0e5bab8cace30ba6111e804536be8984",
+      "octets": 29097
+    }
+  ]
 }

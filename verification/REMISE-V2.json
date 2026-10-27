@@ -1,0 +1,255 @@
+{
+  "format": "boutique-remise-v2/1",
+  "dateUTC": "2026-10-27T21:13:00.360451+00:00",
+  "brandSlug": "feerivane",
+  "succes": true,
+  "termine": true,
+  "applique": false,
+  "publicationFaite": false,
+  "paquet": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/feerivane",
+  "branch": "entreprise/feerivane",
+  "products": 8,
+  "publicFiles": 34,
+  "origin": null,
+  "salesEnabled": false,
+  "avisEnabled": false,
+  "planCAS": {
+    "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/plans-cas/feerivane.json",
+    "sha256": "0770ef7687a46fed6c929ec817ec1dbfdd4f3e1de628747ca6a27fc016588207"
+  },
+  "export": {
+    "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/feerivane/verification/EXPORT.json",
+    "sha256": "477396e6271d7dda1ca87710c5857cf9550afdeaaa8aead534219dd57bf8c01f",
+    "octets": 6129
+  },
+  "codePublic": [
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/feerivane/public/404.html",
+      "sha256": "9b40a41b64ff8467bfb7e1d3d2cbf39ff679554b3d9bb22f6b5b0954a43cb403",
+      "octets": 11210,
+      "relativePath": "public/404.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/feerivane/public/app.js",
+      "sha256": "b6354e9cd002e432a34a873a0ba6e3e48cababab656bb82f1835e6a51d5d61f5",
+      "octets": 14451,
+      "relativePath": "public/app.js"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/feerivane/public/avis.html",
+      "sha256": "80b30f7887c06d114413442bd8e8d3286fb2c9390d0e6f64abe5b2968b777d5b",
+      "octets": 13069,
+      "relativePath": "public/avis.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/feerivane/public/brand.json",
+      "sha256": "4976210fb3d4ce29db13b3cfced250ddd0af5320cedc0e9c028fc8b93fc0415c",
+      "octets": 219,
+      "relativePath": "public/brand.json"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/feerivane/public/catalogue.html",
+      "sha256": "970f8e86a770ef9d249566687e277daa4de5a5fbf3656fd2de1b49fc2d213424",
+      "octets": 22114,
+      "relativePath": "public/catalogue.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/feerivane/public/catalogue.json",
+      "sha256": "0465f4920c6292f4378ab9df16be01d9e47c70558c9576e1154b10bd105cfdf4",
+      "octets": 8000,
+      "relativePath": "public/catalogue.json"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/feerivane/public/conditions.html",
+      "sha256": "62806f9f925eeadab15399991fc3a767b48001853b6e1db7b1bd22e42bd50170",
+      "octets": 11932,
+      "relativePath": "public/conditions.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/feerivane/public/confidentialite.html",
+      "sha256": "9639b0a825036c130d700f4c9fa489450026d92a51d4614c1955df8b6524f83b",
+      "octets": 13331,
+      "relativePath": "public/confidentialite.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/feerivane/public/contact.html",
+      "sha256": "288efb5097904b48058365a50ab1db8a051a4a52b04517c7cddb27cfd7124e5a",
+      "octets": 11594,
+      "relativePath": "public/contact.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/feerivane/public/guide.html",
+      "sha256": "bc80eaa58b02832c3887b642a6ca60da88619f58606c9a4c70bd393816e76219",
+      "octets": 11779,
+      "relativePath": "public/guide.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/feerivane/public/index.html",
+      "sha256": "4bf6b5f3c8aa488ff52adce1b075038100f745fc8b39315868a7aab25d364b08",
+      "octets": 26044,
+      "relativePath": "public/index.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/feerivane/public/livraison.html",
+      "sha256": "30e00974cdbe92bdf15cc4bf3d624ca9515c20704072bf9aaaab35640c3cc619",
+      "octets": 11826,
+      "relativePath": "public/livraison.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/feerivane/public/media/embleme.svg",
+      "sha256": "b30cdaff5216edddb032b874d44719ad3b435c29f9d47d0f06aa33df380e1730",
+      "octets": 392,
+      "relativePath": "public/media/embleme.svg"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/feerivane/public/media/feerivane-cj-122125a0-e459-4986-b512-f92c606b99bb.jpg",
+      "sha256": "f81e9ade015b198c47920ef2304e178895386250e5697d73f70becc426dcf9de",
+      "octets": 119673,
+      "relativePath": "public/media/feerivane-cj-122125a0-e459-4986-b512-f92c606b99bb.jpg"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/feerivane/public/media/feerivane-cj-2084200180513361921.png",
+      "sha256": "91f997d78f60e127e4acbb60ed7a9762c34e41e924a1580405549cd276d45c9d",
+      "octets": 189835,
+      "relativePath": "public/media/feerivane-cj-2084200180513361921.png"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/feerivane/public/media/feerivane-cj-2410220638191619000.jpg",
+      "sha256": "9632d5880f4fae6deafcbede1ada34723dcaa1ec6eb10d45962e45c536337f66",
+      "octets": 579618,
+      "relativePath": "public/media/feerivane-cj-2410220638191619000.jpg"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/feerivane/public/media/feerivane-cj-2509061500421605000.jpg",
+      "sha256": "dab9a8b0e4baf1874e1a67d8fe6340d0e1cc0446fc84e2ff852b983665b12d99",
+      "octets": 69519,
+      "relativePath": "public/media/feerivane-cj-2509061500421605000.jpg"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/feerivane/public/media/feerivane-cj-2510081447231625000.jpg",
+      "sha256": "a39a6828123e53bdea06ed99a8eeec2f810826ece162a77b662f98e9590d94d1",
+      "octets": 674389,
+      "relativePath": "public/media/feerivane-cj-2510081447231625000.jpg"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/feerivane/public/media/feerivane-cj-2510170651451627900.jpg",
+      "sha256": "86b62095752a5ed85efda2a472a81aa1b60ad847be31e579108f758f44e25076",
+      "octets": 124127,
+      "relativePath": "public/media/feerivane-cj-2510170651451627900.jpg"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/feerivane/public/media/feerivane-cj-2510240632501620300.jpg",
+      "sha256": "bf8b53c01cc80e7c099a0602039324c839a1051cf74def82409d44a677d55d45",
+      "octets": 77142,
+      "relativePath": "public/media/feerivane-cj-2510240632501620300.jpg"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/feerivane/public/media/feerivane-cj-df6dd0f2-fe0a-4d50-98ff-aa743747cdb8.jpg",
+      "sha256": "968b5e5236866a493c13102aeaa90bb29b22b9eab8c0a07836b55beddcadcd7c",
+      "octets": 250946,
+      "relativePath": "public/media/feerivane-cj-df6dd0f2-fe0a-4d50-98ff-aa743747cdb8.jpg"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/feerivane/public/mentions-legales.html",
+      "sha256": "70d59b53de6ca4728aaccdb59605fe72279a61b736d1f8a274a507e2319a6220",
+      "octets": 12103,
+      "relativePath": "public/mentions-legales.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/feerivane/public/produits/feerivane-cj-122125a0-e459-4986-b512-f92c606b99bb.html",
+      "sha256": "759f24526817a368667bdf13908d11dab0beed3184bb6c5bf4722b42eb34868c",
+      "octets": 13174,
+      "relativePath": "public/produits/feerivane-cj-122125a0-e459-4986-b512-f92c606b99bb.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/feerivane/public/produits/feerivane-cj-2084200180513361921.html",
+      "sha256": "1ce70f2e777186407fe332ba78adea07654f314a740e8ace3056a14cf7849fdb",
+      "octets": 13044,
+      "relativePath": "public/produits/feerivane-cj-2084200180513361921.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/feerivane/public/produits/feerivane-cj-2410220638191619000.html",
+      "sha256": "3f818577fc16a2e1703d074fe2b9227040469c37f1023599935636109248fef0",
+      "octets": 13133,
+      "relativePath": "public/produits/feerivane-cj-2410220638191619000.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/feerivane/public/produits/feerivane-cj-2509061500421605000.html",
+      "sha256": "6f25e3ca22c06745af868cafe8f699bd44083352aa1e8e0738e10fe29293c0da",
+      "octets": 12960,
+      "relativePath": "public/produits/feerivane-cj-2509061500421605000.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/feerivane/public/produits/feerivane-cj-2510081447231625000.html",
+      "sha256": "48f4c62dee53ba3b3e39da1fa15604ddf4ca350eda8fb3445530d446cd498418",
+      "octets": 13106,
+      "relativePath": "public/produits/feerivane-cj-2510081447231625000.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/feerivane/public/produits/feerivane-cj-2510170651451627900.html",
+      "sha256": "5dbbdb43d027273922b2f8565d8db476a5c5442a88b1c07e7c094122962e5af2",
+      "octets": 13130,
+      "relativePath": "public/produits/feerivane-cj-2510170651451627900.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/feerivane/public/produits/feerivane-cj-2510240632501620300.html",
+      "sha256": "a007d56b5b3016a062763a596348afdc92d7db68b0c615c79885bee1ad3707cc",
+      "octets": 12975,
+      "relativePath": "public/produits/feerivane-cj-2510240632501620300.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/feerivane/public/produits/feerivane-cj-df6dd0f2-fe0a-4d50-98ff-aa743747cdb8.html",
+      "sha256": "45a315f0842df0544caae26427b5acf666b6110a3f9fa1f167f1e3e3721ddef4",
+      "octets": 13121,
+      "relativePath": "public/produits/feerivane-cj-df6dd0f2-fe0a-4d50-98ff-aa743747cdb8.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/feerivane/public/retours.html",
+      "sha256": "28c009cec956f7a32ca89756a066374b1081e5935a8800df5f492a4439df006a",
+      "octets": 11900,
+      "relativePath": "public/retours.html"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/feerivane/public/robots.txt",
+      "sha256": "331ea9090db0c9f6f597bd9840fd5b171830f6e0b3ba1cb24dfa91f0c95aedc1",
+      "octets": 26,
+      "relativePath": "public/robots.txt"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/feerivane/public/sitemap.xml",
+      "sha256": "68ab08991efaca902bcb8a6518106d8b29964c5651f39abbb7eb7c9713ca2770",
+      "octets": 107,
+      "relativePath": "public/sitemap.xml"
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/sorties/feerivane/public/style.css",
+      "sha256": "d1d5743e37e21b21d16fb158bd6930cf0e5bab8cace30ba6111e804536be8984",
+      "octets": 29097,
+      "relativePath": "public/style.css"
+    }
+  ],
+  "preuveFonctionnelle12": {
+    "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/verification/recette-2026-10-27T21-01-36-999Z/RECETTE-NAVIGATEUR.json",
+    "sha256": "1efb0f7f45efa79af1d53e55fd30cf7e0e0adcca96f27cb8b30c5a2c1c84fb7d",
+    "octets": 79639
+  },
+  "complementCSSReference3": {
+    "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/verification/complement-motion-2026-10-27T21-10-29-869Z/RECETTE-NAVIGATEUR.json",
+    "sha256": "4ddd5f2f7c8ab6358f8375e4d4f8d009b978181b884120b62c35127c8f089d13",
+    "octets": 4648
+  },
+  "porteeReuse": "HTML, produits, images, sélection, filtres, dialogue et formulaires de la recette12 inchangés. Le JS de retour POST et CSS décorative ont ensuite reçu les deux finitions explicitement qualifiées sur trois profils.",
+  "finitions": {
+    "path": "/home/bach/Donnees/Livraisons/Boutiques-motion-v2-20261027/verification/FINITIONS-BORNE-REFERENCE.json",
+    "sha256": "978416bae59d21ba8bdf90c7328f8cb05a892769ccf561a9e017e72ba965fadc",
+    "octets": 6817
+  },
+  "limites": [
+    "Ventes fermées et prix client non définis.",
+    "Avis du navigateur en recette interceptés par fixture locale explicite ; aucun avis produit créé ou publié.",
+    "Chromium headless local seulement, aucun téléphone physique.",
+    "Root seul opérateur publication, aucun push ou service modifié par cet agent.",
+    "Origine inconnue : noindex et avis fermés jusqu’à attribution native et GO CORS réel.",
+    "Aucune promesse de livraison avant Noël, réduction, électrique ou verre ajouté."
+  ]
+}
