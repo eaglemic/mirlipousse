@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow,nosnippet"><meta name="referrer" content="no-referrer"><meta http-equiv="Content-Security-Policy" content="default-src &#x27;none&#x27;; script-src &#x27;sha256-iEcHlxTdUZ3N7B4empkAXs5RC04AB+WMcXpnQSJh69M=&#x27; &#x27;sha256-77FR0/Hjgx7odFhF7626UNq2N9vhaBC5xHIx/rl4Ta0=&#x27; &#x27;sha256-OkuTGFRuLkEDMgvG6Yx/cUsug/wRLfYUuTE2Dl4YiEw=&#x27;; style-src &#x27;sha256-/ZlmYIIGNyqIPB9L1uVAlFFAZCXZSapy4Bt1mn/sZPg=&#x27;; connect-src &#x27;none&#x27;; img-src &#x27;none&#x27;; font-src &#x27;none&#x27;; base-uri &#x27;none&#x27;; form-action &#x27;none&#x27;; object-src &#x27;none&#x27;"><title>Mirlipousse · Connexion privée SumUp</title><style>:root{color-scheme:light;font-family:system-ui,sans-serif;background:#faf7f1;color:#263f34}*{box-sizing:border-box}body{margin:0;padding:24px 16px}main{max-width:640px;margin:0 auto;padding:28px clamp(18px,5vw,40px);background:#fffefa;border:1px solid #d8dfd5;border-radius:24px;box-shadow:0 14px 50px #263f3410}.brand{font-weight:750;letter-spacing:.05em;color:#526b50}h1{font-size:clamp(26px,6vw,36px);line-height:1.15}p,li{line-height:1.65}ol{padding-left:22px}label{display:block;font-weight:700;margin:24px 0 8px}input,button{font:inherit;min-height:48px;width:100%;border-radius:12px}input{padding:12px;border:1px solid #839782;background:white;color:#152f23}input:focus{outline:3px solid #bdd3a9;outline-offset:2px}button{border:0;background:#345b41;color:white;font-weight:700;padding:14px;margin-top:16px;cursor:pointer}button:disabled{opacity:.65;cursor:wait}button:focus-visible{outline:3px solid #bb7a56;outline-offset:3px}.muted{font-size:14px;color:#526251}#status{font-weight:650;overflow-wrap:anywhere}
+</style></head>
+<body><main><p class="brand">Mirlipousse</p><h1>Relier votre compte SumUp</h1><p>Cette page chiffre votre clé secrète sur votre téléphone. Elle ne l’envoie à aucun serveur. Seul l’opérateur Mirlipousse détient la clé privée permettant d’ouvrir le fichier créé.</p><ol><li>Votre clé est déjà créée ? Passez directement au champ ci-dessous. Sinon, ouvrez <a href="https://me.sumup.com/settings/api-keys" target="_blank" rel="noreferrer noopener">les clés API SumUp dans votre navigateur</a> (Chrome ou Safari, pas l’application SumUp). Choisissez <strong>Créer</strong>, puis le nom <strong>Mirlipousse</strong>.</li><li>Copiez la <strong>clé API secrète</strong>, pas la clé publique commençant par <code>sup_pk_</code>.</li><li>Collez-la ci-dessous et créez le fichier chiffré. Joignez ensuite <strong>ce fichier seulement</strong> dans votre conversation.</li></ol><label for="sumup-key">Clé API secrète SumUp</label><input id="sumup-key" type="password" autocomplete="off" autocapitalize="off" spellcheck="false" maxlength="200" inputmode="text" aria-describedby="usage"><p id="usage" class="muted">Uniquement la clé API : aucun mot de passe bancaire, numéro de carte ou code de confirmation SMS. Le code marchand sera récupéré automatiquement lors de la vérification privée du compte. Aucun paiement n’est lancé ici.</p><button id="seal" type="button">Créer le fichier chiffré</button><p id="status" role="status" aria-live="polite"></p><p class="muted">Gardez la clé privée : ne l’envoyez ni en message ni en capture. Aucun champ n’est enregistré dans le navigateur ; votre presse-papiers reste sous votre contrôle. La validité de la clé SumUp sera vérifiée après l’import privé.</p><p class="muted"><a href="https://developer.sumup.com/tools/authorization/api-keys/" target="_blank" rel="noreferrer noopener">Aide officielle SumUp</a></p></main><script id="public-config" type="application/json">{"format":"mirlipousse-sumup-public/1","keyId":"94f0d3cb404a8ea6c6833892","publicKeySPKI":"MIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEAqGQq6PUk0XM8HNiosN568ldBaWVYL4v4b+i737vuHmLt3QmGqR7X4mO3JqRExtsSuWkDo8xtfFEQc5NFxf4Bl1XCmfLI8SI8EhgXgf7ozHhLt5XsSCRKu8LxrsixU7pJHxsZ9k3HC6XxQP38+EJtZ5IZa5WxTcqq+yIC3T6srCOKg7sAIZyMxSZpbUjGjpvOpJzTJWz3zdbRBL/ieuvoEb6Gyov8RUG0CAiQVCLIrnlB39r7dZ0dlRKj3v/et2Rgg5636+ZXaoOL84l7upDjD6UD/Arxv57z+MbvM+9Q0fJ6IKG7oaYk6cU0JZDRFZ2GJzWUArYFCjvHf+PhozEHJp3H0cI8Rlz6XL3/2JeXQDqwm9atc5BKHPH+9PNvSOuv12b34n+O/VbqQacYEHnr5NfkWN/hNibxXACh9GXhpkckJx2m9e2kS2je8Z/3xGXWq96fdAjGWtViGpX+gHSFNXcN0dp9h1LsDdD/QncMLEmVUDyxTT2Wj5+vXa0UMo3NAgMBAAE=","expiresUTC":"2026-10-30T22:27:04.733705Z"}</script><script>/* Standard WebCrypto only; no network, persistence, or logging. */
+(() => {
+  'use strict';
+  const FORMAT = 'mirlipousse-sumup-capsule/1';
+  const ALGORITHM = 'RSA-OAEP-256+A256GCM';
+  const exact = (value, keys) => value && typeof value === 'object'
+    && !Array.isArray(value) && Object.keys(value).sort().join('|') === keys.sort().join('|');
+  const decode = value => {
+    if (typeof value !== 'string' || value.length > 4096 || !/^[A-Za-z0-9+/]+={0,2}$/.test(value)) throw Error('CONFIGURATION_INVALIDE');
+    const binary = atob(value);
+    const bytes = Uint8Array.from(binary, letter => letter.charCodeAt(0));
+    if (encode(bytes) !== value) throw Error('CONFIGURATION_INVALIDE');
+    return bytes;
+  };
+  const encode = bytes => btoa(String.fromCharCode(...bytes));
+  async function encrypt(config, apiKey) {
+    if (!exact(config, ['format', 'keyId', 'publicKeySPKI', 'expiresUTC'])
+        || config.format !== 'mirlipousse-sumup-public/1'
+        || typeof config.keyId !== 'string' || !/^[a-f0-9]{24}$/.test(config.keyId)
+        || typeof config.expiresUTC !== 'string'
+        || !Number.isFinite(Date.parse(config.expiresUTC))
+        || Date.parse(config.expiresUTC) <= Date.now()) throw Error('CONFIGURATION_EXPIREE_OU_INVALIDE');
+    if (typeof apiKey !== 'string' || !/^[!-~]{8,200}$/.test(apiKey) || /^sup_pk_/i.test(apiKey)) throw Error('CLE_API_INVALIDE');
+    if (!globalThis.crypto?.subtle) throw Error('NAVIGATEUR_HTTPS_REQUIS');
+    const spki = decode(config.publicKeySPKI);
+    const fingerprint = [...new Uint8Array(await crypto.subtle.digest('SHA-256', spki))].map(v => v.toString(16).padStart(2, '0')).join('');
+    if (fingerprint.slice(0, 24) !== config.keyId) throw Error('CONFIGURATION_INVALIDE');
+    const publicKey = await crypto.subtle.importKey('spki', spki,
+      { name: 'RSA-OAEP', hash: 'SHA-256' }, false, ['encrypt']);
+    if (publicKey.algorithm.modulusLength < 3072
+        || [...publicKey.algorithm.publicExponent].join(',') !== '1,0,1') throw Error('CONFIGURATION_INVALIDE');
+    const key = await crypto.subtle.generateKey({ name: 'AES-GCM', length: 256 }, true, ['encrypt']);
+    const rawKey = new Uint8Array(await crypto.subtle.exportKey('raw', key));
+    const iv = crypto.getRandomValues(new Uint8Array(12));
+    const aad = new TextEncoder().encode(`${FORMAT}\n${config.keyId}\n${ALGORITHM}`);
+    const plaintext = new TextEncoder().encode(JSON.stringify({ SUMUP_API_KEY: apiKey }));
+    try {
+      const wrappedKey = await crypto.subtle.encrypt({ name: 'RSA-OAEP' }, publicKey, rawKey);
+      const ciphertext = await crypto.subtle.encrypt({ name: 'AES-GCM', iv, additionalData: aad, tagLength: 128 }, key, plaintext);
+      return { format: FORMAT, keyId: config.keyId, alg: ALGORITHM,
+        wrappedKey: encode(new Uint8Array(wrappedKey)), iv: encode(iv), ciphertext: encode(new Uint8Array(ciphertext)) };
+    } finally {
+      rawKey.fill(0);
+      plaintext.fill(0);
+    }
+  }
+  globalThis.MirlipousseSumUpCapsule = Object.freeze({ encrypt });
+})();
+</script><script>(() => {
+  'use strict';
+  const input = document.querySelector('#sumup-key');
+  const button = document.querySelector('#seal');
+  const status = document.querySelector('#status');
+  const config = JSON.parse(document.querySelector('#public-config').textContent);
+  button.addEventListener('click', async () => {
+    button.disabled = true;
+    status.textContent = 'Chiffrement en cours sur votre appareil…';
+    try {
+      const capsule = await MirlipousseSumUpCapsule.encrypt(config, input.value);
+      const file = new Blob([JSON.stringify(capsule)], { type: 'application/json' });
+      const link = document.createElement('a');
+      const url = URL.createObjectURL(file);
+      link.href = url;
+      link.download = 'connexion.mirlipousse-sumup.json';
+      document.body.append(link);
+      link.click();
+      link.remove();
+      setTimeout(() => URL.revokeObjectURL(url), 60000);
+      input.value = '';
+      status.textContent = 'Le fichier chiffré est prêt. Joignez uniquement connexion.mirlipousse-sumup.json dans votre conversation. Ne transmettez jamais la clé en texte ou en capture.';
+    } catch {
+      status.textContent = 'Impossible de préparer le fichier. Vérifiez la clé, la date du téléphone et l’ouverture en HTTPS dans Safari ou Chrome. Si le problème continue, demandez un nouveau lien sans communiquer la clé.';
+    } finally {
+      button.disabled = false;
+    }
+  });
+})();
+</script></body></html>
