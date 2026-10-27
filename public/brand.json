@@ -1,0 +1,12 @@
+{
+  "slug": "burozea",
+  "nom": "Burozéa",
+  "theme": "Bureau nomade sans électronique",
+  "palette": [
+    "#172037",
+    "#F4F5F7",
+    "#5C78F1"
+  ],
+  "salesEnabled": false,
+  "adultOnly": false
+}

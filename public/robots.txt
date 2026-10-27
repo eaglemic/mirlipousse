@@ -1,6 +1,2 @@
 User-agent: *
-Allow: /
-Disallow: /api/
-Disallow: /commande/
-
-Sitemap: https://mirlipousse.onrender.com/sitemap.xml
+Disallow: /

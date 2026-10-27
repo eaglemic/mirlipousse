@@ -1,0 +1,56 @@
+{
+  "format": "boutique-catalogue-public/1",
+  "brandSlug": "burozea",
+  "salesEnabled": false,
+  "adultOnly": false,
+  "products": [
+    {
+      "id": "burozea-cj-1703055389602238464",
+      "pid": "1703055389602238464",
+      "vid": "1703055389639987200",
+      "name": "Pochette de rangement pour câbles",
+      "description": "Une pochette avec séparations et élastiques pour organiser des câbles et petits accessoires. Seule la pochette est concernée : les appareils, chargeurs et câbles montrés sur la photo ne sont pas inclus.",
+      "category": "pochettes",
+      "categoryLabel": "Pochettes nomades",
+      "materialsText": "Composition à confirmer avant vente.",
+      "image": "/media/burozea-cj-1703055389602238464.jpg",
+      "imageAlt": "Pochette de rangement pour câbles — photo fournisseur",
+      "priceCustomer": null,
+      "purchaseEnabled": false,
+      "audienceTags": [],
+      "audienceSource": []
+    },
+    {
+      "id": "burozea-cj-1646726512265547776",
+      "pid": "1646726512265547776",
+      "vid": "1646726512303296512",
+      "name": "Pochette pour bureau nomade",
+      "description": "Une pochette à poignée pour répartir les accessoires du bureau en déplacement. Seule la pochette est présentée à la vente future, sans les appareils ni les câbles visibles dans la photo fournisseur.",
+      "category": "pochettes",
+      "categoryLabel": "Pochettes nomades",
+      "materialsText": "Composition à confirmer avant vente.",
+      "image": "/media/burozea-cj-1646726512265547776.jpg",
+      "imageAlt": "Pochette pour bureau nomade — photo fournisseur",
+      "priceCustomer": null,
+      "purchaseEnabled": false,
+      "audienceTags": [],
+      "audienceSource": []
+    },
+    {
+      "id": "burozea-cj-1380028552015122432",
+      "pid": "1380028552015122432",
+      "vid": "1380057307177684992",
+      "name": "Étui de rangement à compartiments",
+      "description": "Un étui zippé à compartiments pour séparer de petits accessoires. Les appareils, batteries, câbles et chargeurs photographiés sont une mise en situation et ne sont pas inclus.",
+      "category": "etuis",
+      "categoryLabel": "Étuis à compartiments",
+      "materialsText": "Composition à confirmer avant vente.",
+      "image": "/media/burozea-cj-1380028552015122432.jpg",
+      "imageAlt": "Étui de rangement à compartiments — photo fournisseur",
+      "priceCustomer": null,
+      "purchaseEnabled": false,
+      "audienceTags": [],
+      "audienceSource": []
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "format": "boutique-remise-site/1",
+  "dateUTC": "2026-10-27T20:45:08.306846+00:00",
+  "succes": true,
+  "termine": true,
+  "applique": false,
+  "publicationFaite": false,
+  "brandSlug": "burozea",
+  "branch": "entreprise/burozea",
+  "repo": "eaglemic/mirlipousse",
+  "paquet": "/home/bach/Donnees/Livraisons/Dix-boutiques-construction-20261027/sorties/burozea",
+  "public": "/home/bach/Donnees/Livraisons/Dix-boutiques-construction-20261027/sorties/burozea/public",
+  "publicFiles": 24,
+  "referencesReelles": 3,
+  "salesEnabled": false,
+  "avisActifs": false,
+  "origin": null,
+  "preuves": [
+    {
+      "path": "/home/bach/Donnees/Livraisons/Dix-boutiques-construction-20261027/sorties/burozea/verification/EXPORT.json",
+      "sha256": "2bbe08f26f89085219ab7d43f4e834c881a650abbef9201fb576507759763ad5",
+      "octets": 4217
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Dix-boutiques-construction-20261027/sorties/burozea/scripts/verifier-paquet.py",
+      "sha256": "1dc6dda8346149db8778a7380792cd428172ea9a198a372b6c1a45a48734281d",
+      "octets": 2370
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Dix-boutiques-construction-20261027/sorties/burozea/README.md",
+      "sha256": "e0827ceb633806b7c30f9e85dbe515e65d859bacb8c4b87ba1bc4201c4f30ed4",
+      "octets": 1596
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Dix-boutiques-construction-20261027/sorties/burozea/presentation.svg",
+      "sha256": "2e2080e7130368976bb33b3352b645607509374bfcb909885a633d6502cf5d1e",
+      "octets": 1053
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Dix-boutiques-construction-20261027/sorties/burozea/verification/RECETTE-MARQUE.json",
+      "sha256": "27bb5cbf62ac981a33dbd39e4c0c48cb6ffdf86040ba2616f23516e7e56848e5",
+      "octets": 5466
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Dix-boutiques-construction-20261027/sorties/burozea/verification/VERIFICATION-PAQUET.json",
+      "sha256": "8c9f1425461a0d28e1202992747ccecd18f8a318b37ddcc3a9babf4c5da49d54",
+      "octets": 98
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Mirlipousse-multiboutiques-produits-20261027/burozea/CATALOGUE.json",
+      "sha256": "9780e776b26beab7c7c7579d177dd6ecafd3ed2a9c52726afb0ded6fe1c4317a",
+      "octets": 16275
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Mirlipousse-multiboutiques-produits-20261027/burozea/REMISE.json",
+      "sha256": "3287032a38639c9bddffcc114484fecb2cfcc093739f8e6a574cc6ed116eadd2",
+      "octets": 2315
+    }
+  ],
+  "recette": {
+    "PC1440": true,
+    "mobile390": true,
+    "mobile360": true,
+    "photosChargees": true,
+    "selectionEtRechargement": true,
+    "echapFermeDialogue": true,
+    "cibles44px": true,
+    "reducedMotion": true,
+    "0JS": true,
+    "0Externes": true,
+    "navigateurEtPortFermes": true,
+    "adultGate": false,
+    "aucunDebordementHorizontal": true,
+    "mesureCompareeALaLargeurCliente": true
+  },
+  "limites": [
+    "Ventes et avis fermés, aucun paiement ni fournisseur commandé.",
+    "Origine HTTPS non encore attribuée : noindex explicite ; aucun lien supposé actif.",
+    "Pas de téléphone physique, recette Chromium locale.",
+    "Identité du vendeur et conformité avant ouverture commerciale non qualifiées."
+  ]
+}
