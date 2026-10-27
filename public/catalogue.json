@@ -1,0 +1,40 @@
+{
+  "format": "boutique-catalogue-public/1",
+  "brandSlug": "pliorea",
+  "salesEnabled": false,
+  "adultOnly": false,
+  "products": [
+    {
+      "id": "pliorea-cj-1386852733046362112",
+      "pid": "1386852733046362112",
+      "vid": "1386852734363373568",
+      "name": "Ensemble de huit organiseurs textiles",
+      "description": "La variante fournisseur indique un ensemble de huit pièces de rangement pour les vêtements et les chaussures. Le contenu exact et les dimensions doivent être confirmés avant vente. Les affaires montrées dans les pochettes ne sont pas incluses.",
+      "category": "ensembles",
+      "categoryLabel": "Ensembles de rangement",
+      "materialsText": "Polyester déclaré par le fournisseur ; composition à confirmer.",
+      "image": "/media/pliorea-cj-1386852733046362112.jpg",
+      "imageAlt": "Ensemble de huit organiseurs textiles — photo fournisseur",
+      "priceCustomer": null,
+      "purchaseEnabled": false,
+      "audienceTags": [],
+      "audienceSource": []
+    },
+    {
+      "id": "pliorea-cj-f7ac6d42-0df8-41bc-a1b1-fb43131085e3",
+      "pid": "F7AC6D42-0DF8-41BC-A1B1-FB43131085E3",
+      "vid": "4AB706A2-3C87-47ED-AB34-6E52C85D2376",
+      "name": "Pochette de rangement à séparations",
+      "description": "Une pochette zippée avec des rangements intérieurs pour organiser de petits objets. La photo montre le modèle bleu foncé de cette référence. Les accessoires de démonstration ne sont pas inclus.",
+      "category": "pochettes",
+      "categoryLabel": "Pochettes de rangement",
+      "materialsText": "Tissu Oxford déclaré par le fournisseur ; composition exacte à confirmer.",
+      "image": "/media/pliorea-cj-f7ac6d42-0df8-41bc-a1b1-fb43131085e3.jpg",
+      "imageAlt": "Pochette de rangement à séparations — photo fournisseur",
+      "priceCustomer": null,
+      "purchaseEnabled": false,
+      "audienceTags": [],
+      "audienceSource": []
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "format": "boutique-remise-site/1",
+  "dateUTC": "2026-10-27T20:45:08.185248+00:00",
+  "succes": true,
+  "termine": true,
+  "applique": false,
+  "publicationFaite": false,
+  "brandSlug": "pliorea",
+  "branch": "entreprise/pliorea",
+  "repo": "eaglemic/mirlipousse",
+  "paquet": "/home/bach/Donnees/Livraisons/Dix-boutiques-construction-20261027/sorties/pliorea",
+  "public": "/home/bach/Donnees/Livraisons/Dix-boutiques-construction-20261027/sorties/pliorea/public",
+  "publicFiles": 22,
+  "referencesReelles": 2,
+  "salesEnabled": false,
+  "avisActifs": false,
+  "origin": null,
+  "preuves": [
+    {
+      "path": "/home/bach/Donnees/Livraisons/Dix-boutiques-construction-20261027/sorties/pliorea/verification/EXPORT.json",
+      "sha256": "ce80bb383402b692d52713929c47794b83275c4072bd6cff84411930ae8ff504",
+      "octets": 3892
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Dix-boutiques-construction-20261027/sorties/pliorea/scripts/verifier-paquet.py",
+      "sha256": "fea7e1f41d96e50328d18801c3a57ead117fbf828ac705e87045f15b4ca4ca47",
+      "octets": 2370
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Dix-boutiques-construction-20261027/sorties/pliorea/README.md",
+      "sha256": "829137afc56ae34bffdf6866b0b55855deff2c5cec47538810a0fe3545968084",
+      "octets": 1602
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Dix-boutiques-construction-20261027/sorties/pliorea/presentation.svg",
+      "sha256": "4faed753c142191af03624def55eb78e0f5f44621b7a521cb53d41c438adc937",
+      "octets": 1112
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Dix-boutiques-construction-20261027/sorties/pliorea/verification/RECETTE-MARQUE.json",
+      "sha256": "1f7de82ee1a961db0d0489c9ae971de7a2d7ff78136178cf41a92b7cfd366ea2",
+      "octets": 4920
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Dix-boutiques-construction-20261027/sorties/pliorea/verification/VERIFICATION-PAQUET.json",
+      "sha256": "f4c7168183a06c5f0fb9ecf65e2910a845ea6f0baa3c74f5bd0dec051e3aeef4",
+      "octets": 98
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Mirlipousse-multiboutiques-produits-20261027/pliorea/CATALOGUE.json",
+      "sha256": "ad30d0df8418721d303c4f8ad9c6859d1d6c717bf9cb0d70efc5e4a616e2469d",
+      "octets": 23243
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Mirlipousse-multiboutiques-produits-20261027/pliorea/REMISE.json",
+      "sha256": "8b97d12579243acb271143509b055be3106ca7faf67b7bc50c06515625bbeaa3",
+      "octets": 2204
+    }
+  ],
+  "recette": {
+    "PC1440": true,
+    "mobile390": true,
+    "mobile360": true,
+    "photosChargees": true,
+    "selectionEtRechargement": true,
+    "echapFermeDialogue": true,
+    "cibles44px": true,
+    "reducedMotion": true,
+    "0JS": true,
+    "0Externes": true,
+    "navigateurEtPortFermes": true,
+    "adultGate": false,
+    "aucunDebordementHorizontal": true,
+    "mesureCompareeALaLargeurCliente": true
+  },
+  "limites": [
+    "Ventes et avis fermés, aucun paiement ni fournisseur commandé.",
+    "Origine HTTPS non encore attribuée : noindex explicite ; aucun lien supposé actif.",
+    "Pas de téléphone physique, recette Chromium locale.",
+    "Identité du vendeur et conformité avant ouverture commerciale non qualifiées."
+  ]
+}
