@@ -1,21 +1,21 @@
 {
   "format": "boutique-export/1",
-  "dateUTC": "2026-10-27T20:59:50.580259Z",
+  "dateUTC": "2026-10-27T21:20:46.194836Z",
   "brandSlug": "feerivane",
   "name": "Féérivane",
   "branche": "entreprise/feerivane",
   "publicRoot": "public",
   "salesEnabled": false,
   "adultOnly": false,
-  "origin": null,
+  "origin": "https://feerivane.onrender.com",
   "products": 8,
-  "sourceBrandSHA256": "6635fee9c8dbffe259517a42231012479432bcd6729974a70276eaa6bf644258",
+  "sourceBrandSHA256": "31a32b1c9f04c67922e29493952bc35e851235b629b88745d520f318834532a1",
   "sourceCatalogueSHA256": "eca540e01d8cd43a4f73ec2c2a1badd85370c28128d7292a3ee82981a8e9eb23",
   "files": [
     {
       "path": "404.html",
-      "sha256": "9b40a41b64ff8467bfb7e1d3d2cbf39ff679554b3d9bb22f6b5b0954a43cb403",
-      "octets": 11210
+      "sha256": "25beea04c5f70b789903a9876fc40547cc6b3942e12904dba6f50876ec956099",
+      "octets": 11272
     },
     {
       "path": "app.js",
@@ -24,8 +24,8 @@
     },
     {
       "path": "avis.html",
-      "sha256": "80b30f7887c06d114413442bd8e8d3286fb2c9390d0e6f64abe5b2968b777d5b",
-      "octets": 13069
+      "sha256": "35c0e1a9fa1acd0c43d971449d5d776b909cbc8630a1ceacb97fa5e5c471ff4f",
+      "octets": 13299
     },
     {
       "path": "brand.json",
@@ -34,8 +34,8 @@
     },
     {
       "path": "catalogue.html",
-      "sha256": "970f8e86a770ef9d249566687e277daa4de5a5fbf3656fd2de1b49fc2d213424",
-      "octets": 22114
+      "sha256": "a832394a156dded1fdef2b725c7de57feb7f8378b5748bc823f7832d4326f997",
+      "octets": 22182
     },
     {
       "path": "catalogue.json",
@@ -44,33 +44,33 @@
     },
     {
       "path": "conditions.html",
-      "sha256": "62806f9f925eeadab15399991fc3a767b48001853b6e1db7b1bd22e42bd50170",
-      "octets": 11932
+      "sha256": "da5190d213d6ddf82f6876cb5e2e5bc560946abb527a8e0549a42f5214226202",
+      "octets": 12001
     },
     {
       "path": "confidentialite.html",
-      "sha256": "9639b0a825036c130d700f4c9fa489450026d92a51d4614c1955df8b6524f83b",
-      "octets": 13331
+      "sha256": "865c3170f85cdd1fb1d767011fc8cdba43b67077015f435b9dcdfad71a5209db",
+      "octets": 13405
     },
     {
       "path": "contact.html",
-      "sha256": "288efb5097904b48058365a50ab1db8a051a4a52b04517c7cddb27cfd7124e5a",
-      "octets": 11594
+      "sha256": "c09b2d7c383a5a2cfcae797b2918d9fde12a062a05b8b4943bcb266df5d4be81",
+      "octets": 11660
     },
     {
       "path": "guide.html",
-      "sha256": "bc80eaa58b02832c3887b642a6ca60da88619f58606c9a4c70bd393816e76219",
-      "octets": 11779
+      "sha256": "de640a9e4ea95734287e7279746bcc9a259224b3382e80e0e0b6f044756fc4bf",
+      "octets": 11843
     },
     {
       "path": "index.html",
-      "sha256": "4bf6b5f3c8aa488ff52adce1b075038100f745fc8b39315868a7aab25d364b08",
-      "octets": 26044
+      "sha256": "8aa89815a3f852d2048fb9f4dba4a65d1fb5cce70fe983861cb521f93ad24a20",
+      "octets": 26275
     },
     {
       "path": "livraison.html",
-      "sha256": "30e00974cdbe92bdf15cc4bf3d624ca9515c20704072bf9aaaab35640c3cc619",
-      "octets": 11826
+      "sha256": "74d37f89c06a916e56b2c0b2b082982490e7d6d31d8f5e15a3fe8d77b3bff47f",
+      "octets": 11894
     },
     {
       "path": "media/embleme.svg",
@@ -119,63 +119,63 @@
     },
     {
       "path": "mentions-legales.html",
-      "sha256": "70d59b53de6ca4728aaccdb59605fe72279a61b736d1f8a274a507e2319a6220",
-      "octets": 12103
+      "sha256": "f55a0d8ae37c45d2bb0dfb7c03f3403c76bfb2ab405ae5331a9e90886514f14d",
+      "octets": 12178
     },
     {
       "path": "produits/feerivane-cj-122125a0-e459-4986-b512-f92c606b99bb.html",
-      "sha256": "759f24526817a368667bdf13908d11dab0beed3184bb6c5bf4722b42eb34868c",
-      "octets": 13174
+      "sha256": "de69d7b9bfee7bde5925f2eeaae9333759477e9c29146da255ea8eec5fe4349b",
+      "octets": 13291
     },
     {
       "path": "produits/feerivane-cj-2084200180513361921.html",
-      "sha256": "1ce70f2e777186407fe332ba78adea07654f314a740e8ace3056a14cf7849fdb",
-      "octets": 13044
+      "sha256": "d5cccea6634d0e7ba6a2f787c559827c79874a04e07daddfb49bb7908526bf8a",
+      "octets": 13144
     },
     {
       "path": "produits/feerivane-cj-2410220638191619000.html",
-      "sha256": "3f818577fc16a2e1703d074fe2b9227040469c37f1023599935636109248fef0",
-      "octets": 13133
+      "sha256": "02c4610d5ba395087cc322738b172091a7791cf95a092f4404f88ea0e3b2bd81",
+      "octets": 13233
     },
     {
       "path": "produits/feerivane-cj-2509061500421605000.html",
-      "sha256": "6f25e3ca22c06745af868cafe8f699bd44083352aa1e8e0738e10fe29293c0da",
-      "octets": 12960
+      "sha256": "86f3c67cf7dc38a03edcd386f51b1fffe3fa32037108b62a83db5de15cb560ce",
+      "octets": 13060
     },
     {
       "path": "produits/feerivane-cj-2510081447231625000.html",
-      "sha256": "48f4c62dee53ba3b3e39da1fa15604ddf4ca350eda8fb3445530d446cd498418",
-      "octets": 13106
+      "sha256": "3d8154dc09a696de0b36c78003f8189ecf334deec466b0a6296e9e237fff1e11",
+      "octets": 13206
     },
     {
       "path": "produits/feerivane-cj-2510170651451627900.html",
-      "sha256": "5dbbdb43d027273922b2f8565d8db476a5c5442a88b1c07e7c094122962e5af2",
-      "octets": 13130
+      "sha256": "77dc675c31de779ba861adbcf298a33c61247178622d733ffe80fda2968a414d",
+      "octets": 13230
     },
     {
       "path": "produits/feerivane-cj-2510240632501620300.html",
-      "sha256": "a007d56b5b3016a062763a596348afdc92d7db68b0c615c79885bee1ad3707cc",
-      "octets": 12975
+      "sha256": "a8d4e68b1587fa9cd14b5d705890add00d647ab489b3f61852e05b3d2c329c17",
+      "octets": 13075
     },
     {
       "path": "produits/feerivane-cj-df6dd0f2-fe0a-4d50-98ff-aa743747cdb8.html",
-      "sha256": "45a315f0842df0544caae26427b5acf666b6110a3f9fa1f167f1e3e3721ddef4",
-      "octets": 13121
+      "sha256": "28181e38e263483b395bf753b6e7f56bbf4bfba15e900e0bbea69e4621086a60",
+      "octets": 13238
     },
     {
       "path": "retours.html",
-      "sha256": "28c009cec956f7a32ca89756a066374b1081e5935a8800df5f492a4439df006a",
-      "octets": 11900
+      "sha256": "fccfc1bdf43b346b4f814eddb37b497c27b7fca2133fec5e6cd720a0ff76b547",
+      "octets": 11966
     },
     {
       "path": "robots.txt",
-      "sha256": "331ea9090db0c9f6f597bd9840fd5b171830f6e0b3ba1cb24dfa91f0c95aedc1",
-      "octets": 26
+      "sha256": "8591c17f79146e7cf56241955c71c1ef2f89c42ac797843d5daf93af9594ea51",
+      "octets": 75
     },
     {
       "path": "sitemap.xml",
-      "sha256": "68ab08991efaca902bcb8a6518106d8b29964c5651f39abbb7eb7c9713ca2770",
-      "octets": 107
+      "sha256": "63d6dbfa2e620d65a63926e26e9f873b0db351466024b7fa8a3e2d5e47122331",
+      "octets": 1600
     },
     {
       "path": "style.css",
