@@ -1,0 +1,56 @@
+{
+  "format": "boutique-catalogue-public/1",
+  "brandSlug": "encrivoie",
+  "salesEnabled": false,
+  "adultOnly": false,
+  "products": [
+    {
+      "id": "encrivoie-cj-1738032478780141568",
+      "pid": "1738032478780141568",
+      "vid": "1738032478910164992",
+      "name": "Classeur pour enveloppes de budget",
+      "description": "Un classeur à feuilles mobiles pour organiser un suivi de budget sur papier. La variante contrôlée est noire ; la photo fournisseur présente d’autres coloris de cette référence. Le contenu exact doit être confirmé avant vente.",
+      "category": "classeurs",
+      "categoryLabel": "Classeurs et carnets",
+      "materialsText": "Composition de la couverture et des pochettes à confirmer.",
+      "image": "/media/encrivoie-cj-1738032478780141568.jpg",
+      "imageAlt": "Classeur pour enveloppes de budget — photo fournisseur",
+      "priceCustomer": null,
+      "purchaseEnabled": false,
+      "audienceTags": [],
+      "audienceSource": []
+    },
+    {
+      "id": "encrivoie-cj-2503170539411623200",
+      "pid": "2503170539411623200",
+      "vid": "2503170539411623400",
+      "name": "Marque-pages magnétiques colorés",
+      "description": "Des marque-pages à fermeture magnétique et aux couleurs douces. La photo fournisseur présente les repères de la référence ; le nombre de pièces et les dimensions doivent être confirmés avant vente.",
+      "category": "marque-pages",
+      "categoryLabel": "Marque-pages",
+      "materialsText": "Éléments magnétiques déclarés par le fournisseur ; composition complète à confirmer.",
+      "image": "/media/encrivoie-cj-2503170539411623200.jpg",
+      "imageAlt": "Marque-pages magnétiques colorés — photo fournisseur",
+      "priceCustomer": null,
+      "purchaseEnabled": false,
+      "audienceTags": [],
+      "audienceSource": []
+    },
+    {
+      "id": "encrivoie-cj-1590896399049306112",
+      "pid": "1590896399049306112",
+      "vid": "1590896399116414976",
+      "name": "Ruban décoratif à fleurs dorées",
+      "description": "Un ruban décoratif en papier avec un motif floral clair et doré. La photo fournisseur présente le motif de la référence ; la longueur et la largeur seront à confirmer avant vente.",
+      "category": "rubans",
+      "categoryLabel": "Rubans décoratifs",
+      "materialsText": "Papier mentionné dans le nom fournisseur ; composition et adhésif à confirmer.",
+      "image": "/media/encrivoie-cj-1590896399049306112.jpg",
+      "imageAlt": "Ruban décoratif à fleurs dorées — photo fournisseur",
+      "priceCustomer": null,
+      "purchaseEnabled": false,
+      "audienceTags": [],
+      "audienceSource": []
+    }
+  ]
+}

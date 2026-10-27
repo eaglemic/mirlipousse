@@ -1,0 +1,82 @@
+{
+  "format": "boutique-remise-site/1",
+  "dateUTC": "2026-10-27T20:45:08.413385+00:00",
+  "succes": true,
+  "termine": true,
+  "applique": false,
+  "publicationFaite": false,
+  "brandSlug": "encrivoie",
+  "branch": "entreprise/encrivoie",
+  "repo": "eaglemic/mirlipousse",
+  "paquet": "/home/bach/Donnees/Livraisons/Dix-boutiques-construction-20261027/sorties/encrivoie",
+  "public": "/home/bach/Donnees/Livraisons/Dix-boutiques-construction-20261027/sorties/encrivoie/public",
+  "publicFiles": 24,
+  "referencesReelles": 3,
+  "salesEnabled": false,
+  "avisActifs": false,
+  "origin": null,
+  "preuves": [
+    {
+      "path": "/home/bach/Donnees/Livraisons/Dix-boutiques-construction-20261027/sorties/encrivoie/verification/EXPORT.json",
+      "sha256": "3fd24b90614a41bcc00ba93c2f494a40cf0710be6ea118f68f40baf204d8992d",
+      "octets": 4233
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Dix-boutiques-construction-20261027/sorties/encrivoie/scripts/verifier-paquet.py",
+      "sha256": "15025055ccfaa9631070d527bce793835e86bd5d98456ca0e6352205ffc1f084",
+      "octets": 2372
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Dix-boutiques-construction-20261027/sorties/encrivoie/README.md",
+      "sha256": "370cd1b01540808d3af8615744486d39e6ba57adad96b73f1da2882503f68d67",
+      "octets": 1601
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Dix-boutiques-construction-20261027/sorties/encrivoie/presentation.svg",
+      "sha256": "4f353ae16a09f8b8684d313c29706046d8d7928e4026ed11c18eda3886468692",
+      "octets": 1061
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Dix-boutiques-construction-20261027/sorties/encrivoie/verification/RECETTE-MARQUE.json",
+      "sha256": "a79ee5fa9346fecfde5f6e6568256affe0210f430c30efed4debaf08e261c434",
+      "octets": 5160
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Dix-boutiques-construction-20261027/sorties/encrivoie/verification/VERIFICATION-PAQUET.json",
+      "sha256": "cf3fb2ae20491ccbe23da56b6fa23d941ff65a4f1f54454835ae095ea96a87d0",
+      "octets": 100
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Mirlipousse-multiboutiques-produits-20261027/encrivoie/CATALOGUE.json",
+      "sha256": "36b2d7f54c2597c394c6bfd8e91b431d855f0eb7f1abe01668ab51e3ea29cdbc",
+      "octets": 40148
+    },
+    {
+      "path": "/home/bach/Donnees/Livraisons/Mirlipousse-multiboutiques-produits-20261027/encrivoie/REMISE.json",
+      "sha256": "fab07e97930d87d298dfaba2d91c0bbd91ebd4858d77fd6a82c71c277a281681",
+      "octets": 2330
+    }
+  ],
+  "recette": {
+    "PC1440": true,
+    "mobile390": true,
+    "mobile360": true,
+    "photosChargees": true,
+    "selectionEtRechargement": true,
+    "echapFermeDialogue": true,
+    "cibles44px": true,
+    "reducedMotion": true,
+    "0JS": true,
+    "0Externes": true,
+    "navigateurEtPortFermes": true,
+    "adultGate": false,
+    "aucunDebordementHorizontal": true,
+    "mesureCompareeALaLargeurCliente": true
+  },
+  "limites": [
+    "Ventes et avis fermés, aucun paiement ni fournisseur commandé.",
+    "Origine HTTPS non encore attribuée : noindex explicite ; aucun lien supposé actif.",
+    "Pas de téléphone physique, recette Chromium locale.",
+    "Identité du vendeur et conformité avant ouverture commerciale non qualifiées."
+  ]
+}

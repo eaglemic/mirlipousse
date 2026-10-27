@@ -1,113 +1,136 @@
 {
-  "format": "mirlipousse-export-statique/2",
-  "dateUTC": "2026-10-27T19:50:33.407Z",
-  "succes": true,
-  "origineCandidateNonReservee": "https://mirlipousse.onrender.com",
-  "pagesHTML": 19,
-  "assetsEtPages": 74,
-  "achatsOuverts": false,
-  "apiDeployee": false,
-  "serveurOuSecretsInclus": false,
-  "publicationEffectuee": false,
-  "SHA256": {
-    "404.html": "06575fdf44bb04fbd3b6b101ba3b274e045ba4e2aa3fe5450c40d33d79d235b3",
-    "_next/static/66c8c4ae-7e6b-40f3-b0b7-4b3428746619/_buildManifest.js": "47f02b34be6dc481257b6efce4c19e19111f37ef5c437f8ffed44f0da97fa9bb",
-    "_next/static/66c8c4ae-7e6b-40f3-b0b7-4b3428746619/_ssgManifest.js": "653f3e53e89b4f8548ff86c19e92bb3c6b84b6be7485a320b1e00893ed877479",
-    "_next/static/chunks/Icon-D0zGVybZ.js": "f3426f714786f25ed8a9e72c49b02957d2ff43e926a6c25381c556ef6b2d96d7",
-    "_next/static/chunks/app-route-prefetch-policy-B9GhpNqK.js": "84f0b3c1502e82f1118bf23d6bdfbcb9546208f352b3768c3cae5408502c3a8f",
-    "_next/static/chunks/framework-D_rUT4EX.js": "939d0fabebb3b2f01753bb866b067d8d3384fb06da19f0e6557609d3b1a9f4f7",
-    "_next/static/chunks/index-BObEJjaE.js": "d1a97dd0befdce0ce3cb2316eb5317e117ee969563aa0022724b0db2a091f89c",
-    "_next/static/chunks/layout-segment-context-APEoWGE7.js": "0ab71fe91707b7f01fdb6784447db38246813210b5e5aedcfdbf41dc4b49a0e3",
-    "_next/static/chunks/rolldown-runtime-C60lm6uB.js": "5db5ba82eef00d1dee7e86e663098c9427d01183a88d357437daff295aec3e75",
-    "_next/static/chunks/storefront-CJ_oyhgg.js": "f5bee80f0fd0cc45a6079835bd104e01b35072744ef96e9ffad7fba148764790",
-    "_next/static/chunks/streamed-icons-BbokXyyW.js": "7eb2a6b44b9c0faa7300c8dd36b0fae7a35d9f65e139dd9046b3df193aa83bc8",
-    "_next/static/css/index.DCsEXdMs.css": "c48992c81d3650577d9a92cf12961a84919c76fe95e88eabecbd0f61da657a11",
-    "_next/static/css/page.D_71ifoz.css": "795d871f7682abc54a574eb21f976e1c26bd39efcc61ca7d577c7edfc04e9273",
-    "apple-touch-icon.png": "90b5de154394609ccfeccde3e6d67306403184386c8db83dfda12e3d2556156f",
-    "assets/catalogue-B9PpX3N_.js": "98276cb4c6dd4144e44c286bc46ba6a84a7963bdb2b6f5f87c45cf455457dbb4",
-    "assets/catalogue-Bhmass9N.css": "efc633d567c018ef6f99c40b71d447d2d66a67c21d0c613c83e1d4ebb21fbb2b",
-    "collections/0-2ans/index.html": "7a8b7f8dbd22394e7148d8c36efce7be8b241821270c8388355a5457677879bd",
-    "collections/3-5ans/index.html": "d035a85bb78fbddf24afd54818890ef7167b1949e2df3ddb961aa8bb0a6ee2b9",
-    "collections/6-8ans/index.html": "5402b3c9725dd93276ac7535c9bbc04bfb9b25aabe12e9bb36e6351adec6157a",
-    "collections/9-12ans/index.html": "790b74b86844579bd44401a39b1ce5097492a93790cec95eaea1f491dd94f8cd",
-    "collections/accessoires-enfants/index.html": "fcce81816c4bc55cbf66b4e3c02ec8495917940609d3495ac562474cf28da725",
-    "collections/jeux-aventure/index.html": "353625f9f82a09c216e45f2f16b934e1ae2d8f51ad72454872542d0ad29e6d3e",
-    "collections/jeux-creatifs/index.html": "66afc4d0ff0a32eb2f7828b12ccc7d724c9f64ce3cd410729b060b6e55aab7d5",
-    "collections/jouets-eveil/index.html": "d1371ed53b6fb0a116ed4cc9149a66c3d40e27346b8afd1a98919246874e9159",
-    "commande/merci/index.html": "2ab6b5925a9f4d626fa79b190660d92a97770195f12eb1b97b0484d224b54a5f",
-    "confidentialite/index.html": "949d5d4b72cf563beaa3ff1156007cbc719d2cfd519e160bbf4b4421f78de6e5",
-    "connexion-cj-11ede6e316d77e9738711f2e.html": "09182db03794112b2eb71dd0bec3e82d3cd23bcf2d54249be414b498cd681fed",
-    "favicon.svg": "511605fbbe3844de6b132af38c67c7822aa8b5ab3ff9711af2740301b83bd0bc",
-    "guides/choisir-un-jouet-selon-age/index.html": "2ca1921c28eeafff487b41d30f7d2fd18de21f8143de385256e5379d1bcffefd",
-    "guides/idees-jeux-creatifs-sans-ecran/index.html": "eaf10be055ff50f1e0db90d1b3c1814bfda76338ff67b36e968ea7aebe607bca",
-    "guides/index.html": "5da8e49aa95fa2ee4062889f98e43d6e07d7fa7985e4b96ec8afb9afa3d0bbb4",
-    "illustrations/arc-en-ciel.svg": "d8ff190554a45ed4f640adb49b81a88987b963f1ade556456c49367deb268c5f",
-    "illustrations/atelier-couleurs.svg": "e00d1e3d8b81f017f58837acc342f93210cc0a1b4480e37adf04327840cd18ec",
-    "illustrations/carnets-aventures.svg": "72989f54e10b42645cd9779776e00d0089c800695b34f24cb4215020df49a308",
-    "illustrations/cube-tout-doux.svg": "cfc24dc9410d88c9f8c30fa44376a5586c104dd81f254e14856dfebabee7fe40",
-    "illustrations/fusee-lunaire.svg": "39623b33b94dcbf6b6579a159be42961482529998f8ef56a541a4a73edf0a1f7",
-    "illustrations/hero-mirlipousse.svg": "4a144ed96bef8e2173bb1e13381f8627a5536dd3a16eca91102b045be27c7117",
-    "illustrations/petits-batisseurs.svg": "4abaeea0fd8840f1b06e61471b27aec77a5180a828ead6b90a1333ec3b07f918",
-    "illustrations/pochon-tresors.svg": "4ef96c0b9bc7abeb91f3a2fb7036d11e1290fb37397bebd9379f58c58b273a6d",
-    "illustrations/sac-exploration.svg": "1683dafc1770b20f97001b227620009a4f9eb3449f348dd170d918f9423ced65",
-    "index.html": "a888454d0a77004df6d6a072ad7272f935ef5760889d3c4cb3cbfc3e5a2ddd65",
-    "livraison-retours/index.html": "8bce423ff5744d7355e5e618cca055aabf7e801a5c2fab24777cecc1ae19f967",
-    "media/campagne/mirlipousse-post-1080x1350-v1.png": "c27ba6b0f7a9691e86fc37c029517562f1058d8fa26cfd5bfa71d22a02b8c5c6",
-    "media/campagne/mirlipousse-story-1080x1920-v1.png": "fb6668e69cd1789a26ce861235cb950342fdc098826347504bfbc8bb5cba03e3",
-    "media/campagne/mirlipousse-teaser-12s-1080x1920-v1.mp4": "1edd843d34c9a4ba10ca76f668039cb83bbce06d5f33f09c72cb9f03b9f30599",
-    "media/catalogue-cj/0371a284-5c24-49ec-900a-59d7c824c310.webp": "ee5bbeed0c9ae1f0a1b711dbf3d81379b6e7d8535885dcd8a299ea6046680d30",
-    "media/catalogue-cj/1399662745170874368.webp": "c0c167ff6071a7ef9cd95915f62b2d809792943a71d1d33c887c97785904ebad",
-    "media/catalogue-cj/1402446458522832896.webp": "21bf7ef30914b9d95861f459ef3cf09050e4921a48de14bebd103603eb4d0c81",
-    "media/catalogue-cj/1443498935560835072.webp": "a858534955ac5bcc8f65aec3029fc0ed196f3fac9a0cff8a732c5a72032728d6",
-    "media/catalogue-cj/1677148647701618688.webp": "a337cf6b7f73dd6e2e9183b889006a6260afe639c57c778da767e971a5434b8d",
-    "media/catalogue-cj/1768205411733221376.webp": "25e6a2fbe6a240d2bce029e00bfe9dfbc37d0a0583871ba7c6bf2e38c470fa4d",
-    "media/catalogue-cj/1908762439720562690.webp": "fa3679491232e85e454e839b18d8ac097bd33115a2d85b75639f6a28d9e394a5",
-    "media/catalogue-cj/2033892630339186690.webp": "a3a2aa97ede94cebf42b80f15a190930ba8c97521a0bb8883c79072ee2583662",
-    "media/catalogue-cj/2407170610431615300.webp": "7aad7d36c53d33ee4e318510d965f9480a4099461fda2db1230db868a33ada1a",
-    "media/catalogue-cj/2507060525441623500.webp": "e877096285ab686d07e0cea0c22ebe3d6f73677ff565bccc427ca7495488321a",
-    "media/catalogue-cj/28d791f0-e7f4-4f7c-b9a1-9c4bd728c047.webp": "46e692be825a6d26fb9a64adb86f3107af166245eb3e7ebd6db4a2d35951f0cc",
-    "media/catalogue-cj/90e2c080-d1cf-414b-9b38-74fe6f8709d8.webp": "68a34a2e1f799836fa5d7774d7efdfa98bb04ea9ee8b2e6077d71d47e4ebd3ae",
-    "media/catalogue-cj/d4a2c882-1da7-459a-9b7f-06044f3e381a.webp": "2635a5d7ac69a34c44fac50d0822fe3eebfee03f0ab83569690c00f1d28108b2",
-    "media/mirlipousse-partage.png": "7af2e1826d411a8ceaaf865338d1f59015ad1e11685444383deb0b132c67efa5",
-    "media/produits/atelier-couleurs.webp": "5b1c50deb16133eb90f53e66c0f591c9e0e067023088c818707c03cdf2f3acad",
-    "media/produits/carnets-aventures.webp": "63d11f960325881b4bfdca771a7bfb4ff7c75f9d1ff682982eb85089042276ce",
-    "media/produits/cube-tout-doux.webp": "c21054f0677c6b318bcc91036f3ca546f8056edf34a4e3fb7d3b8cc5929e914b",
-    "media/produits/fusee-reveurs.webp": "1bf6eca8dae4144bc5958d6a78cf07b78b357e841e8be9c770e7709643f10298",
-    "media/produits/petits-batisseurs.webp": "c732482dc1420302cb2d5d3ef79227b123d16e89ece7ad1a2daf255fb3333a0d",
-    "media/produits/petits-ponts.webp": "9ae8e654a4013834118c79b3f6c8f7e11741521f191503bb922716d4144cd61f",
-    "media/produits/pochon-tresors.webp": "2827055f14ec5542c9a5e4ca64d759090a021dc38ce52396c5af0b9f9fe11a10",
-    "media/produits/sac-escapades.webp": "0545525fc4ece08873ddeeac2aed13c37f8bbd2be562deb13dc564ccd7533aaf",
-    "media/univers-mirlipousse.webp": "95a74251a4da82618e853741fb10aa9d49a8a2930fe675666cf87f16ee3a6395",
-    "medias/index.html": "c894c9f49a18a11e484bf764b2548bb782b6d5c0ba52e80cd605b004cc490841",
-    "mentions-legales/index.html": "1c91fca7d82c543a3a5d6e7f8341a845bd85d02aa2bd86c0f612694401360df8",
-    "ouverture/index.html": "7fd0f843365b6f7c728365b971296856260681c371b123b25f4176f21dfe6cfb",
-    "robots.txt": "aa608eaf067988adf9f0f8c64369e34e5e6afef865caf65c49c0c5d3a42dfc02",
-    "sitemap.xml": "49e59c4d0c22fe897380157e4db92d48ba125afbf44d7e7efd78d1ad46188c7e",
-    "vinext-client-entry-manifest.json": "f1832dd91bb1978f91a84d32abec92367602727538b7c9711fb64bdceba4763f"
-  },
-  "limites": [
-    "Catalogue réel importé, aucune qualification de vente, conformité ou âge déduite des photos.",
-    "Prix client et coûts livrés non qualifiés : aucun tarif ni paiement affiché.",
-    "Panier et favoris locaux ; aucune commande fournisseur possible depuis cet export."
-  ],
-  "reactHydrateUniquementAccueil": true,
-  "pagesEditorialesHTMLNatifSansBootstrapJS": 17,
-  "correctionMetadataHeadEtBootstrapEditorial": true,
-  "pagesVitrine": 18,
-  "pagesConnexionPrivee": 1,
-  "capsuleCJ": {
-    "chemin": "connexion-cj-11ede6e316d77e9738711f2e.html",
-    "keyId": "11ede6e316d77e9738711f2e",
-    "expireUTC": "2026-10-30T18:52:03.266523+00:00",
-    "chiffrementLocalSeulement": true,
-    "aucunSecretDansPage": true
-  },
-  "catalogueReel": {
-    "produits": 13,
-    "datasetSHA256": "da2b92dd4c3f546f481b81b1a3afdc5fb40829873a5d1630bd6dad26c0ad9f80",
-    "photosFournisseur": true,
-    "prixClient": null,
-    "commandesFermees": true,
-    "ageNonAtteste": null
-  }
+  "format": "boutique-export/1",
+  "dateUTC": "2026-10-27T20:39:10.582811Z",
+  "brandSlug": "encrivoie",
+  "name": "Encrivoie",
+  "branche": "entreprise/encrivoie",
+  "publicRoot": "public",
+  "salesEnabled": false,
+  "adultOnly": false,
+  "origin": null,
+  "products": 3,
+  "sourceBrandSHA256": "60d0a99e702b3792dc7b0e647e417ac338a9342efd95966284fab6bc10a3e6b5",
+  "sourceCatalogueSHA256": "36b2d7f54c2597c394c6bfd8e91b431d855f0eb7f1abe01668ab51e3ea29cdbc",
+  "files": [
+    {
+      "path": "404.html",
+      "sha256": "c0bc5061ee2076816f44119d66232591b9f038130880627b2921c747264d2419",
+      "octets": 6308
+    },
+    {
+      "path": "app.js",
+      "sha256": "a6d3ce60454f724e8e2ddbfed1bc68d559f23387a6c2822dda34e96dcaa6bbcb",
+      "octets": 11142
+    },
+    {
+      "path": "avis.html",
+      "sha256": "6706741d3fe1a150678c7ccf7a0c4e239baa64fec16b236dcb0160d6c870d300",
+      "octets": 8165
+    },
+    {
+      "path": "brand.json",
+      "sha256": "24b87b7dfd3db6d3700d0192a726538273797999923d1e9a0dce5b5ae32038d0",
+      "octets": 214
+    },
+    {
+      "path": "catalogue.html",
+      "sha256": "d4dde15845538025c9456240fd0d0c895a8f91f716a685e0103b84b40134a7d8",
+      "octets": 10409
+    },
+    {
+      "path": "catalogue.json",
+      "sha256": "4287a4301c94158ccd75dc642b8928d3deadfde2af9c1c2c37e7e38abd432e28",
+      "octets": 2696
+    },
+    {
+      "path": "conditions.html",
+      "sha256": "1e72191e305043126aa94b05832610fd39fa5bbe093109c04fec54c457163e58",
+      "octets": 7030
+    },
+    {
+      "path": "confidentialite.html",
+      "sha256": "8a7597674b0bed34dcd2180708376b3bd1fcf52dad077a7ca0e87266bb04a398",
+      "octets": 7357
+    },
+    {
+      "path": "contact.html",
+      "sha256": "ca48aa7792d4129df243221e9b889449a027edaddec6c140f9e386a033703edc",
+      "octets": 6692
+    },
+    {
+      "path": "guide.html",
+      "sha256": "68539e0789cddc764ff6d49ee85948caa64c2250193d84908b5fe710879c63bd",
+      "octets": 6809
+    },
+    {
+      "path": "index.html",
+      "sha256": "81d4ced236e6ef06cd27c0c0017c7efbe87a4a9310c25b55fec7c6b4f35531d1",
+      "octets": 14352
+    },
+    {
+      "path": "livraison.html",
+      "sha256": "fb1e6cf5a6b4fe5bdca0bfc4fd454917e91179f97182a2eccdda757613f3d29b",
+      "octets": 6924
+    },
+    {
+      "path": "media/embleme.svg",
+      "sha256": "887d9a3e159ebb65fde339d18366710bf34ae10121ea6eacc0417e2f720fa48f",
+      "octets": 341
+    },
+    {
+      "path": "media/encrivoie-cj-1590896399049306112.jpg",
+      "sha256": "bd20546e933aef01c140820272405c2e7d3c2083311636ea200dd5593ba7cf23",
+      "octets": 67385
+    },
+    {
+      "path": "media/encrivoie-cj-1738032478780141568.jpg",
+      "sha256": "0b9640acd01d0eda9cce638ea92a8e4557f0606e2dc7b8f5d256ff2864819c3c",
+      "octets": 141278
+    },
+    {
+      "path": "media/encrivoie-cj-2503170539411623200.jpg",
+      "sha256": "9176950a51c3271510adba1f33f7975047f3fe5f4cdff51e81e729f73177d83d",
+      "octets": 109343
+    },
+    {
+      "path": "mentions-legales.html",
+      "sha256": "698b96b13d0c0a610ee495458c8a60bdc7143e4010bbaa257b7720ed57986227",
+      "octets": 7201
+    },
+    {
+      "path": "produits/encrivoie-cj-1590896399049306112.html",
+      "sha256": "ee623f1d96be220ffa98bc4369a1f57fd3e87534cbbe4e902416b5ae6da7a2a2",
+      "octets": 8021
+    },
+    {
+      "path": "produits/encrivoie-cj-1738032478780141568.html",
+      "sha256": "36c029a80e21aea8800e9ee06901a776e1bfec70225e997c1b96cab51f136c7f",
+      "octets": 8052
+    },
+    {
+      "path": "produits/encrivoie-cj-2503170539411623200.html",
+      "sha256": "b93e3f451b8ad7a7281967523dea01f7fe3ad88d03e1a9ba628daf86fa934166",
+      "octets": 8046
+    },
+    {
+      "path": "retours.html",
+      "sha256": "d74dbf8e48c2dd58f61996b504d0249f945918076da7093a6e4e90aed7eb7b88",
+      "octets": 6998
+    },
+    {
+      "path": "robots.txt",
+      "sha256": "331ea9090db0c9f6f597bd9840fd5b171830f6e0b3ba1cb24dfa91f0c95aedc1",
+      "octets": 26
+    },
+    {
+      "path": "sitemap.xml",
+      "sha256": "68ab08991efaca902bcb8a6518106d8b29964c5651f39abbb7eb7c9713ca2770",
+      "octets": 107
+    },
+    {
+      "path": "style.css",
+      "sha256": "cb863fff3109f7831a234b0d133092ac0921e8c6270b0388ac411aadf031c2e2",
+      "octets": 25136
+    }
+  ]
 }
