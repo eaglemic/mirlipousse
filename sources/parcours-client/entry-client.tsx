@@ -10,3 +10,5 @@ import "./app/reviews-style.css";
 import "./app/commerce.css";
 
 import "./app/ages.css";
+
+import "./app/brand.css";

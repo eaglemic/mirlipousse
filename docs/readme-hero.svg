@@ -1,48 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-labelledby="title desc">
-  <title id="title">Mirlipousse — les petites grandes découvertes</title>
-  <desc id="desc">Bannière crème avec des feuilles vert sauge, des formes de jouets en bois et des touches terracotta.</desc>
-  <defs>
-    <linearGradient id="paper" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#fbf8f2"/><stop offset="1" stop-color="#eee8dc"/></linearGradient>
-    <linearGradient id="wood" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#e9c898"/><stop offset="1" stop-color="#cda879"/></linearGradient>
-    <linearGradient id="sage" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#b8c7a9"/><stop offset="1" stop-color="#78987c"/></linearGradient>
-    <filter id="shadow" x="-40%" y="-40%" width="180%" height="200%"><feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#365744" flood-opacity=".10"/></filter>
-  </defs>
-  <rect width="1200" height="380" rx="30" fill="url(#paper)"/>
-  <path d="M0 313C191 265 272 380 451 335S791 281 1200 323V380H0Z" fill="#e1e8d9" opacity=".7"/>
-  <circle cx="1120" cy="34" r="179" fill="#e3eadb" opacity=".6"/>
-  <circle cx="54" cy="-6" r="112" fill="#edcfbe" opacity=".42"/>
-  <g fill="none" stroke="#afbea5" stroke-width="2" opacity=".5"><path d="M54 137c42-54 106-60 148-31" stroke-dasharray="4 9"/><path d="M943 70c57 8 96 32 122 72" stroke-dasharray="4 9"/></g>
-  <g fill="#c4866d"><path d="m181 72 4 12 12 4-12 4-4 12-4-12-12-4 12-4Z"/><path d="m1060 278 4 12 12 4-12 4-4 12-4-12-12-4 12-4Z"/></g>
-  <g fill="#d3b278"><circle cx="244" cy="304" r="4"/><circle cx="973" cy="112" r="4"/><circle cx="75" cy="255" r="5"/></g>
-  <g transform="translate(563 40)">
-    <circle cx="37" cy="34" r="34" fill="#e2e9d9"/>
-    <path d="M37 53V24" stroke="#43654d" stroke-width="3" stroke-linecap="round"/>
-    <path d="M36 37C17 37 18 20 18 20c17-1 22 7 18 17Z" fill="#759779"/>
-    <path d="M38 28C38 12 54 12 54 12c3 15-6 21-16 16Z" fill="#aac09c"/>
-  </g>
-  <text x="600" y="181" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="76" font-weight="700" letter-spacing="-3" fill="#2c4939">Mirlipousse</text>
-  <text x="600" y="223" text-anchor="middle" font-family="Arial, sans-serif" font-size="21" letter-spacing="2" fill="#5f715d">LES PETITES GRANDES DÉCOUVERTES</text>
-  <g transform="translate(432 253)">
-    <rect width="336" height="36" rx="18" fill="#fffdf8" stroke="#d9dfd0"/>
-    <circle cx="23" cy="18" r="4" fill="#bd8066"/>
-    <text x="180" y="23" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#53634e">France · Belgique · 0 à 12 ans</text>
-  </g>
-  <text x="600" y="330" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="16" font-style="italic" fill="#6b7d65">Créé par Bach Gaëlle</text>
-  <g transform="translate(100 185) rotate(-10 45 60)" filter="url(#shadow)">
-    <rect x="0" y="53" width="75" height="75" rx="12" fill="url(#wood)"/>
-    <path d="M13 64h45M13 109h45" stroke="#c19560" stroke-width="2" opacity=".45"/>
-    <path d="m38 77 7 14 16 2-12 11 3 16-14-8-14 8 3-16-12-11 16-2Z" fill="#fbf2df"/>
-    <circle cx="76" cy="31" r="32" fill="url(#sage)"/>
-    <circle cx="76" cy="31" r="12" fill="#f6f2e8"/>
-  </g>
-  <g transform="translate(995 166) rotate(12 40 65)" filter="url(#shadow)">
-    <path d="M40 0C15 21 12 47 15 79h50C68 47 65 21 40 0Z" fill="url(#wood)"/>
-    <path d="M15 54 1 75v30l19-21M65 54l14 21v30L60 84" fill="#c0836a"/>
-    <circle cx="40" cy="43" r="14" fill="#6c8d75"/>
-    <circle cx="40" cy="43" r="8" fill="#dfe8d7"/>
-    <rect x="21" y="79" width="38" height="10" rx="5" fill="#6b8b6d"/>
-    <path d="M29 92q11 35 22 0" fill="#deb97c"/>
-  </g>
-  <path d="M915 333q38-17 52-61" stroke="#95ad8b" stroke-width="3" fill="none" stroke-linecap="round"/>
-  <path d="M939 315q-28-2-24-23 24-1 24 23M953 293q1-25 24-22-1 22-24 22" fill="#aabc9c"/>
+<title id="title">Mini &amp; Merveilles — les petites grandes découvertes</title><desc id="desc">Identité graphique Mini &amp; Merveilles : germe végétal, vert forêt et papier crème. Décoration graphique sans photographie de produit.</desc>
+<defs><linearGradient id="paper" x2="1" y2="1"><stop stop-color="#fbf7ee"/><stop offset="1" stop-color="#f1ebde"/></linearGradient></defs>
+<rect width="1200" height="380" fill="url(#paper)"/>
+
+<circle cx="1110" cy="0" r="205" fill="#e3e9da"/><path d="M790 380c140-92 278-55 410-124v124Z" fill="#e0e6d6"/>
+<g fill="#263c33" font-family="Georgia, 'Liberation Serif', serif" font-weight="700" text-anchor="start" letter-spacing="-1.7"><text x="84" y="115" font-size="70">Mini &amp;</text><text x="84" y="187.8" font-size="70">Merveilles</text></g>
+<text x="89" y="251" font-family="Lato, 'DejaVu Sans', sans-serif" font-size="20" fill="#263c33" letter-spacing=".25">Les petites grandes découvertes.</text>
+<text x="89" y="316" font-family="Lato, 'DejaVu Sans', sans-serif" font-size="14" fill="#5d6c59" letter-spacing="1.6">PAR GAËLLE BACH · FRANCE &amp; BELGIQUE</text>
+<path d="M886 285V151a98 98 0 0 1 196 0v134" fill="none" stroke="#a7b79b" stroke-width="2"/>
+<g transform="translate(886 97) scale(1.96)" fill="none" stroke="#263c33" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+<path d="M50 84V48c0-12 9-17 9-17"/><path d="M50 62C27 63 18 48 20 33c20-2 33 10 30 29Z" fill="#a7b79b" stroke="#a7b79b"/>
+<path d="M51 47C50 24 65 14 82 16c2 21-11 33-31 31Z" fill="#d5aa5c" stroke="#d5aa5c"/>
+<path d="M35 87h30"/></g><path transform="translate(1120 115) scale(1.15)" d="M0-10 2.7-2.7 10 0 2.7 2.7 0 10-2.7 2.7-10 0-2.7-2.7Z" fill="#d5aa5c"/><path transform="translate(829 222) scale(0.75)" d="M0-10 2.7-2.7 10 0 2.7 2.7 0 10-2.7 2.7-10 0-2.7-2.7Z" fill="#bb7458"/><g transform="translate(1090 259) rotate(-18) scale(0.68)"><path d="M0 82C-7 42 10 4 47-13C56 26 38 65 0 82Z" fill="#a7b79b"/><path d="M0 83 34 5" stroke="#fbf7ee" stroke-width="2" opacity=".7"/></g>
 </svg>

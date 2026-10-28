@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+<title id="title">Mini &amp; Merveilles — un petit monde à découvrir</title><desc id="desc">Identité graphique Mini &amp; Merveilles : germe végétal, vert forêt et papier crème. Décoration graphique sans photographie de produit.</desc>
+<defs><linearGradient id="paper" x2="1" y2="1"><stop stop-color="#fbf7ee"/><stop offset="1" stop-color="#f1ebde"/></linearGradient></defs>
+<rect width="1200" height="630" fill="url(#paper)"/>
+
+<circle cx="1120" cy="90" r="238" fill="#e5eadc"/><path d="M750 630c173-118 308-30 450-128v128Z" fill="#dbe3d0"/>
+<text x="76" y="74" font-family="Lato, 'DejaVu Sans', sans-serif" font-size="15" letter-spacing="3.7" fill="#bb7458">UN PETIT MONDE À DÉCOUVRIR</text>
+<g fill="#263c33" font-family="Georgia, 'Liberation Serif', serif" font-weight="700" text-anchor="start" letter-spacing="-1.7"><text x="72" y="184" font-size="82">Mini &amp;</text><text x="72" y="269.28" font-size="82">Merveilles</text></g>
+<text x="77" y="367" font-family="Georgia, 'Liberation Serif', serif" font-size="31" font-style="italic" fill="#263c33">Jouer, créer, s’émerveiller.</text>
+<text x="78" y="424" font-family="Lato, 'DejaVu Sans', sans-serif" font-size="19" fill="#5d6c59">Les petites grandes découvertes.</text>
+<rect x="76" y="510" width="481" height="46" rx="23" fill="#e8ddc9"/>
+<text x="316" y="539" text-anchor="middle" font-family="Lato, 'DejaVu Sans', sans-serif" font-size="15" fill="#263c33">Boutique en préparation · France &amp; Belgique</text>
+<path d="M816 445V243a133 133 0 0 1 266 0v202" fill="none" stroke="#263c33" stroke-width="2" opacity=".55"/>
+<g transform="translate(810 192) scale(2.8)" fill="none" stroke="#263c33" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+<path d="M50 84V48c0-12 9-17 9-17"/><path d="M50 62C27 63 18 48 20 33c20-2 33 10 30 29Z" fill="#a7b79b" stroke="#a7b79b"/>
+<path d="M51 47C50 24 65 14 82 16c2 21-11 33-31 31Z" fill="#d5aa5c" stroke="#d5aa5c"/>
+<path d="M35 87h30"/></g><path transform="translate(1107 193) scale(1.5)" d="M0-10 2.7-2.7 10 0 2.7 2.7 0 10-2.7 2.7-10 0-2.7-2.7Z" fill="#d5aa5c"/><path transform="translate(763 363) scale(1.0)" d="M0-10 2.7-2.7 10 0 2.7 2.7 0 10-2.7 2.7-10 0-2.7-2.7Z" fill="#bb7458"/><g transform="translate(1084 434) rotate(-18) scale(0.94)"><path d="M0 82C-7 42 10 4 47-13C56 26 38 65 0 82Z" fill="#a7b79b"/><path d="M0 83 34 5" stroke="#fbf7ee" stroke-width="2" opacity=".7"/></g>
+</svg>

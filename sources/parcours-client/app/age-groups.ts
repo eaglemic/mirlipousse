@@ -11,6 +11,14 @@ export function readAgeEvidence(value:any):Map<string,AgeEvidence>{
   if(!item.ageKnown&&(item.ageGroups.length||item.ageMinYears!==null||item.ageMaxYears!==null))throw Error('AGE_UNKNOWN_ASSIGNED');
   if(item.ageKnown&&(!Number.isFinite(item.ageMinYears)||item.ageMinYears<0||item.ageMaxYears!==null&&(!Number.isFinite(item.ageMaxYears)||item.ageMaxYears<item.ageMinYears)||!item.sourceExcerpt))throw Error('AGE_SOURCE_REQUIRED');
   for(const c of item.ageGroupCoverage)if(!item.ageGroups.includes(c.group)||!Array.isArray(c.coveredIntegerAges)||!c.coveredIntegerAges.length||c.coveredIntegerAges.some((a:any)=>!Number.isInteger(a)||a<item.ageMinYears||item.ageMaxYears!==null&&a>item.ageMaxYears)||typeof c.fullBandCovered!=='boolean')throw Error('AGE_COVERAGE_INVALID');
+  // The public interval is the fact; navigation groups cannot add neighbour ages.
+  const expectedCoverage=item.ageKnown?AGE_GROUPS.map(g=>{
+   const [min,max]=g.id.split('-').map(Number);
+   const coveredIntegerAges=Array.from({length:max-min+1},(_,i)=>min+i).filter(age=>age>=item.ageMinYears&&(item.ageMaxYears===null||age<=item.ageMaxYears));
+   return {group:g.id,coveredIntegerAges,fullBandCovered:coveredIntegerAges.length===max-min+1};
+  }).filter(c=>c.coveredIntegerAges.length):[];
+  const coverageMatches=item.ageGroupCoverage.length===expectedCoverage.length&&expectedCoverage.every((c,i)=>{const actual=item.ageGroupCoverage[i];return actual.group===c.group&&actual.fullBandCovered===c.fullBandCovered&&JSON.stringify(actual.coveredIntegerAges)===JSON.stringify(c.coveredIntegerAges);});
+  if(JSON.stringify(item.ageGroups)!==JSON.stringify(expectedCoverage.map(c=>c.group))||!coverageMatches)throw Error('AGE_COVERAGE_CONFLICT');
   const key=item.pid.toUpperCase();if(result.has(key))throw Error('AGE_PID_DUPLICATE');result.set(key,item);
  }
  return result;

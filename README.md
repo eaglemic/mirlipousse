@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/readme-hero.svg" alt="Mirlipousse — les petites grandes découvertes" width="100%">
+  <img src="docs/readme-hero.svg" alt="Mini &amp; Merveilles — les petites grandes découvertes" width="100%">
 </p>
 
 <p align="center">
@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  <a href="https://mirlipousse.onrender.com"><strong>🌱 Ouvrir Mirlipousse</strong></a>
+  <a href="https://mirlipousse.onrender.com"><strong>🌱 Ouvrir Mini &amp; Merveilles</strong></a>
   &nbsp; · &nbsp;
   <a href="https://mirlipousse.onrender.com/medias"><strong>▶ Découvrir les médias</strong></a>
   &nbsp; · &nbsp;
@@ -18,7 +18,7 @@
 ---
 
 <p align="center">
-  <img src="docs/readme-motion.gif" alt="Aperçu animé de l’univers Mirlipousse : couleurs douces, jouets et petites découvertes" width="288">
+  <img src="docs/readme-motion.gif" alt="Aperçu animé de l’univers Mini &amp; Merveilles : couleurs douces, jouets et petites découvertes" width="288">
   <br>
   <sub>Un aperçu animé de 6 secondes. <a href="https://mirlipousse.onrender.com/medias">Voir la vidéo et télécharger les médias</a>.</sub>
 </p>
@@ -27,7 +27,7 @@
 
 ## Un petit univers à explorer
 
-Mirlipousse prépare une boutique de jouets et d’accessoires pour enfants. Son univers associe papier crème, bois doux, vert sauge et touches de terracotta, avec des animations légères et une navigation pensée pour le téléphone.
+Mini &amp; Merveilles prépare une boutique de jouets et d’accessoires pour enfants. Son univers associe papier crème, bois doux, vert sauge et touches de terracotta, avec des animations légères et une navigation pensée pour le téléphone.
 
 | Découvrir | Imaginer | Grandir |
 | :--- | :--- | :--- |
@@ -100,7 +100,7 @@ Le teaser et les visuels restent des supports de présentation. Les éventuelles
 ---
 
 <p align="center">
-  <strong>Mirlipousse</strong><br>
+  <strong>Mini &amp; Merveilles</strong><br>
   <em>Les petites grandes découvertes.</em><br><br>
   <sub>Créé par <strong>Bach Gaëlle</strong></sub>
 </p>

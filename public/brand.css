@@ -1,0 +1,8 @@
+/* Nom visible sur deux lignes, sans changer les identifiants de la boutique. */
+.brand .brand-wordmark{display:inline-grid;min-width:0;font-size:25px;line-height:.91;letter-spacing:-.035em;text-align:left;white-space:nowrap}
+.brand .brand-line{display:block}
+.brand .brand-line:first-child{font-size:.82em;line-height:1.05}
+.brand .brand-amp{font-style:italic;color:var(--terracotta,#b9795e)}
+.brand .brand-wordmark small{font-size:5.8px;letter-spacing:.1em;line-height:2.2;margin-top:3px}
+.brand .brand-icon{flex:none}
+@media(max-width:640px){.brand{gap:5px}.brand .brand-wordmark{font-size:22px}.brand .brand-wordmark small{font-size:5px;letter-spacing:.08em;line-height:2;margin-top:3px}.site-header .brand-icon,.editorial-header .brand-icon{width:25px}.site-header .brand-icon svg,.editorial-header .brand-icon svg{width:23px}}

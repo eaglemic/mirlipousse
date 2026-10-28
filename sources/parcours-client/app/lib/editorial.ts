@@ -1,4 +1,4 @@
-/** Contenus originaux Mirlipousse. Catalogue de préparation, aucune offre de vente. */
+/** Contenus originaux Mini & Merveilles. Catalogue de préparation, aucune offre de vente. */
 import type { Product } from "./catalogue";
 
 export type EditorialSection = { title: string; paragraphs: string[] };
@@ -20,7 +20,7 @@ export const collections: CollectionEditorial[] = [
   {
     "slug": "jouets-eveil",
     "title": "Jouets d’éveil et jeux de découverte",
-    "description": "Des idées de formes, de couleurs et de jeux simples à explorer. Découvrez l’univers éveil de Mirlipousse, avec des repères pour choisir.",
+    "description": "Des idées de formes, de couleurs et de jeux simples à explorer. Découvrez l’univers éveil de Mini & Merveilles, avec des repères pour choisir.",
     "eyebrow": "REGARDER · TOUCHER · RECOMMENCER",
     "intro": "Un objet que l’on retourne, une forme qui se cache, une couleur que l’on retrouve : les petits jeux peuvent commencer avec des idées très simples. Cette collection réunit des idées autour des formes, des textures et des gestes du quotidien. Pour choisir, pensez surtout à ce qui attire déjà la curiosité de l’enfant, à la place disponible et à la présence d’un adulte pendant le jeu. Le catalogue présente désormais des références et des photos fournisseur. Les âges présentés sont des repères ; les avertissements du fabricant guideront le choix d’un vrai produit.",
     "filter": {
@@ -80,7 +80,7 @@ export const collections: CollectionEditorial[] = [
     "title": "Jeux d’aventure et histoires à inventer",
     "description": "Fusées, petits mondes et explorations imaginaires : des idées pour transformer un coin de la maison en départ de grande aventure.",
     "eyebrow": "PARTIR · RACONTER · EXPLORER",
-    "intro": "Pas besoin de parcourir des kilomètres pour vivre une aventure. Le trajet peut commencer sur une feuille, autour d’une construction ou au départ d’une fusée imaginaire. Cette collection donne une place aux personnages, aux décors et aux histoires que les enfants aiment prolonger. Choisissez une idée qui peut évoluer : un même voyage peut devenir une recherche, une rencontre ou un retour à la maison. Mirlipousse prépare sa sélection pour les familles en France et en Belgique. Les photos fournisseur présentent les références retenues. Les indications d’âge ne sont affichées que lorsqu’elles sont communiquées.",
+    "intro": "Pas besoin de parcourir des kilomètres pour vivre une aventure. Le trajet peut commencer sur une feuille, autour d’une construction ou au départ d’une fusée imaginaire. Cette collection donne une place aux personnages, aux décors et aux histoires que les enfants aiment prolonger. Choisissez une idée qui peut évoluer : un même voyage peut devenir une recherche, une rencontre ou un retour à la maison. Mini & Merveilles prépare sa sélection pour les familles en France et en Belgique. Les photos fournisseur présentent les références retenues. Les indications d’âge ne sont affichées que lorsqu’elles sont communiquées.",
     "filter": {
       "category": "aventure"
     },
@@ -167,7 +167,7 @@ export const collections: CollectionEditorial[] = [
     "title": "Idées de jeux pour les enfants de 3–5 ans",
     "description": "Construire une histoire, mélanger des couleurs ou inventer un petit monde : explorez des idées de jeux pour accompagner leurs envies.",
     "eyebrow": "LES HISTOIRES PRENNENT PLACE",
-    "intro": "Une construction peut devenir un garage, puis un château quelques minutes plus tard. Pour les enfants de trois à cinq ans, on peut chercher des idées qui laissent une place aux histoires, aux essais et aux changements de règles. Pensez à ce que l’enfant aime déjà faire : empiler, raconter, dessiner ou jouer à plusieurs. La durée d’une activité et l’espace nécessaire comptent aussi dans le choix. Cette collection Mirlipousse présente des références fournisseur en cours de vérification. La catégorie est un repère de navigation, et non une validation d’âge pour les futurs produits fournisseur.",
+    "intro": "Une construction peut devenir un garage, puis un château quelques minutes plus tard. Pour les enfants de trois à cinq ans, on peut chercher des idées qui laissent une place aux histoires, aux essais et aux changements de règles. Pensez à ce que l’enfant aime déjà faire : empiler, raconter, dessiner ou jouer à plusieurs. La durée d’une activité et l’espace nécessaire comptent aussi dans le choix. Cette collection Mini & Merveilles présente des références fournisseur en cours de vérification. La catégorie est un repère de navigation, et non une validation d’âge pour les futurs produits fournisseur.",
     "filter": {
       "age": "3-5"
     },
@@ -196,7 +196,7 @@ export const collections: CollectionEditorial[] = [
     "title": "Idées créatives et jeux pour les 6–8 ans",
     "description": "Petits projets, histoires et découvertes : des idées pour laisser les enfants choisir une aventure, puis lui donner leur propre forme.",
     "eyebrow": "LES IDÉES PRENNENT LE LARGE",
-    "intro": "Une carte à dessiner, un voyage à inventer ou une construction à transformer : les idées peuvent prendre la forme de petits projets. Pour les enfants de six à huit ans, commencez par une envie concrète et proposez quelques possibilités plutôt qu’un programme trop chargé. Certains préféreront créer seuls, d’autres partager une mission ou un atelier. Aucun de ces choix n’est une obligation liée à l’âge. Mirlipousse prépare une collection qui laisse cette liberté. Les prix ne sont pas encore proposés ; les caractéristiques et indications d’usage définitives seront celles du produit réellement retenu.",
+    "intro": "Une carte à dessiner, un voyage à inventer ou une construction à transformer : les idées peuvent prendre la forme de petits projets. Pour les enfants de six à huit ans, commencez par une envie concrète et proposez quelques possibilités plutôt qu’un programme trop chargé. Certains préféreront créer seuls, d’autres partager une mission ou un atelier. Aucun de ces choix n’est une obligation liée à l’âge. Mini & Merveilles prépare une collection qui laisse cette liberté. Les prix ne sont pas encore proposés ; les caractéristiques et indications d’usage définitives seront celles du produit réellement retenu.",
     "filter": {
       "age": "6-8"
     },
@@ -257,7 +257,7 @@ export const guidesArray: GuideEditorial[] = [
     "title": "Comment choisir un jouet selon l’âge de l’enfant ?",
     "description": "Des repères simples pour partir des goûts de l’enfant, comprendre les catégories d’âge et lire les informations utiles avant de choisir un jouet.",
     "eyebrow": "LE GUIDE DES PETITES DÉCOUVERTES",
-    "intro": "L’âge est un point de départ, pas une réponse à lui seul. Deux enfants du même âge peuvent avoir envie de jeux très différents, ou aborder un même objet à leur manière. Pour faire un choix, on peut croiser trois questions simples : qu’aime déjà l’enfant, comment souhaite-t-il jouer et quelles sont les conditions d’utilisation du produit ? Ce guide propose une méthode pratique, sans classement des enfants ni promesse de résultat. Les collections Mirlipousse sont en préparation ; les indications d’une vraie fiche produit devront toujours être vérifiées.",
+    "intro": "L’âge est un point de départ, pas une réponse à lui seul. Deux enfants du même âge peuvent avoir envie de jeux très différents, ou aborder un même objet à leur manière. Pour faire un choix, on peut croiser trois questions simples : qu’aime déjà l’enfant, comment souhaite-t-il jouer et quelles sont les conditions d’utilisation du produit ? Ce guide propose une méthode pratique, sans classement des enfants ni promesse de résultat. Les collections Mini & Merveilles sont en préparation ; les indications d’une vraie fiche produit devront toujours être vérifiées.",
     "sections": [
       {
         "title": "1. Regarder ce qui lui plaît déjà",
@@ -280,7 +280,7 @@ export const guidesArray: GuideEditorial[] = [
       {
         "title": "4. Lire la fiche du produit réel",
         "paragraphs": [
-          "Une catégorie « six à huit ans » organise une collection ; elle ne remplace pas l’âge d’utilisation ni les avertissements du fabricant. Avant un achat réel, consultez les précautions et le contenu exact. La DGCCRF recommande de choisir un jouet adapté à l’enfant et de vérifier les informations de sécurité. Chez Mirlipousse, une photo fournisseur ne prouve ni conformité ni aptitude à un âge particulier."
+          "Une catégorie « six à huit ans » organise une collection ; elle ne remplace pas l’âge d’utilisation ni les avertissements du fabricant. Avant un achat réel, consultez les précautions et le contenu exact. La DGCCRF recommande de choisir un jouet adapté à l’enfant et de vérifier les informations de sécurité. Chez Mini & Merveilles, une photo fournisseur ne prouve ni conformité ni aptitude à un âge particulier."
         ]
       }
     ],
@@ -302,7 +302,7 @@ export const guidesArray: GuideEditorial[] = [
     "title": "Des idées de jeux créatifs sans écran, faciles à adapter",
     "description": "Une ville à inventer, une carte à dessiner et une histoire à partager : quatre pistes concrètes pour préparer un moment créatif à la maison.",
     "eyebrow": "PLACE AUX IDÉES QUI DÉBORDENT",
-    "intro": "Un moment créatif peut commencer avec une consigne très courte : inventer un lieu, choisir un personnage ou dessiner la suite d’une histoire. Il ne demande pas forcément un atelier complet ni un résultat à exposer. Les pistes ci-dessous se déclinent selon les goûts de l’enfant, le temps disponible et le matériel déjà choisi pour son usage. Elles invitent à essayer, changer d’avis et recommencer. Les produits Mirlipousse sont en cours de vérification ; leurs photos ne remplacent pas la vérification des âges et des conditions d’utilisation d’un matériel réel.",
+    "intro": "Un moment créatif peut commencer avec une consigne très courte : inventer un lieu, choisir un personnage ou dessiner la suite d’une histoire. Il ne demande pas forcément un atelier complet ni un résultat à exposer. Les pistes ci-dessous se déclinent selon les goûts de l’enfant, le temps disponible et le matériel déjà choisi pour son usage. Elles invitent à essayer, changer d’avis et recommencer. Les produits Mini & Merveilles sont en cours de vérification ; leurs photos ne remplacent pas la vérification des âges et des conditions d’utilisation d’un matériel réel.",
     "sections": [
       {
         "title": "1. Préparer un coin simple à retrouver",

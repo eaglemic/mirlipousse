@@ -1,4 +1,4 @@
-# Sources du parcours client Mirlipousse
+# Sources du parcours client Mini & Merveilles
 
 Ce dossier contient seulement le frontend et ses données publiques, sans backend ni ancienne application Sites. Les dépendances sont épinglées aux versions réellement employées dans la recette.
 

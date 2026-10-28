@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="330" viewBox="0 0 760 330" role="img" aria-labelledby="title desc">
+<title id="title">Mini &amp; Merveilles — logo</title><desc id="desc">Identité graphique Mini &amp; Merveilles : germe végétal, vert forêt et papier crème. Décoration graphique sans photographie de produit.</desc>
+<defs><linearGradient id="paper" x2="1" y2="1"><stop stop-color="#fbf7ee"/><stop offset="1" stop-color="#f1ebde"/></linearGradient></defs>
+
+<g transform="translate(0 47) scale(2.0)" fill="none" stroke="#263c33" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+<path d="M50 84V48c0-12 9-17 9-17"/><path d="M50 62C27 63 18 48 20 33c20-2 33 10 30 29Z" fill="#a7b79b" stroke="#a7b79b"/>
+<path d="M51 47C50 24 65 14 82 16c2 21-11 33-31 31Z" fill="#d5aa5c" stroke="#d5aa5c"/>
+<path d="M35 87h30"/></g><g fill="#263c33" font-family="Georgia, 'Liberation Serif', serif" font-weight="700" text-anchor="start" letter-spacing="-1.7"><text x="215" y="130" font-size="84">Mini &amp;</text><text x="215" y="217.36" font-size="84">Merveilles</text></g><text x="220" y="272" font-family="Lato, 'DejaVu Sans', sans-serif" font-size="17" letter-spacing="2.3" fill="#263c33">LES PETITES GRANDES DÉCOUVERTES</text></svg>

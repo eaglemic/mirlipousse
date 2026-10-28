@@ -1,6 +1,6 @@
 {
   "format": "mirlipousse-ages-public/1",
-  "dateUTC": "2026-10-28T13:55:08.778487+00:00",
+  "dateUTC": "2026-10-28T19:04:22.329853+00:00",
   "sourceSHA256": "097823bac76abe5e665ff7838a17269c8fe1de5a77b81d56d337e9677d7c31da",
   "policy": {
     "sourceDeclaredAgeIsSafetyCertification": false,
@@ -17,10 +17,10 @@
   },
   "groupCounts": {
     "0-2": 1,
-    "3-5": 3,
-    "6-8": 4,
+    "3-5": 4,
+    "6-8": 5,
     "9-12": 2,
-    "age-inconnu": 26
+    "age-inconnu": 25
   },
   "products": [
     {
@@ -111,20 +111,40 @@
       "pid": "1677148647701618688",
       "vid": "1677148647789699072",
       "name": "Sac à dos léger à motif pour enfant",
-      "ageKnown": false,
-      "ageMinYears": null,
-      "ageMaxYears": null,
-      "qualificationStatus": "not_documented",
-      "ageLabel": "Âge non indiqué par le fournisseur",
-      "ageGroups": [],
-      "ageGroupCoverage": [],
+      "ageKnown": true,
+      "ageMinYears": 3,
+      "ageMaxYears": 6,
+      "qualificationStatus": "supplier_stated_unverified",
+      "ageLabel": "3 à 6 ans · indication du titre fournisseur",
+      "ageGroups": [
+        "3-5",
+        "6-8"
+      ],
+      "ageGroupCoverage": [
+        {
+          "group": "3-5",
+          "coveredIntegerAges": [
+            3,
+            4,
+            5
+          ],
+          "fullBandCovered": true
+        },
+        {
+          "group": "6-8",
+          "coveredIntegerAges": [
+            6
+          ],
+          "fullBandCovered": false
+        }
+      ],
       "ageQualified": false,
       "safetyQualified": false,
-      "ageSource": "Âge non indiqué par le fournisseur",
+      "ageSource": "Fiche CJ · titre original chinois, indication non vérifiée",
       "purchaseEnabled": false,
       "checkoutEligible": false,
-      "sourceExcerpt": null,
-      "sourceObservedAt": "2026-10-28T00:19:34.982Z"
+      "sourceExcerpt": "幼儿园小孩轻便小背包3-6岁儿童帆布出行包潮",
+      "sourceObservedAt": "2026-10-28T18:52:43.957Z"
     },
     {
       "id": "cj-28d791f0-e7f4-4f7c-b9a1-9c4bd728c047",
@@ -726,6 +746,6 @@
       "sourceObservedAt": "2026-10-28T13:55:08.778487+00:00"
     }
   ],
-  "supplementSourceSHA256": "441f4f6346f2c0415a90a754d2cdf8b6b32e2d2de3227bbacbcb4c2f9c54368f",
-  "supplementScope": "Remplacement de la seule référence non documentée retirée ; quatre âges documentés historiques inchangés."
+  "supplementSourceSHA256": "c7a8318f9318c9787e0c3ed16f30614373e37f7a0fc97db762d476ab3fd18bb2",
+  "supplementScope": "Un âge3–6ans indiqué dans le titre fournisseur chinois frais du sacPID1677148647701618688 ; autres âges/qualifications inchangés."
 }
