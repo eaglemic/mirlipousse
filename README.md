@@ -68,7 +68,7 @@ Les sources frontend maintenables et leurs tests se trouvent dans `sources/parco
 
 ## Une vitrine légère à publier
 
-Ce dépôt contient l’export statique de la vitrine : **23 pages : 20 pages vitrine dont avis, contact et suivi, 2 saisies chiffrées privées et 1 page de connexion Mondial Relay en attente**, les ressources du site et ses médias. Il est préparé pour un hébergement statique sur Render.
+Ce dépôt contient l’export statique de la vitrine : **29 pages : 26 pages vitrine dont documents légaux, avis, contact et suivi, 2 saisies chiffrées privées et 1 page de connexion Mondial Relay en attente**, les ressources du site et ses médias. Il est préparé pour un hébergement statique sur Render.
 
 ```text
 public/                  Pages, styles, scripts et médias du site
@@ -104,3 +104,11 @@ Le teaser et les visuels restent des supports de présentation. Les éventuelles
   <em>Les petites grandes découvertes.</em><br><br>
   <sub>Créé par <strong>Bach Gaëlle</strong></sub>
 </p>
+
+## Informations légales accessibles
+
+[Informations légales](https://mirlipousse.onrender.com/informations-legales/) · [CGV de préparation](https://mirlipousse.onrender.com/cgv/) · [Rétractation](https://mirlipousse.onrender.com/retractation/) · [Garanties](https://mirlipousse.onrender.com/garanties/) · [Confidentialité](https://mirlipousse.onrender.com/confidentialite/)
+
+Les documents sont disponibles sans compte, avec formulaire type et CGV téléchargeables en texte. Les retours sont prévus à Talairan. Le régime TVA et le médiateur restent à finaliser ; les pages ne certifient pas une conformité juridique complète et n’ouvrent pas les ventes. Le traitement prévu est manuel : vérification du paiement SumUp puis règlement du fournisseur par le vendeur. Aucun transfert automatique SumUp vers CJ.
+
+Les contenus se maintiennent dans `content/legal-pages.json` et sont rendus par `python3 scripts/generer-pages-legales.py`. Le pied de page React reste dans les sources frontend. Chaque changement public doit être requalifié et la carte complète `verification/EXPORT.json` recalculée avant publication.

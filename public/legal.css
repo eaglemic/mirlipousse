@@ -1,0 +1,33 @@
+/* Documentation et liens légaux : lisibles, sans dépendance ni animation. */
+footer .legal-footer-nav{display:flex;flex-wrap:wrap;gap:6px 10px;align-items:stretch;justify-content:flex-start;margin:24px 0 0;padding:20px 0;border-top:1px solid #d8d6ca;font-size:16px;line-height:1.45;text-align:left;letter-spacing:normal}
+footer .legal-footer-nav a{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:10px 14px;box-sizing:border-box;border:1px solid #d8d6ca;border-radius:6px;font:inherit;color:inherit;text-decoration:none;letter-spacing:normal;white-space:normal}
+footer .legal-footer-nav a[href="/informations-legales/"]{background:#e9ece2;font-weight:700;color:#263c33}
+footer .legal-footer-nav a:hover{background:#e9ece2;color:#263c33;text-decoration:underline;text-underline-offset:3px}
+footer .legal-footer-nav a:focus-visible,.legal-page a:focus-visible,.legal-page summary:focus-visible{outline:3px solid #b47554;outline-offset:3px}
+.editorial-footer .legal-footer-nav{justify-content:center}
+.legal-page{max-width:1120px;margin:0 auto;padding:48px 28px 64px;color:#263c33;font-size:17px;line-height:1.65;overflow-wrap:anywhere}
+.legal-page h1{font-family:var(--serif,Georgia,serif);font-size:clamp(2rem,5vw,3.5rem);line-height:1.1;letter-spacing:-.025em;margin:20px 0 28px}
+.legal-page h2{font-family:var(--serif,Georgia,serif);font-size:1.6rem;line-height:1.25;margin:28px 0 12px}
+.legal-page h3{font-size:1.1rem;line-height:1.4;margin:22px 0 10px}
+.legal-page p,.legal-page ul,.legal-page ol{margin:12px 0 20px}
+.legal-page li{margin:8px 0}
+.legal-page a{text-decoration:underline;text-underline-offset:3px}
+.legal-page [id]{scroll-margin-top:130px}
+.legal-notice{padding:18px 22px;margin:24px 0;background:#f2eadf;border-left:4px solid #b47554;border-radius:0 8px 8px 0}
+.legal-notice p:last-child{margin-bottom:0}
+.legal-sections>section{padding:10px 0 24px;border-bottom:1px solid #d8d6ca}
+.legal-directory{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));gap:16px;margin:26px 0}
+.legal-directory>a,.legal-directory>article{display:block;min-height:44px;padding:20px;border:1px solid #d8d6ca;border-radius:8px;background:#f8f5ed;color:inherit;text-decoration:none}
+.legal-directory>a:hover{text-decoration:underline;background:#e9ece2}
+.legal-directory strong{display:block;font-size:1.1rem;margin-bottom:8px}
+.legal-guarantee{padding:20px 24px;margin:22px 0;background:#edf0e7;border:1px solid #b9c7ad;border-radius:8px}
+.legal-downloads{display:flex;flex-wrap:wrap;gap:12px;margin:24px 0}
+.legal-downloads a{display:inline-flex;align-items:center;min-height:44px;padding:10px 16px;background:#263c33;color:#fff;border-radius:6px;text-decoration:none}
+.legal-page pre{font:inherit;white-space:pre-wrap;overflow-wrap:anywhere;padding:20px;background:#f2efe7;border:1px solid #d8d6ca;border-radius:6px}
+.legal-page summary{min-height:44px;padding:10px 0;cursor:pointer;font-weight:700}
+@media(max-width:640px){footer .legal-footer-nav{gap:8px;font-size:16px}footer .legal-footer-nav a{flex:1 1 calc(50% - 8px);padding:10px;min-width:0}.legal-page{padding:28px 20px 44px;font-size:16px;line-height:1.65}.legal-notice,.legal-guarantee{padding:16px}.legal-page h2{font-size:1.4rem}.legal-downloads a{width:100%;justify-content:center}}
+@media print{.announcement,.site-header,.editorial-header,footer,.legal-downloads{display:none!important}.legal-page{max-width:none;padding:0;color:#000;font-size:11pt;line-height:1.45}.legal-page h1{font-size:24pt}.legal-page h2{font-size:16pt;break-after:avoid}.legal-page h3{break-after:avoid}.legal-page a{color:#000}.legal-page pre,.legal-notice,.legal-guarantee{background:#fff;border:1px solid #777;box-shadow:none}.legal-directory{display:block}.legal-directory>a,.legal-directory>article{padding:10px 0;border:0;break-inside:avoid}}
+
+.legal-toc a,.legal-page section>ul a{display:inline-flex;align-items:center;min-height:44px;padding:6px 0;box-sizing:border-box}
+
+.legal-page a[href^="tel:"],.legal-page a[href^="mailto:"]{display:inline-flex;align-items:center;min-height:44px;box-sizing:border-box}

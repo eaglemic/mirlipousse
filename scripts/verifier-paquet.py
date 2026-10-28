@@ -7,7 +7,7 @@ from urllib.parse import unquote, urlsplit
 
 root = Path(__file__).resolve().parents[1]
 proof = json.loads((root / 'verification/EXPORT.json').read_text())
-if proof['succes'] is not True or proof['pagesHTML'] != 23:
+if proof['succes'] is not True or proof['pagesHTML'] != 29:
     raise ValueError('EXPORT_NON_QUALIFIE')
 if proof['achatsOuverts'] is not False or proof['apiDeployee'] is not False:
     raise ValueError('EXPORT_STATIQUE_SEUL_AUTORISE')
@@ -63,4 +63,4 @@ for name in actual:
         file = root / 'public' / relative.lstrip('/') if relative.startswith('/') else root / 'public' / name / '..' / relative
         if not file.resolve().is_relative_to((root / 'public').resolve()) or not file.is_file():
             raise ValueError('ASSET_REFERENCE_ABSENT: ' + name + ' / ' + raw)
-print('Export statique vérifié : 20 pages vitrine dont avis et contact + 2 saisies chiffrées + 1 connexion relais en attente ; API d’avis externe, ventes fermées.')
+print('Export statique vérifié : 26 pages vitrine dont documents légaux, avis et contact + 2 saisies chiffrées + 1 connexion relais en attente ; API d’avis externe, ventes fermées.')

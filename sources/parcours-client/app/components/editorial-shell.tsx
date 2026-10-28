@@ -7,8 +7,26 @@ export function EditorialHeader() {
   return <><div className="announcement"><span>Des petits riens qui font grandir les grands rêves.</span><span>France & Belgique ↗</span></div><header className="editorial-header"><a href="/" className="brand" aria-label="Mini & Merveilles, accueil"><span className="brand-icon"><Sprout size={29} strokeWidth={1.5} /></span><BrandWordmark/></a><nav aria-label="Navigation principale"><a href="/#collection">La collection</a><a href="/guides">Le carnet d’idées</a><a href="/#notre-univers">Notre univers</a></nav></header></>;
 }
 
+const LEGAL_LINKS = [
+  ["/informations-legales/", "Informations légales"],
+  ["/cgv/", "CGV"],
+  ["/livraison-retours/", "Livraison & retours"],
+  ["/retractation/", "Rétractation"],
+  ["/garanties/", "Garanties"],
+  ["/mediation/", "Médiation"],
+  ["/confidentialite/", "Confidentialité"],
+  ["/cookies/", "Cookies"],
+  ["/mentions-legales/", "Mentions légales"],
+  ["/contact/", "Contact & SAV"],
+  ["/commande/merci/", "Suivre une commande"],
+] as const;
+
+export function LegalFooterLinks() {
+  return <nav className="legal-footer-nav" aria-label="Informations légales et service client">{LEGAL_LINKS.map(([href, label]) => <a href={href} key={href}>{label}</a>)}</nav>;
+}
+
 export function EditorialFooter() {
-  return <footer className="editorial-footer"><a className="brand" href="/"><BrandWordmark/></a><p>Laissons grandir l’imagination.</p><nav aria-label="Informations"><a href="/guides">Le carnet d’idées</a><a href="/medias">Médias</a><a href="/livraison-retours">Livraison & retours</a><a href="/confidentialite">Confidentialité</a><a href="/mentions-legales">Mentions légales</a></nav><small>Collection en préparation · Achats non ouverts</small></footer>;
+  return <footer className="editorial-footer"><a className="brand" href="/"><BrandWordmark/></a><p>Laissons grandir l’imagination.</p><nav aria-label="Découvrir la boutique"><a href="/guides">Le carnet d’idées</a><a href="/medias">Médias</a></nav><LegalFooterLinks/><small>Collection en préparation · Achats non ouverts</small></footer>;
 }
 
 export function Breadcrumbs({ label, path, parent }: { label: string; path: string; parent?: { label: string; path: string } }) {

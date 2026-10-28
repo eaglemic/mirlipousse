@@ -1,0 +1,554 @@
+{
+  "format": "mini-merveilles-documents-legaux-publics/1",
+  "version": "preparation-2026-10-28",
+  "salesEnabled": false,
+  "returnAddressConfirmed": true,
+  "phonePublic": "+33785713797",
+  "vatRegimeConfirmed": false,
+  "mediatorDesignated": false,
+  "pages": {
+    "informations-legales": {
+      "title": "Vos informations, en toute clarté",
+      "intro": "Retrouvez ici les conditions de vente, vos droits, les coordonnées du vendeur et les informations sur vos données.",
+      "sections": [
+        {
+          "title": "Une vitrine accessible, des ventes encore fermées",
+          "paragraphs": [
+            "Vous pouvez découvrir les produits, préparer un panier et donner votre avis sur le site. Aucune commande ni aucun paiement ne peut actuellement être lancé. Les CGV publiées sont une version de préparation, pas une ouverture des ventes."
+          ]
+        },
+        {
+          "title": "Votre interlocutrice",
+          "paragraphs": [
+            "Mini & Merveilles est porté par BACH Gaëlle, entrepreneure individuelle sous le régime de la micro-entreprise déclaré. Contact et adresse de retour : 7 rue de l’Aramon, 11220 Talairan, France. E-mail : Gaelle2027@icloud.com.",
+            "Téléphone SAV : 07 85 71 37 97. Le régime de TVA et le médiateur de la consommation restent à finaliser avant l’ouverture des ventes. Aucune adhésion à un médiateur n’est encore annoncée."
+          ]
+        },
+        {
+          "title": "Des textes lisibles et que vous pouvez garder",
+          "paragraphs": [
+            "Ces pages sont disponibles sans compte, sans achat et sans accepter de publicité. Les CGV de préparation et le formulaire type de rétractation sont aussi proposés au téléchargement en texte. Vous pouvez imprimer les pages depuis votre navigateur."
+          ]
+        }
+      ],
+      "preparation": false,
+      "downloads": []
+    },
+    "cgv": {
+      "title": "Conditions générales de vente",
+      "intro": "Version de préparation du 28 octobre 2026 — vente de biens neufs aux particuliers en France et en Belgique.",
+      "sections": [
+        {
+          "title": "1. Le vendeur et le périmètre",
+          "paragraphs": [
+            "Mini & Merveilles est le nom commercial du projet porté par BACH Gaëlle, entrepreneure individuelle, régime micro-entreprise déclaré. SIREN : 988 178 257. SIRET : 988 178 257 00016. Adresse du vendeur et de retour : 7 rue de l’Aramon, 11220 Talairan, France. Contact : Gaelle2027@icloud.com. Téléphone SAV : 07 85 71 37 97 (depuis la Belgique : +33 7 85 71 37 97).",
+            "La boutique s’adresse aux personnes majeures qui achètent pour un usage privé, en France ou en Belgique. Les achats restent fermés tant que les informations et le parcours de vente ne sont pas finalisés."
+          ]
+        },
+        {
+          "title": "2. Les produits",
+          "paragraphs": [
+            "Avant une vente, la fiche doit préciser le produit, la variante, la quantité, les dimensions ou matières utiles, l’âge d’utilisation lorsqu’il est pertinent et les avertissements de sécurité. Une photo ou une catégorie d’âge ne prouve pas la conformité d’un article pour un enfant.",
+            "Le catalogue actuel contient des références et des photos fournisseur en cours de vérification. Les indications d’âge documentées restent signalées comme non vérifiées ; un âge inconnu n’est pas présenté comme une validation. Les tarifs actuels sont indicatifs et ne constituent pas une offre permettant de payer."
+          ]
+        },
+        {
+          "title": "3. Le prix et les taxes",
+          "paragraphs": [
+            "Pour une commande ouverte à la vente, le prix à payer en euros, les frais de livraison et les taxes applicables doivent être présentés dans le récapitulatif avant tout engagement. Aucun supplément ne peut être ajouté sans information et accord préalables.",
+            "Le régime de TVA du vendeur n’est pas encore confirmé. Le seul statut de micro-entreprise ne permet pas d’affirmer qu’une TVA de 20 % doit être ajoutée, ni qu’une franchise s’applique. La mention fiscale exacte et le traitement des éventuelles importations doivent être définis avant l’ouverture. Aucun frais de douane à réception n’est déclaré exclu tant que le mode d’expédition n’est pas qualifié."
+          ]
+        },
+        {
+          "title": "4. Vérifier puis confirmer sa commande",
+          "paragraphs": [
+            "Le parcours préparé permet de vérifier les articles et les coordonnées, de lire et d’enregistrer les conditions intégrales de la commande, puis de confirmer le montant avant le paiement SumUp. Une modification du panier ou de l’adresse impose un nouveau devis. Sans conditions complètes et devis valide, aucun paiement ne doit être proposé.",
+            "Le contrat et sa confirmation doivent conserver la version des conditions acceptées et le montant exact. L’accès privé de suivi permet de retrouver cette même tentative ; il ne faut pas créer une deuxième commande pour vérifier un paiement incertain. Les conditions intégrales de la commande et le formulaire de rétractation doivent pouvoir être conservés sur un support durable."
+          ]
+        },
+        {
+          "title": "5. Paiement SumUp et traitement de la commande",
+          "paragraphs": [
+            "Le paiement préparé passe par SumUp. Un retour dans le navigateur ou un écran de réussite ne suffit pas : le paiement est vérifié côté serveur. En cas de réponse incertaine, le suivi de la même tentative doit être consulté avant de recommencer.",
+            "Le fonctionnement retenu au démarrage est une vérification manuelle des commandes, puis un paiement fournisseur effectué par le vendeur. Le client ne doit pas créditer le compte fournisseur et n’a pas à contacter CJ pour obtenir ses droits. Il n’existe pas de transfert automatique de son paiement SumUp vers CJ.",
+            "La création de nouveaux paiements est préparée pour les jours de semaine, selon l’heure de Paris. Cette organisation ne limite ni l’accès au suivi ni les droits légaux du client. Elle ne garantit pas la révocation de tout lien de paiement antérieur. Les ventes et les nouveaux paiements restent fermés dans la version actuelle."
+          ]
+        },
+        {
+          "title": "6. Livraison et responsabilité",
+          "paragraphs": [
+            "La livraison prévue est standard à domicile en France et en Belgique. Aucun point relais n’est actuellement proposé. Le pays d’expédition, les restrictions, le coût total et une date ou un délai de livraison doivent être précisés avant toute commande. Aucun délai rapide ou transporteur précis n’est promis pour le catalogue en préparation.",
+            "Mini & Merveilles reste l’interlocuteur du client pour l’exécution de la commande, même si un fournisseur prépare et expédie le colis. Le vendeur ne renvoie pas le client vers CJ pour se décharger de ses obligations.",
+            "En cas de retard, le client peut demander au vendeur de livrer dans un délai supplémentaire raisonnable puis, si la livraison n’a toujours pas lieu, résoudre le contrat. La résolution peut être immédiate dans les cas prévus par la loi, notamment un refus de livrer ou le non-respect d’une date essentielle. Le remboursement dû après résolution intervient au plus tard dans les quatorze jours. Ces droits ne dépendent pas du remboursement du vendeur par son fournisseur."
+          ]
+        },
+        {
+          "title": "7. Rétractation et retour",
+          "paragraphs": [
+            "Pour un bien, le consommateur dispose en principe de quatorze jours à compter de sa réception pour notifier sa décision de se rétracter, sans devoir la justifier. Pour une commande de plusieurs biens livrés séparément, le délai court à compter de la réception du dernier bien. Les exceptions légales éventuelles doivent être indiquées avant la commande ; aucune exception générale « produit fournisseur » n’est appliquée.",
+            "La décision peut être envoyée par e-mail à Gaelle2027@icloud.com, par courrier à BACH Gaëlle, 7 rue de l’Aramon, 11220 Talairan, France, ou par la fonction en ligne « Renoncer au contrat ici » lorsqu’une commande éligible existe. Le formulaire type est proposé sur la page Rétractation, mais toute déclaration non ambiguë convient. Pour un retour partiel, le client peut préciser les articles concernés par e-mail ou courrier.",
+            "Le client renvoie les biens au plus tard quatorze jours après avoir communiqué sa décision, à l’adresse de retour ci-dessus. Une autorisation de CJ, un numéro de retour ou l’attente d’une réponse du SAV ne sont pas des conditions pour exercer le droit légal. Un échange avec le SAV peut aider à organiser le colis, sans suspendre le délai.",
+            "En cas de simple rétractation, les frais directs de renvoi sont à la charge du client, sous réserve qu’il en ait été informé avant sa commande. Tout coût spécifique pour un article qui ne peut pas être renvoyé par la poste doit être annoncé avant la vente ; une telle référence ne sera pas ouverte sans cette information. Les frais de retour dus à une non-conformité relèvent des garanties légales et ne sont pas imposés au client.",
+            "Le vendeur rembourse les sommes dues, y compris la livraison initiale standard, au plus tard quatorze jours après la notification de la rétractation. Sauf s’il propose de récupérer lui-même les biens, il peut différer le remboursement jusqu’à réception du bien ou d’une preuve de son expédition, la première de ces dates étant retenue. Si le client a expressément choisi un mode de livraison initial plus coûteux que le mode standard proposé, le supplément correspondant n’est pas remboursé. Le même moyen de paiement est utilisé, sauf accord exprès pour un autre moyen sans frais.",
+            "Le client peut examiner le produit comme il le ferait en magasin. Seule une dépréciation résultant de manipulations dépassant ce qui est nécessaire pour vérifier sa nature, ses caractéristiques et son fonctionnement peut engager sa responsabilité. L’emballage d’origine n’est pas érigé en condition générale de rétractation."
+          ]
+        },
+        {
+          "title": "8. Garanties légales",
+          "paragraphs": [
+            "Le vendeur est tenu de la garantie légale de conformité et de la garantie contre les vices cachés. Ces droits sont indépendants d’une éventuelle garantie commerciale et des conditions B2B du fournisseur. Ils ne sont pas remplacés par un délai de réclamation CJ.",
+            "Les conditions légales applicables aux biens neufs, leurs délais et les recours sont détaillés sur la page Garanties légales. Le texte réglementaire de l’encadré de conformité est reproduit sur cette page."
+          ]
+        },
+        {
+          "title": "9. Service après-vente, réclamation et médiation",
+          "paragraphs": [
+            "Les demandes sont adressées à Gaelle2027@icloud.com ou par courrier au vendeur. Le client décrit le problème et indique sa référence de commande, sans envoyer de mot de passe, de code d’accès privé ni de données de carte bancaire.",
+            "Après une réclamation écrite préalable non résolue, le consommateur peut recourir gratuitement au médiateur de la consommation dont relève le vendeur, lorsque les conditions de recevabilité sont réunies. Le vendeur doit conclure une convention et publier ses coordonnées et son site avant l’ouverture des ventes. Aucun médiateur n’est encore désigné dans cette version. Aucun lien vers l’ancienne plateforme européenne de règlement en ligne des litiges, fermée en 2025, n’est proposé comme service actif."
+          ]
+        },
+        {
+          "title": "10. Données personnelles et preuve",
+          "paragraphs": [
+            "Les usages actuels du panier local, des favoris, du formulaire d’avis et des accès privés de suivi sont expliqués dans la politique de confidentialité et la page Cookies et stockage. Le paiement par carte est traité par le prestataire de paiement ; aucune donnée de carte ne doit être envoyée au SAV.",
+            "Les traitements et durées de conservation des futures commandes doivent être documentés avant leur activation. Un client pourra conserver ses conditions et ses confirmations. Aucune case publicitaire ne vaut acceptation d’une commande."
+          ]
+        },
+        {
+          "title": "11. Droit applicable et version",
+          "paragraphs": [
+            "Le projet vise des consommateurs en France et en Belgique. Le choix d’un droit applicable ne peut pas priver un consommateur des protections impératives qui lui sont garanties dans son pays de résidence habituelle. Aucune compétence exclusive d’un tribunal du vendeur n’est imposée au consommateur.",
+            "Cette version de préparation du 28 octobre 2026 ne modifie aucun contrat antérieur et ne permet pas de payer. Pour une vente future, les conditions intégrales présentées et acceptées à la date de la commande feront partie de son dossier."
+          ]
+        }
+      ],
+      "preparation": true,
+      "downloads": [
+        {
+          "label": "Enregistrer les CGV de préparation (.txt)",
+          "href": "/documents/cgv-preparation-20261028.txt"
+        }
+      ],
+      "guaranteeBoxText": "Le consommateur dispose d'un délai de deux ans à compter de la délivrance du bien pour obtenir la mise en œuvre de la garantie légale de conformité en cas d'apparition d'un défaut de conformité. Durant ce délai, le consommateur n'est tenu d'établir que l'existence du défaut de conformité et non la date d'apparition de celui-ci.\nLorsque le contrat de vente du bien prévoit la fourniture d'un contenu numérique ou d'un service numérique de manière continue pendant une durée supérieure à deux ans, la garantie légale est applicable à ce contenu numérique ou ce service numérique tout au long de la période de fourniture prévue. Durant ce délai, le consommateur n'est tenu d'établir que l'existence du défaut de conformité affectant le contenu numérique ou le service numérique et non la date d'apparition de celui-ci.\nLa garantie légale de conformité emporte obligation pour le professionnel, le cas échéant, de fournir toutes les mises à jour nécessaires au maintien de la conformité du bien.\nLa garantie légale de conformité donne au consommateur droit à la réparation ou au remplacement du bien dans un délai de trente jours suivant sa demande, sans frais et sans inconvénient majeur pour lui.\nSi le bien est réparé dans le cadre de la garantie légale de conformité, le consommateur bénéficie d'une extension de six mois de la garantie initiale.\nSi le consommateur demande la réparation du bien, mais que le vendeur impose le remplacement, la garantie légale de conformité est renouvelée pour une période de deux ans à compter de la date de remplacement du bien.\nLe consommateur peut obtenir une réduction du prix d'achat en conservant le bien ou mettre fin au contrat en se faisant rembourser intégralement contre restitution du bien, si :\n1° Le professionnel refuse de réparer ou de remplacer le bien ;\n2° La réparation ou le remplacement du bien intervient après un délai de trente jours ;\n3° La réparation ou le remplacement du bien occasionne un inconvénient majeur pour le consommateur, notamment lorsque le consommateur supporte définitivement les frais de reprise ou d'enlèvement du bien non conforme, ou s'il supporte les frais d'installation du bien réparé ou de remplacement ;\n4° La non-conformité du bien persiste en dépit de la tentative de mise en conformité du vendeur restée infructueuse.\nLe consommateur a également droit à une réduction du prix du bien ou à la résolution du contrat lorsque le défaut de conformité est si grave qu'il justifie que la réduction du prix ou la résolution du contrat soit immédiate. Le consommateur n'est alors pas tenu de demander la réparation ou le remplacement du bien au préalable.\nLe consommateur n'a pas droit à la résolution de la vente si le défaut de conformité est mineur.\nToute période d'immobilisation du bien en vue de sa réparation ou de son remplacement suspend la garantie qui restait à courir jusqu'à la délivrance du bien remis en état.\nLes droits mentionnés ci-dessus résultent de l'application des articles L. 217-1 à L. 217-32 du code de la consommation.\nLe vendeur qui fait obstacle de mauvaise foi à la mise en œuvre de la garantie légale de conformité encourt une amende civile d'un montant maximal de 300 000 euros, qui peut être porté jusqu'à 10 % du chiffre d'affaires moyen annuel (article L. 241-5 du code de la consommation).\nLe consommateur bénéficie également de la garantie légale des vices cachés en application des articles 1641 à 1649 du code civil, pendant une durée de deux ans à compter de la découverte du défaut. Cette garantie donne droit à une réduction de prix si le bien est conservé ou à un remboursement intégral contre restitution du bien.",
+      "guaranteeBoxSource": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000045981314",
+      "sources": [
+        {
+          "label": "Informations et CGV — Service Public",
+          "url": "https://entreprendre.service-public.gouv.fr/vosdroits/F33527"
+        },
+        {
+          "label": "Rétractation — Code de la consommation",
+          "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006069565/LEGISCTA000032221365/"
+        }
+      ]
+    },
+    "retractation": {
+      "title": "Rétractation : vos démarches",
+      "intro": "Vous pouvez notifier votre décision sans devoir vous justifier. Cette page et le formulaire type sont accessibles sans compte.",
+      "sections": [
+        {
+          "title": "Le délai",
+          "paragraphs": [
+            "Pour les biens, le délai est en principe de quatorze jours à compter de leur réception, ou du dernier bien pour une commande livrée séparément. Le jour de réception n’est pas compté. Les règles de prolongation légale du dernier jour s’appliquent. Les exceptions éventuelles doivent être annoncées avant la vente ; aucune exception non qualifiée n’est appliquée au catalogue actuel."
+          ]
+        },
+        {
+          "title": "Notifier sa décision",
+          "paragraphs": [
+            "Écrivez à Gaelle2027@icloud.com ou envoyez une déclaration à BACH Gaëlle, 7 rue de l’Aramon, 11220 Talairan, France. Indiquez votre décision de vous rétracter, les articles concernés et les éléments utiles pour retrouver la commande. Le formulaire ci-dessous est facultatif : une déclaration claire suffit. Gardez une preuve de votre envoi.",
+            "Lorsqu’une commande existe, l’accès « Renoncer au contrat ici » est proposé dans son suivi privé. Le parcours prépare la déclaration, demande une confirmation explicite, puis permet d’enregistrer un accusé daté et horodaté. La préparation seule n’envoie rien. Dans la version préparée, ce parcours concerne la commande entière ; une demande partielle reste possible par e-mail ou courrier. Aucun e-mail automatique ni remboursement immédiat n’est annoncé."
+          ]
+        },
+        {
+          "title": "Renvoyer le bien",
+          "paragraphs": [
+            "Adresse de retour confirmée : BACH Gaëlle — Mini & Merveilles, 7 rue de l’Aramon, 11220 Talairan, France. Le bien doit être renvoyé dans les quatorze jours suivant la notification. Il n’est pas nécessaire d’attendre une autorisation CJ ou SAV pour exercer ce droit.",
+            "Pour une simple rétractation, les frais directs de renvoi sont à la charge du client s’il en a été informé avant la commande. Pour une non-conformité, consultez les garanties légales : les frais nécessaires à la mise en conformité ne sont pas à la charge du consommateur. Aucun renvoi obligatoire en Chine n’est imposé par cette page."
+          ]
+        },
+        {
+          "title": "Le remboursement",
+          "paragraphs": [
+            "Le remboursement dû comprend la livraison initiale standard et intervient au plus tard quatorze jours après notification. Sauf si le vendeur propose de récupérer lui-même les biens, il peut être différé jusqu’à réception du bien ou d’une preuve de son expédition, la première de ces dates étant retenue. Si le client a expressément choisi une livraison initiale plus coûteuse que la livraison standard proposée, le supplément correspondant n’est pas remboursé. Le remboursement utilise le même moyen de paiement, sauf accord exprès sans frais."
+          ]
+        },
+        {
+          "title": "Formulaire type à copier ou à enregistrer",
+          "paragraphs": [
+            "À l’attention de BACH Gaëlle — Mini & Merveilles, 7 rue de l’Aramon, 11220 Talairan, France ; Gaelle2027@icloud.com.",
+            "Je/Nous (*) vous notifie/notifions (*) par la présente ma/notre (*) rétractation du contrat portant sur la vente du bien (*) ci-dessous :",
+            "Commandé le (*) / reçu le (*) : …\nBien(s) concerné(s) : …\nNom du/des consommateur(s) : …\nAdresse du/des consommateur(s) : …\nSignature du/des consommateur(s), uniquement en cas de notification sur papier : …\nDate : …\n(*) Rayez la mention inutile."
+          ]
+        }
+      ],
+      "preparation": true,
+      "downloads": [
+        {
+          "label": "Enregistrer le formulaire type (.txt)",
+          "href": "/documents/formulaire-retractation.txt"
+        },
+        {
+          "label": "Accéder à « Renoncer au contrat ici »",
+          "href": "/commande/merci/#retractation"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Rétractation en ligne — Code de la consommation",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032226834/"
+        },
+        {
+          "label": "Formulaire type — Code de la consommation",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000045418600"
+        }
+      ]
+    },
+    "garanties": {
+      "title": "Garanties légales : vos droits",
+      "intro": "Une panne, un défaut ou un article non conforme ne se traite pas comme un simple changement d’avis. Les repères ci-dessous et l’encadré reproduisent le droit français ; les protections impératives applicables au consommateur en Belgique restent préservées.",
+      "sections": [
+        {
+          "title": "Votre interlocuteur reste le vendeur",
+          "paragraphs": [
+            "Contactez BACH Gaëlle — Mini & Merveilles à Gaelle2027@icloud.com ou au 7 rue de l’Aramon, 11220 Talairan, France. Les conditions de remboursement du fournisseur CJ ne limitent pas les droits légaux du consommateur."
+          ]
+        },
+        {
+          "title": "Biens neufs : conformité",
+          "paragraphs": [
+            "Pour un bien neuf, le consommateur bénéficie de la garantie légale de conformité pendant deux ans à compter de sa délivrance. Les défauts apparus pendant cette période sont présumés avoir existé à la délivrance, sauf preuve contraire ou incompatibilité avec la nature du bien ou du défaut.",
+            "Le consommateur demande réparation ou remplacement. Le vendeur ne peut écarter le choix que dans les conditions prévues par la loi. La mise en conformité est sans frais, sans inconvénient majeur et doit intervenir dans un délai maximal de trente jours suivant la demande. Dans les cas prévus par la loi, une réduction du prix ou la résolution du contrat est possible ; un défaut mineur ne permet pas à lui seul de résoudre le contrat."
+          ]
+        },
+        {
+          "title": "Vices cachés",
+          "paragraphs": [
+            "Le consommateur peut aussi agir sur le fondement des articles 1641 et suivants du Code civil pour un défaut caché antérieur à la vente qui rend le bien impropre à son usage ou en réduit fortement l’usage. L’action doit être engagée dans les deux ans à compter de la découverte du vice, dans la limite du délai butoir légal. Il peut restituer le bien contre remboursement ou le conserver contre une réduction du prix, selon les conditions légales."
+          ]
+        },
+        {
+          "title": "Faire une demande",
+          "paragraphs": [
+            "Décrivez le problème et indiquez la référence de commande. Des photos utiles peuvent être proposées au SAV, sans que les seuls délais de réclamation du fournisseur remplacent la loi. N’envoyez pas de donnée bancaire ni votre code d’accès privé. Les frais nécessaires à la mise en conformité ne sont pas facturés au consommateur."
+          ]
+        }
+      ],
+      "preparation": true,
+      "downloads": [],
+      "guaranteeBoxText": "Le consommateur dispose d'un délai de deux ans à compter de la délivrance du bien pour obtenir la mise en œuvre de la garantie légale de conformité en cas d'apparition d'un défaut de conformité. Durant ce délai, le consommateur n'est tenu d'établir que l'existence du défaut de conformité et non la date d'apparition de celui-ci.\nLorsque le contrat de vente du bien prévoit la fourniture d'un contenu numérique ou d'un service numérique de manière continue pendant une durée supérieure à deux ans, la garantie légale est applicable à ce contenu numérique ou ce service numérique tout au long de la période de fourniture prévue. Durant ce délai, le consommateur n'est tenu d'établir que l'existence du défaut de conformité affectant le contenu numérique ou le service numérique et non la date d'apparition de celui-ci.\nLa garantie légale de conformité emporte obligation pour le professionnel, le cas échéant, de fournir toutes les mises à jour nécessaires au maintien de la conformité du bien.\nLa garantie légale de conformité donne au consommateur droit à la réparation ou au remplacement du bien dans un délai de trente jours suivant sa demande, sans frais et sans inconvénient majeur pour lui.\nSi le bien est réparé dans le cadre de la garantie légale de conformité, le consommateur bénéficie d'une extension de six mois de la garantie initiale.\nSi le consommateur demande la réparation du bien, mais que le vendeur impose le remplacement, la garantie légale de conformité est renouvelée pour une période de deux ans à compter de la date de remplacement du bien.\nLe consommateur peut obtenir une réduction du prix d'achat en conservant le bien ou mettre fin au contrat en se faisant rembourser intégralement contre restitution du bien, si :\n1° Le professionnel refuse de réparer ou de remplacer le bien ;\n2° La réparation ou le remplacement du bien intervient après un délai de trente jours ;\n3° La réparation ou le remplacement du bien occasionne un inconvénient majeur pour le consommateur, notamment lorsque le consommateur supporte définitivement les frais de reprise ou d'enlèvement du bien non conforme, ou s'il supporte les frais d'installation du bien réparé ou de remplacement ;\n4° La non-conformité du bien persiste en dépit de la tentative de mise en conformité du vendeur restée infructueuse.\nLe consommateur a également droit à une réduction du prix du bien ou à la résolution du contrat lorsque le défaut de conformité est si grave qu'il justifie que la réduction du prix ou la résolution du contrat soit immédiate. Le consommateur n'est alors pas tenu de demander la réparation ou le remplacement du bien au préalable.\nLe consommateur n'a pas droit à la résolution de la vente si le défaut de conformité est mineur.\nToute période d'immobilisation du bien en vue de sa réparation ou de son remplacement suspend la garantie qui restait à courir jusqu'à la délivrance du bien remis en état.\nLes droits mentionnés ci-dessus résultent de l'application des articles L. 217-1 à L. 217-32 du code de la consommation.\nLe vendeur qui fait obstacle de mauvaise foi à la mise en œuvre de la garantie légale de conformité encourt une amende civile d'un montant maximal de 300 000 euros, qui peut être porté jusqu'à 10 % du chiffre d'affaires moyen annuel (article L. 241-5 du code de la consommation).\nLe consommateur bénéficie également de la garantie légale des vices cachés en application des articles 1641 à 1649 du code civil, pendant une durée de deux ans à compter de la découverte du défaut. Cette garantie donne droit à une réduction de prix si le bien est conservé ou à un remboursement intégral contre restitution du bien.",
+      "guaranteeBoxSource": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000045981314",
+      "sources": [
+        {
+          "label": "Garanties légales — DGCCRF",
+          "url": "https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/les-garanties-legales-de-conformite-et-contre-les-vices-caches"
+        }
+      ]
+    },
+    "mediation": {
+      "title": "Réclamation et médiation",
+      "intro": "Un contact direct pour chercher une solution, puis un recours amiable lorsque les conditions sont réunies.",
+      "sections": [
+        {
+          "title": "D’abord, une réclamation écrite",
+          "paragraphs": [
+            "Adressez votre demande à Gaelle2027@icloud.com ou à BACH Gaëlle — Mini & Merveilles, 7 rue de l’Aramon, 11220 Talairan, France. Indiquez la référence de la commande, le problème et la solution souhaitée. N’envoyez pas de code privé de commande ni de données de carte bancaire."
+          ]
+        },
+        {
+          "title": "Le médiateur de la consommation",
+          "paragraphs": [
+            "Pour une vente à un particulier, le vendeur doit permettre l’accès à un médiateur compétent et en publier les coordonnées. Une adhésion ou convention réelle est nécessaire : citer un organisme au hasard ne suffit pas.",
+            "Cette adhésion n’est pas encore finalisée pour Mini & Merveilles. Aucun organisme, numéro de convention ni lien de saisine n’est présenté comme déjà disponible. Les ventes restent fermées en attendant les informations requises. Le nom, l’adresse et le site du médiateur désigné seront publiés avant l’ouverture."
+          ]
+        },
+        {
+          "title": "Les conditions du recours",
+          "paragraphs": [
+            "La médiation est gratuite pour le consommateur. Elle suppose notamment une réclamation écrite préalable auprès du vendeur et le respect des conditions de recevabilité, dont le délai légal d’un an après cette réclamation écrite. Elle n’empêche pas l’accès au juge selon les règles applicables."
+          ]
+        },
+        {
+          "title": "Pas de faux service européen",
+          "paragraphs": [
+            "L’ancienne plateforme européenne de règlement en ligne des litiges a fermé le 20 juillet 2025. Elle n’est pas proposée comme solution active. Le consommateur conserve les recours et protections qui lui sont applicables."
+          ]
+        }
+      ],
+      "preparation": true,
+      "downloads": [],
+      "sources": [
+        {
+          "label": "Médiation de la consommation — DGCCRF",
+          "url": "https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/la-mediation-de-la-consommation-ce-que-vous-devez-savoir"
+        }
+      ]
+    },
+    "cookies": {
+      "title": "Cookies et stockage sur votre appareil",
+      "intro": "Voici ce que le site garde pour fonctionner, et comment vous pouvez l’effacer.",
+      "sections": [
+        {
+          "title": "Panier et favoris",
+          "paragraphs": [
+            "Le site mémorise sur votre appareil les références et quantités du panier d’essai ainsi que vos favoris, afin de les retrouver. Ces données ne contiennent pas votre adresse de livraison ni une donnée de carte bancaire. Elles restent dans le navigateur jusqu’à leur suppression par vous ou par celui-ci."
+          ]
+        },
+        {
+          "title": "Reprise privée de commande",
+          "paragraphs": [
+            "Si un parcours de commande est effectivement ouvert, le navigateur peut garder l’identifiant de la même tentative et son code privé pour reprendre le suivi. Ce code est un accès confidentiel : ne le publiez pas et ne l’envoyez pas dans un avis. Effacer les données du site supprime cet accès sur l’appareil, sans supprimer automatiquement un dossier côté serveur."
+          ]
+        },
+        {
+          "title": "Ce qui n’a pas été ajouté",
+          "paragraphs": [
+            "Aucun pixel publicitaire, reciblage marketing ni outil externe de mesure d’audience n’a été ajouté à la vitrine. Le stockage strictement nécessaire à un service demandé ne nécessite pas le même consentement qu’un traceur publicitaire. Aucun bouton « tout accepter » n’est utilisé pour imposer de la publicité ou une commande."
+          ]
+        },
+        {
+          "title": "Effacer les données locales",
+          "paragraphs": [
+            "Dans les réglages de votre navigateur, ouvrez les données du site mirlipousse.onrender.com puis effacez-les. Vous perdrez les favoris, le panier et les accès privés mémorisés sur cet appareil. Cette action ne retire pas un avis publié : pour cela, contactez Gaelle2027@icloud.com avec sa référence."
+          ]
+        },
+        {
+          "title": "Prestataires techniques",
+          "paragraphs": [
+            "L’hébergement et les services de sécurité peuvent traiter les informations techniques nécessaires à la fourniture et à la protection du service. Ces informations et les usages du formulaire d’avis sont détaillés dans la politique de confidentialité. Un futur ajout de traceurs non nécessaires devra être expliqué et, si requis, soumis à un choix préalable."
+          ]
+        }
+      ],
+      "preparation": false,
+      "downloads": [],
+      "sources": [
+        {
+          "label": "Cookies et autres traceurs — CNIL",
+          "url": "https://www.cnil.fr/fr/cookies-et-autres-traceurs/que-dit-la-loi"
+        }
+      ]
+    },
+    "mentions-legales": {
+      "title": "Mentions légales",
+      "intro": "Les informations pour identifier l’éditrice du site et la contacter.",
+      "sections": [
+        {
+          "title": "Éditrice et responsable de publication",
+          "paragraphs": [
+            "BACH Gaëlle, entrepreneure individuelle, sous le régime de la micro-entreprise déclaré. Nom du projet : Mini & Merveilles. Adresse : 7 rue de l’Aramon, 11220 Talairan, France. E-mail public : Gaelle2027@icloud.com. SIREN communiqué : 988 178 257. SIRET communiqué : 988 178 257 00016.",
+            "Téléphone SAV : 07 85 71 37 97. Le régime de TVA et la désignation du médiateur restent à finaliser. Les ventes ne sont pas ouvertes."
+          ]
+        },
+        {
+          "title": "Hébergeur de la vitrine",
+          "paragraphs": [
+            "Render Services, Inc., 525 Brannan Street, Suite 300, San Francisco, CA 94107, États-Unis. Téléphone publié par l’hébergeur : +1 415 319 8186. Contact juridique : legal@render.com. Site : https://render.com. Ces coordonnées sont celles de Render, pas le numéro SAV de Mini & Merveilles."
+          ]
+        },
+        {
+          "title": "Contact et retours",
+          "paragraphs": [
+            "Pour les demandes sur le site, le service après-vente ou vos données : Gaelle2027@icloud.com. L’adresse de retour confirmée est BACH Gaëlle — Mini & Merveilles, 7 rue de l’Aramon, 11220 Talairan, France. Les démarches de rétractation et de garantie sont expliquées dans les pages correspondantes."
+          ]
+        },
+        {
+          "title": "Catalogue et propriété intellectuelle",
+          "paragraphs": [
+            "Le catalogue présente des références et des photos fournisseur. Les illustrations de l’univers, le logo et les médias de présentation sont distincts des photos des articles. Une photo ne constitue pas une validation de conformité ou d’âge. Les prix actuellement affichés sont indicatifs et ne permettent pas de payer.",
+            "Les contenus, marques et photographies restent soumis aux droits de leurs titulaires. Aucun dépôt de marque ni réservation de domaine « Mini & Merveilles » n’est revendiqué. Pour signaler un contenu ou demander sa correction, contactez l’éditrice."
+          ]
+        },
+        {
+          "title": "Documents accessibles",
+          "paragraphs": [
+            "Les CGV de préparation, la livraison, les retours, la rétractation, les garanties, la médiation, la confidentialité et les cookies sont réunis dans la page Informations légales. Les pages sont consultables sans compte. Leur publication ne vaut pas activation des ventes."
+          ]
+        }
+      ],
+      "preparation": false,
+      "downloads": [],
+      "sources": [
+        {
+          "label": "Mentions obligatoires — Service Public",
+          "url": "https://entreprendre.service-public.gouv.fr/vosdroits/F37351"
+        },
+        {
+          "label": "Coordonnées de l’hébergeur — Render",
+          "url": "https://render.com/terms"
+        }
+      ]
+    },
+    "livraison-retours": {
+      "title": "Livraison et retours",
+      "intro": "Les destinations prévues, votre interlocuteur et l’adresse de retour confirmée.",
+      "sections": [
+        {
+          "title": "Les commandes sont encore fermées",
+          "paragraphs": [
+            "Les références et leurs conditions de livraison sont en cours de qualification. Aucun paiement ne peut être lancé depuis cette vitrine. Aucune expédition n’est promise à partir d’une simple photo ou d’un stock observé chez le fournisseur."
+          ]
+        },
+        {
+          "title": "France et Belgique, à domicile",
+          "paragraphs": [
+            "La livraison prévue est standard à domicile en France et en Belgique. Le point relais reste en attente et n’est pas proposé. Pour chaque commande future, le lieu d’expédition, les restrictions, les frais, les taxes applicables et la date ou le délai de livraison doivent être annoncés avant le paiement."
+          ]
+        },
+        {
+          "title": "Le vendeur reste responsable",
+          "paragraphs": [
+            "Même lorsqu’un fournisseur prépare le colis, Mini & Merveilles reste l’interlocuteur du client. Une attente de remboursement fournisseur ou de réponse CJ ne supprime pas les droits légaux du consommateur. Un suivi transport n’est affiché que lorsqu’une information réelle est disponible."
+          ]
+        },
+        {
+          "title": "L’adresse de retour",
+          "paragraphs": [
+            "BACH Gaëlle — Mini & Merveilles\n7 rue de l’Aramon\n11220 Talairan\nFrance",
+            "Cette adresse est confirmée pour les retours. Pour une simple rétractation, notifiez votre décision dans le délai légal puis renvoyez le bien dans les quatorze jours qui suivent. Vous pouvez écrire au SAV pour organiser le colis, sans devoir attendre une autorisation pour exercer votre droit."
+          ]
+        },
+        {
+          "title": "Qui paie les frais de retour ?",
+          "paragraphs": [
+            "Pour un simple changement d’avis, les frais directs de renvoi sont à la charge du client s’il en a été informé avant la commande. Pour une non-conformité, les frais nécessaires à la mise en conformité ne sont pas imposés au consommateur. Les droits de rétractation et les garanties ne sont pas la même démarche."
+          ]
+        },
+        {
+          "title": "Votre contact",
+          "paragraphs": [
+            "Écrivez à Gaelle2027@icloud.com en indiquant la référence et le sujet de votre demande. Les droits, délais et modalités de remboursement sont détaillés dans les pages Rétractation, Garanties légales et CGV. Le suivi privé conserve l’accès à la même tentative sans créer un deuxième paiement."
+          ]
+        }
+      ],
+      "preparation": false,
+      "downloads": [],
+      "sources": [
+        {
+          "label": "Commerce en ligne — Service Public",
+          "url": "https://entreprendre.service-public.gouv.fr/vosdroits/F23455"
+        }
+      ]
+    },
+    "contact": {
+      "title": "Contact et service après-vente",
+      "intro": "Une question sur le site, une référence, un retour ou vos données ? Voici votre contact.",
+      "sections": [
+        {
+          "title": "Écrivez à Mini & Merveilles",
+          "paragraphs": [
+            "BACH Gaëlle — entrepreneure individuelle\n7 rue de l’Aramon, 11220 Talairan, France\nGaelle2027@icloud.com",
+            "Téléphone SAV : 07 85 71 37 97. Précisez l’objet de votre demande et sa référence si vous en avez une. N’envoyez ni mot de passe, ni code privé de commande, ni donnée de carte bancaire."
+          ]
+        },
+        {
+          "title": "Retours et garanties",
+          "paragraphs": [
+            "L’adresse de retour confirmée est celle indiquée ci-dessus. Une notification de rétractation ne nécessite pas d’autorisation préalable du SAV ou du fournisseur. Pour un défaut, consultez les garanties légales : les délais et les frais applicables diffèrent d’un simple changement d’avis."
+          ]
+        },
+        {
+          "title": "Retrait d’un avis et données personnelles",
+          "paragraphs": [
+            "Écrivez à Gaelle2027@icloud.com avec l’objet « Retrait avis Mini & Merveilles » et la référence remise après l’envoi. Si elle est perdue, indiquez le pseudonyme et la date approximative. La demande est examinée ; ouvrir un lien e-mail ne supprime pas automatiquement l’avis.",
+            "Le même contact permet de demander l’accès, la correction ou l’effacement de vos données, selon les règles applicables. Aucun document d’identité n’est demandé dans un premier message. La politique de confidentialité décrit les usages actuels."
+          ]
+        },
+        {
+          "title": "État actuel",
+          "paragraphs": [
+            "La vitrine et les avis sont accessibles. Les commandes et paiements restent fermés. Aucun chat SAV en production, réponse automatique, remboursement immédiat ou expédition n’est annoncé par cette page."
+          ]
+        }
+      ],
+      "preparation": false,
+      "downloads": []
+    },
+    "confidentialite": {
+      "title": "Vos données personnelles",
+      "intro": "Les usages actuels du site, votre contact et vos droits. Les commandes restent fermées.",
+      "sections": [
+        {
+          "title": "Responsable et contact",
+          "paragraphs": [
+            "BACH Gaëlle est responsable des traitements décrits ici pour Mini & Merveilles. Contact : Gaelle2027@icloud.com ou 7 rue de l’Aramon, 11220 Talairan, France. Aucun délégué à la protection des données ni certification RGPD n’est revendiqué."
+          ]
+        },
+        {
+          "title": "Panier et favoris : à votre demande",
+          "paragraphs": [
+            "Les références et quantités du panier d’essai et les favoris restent dans votre navigateur pour retrouver votre sélection. Ce stockage sert au service que vous demandez. Il ne contient pas votre adresse de livraison ni une donnée de carte. Vous pouvez l’effacer dans les paramètres du navigateur ; les données restent sinon jusqu’à leur suppression par vous ou par le navigateur."
+          ]
+        },
+        {
+          "title": "Avis : publication choisie et modérée",
+          "paragraphs": [
+            "Si vous choisissez de donner un avis, la note et le commentaire sont nécessaires ; le pseudonyme est facultatif et aucun e-mail n’est demandé. Votre accord de publication est demandé avant l’envoi. Cette publication repose sur votre consentement. Les avis sont conservés côté serveur puis soumis à une modération ; ils ne sont pas publiés automatiquement.",
+            "La modération porte sur les abus et les données personnelles, quelle que soit la note. Les avis publiés sont visibles des visiteurs. Ils portent sur le site et ne sont pas présentés comme des achats vérifiés. N’indiquez pas d’adresse, de numéro, de nom complet ou d’information sensible dans le commentaire.",
+            "Le service actuel conserve les avis jusqu’à leur retrait, leur suppression par la modération ou la suppression du service. Aucune purge automatique à une date fixe n’est annoncée. Le retrait du consentement de publication peut être demandé au contact ci-dessus, sans effet sur la licéité de la publication antérieure. Les durées des traitements futurs devront être fixées avant leur ouverture."
+          ]
+        },
+        {
+          "title": "Retirer un avis",
+          "paragraphs": [
+            "Écrivez à Gaelle2027@icloud.com avec l’objet « Retrait avis Mini & Merveilles » et la référence remise après votre envoi. Si elle est perdue, indiquez le pseudonyme utilisé et la date approximative. Un opérateur examine la demande. Ouvrir le lien e-mail ne supprime pas automatiquement l’avis."
+          ]
+        },
+        {
+          "title": "Protection contre les abus",
+          "paragraphs": [
+            "Pour limiter les envois abusifs, le serveur calcule une empreinte technique non publique de l’adresse réseau à l’aide d’une clé secrète. L’adresse brute n’est pas conservée dans la base d’avis. Ce contrôle de sécurité repose sur l’intérêt légitime de protéger le service contre les abus.",
+            "Les empreintes de plus de vingt-quatre heures sont supprimées lors des accès au service. En l’absence d’accès, la suppression attend le prochain passage. Aucun profil public ni suivi publicitaire n’est construit à partir de cette empreinte."
+          ]
+        },
+        {
+          "title": "Destinataires et services techniques",
+          "paragraphs": [
+            "Les avis et demandes utiles sont accessibles à la responsable et aux opérateurs autorisés pour leur traitement. Un avis validé devient public ; les autres accès restent limités aux besoins du service. Les prestataires techniques peuvent traiter les données nécessaires à l’hébergement et à la sécurité.",
+            "La vitrine est hébergée par Render Services, Inc., aux États-Unis. Les avis sont transmis au service serveur associé à la boutique sur mirlipousse-boutique.yellowghost64.chatgpt.site. Nous ne prétendons pas que toutes les opérations techniques restent dans l’Union européenne. Les informations complémentaires sur les sous-traitants, les transferts et les durées des futurs traitements doivent être finalisées avant l’ouverture des commandes.",
+            "Les références et photos des articles proviennent de CJdropshipping. Explorer la vitrine ne transmet pas au fournisseur une adresse de livraison. Aucun pixel publicitaire ou outil externe de mesure d’audience n’a été ajouté. Les fichiers vidéo de présentation sont servis par la vitrine."
+          ]
+        },
+        {
+          "title": "Contact par e-mail",
+          "paragraphs": [
+            "Si vous écrivez au SAV, vos coordonnées et le contenu utile sont utilisés pour traiter votre demande. Une demande précontractuelle ou contractuelle est traitée pour y répondre ; les autres échanges et réclamations sont traités selon leur objet et les intérêts légitimes ou obligations applicables. N’ajoutez pas d’informations sensibles inutiles.",
+            "L’e-mail n’est pas un chat en temps réel. Aucune réponse automatique, conservation illimitée de tous les dossiers ou suppression déjà exécutée n’est promise. Les durées et l’archivage du futur SAV de commandes doivent être documentés avant son activation."
+          ]
+        },
+        {
+          "title": "Accès privés et futures commandes",
+          "paragraphs": [
+            "Lorsqu’un parcours sera réellement ouvert, le navigateur pourra conserver l’identifiant d’une tentative et un code privé pour reprendre le même paiement et consulter son suivi. Les coordonnées du formulaire ne sont pas stockées dans le navigateur. Le code n’est placé ni dans une URL de partage ni dans un avis.",
+            "Effacer les données du site supprime ces accès sur cet appareil, sans effacer automatiquement un dossier serveur. Les coordonnées nécessaires à une commande ne seront collectées que si le parcours est effectivement ouvert. Les traitements du paiement SumUp, de la livraison CJ et des transporteurs, les données nécessaires, leurs destinataires et leur conservation devront être précisés avant ce nouveau traitement. Aucune donnée de carte bancaire n’est collectée par le SAV."
+          ]
+        },
+        {
+          "title": "Exercer vos droits",
+          "paragraphs": [
+            "Vous pouvez demander l’accès, la rectification, l’effacement, la limitation et, selon le traitement et les conditions applicables, la portabilité ou vous opposer au traitement. Pour une publication fondée sur votre consentement, vous pouvez retirer cet accord. Écrivez à Gaelle2027@icloud.com ou à l’adresse postale ci-dessus.",
+            "N’envoyez pas de pièce d’identité dans le premier message : seules les informations nécessaires pour retrouver la demande et, si besoin, vérifier votre identité seront demandées. Une réponse doit intervenir en principe sous un mois ; une prolongation motivée dans les cas prévus par le RGPD doit vous être notifiée. Vous pouvez aussi adresser une réclamation à la CNIL sur cnil.fr."
+          ]
+        },
+        {
+          "title": "Pas de profil enfant",
+          "paragraphs": [
+            "Le site s’adresse aux visiteurs adultes. Aucune date de naissance, photo, profil ou analyse d’enfant n’est demandé pour explorer la boutique ou déposer un avis. La sélection par âge concerne les articles, pas un profil personnel."
+          ]
+        }
+      ],
+      "preparation": false,
+      "downloads": [],
+      "sources": [
+        {
+          "label": "Information et transparence — CNIL",
+          "url": "https://www.cnil.fr/fr/conformite-rgpd-information-des-personnes-et-transparence"
+        },
+        {
+          "label": "Exercer vos droits — CNIL",
+          "url": "https://www.cnil.fr/fr/plaintes"
+        }
+      ]
+    }
+  },
+  "phoneDisplay": "07 85 71 37 97",
+  "phonePublicAuthorised": true
+}
