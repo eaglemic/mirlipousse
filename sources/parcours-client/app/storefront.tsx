@@ -10,7 +10,8 @@ import ReviewsSummary from "./reviews-summary";
 import {AGE_GROUPS,matchesAge,countAges,ageCoverageLabel} from "./age-groups";
 import CommercePanel,{useCommerceCatalogue} from "./commerce-panel";
 import {euros,type Variant} from "./commerce-client";
-import {restoreCart,aliases,type CartLine,type UnresolvedLine} from "./cart-state";
+import {restoreCart,restoreFavorites,aliases,type CartLine,type UnresolvedLine} from "./cart-state";
+import {isCatalogueExcluded} from "./catalogue-exclusions";
 
 const priceLabel=(p:Product)=>typeof p.indicativePriceCents==='number'?euros(p.indicativePriceCents)+' · indicatif':"Tarif à confirmer";
 const categories = [
@@ -60,11 +61,11 @@ export default function Storefront() {
     try {
       const saved = JSON.parse(localStorage.getItem("mirlipousse.panier.v1") || "[]");
       const liked = JSON.parse(localStorage.getItem("mirlipousse.favoris.v1") || "[]");
-      const known = aliases(products);
       const restored=restoreCart(saved,products);setCart(restored.lines);setUnresolved(restored.unresolved);
-      if(Array.isArray(liked))setFavorites([...new Set(liked.filter((id:unknown)=>typeof id==='string').map((id:string)=>known.get(id)?.id||id))].slice(0,40));
+      setFavorites(restoreFavorites(liked,products));
     } catch {setStorageError(true);}
     const params=new URLSearchParams(location.search);const requested=params.get('produit');
+    if(isCatalogueExcluded(requested)){const url=new URL(location.href);url.searchParams.delete('produit');history.replaceState(null,'',url.pathname+url.search+url.hash);}
     const linkedProduct=requested?aliases(products).get(requested):null;if(linkedProduct){setSelected(linkedProduct);setSelectedVariant(linkedProduct.supplierVariantId);}
     const linkedCategory=params.get('categorie');if(categories.some(c=>c.id===linkedCategory))setCategory(linkedCategory!);
     const linkedAge=params.get('age');if(linkedAge==='age-inconnu'||AGE_GROUPS.some(g=>g.id===linkedAge))setAge(linkedAge!);

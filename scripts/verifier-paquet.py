@@ -23,6 +23,20 @@ if actual != set(proof['SHA256']):
 if sum(name.endswith('.html') and name != '404.html' for name in actual) != proof['pagesHTML']:
     raise ValueError('NOMBRE_PAGES_DIVERGENT')
 
+# Une ancienne génération ne doit pas remettre un article retiré dans la vitrine.
+exclusions = json.loads((root / 'sources/parcours-client/app/lib/catalogue-exclusions.json').read_text())
+for entry in exclusions['entries']:
+    pid = entry['supplierProductId']
+    aliases = [pid, *entry['aliases']]
+    image = '/media/catalogue-cj/' + pid + '.webp'
+    if image.lstrip('/') in actual:
+        raise ValueError('PHOTO_PRODUIT_EXCLU: ' + pid)
+    for name in actual:
+        if name.endswith(('.html', '.js')):
+            body = (root / 'public' / name).read_text()
+            if image in body or (name.endswith('.html') and any(alias in body for alias in aliases)):
+                raise ValueError('PRODUIT_EXCLU_REINTRODUIT: ' + name)
+
 class Assets(HTMLParser):
     def __init__(self):
         super().__init__()

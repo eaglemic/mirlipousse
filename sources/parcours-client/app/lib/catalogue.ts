@@ -2,6 +2,7 @@
 import pricing from "./pricing-public.json";
 import ageEvidence from "./age-evidence-public.json";
 import {readAgeEvidence,type AgeCoverage} from "../age-groups";
+import {isCatalogueExcluded} from "../catalogue-exclusions";
 export type Product = {ageKnown?:boolean;ageGroups?:string[];ageGroupCoverage?:AgeCoverage[];ageSource?:string;ageEvidenceStatus?:string;indicativePriceCents?:number|null;priceStatus?:string;priceLabel?:string;catalogueCategory?:string;catalogueCategoryLabel?:string;variants?:{id:string;label:string;availableForCheckout:boolean}[];id:string; name:string; subtitle:string; category:'eveil'|'creativite'|'aventure'|'quotidien'; age:'0-2'|'3-5'|'6-8'|'9-12'|null; ageLabel:string; priceCents:null; image:string; color:string; description:string; details:string[]; demo:false; supplierProductId:string; supplierVariantId:string;};
 const baseProducts: Product[] = [
   {
@@ -585,27 +586,27 @@ const baseProducts: Product[] = [
     "supplierVariantId": "2508141412481628300"
   },
   {
-    "id": "mirlipousse-cj-2406200657031625700",
-    "name": "Trousse en forme de poisson",
+    "id": "mirlipousse-cj-2406260652501629800",
+    "name": "Trousse pastel à damier — lapin",
     "subtitle": "Les petites habitudes",
     "category": "quotidien",
     "age": null,
     "ageLabel": "Âge à confirmer",
     "priceCents": null,
-    "image": "/media/catalogue-cj/2406200657031625700.webp",
-    "color": "#f4f2ed",
-    "description": "Trousse en forme de poisson. Matière déclarée par le fournisseur : canvas.",
+    "image": "/media/catalogue-cj/2406260652501629800.webp",
+    "color": "#f8e6ec",
+    "description": "Une trousse rose à damier, avec un motif lapin et plusieurs poches zippées. La photo fournisseur correspond à la variante rose présentée.",
     "details": [
       "Âge d’utilisation non communiqué : à confirmer avant toute vente.",
-      "Matières indiquées par le fournisseur : Matière déclarée par le fournisseur : canvas.",
-      "Référence fournisseur CJ : 2406200657031625700"
+      "Matière et dimensions indiquées sur la photo fournisseur : tissu Oxford, 22 × 7,5 × 10 cm.",
+      "Référence fournisseur CJ : 2406260652501629800"
     ],
     "demo": false,
-    "supplierProductId": "2406200657031625700",
-    "supplierVariantId": "2406200657031625900"
+    "supplierProductId": "2406260652501629800",
+    "supplierVariantId": "2406260652511621300"
   }
 ];
 
 const prices = new Map<string, any>(pricing.products.map((p:any)=>[p.pid||p.supplierProductId,p]));
 const ages=readAgeEvidence(ageEvidence);
-export const products:Product[] = baseProducts.map(p=>{const v=prices.get(p.supplierProductId);const a=ages.get(p.supplierProductId.toUpperCase());if(!a||a.id!==p.id||a.vid!==p.supplierVariantId)throw Error("AGE_PRODUCT_MISMATCH");return {...p,ageKnown:a.ageKnown,ageGroups:a.ageGroups,ageGroupCoverage:a.ageGroupCoverage,ageLabel:a.ageLabel,ageSource:a.ageSource,ageEvidenceStatus:a.qualificationStatus,details:[a.ageLabel+". Cette information reste à vérifier avant la vente.",...p.details.filter(d=>!d.startsWith("Âge d’utilisation"))],indicativePriceCents:v?.indicativePriceCents??null,priceStatus:v?.priceStatus||"cout_incomplet",priceLabel:v?.priceLabel||"Tarif à confirmer",catalogueCategory:v?.category||p.category,catalogueCategoryLabel:v?.categoryLabel||p.subtitle,...(v?.variants?{variants:v.variants.map((x:any)=>({id:x.variantId||x.id,label:x.variantKey&&x.variantKey.length<=70?"Variante : "+x.variantKey:"Variante fournisseur contrôlée",availableForCheckout:false}))}:{} )};});
+export const products:Product[] = baseProducts.filter(p=>!isCatalogueExcluded(p)).map(p=>{const v=prices.get(p.supplierProductId);const a=ages.get(p.supplierProductId.toUpperCase());if(!a||a.id!==p.id||a.vid!==p.supplierVariantId)throw Error("AGE_PRODUCT_MISMATCH");return {...p,ageKnown:a.ageKnown,ageGroups:a.ageGroups,ageGroupCoverage:a.ageGroupCoverage,ageLabel:a.ageLabel,ageSource:a.ageSource,ageEvidenceStatus:a.qualificationStatus,details:[a.ageLabel+". Cette information reste à vérifier avant la vente.",...p.details.filter(d=>!d.startsWith("Âge d’utilisation"))],indicativePriceCents:v?.indicativePriceCents??null,priceStatus:v?.priceStatus||"cout_incomplet",priceLabel:v?.priceLabel||"Tarif à confirmer",catalogueCategory:v?.category||p.category,catalogueCategoryLabel:v?.categoryLabel||p.subtitle,...(v?.variants?{variants:v.variants.map((x:any)=>({id:x.variantId||x.id,label:x.variantKey&&x.variantKey.length<=70?"Variante : "+x.variantKey:"Variante fournisseur contrôlée",availableForCheckout:false}))}:{} )};});

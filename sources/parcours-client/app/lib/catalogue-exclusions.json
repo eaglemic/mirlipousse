@@ -1,0 +1,23 @@
+{
+  "format": "mirlipousse-catalogue-exclusions/1",
+  "brand": "mirlipousse",
+  "entries": [
+    {
+      "supplierProductId": "2406200657031625700",
+      "supplierVariantIds": [
+        "2406200657031625900"
+      ],
+      "supplierProductSku": "CJYD2064609",
+      "supplierVariantSkus": [
+        "CJYD206460901AZ"
+      ],
+      "aliases": [
+        "mirlipousse-cj-2406200657031625700",
+        "cj-2406200657031625700"
+      ],
+      "reason": "withdrawn_by_owner",
+      "scope": "new_catalogue_quotes_and_purchases_only",
+      "excludeAllVariantsOfProduct": true
+    }
+  ]
+}

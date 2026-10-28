@@ -27,8 +27,16 @@ function entryAssets(html:string){
  for(const file of entry.css||[]){if(!/^assets\/catalogue-[A-Za-z0-9_-]+\.css$/.test(file))throw Error('STYLE_INVALIDE');if(!html.includes('href="/'+file+'"'))html=html.replace('</head>','<link rel="stylesheet" href="/'+file+'"></head>');}
  return html;
 }
+function refreshCatalogueSEO(html:string){
+ return html.replace(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g,(script,raw)=>{
+  const data=JSON.parse(raw);if(data['@type']!=='ItemList')return script;
+  data.itemListElement=products.map((p,index)=>({'@type':'ListItem',position:index+1,url:'https://mirlipousse.onrender.com/?produit='+encodeURIComponent(p.id)+'#collection',name:p.name,image:'https://mirlipousse.onrender.com'+p.image}));
+  if('numberOfItems' in data)data.numberOfItems=products.length;
+  return '<script type="application/ld+json">'+JSON.stringify(data).replace(/</g,'\\u003c')+'</script>';
+ });
+}
 for(const [relative,element] of [['index.html',<Storefront/>],['commande/merci/index.html',<OrderStatus/>]] as const){
- const current=await readFile(path.join(BASE,relative),'utf8');const html=entryAssets(replaceRoot(current,renderToString(element)));
+ const current=await readFile(path.join(BASE,relative),'utf8');const html=refreshCatalogueSEO(entryAssets(replaceRoot(current,renderToString(element))));
  if((html.match(/id=["']mirlipousse-root["']/g)||[]).length!==1||(html.match(/<main\b/g)||[]).length!==1)throw Error('ROOT_OU_MAIN_DUPLIQUE');
  await writeFile(path.join(OUT,relative),html);
 }
