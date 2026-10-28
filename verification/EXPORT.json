@@ -1,10 +1,10 @@
 {
   "format": "mirlipousse-export-statique/2",
-  "dateUTC": "2026-10-28T14:09:29.298116+00:00",
+  "dateUTC": "2026-10-28T17:55:34.506796+00:00",
   "succes": true,
   "origineCandidateNonReservee": "https://mirlipousse.onrender.com",
   "pagesHTML": 23,
-  "assetsEtPages": 108,
+  "assetsEtPages": 113,
   "achatsOuverts": false,
   "apiDeployee": false,
   "serveurOuSecretsInclus": false,
@@ -25,10 +25,15 @@
     "_next/static/css/page.D_71ifoz.css": "795d871f7682abc54a574eb21f976e1c26bd39efcc61ca7d577c7edfc04e9273",
     "apple-touch-icon.png": "90b5de154394609ccfeccde3e6d67306403184386c8db83dfda12e3d2556156f",
     "assets/catalogue-B9PpX3N_.js": "98276cb4c6dd4144e44c286bc46ba6a84a7963bdb2b6f5f87c45cf455457dbb4",
+    "assets/catalogue-BF2_gkBh.js": "e96e43d0bca11fb7873bd0eb53d831d86eccd728c758f012295e2072ca73d9fa",
+    "assets/catalogue-BYKO156B.js": "3eb5bc88a31b3f80028cb964d23c61f2cbcd3ea18721a48a24fa1d339c39e44c",
     "assets/catalogue-BZALk_LD.js": "9bccb6c52beb8cd9bb56d3cf12166d0eba5b44870cd2488cc289337278a649d3",
     "assets/catalogue-Bhmass9N.css": "efc633d567c018ef6f99c40b71d447d2d66a67c21d0c613c83e1d4ebb21fbb2b",
+    "assets/catalogue-CpBJTyU8.css": "19c763abcdcdd4a15c27a268939e57ec5628d339917280c1166a0d683bc477b0",
     "assets/catalogue-DBNieGBS.js": "9bccb6c52beb8cd9bb56d3cf12166d0eba5b44870cd2488cc289337278a649d3",
     "assets/catalogue-DCvd8723.css": "f2a794edd9b4d8dfcfcfbb26ef264c691f8f870de79473d09eda6f39e1578971",
+    "assets/catalogue-DRS_P1cs.js": "41e2c824440d19c63b4a73928b4d5e67e2261606831e1eef89870c8b7f1e1982",
+    "assets/catalogue-DjA7LIWK.css": "aefb6a57941e35a83a3ae341603f2ebd85fb93de410e9f5b2f5318eccb79625a",
     "assets/catalogue-DuF0gbiE.css": "0bc5d6f77dedafa16e23ab72e4624ff381b5659833da5ca451e5a8d008052fa0",
     "assets/catalogue-HbvTeWs_.js": "9bccb6c52beb8cd9bb56d3cf12166d0eba5b44870cd2488cc289337278a649d3",
     "assets/catalogue-M7io0-Vm.css": "e6c82b71cd313273b238c920a9b8df375f6baa54e2558c59483e1b81c55575a1",
@@ -47,7 +52,7 @@
     "collections/jeux-aventure/index.html": "29cfc880241af8933d18f4eb4b54e2bd3a7ebbf9b36193b41258fba6a7b7f3ac",
     "collections/jeux-creatifs/index.html": "fe9957b80a68c76505faa673aa3b41344d8c6a09d15018f919177d80018e3a0b",
     "collections/jouets-eveil/index.html": "0c44e056f975b6e9c6f24426692d355768cd36bf1e317dd017e88bcf4321accd",
-    "commande/merci/index.html": "c7f9b93063fb6cdf195dce0bb0cd13186da674785def369b68081e880bbce443",
+    "commande/merci/index.html": "e5e997a7539fec7477295a5b249b6838db1c0fe1bceaf6781e7f9d355252da15",
     "confidentialite/index.html": "2ecfb65956522027cd9a062ffed348d930fb3269ad61de2714af9cbcc7584cbb",
     "connexion-cj-11ede6e316d77e9738711f2e.html": "09182db03794112b2eb71dd0bec3e82d3cd23bcf2d54249be414b498cd681fed",
     "connexion-mondialrelay-4aa11290ef6313fc570f2a7e.html": "1b1155b8592f77646c993748caa341b4fe9fadcde648b1e1fd2aa92a8a75c43f",
@@ -67,8 +72,8 @@
     "illustrations/petits-batisseurs.svg": "4abaeea0fd8840f1b06e61471b27aec77a5180a828ead6b90a1333ec3b07f918",
     "illustrations/pochon-tresors.svg": "4ef96c0b9bc7abeb91f3a2fb7036d11e1290fb37397bebd9379f58c58b273a6d",
     "illustrations/sac-exploration.svg": "1683dafc1770b20f97001b227620009a4f9eb3449f348dd170d918f9423ced65",
-    "index.html": "f296a80e3f2f57b301d2065ce82fc3d4c3d1e93a39d1dfb0963fa11c7e1d2036",
-    "livraison-retours/index.html": "0d92b368a4db9263672ee55f9cd21a7f830aebf49f447faac758f48e9042651e",
+    "index.html": "313195be5aff2d2ad0c3c8c269bd31bbb31ba09a87a0f687e92d3255f13c0acd",
+    "livraison-retours/index.html": "2fe282fca09a998db805ebca0f8d5d1beeee7c362ba2342ab8cdbc7c8ac67fe9",
     "media/campagne/mirlipousse-post-1080x1350-v1.png": "c27ba6b0f7a9691e86fc37c029517562f1058d8fa26cfd5bfa71d22a02b8c5c6",
     "media/campagne/mirlipousse-story-1080x1920-v1.png": "fb6668e69cd1789a26ce861235cb950342fdc098826347504bfbc8bb5cba03e3",
     "media/campagne/mirlipousse-teaser-12s-1080x1920-v1.mp4": "1edd843d34c9a4ba10ca76f668039cb83bbce06d5f33f09c72cb9f03b9f30599",
@@ -150,7 +155,7 @@
     "avisLocauxGlobaux": false,
     "donneesInitiales": 0
   },
-  "apiDeployeePortee": "Aucune API embarquée dans cet export statique ; API d’avis externe déjà déployée et vérifiée séparément.",
+  "apiDeployeePortee": "Aucune API embarquee dans cet export statique. API externe Mirlipousse v12 deployee separement ; ventes et financement automatiques fermes.",
   "pagesHTMLHors404": true,
   "pages404": 1,
   "motionRefinement": {
@@ -192,7 +197,7 @@
     "revisionRuntime": 5
   },
   "tarifsIndicatifsSHA256": "afe83dedafcbca1d0461d522035da7592ba11a5c4475b61b0120c1b70c3e47d7",
-  "contratAPISHA256": "128c57476814216f73961629ba94c20735c0d4133c231a95916fcf3aa7ac4e09",
+  "contratAPISHA256": "cb35c5061b69a2fe955979a0c64add8d01546adb5a23da5b8c69d726a8a5d9d3",
   "parcoursCommandeModePreparation": true,
   "reactHydratePages": [
     "/",
@@ -229,5 +234,16 @@
       "6-8": 4,
       "9-12": 2
     }
+  },
+  "contratAPIReference": "sources/parcours-client/app/commerce-client.ts",
+  "parcoursDocumentsEtConditions": {
+    "prepare": true,
+    "testsUnitairesClient": 36,
+    "sourceVitrineQualifiee": "interface-conditions-avant-paiement/REMISE.json",
+    "sourceVitrineQualifieeSHA256": "d545b8c01d1b654badd5c5fb54c4ac061413894e886d4106fd0fa54bab87c2bc",
+    "conditionsAvantPaiement": true,
+    "confirmationDurableEtRetractation": true,
+    "chiffresEtParcoursFinanciersSimules": true,
+    "aucuneCommandeReelleQualifiee": true
   }
 }
