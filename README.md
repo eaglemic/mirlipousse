@@ -40,11 +40,13 @@ La vitrine présente **30 références fournisseur réelles et leurs photos CJ**
 ## Ce que l’on peut déjà explorer
 
 - Parcourir les collections et les idées selon l’âge.
-- Chercher et trier les30 produits dans7 catégories, consulter leurs photos, leur variante documentée et leur tarif EUR indicatif. Les âges non documentés restent « à confirmer ».
+- Chercher et trier les 30 produits dans 7 catégories, consulter leurs photos, leur variante documentée et leur tarif EUR indicatif. Les âges non documentés restent « à confirmer ».
 - Conserver des favoris et un panier de démonstration sur son appareil.
 - Lire les guides et découvrir les visuels, la vidéo et leurs téléchargements.
 - Profiter du design responsive et des animations du site.
 - Donner un avis sur le site : note et commentaire sont conservés côté serveur, puis publiés après modération. Le pseudonyme est facultatif ; aucun achat vérifié n’est prétendu.
+
+Le SIRET communiqué est **988 178 257 00016**. Les paiements restent fermés pendant la qualification commerciale.
 
 ## Avant les premières commandes
 
@@ -58,7 +60,7 @@ La vitrine présente **30 références fournisseur réelles et leurs photos CJ**
 
 ## Des parcours prêts à qualifier
 
-Sept catégories, recherche, tri et tarifs indicatifs couvrent les30 références. Les anciens favoris et paniers gardent leurs identifiants et leurs quantités. La livraison prévue est standard à domicile en France/Belgique ; le point relais n’est proposé que selon des points et une méthode effectivement disponibles. Un annuaire de points ne prouve pas la compatibilité logistique. Aucun frais, délai ou suivi manquant n’est inventé.
+Sept catégories, recherche, tri et tarifs indicatifs couvrent les 30 références. Les anciens favoris et paniers gardent leurs identifiants et leurs quantités. La livraison prévue est standard à domicile en France et en Belgique. Mondial Relay est mis en attente ; aucun choix de point relais n’est proposé. Les frais et délais seront confirmés avant paiement.
 
 Les coordonnées ne sont demandées que si le serveur et le devis ouvrent réellement le parcours. Le téléphone de livraison est alors obligatoire. Aucune adresse n’est conservée dans le navigateur ; seuls les accès privés de reprise sont enregistrés. Les états de paiement et d’annulation sont vérifiés côté serveur, jamais déduits du retour navigateur.
 
@@ -66,7 +68,7 @@ Les sources frontend maintenables et leurs tests se trouvent dans `sources/parco
 
 ## Une vitrine légère à publier
 
-Ce dépôt contient l’export statique de la vitrine : **23 pages :20 pages vitrine dont avis, contact et suivi, plus3 saisies chiffrées privées**, les ressources du site et ses médias. Il est préparé pour un hébergement statique sur Render.
+Ce dépôt contient l’export statique de la vitrine : **23 pages : 20 pages vitrine dont avis, contact et suivi, 2 saisies chiffrées privées et 1 page de connexion Mondial Relay en attente**, les ressources du site et ses médias. Il est préparé pour un hébergement statique sur Render.
 
 ```text
 public/                  Pages, styles, scripts et médias du site

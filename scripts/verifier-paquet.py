@@ -49,4 +49,4 @@ for name in actual:
         file = root / 'public' / relative.lstrip('/') if relative.startswith('/') else root / 'public' / name / '..' / relative
         if not file.resolve().is_relative_to((root / 'public').resolve()) or not file.is_file():
             raise ValueError('ASSET_REFERENCE_ABSENT: ' + name + ' / ' + raw)
-print('Export statique vérifié : 20 pages vitrine dont avis et contact + 3 saisies chiffrées ; API d’avis externe, ventes fermées.')
+print('Export statique vérifié : 20 pages vitrine dont avis et contact + 2 saisies chiffrées + 1 connexion relais en attente ; API d’avis externe, ventes fermées.')
