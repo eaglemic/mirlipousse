@@ -5,7 +5,8 @@ export type DeliveryMode = 'home'|'pickup';
 export type Variant = {id:string;label:string;availableForCheckout:boolean};
 export type RemoteCatalogue = {salesEnabled:boolean;products:{id:string;aliases?:string[];supplierProductId:string;variants:Variant[]}[];deliveryMethods:{mode:DeliveryMode;service:'standard';countries:string[];availableForPreview:boolean;qualifiedForCheckout:boolean;reason?:string}[]};
 export type Pickup = {id:string;provider:string;name:string;addressLine1:string;postalCode:string;city:string;country:string};
-export type Quote = {ok:true;salesEnabled:boolean;previewOnly:boolean;country:string;currency:'EUR';subtotalIndicativeCents:number|null;shippingIndicativeCents:number|null;totalIndicativeCents:number|null;delivery:{mode:DeliveryMode;service:'standard';qualifiedForCheckout:boolean;availableForPreview:boolean;etaBusinessDays?:number[]|null};blockers?:string[]};
+export type Quote = {ok:true;salesEnabled:boolean;previewOnly:boolean;canPrepareCheckout?:boolean;country:string;currency:'EUR';subtotalIndicativeCents:number|null;shippingIndicativeCents:number|null;totalIndicativeCents:number|null;delivery:{mode:DeliveryMode;service:'standard';qualifiedForCheckout:boolean;availableForPreview:boolean;etaBusinessDays?:number[]|null};blockers?:string[]};
+export type CheckoutQuote={ok:true;status:'quoted';previewOnly:false;qualifiedForCheckout:true;orderToken:string;quoteToken:string;expiresAt:number;currency:'EUR';subtotalCents:number;shippingCents:number;amountCents:number;delivery:{mode:'home';service:'standard';country:string}};
 export type Attempt = {orderToken:string;accessToken:string;createdAt:string};
 export type Order = {ok:true;orderToken:string;reference:string|null;status:string;paymentStatus:string;paid:boolean;amountCents:number;currency:'EUR';supplierStatus:string;delivery:{mode:DeliveryMode;service:'standard';country:string};supportRequired:boolean;paymentUrl?:string;tracking?:{carrier?:string;number?:string;url?:string}|null};
 export class CommerceError extends Error {code:string;constructor(code:string){super(code);this.code=code;}}
@@ -15,6 +16,7 @@ const money=(x:unknown)=>x===null||Number.isSafeInteger(x)&&Number(x)>=0&&Number
 export const euros=(cents:number|null|undefined)=>typeof cents==='number'?new Intl.NumberFormat('fr-FR',{style:'currency',currency:'EUR'}).format(cents/100):'À confirmer';
 export const messages:Record<string,string>={SHOP_NOT_OPEN:'Les commandes sont fermées. Aucun paiement n’a été lancé.',PICKUP_UNAVAILABLE:'Le point relais n’est pas disponible pour cette sélection. Choisissez le domicile si cette méthode est proposée.',ORDER_NOT_FOUND:'Aucune commande accessible avec ces informations. Vérifiez votre accès privé.',IDEMPOTENCY_CONFLICT:'Cette tentative existe avec d’autres informations. Vérifiez son suivi avant toute nouvelle tentative.',CANCELLATION_REQUIRES_SUPPORT:'Le paiement nécessite une intervention du service client. Aucune annulation ni remboursement automatique n’est confirmé.',RATE_LIMITED:'Trop de demandes. Patientez avant de réessayer.',NETWORK_UNCERTAIN:'La réponse n’est pas confirmée. Vérifiez le suivi de cette même tentative, sans créer une seconde commande.',STORAGE_UNAVAILABLE:'Le navigateur ne peut pas conserver l’accès privé de reprise. Aucun paiement n’a été lancé.',INVALID_RESPONSE:'Le service n’a pas renvoyé une réponse vérifiable. Aucun succès n’est supposé.'};
 export const explain=(error:unknown)=>messages[error instanceof CommerceError?error.code:'']||'Le service est momentanément indisponible. Aucun paiement ou résultat favorable n’est supposé.';
+Object.assign(messages,{QUOTE_INVALID:'Le devis ne peut pas être confirmé. Demandez un nouveau devis avant de payer.',QUOTE_EXPIRED:'Ce devis a expiré. Demandez un nouveau devis pour connaître le montant actuel.',SHIPPING_NOT_VALIDATED:'La livraison ne peut pas être confirmée pour cette adresse. Aucun paiement n’a été lancé.',TERMS_REQUIRED:'Confirmez les informations et les conditions avant de continuer.'});
 export async function api(path:string,body?:unknown,accessToken?:string,signal?:AbortSignal):Promise<any>{
   if(!path.startsWith('/api/'))throw new CommerceError('INVALID_RESPONSE');
   const controller=new AbortController();const timer=setTimeout(()=>controller.abort(),12000);const abort=()=>controller.abort();signal?.addEventListener('abort',abort,{once:true});
@@ -32,8 +34,23 @@ export function readCatalogue(value:any):RemoteCatalogue{
 }
 export function readQuote(value:any,country:string,mode:DeliveryMode,items?:Item[]):Quote{
   if(!object(value)||value.ok!==true||typeof value.salesEnabled!=='boolean'||typeof value.previewOnly!=='boolean'||value.country!==country||value.currency!=='EUR'||!['subtotalIndicativeCents','shippingIndicativeCents','totalIndicativeCents'].every(k=>money(value[k]))||!object(value.delivery)||value.delivery.mode!==mode||value.delivery.service!=='standard'||typeof value.delivery.qualifiedForCheckout!=='boolean'||typeof value.delivery.availableForPreview!=='boolean')throw new CommerceError('INVALID_RESPONSE');
+  if(value.canPrepareCheckout!==undefined&&typeof value.canPrepareCheckout!=='boolean')throw new CommerceError('INVALID_RESPONSE');
   if(items){if(!Array.isArray(value.items)||value.items.length!==items.length)throw new CommerceError('INVALID_RESPONSE');const wanted=new Map(items.map(i=>[i.id+'|'+i.variantId,i.quantity]));for(const line of value.items)if(!object(line)||wanted.get(line.id+'|'+line.variantId)!==line.quantity||!money(line.unitIndicativeCents)||!money(line.lineIndicativeCents))throw new CommerceError('INVALID_RESPONSE');}
   return value as unknown as Quote;
+}
+/** L’admission du formulaire n’est pas un devis final et n’autorise aucun paiement. */
+export function canPrepareCheckout(catalogue:RemoteCatalogue|null,quote:Quote|null,items:Item[],country:string){
+ return catalogue?.salesEnabled===true&&quote?.salesEnabled===true&&quote.canPrepareCheckout===true&&quote.previewOnly===true&&quote.country===country&&quote.delivery.mode==='home'
+  &&catalogue.deliveryMethods.some(d=>d.mode==='home'&&d.service==='standard'&&d.countries.includes(country)&&d.availableForPreview)
+  &&items.length>0&&items.every(i=>catalogue.products.some(p=>(p.id===i.id||p.aliases?.includes(i.id))&&p.variants.some(v=>v.id===i.variantId&&v.availableForCheckout)));
+}
+/** Le jeton opaque reste en RAM ; la validation cryptographique appartient au serveur. */
+export function readCheckoutPreparation(value:any,orderToken:string,country:string,now=Date.now()):CheckoutQuote|Order{
+ if(value?.status!=='quoted')return readOrder(value,orderToken);
+ if(!object(value)||value.ok!==true||value.previewOnly!==false||value.qualifiedForCheckout!==true||value.orderToken!==orderToken||!text(value.quoteToken,65536)||/[\s\x00-\x1f]/.test(value.quoteToken)
+  ||!Number.isSafeInteger(value.expiresAt)||value.expiresAt<=now||value.currency!=='EUR'||!['subtotalCents','shippingCents','amountCents'].every(k=>Number.isSafeInteger(value[k])&&value[k]>=0&&value[k]<=100_000_000)
+  ||value.amountCents<=0||value.subtotalCents+value.shippingCents!==value.amountCents||!object(value.delivery)||value.delivery.mode!=='home'||value.delivery.service!=='standard'||value.delivery.country!==country)throw new CommerceError('INVALID_RESPONSE');
+ return value as CheckoutQuote;
 }
 export function readPickups(value:any,country:string):Pickup[]{
   if(!object(value)||value.ok!==true||typeof value.available!=='boolean'||!Array.isArray(value.points)||value.points.length>50)throw new CommerceError('INVALID_RESPONSE');

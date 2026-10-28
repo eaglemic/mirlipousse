@@ -33,7 +33,7 @@ for(const [relative,element] of [['index.html',<Storefront/>],['commande/merci/i
  await writeFile(path.join(OUT,relative),html);
 }
 // Les quatre accès natifs d’âge gardent leurs textes et leurs derniers patchs.
-for(const group of AGE_GROUPS){
+for(const group of process.argv.includes('--app-only')?[]:AGE_GROUPS){
  const relative='collections/'+group.id+'ans/index.html';const current=await readFile(path.join(BASE,relative),'utf8');
  const list=products.filter(p=>matchesAge(p,group.id));
  const content=<section className="collection-ideas" id="idees"><p className="eyebrow">LES ÂGES INDIQUÉS PAR LE FOURNISSEUR</p><h2>{list.length} référence{list.length>1?'s':''} à explorer.</h2><p className="native-age-notice">Pour choisir, fiez-vous à l’âge précis sur chaque fiche. Les tranches regroupent les résultats : un produit peut apparaître dans plusieurs tranches. Les indications et la sécurité restent à vérifier avant la vente.</p>{!list.length&&<p className="info-box">Aucune référence avec un âge indiqué pour cette tranche pour le moment. Les autres produits restent dans le catalogue.</p>}<div className="product-grid native-age-cards">{list.map(p=><article className="product-card" key={p.id} data-product-id={p.id}><a className="product-image editorial-product" href={'/?produit='+encodeURIComponent(p.id)+'&age='+group.id+'#collection'}><img src={p.image} alt={'Photo fournisseur : '+p.name} width={700} height={700} loading="lazy"/><span className="age-badge">{p.ageLabel.split(' · ')[0]}</span><span className="editorial-product-cta">Découvrir →</span></a><div className="product-copy"><p>{p.catalogueCategoryLabel||p.subtitle}</p><a className="product-name" href={'/?produit='+encodeURIComponent(p.id)+'&age='+group.id+'#collection'}>{p.name}</a><p className="native-age-exact">{p.ageLabel}</p>{ageCoverageLabel(p,group.id)&&<p className="age-coverage-native">{ageCoverageLabel(p,group.id)}</p>}<p className="concept-label">{euros(p.indicativePriceCents)} · tarif indicatif, à confirmer</p></div></article>)}</div><a className="age-tranche-link" href={'/?age='+group.id+'#collection'}>Filtrer et trier les {group.label} →</a></section>;
@@ -43,7 +43,7 @@ for(const group of AGE_GROUPS){
 }
 // Dans les catégories natives par type, seul le badge des quatre âges prouvés change.
 let badgesParType=0;const ageDirectories=new Set(AGE_GROUPS.map(g=>g.id+'ans'));
-for(const directory of await readdir(path.join(BASE,'collections'))){
+for(const directory of process.argv.includes('--app-only')?[]:await readdir(path.join(BASE,'collections'))){
  if(ageDirectories.has(directory))continue;
  const relative='collections/'+directory+'/index.html';const current=await readFile(path.join(BASE,relative),'utf8');
  const html=current.replace(/<article\b[\s\S]*?<\/article>/g,article=>{
@@ -53,4 +53,4 @@ for(const directory of await readdir(path.join(BASE,'collections'))){
  });
  if(html!==current)await writeFile(path.join(OUT,relative),html);
 }
-console.log(JSON.stringify({pagesRegenerees:6,entry:entry.file,rootRemplaceSansEnveloppe:true,agesNatifsRaccordes:4,badgesParType,autresContenusConserves:true}));
+console.log(JSON.stringify({pagesRegenerees:process.argv.includes('--app-only')?2:6,entry:entry.file,rootRemplaceSansEnveloppe:true,agesNatifsRaccordes:process.argv.includes('--app-only')?0:4,badgesParType,autresContenusConserves:true}));
