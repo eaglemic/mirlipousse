@@ -1,10 +1,13 @@
 /** Rendu ciblé depuis la vitrine courante : jamais de réinsertion éditoriale. */
 import React from 'react';
 import {renderToString} from 'react-dom/server';
-import {readFile,writeFile,cp} from 'node:fs/promises';
+import {readFile,writeFile,cp,readdir} from 'node:fs/promises';
 import path from 'node:path';
 import Storefront from './app/storefront';
 import OrderStatus from './app/order-status';
+import {products} from './app/lib/catalogue';
+import {AGE_GROUPS,matchesAge,ageCoverageLabel} from './app/age-groups';
+import {euros} from './app/commerce-client';
 const ROOT=path.resolve(new URL('..',import.meta.url).pathname),BASE=process.argv[2]?path.resolve(process.argv[2]):path.join(ROOT,'base/public'),OUT=process.argv[3]?path.resolve(process.argv[3]):path.join(ROOT,'candidat/public');
 if(BASE===OUT)throw Error('BASE_ET_SORTIE_DISTINCTES_REQUISES');
 const build=JSON.parse(await readFile(new URL('./dist-catalogue/.vite/manifest.json',import.meta.url),'utf8'));const entry=build['entry-client.tsx'];if(!entry?.isEntry||!/^assets\/catalogue-[A-Za-z0-9_-]+\.js$/.test(entry.file))throw Error('ENTREE_BUILD_INVALIDE');
@@ -29,4 +32,25 @@ for(const [relative,element] of [['index.html',<Storefront/>],['commande/merci/i
  if((html.match(/id=["']mirlipousse-root["']/g)||[]).length!==1||(html.match(/<main\b/g)||[]).length!==1)throw Error('ROOT_OU_MAIN_DUPLIQUE');
  await writeFile(path.join(OUT,relative),html);
 }
-console.log(JSON.stringify({pagesRegenerees:2,entry:entry.file,rootRemplaceSansEnveloppe:true,autresPagesByteIdentiques:true}));
+// Les quatre accès natifs d’âge gardent leurs textes et leurs derniers patchs.
+for(const group of AGE_GROUPS){
+ const relative='collections/'+group.id+'ans/index.html';const current=await readFile(path.join(BASE,relative),'utf8');
+ const list=products.filter(p=>matchesAge(p,group.id));
+ const content=<section className="collection-ideas" id="idees"><p className="eyebrow">LES ÂGES INDIQUÉS PAR LE FOURNISSEUR</p><h2>{list.length} référence{list.length>1?'s':''} à explorer.</h2><p className="native-age-notice">Pour choisir, fiez-vous à l’âge précis sur chaque fiche. Les tranches regroupent les résultats : un produit peut apparaître dans plusieurs tranches. Les indications et la sécurité restent à vérifier avant la vente.</p>{!list.length&&<p className="info-box">Aucune référence avec un âge indiqué pour cette tranche pour le moment. Les autres produits restent dans le catalogue.</p>}<div className="product-grid native-age-cards">{list.map(p=><article className="product-card" key={p.id} data-product-id={p.id}><a className="product-image editorial-product" href={'/?produit='+encodeURIComponent(p.id)+'&age='+group.id+'#collection'}><img src={p.image} alt={'Photo fournisseur : '+p.name} width={700} height={700} loading="lazy"/><span className="age-badge">{p.ageLabel.split(' · ')[0]}</span><span className="editorial-product-cta">Découvrir →</span></a><div className="product-copy"><p>{p.catalogueCategoryLabel||p.subtitle}</p><a className="product-name" href={'/?produit='+encodeURIComponent(p.id)+'&age='+group.id+'#collection'}>{p.name}</a><p className="native-age-exact">{p.ageLabel}</p>{ageCoverageLabel(p,group.id)&&<p className="age-coverage-native">{ageCoverageLabel(p,group.id)}</p>}<p className="concept-label">{euros(p.indicativePriceCents)} · tarif indicatif, à confirmer</p></div></article>)}</div><a className="age-tranche-link" href={'/?age='+group.id+'#collection'}>Filtrer et trier les {group.label} →</a></section>;
+ const old=current.match(/<section class="collection-ideas"[^>]*>[\s\S]*?<\/section>/);if(!old)throw Error('SECTION_AGE_ABSENTE:'+relative);
+ let html=current.replace(old[0],renderToString(content));for(const file of entry.css||[])if(!html.includes('href="/'+file+'"'))html=html.replace('</head>','<link rel="stylesheet" href="/'+file+'"></head>');
+ await writeFile(path.join(OUT,relative),html);
+}
+// Dans les catégories natives par type, seul le badge des quatre âges prouvés change.
+let badgesParType=0;const ageDirectories=new Set(AGE_GROUPS.map(g=>g.id+'ans'));
+for(const directory of await readdir(path.join(BASE,'collections'))){
+ if(ageDirectories.has(directory))continue;
+ const relative='collections/'+directory+'/index.html';const current=await readFile(path.join(BASE,relative),'utf8');
+ const html=current.replace(/<article\b[\s\S]*?<\/article>/g,article=>{
+  const match=article.match(/[?&]produit=([^&#"]+)/);if(!match)return article;
+  const product=products.find(p=>p.id===decodeURIComponent(match[1]));if(!product?.ageKnown)return article;
+  const changed=article.replace('<span class="age-badge">Âge à confirmer</span>','<span class="age-badge">'+product.ageLabel.split(' · ')[0]+'</span>');if(changed!==article)badgesParType++;return changed;
+ });
+ if(html!==current)await writeFile(path.join(OUT,relative),html);
+}
+console.log(JSON.stringify({pagesRegenerees:6,entry:entry.file,rootRemplaceSansEnveloppe:true,agesNatifsRaccordes:4,badgesParType,autresContenusConserves:true}));

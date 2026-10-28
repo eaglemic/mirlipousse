@@ -8,3 +8,5 @@ hydrateRoot(root,root.dataset.view==="order"?<OrderStatus/>:<Storefront/>);
 import "./app/reviews-style.css";
 
 import "./app/commerce.css";
+
+import "./app/ages.css";

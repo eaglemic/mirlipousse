@@ -1,6 +1,8 @@
 /** Généré depuis le catalogue fournisseur épinglé. Aucun prix client ni achat activé. */
 import pricing from "./pricing-public.json";
-export type Product = {indicativePriceCents?:number|null;priceStatus?:string;priceLabel?:string;catalogueCategory?:string;catalogueCategoryLabel?:string;variants?:{id:string;label:string;availableForCheckout:boolean}[];id:string; name:string; subtitle:string; category:'eveil'|'creativite'|'aventure'|'quotidien'; age:'0-2'|'3-5'|'6-8'|'9-12'|null; ageLabel:string; priceCents:null; image:string; color:string; description:string; details:string[]; demo:false; supplierProductId:string; supplierVariantId:string;};
+import ageEvidence from "./age-evidence-public.json";
+import {readAgeEvidence,type AgeCoverage} from "../age-groups";
+export type Product = {ageKnown?:boolean;ageGroups?:string[];ageGroupCoverage?:AgeCoverage[];ageSource?:string;ageEvidenceStatus?:string;indicativePriceCents?:number|null;priceStatus?:string;priceLabel?:string;catalogueCategory?:string;catalogueCategoryLabel?:string;variants?:{id:string;label:string;availableForCheckout:boolean}[];id:string; name:string; subtitle:string; category:'eveil'|'creativite'|'aventure'|'quotidien'; age:'0-2'|'3-5'|'6-8'|'9-12'|null; ageLabel:string; priceCents:null; image:string; color:string; description:string; details:string[]; demo:false; supplierProductId:string; supplierVariantId:string;};
 const baseProducts: Product[] = [
   {
     "id": "cj-1443498935560835072",
@@ -605,4 +607,5 @@ const baseProducts: Product[] = [
 ];
 
 const prices = new Map<string, any>(pricing.products.map((p:any)=>[p.pid||p.supplierProductId,p]));
-export const products:Product[] = baseProducts.map(p=>{const v=prices.get(p.supplierProductId);return {...p,indicativePriceCents:v?.indicativePriceCents??null,priceStatus:v?.priceStatus||"cout_incomplet",priceLabel:v?.priceLabel||"Tarif à confirmer",catalogueCategory:v?.category||p.category,catalogueCategoryLabel:v?.categoryLabel||p.subtitle,...(v?.variants?{variants:v.variants.map((x:any)=>({id:x.variantId||x.id,label:x.variantKey&&x.variantKey.length<=70?"Variante : "+x.variantKey:"Variante fournisseur contrôlée",availableForCheckout:false}))}:{} )};});
+const ages=readAgeEvidence(ageEvidence);
+export const products:Product[] = baseProducts.map(p=>{const v=prices.get(p.supplierProductId);const a=ages.get(p.supplierProductId.toUpperCase());if(!a||a.id!==p.id||a.vid!==p.supplierVariantId)throw Error("AGE_PRODUCT_MISMATCH");return {...p,ageKnown:a.ageKnown,ageGroups:a.ageGroups,ageGroupCoverage:a.ageGroupCoverage,ageLabel:a.ageLabel,ageSource:a.ageSource,ageEvidenceStatus:a.qualificationStatus,details:[a.ageLabel+". Cette information reste à vérifier avant la vente.",...p.details.filter(d=>!d.startsWith("Âge d’utilisation"))],indicativePriceCents:v?.indicativePriceCents??null,priceStatus:v?.priceStatus||"cout_incomplet",priceLabel:v?.priceLabel||"Tarif à confirmer",catalogueCategory:v?.category||p.category,catalogueCategoryLabel:v?.categoryLabel||p.subtitle,...(v?.variants?{variants:v.variants.map((x:any)=>({id:x.variantId||x.id,label:x.variantKey&&x.variantKey.length<=70?"Variante : "+x.variantKey:"Variante fournisseur contrôlée",availableForCheckout:false}))}:{} )};});
