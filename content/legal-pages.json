@@ -1,6 +1,6 @@
 {
   "format": "mini-merveilles-documents-legaux-publics/1",
-  "version": "preparation-2026-10-28",
+  "version": "preparation-2026-10-29",
   "salesEnabled": false,
   "returnAddressConfirmed": true,
   "phonePublic": "+33785713797",
@@ -21,7 +21,7 @@
           "title": "Votre interlocutrice",
           "paragraphs": [
             "Mini & Merveilles est porté par BACH Gaëlle, entrepreneure individuelle sous le régime de la micro-entreprise déclaré. Contact et adresse de retour : 7 rue de l’Aramon, 11220 Talairan, France. E-mail : Gaelle2027@icloud.com.",
-            "Téléphone SAV : 07 85 71 37 97. Le régime de TVA et le médiateur de la consommation restent à finaliser avant l’ouverture des ventes. Aucune adhésion à un médiateur n’est encore annoncée."
+            "Téléphone SAV : 07 85 71 37 97. Le régime de TVA déclaré par la vendeuse est la franchise en base : les ventes relevant de ce régime seront facturées sans TVA, avec la mention « TVA non applicable, art. 293 B du CGI ». Une convention de médiation reste en attente ; aucun médiateur n’est encore désigné et les ventes restent fermées."
           ]
         },
         {
@@ -36,12 +36,12 @@
     },
     "cgv": {
       "title": "Conditions générales de vente",
-      "intro": "Version de préparation du 28 octobre 2026 — vente de biens neufs aux particuliers en France et en Belgique.",
+      "intro": "Version de préparation du 29 octobre 2026 — vente de biens neufs aux particuliers en France et en Belgique.",
       "sections": [
         {
           "title": "1. Le vendeur et le périmètre",
           "paragraphs": [
-            "Mini & Merveilles est le nom commercial du projet porté par BACH Gaëlle, entrepreneure individuelle, régime micro-entreprise déclaré. SIREN : 988 178 257. SIRET : 988 178 257 00016. Adresse du vendeur et de retour : 7 rue de l’Aramon, 11220 Talairan, France. Contact : Gaelle2027@icloud.com. Téléphone SAV : 07 85 71 37 97 (depuis la Belgique : +33 7 85 71 37 97).",
+            "Mini & Merveilles est la marque du projet porté par BACH Gaëlle, entrepreneure individuelle, régime micro-entreprise déclaré, sous le nom commercial Mini and merveilles. Immatriculation au RCS de Carcassonne, SIREN : 988 178 257. SIRET déclaré : 988 178 257 00016. Adresse du vendeur et de retour : 7 rue de l’Aramon, 11220 Talairan, France. Contact : Gaelle2027@icloud.com. Téléphone SAV : 07 85 71 37 97 (depuis la Belgique : +33 7 85 71 37 97).",
             "La boutique s’adresse aux personnes majeures qui achètent pour un usage privé, en France ou en Belgique. Les achats restent fermés tant que les informations et le parcours de vente ne sont pas finalisés."
           ]
         },
@@ -56,7 +56,8 @@
           "title": "3. Le prix et les taxes",
           "paragraphs": [
             "Pour une commande ouverte à la vente, le prix à payer en euros, les frais de livraison et les taxes applicables doivent être présentés dans le récapitulatif avant tout engagement. Aucun supplément ne peut être ajouté sans information et accord préalables.",
-            "Le régime de TVA du vendeur n’est pas encore confirmé. Le seul statut de micro-entreprise ne permet pas d’affirmer qu’une TVA de 20 % doit être ajoutée, ni qu’une franchise s’applique. La mention fiscale exacte et le traitement des éventuelles importations doivent être définis avant l’ouverture. Aucun frais de douane à réception n’est déclaré exclu tant que le mode d’expédition n’est pas qualifié."
+            "La vendeuse déclare relever de la franchise en base de TVA. Les ventes relevant de ce régime seront facturées sans TVA collectée, avec la mention « TVA non applicable, art. 293 B du CGI ». Cette déclaration ne constitue pas une attestation fiscale du SIE. Elle ne dispense pas automatiquement de TVA à l’importation et ne prouve pas une exonération en Belgique : le traitement applicable à chaque route doit être qualifié avant l’ouverture.",
+            "La TVA facturée par le fournisseur et les taxes d’importation non récupérables font partie du coût du vendeur sous le régime déclaré. Le lieu d’expédition, le responsable de l’importation et les frais ou droits éventuels doivent être établis avant toute vente ; aucun envoi sans taxes ni frais à réception n’est promis à ce stade."
           ]
         },
         {
@@ -126,7 +127,7 @@
       "downloads": [
         {
           "label": "Enregistrer les CGV de préparation (.txt)",
-          "href": "/documents/cgv-preparation-20261028.txt"
+          "href": "/documents/cgv-preparation-20261029.txt"
         }
       ],
       "guaranteeBoxText": "Le consommateur dispose d'un délai de deux ans à compter de la délivrance du bien pour obtenir la mise en œuvre de la garantie légale de conformité en cas d'apparition d'un défaut de conformité. Durant ce délai, le consommateur n'est tenu d'établir que l'existence du défaut de conformité et non la date d'apparition de celui-ci.\nLorsque le contrat de vente du bien prévoit la fourniture d'un contenu numérique ou d'un service numérique de manière continue pendant une durée supérieure à deux ans, la garantie légale est applicable à ce contenu numérique ou ce service numérique tout au long de la période de fourniture prévue. Durant ce délai, le consommateur n'est tenu d'établir que l'existence du défaut de conformité affectant le contenu numérique ou le service numérique et non la date d'apparition de celui-ci.\nLa garantie légale de conformité emporte obligation pour le professionnel, le cas échéant, de fournir toutes les mises à jour nécessaires au maintien de la conformité du bien.\nLa garantie légale de conformité donne au consommateur droit à la réparation ou au remplacement du bien dans un délai de trente jours suivant sa demande, sans frais et sans inconvénient majeur pour lui.\nSi le bien est réparé dans le cadre de la garantie légale de conformité, le consommateur bénéficie d'une extension de six mois de la garantie initiale.\nSi le consommateur demande la réparation du bien, mais que le vendeur impose le remplacement, la garantie légale de conformité est renouvelée pour une période de deux ans à compter de la date de remplacement du bien.\nLe consommateur peut obtenir une réduction du prix d'achat en conservant le bien ou mettre fin au contrat en se faisant rembourser intégralement contre restitution du bien, si :\n1° Le professionnel refuse de réparer ou de remplacer le bien ;\n2° La réparation ou le remplacement du bien intervient après un délai de trente jours ;\n3° La réparation ou le remplacement du bien occasionne un inconvénient majeur pour le consommateur, notamment lorsque le consommateur supporte définitivement les frais de reprise ou d'enlèvement du bien non conforme, ou s'il supporte les frais d'installation du bien réparé ou de remplacement ;\n4° La non-conformité du bien persiste en dépit de la tentative de mise en conformité du vendeur restée infructueuse.\nLe consommateur a également droit à une réduction du prix du bien ou à la résolution du contrat lorsque le défaut de conformité est si grave qu'il justifie que la réduction du prix ou la résolution du contrat soit immédiate. Le consommateur n'est alors pas tenu de demander la réparation ou le remplacement du bien au préalable.\nLe consommateur n'a pas droit à la résolution de la vente si le défaut de conformité est mineur.\nToute période d'immobilisation du bien en vue de sa réparation ou de son remplacement suspend la garantie qui restait à courir jusqu'à la délivrance du bien remis en état.\nLes droits mentionnés ci-dessus résultent de l'application des articles L. 217-1 à L. 217-32 du code de la consommation.\nLe vendeur qui fait obstacle de mauvaise foi à la mise en œuvre de la garantie légale de conformité encourt une amende civile d'un montant maximal de 300 000 euros, qui peut être porté jusqu'à 10 % du chiffre d'affaires moyen annuel (article L. 241-5 du code de la consommation).\nLe consommateur bénéficie également de la garantie légale des vices cachés en application des articles 1641 à 1649 du code civil, pendant une durée de deux ans à compter de la découverte du défaut. Cette garantie donne droit à une réduction de prix si le bien est conservé ou à un remboursement intégral contre restitution du bien.",
@@ -258,7 +259,7 @@
           "title": "Le médiateur de la consommation",
           "paragraphs": [
             "Pour une vente à un particulier, le vendeur doit permettre l’accès à un médiateur compétent et en publier les coordonnées. Une adhésion ou convention réelle est nécessaire : citer un organisme au hasard ne suffit pas.",
-            "Cette adhésion n’est pas encore finalisée pour Mini & Merveilles. Aucun organisme, numéro de convention ni lien de saisine n’est présenté comme déjà disponible. Les ventes restent fermées en attendant les informations requises. Le nom, l’adresse et le site du médiateur désigné seront publiés avant l’ouverture."
+            "Une convention de médiation est en attente pour Mini & Merveilles ; aucune adhésion effective n’est annoncée. Aucun organisme, numéro de convention ni lien de saisine n’est présenté comme déjà disponible. Les ventes restent fermées. Le nom, l’adresse et le site du médiateur désigné seront publiés après convention effective et avant l’ouverture."
           ]
         },
         {
@@ -334,8 +335,8 @@
         {
           "title": "Éditrice et responsable de publication",
           "paragraphs": [
-            "BACH Gaëlle, entrepreneure individuelle, sous le régime de la micro-entreprise déclaré. Nom du projet : Mini & Merveilles. Adresse : 7 rue de l’Aramon, 11220 Talairan, France. E-mail public : Gaelle2027@icloud.com. SIREN communiqué : 988 178 257. SIRET communiqué : 988 178 257 00016.",
-            "Téléphone SAV : 07 85 71 37 97. Le régime de TVA et la désignation du médiateur restent à finaliser. Les ventes ne sont pas ouvertes."
+            "BACH Gaëlle, entrepreneure individuelle, sous le régime de la micro-entreprise déclaré. Marque du projet : Mini & Merveilles ; nom commercial : Mini and merveilles. Adresse : 7 rue de l’Aramon, 11220 Talairan, France. E-mail public : Gaelle2027@icloud.com. Immatriculation au RCS de Carcassonne, SIREN : 988 178 257. SIRET déclaré : 988 178 257 00016.",
+            "Téléphone SAV : 07 85 71 37 97. Le régime de TVA déclaré est la franchise en base : les ventes relevant de ce régime seront facturées sans TVA, avec la mention « TVA non applicable, art. 293 B du CGI ». La convention de médiation reste en attente. Les ventes ne sont pas ouvertes."
           ]
         },
         {
@@ -550,5 +551,9 @@
     }
   },
   "phoneDisplay": "07 85 71 37 97",
-  "phonePublicAuthorised": true
+  "phonePublicAuthorised": true,
+  "documentDate": "29 octobre 2026",
+  "documentDateISO": "2026-10-29",
+  "vatRegimeDeclared": "franchise_en_base",
+  "vatRegimeDeclarationDate": "2026-10-29"
 }

@@ -8,6 +8,14 @@ ROOT = Path(__file__).resolve().parents[1]
 PUBLIC = ROOT / 'public'
 DATA = json.loads((ROOT / 'content/legal-pages.json').read_text())
 assert DATA['salesEnabled'] is False
+DOCUMENT_DATE = DATA['documentDate']
+DOCUMENT_DATE_ISO = DATA['documentDateISO']
+assert re.fullmatch(r'\d{4}-\d{2}-\d{2}', DOCUMENT_DATE_ISO)
+CGV_DOWNLOAD_PATH = DATA['pages']['cgv']['downloads'][0]['href']
+assert re.fullmatch(r'/documents/cgv-preparation-\d{8}\.txt', CGV_DOWNLOAD_PATH)
+PREPARATION_NOTICE = ('Ce document est public et consultable, mais il ne permet pas de passer commande. '
+                      'La franchise en base de TVA est déclarée par la vendeuse. La convention de médiation, '
+                      'les produits, les livraisons et le parcours de vente restent à finaliser avant l’ouverture.')
 ORIGIN = 'https://mirlipousse.onrender.com'
 LINKS = [
     ('informations-legales', 'Informations légales'), ('cgv', 'CGV'),
@@ -44,7 +52,7 @@ def body(slug, data):
            '<p class="eyebrow">MINI &amp; MERVEILLES · INFORMATIONS UTILES</p>',
            '<h1>' + escape(data['title']) + '</h1>', '<p>' + text_html(data['intro']) + '</p>']
     if data.get('preparation'):
-        out.append('<aside class="legal-notice" aria-label="État de la boutique"><strong>Version de préparation — les ventes restent fermées.</strong><p>Ce document est public et consultable, mais il ne permet pas de passer commande. Le régime de TVA et le médiateur restent notamment à finaliser avant l’ouverture.</p></aside>')
+        out.append('<aside class="legal-notice" aria-label="État de la boutique"><strong>Version de préparation — les ventes restent fermées.</strong><p>' + text_html(PREPARATION_NOTICE) + '</p></aside>')
     if data.get('downloads'):
         out.append('<div class="legal-downloads">' + ''.join('<a href="' + escape(link['href'], quote=True) + '"' + (' download' if link['href'].endswith('.txt') else '') + '>' + escape(link['label']) + '</a>' for link in data['downloads']) + '</div>')
     if slug == 'informations-legales':
@@ -58,13 +66,13 @@ def body(slug, data):
         out.append('<section class="legal-guarantee" aria-labelledby="encadre-garanties"><h2 id="encadre-garanties">Encadré réglementaire français — garanties</h2><p>Vendeur répondant des garanties : BACH Gaëlle — Mini &amp; Merveilles, 7 rue de l’Aramon, 11220 Talairan, France ; <a href="mailto:Gaelle2027@icloud.com">Gaelle2027@icloud.com</a>.</p><p>Les repères et l’encadré ci-dessous reproduisent le droit français. Ils ne réduisent pas les protections impératives applicables à un consommateur en Belgique.</p><pre>' + escape(data['guaranteeBoxText']) + '</pre><p><a href="' + escape(data['guaranteeBoxSource'], quote=True) + '">Consulter le texte réglementaire sur Légifrance</a></p></section>')
     if data.get('sources'):
         out.append('<section><h2>Pour consulter les sources officielles</h2><ul>' + ''.join('<li><a href="' + escape(s['url'], quote=True) + '">' + escape(s['label']) + '</a></li>' for s in data['sources']) + '</ul></section>')
-    out.append('<p class="legal-updated">Version documentaire : 28 octobre 2026. Les informations publiées ne valent pas certification de conformité ni ouverture des ventes.</p>')
+    out.append('<p class="legal-updated">Version documentaire : ' + escape(DOCUMENT_DATE) + '. Les informations publiées ne valent pas certification de conformité ni ouverture des ventes.</p>')
     return ''.join(out)
 
 def plain(data):
     chunks = ['MINI & MERVEILLES', data['title'], data['intro'],
-              'VERSION DE PRÉPARATION DU 28 OCTOBRE 2026 — VENTES FERMÉES',
-              'Régime TVA et médiateur non finalisés. Ce document ne permet pas de passer commande.']
+              'VERSION DE PRÉPARATION DU ' + DOCUMENT_DATE.upper() + ' — VENTES FERMÉES',
+              PREPARATION_NOTICE]
     for sec in data['sections']:
         chunks.extend([sec['title'], *sec['paragraphs']])
     if data.get('guaranteeBoxText'):
@@ -85,7 +93,9 @@ for slug, data in DATA['pages'].items():
 
 documents = PUBLIC / 'documents'
 documents.mkdir(exist_ok=True)
-(documents / 'cgv-preparation-20261028.txt').write_text(plain(DATA['pages']['cgv']))
+(PUBLIC / CGV_DOWNLOAD_PATH.lstrip('/')).write_text(plain(DATA['pages']['cgv']))
+if CGV_DOWNLOAD_PATH != '/documents/cgv-preparation-20261028.txt':
+    (documents / 'cgv-preparation-20261028.txt').unlink(missing_ok=True)
 form = DATA['pages']['retractation']['sections'][-1]
 (documents / 'formulaire-retractation.txt').write_text('MINI & MERVEILLES — FORMULAIRE TYPE DE RÉTRACTATION\n\n' + '\n\n'.join(form['paragraphs']) + '\n\nCe formulaire est facultatif. Toute déclaration non ambiguë est recevable. Signature uniquement pour un envoi papier. Les commandes sont actuellement fermées.\n')
 
@@ -112,7 +122,7 @@ added = 0
 for slug in DATA['pages']:
     url = ORIGIN + '/' + slug + '/'
     if '<loc>' + url + '</loc>' not in xml and '<loc>' + url.rstrip('/') + '</loc>' not in xml:
-        xml = xml.replace('</urlset>', '<url><loc>' + url + '</loc><lastmod>2026-10-28</lastmod></url></urlset>')
+        xml = xml.replace('</urlset>', '<url><loc>' + url + '</loc><lastmod>' + DOCUMENT_DATE_ISO + '</lastmod></url></urlset>')
         added += 1
 sitemap.write_text(xml)
 print(json.dumps({'documentsHTML': len(DATA['pages']), 'pagesAvecLiens': linked,
