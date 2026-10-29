@@ -1,6 +1,6 @@
 {
   "format": "boutique-export/1",
-  "dateUTC": "2026-10-27T20:55:29.692508Z",
+  "dateUTC": "2026-10-29T22:03:13.480063+00:00",
   "brandSlug": "rubaloria",
   "name": "Rubaloria",
   "branche": "entreprise/rubaloria",
@@ -14,8 +14,8 @@
   "files": [
     {
       "path": "404.html",
-      "sha256": "3b962e46dc3b6a65413b2a734bb69a5124cfdaad7b1eaf9f0056f53da452365f",
-      "octets": 6323
+      "sha256": "0b30b1a8bff34206e04f1b9744ffbec3de6ac44961ff9fcd84d807cbd4fd0606",
+      "octets": 6457
     },
     {
       "path": "app.js",
@@ -24,8 +24,8 @@
     },
     {
       "path": "avis.html",
-      "sha256": "3a303bd88fe057e2bb968c40907da0b0bccbc4fc65f66580650eb64c90977cf1",
-      "octets": 8348
+      "sha256": "3e2a860c050798dbe9e93107960fb99f13178bfa3480e5247f7274760c99c750",
+      "octets": 8482
     },
     {
       "path": "brand.json",
@@ -34,8 +34,8 @@
     },
     {
       "path": "catalogue.html",
-      "sha256": "226c949d679ec8ca83f11478c2452d643fd3ae746edd3c1b40333fb17aee7e38",
-      "octets": 10225
+      "sha256": "da6ec5d9c72395d837fc867125d95a628e1c5ce8b273c0d9e1ae51562873375f",
+      "octets": 10359
     },
     {
       "path": "catalogue.json",
@@ -44,33 +44,33 @@
     },
     {
       "path": "conditions.html",
-      "sha256": "65a65d8c3a08f3747a2842a6d13e4d16bbef05adb2b78079f4d7772d5df6b69d",
-      "octets": 7052
+      "sha256": "08a3c61cd62e3fd5d4e087221396b408c6562d4eb25c1bce496fadfde39da157",
+      "octets": 7330
     },
     {
       "path": "confidentialite.html",
-      "sha256": "9efe97a7c822029425d0a51c2d12365050cf1a868f77eda4c43d8c26c539f095",
-      "octets": 8456
+      "sha256": "3c00edea89c5f806854865384c8e15a3389af9a8aac003eec776f8886ac496f0",
+      "octets": 8596
     },
     {
       "path": "contact.html",
-      "sha256": "d705281bf0f19228c6aa5659640bbe3fec5c7ca7ec11a27a42b757a0d6cd046a",
-      "octets": 6711
+      "sha256": "39f237f642dc95ef743d6226dae2ac40b1004498f87cd1e9c8c222afadb99e2e",
+      "octets": 6914
     },
     {
       "path": "guide.html",
-      "sha256": "9d68fe45b1319b5cd0a73179fcf4ddd3924b2599a2f7f0cb7e68c167920c2323",
-      "octets": 6811
+      "sha256": "f6eff9a256b08502d0017e653fc3c84e31545c3dc6238ef2bbb56d622cb29d37",
+      "octets": 6945
     },
     {
       "path": "index.html",
-      "sha256": "17c6d2dfeb719976b34c4c30c277f7efd96721896fb42b8d8cae35cb05d837a7",
-      "octets": 14825
+      "sha256": "3a1ef110a5dd998254cc6fb6f34b107661cf7c66cc8364ef4afc3ea9c40a52ac",
+      "octets": 14959
     },
     {
       "path": "livraison.html",
-      "sha256": "17fc3816c84874021c0112983f428562f18655da129125c37e2b7d87781e5db2",
-      "octets": 6945
+      "sha256": "02b6549bc1e74dee47c5784c5d6b1c0a6eafeb54c10289ae387689fe314528e3",
+      "octets": 7079
     },
     {
       "path": "media/embleme.svg",
@@ -94,28 +94,28 @@
     },
     {
       "path": "mentions-legales.html",
-      "sha256": "030f7cf096e366d6ad22451b5c4178503a2e886b5c80ce22e716f8fdd78acc52",
-      "octets": 7229
+      "sha256": "1751f40043d4719a5d41abc96c0326430464de57732609790cea2d88918b0881",
+      "octets": 7507
     },
     {
       "path": "produits/rubaloria-cj-1379230694693277696.html",
-      "sha256": "5a3f477e22e7bfb9dacfd43dd0317fcc9417f86990634e680e7f73a452718e78",
-      "octets": 8072
+      "sha256": "78c2b700348e989abac7c645666a273e1fbc1b9373a5e777958b0d796e687a67",
+      "octets": 8206
     },
     {
       "path": "produits/rubaloria-cj-1385099563165159424.html",
-      "sha256": "9d577ec5ed35494db4fc5784f319867d98b62d559002639d49625ac913fceff5",
-      "octets": 8054
+      "sha256": "4b2e8265dd8a97c4ce08166fdf4050117a1d46c424a681178ecee0cb2b7ba795",
+      "octets": 8188
     },
     {
       "path": "produits/rubaloria-cj-2406290601291625000.html",
-      "sha256": "6f39140d46b7684dd4328b6dc02bdc014da278f6d6730e9f1c86bb96eceacb86",
-      "octets": 8074
+      "sha256": "e01959a802b053bb9db9c0b63f0037843e39a5dd7ef7e9f17800a5f20a1c7453",
+      "octets": 8208
     },
     {
       "path": "retours.html",
-      "sha256": "b5478b814f533611e796a48913f2ad0ff82f1fef3d071c728c0e78ebe3f54557",
-      "octets": 7017
+      "sha256": "9b3a0d3f0408ff09db152cef8fe4e8c207c8f992158bf1f15758761a2dae01d9",
+      "octets": 7295
     },
     {
       "path": "robots.txt",
@@ -132,5 +132,13 @@
       "sha256": "4468f3853a7ff5c4fe84d2814ef98d795741403397908f0c491b05e798f57687",
       "octets": 29097
     }
-  ]
+  ],
+  "contactSAV": {
+    "email": "miniandmerveilles@gmail.com",
+    "mailto": "mailto:miniandmerveilles@gmail.com",
+    "salesEnabled": false,
+    "envoiMessageEffectue": false,
+    "comptesPrivesModifies": false,
+    "portee": "contact public et SAV uniquement"
+  }
 }
