@@ -1,6 +1,6 @@
 {
   "format": "boutique-export/1",
-  "dateUTC": "2026-10-27T20:55:30.161017Z",
+  "dateUTC": "2026-10-29T22:03:11.951990+00:00",
   "brandSlug": "filavane",
   "name": "Filavane",
   "branche": "entreprise/filavane",
@@ -14,8 +14,8 @@
   "files": [
     {
       "path": "404.html",
-      "sha256": "d0ce3d7f8d74e89b99a098154f26b9fac35c2fd8029de76afb5b0e2383ca3a32",
-      "octets": 5661
+      "sha256": "06f4f814563f6976a512d75750257b35e9a2d1546fb1a42fe55ce7a6ae0b6d41",
+      "octets": 5795
     },
     {
       "path": "app.js",
@@ -24,8 +24,8 @@
     },
     {
       "path": "avis.html",
-      "sha256": "ee85d53b634aad70f9ef677ccad530d9a72b4e87794265df3b61437ee85f125d",
-      "octets": 7684
+      "sha256": "3fa88d23842c1ca9c3f77d1885adf65c871cb043887415205ecef1509388c828",
+      "octets": 7818
     },
     {
       "path": "brand.json",
@@ -34,8 +34,8 @@
     },
     {
       "path": "catalogue.html",
-      "sha256": "47fc5ab8692398dfa05a1b9726343a131fb35b55830d84269d751e31952a5338",
-      "octets": 8525
+      "sha256": "53b889ade77bcffd0741b6bfe3d3d0e56fe143269aa3e92dd112d11a2040704c",
+      "octets": 8659
     },
     {
       "path": "catalogue.json",
@@ -44,33 +44,33 @@
     },
     {
       "path": "conditions.html",
-      "sha256": "568a1664be656628f53900a9b10621950f37c7429022b5dff55e07e0ac146de3",
-      "octets": 6390
+      "sha256": "357ee383dc1c0f6eac659105075300d02161fa5ad4de8200d3d7e42f8360040a",
+      "octets": 6668
     },
     {
       "path": "confidentialite.html",
-      "sha256": "5ed2008c205417af021383a4484d93a53f248045175b7fe4fbfb70cca77fb51a",
-      "octets": 7794
+      "sha256": "b9092b0794488f7d9c82dec52e198b99ab5e7990615bc493f9af259619890c05",
+      "octets": 7934
     },
     {
       "path": "contact.html",
-      "sha256": "3579df63cb9eeaffa726339a6d6e9b91c6a9e3132e654e7fb7f3d3f1fb4128b0",
-      "octets": 6049
+      "sha256": "6b98f4875d91d36cd0e721cff3f823b9792c8ccc32e78a18ef0d67052da6c8fa",
+      "octets": 6252
     },
     {
       "path": "guide.html",
-      "sha256": "b0e62b4f1402050cc395d19f4af8084ccce5e8116bb389368814119758add76c",
-      "octets": 6148
+      "sha256": "d5bbdbbfbf87bcc3bee720741d0498c1c202051f8b9f650ed39a90693014b5d8",
+      "octets": 6282
     },
     {
       "path": "index.html",
-      "sha256": "f38d47f609f8a2b20fe50e29b11fc472c13cb91f6a5cdb51b5574be828087dbd",
-      "octets": 13237
+      "sha256": "f9826b503345192f91ea5a32f842d06d839efe124a030f326b42fe3e500aa60e",
+      "octets": 13371
     },
     {
       "path": "livraison.html",
-      "sha256": "2ee23acaea93ad29c89bce169084e7924e09dcbf9068942f9cb38b64297a5b49",
-      "octets": 6283
+      "sha256": "99e89e3ffca85f939b34967fb1b6734fea6c345affc5a3a3299b7839f7deb911",
+      "octets": 6417
     },
     {
       "path": "media/embleme.svg",
@@ -89,23 +89,23 @@
     },
     {
       "path": "mentions-legales.html",
-      "sha256": "b59a4fc79481f663e0921d70621b831c41c168f92573ba738ac5ba89f2294a7b",
-      "octets": 6567
+      "sha256": "801dfaf201560c00c5d80cb48e2bcd68f34e34de0f6eac97483cdf350d9c21cc",
+      "octets": 6845
     },
     {
       "path": "produits/filavane-cj-2407010828011603600.html",
-      "sha256": "03ccf2bc4304b4aed1e005c0237acef24b5e0e990be82107de83b785ae268ec9",
-      "octets": 7456
+      "sha256": "82bb841ff6c299eafed2f4ce47bf9e9b395b46f85ead98803d63771b8c1836e8",
+      "octets": 7590
     },
     {
       "path": "produits/filavane-cj-26918b87-3ab3-45ce-b949-418ada7ac672.html",
-      "sha256": "ff22d0532caae0a2ab37fbc28ac35696c007e76abdb459b7fc709149834bc60c",
-      "octets": 7503
+      "sha256": "57f82529b7367f4ff1b7710d0f1de62fe37521499ba90ccfb9eb31a0919e8803",
+      "octets": 7637
     },
     {
       "path": "retours.html",
-      "sha256": "fe3fe72d317a220507ed171953fbee0798e3ffca5dd0bd28083d6ab9cf9c44d5",
-      "octets": 6355
+      "sha256": "a7e82966daf0476e112c9453fa75b6d31f48324da0749bbaf47dfce57d20eb9c",
+      "octets": 6633
     },
     {
       "path": "robots.txt",
@@ -122,5 +122,13 @@
       "sha256": "660fc389efcfb8194039c27b3d0f56825a402a5739ffc46af08de7a8add87306",
       "octets": 29097
     }
-  ]
+  ],
+  "contactSAV": {
+    "email": "miniandmerveilles@gmail.com",
+    "mailto": "mailto:miniandmerveilles@gmail.com",
+    "salesEnabled": false,
+    "envoiMessageEffectue": false,
+    "comptesPrivesModifies": false,
+    "portee": "contact public et SAV uniquement"
+  }
 }
