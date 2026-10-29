@@ -1,6 +1,6 @@
 {
   "format": "boutique-export/1",
-  "dateUTC": "2026-10-27T20:55:29.482910Z",
+  "dateUTC": "2026-10-29T22:03:10.965203+00:00",
   "brandSlug": "encrivoie",
   "name": "Encrivoie",
   "branche": "entreprise/encrivoie",
@@ -14,8 +14,8 @@
   "files": [
     {
       "path": "404.html",
-      "sha256": "dbb81b6c9972e8a514a02e1d908e2257294b199da3d68cb395b87ec744c6f206",
-      "octets": 6370
+      "sha256": "c9de7c142de446225e369789e7fbddabf6f36e5991eaf65689f5e7fe56a5043d",
+      "octets": 6504
     },
     {
       "path": "app.js",
@@ -24,8 +24,8 @@
     },
     {
       "path": "avis.html",
-      "sha256": "55fb28ae1e12bbccbe689ab640fab76a487ca024d16106fbef487773629171d2",
-      "octets": 8395
+      "sha256": "66de806fefb68867b5d8ea86254365522c5bb6f4d8602e6938393b83d2d360a1",
+      "octets": 8529
     },
     {
       "path": "brand.json",
@@ -34,8 +34,8 @@
     },
     {
       "path": "catalogue.html",
-      "sha256": "80ec7fec57b26de4a2f91c4a86e2062b8095495b6da9d0b7cac4b3db1f0c19f7",
-      "octets": 10477
+      "sha256": "8c9fec6b3149ee03bae03bc50c6160a334b807acf165361b5579a2a9e83f1aa9",
+      "octets": 10611
     },
     {
       "path": "catalogue.json",
@@ -44,33 +44,33 @@
     },
     {
       "path": "conditions.html",
-      "sha256": "3eba3e6b181f8ca441c0341291eb2239e4e39eab52ec88a0a1969e77c849b9a1",
-      "octets": 7099
+      "sha256": "64bdbc3c8a237754459f0407078ba86ba7ab90285f6728cd6fdb8ecb55305cb9",
+      "octets": 7377
     },
     {
       "path": "confidentialite.html",
-      "sha256": "dfee219b3ac82d91a5fd8291aa527d1b4e4fc54ba40131854fc463379af6b7b3",
-      "octets": 8503
+      "sha256": "96ce8c4d8ce0b7d5d2367d851ba972e7f5d7fb306a710417d9d960093275cd20",
+      "octets": 8643
     },
     {
       "path": "contact.html",
-      "sha256": "8873bfeb437fb71c6f55a66bd66bbab9e737bf850f18c22d5246fbb07fbe1220",
-      "octets": 6758
+      "sha256": "620aa10b6d48fae8649b4245e4f9a66c2cbada5c9ea762392faf5d8e22211cd5",
+      "octets": 6961
     },
     {
       "path": "guide.html",
-      "sha256": "bd59203ba2de4f599fb2baee9989965260dbd2b367fff25dc15da4156981e9ea",
-      "octets": 6873
+      "sha256": "4ed0cc2e9bf96bfe648b08389327290acff3b8980173e92f3cd03aeba6aa6111",
+      "octets": 7007
     },
     {
       "path": "index.html",
-      "sha256": "b61b61b4a49e272c6a679d23a3bac91bbf22271839b6a40021bdeab131b3596b",
-      "octets": 14583
+      "sha256": "e62fe134bb7898d492a2cfe89b5442f752c602d0f832b2ca72d5eca41c165899",
+      "octets": 14717
     },
     {
       "path": "livraison.html",
-      "sha256": "28f98a60b455aeee2233afbffbdaf6e4b07fd2d39ea34d91ec6312a1ee9c343b",
-      "octets": 6992
+      "sha256": "a9f2486d36937a034f428eecfae08ef2174f18ebca2cd1d6fb9c7b418be2a77f",
+      "octets": 7126
     },
     {
       "path": "media/embleme.svg",
@@ -94,28 +94,28 @@
     },
     {
       "path": "mentions-legales.html",
-      "sha256": "c7a54ac1271891a441fae0c0962505378072fddd35a7593b225f37bc250391e8",
-      "octets": 7276
+      "sha256": "9db77253ed58e8e0a28f8c2ce798f8266f467ab84b68602b0719bef8643e7631",
+      "octets": 7554
     },
     {
       "path": "produits/encrivoie-cj-1590896399049306112.html",
-      "sha256": "82b1a81c8ba650247300cb1eea480029b103dff9707b4bd631f7ca25015666bf",
-      "octets": 8121
+      "sha256": "13a46a5c07b7a48042c87ee4328ac2a61122a73f4a2ffb0672a475500bf5e8a0",
+      "octets": 8255
     },
     {
       "path": "produits/encrivoie-cj-1738032478780141568.html",
-      "sha256": "5d767c0bd3730f33ea8b5b9ee825a3e896e96e18b00e8989ab8771b7c32cb6c0",
-      "octets": 8152
+      "sha256": "73067afc0b4fb02f01a1edcf642088d3bf8ee7224fe1f3fbbcd78ff1e331a9f3",
+      "octets": 8286
     },
     {
       "path": "produits/encrivoie-cj-2503170539411623200.html",
-      "sha256": "6a6aa6f79385e73099aabe767e43b7b8a32ac1bf7df55f2621059755b36ea36d",
-      "octets": 8146
+      "sha256": "7b5f0f3c93479ca5638a57266b39e372c4fb0db344616ebfce4f79a1b158c9d9",
+      "octets": 8280
     },
     {
       "path": "retours.html",
-      "sha256": "88ef5a4548cf239ba0005d1c13278e3aa0ddaf32552b4201ed17f256ee63a1bb",
-      "octets": 7064
+      "sha256": "88b6ce9a4b801e1e1b6f4826e845e98f66517d56dccbe09a4ce63b15b9585d54",
+      "octets": 7342
     },
     {
       "path": "robots.txt",
@@ -132,5 +132,13 @@
       "sha256": "c79e7955cb34e4691bc6e1d39163cb9bb7a11b22c231ad4d5260ea1990b0e597",
       "octets": 29097
     }
-  ]
+  ],
+  "contactSAV": {
+    "email": "miniandmerveilles@gmail.com",
+    "mailto": "mailto:miniandmerveilles@gmail.com",
+    "salesEnabled": false,
+    "envoiMessageEffectue": false,
+    "comptesPrivesModifies": false,
+    "portee": "contact public et SAV uniquement"
+  }
 }
