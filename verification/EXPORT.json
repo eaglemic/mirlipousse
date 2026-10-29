@@ -1,6 +1,6 @@
 {
   "format": "boutique-export/1",
-  "dateUTC": "2026-10-27T20:55:30.383145Z",
+  "dateUTC": "2026-10-29T22:03:11.658658+00:00",
   "brandSlug": "feuillory",
   "name": "Feuillory",
   "branche": "entreprise/feuillory",
@@ -14,8 +14,8 @@
   "files": [
     {
       "path": "404.html",
-      "sha256": "afedc7e0111b20138e41ade0fa8f31f401df713d7896d5d1b3d34647739010c6",
-      "octets": 6421
+      "sha256": "d6ea82da7194c552d06f963a3b6f87814cb1e87c1bbe54c5e24c59bee6368d8f",
+      "octets": 6555
     },
     {
       "path": "app.js",
@@ -24,8 +24,8 @@
     },
     {
       "path": "avis.html",
-      "sha256": "f6c14389ea05b6c66fff2e321f40638bc1518bc57a688850bb3a384cd807cc9c",
-      "octets": 8446
+      "sha256": "53b66eca8ae323d3e52c2027d52a2fbdae16a86d24338368c53203ff4ad1459b",
+      "octets": 8580
     },
     {
       "path": "brand.json",
@@ -34,8 +34,8 @@
     },
     {
       "path": "catalogue.html",
-      "sha256": "9e2c5587ad9550154bd9455f466a2f0a36de1561f799f9c981240cd39af369c1",
-      "octets": 10624
+      "sha256": "27457d7c1f84b9e76310728c3e1d11f2db6e62674816a06c37b6894b4cdab42a",
+      "octets": 10758
     },
     {
       "path": "catalogue.json",
@@ -44,33 +44,33 @@
     },
     {
       "path": "conditions.html",
-      "sha256": "cb6da11ca0927004c70b8d12ae7bc01a7f6792d9f1e8725eea76aae957f49ea1",
-      "octets": 7150
+      "sha256": "0cacb0f4b16fdcce47a7a7b5a015d0f3030374f153f5344ea083220b1dd5eccf",
+      "octets": 7428
     },
     {
       "path": "confidentialite.html",
-      "sha256": "4da2606f63b79589dc4e1c671ce5efe0cf8298cf06d37bcdb951108fa403cafe",
-      "octets": 8554
+      "sha256": "dd4b9a1bae18347e0916490b79943f8c5dd99e2dedac9c55526480bdf2708761",
+      "octets": 8694
     },
     {
       "path": "contact.html",
-      "sha256": "8060f7053102dbcacc28f8baed5f0d8efac667df2b777c318f48618e789a1d3c",
-      "octets": 6809
+      "sha256": "2b8e95101d6e5e580f45af41f18c3ddbca8e295358dc9c922e75117b2cf288ed",
+      "octets": 7012
     },
     {
       "path": "guide.html",
-      "sha256": "6d37415cfb7958a6766189c90f5a6fcbcc3882eb291f6c51e561dbeb40551fa4",
-      "octets": 6827
+      "sha256": "c4c9de337e4e57489a117e68676bcef39b0cdd967b25d62345ffc8c412723230",
+      "octets": 6961
     },
     {
       "path": "index.html",
-      "sha256": "5f87e50df3f07f140f4c40cbaf260a913225c9d4e85f1d8dda6bf94404738b87",
-      "octets": 15069
+      "sha256": "d4e830c947f9bd522b5d54bc3a69a5fb46d49168045c8ebe9fe3978e1e795b2e",
+      "octets": 15203
     },
     {
       "path": "livraison.html",
-      "sha256": "b9a4d8523492087cbb3aebed7a5644ec0b31c60bfa23a30413511f76f4e2a039",
-      "octets": 7043
+      "sha256": "f1079a331edbf100d9dbbd57d846a61eae9c35947befd521ad328052f87fad91",
+      "octets": 7177
     },
     {
       "path": "media/embleme.svg",
@@ -94,28 +94,28 @@
     },
     {
       "path": "mentions-legales.html",
-      "sha256": "904d6ff03ea708682816e381a19651bbc48cd5c167d76052ff25fa7ebb128489",
-      "octets": 7327
+      "sha256": "aaaa6e2cd3f19a14a0e379e25de72fbe24fde0d8e4421ac796feedc38a63df5a",
+      "octets": 7605
     },
     {
       "path": "produits/feuillory-cj-12fc11a9-45bc-430b-bf9e-e1e8c6551b4e.html",
-      "sha256": "5c77e71743b29a0eee5ec2fffa16376e206e8d8c1a492185af35d2e49b2f3990",
-      "octets": 8219
+      "sha256": "4da39b5ae16305af96b13f51a6deb470aab0c510a9e481e501b7fda219454f39",
+      "octets": 8353
     },
     {
       "path": "produits/feuillory-cj-1394173368693035008.html",
-      "sha256": "725af901fa3d393b517a5fc4794a9a52645cdfa564b4ccb1460c58c6ce74b2e4",
-      "octets": 8199
+      "sha256": "d74b4838ac31c4ed1e0cc8670cc71fbd8b5702fbcf482a1fa5c0292ca8ec6f22",
+      "octets": 8333
     },
     {
       "path": "produits/feuillory-cj-2503120220541603100.html",
-      "sha256": "684e4c37c5e2b7e4f261016824bc5020577be69b72de8643e79037d651f80545",
-      "octets": 8271
+      "sha256": "f8cd879fcda8627c47bb5fec846a5217df385e45dda64ba5bc1ca4a14ee6e1ad",
+      "octets": 8405
     },
     {
       "path": "retours.html",
-      "sha256": "0640a8e140d892bf48588ccaaeef453e5e86259052ffc375a327db6cd274650b",
-      "octets": 7115
+      "sha256": "9cf4de8ddb82c57d35e001c8193b14d0a5759b3e828e163565fa7fbbc67b0463",
+      "octets": 7393
     },
     {
       "path": "robots.txt",
@@ -132,5 +132,13 @@
       "sha256": "d4874a8ca0f6d91377de2ed6e2b6c6d854234729eebaaabf685ab76bf9f1831f",
       "octets": 29097
     }
-  ]
+  ],
+  "contactSAV": {
+    "email": "miniandmerveilles@gmail.com",
+    "mailto": "mailto:miniandmerveilles@gmail.com",
+    "salesEnabled": false,
+    "envoiMessageEffectue": false,
+    "comptesPrivesModifies": false,
+    "portee": "contact public et SAV uniquement"
+  }
 }
