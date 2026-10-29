@@ -11,6 +11,7 @@ export function restoreCart(value:unknown,products:Product[]){
  for(const raw of value.slice(0,40)){
   if(!raw||typeof raw!=='object'||typeof raw.id!=='string'||raw.id.length>180||!Number.isInteger(raw.quantity)||raw.quantity<1||raw.quantity>10)continue;
   if(isCatalogueExcluded(raw))continue;
+  if(Object.hasOwn(raw,'variantId')&&(typeof raw.variantId!=='string'||raw.variantId.length<1||raw.variantId.length>120))throw Error('PANIER_VARIANTE_INVALIDE');
   const p=known.get(raw.id);const rawVariant=typeof raw.variantId==='string'&&raw.variantId.length<=120?raw.variantId:undefined;const migrated=rawVariant?publicVariantId(rawVariant):null;const knownVariant=migrated&&(p?.defaultVariantId===migrated||p?.variants?.some(v=>v.id===migrated));const variantId=rawVariant?(knownVariant?migrated!:rawVariant):p?.defaultVariantId;
   if(!p||!variantId){unresolved.push({id:raw.id,...(variantId?{variantId}:{}),quantity:raw.quantity});continue;}
   const key=p.id+'|'+variantId,original=raw.id+'|'+(rawVariant||'');if(originalKeys.has(key)&&originalKeys.get(key)!==original)throw Error('PANIER_ALIAS_CONFLICT');originalKeys.set(key,original);const before=lines.get(key);lines.set(key,{id:p.id,variantId,quantity:Math.min(10,(before?.quantity||0)+raw.quantity)});

@@ -1,9 +1,11 @@
 /** Catalogue public : identifiants boutique opaques, aucune référence commerciale interne. */
 import pricing from "./pricing-public.json";
+import variantCatalogue from "./variants-public.json";
 import ageEvidence from "./age-evidence-public.json";
 import {readAgeEvidence,type AgeCoverage} from "../age-groups";
 import {isCatalogueExcluded} from "../catalogue-exclusions";
-export type Product = {ageKnown?:boolean;ageGroups?:string[];ageGroupCoverage?:AgeCoverage[];ageSource?:string;ageEvidenceStatus?:string;indicativePriceCents?:number|null;priceStatus?:string;priceLabel?:string;catalogueCategory?:string;catalogueCategoryLabel?:string;variants?:{id:string;label:string;availableForCheckout:boolean}[];id:string; name:string; subtitle:string; category:'eveil'|'creativite'|'aventure'|'quotidien'; age:'0-2'|'3-5'|'6-8'|'9-12'|null; ageLabel:string; priceCents:null; image:string; color:string; description:string; details:string[]; demo:false; defaultVariantId:string;};
+export type ProductVariant={id:string;label:string;image?:string;imageAlt?:string;indicativePriceCents?:number|null;availableForCheckout:boolean};
+export type Product = {ageKnown?:boolean;ageGroups?:string[];ageGroupCoverage?:AgeCoverage[];ageSource?:string;ageEvidenceStatus?:string;indicativePriceCents?:number|null;priceStatus?:string;priceLabel?:string;catalogueCategory?:string;catalogueCategoryLabel?:string;variants?:ProductVariant[];id:string; name:string; subtitle:string; category:'eveil'|'creativite'|'aventure'|'quotidien'; age:'0-2'|'3-5'|'6-8'|'9-12'|null; ageLabel:string; priceCents:null; image:string; color:string; description:string; details:string[]; demo:false; defaultVariantId:string;};
 const baseProducts: Product[] = [
   {
     "id": "mm-p-823e50754eaf2e54744e3eb4ba764152e87c19283266142e89d337ec6a1b2b84",
@@ -141,7 +143,7 @@ const baseProducts: Product[] = [
     "priceCents": null,
     "image": "/media/articles/e877096285ab686d07e0cea0c22ebe3d6f73677ff565bccc427ca7495488321a.webp",
     "color": "#f4f2ed",
-    "description": "Un pull enfant à manches longues et motif brodé. Les tailles fournisseur doivent être vérifiées avant toute vente.",
+    "description": "Un pull enfant à manches longues et motif brodé. Les tailles doivent être vérifiées avant toute vente.",
     "details": [
       "Âge d’utilisation non communiqué : à confirmer avant toute vente.",
       "Matières annoncées : Fibre d’alcool polyvinylique (Vinylon) indiquée par la fiche article ; étiquette de composition à confirmer."
@@ -429,7 +431,7 @@ const baseProducts: Product[] = [
     "priceCents": null,
     "image": "/media/articles/c5c139126af533d425aa9bff77db70b4b9eaad3bcfbd6f517fe07476e3b2e5df.webp",
     "color": "#f4f2ed",
-    "description": "Trousse de rangement à fermeture. Le fournisseur précise que la peluche panda visible sur certaines photos est un accessoire de présentation non inclus.",
+    "description": "Trousse de rangement à fermeture. La peluche panda visible sur certaines photos est un accessoire de présentation non inclus.",
     "details": [
       "Âge d’utilisation non communiqué : à confirmer avant toute vente.",
       "Matières annoncées : Matière déclarée par la fiche article : Polyester."
@@ -537,16 +539,17 @@ const baseProducts: Product[] = [
     "priceCents": null,
     "image": "/media/articles/7514604b31f4d99783ad81b1f23a2950a6d4a300da4a2fccb660f52bb85feef4.webp",
     "color": "#f8e6ec",
-    "description": "Une trousse rose à damier, avec un motif lapin et plusieurs poches zippées. La photo fournisseur correspond à la variante rose présentée.",
+    "description": "Une trousse rose à damier, avec un motif lapin et plusieurs poches zippées. La photo correspond au modèle présenté.",
     "details": [
       "Âge d’utilisation non communiqué : à confirmer avant toute vente.",
-      "Matière et dimensions indiquées sur la photo fournisseur : tissu Oxford, 22 × 7,5 × 10 cm."
+      "Matière et dimensions indiquées sur la photo : tissu Oxford, 22 × 7,5 × 10 cm."
     ],
     "demo": false,
     "defaultVariantId": "mm-v-4316be8785e822cf0d1835c0f05e11d1cec98fb50de143a3eeaba072b83cf299"
   }
 ];
 
+const variantProducts=new Map(variantCatalogue.products.map(p=>[p.id,p]));
 const prices = new Map<string, any>(pricing.products.map((p:any)=>[p.id,p]));
 const ages = readAgeEvidence(ageEvidence);
-export const products:Product[] = baseProducts.filter(p=>!isCatalogueExcluded(p)).map(p=>{const v=prices.get(p.id);const a=ages.get(p.id);if(!a||a.variantId!==p.defaultVariantId)throw Error("AGE_PRODUCT_MISMATCH");return {...p,ageKnown:a.ageKnown,ageGroups:a.ageGroups,ageGroupCoverage:a.ageGroupCoverage,ageLabel:a.ageLabel,ageSource:a.ageSource,ageEvidenceStatus:a.qualificationStatus,details:[a.ageLabel+". Cette information reste à vérifier avant la vente.",...p.details.filter(d=>!d.startsWith("Âge d’utilisation"))],indicativePriceCents:v?.indicativePriceCents??null,priceStatus:v?.priceStatus||"tarif_a_confirmer",priceLabel:v?.priceLabel||"Tarif à confirmer",catalogueCategory:v?.category||p.category,catalogueCategoryLabel:v?.categoryLabel||p.subtitle,...(v?.variants?{variants:v.variants.map((x:any)=>({id:x.id,label:x.label,availableForCheckout:false}))}:{} )};});
+export const products:Product[] = baseProducts.filter(p=>!isCatalogueExcluded(p)).map(p=>{const v=prices.get(p.id);const a=ages.get(p.id);if(!a||a.variantId!==p.defaultVariantId)throw Error("AGE_PRODUCT_MISMATCH");return {...p,ageKnown:a.ageKnown,ageGroups:a.ageGroups,ageGroupCoverage:a.ageGroupCoverage,ageLabel:a.ageLabel,ageSource:a.ageSource,ageEvidenceStatus:a.qualificationStatus,details:[a.ageLabel+". Cette information reste à vérifier avant la vente.",...p.details.filter(d=>!d.startsWith("Âge d’utilisation"))],indicativePriceCents:v?.indicativePriceCents??null,priceStatus:v?.priceStatus||"tarif_a_confirmer",priceLabel:v?.priceLabel||"Tarif à confirmer",catalogueCategory:v?.category||p.category,catalogueCategoryLabel:v?.categoryLabel||p.subtitle,variants:(variantProducts.get(p.id)?.variants||v?.variants||[]).map((x:any)=>({...x,indicativePriceCents:x.id===p.defaultVariantId?(v?.indicativePriceCents??null):null,availableForCheckout:false}))};});
