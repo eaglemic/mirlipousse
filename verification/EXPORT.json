@@ -1,6 +1,6 @@
 {
   "format": "boutique-export/1",
-  "dateUTC": "2026-10-27T20:55:30.823388Z",
+  "dateUTC": "2026-10-29T22:03:12.582893+00:00",
   "brandSlug": "nuitrelia",
   "name": "Nuitrélia",
   "branche": "entreprise/nuitrelia",
@@ -14,8 +14,8 @@
   "files": [
     {
       "path": "404.html",
-      "sha256": "7f26adccf8ef53619f8ab2abbe2ed8f8009a275eaed4e9730862ecc2c6e31278",
-      "octets": 7373
+      "sha256": "47ed6c1913d746156815fe03039ad4a0fc58c8002afe6ce9d63487437d5feda7",
+      "octets": 7507
     },
     {
       "path": "app.js",
@@ -24,8 +24,8 @@
     },
     {
       "path": "avis.html",
-      "sha256": "f6a7acde55b30b4e9a1688f9e86286162967c5c90a72dbc8241bd544c6c266cd",
-      "octets": 9399
+      "sha256": "85957ffb212c746590a4a21771f0fe9717b53dc1b1857c24f455c1d39de67b9d",
+      "octets": 9533
     },
     {
       "path": "brand.json",
@@ -34,8 +34,8 @@
     },
     {
       "path": "catalogue.html",
-      "sha256": "a9f17a36ae87b6724e9e59e7c665dc38d90f1e060f1005b03cb90074d87eddc0",
-      "octets": 11578
+      "sha256": "dc5ce01a2585c1ab6e8978477f2c2ee46d1721614d6c3a902a8743d0531661af",
+      "octets": 11712
     },
     {
       "path": "catalogue.json",
@@ -44,33 +44,33 @@
     },
     {
       "path": "conditions.html",
-      "sha256": "624044706a3f9b8abf6a38973f6d78d8db574be09ddf4de6f66be51373c73c1f",
-      "octets": 8102
+      "sha256": "eac952fb76500ac261281ee9466e5fa75352f11e09b01fc97efd18765b5b742a",
+      "octets": 8380
     },
     {
       "path": "confidentialite.html",
-      "sha256": "19fd5c116a42ef0caebc0c3c980d86e9d6060fc90dcead0f72e17de90110941b",
-      "octets": 9506
+      "sha256": "b600f781b24cef404ecf0cce08d8253fd52900c451e60c454a1ef8c3a0528796",
+      "octets": 9646
     },
     {
       "path": "contact.html",
-      "sha256": "3bafe644d39f180af2ef130881e8371bb7ff0c22adebf17ffe2e85b2f0e8bb0d",
-      "octets": 7761
+      "sha256": "bc0cca626900acd3aaad1a6e2b7b9a3732697c0f199aee2c9e003a9c410136eb",
+      "octets": 7964
     },
     {
       "path": "guide.html",
-      "sha256": "6ea06d2864edfbe0f80bb8d1d272fdb8ba9a9d35fa2ab4c43ea06c28ace2724f",
-      "octets": 7911
+      "sha256": "95a8ba4d1c7f8dec9ee880ce0a00e31d75f689fcd9ae6b9c831608180604d38d",
+      "octets": 8045
     },
     {
       "path": "index.html",
-      "sha256": "a367b93146171ead8460d888f01d513bb630a6b1b6c0b7d17b602263b26d3285",
-      "octets": 16188
+      "sha256": "ea8acaa720d478a942abdbea981f3a091c18e3f6c0abad9f753a35a74ae05019",
+      "octets": 16322
     },
     {
       "path": "livraison.html",
-      "sha256": "146eef7d4a01e3e73140085ed7f4378e8186adf08e83a1b748e18f6e1f1dff5e",
-      "octets": 7995
+      "sha256": "d4e21833d7df3cb96ca2a9fba87e400bc3406f5e8ffc058cb2b389a689d98c3b",
+      "octets": 8129
     },
     {
       "path": "media/embleme.svg",
@@ -94,28 +94,28 @@
     },
     {
       "path": "mentions-legales.html",
-      "sha256": "2b8b200e800f5297e0a65c41138bf02f1651450f6b04154d677d8d093bd42a68",
-      "octets": 8279
+      "sha256": "017c6d239bd9fbc68afd8149632b7a5c9bdc8ce1e7c21475503058466924c1d0",
+      "octets": 8557
     },
     {
       "path": "produits/nuitrelia-cj-1790316378436669440.html",
-      "sha256": "ec384d0b7d11aaab2da8b1dfc60f3a4ea8886e44e538f662bb8dd2248fe55857",
-      "octets": 9289
+      "sha256": "acefdb4d1557a284efc2c2bfa65ab0e4b66dfc5ac9dccefeb4c3035f585f17be",
+      "octets": 9423
     },
     {
       "path": "produits/nuitrelia-cj-2406100533441623200.html",
-      "sha256": "6ea50df8ead50476ab07c5b519c05e508be8545effacd0945c99ac4b55f96b87",
-      "octets": 9231
+      "sha256": "1a7b0c1e5f303208ea7f0e304c24dd557ca43b53ca2b84667a001ed87544791d",
+      "octets": 9365
     },
     {
       "path": "produits/nuitrelia-cj-b15d8d56-5637-4be9-a14c-c11f1c141055.html",
-      "sha256": "fc78a9a2e46027b184da0c36a63f7d8ccd89d04b47d7a8b87890afc234e5bb84",
-      "octets": 9182
+      "sha256": "44a3b8c8f87054a847e44f995f573db06b4065fb08f6e7247b5019bc39519094",
+      "octets": 9316
     },
     {
       "path": "retours.html",
-      "sha256": "339b0913beeee740fb2b4ff71ab84f6dfe99c8b2167df179786e86eea8b53d31",
-      "octets": 8067
+      "sha256": "a6c974d0b1fb66efb010bd3179264b3b4a6c6f23c7946133eee2b353432cb24f",
+      "octets": 8345
     },
     {
       "path": "robots.txt",
@@ -132,5 +132,13 @@
       "sha256": "9edb7a05a7a83468f3f0477be57fb9674f7d4f6299d48ccf0a618bf28eda64a9",
       "octets": 29097
     }
-  ]
+  ],
+  "contactSAV": {
+    "email": "miniandmerveilles@gmail.com",
+    "mailto": "mailto:miniandmerveilles@gmail.com",
+    "salesEnabled": false,
+    "envoiMessageEffectue": false,
+    "comptesPrivesModifies": false,
+    "portee": "contact public et SAV uniquement"
+  }
 }
