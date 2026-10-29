@@ -49,7 +49,7 @@ for(const group of process.argv.includes('--app-only')?[]:AGE_GROUPS){
  let html=current.replace(old[0],renderToString(content));for(const file of entry.css||[])if(!html.includes('href="/'+file+'"'))html=html.replace('</head>','<link rel="stylesheet" href="/'+file+'"></head>');
  await writeFile(path.join(OUT,relative),html);
 }
-// Dans les catégories natives par type, seul le badge des quatre âges prouvés change.
+// Dans les catégories natives par type, seul le libellé public des badges change ; aucun âge n’est qualifié.
 let badgesParType=0;const ageDirectories=new Set(AGE_GROUPS.map(g=>g.id+'ans'));
 for(const directory of process.argv.includes('--app-only')?[]:await readdir(path.join(BASE,'collections'))){
  if(ageDirectories.has(directory))continue;
@@ -57,7 +57,7 @@ for(const directory of process.argv.includes('--app-only')?[]:await readdir(path
  const html=current.replace(/<article\b[\s\S]*?<\/article>/g,article=>{
   const match=article.match(/[?&]produit=([^&#"]+)/);if(!match)return article;
   const product=products.find(p=>p.id===decodeURIComponent(match[1]));if(!product?.ageKnown)return article;
-  const changed=article.replace('<span class="age-badge">Âge à confirmer</span>','<span class="age-badge">'+product.ageLabel.split(' · ')[0]+'</span>');if(changed!==article)badgesParType++;return changed;
+  const changed=article.replace(/<span class="age-badge">[^<]*<\/span>/,'<span class="age-badge">'+product.ageLabel.split(' · ')[0]+'</span>');if(changed!==article)badgesParType++;return changed;
  });
  if(html!==current)await writeFile(path.join(OUT,relative),html);
 }

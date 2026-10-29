@@ -13,9 +13,14 @@ DOCUMENT_DATE_ISO = DATA['documentDateISO']
 assert re.fullmatch(r'\d{4}-\d{2}-\d{2}', DOCUMENT_DATE_ISO)
 CGV_DOWNLOAD_PATH = DATA['pages']['cgv']['downloads'][0]['href']
 assert re.fullmatch(r'/documents/cgv-preparation-\d{8}\.txt', CGV_DOWNLOAD_PATH)
+MEDIATOR_PENDING = not DATA['mediatorDesignated']
 PREPARATION_NOTICE = ('Ce document est public et consultable, mais il ne permet pas de passer commande. '
-                      'La franchise en base de TVA est déclarée par la vendeuse. La convention de médiation, '
-                      'les produits, les livraisons et le parcours de vente restent à finaliser avant l’ouverture.')
+                      'La franchise en base de TVA est déclarée par la vendeuse. '
+                      + ('La convention de médiation, les produits, les livraisons et le parcours de vente restent à finaliser avant l’ouverture.'
+                         if MEDIATOR_PENDING else 'Les produits, les livraisons et le parcours de vente restent à finaliser avant l’ouverture.'))
+if not MEDIATOR_PENDING:
+    assert DATA['mediator'] == {'name': 'Médiation CMFM', 'address': '19 avenue d’Italie, 75013 Paris',
+                               'website': 'https://mediationcmfm.eu/consommateur/demande-mediation', 'email': 'contact@mediationcmfm.fr'}
 ORIGIN = 'https://mirlipousse.onrender.com'
 LINKS = [
     ('informations-legales', 'Informations légales'), ('cgv', 'CGV'),
@@ -45,6 +50,10 @@ def text_html(raw):
     value = value.replace('Gaelle2027@icloud.com', '<a href="mailto:Gaelle2027@icloud.com">Gaelle2027@icloud.com</a>')
     if DATA.get('phonePublicAuthorised') and DATA.get('phonePublic') == '+33785713797':
         value = value.replace('07 85 71 37 97', '<a href="tel:+33785713797">07 85 71 37 97</a>')
+    if DATA['mediatorDesignated']:
+        for address, target in [('contact@mediationcmfm.fr', 'mailto:contact@mediationcmfm.fr'),
+                                ('https://mediationcmfm.eu/consommateur/demande-mediation', 'https://mediationcmfm.eu/consommateur/demande-mediation')]:
+            value = value.replace(address, '<a href="' + target + '">' + address + '</a>')
     return value
 
 def body(slug, data):

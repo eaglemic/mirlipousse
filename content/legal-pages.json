@@ -5,7 +5,7 @@
   "returnAddressConfirmed": true,
   "phonePublic": "+33785713797",
   "vatRegimeConfirmed": false,
-  "mediatorDesignated": false,
+  "mediatorDesignated": true,
   "pages": {
     "informations-legales": {
       "title": "Vos informations, en toute clarté",
@@ -21,7 +21,7 @@
           "title": "Votre interlocutrice",
           "paragraphs": [
             "Mini & Merveilles est porté par BACH Gaëlle, entrepreneure individuelle sous le régime de la micro-entreprise déclaré. Contact et adresse de retour : 7 rue de l’Aramon, 11220 Talairan, France. E-mail : Gaelle2027@icloud.com.",
-            "Téléphone SAV : 07 85 71 37 97. Le régime de TVA déclaré par la vendeuse est la franchise en base : les ventes relevant de ce régime seront facturées sans TVA, avec la mention « TVA non applicable, art. 293 B du CGI ». Une convention de médiation reste en attente ; aucun médiateur n’est encore désigné et les ventes restent fermées."
+            "Téléphone SAV : 07 85 71 37 97. Le régime de TVA déclaré par la vendeuse est la franchise en base : les ventes relevant de ce régime seront facturées sans TVA, avec la mention « TVA non applicable, art. 293 B du CGI ». Le médiateur de la consommation désigné est Médiation CMFM. Ses coordonnées et les modalités de saisine figurent sur la page Médiation. Les ventes restent fermées."
           ]
         },
         {
@@ -105,7 +105,7 @@
           "title": "9. Service après-vente, réclamation et médiation",
           "paragraphs": [
             "Les demandes sont adressées à Gaelle2027@icloud.com ou par courrier au vendeur. Le client décrit le problème et indique sa référence de commande, sans envoyer de mot de passe, de code d’accès privé ni de données de carte bancaire.",
-            "Après une réclamation écrite préalable non résolue, le consommateur peut recourir gratuitement au médiateur de la consommation dont relève le vendeur, lorsque les conditions de recevabilité sont réunies. Le vendeur doit conclure une convention et publier ses coordonnées et son site avant l’ouverture des ventes. Aucun médiateur n’est encore désigné dans cette version. Aucun lien vers l’ancienne plateforme européenne de règlement en ligne des litiges, fermée en 2025, n’est proposé comme service actif."
+            "Après une réclamation écrite préalable non résolue, le consommateur peut recourir gratuitement à Médiation CMFM, médiateur de la consommation désigné par le vendeur, lorsque les conditions de recevabilité sont réunies. Adresse : 19 avenue d’Italie, 75013 Paris. E-mail : contact@mediationcmfm.fr. Saisine en ligne : https://mediationcmfm.eu/consommateur/demande-mediation. Aucun lien vers l’ancienne plateforme européenne de règlement en ligne des litiges, fermée en 2025, n’est proposé comme service actif."
           ]
         },
         {
@@ -119,7 +119,7 @@
           "title": "11. Droit applicable et version",
           "paragraphs": [
             "Le projet vise des consommateurs en France et en Belgique. Le choix d’un droit applicable ne peut pas priver un consommateur des protections impératives qui lui sont garanties dans son pays de résidence habituelle. Aucune compétence exclusive d’un tribunal du vendeur n’est imposée au consommateur.",
-            "Cette version de préparation du 28 octobre 2026 ne modifie aucun contrat antérieur et ne permet pas de payer. Pour une vente future, les conditions intégrales présentées et acceptées à la date de la commande feront partie de son dossier."
+            "Cette version de préparation du 29 octobre 2026 ne modifie aucun contrat antérieur et ne permet pas de payer. Pour une vente future, les conditions intégrales présentées et acceptées à la date de la commande feront partie de son dossier."
           ]
         }
       ],
@@ -258,8 +258,8 @@
         {
           "title": "Le médiateur de la consommation",
           "paragraphs": [
-            "Pour une vente à un particulier, le vendeur doit permettre l’accès à un médiateur compétent et en publier les coordonnées. Une adhésion ou convention réelle est nécessaire : citer un organisme au hasard ne suffit pas.",
-            "Une convention de médiation est en attente pour Mini & Merveilles ; aucune adhésion effective n’est annoncée. Aucun organisme, numéro de convention ni lien de saisine n’est présenté comme déjà disponible. Les ventes restent fermées. Le nom, l’adresse et le site du médiateur désigné seront publiés après convention effective et avant l’ouverture."
+            "Le médiateur de la consommation désigné par Mini & Merveilles est Médiation CMFM.",
+            "Adresse : 19 avenue d’Italie, 75013 Paris. E-mail : contact@mediationcmfm.fr. Vous pouvez déposer une demande sur https://mediationcmfm.eu/consommateur/demande-mediation, après une réclamation écrite préalable auprès du vendeur et lorsque les conditions de recevabilité sont réunies. Les ventes restent fermées."
           ]
         },
         {
@@ -281,6 +281,14 @@
         {
           "label": "Médiation de la consommation — DGCCRF",
           "url": "https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/la-mediation-de-la-consommation-ce-que-vous-devez-savoir"
+        },
+        {
+          "label": "Coordonnées officielles — Médiation CMFM",
+          "url": "https://mediationcmfm.eu/mentions-legales"
+        },
+        {
+          "label": "Demande de médiation — Médiation CMFM",
+          "url": "https://mediationcmfm.eu/consommateur/demande-mediation"
         }
       ]
     },
@@ -336,7 +344,7 @@
           "title": "Éditrice et responsable de publication",
           "paragraphs": [
             "BACH Gaëlle, entrepreneure individuelle, sous le régime de la micro-entreprise déclaré. Marque du projet : Mini & Merveilles ; nom commercial : Mini and merveilles. Adresse : 7 rue de l’Aramon, 11220 Talairan, France. E-mail public : Gaelle2027@icloud.com. Immatriculation au RCS de Carcassonne, SIREN : 988 178 257. SIRET déclaré : 988 178 257 00016.",
-            "Téléphone SAV : 07 85 71 37 97. Le régime de TVA déclaré est la franchise en base : les ventes relevant de ce régime seront facturées sans TVA, avec la mention « TVA non applicable, art. 293 B du CGI ». La convention de médiation reste en attente. Les ventes ne sont pas ouvertes."
+            "Téléphone SAV : 07 85 71 37 97. Le régime de TVA déclaré est la franchise en base : les ventes relevant de ce régime seront facturées sans TVA, avec la mention « TVA non applicable, art. 293 B du CGI ». Le médiateur de la consommation désigné est Médiation CMFM ; ses coordonnées et les modalités de saisine sont accessibles sur la page Médiation. Les ventes ne sont pas ouvertes."
           ]
         },
         {
@@ -555,5 +563,11 @@
   "documentDate": "29 octobre 2026",
   "documentDateISO": "2026-10-29",
   "vatRegimeDeclared": "franchise_en_base",
-  "vatRegimeDeclarationDate": "2026-10-29"
+  "vatRegimeDeclarationDate": "2026-10-29",
+  "mediator": {
+    "name": "Médiation CMFM",
+    "address": "19 avenue d’Italie, 75013 Paris",
+    "website": "https://mediationcmfm.eu/consommateur/demande-mediation",
+    "email": "contact@mediationcmfm.fr"
+  }
 }

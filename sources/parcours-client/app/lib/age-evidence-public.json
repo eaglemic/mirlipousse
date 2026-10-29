@@ -60,9 +60,8 @@
       "ageSource": "Photo article de l’emballage · marquage non vérifié physiquement",
       "purchaseEnabled": false,
       "checkoutEligible": false,
-      "sourceExcerpt": "6+ AGE",
-      "sourceObservedAt": "2026-10-27T19:42:40.923641+00:00",
-      "variantId": "mm-v-3c1c133af999c662b568fc33c3ff366f664f2c611fcacd691a8087b742e2d78c"
+      "variantId": "mm-v-3c1c133af999c662b568fc33c3ff366f664f2c611fcacd691a8087b742e2d78c",
+      "ageEvidenceAvailable": true
     },
     {
       "id": "mm-p-3304df193601a8fdb6590949202f9c1c572bb0342fe174696c3ca8a2167bda17",
@@ -79,9 +78,8 @@
       "ageSource": "Âge non indiqué par la fiche article",
       "purchaseEnabled": false,
       "checkoutEligible": false,
-      "sourceExcerpt": null,
-      "sourceObservedAt": "2026-10-28T00:19:32.795Z",
-      "variantId": "mm-v-0675da0d17aeb40b786a863693f561cf13f00e9125f855f0234adb9906a8ec88"
+      "variantId": "mm-v-0675da0d17aeb40b786a863693f561cf13f00e9125f855f0234adb9906a8ec88",
+      "ageEvidenceAvailable": false
     },
     {
       "id": "mm-p-0e2212657d8635a8dabf95c69735291c6da92e85ac353c40e2baa2229c6057dc",
@@ -98,9 +96,8 @@
       "ageSource": "Âge non indiqué par la fiche article",
       "purchaseEnabled": false,
       "checkoutEligible": false,
-      "sourceExcerpt": null,
-      "sourceObservedAt": "2026-10-28T00:19:33.885Z",
-      "variantId": "mm-v-c858403c51f1590dbd9ede81fe4ef8e249c0559afd9c16c2c424af8a7123b833"
+      "variantId": "mm-v-c858403c51f1590dbd9ede81fe4ef8e249c0559afd9c16c2c424af8a7123b833",
+      "ageEvidenceAvailable": false
     },
     {
       "id": "mm-p-b6849588037d268d287c9bdda053281b8cb33f647cc06dd24ca98c715fe431c9",
@@ -109,7 +106,7 @@
       "ageMinYears": 3,
       "ageMaxYears": 6,
       "qualificationStatus": "supplier_stated_unverified",
-      "ageLabel": "3 à 6 ans · indication du titre fournisseur",
+      "ageLabel": "Âge à confirmer",
       "ageGroups": [
         "3-5",
         "6-8"
@@ -134,12 +131,11 @@
       ],
       "ageQualified": false,
       "safetyQualified": false,
-      "ageSource": "Fiche CJ · titre original chinois, indication non vérifiée",
+      "ageSource": "Âge d’utilisation non vérifié. Les informations et avertissements doivent être confirmés avant toute vente.",
       "purchaseEnabled": false,
       "checkoutEligible": false,
-      "sourceExcerpt": "幼儿园小孩轻便小背包3-6岁儿童帆布出行包潮",
-      "sourceObservedAt": "2026-10-28T18:52:43.957Z",
-      "variantId": "mm-v-149b2b6b899532c9cd17d2038fe58f7ab2394628fae95b9fe8ce54927521d3ec"
+      "variantId": "mm-v-149b2b6b899532c9cd17d2038fe58f7ab2394628fae95b9fe8ce54927521d3ec",
+      "ageEvidenceAvailable": true
     },
     {
       "id": "mm-p-aabc0acf34b25b5c039b465d32e7b2a11cda79bd08951c49bf1e5ad34f3d9eba",
@@ -156,9 +152,8 @@
       "ageSource": "Âge non indiqué par la fiche article",
       "purchaseEnabled": false,
       "checkoutEligible": false,
-      "sourceExcerpt": null,
-      "sourceObservedAt": "2026-10-28T00:19:36.182Z",
-      "variantId": "mm-v-9ae322840a5418696fdb1771f30ea4bff2f05cb8cb5e42db16005edc00d1e57f"
+      "variantId": "mm-v-9ae322840a5418696fdb1771f30ea4bff2f05cb8cb5e42db16005edc00d1e57f",
+      "ageEvidenceAvailable": false
     },
     {
       "id": "mm-p-faf13d79dd653e119dff8ef046492a36deebb69f7eb3417b2bfc84bddee00e80",
@@ -175,9 +170,8 @@
       "ageSource": "Âge non indiqué par la fiche article",
       "purchaseEnabled": false,
       "checkoutEligible": false,
-      "sourceExcerpt": null,
-      "sourceObservedAt": "2026-10-28T00:19:37.182Z",
-      "variantId": "mm-v-8cee9b945c3041ec01d9de78a91c4d989a11da081e4c1bf04faf398adf63f097"
+      "variantId": "mm-v-8cee9b945c3041ec01d9de78a91c4d989a11da081e4c1bf04faf398adf63f097",
+      "ageEvidenceAvailable": false
     },
     {
       "id": "mm-p-fc63e665654e6369c22956728944b831fe20fa5fa4d4e5238ac1cf5cb4aa4b87",
@@ -194,9 +188,8 @@
       "ageSource": "Âge non indiqué par la fiche article",
       "purchaseEnabled": false,
       "checkoutEligible": false,
-      "sourceExcerpt": null,
-      "sourceObservedAt": "2026-10-28T00:19:38.384Z",
-      "variantId": "mm-v-b16226bee645d7bd177d713f2b78cba9a85dc55de4d7b021e8a9cebb5c833c46"
+      "variantId": "mm-v-b16226bee645d7bd177d713f2b78cba9a85dc55de4d7b021e8a9cebb5c833c46",
+      "ageEvidenceAvailable": false
     },
     {
       "id": "mm-p-3a2083c3a6856ddc2b8801a954374a70948305d8029d14519e759db405de9b21",
@@ -213,9 +206,8 @@
       "ageSource": "Âge non indiqué par la fiche article",
       "purchaseEnabled": false,
       "checkoutEligible": false,
-      "sourceExcerpt": null,
-      "sourceObservedAt": "2026-10-28T00:19:39.409Z",
-      "variantId": "mm-v-e14cc52b4bac899f4a39ab2ed55601f8f57bbb0f8ca81276afa65e04b6d5df3e"
+      "variantId": "mm-v-e14cc52b4bac899f4a39ab2ed55601f8f57bbb0f8ca81276afa65e04b6d5df3e",
+      "ageEvidenceAvailable": false
     },
     {
       "id": "mm-p-41f5e7627e3575f06b31b2db676cd8a12cac15ddd56999167f75b7ea4f304624",
@@ -232,9 +224,8 @@
       "ageSource": "Âge non indiqué par la fiche article",
       "purchaseEnabled": false,
       "checkoutEligible": false,
-      "sourceExcerpt": null,
-      "sourceObservedAt": "2026-10-28T00:19:40.527Z",
-      "variantId": "mm-v-0325b626cf9ab40188bcbd5b399e6f04086f969be8b7ae2c3e787f2e6b83724a"
+      "variantId": "mm-v-0325b626cf9ab40188bcbd5b399e6f04086f969be8b7ae2c3e787f2e6b83724a",
+      "ageEvidenceAvailable": false
     },
     {
       "id": "mm-p-c94d83d5543500ec60ad90fd03419e6f56987e0b3e02ca956d2279da035d2fc8",
@@ -251,9 +242,8 @@
       "ageSource": "Âge non indiqué par la fiche article",
       "purchaseEnabled": false,
       "checkoutEligible": false,
-      "sourceExcerpt": null,
-      "sourceObservedAt": "2026-10-28T00:19:41.867Z",
-      "variantId": "mm-v-740751c98c26da32799844d3bfec1b832a34781067b8bb64b0a0e778dd8a7c59"
+      "variantId": "mm-v-740751c98c26da32799844d3bfec1b832a34781067b8bb64b0a0e778dd8a7c59",
+      "ageEvidenceAvailable": false
     },
     {
       "id": "mm-p-5a35d5de2bf93d32b4ae6d3c0628ef1846d34afb220e7600bdaecd89c53da652",
@@ -270,9 +260,8 @@
       "ageSource": "Âge non indiqué par la fiche article",
       "purchaseEnabled": false,
       "checkoutEligible": false,
-      "sourceExcerpt": null,
-      "sourceObservedAt": "2026-10-28T00:19:42.660Z",
-      "variantId": "mm-v-e1e1c1dd4d9dfa4d2f03805077bac69cca4de8144e75214a4635a7d347c65b35"
+      "variantId": "mm-v-e1e1c1dd4d9dfa4d2f03805077bac69cca4de8144e75214a4635a7d347c65b35",
+      "ageEvidenceAvailable": false
     },
     {
       "id": "mm-p-cb664a3c1b8a99d09e3e9363a54e69ad72c8e528e3cba9dc3221d375939b5284",
@@ -289,9 +278,8 @@
       "ageSource": "Âge non indiqué par la fiche article",
       "purchaseEnabled": false,
       "checkoutEligible": false,
-      "sourceExcerpt": null,
-      "sourceObservedAt": "2026-10-28T00:19:43.947Z",
-      "variantId": "mm-v-6106673eb034c4fe22e5a876b4aa0ea00e904ff0b7edeac844f333dc8e649d58"
+      "variantId": "mm-v-6106673eb034c4fe22e5a876b4aa0ea00e904ff0b7edeac844f333dc8e649d58",
+      "ageEvidenceAvailable": false
     },
     {
       "id": "mm-p-9c2b061e744230456518dc7610ebc8031a2b41947efc37f7d1f0a956131a8acd",
@@ -308,9 +296,8 @@
       "ageSource": "Âge non indiqué par la fiche article",
       "purchaseEnabled": false,
       "checkoutEligible": false,
-      "sourceExcerpt": null,
-      "sourceObservedAt": "2026-10-28T00:19:44.873Z",
-      "variantId": "mm-v-2e1be01a1cc32e85ad79a698a76ba5cb62fda58f7a5a079b2bd403da56866272"
+      "variantId": "mm-v-2e1be01a1cc32e85ad79a698a76ba5cb62fda58f7a5a079b2bd403da56866272",
+      "ageEvidenceAvailable": false
     },
     {
       "id": "mm-p-bad7ce63d87ba6a6a3669d3e7f7d63e9c5588b0930ffc0affe9e8fd1d7b2167c",
@@ -327,9 +314,8 @@
       "ageSource": "Âge non indiqué par la fiche article",
       "purchaseEnabled": false,
       "checkoutEligible": false,
-      "sourceExcerpt": null,
-      "sourceObservedAt": "2026-10-28T00:19:46.215Z",
-      "variantId": "mm-v-1e9509ffccc903a382425c7939fa8f9593ca8a1cbc3a24522c987c0216c5791a"
+      "variantId": "mm-v-1e9509ffccc903a382425c7939fa8f9593ca8a1cbc3a24522c987c0216c5791a",
+      "ageEvidenceAvailable": false
     },
     {
       "id": "mm-p-815ce8de9c4b71f2e0256fa1f5652074166304c369b58ac924b2502ec45a6411",
@@ -338,7 +324,7 @@
       "ageMinYears": 2,
       "ageMaxYears": null,
       "qualificationStatus": "supplier_stated_unverified",
-      "ageLabel": "2 ans et plus · indication fournisseur",
+      "ageLabel": "Âge à confirmer",
       "ageGroups": [
         "0-2",
         "3-5",
@@ -384,12 +370,11 @@
       ],
       "ageQualified": false,
       "safetyQualified": false,
-      "ageSource": "Fiche fournisseur CJ · indication non vérifiée",
+      "ageSource": "Âge d’utilisation non vérifié. Les informations et avertissements doivent être confirmés avant toute vente.",
       "purchaseEnabled": false,
       "checkoutEligible": false,
-      "sourceExcerpt": "Age of children 2 years and older.",
-      "sourceObservedAt": "2026-10-28T00:19:47.159Z",
-      "variantId": "mm-v-9261bbd476ed376f40e153a638ceaaf8440ebc1bb5f39e768b2533a04df2ae5c"
+      "variantId": "mm-v-9261bbd476ed376f40e153a638ceaaf8440ebc1bb5f39e768b2533a04df2ae5c",
+      "ageEvidenceAvailable": true
     },
     {
       "id": "mm-p-b2383fefd2e9ba541a86cc2d51f3704441d0ffa500a9ebd64ccd2cf5a5aa7990",
@@ -406,9 +391,8 @@
       "ageSource": "Âge non indiqué par la fiche article",
       "purchaseEnabled": false,
       "checkoutEligible": false,
-      "sourceExcerpt": null,
-      "sourceObservedAt": "2026-10-28T00:19:48.245Z",
-      "variantId": "mm-v-cc4a829fd563e01c4e2bbae625d0c62b09d239b944dde0201bacc30864d30994"
+      "variantId": "mm-v-cc4a829fd563e01c4e2bbae625d0c62b09d239b944dde0201bacc30864d30994",
+      "ageEvidenceAvailable": false
     },
     {
       "id": "mm-p-2f38175ac582b0b7de4cc98b402e5b8afacb2a8843c097698943fe84b32c3ac7",
@@ -425,9 +409,8 @@
       "ageSource": "Âge non indiqué par la fiche article",
       "purchaseEnabled": false,
       "checkoutEligible": false,
-      "sourceExcerpt": null,
-      "sourceObservedAt": "2026-10-28T00:19:49.340Z",
-      "variantId": "mm-v-5f9e7eea07469b48f6890d462b907d0c6df02ed671acdd753b70db46e38ab21c"
+      "variantId": "mm-v-5f9e7eea07469b48f6890d462b907d0c6df02ed671acdd753b70db46e38ab21c",
+      "ageEvidenceAvailable": false
     },
     {
       "id": "mm-p-0d6bbc93ab1278d3eba2af5a6874f4887a6b734ef2dd7048fe7a65211db1391e",
@@ -436,7 +419,7 @@
       "ageMinYears": 4,
       "ageMaxYears": 6,
       "qualificationStatus": "supplier_stated_unverified",
-      "ageLabel": "4 à 6 ans · indication fournisseur",
+      "ageLabel": "Âge à confirmer",
       "ageGroups": [
         "3-5",
         "6-8"
@@ -460,12 +443,11 @@
       ],
       "ageQualified": false,
       "safetyQualified": false,
-      "ageSource": "Fiche fournisseur CJ · indication non vérifiée",
+      "ageSource": "Âge d’utilisation non vérifié. Les informations et avertissements doivent être confirmés avant toute vente.",
       "purchaseEnabled": false,
       "checkoutEligible": false,
-      "sourceExcerpt": "Applicable age: children (4-6 years old)",
-      "sourceObservedAt": "2026-10-28T00:19:50.369Z",
-      "variantId": "mm-v-02e51846da84c6fe88a72a0ab32be9cd804630fcc6c92b38ab616c2582eee0a4"
+      "variantId": "mm-v-02e51846da84c6fe88a72a0ab32be9cd804630fcc6c92b38ab616c2582eee0a4",
+      "ageEvidenceAvailable": true
     },
     {
       "id": "mm-p-c21b8fd2c991af41a57c4d25fc85e980531b5d29726c3ff33034e9f4004366f7",
@@ -482,9 +464,8 @@
       "ageSource": "Âge non indiqué par la fiche article",
       "purchaseEnabled": false,
       "checkoutEligible": false,
-      "sourceExcerpt": null,
-      "sourceObservedAt": "2026-10-28T00:19:52.048Z",
-      "variantId": "mm-v-c63204ba5822e694461424c87a185b7cd859d05868a7421fcf52c60f30f8d0f7"
+      "variantId": "mm-v-c63204ba5822e694461424c87a185b7cd859d05868a7421fcf52c60f30f8d0f7",
+      "ageEvidenceAvailable": false
     },
     {
       "id": "mm-p-372c0e81aeec591e14c83d00006f31a06a77e5123a3024fc700e3cd31385f073",
@@ -501,9 +482,8 @@
       "ageSource": "Âge non indiqué par la fiche article",
       "purchaseEnabled": false,
       "checkoutEligible": false,
-      "sourceExcerpt": null,
-      "sourceObservedAt": "2026-10-28T00:19:52.603Z",
-      "variantId": "mm-v-5b437d19a031a2a323e0a1b4c09f8439fdc3c78066bead54c7835e5add717a8d"
+      "variantId": "mm-v-5b437d19a031a2a323e0a1b4c09f8439fdc3c78066bead54c7835e5add717a8d",
+      "ageEvidenceAvailable": false
     },
     {
       "id": "mm-p-090d59841e56c16c833352b9d16f87f21644e4b2b09f2b4508b5307621cfe7d4",
@@ -512,7 +492,7 @@
       "ageMinYears": 4,
       "ageMaxYears": 6,
       "qualificationStatus": "supplier_stated_unverified",
-      "ageLabel": "4 à 6 ans · indication fournisseur",
+      "ageLabel": "Âge à confirmer",
       "ageGroups": [
         "3-5",
         "6-8"
@@ -536,12 +516,11 @@
       ],
       "ageQualified": false,
       "safetyQualified": false,
-      "ageSource": "Fiche fournisseur CJ · indication non vérifiée",
+      "ageSource": "Âge d’utilisation non vérifié. Les informations et avertissements doivent être confirmés avant toute vente.",
       "purchaseEnabled": false,
       "checkoutEligible": false,
-      "sourceExcerpt": "Applicable age: children (4-6 years old)",
-      "sourceObservedAt": "2026-10-28T00:19:53.743Z",
-      "variantId": "mm-v-8aef1e2e68cd752ba5a5a70a2db27ced920d6a002589551e7b14f732e3393f33"
+      "variantId": "mm-v-8aef1e2e68cd752ba5a5a70a2db27ced920d6a002589551e7b14f732e3393f33",
+      "ageEvidenceAvailable": true
     },
     {
       "id": "mm-p-66c510a11b209638abf985bcc519dfc9d66b383871d72b541eaf48c5f3004345",
@@ -558,9 +537,8 @@
       "ageSource": "Âge non indiqué par la fiche article",
       "purchaseEnabled": false,
       "checkoutEligible": false,
-      "sourceExcerpt": null,
-      "sourceObservedAt": "2026-10-28T00:19:54.870Z",
-      "variantId": "mm-v-c5c6940b2d369141e6933cc4a74ee6a5cba2f5b7587dffabc8c3c7505bced8d9"
+      "variantId": "mm-v-c5c6940b2d369141e6933cc4a74ee6a5cba2f5b7587dffabc8c3c7505bced8d9",
+      "ageEvidenceAvailable": false
     },
     {
       "id": "mm-p-0946c65623867fcdec4b37ba6980148f160f2628f69d604a9d2421d2e5d4d630",
@@ -577,9 +555,8 @@
       "ageSource": "Âge non indiqué par la fiche article",
       "purchaseEnabled": false,
       "checkoutEligible": false,
-      "sourceExcerpt": null,
-      "sourceObservedAt": "2026-10-28T00:19:55.997Z",
-      "variantId": "mm-v-14382cf98050eee307f0828b93f408cd5e3b1519755419e9ed7f3db01dacf9e8"
+      "variantId": "mm-v-14382cf98050eee307f0828b93f408cd5e3b1519755419e9ed7f3db01dacf9e8",
+      "ageEvidenceAvailable": false
     },
     {
       "id": "mm-p-590a9263bb170573e6b3a48b08eb80e02fad9d999085e5fd5d4e60bf8f2e3dae",
@@ -596,9 +573,8 @@
       "ageSource": "Âge non indiqué par la fiche article",
       "purchaseEnabled": false,
       "checkoutEligible": false,
-      "sourceExcerpt": null,
-      "sourceObservedAt": "2026-10-28T00:19:57.082Z",
-      "variantId": "mm-v-5441ea041314ce4aeb07026281e63b49f3ff6dc08c671d4d736ee43917f23c10"
+      "variantId": "mm-v-5441ea041314ce4aeb07026281e63b49f3ff6dc08c671d4d736ee43917f23c10",
+      "ageEvidenceAvailable": false
     },
     {
       "id": "mm-p-88c1178fb21dabd82de1073b3513347226eb6a31f91c8e7bb3aa5e6ffa41810a",
@@ -615,9 +591,8 @@
       "ageSource": "Âge non indiqué par la fiche article",
       "purchaseEnabled": false,
       "checkoutEligible": false,
-      "sourceExcerpt": null,
-      "sourceObservedAt": "2026-10-28T00:19:58.147Z",
-      "variantId": "mm-v-fbf382d0a4b0bdb416cbb8c8556ba5b8016161409397c735617d003a9ab3a771"
+      "variantId": "mm-v-fbf382d0a4b0bdb416cbb8c8556ba5b8016161409397c735617d003a9ab3a771",
+      "ageEvidenceAvailable": false
     },
     {
       "id": "mm-p-d1d04026b47a3ea576be5755882112f48202c219680036cf97b78c3abd9baa41",
@@ -634,9 +609,8 @@
       "ageSource": "Âge non indiqué par la fiche article",
       "purchaseEnabled": false,
       "checkoutEligible": false,
-      "sourceExcerpt": null,
-      "sourceObservedAt": "2026-10-28T00:19:59.173Z",
-      "variantId": "mm-v-217f30f037f8e62d9a94cab2c0edc1b2461e2d39b5ec59f4d2e0d27189072956"
+      "variantId": "mm-v-217f30f037f8e62d9a94cab2c0edc1b2461e2d39b5ec59f4d2e0d27189072956",
+      "ageEvidenceAvailable": false
     },
     {
       "id": "mm-p-6e3ed3af67270101e1306ffe56084d6c8d70072f26972bb33aac5ead782acc2f",
@@ -653,9 +627,8 @@
       "ageSource": "Âge non indiqué par la fiche article",
       "purchaseEnabled": false,
       "checkoutEligible": false,
-      "sourceExcerpt": null,
-      "sourceObservedAt": "2026-10-28T00:20:00.326Z",
-      "variantId": "mm-v-b339ac1caacb3f36edf88fcd8f6b8596318dc61d48a2f738ae2bf56c278940c0"
+      "variantId": "mm-v-b339ac1caacb3f36edf88fcd8f6b8596318dc61d48a2f738ae2bf56c278940c0",
+      "ageEvidenceAvailable": false
     },
     {
       "id": "mm-p-8ddea62e164911139031e71eb1d4647181e176bc7968440b0cbc59d4c59b3367",
@@ -672,9 +645,8 @@
       "ageSource": "Âge non indiqué par la fiche article",
       "purchaseEnabled": false,
       "checkoutEligible": false,
-      "sourceExcerpt": null,
-      "sourceObservedAt": "2026-10-28T00:20:01.477Z",
-      "variantId": "mm-v-7294c29edcccf42d03ee667e40d29a945761db0e3698bc0b868427f83879b22b"
+      "variantId": "mm-v-7294c29edcccf42d03ee667e40d29a945761db0e3698bc0b868427f83879b22b",
+      "ageEvidenceAvailable": false
     },
     {
       "id": "mm-p-ea4c1ecbd9b5033435289ccf4fa486cdcdc67df328a902eca44c372abdeb0b25",
@@ -691,9 +663,8 @@
       "ageSource": "Âge non indiqué par la fiche article",
       "purchaseEnabled": false,
       "checkoutEligible": false,
-      "sourceExcerpt": null,
-      "sourceObservedAt": "2026-10-28T00:20:02.551Z",
-      "variantId": "mm-v-194c6c21617875c0f7a21ee06b0c9014dd93e64b4e0a472224fe454750250bb8"
+      "variantId": "mm-v-194c6c21617875c0f7a21ee06b0c9014dd93e64b4e0a472224fe454750250bb8",
+      "ageEvidenceAvailable": false
     },
     {
       "id": "mm-p-13913e34a4a36153d8285a15a5c6113ad2f8453fffb4ead91245c644f3cbaac3",
@@ -710,9 +681,8 @@
       "ageSource": "Fiche et photo fournisseur de la variante rose ; âge non documenté",
       "purchaseEnabled": false,
       "checkoutEligible": false,
-      "sourceExcerpt": "",
-      "sourceObservedAt": "2026-10-28T13:55:08.778487+00:00",
-      "variantId": "mm-v-4316be8785e822cf0d1835c0f05e11d1cec98fb50de143a3eeaba072b83cf299"
+      "variantId": "mm-v-4316be8785e822cf0d1835c0f05e11d1cec98fb50de143a3eeaba072b83cf299",
+      "ageEvidenceAvailable": false
     }
   ]
 }
