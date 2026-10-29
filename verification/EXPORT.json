@@ -1,6 +1,6 @@
 {
   "format": "boutique-export/1",
-  "dateUTC": "2026-10-27T20:55:28.863973Z",
+  "dateUTC": "2026-10-29T22:03:13.773568+00:00",
   "brandSlug": "vadrouvane",
   "name": "Vadrouvane",
   "branche": "entreprise/vadrouvane",
@@ -14,8 +14,8 @@
   "files": [
     {
       "path": "404.html",
-      "sha256": "cfccc81884412ac6af68ccac48664a3d1429f7532868393c8e45d8ce9dc82139",
-      "octets": 5520
+      "sha256": "5967125e4dfc22037603e31dea831660356e35c283c94ff40b7dd2fed22cda39",
+      "octets": 5654
     },
     {
       "path": "app.js",
@@ -24,8 +24,8 @@
     },
     {
       "path": "avis.html",
-      "sha256": "745bbcc6d0c317001059f167edb856b8ad4dde68297bf080557c75b43b7a2b79",
-      "octets": 7547
+      "sha256": "cff5105e25e8cf74ba66f488b61b1b5d5c1798d2de41a7850fd56360b5aab34c",
+      "octets": 7681
     },
     {
       "path": "brand.json",
@@ -34,8 +34,8 @@
     },
     {
       "path": "catalogue.html",
-      "sha256": "7a6ed83fd212b50f1d00ddee7aa942ba7af75b614f0bb2348a264aa2d4e7ccbe",
-      "octets": 8241
+      "sha256": "897bfc276c336465f553bbad0954869668fe51cd8c0d24a6614d57b3af603155",
+      "octets": 8375
     },
     {
       "path": "catalogue.json",
@@ -44,33 +44,33 @@
     },
     {
       "path": "conditions.html",
-      "sha256": "27354e0fa1a3e9b2bab3217ce5e99d0b84dab6791b71ccbd640d109fec9cf337",
-      "octets": 6249
+      "sha256": "24b286d83f42cd185db0a33b1ef32c46fa81ec148c1297aea9fff7ecaaa7af4a",
+      "octets": 6527
     },
     {
       "path": "confidentialite.html",
-      "sha256": "687280dd50d04b8eff6ddfb801deeb419b421a67ee3192ae3640f652023f52ee",
-      "octets": 7653
+      "sha256": "cca6d497ea9d27b79c4a7db96b88b021e7a55ec082cc5a285034b7dd072d36ba",
+      "octets": 7793
     },
     {
       "path": "contact.html",
-      "sha256": "b177a07994de04f7daad1eeac70f137194b4b650b6e685736145dae5050e73d1",
-      "octets": 5908
+      "sha256": "8a81d0f5d56c5979b90cb104ccd84e95d9d4735afabeae475d2fa09ab8c36254",
+      "octets": 6111
     },
     {
       "path": "guide.html",
-      "sha256": "245ad1e880b111611aa87f1c6ae21aa7e50497c946fe1e52e536667d03571a89",
-      "octets": 6002
+      "sha256": "76cc74879fb8937a018c0ca86caeba7808b48c823fcc1fa998431308cca01d2f",
+      "octets": 6136
     },
     {
       "path": "index.html",
-      "sha256": "af2025932de7dd827de481143e55c90109dfe8c04704868c68386f5e8898c64d",
-      "octets": 12999
+      "sha256": "51d951aaa2207a795e00bc21ed8d28d448cf9a2bccf9bbec42ebaa45b5b7e2dd",
+      "octets": 13133
     },
     {
       "path": "livraison.html",
-      "sha256": "24d331989ade76376fd3d05eaa9653cc60f4911498b23770886803bb0e774bd8",
-      "octets": 6142
+      "sha256": "e7ce2778368d7c6462342bc851c0aa5305de559eeca88ffca39946c53a6824d4",
+      "octets": 6276
     },
     {
       "path": "media/embleme.svg",
@@ -89,23 +89,23 @@
     },
     {
       "path": "mentions-legales.html",
-      "sha256": "7f51516ce9e0b28f432cfed04914e9fe2ad10539b80c412deefb2c138e65b46b",
-      "octets": 6426
+      "sha256": "ee5f15c7d7856ae57660aa5d4a94d31688200d89de9e7b24fe0317531db1f6c0",
+      "octets": 6704
     },
     {
       "path": "produits/vadrouvane-cj-1382909456957968384.html",
-      "sha256": "893f98822dd64433cab7214da342eaa9867fd90c260f89d91b7c7a6eafc55250",
-      "octets": 7216
+      "sha256": "ae441b30259e0ab4d68c905ebbfe8547d08ca98f69fcbe4b1b62c55e6fbf956a",
+      "octets": 7350
     },
     {
       "path": "produits/vadrouvane-cj-1484810775192276992.html",
-      "sha256": "93d7a5719961d595fd0186151cb170a93a38116438e3bcc07bf853a430e1c8dc",
-      "octets": 7285
+      "sha256": "75da799f47b36f81c644287d43ee60556b83af6aef9b374204ef322e092659f6",
+      "octets": 7419
     },
     {
       "path": "retours.html",
-      "sha256": "0dd19c73135f25da726906fed310cad8f1d0c577cd3515d7c02251b917a2ea9f",
-      "octets": 6214
+      "sha256": "08dffc5d1553e43935576b49eb3f50132ca574a1478e7fa7716775f6d5c2171e",
+      "octets": 6492
     },
     {
       "path": "robots.txt",
@@ -122,5 +122,13 @@
       "sha256": "ad499a13837647af3202762f96a100d08973c1ee7f50a1683d30a9c8d4027fa3",
       "octets": 29097
     }
-  ]
+  ],
+  "contactSAV": {
+    "email": "miniandmerveilles@gmail.com",
+    "mailto": "mailto:miniandmerveilles@gmail.com",
+    "salesEnabled": false,
+    "envoiMessageEffectue": false,
+    "comptesPrivesModifies": false,
+    "portee": "contact public et SAV uniquement"
+  }
 }
