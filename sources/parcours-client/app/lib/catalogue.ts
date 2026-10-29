@@ -13,14 +13,13 @@ const baseProducts: Product[] = [
     "subtitle": "Créer & imaginer",
     "category": "creativite",
     "age": null,
-    "ageLabel": "Âge à confirmer",
+    "ageLabel": "Âge non renseigné",
     "priceCents": null,
     "image": "/media/articles/a858534955ac5bcc8f65aec3029fc0ed196f3fac9a0cff8a732c5a72032728d6.webp",
     "color": "#f4f2ed",
     "description": "Un coffret de fouille avec un bloc à creuser et des accessoires pour découvrir les pierres proposées par la fiche article.",
     "details": [
-      "Âge d’utilisation non communiqué : à confirmer avant toute vente.",
-      "Matières annoncées : Pierres et accessoires en plastique mentionnés dans la description ; composition complète non documentée."
+      "Matières annoncées : Pierres et accessoires en plastique mentionnés dans la description."
     ],
     "demo": false,
     "defaultVariantId": "mm-v-3c1c133af999c662b568fc33c3ff366f664f2c611fcacd691a8087b742e2d78c"
@@ -31,14 +30,13 @@ const baseProducts: Product[] = [
     "subtitle": "Inventer des aventures",
     "category": "aventure",
     "age": null,
-    "ageLabel": "Âge à confirmer",
+    "ageLabel": "Âge non renseigné",
     "priceCents": null,
     "image": "/media/articles/7aad7d36c53d33ee4e318510d965f9480a4099461fda2db1230db868a33ada1a.webp",
     "color": "#f4f2ed",
     "description": "Un petit sac en forme de fraise, avec une bandoulière et une fermeture. La photo correspond à la variante rouge contrôlée.",
     "details": [
-      "Âge d’utilisation non communiqué : à confirmer avant toute vente.",
-      "Matières annoncées : EVA et polyester mentionnés par la fiche article ; composition à confirmer."
+      "Matières annoncées : EVA et polyester mentionnés par la fiche article."
     ],
     "demo": false,
     "defaultVariantId": "mm-v-0675da0d17aeb40b786a863693f561cf13f00e9125f855f0234adb9906a8ec88"
@@ -49,13 +47,12 @@ const baseProducts: Product[] = [
     "subtitle": "Inventer des aventures",
     "category": "aventure",
     "age": null,
-    "ageLabel": "Âge à confirmer",
+    "ageLabel": "Âge non renseigné",
     "priceCents": null,
     "image": "/media/articles/25e6a2fbe6a240d2bce029e00bfe9dfbc37d0a0583871ba7c6bf2e38c470fa4d.webp",
     "color": "#f4f2ed",
     "description": "Un sac tressé avec une bandoulière, présenté par la fiche article comme un accessoire pour enfant.",
     "details": [
-      "Âge d’utilisation non communiqué : à confirmer avant toute vente.",
       "Matières annoncées : Paille, selon la description de l’article."
     ],
     "demo": false,
@@ -67,13 +64,12 @@ const baseProducts: Product[] = [
     "subtitle": "Inventer des aventures",
     "category": "aventure",
     "age": null,
-    "ageLabel": "Âge à confirmer",
+    "ageLabel": "Âge non renseigné",
     "priceCents": null,
     "image": "/media/articles/a337cf6b7f73dd6e2e9183b889006a6260afe639c57c778da767e971a5434b8d.webp",
     "color": "#f4f2ed",
     "description": "Un sac à dos à motif pour enfant. La fiche article indique un tissu nylon et une doublure polyester.",
     "details": [
-      "Âge d’utilisation non communiqué : à confirmer avant toute vente.",
       "Matières annoncées : Nylon et doublure polyester, selon la description de l’article."
     ],
     "demo": false,
@@ -85,13 +81,12 @@ const baseProducts: Product[] = [
     "subtitle": "Inventer des aventures",
     "category": "aventure",
     "age": null,
-    "ageLabel": "Âge à confirmer",
+    "ageLabel": "Âge non renseigné",
     "priceCents": null,
     "image": "/media/articles/46e692be825a6d26fb9a64adb86f3107af166245eb3e7ebd6db4a2d35951f0cc.webp",
     "color": "#f4f2ed",
     "description": "Un sac à dos à motif dinosaure. La fiche article indique un tissu Oxford et une doublure polyester.",
     "details": [
-      "Âge d’utilisation non communiqué : à confirmer avant toute vente.",
       "Matières annoncées : Tissu Oxford et doublure polyester, selon la description de l’article."
     ],
     "demo": false,
@@ -103,14 +98,13 @@ const baseProducts: Product[] = [
     "subtitle": "Inventer des aventures",
     "category": "aventure",
     "age": null,
-    "ageLabel": "Âge à confirmer",
+    "ageLabel": "Âge non renseigné",
     "priceCents": null,
     "image": "/media/articles/68a34a2e1f799836fa5d7774d7efdfa98bb04ea9ee8b2e6077d71d47e4ebd3ae.webp",
     "color": "#f4f2ed",
     "description": "Un sac à dos en forme de panda, présenté en peluche courte avec un rembourrage décrit par la fiche article.",
     "details": [
-      "Âge d’utilisation non communiqué : à confirmer avant toute vente.",
-      "Matières annoncées : Peluche courte ; remplissage indiqué « PP cotton » par la fiche article, composition à confirmer."
+      "Matières annoncées : Peluche courte ; remplissage indiqué « PP cotton » par la fiche article."
     ],
     "demo": false,
     "defaultVariantId": "mm-v-8cee9b945c3041ec01d9de78a91c4d989a11da081e4c1bf04faf398adf63f097"
@@ -121,13 +115,12 @@ const baseProducts: Product[] = [
     "subtitle": "Inventer des aventures",
     "category": "aventure",
     "age": null,
-    "ageLabel": "Âge à confirmer",
+    "ageLabel": "Âge non renseigné",
     "priceCents": null,
     "image": "/media/articles/2635a5d7ac69a34c44fac50d0822fe3eebfee03f0ab83569690c00f1d28108b2.webp",
     "color": "#f4f2ed",
     "description": "Un petit sac à dos à fermeture zippée, proposé avec plusieurs motifs animaux. La photo correspond à la variante contrôlée.",
     "details": [
-      "Âge d’utilisation non communiqué : à confirmer avant toute vente.",
       "Matières annoncées : Matière décrite comme « diving material » par la fiche article ; composition non précisée."
     ],
     "demo": false,
@@ -139,14 +132,13 @@ const baseProducts: Product[] = [
     "subtitle": "Les petites habitudes",
     "category": "quotidien",
     "age": null,
-    "ageLabel": "Âge à confirmer",
+    "ageLabel": "Âge non renseigné",
     "priceCents": null,
     "image": "/media/articles/e877096285ab686d07e0cea0c22ebe3d6f73677ff565bccc427ca7495488321a.webp",
     "color": "#f4f2ed",
-    "description": "Un pull enfant à manches longues et motif brodé. Les tailles doivent être vérifiées avant toute vente.",
+    "description": "Un pull enfant à manches longues et motif brodé.",
     "details": [
-      "Âge d’utilisation non communiqué : à confirmer avant toute vente.",
-      "Matières annoncées : Fibre d’alcool polyvinylique (Vinylon) indiquée par la fiche article ; étiquette de composition à confirmer."
+      "Matières annoncées : Fibre d’alcool polyvinylique (Vinylon) indiquée par la fiche article."
     ],
     "demo": false,
     "defaultVariantId": "mm-v-e14cc52b4bac899f4a39ab2ed55601f8f57bbb0f8ca81276afa65e04b6d5df3e"
@@ -157,14 +149,13 @@ const baseProducts: Product[] = [
     "subtitle": "Les petites habitudes",
     "category": "quotidien",
     "age": null,
-    "ageLabel": "Âge à confirmer",
+    "ageLabel": "Âge non renseigné",
     "priceCents": null,
     "image": "/media/articles/ee5bbeed0c9ae1f0a1b711dbf3d81379b6e7d8535885dcd8a299ea6046680d30.webp",
     "color": "#f4f2ed",
-    "description": "Un ensemble textile enfant à manches longues et motif rayé. Les tailles et la composition doivent être confirmées avant toute vente.",
+    "description": "Un ensemble textile enfant à manches longues et motif rayé.",
     "details": [
-      "Âge d’utilisation non communiqué : à confirmer avant toute vente.",
-      "Matières annoncées : Polyester indiqué par la fiche article ; étiquette de composition à confirmer."
+      "Matières annoncées : Polyester indiqué par la fiche article."
     ],
     "demo": false,
     "defaultVariantId": "mm-v-0325b626cf9ab40188bcbd5b399e6f04086f969be8b7ae2c3e787f2e6b83724a"
@@ -175,13 +166,12 @@ const baseProducts: Product[] = [
     "subtitle": "Inventer des aventures",
     "category": "aventure",
     "age": null,
-    "ageLabel": "Âge à confirmer",
+    "ageLabel": "Âge non renseigné",
     "priceCents": null,
     "image": "/media/articles/21bf7ef30914b9d95861f459ef3cf09050e4921a48de14bebd103603eb4d0c81.webp",
     "color": "#f4f2ed",
     "description": "Un sac à dos avec des oreilles de lapin et un nœud décoratif. La photo correspond à la variante bleue contrôlée.",
     "details": [
-      "Âge d’utilisation non communiqué : à confirmer avant toute vente.",
       "Matières annoncées : Composition non renseignée dans les données reçues."
     ],
     "demo": false,
@@ -193,13 +183,12 @@ const baseProducts: Product[] = [
     "subtitle": "Inventer des aventures",
     "category": "aventure",
     "age": null,
-    "ageLabel": "Âge à confirmer",
+    "ageLabel": "Âge non renseigné",
     "priceCents": null,
     "image": "/media/articles/c0c167ff6071a7ef9cd95915f62b2d809792943a71d1d33c887c97785904ebad.webp",
     "color": "#f4f2ed",
     "description": "Un petit sac à dos enfant à motif fraise sur la photo de la variante rose contrôlée. La fiche article indique une doublure polyester.",
     "details": [
-      "Âge d’utilisation non communiqué : à confirmer avant toute vente.",
       "Matières annoncées : Doublure polyester indiquée par la fiche article ; matière extérieure non précisée."
     ],
     "demo": false,
@@ -211,13 +200,12 @@ const baseProducts: Product[] = [
     "subtitle": "Créer & imaginer",
     "category": "creativite",
     "age": null,
-    "ageLabel": "Âge à confirmer",
+    "ageLabel": "Âge non renseigné",
     "priceCents": null,
     "image": "/media/articles/e70964abb4d2503824fc7486e134abb966472c899d697e9aa5d9387499cdd972.webp",
     "color": "#f4f2ed",
     "description": "Puzzle en bois animaux de la ferme. Matière déclarée par la fiche article : splint Warning slogan.",
     "details": [
-      "Âge d’utilisation non communiqué : à confirmer avant toute vente.",
       "Matières annoncées : Matière déclarée par la fiche article : splint Warning slogan."
     ],
     "demo": false,
@@ -229,13 +217,12 @@ const baseProducts: Product[] = [
     "subtitle": "Créer & imaginer",
     "category": "creativite",
     "age": null,
-    "ageLabel": "Âge à confirmer",
+    "ageLabel": "Âge non renseigné",
     "priceCents": null,
     "image": "/media/articles/f01e154c9472fcdef0fcc054b3b59fd8ff015429aa87e583d5511f70c6ba12cf.webp",
     "color": "#f4f2ed",
     "description": "Puzzle chiffres et animaux. Matière déclarée par la fiche article : Wooden Specification.",
     "details": [
-      "Âge d’utilisation non communiqué : à confirmer avant toute vente.",
       "Matières annoncées : Matière déclarée par la fiche article : Wooden Specification."
     ],
     "demo": false,
@@ -247,13 +234,12 @@ const baseProducts: Product[] = [
     "subtitle": "Créer & imaginer",
     "category": "creativite",
     "age": null,
-    "ageLabel": "Âge à confirmer",
+    "ageLabel": "Âge non renseigné",
     "priceCents": null,
     "image": "/media/articles/660ac65076404da4732d638ec658d6f69698e1dd6d46b69d099d44d66dfb0002.webp",
     "color": "#f4f2ed",
     "description": "Jeu de réflexion parent-enfant. Matière déclarée par la fiche article : EVA.",
     "details": [
-      "Âge d’utilisation non communiqué : à confirmer avant toute vente.",
       "Matières annoncées : Matière déclarée par la fiche article : EVA."
     ],
     "demo": false,
@@ -265,13 +251,12 @@ const baseProducts: Product[] = [
     "subtitle": "Créer & imaginer",
     "category": "creativite",
     "age": null,
-    "ageLabel": "Âge à confirmer",
+    "ageLabel": "Âge non renseigné",
     "priceCents": null,
     "image": "/media/articles/e29c89d3d5061df5e38702ac5c9a3fa3279e998fbfdcb418ea56dd1b5ae97dde.webp",
     "color": "#f4f2ed",
     "description": "Un jeu d’encastrement de cylindres en bois de tailles différentes. Aucun label pédagogique ou certification Montessori n’est revendiqué.",
     "details": [
-      "Âge d’utilisation non communiqué : à confirmer avant toute vente.",
       "Matières annoncées : Matière déclarée par la fiche article : wood."
     ],
     "demo": false,
@@ -283,15 +268,12 @@ const baseProducts: Product[] = [
     "subtitle": "Créer & imaginer",
     "category": "creativite",
     "age": null,
-    "ageLabel": "Âge à confirmer",
+    "ageLabel": "Âge non renseigné",
     "priceCents": null,
     "image": "/media/articles/6d0c6fde42140500d150710bde8364455cb486fc549fae1a5b384a1cb018f47f.webp",
     "color": "#f4f2ed",
-    "description": "Bandes de papier pour étoiles en origami. Composition à confirmer avant vente.",
-    "details": [
-      "Âge d’utilisation non communiqué : à confirmer avant toute vente.",
-      "Matières annoncées : Composition à confirmer avant vente."
-    ],
+    "description": "Bandes de papier pour étoiles en origami.",
+    "details": [],
     "demo": false,
     "defaultVariantId": "mm-v-cc4a829fd563e01c4e2bbae625d0c62b09d239b944dde0201bacc30864d30994"
   },
@@ -301,13 +283,12 @@ const baseProducts: Product[] = [
     "subtitle": "Créer & imaginer",
     "category": "creativite",
     "age": null,
-    "ageLabel": "Âge à confirmer",
+    "ageLabel": "Âge non renseigné",
     "priceCents": null,
     "image": "/media/articles/6477f9323cc94f0b009ffcaa17719c5ecec87f422810ff90294c33213ddf0bc5.webp",
     "color": "#f4f2ed",
     "description": "Ciseaux de loisirs créatifs en plastique. Matière déclarée par la fiche article : ABS.",
     "details": [
-      "Âge d’utilisation non communiqué : à confirmer avant toute vente.",
       "Matières annoncées : Matière déclarée par la fiche article : ABS."
     ],
     "demo": false,
@@ -319,13 +300,12 @@ const baseProducts: Product[] = [
     "subtitle": "Inventer des aventures",
     "category": "aventure",
     "age": null,
-    "ageLabel": "Âge à confirmer",
+    "ageLabel": "Âge non renseigné",
     "priceCents": null,
     "image": "/media/articles/8853a6fe8349e8b5a5c33ab662668d9b0f79eff767cce6e2fdf5b4e97e1cb6a0.webp",
     "color": "#f4f2ed",
     "description": "Seau de plage en silicone. Matière déclarée par la fiche article : Silicone Quantity.",
     "details": [
-      "Âge d’utilisation non communiqué : à confirmer avant toute vente.",
       "Matières annoncées : Matière déclarée par la fiche article : Silicone Quantity."
     ],
     "demo": false,
@@ -337,13 +317,12 @@ const baseProducts: Product[] = [
     "subtitle": "Créer & imaginer",
     "category": "creativite",
     "age": null,
-    "ageLabel": "Âge à confirmer",
+    "ageLabel": "Âge non renseigné",
     "priceCents": null,
     "image": "/media/articles/f51ecc0d638be63a197e314505335cad1672a13941ef807eddecf87088c44ec1.webp",
     "color": "#f4f2ed",
     "description": "Blocs de construction en arc-en-ciel. Matière déclarée par la fiche article : wooden Paint material.",
     "details": [
-      "Âge d’utilisation non communiqué : à confirmer avant toute vente.",
       "Matières annoncées : Matière déclarée par la fiche article : wooden Paint material."
     ],
     "demo": false,
@@ -355,13 +334,12 @@ const baseProducts: Product[] = [
     "subtitle": "Créer & imaginer",
     "category": "creativite",
     "age": null,
-    "ageLabel": "Âge à confirmer",
+    "ageLabel": "Âge non renseigné",
     "priceCents": null,
     "image": "/media/articles/ec5b1c788d8b0efdb8b21a2b355b7530545fc066a23ccddf5b1b190e497e3718.webp",
     "color": "#f4f2ed",
     "description": "Fusée à empiler en silicone. Matière déclarée par la fiche article : Edible Silicon Category.",
     "details": [
-      "Âge d’utilisation non communiqué : à confirmer avant toute vente.",
       "Matières annoncées : Matière déclarée par la fiche article : Edible Silicon Category."
     ],
     "demo": false,
@@ -373,13 +351,12 @@ const baseProducts: Product[] = [
     "subtitle": "Créer & imaginer",
     "category": "creativite",
     "age": null,
-    "ageLabel": "Âge à confirmer",
+    "ageLabel": "Âge non renseigné",
     "priceCents": null,
     "image": "/media/articles/7d06e82bfbfe0e1db7dfef7c76ada445010d15cb675cd5ca2bf7a1b2e438754c.webp",
     "color": "#f4f2ed",
     "description": "Des pièces en forme d’animaux à placer en équilibre. Aucun rattachement à une marque de jeu n’est revendiqué.",
     "details": [
-      "Âge d’utilisation non communiqué : à confirmer avant toute vente.",
       "Matières annoncées : Matière déclarée par la fiche article : Wooden."
     ],
     "demo": false,
@@ -391,13 +368,12 @@ const baseProducts: Product[] = [
     "subtitle": "Les petites habitudes",
     "category": "quotidien",
     "age": null,
-    "ageLabel": "Âge à confirmer",
+    "ageLabel": "Âge non renseigné",
     "priceCents": null,
     "image": "/media/articles/93654c798f14c2777d7d440493dffea41643aaba372269a4c155f731900faf6a.webp",
     "color": "#f4f2ed",
     "description": "Trousse de rangement portable. Matière déclarée par la fiche article : Little Oxford Capacity.",
     "details": [
-      "Âge d’utilisation non communiqué : à confirmer avant toute vente.",
       "Matières annoncées : Matière déclarée par la fiche article : Little Oxford Capacity."
     ],
     "demo": false,
@@ -409,13 +385,12 @@ const baseProducts: Product[] = [
     "subtitle": "Les petites habitudes",
     "category": "quotidien",
     "age": null,
-    "ageLabel": "Âge à confirmer",
+    "ageLabel": "Âge non renseigné",
     "priceCents": null,
     "image": "/media/articles/01a4ea3c3933e6468644d86528ffb38ff97c3bfdcb8a32605d1671f0d50f6e31.webp",
     "color": "#f4f2ed",
     "description": "Trousse de rangement à compartiments. Matière déclarée par la fiche article : pu.",
     "details": [
-      "Âge d’utilisation non communiqué : à confirmer avant toute vente.",
       "Matières annoncées : Matière déclarée par la fiche article : pu."
     ],
     "demo": false,
@@ -427,13 +402,12 @@ const baseProducts: Product[] = [
     "subtitle": "Les petites habitudes",
     "category": "quotidien",
     "age": null,
-    "ageLabel": "Âge à confirmer",
+    "ageLabel": "Âge non renseigné",
     "priceCents": null,
     "image": "/media/articles/c5c139126af533d425aa9bff77db70b4b9eaad3bcfbd6f517fe07476e3b2e5df.webp",
     "color": "#f4f2ed",
     "description": "Trousse de rangement à fermeture. La peluche panda visible sur certaines photos est un accessoire de présentation non inclus.",
     "details": [
-      "Âge d’utilisation non communiqué : à confirmer avant toute vente.",
       "Matières annoncées : Matière déclarée par la fiche article : Polyester."
     ],
     "demo": false,
@@ -445,15 +419,12 @@ const baseProducts: Product[] = [
     "subtitle": "Créer & imaginer",
     "category": "creativite",
     "age": null,
-    "ageLabel": "Âge à confirmer",
+    "ageLabel": "Âge non renseigné",
     "priceCents": null,
     "image": "/media/articles/29ff422042836076a68cbf96d59a7939b1d29bba4d4e947137e29be7d2687026.webp",
     "color": "#f4f2ed",
-    "description": "Petit tableau de dessin effaçable. Composition à confirmer avant vente.",
-    "details": [
-      "Âge d’utilisation non communiqué : à confirmer avant toute vente.",
-      "Matières annoncées : Composition à confirmer avant vente."
-    ],
+    "description": "Petit tableau de dessin effaçable.",
+    "details": [],
     "demo": false,
     "defaultVariantId": "mm-v-fbf382d0a4b0bdb416cbb8c8556ba5b8016161409397c735617d003a9ab3a771"
   },
@@ -463,13 +434,12 @@ const baseProducts: Product[] = [
     "subtitle": "Créer & imaginer",
     "category": "creativite",
     "age": null,
-    "ageLabel": "Âge à confirmer",
+    "ageLabel": "Âge non renseigné",
     "priceCents": null,
     "image": "/media/articles/cbd737bcb8fc508a7203be4b5737f27644255487461f69bf8ed557307bf3cea3.webp",
     "color": "#f4f2ed",
     "description": "Livre de dessin à plusieurs faces. Matière déclarée par la fiche article : PVC Name.",
     "details": [
-      "Âge d’utilisation non communiqué : à confirmer avant toute vente.",
       "Matières annoncées : Matière déclarée par la fiche article : PVC Name."
     ],
     "demo": false,
@@ -481,15 +451,12 @@ const baseProducts: Product[] = [
     "subtitle": "Les petites habitudes",
     "category": "quotidien",
     "age": null,
-    "ageLabel": "Âge à confirmer",
+    "ageLabel": "Âge non renseigné",
     "priceCents": null,
     "image": "/media/articles/d0de35e47bd1e8a02666fd848db87b0dba57f0b6a8eb7fba2e7a92524fcb1aad.webp",
     "color": "#f4f2ed",
-    "description": "Trousse dépliable à compartiments. Composition à confirmer avant vente.",
-    "details": [
-      "Âge d’utilisation non communiqué : à confirmer avant toute vente.",
-      "Matières annoncées : Composition à confirmer avant vente."
-    ],
+    "description": "Trousse dépliable à compartiments.",
+    "details": [],
     "demo": false,
     "defaultVariantId": "mm-v-b339ac1caacb3f36edf88fcd8f6b8596318dc61d48a2f738ae2bf56c278940c0"
   },
@@ -499,13 +466,12 @@ const baseProducts: Product[] = [
     "subtitle": "Les petites habitudes",
     "category": "quotidien",
     "age": null,
-    "ageLabel": "Âge à confirmer",
+    "ageLabel": "Âge non renseigné",
     "priceCents": null,
     "image": "/media/articles/248364638eba4626c3c905e3b859f25889631295f65a0d5b068875e211549968.webp",
     "color": "#f4f2ed",
     "description": "Trousse transparente avec poignée. Matière déclarée par la fiche article : Polyester.",
     "details": [
-      "Âge d’utilisation non communiqué : à confirmer avant toute vente.",
       "Matières annoncées : Matière déclarée par la fiche article : Polyester."
     ],
     "demo": false,
@@ -517,13 +483,12 @@ const baseProducts: Product[] = [
     "subtitle": "Les petites habitudes",
     "category": "quotidien",
     "age": null,
-    "ageLabel": "Âge à confirmer",
+    "ageLabel": "Âge non renseigné",
     "priceCents": null,
     "image": "/media/articles/51689b5b014689b23b3d8926e73f4f995deb649feedf99bf6ad4e623de7971d8.webp",
     "color": "#f4f2ed",
     "description": "Trousse en tissu à nœud. Matière déclarée par la fiche article : polyester cotton.",
     "details": [
-      "Âge d’utilisation non communiqué : à confirmer avant toute vente.",
       "Matières annoncées : Matière déclarée par la fiche article : polyester cotton."
     ],
     "demo": false,
@@ -535,13 +500,12 @@ const baseProducts: Product[] = [
     "subtitle": "Les petites habitudes",
     "category": "quotidien",
     "age": null,
-    "ageLabel": "Âge à confirmer",
+    "ageLabel": "Âge non renseigné",
     "priceCents": null,
     "image": "/media/articles/7514604b31f4d99783ad81b1f23a2950a6d4a300da4a2fccb660f52bb85feef4.webp",
     "color": "#f8e6ec",
     "description": "Une trousse rose à damier, avec un motif lapin et plusieurs poches zippées. La photo correspond au modèle présenté.",
     "details": [
-      "Âge d’utilisation non communiqué : à confirmer avant toute vente.",
       "Matière et dimensions indiquées sur la photo : tissu Oxford, 22 × 7,5 × 10 cm."
     ],
     "demo": false,
@@ -552,4 +516,4 @@ const baseProducts: Product[] = [
 const variantProducts=new Map(variantCatalogue.products.map(p=>[p.id,p]));
 const prices = new Map<string, any>(pricing.products.map((p:any)=>[p.id,p]));
 const ages = readAgeEvidence(ageEvidence);
-export const products:Product[] = baseProducts.filter(p=>!isCatalogueExcluded(p)).map(p=>{const v=prices.get(p.id);const a=ages.get(p.id);if(!a||a.variantId!==p.defaultVariantId)throw Error("AGE_PRODUCT_MISMATCH");return {...p,ageKnown:a.ageKnown,ageGroups:a.ageGroups,ageGroupCoverage:a.ageGroupCoverage,ageLabel:a.ageLabel,ageSource:a.ageSource,ageEvidenceStatus:a.qualificationStatus,details:[a.ageLabel+". Cette information reste à vérifier avant la vente.",...p.details.filter(d=>!d.startsWith("Âge d’utilisation"))],indicativePriceCents:v?.indicativePriceCents??null,priceStatus:v?.priceStatus||"tarif_a_confirmer",priceLabel:v?.priceLabel||"Tarif à confirmer",catalogueCategory:v?.category||p.category,catalogueCategoryLabel:v?.categoryLabel||p.subtitle,variants:(variantProducts.get(p.id)?.variants||v?.variants||[]).map((x:any)=>({...x,indicativePriceCents:x.id===p.defaultVariantId?(v?.indicativePriceCents??null):null,availableForCheckout:false}))};});
+export const products:Product[] = baseProducts.filter(p=>!isCatalogueExcluded(p)).map(p=>{const v=prices.get(p.id);const a=ages.get(p.id);if(!a||a.variantId!==p.defaultVariantId)throw Error("AGE_PRODUCT_MISMATCH");return {...p,ageKnown:a.ageKnown,ageGroups:a.ageGroups,ageGroupCoverage:a.ageGroupCoverage,ageLabel:a.ageLabel==="Âge non renseigné"?"":a.ageLabel.split(" · ")[0],ageSource:a.ageSource,ageEvidenceStatus:a.qualificationStatus,details:p.details,indicativePriceCents:v?.indicativePriceCents??null,priceStatus:v?.priceStatus||"tarif_a_confirmer",priceLabel:v?.priceLabel||"Tarif à confirmer",catalogueCategory:v?.category||p.category,catalogueCategoryLabel:v?.categoryLabel||p.subtitle,variants:(variantProducts.get(p.id)?.variants||v?.variants||[]).map((x:any)=>({...x,indicativePriceCents:x.id===p.defaultVariantId?(v?.indicativePriceCents??null):null,availableForCheckout:false}))};});
