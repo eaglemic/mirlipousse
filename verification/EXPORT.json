@@ -1,10 +1,10 @@
 {
   "format": "mirlipousse-export-statique/2",
-  "dateUTC": "2026-10-28T22:26:41.536541+00:00",
+  "dateUTC": "2026-10-29T14:37:59.492210+00:00",
   "succes": true,
   "origineCandidateNonReservee": "https://mirlipousse.onrender.com",
   "pagesHTML": 29,
-  "assetsEtPages": 136,
+  "assetsEtPages": 137,
   "achatsOuverts": false,
   "apiDeployee": false,
   "serveurOuSecretsInclus": false,
@@ -42,6 +42,7 @@
     "assets/catalogue-HbvTeWs_.js": "9bccb6c52beb8cd9bb56d3cf12166d0eba5b44870cd2488cc289337278a649d3",
     "assets/catalogue-IiXJdZs2.css": "71f7801ff648f5d2711f86d99ee9b3a2b0ef3bd3b49d6553c541230ef7f7813a",
     "assets/catalogue-M7io0-Vm.css": "e6c82b71cd313273b238c920a9b8df375f6baa54e2558c59483e1b81c55575a1",
+    "assets/catalogue-MPCW-wzK.js": "cf51d2ea9f4d4c440f502fa5296baf3c3e19dedc57038deb836933ece68f0122",
     "assets/catalogue-QHK3LW5t.css": "57694fd5b017aa880e9152b8e36ea13cc65fc55998978315bf79ceb6a9fa8425",
     "assets/catalogue-R-yjRTmN.css": "d093dfae80965eea7785b6a74f78a4f5211e41c59977e36ab641a26887d1bfcc",
     "assets/catalogue-Zh4lDySA.css": "df4457383f9d4e9049005d97eaa19a8d73ff5fb308a5d7fa1baa8cee4cc0d115",
@@ -59,7 +60,7 @@
     "collections/jeux-aventure/index.html": "7e1502aadc0a070280356eb3c41a6453dcab8488c46003b3ab190238f925aa25",
     "collections/jeux-creatifs/index.html": "5d3511f46d458b08d3772e71515cde934a56fc7504c8104d94eec49f910d3389",
     "collections/jouets-eveil/index.html": "04622701e954bec1577383831bf110271724bc56a682929035dc79016cc67d7e",
-    "commande/merci/index.html": "7075721ae310d2cbb4bbf177cb257cd1113f39c42c603e2665aa4718322feeef",
+    "commande/merci/index.html": "13bba7649d15598e0a641cccab9f73b9a6fd1d916577bc9677b249ec4d0db2f2",
     "confidentialite/index.html": "3e5af90ccf292ac69f5ac2f3c7438da9e8ad4b9fbf02ee45e517836d9b997a5f",
     "connexion-cj-11ede6e316d77e9738711f2e.html": "2e93b258cd0f70080ebf4ca0a1290fcf0b0e591b1a0a9211d242fac649b097c8",
     "connexion-mondialrelay-4aa11290ef6313fc570f2a7e.html": "4395f6fc4270524badb232f00bb6d7e8a4b7005359c45c6a8197dded9fb7ca73",
@@ -83,7 +84,7 @@
     "illustrations/petits-batisseurs.svg": "4abaeea0fd8840f1b06e61471b27aec77a5180a828ead6b90a1333ec3b07f918",
     "illustrations/pochon-tresors.svg": "4ef96c0b9bc7abeb91f3a2fb7036d11e1290fb37397bebd9379f58c58b273a6d",
     "illustrations/sac-exploration.svg": "1683dafc1770b20f97001b227620009a4f9eb3449f348dd170d918f9423ced65",
-    "index.html": "fbf71aaaf8f71c152be6015f4e071c54f12bb94e0fe86ebae80a5261bc4f4868",
+    "index.html": "fb8caf93a1008be0e63e38159b79cdce25c003935908f0187c894bec9e07bd8f",
     "informations-legales/index.html": "3d68ce921d009f21ae514d82f3439579316ddf6983d2ae09534866d84897bdaa",
     "legal.css": "e3e289031dae78c2553ffc2db02c537170c372ef56725cab57a6278d4b363c86",
     "livraison-retours/index.html": "f6933fe305bd72d4083f61161fb6a2a97d45d1fb6e5d721064eed256aff57720",
@@ -294,5 +295,19 @@
     "mediateurDesigne": false,
     "conformiteJuridiqueGlobaleCertifiee": false,
     "activationVentes": false
+  },
+  "selectionAge": {
+    "cartes": 5,
+    "identifiants": [
+      "0-2",
+      "3-5",
+      "6-8",
+      "9-12",
+      "tout"
+    ],
+    "libelleGlobal": "Tout âge",
+    "referencesGlobales": 30,
+    "referencesSansAgeIncluses": true,
+    "rectanglesSupplementaires": false
   }
 }
