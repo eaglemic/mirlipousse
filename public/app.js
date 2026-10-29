@@ -1,71 +1,63 @@
-/* Vitrines fermées : aucune route de paiement ou commande. */
+import {restoreSelection,addSelection,exactOption} from './selection-state.mjs';
+/* Vitrine fermée : sélection locale de pièces, aucune route de commande. */
 (() => {
   'use strict';
-  const config = JSON.parse(document.getElementById('brand-data').textContent);
-  if (!/^[a-z0-9-]+$/.test(config.brandSlug) || config.salesEnabled !== false) throw new Error('Configuration de présentation invalide');
+  const config=JSON.parse(document.getElementById('brand-data').textContent);
+  if(config.brandSlug!=='mini-et-moi'||config.salesEnabled!==false||!Array.isArray(config.products)||config.products.length!==3)throw Error('Configuration de présentation invalide');
+  const productIds=new Set(),variantIds=new Set();
+  for(const p of config.products){
+    if(!/^mm-p-[a-f0-9]{64}$/.test(p.id)||productIds.has(p.id)||p.purchaseEnabled!==false||!Array.isArray(p.variants)||!p.variants.length||p.variants.length>150||!p.variants.some(v=>v.id===p.defaultVariantId))throw Error('Catalogue de présentation invalide');productIds.add(p.id);
+    for(const v of p.variants){if(!/^mm-v-[a-f0-9]{64}$/.test(v.id)||variantIds.has(v.id)||v.availableForCheckout!==false||!/^\/media\/variantes\/image-[a-f0-9]{24}\.(jpg|png)$/.test(v.image)||typeof v.label!=='string'||v.label.length>200)throw Error('Variante de présentation invalide');variantIds.add(v.id);}
+  }
   document.body.classList.add('js');
-  const products = new Map(config.products.map(product => [product.id, product]));
-  const storageKey = `boutique:${config.brandSlug}:selection:v1`;
-  const adultKey = `boutique:${config.brandSlug}:adult:v1`;
-  let chosen = [];
-  const read = key => { try { return localStorage.getItem(key); } catch { return null; } };
-  const write = (key, value) => { try { localStorage.setItem(key, value); } catch { /* La sélection reste utilisable en mémoire. */ } };
-  try { const parsed = JSON.parse(read(storageKey) || '[]'); chosen = Array.isArray(parsed) ? [...new Set(parsed)].filter(id => typeof id === 'string' && products.has(id)).slice(0, 50) : []; } catch { chosen = []; }
-  const dialog = document.getElementById('selection');
-  const feedback = document.getElementById('feedback');
-  let feedbackTimer;
-  function announce(text) { clearTimeout(feedbackTimer); feedback.textContent = text; feedbackTimer = setTimeout(() => { feedback.textContent = ''; }, 4500); }
-  function render() {
-    document.querySelectorAll('[data-count]').forEach(node => { node.textContent = String(chosen.length); });
-    const list = document.getElementById('selection-items'); list.replaceChildren();
-    document.getElementById('selection-empty').hidden = chosen.length > 0;
-    document.getElementById('selection-clear').hidden = chosen.length === 0;
-    chosen.forEach(id => {
-      const product = products.get(id), item = document.createElement('li'), photo = document.createElement('img'), name = document.createElement('span'), remove = document.createElement('button');
-      photo.src = product.image; photo.alt = ''; photo.width = 60; photo.height = 60;
-      name.textContent = `${product.name} — Prix à venir`;
-      remove.type = 'button'; remove.textContent = '×'; remove.setAttribute('aria-label', `Retirer ${product.name}`);
-      remove.addEventListener('click', () => { chosen = chosen.filter(value => value !== id); write(storageKey, JSON.stringify(chosen)); render(); announce('Référence retirée de votre sélection.'); });
-      item.append(photo, name, remove); list.append(item);
+  const products=new Map(config.products.map(p=>[p.id,p]));
+  const storageKey=`boutique:${config.brandSlug}:selection:v1`;
+  let chosen=[],unresolved=[],protectedStorage=false;
+  try{const restored=restoreSelection(JSON.parse(localStorage.getItem(storageKey)||'[]'),config.products);chosen=restored.items;unresolved=restored.unresolved;}catch{protectedStorage=true;}
+  function persist(){if(protectedStorage)return;try{localStorage.setItem(storageKey,JSON.stringify([...chosen,...unresolved]));}catch{protectedStorage=true;}}
+  const dialog=document.getElementById('selection'),feedback=document.getElementById('feedback');let feedbackTimer;
+  function announce(text){clearTimeout(feedbackTimer);feedback.textContent=text+(protectedStorage?' Cette sélection reste temporaire ; votre ancienne sélection est conservée.':'');feedbackTimer=setTimeout(()=>{feedback.textContent='';},4500);}
+  function render(){
+    const total=chosen.length+unresolved.length;
+    document.querySelectorAll('[data-count]').forEach(node=>{node.textContent=String(total);});
+    const list=document.getElementById('selection-items');list.replaceChildren();
+    document.getElementById('selection-empty').hidden=total>0;document.getElementById('selection-clear').hidden=total===0;
+    chosen.forEach(line=>{
+      const exact=exactOption(config.products,line.id,line.variantId);if(!exact)return;
+      const {product,option}=exact,item=document.createElement('li'),photo=document.createElement('img'),name=document.createElement('span'),remove=document.createElement('button');
+      photo.src=option.image;photo.alt=option.imageAlt;photo.width=60;photo.height=60;
+      name.textContent=`${product.name} — ${option.label} — une pièce — Prix à venir`;
+      remove.type='button';remove.textContent='×';remove.setAttribute('aria-label',`Retirer ${product.name}, ${option.label}`);
+      remove.addEventListener('click',()=>{chosen=chosen.filter(x=>!(x.id===line.id&&x.variantId===line.variantId));persist();render();announce('Pièce retirée de votre sélection.');});
+      item.append(photo,name,remove);list.append(item);
     });
+    unresolved.forEach((line,index)=>{const item=document.createElement('li'),name=document.createElement('span'),remove=document.createElement('button');const product=products.get(line.id);name.textContent=product?`${product.name} — ${line.variantId?'ancienne variante à reconfirmer':'ancienne collection conservée, taille à choisir'}. Aucune pièce ne lui est substituée.`:'Ancienne référence conservée, à reconfirmer. Aucun article ne lui est substitué.';remove.type='button';remove.textContent='Retirer';remove.addEventListener('click',()=>{unresolved=unresolved.filter((_,i)=>i!==index);persist();render();});item.append(name,remove);list.append(item);});
   }
-  document.querySelectorAll('.add-selection').forEach(button => button.addEventListener('click', () => {
-    const id = button.dataset.product; if (!products.has(id)) return;
-    if (!chosen.includes(id)) chosen.push(id);
-    write(storageKey, JSON.stringify(chosen)); render(); announce('Ajouté à votre sélection. Aucun achat effectué.');
+  document.querySelectorAll('.variant-select').forEach(select=>{
+    const product=products.get(select.dataset.product);if(!product)return;
+    select.addEventListener('change',()=>{
+      const exact=exactOption(config.products,product.id,select.value);if(!exact)return;
+      const scope=select.closest('.product-card,.product-detail'),photo=scope?.querySelector('img');
+      if(photo){photo.src=exact.option.image;photo.alt=exact.option.imageAlt;}
+    });
+  });
+  document.querySelectorAll('.add-selection').forEach(button=>button.addEventListener('click',()=>{
+    const product=products.get(button.dataset.product);if(!product)return;
+    const scope=button.closest('.product-card,.product-detail'),select=scope?.querySelector('.variant-select');
+    if(!select||select.dataset.product!==product.id||!exactOption(config.products,product.id,select.value)){announce('Choisissez une taille documentée.');return;}
+    const before=chosen;chosen=addSelection(chosen,config.products,product.id,select.value,unresolved.length);
+    if(chosen===before){announce(chosen.some(x=>x.id===product.id&&x.variantId===select.value)?'Cette pièce est déjà dans votre sélection.':'Votre sélection contient déjà50 références.');return;}
+    persist();render();announce('Pièce ajoutée à votre sélection. Aucun achat effectué.');
   }));
-  document.querySelectorAll('.selection-toggle').forEach(button => button.addEventListener('click', () => { render(); dialog.showModal(); }));
-  dialog.querySelector('[data-close]').addEventListener('click', () => dialog.close());
-  document.getElementById('selection-clear').addEventListener('click', () => { chosen = []; write(storageKey, '[]'); render(); announce('Votre sélection a été vidée.'); });
-  const menu = document.querySelector('.menu-toggle'), navigation = document.getElementById('navigation');
-  menu.addEventListener('click', () => { const open = menu.getAttribute('aria-expanded') !== 'true'; menu.setAttribute('aria-expanded', String(open)); navigation.classList.toggle('open', open); });
-  document.addEventListener('keydown', event => { if (event.key === 'Escape' && navigation.classList.contains('open')) { navigation.classList.remove('open'); menu.setAttribute('aria-expanded', 'false'); menu.focus(); } });
-  const initialAudience = new URL(location.href).searchParams.get('audience');
-  let category = 'all', audience = ['naissance','bebe','enfant','ado','adulte'].includes(initialAudience) ? initialAudience : 'all';
-  function applyFilters() {
-    let visible = 0;
-    document.querySelectorAll('.filter-item').forEach(item => {
-      const categoryOK = category === 'all' || item.dataset.category === category;
-      const audienceOK = audience === 'all' || (item.dataset.audience || '').split(' ').includes(audience);
-      item.hidden = !categoryOK || !audienceOK;
-      if (!item.hidden) visible++;
-    });
-    const count = document.getElementById('filter-count'), empty = document.getElementById('filter-empty');
-    if (count) count.textContent = `${visible} référence${visible > 1 ? 's' : ''} affichée${visible > 1 ? 's' : ''}`;
-    if (empty) empty.hidden = visible !== 0;
-    document.querySelectorAll('[data-filter]').forEach(button => { const active = button.dataset.filter === category; button.classList.toggle('active', active); button.setAttribute('aria-pressed', String(active)); });
-    document.querySelectorAll('[data-audience-filter]').forEach(button => { const active = button.dataset.audienceFilter === audience; button.classList.toggle('active', active); button.setAttribute('aria-pressed', String(active)); });
-  }
-  document.querySelectorAll('[data-filter]').forEach(button => button.addEventListener('click', () => { category = button.dataset.filter; applyFilters(); }));
-  document.querySelectorAll('[data-audience-filter]').forEach(button => button.addEventListener('click', () => { audience = button.dataset.audienceFilter; applyFilters(); }));
-  if (document.querySelector('.filter-item')) applyFilters();
-  if (config.adultOnly === true) {
-    if (config.brandSlug !== 'nuitrelia') throw new Error('Univers adulte incohérent');
-    const gate = document.getElementById('adult-gate');
-    document.getElementById('adult-confirm').addEventListener('click', () => { write(adultKey, 'declared-18'); gate.close(); });
-    if (read(adultKey) !== 'declared-18') { gate.addEventListener('cancel', event => event.preventDefault()); gate.showModal(); }
-  }
-  render();
+  document.querySelectorAll('.selection-toggle').forEach(button=>button.addEventListener('click',()=>{render();dialog.showModal();}));
+  dialog.querySelector('[data-close]').addEventListener('click',()=>dialog.close());
+  document.getElementById('selection-clear').addEventListener('click',()=>{chosen=[];unresolved=[];protectedStorage=false;persist();render();announce('Votre sélection a été vidée.');});
+  const menu=document.querySelector('.menu-toggle'),navigation=document.getElementById('navigation');
+  menu.addEventListener('click',()=>{const open=menu.getAttribute('aria-expanded')!=='true';menu.setAttribute('aria-expanded',String(open));navigation.classList.toggle('open',open);});
+  document.addEventListener('keydown',event=>{if(event.key==='Escape'&&navigation.classList.contains('open')){navigation.classList.remove('open');menu.setAttribute('aria-expanded','false');menu.focus();}});
+  const initialAudience=new URL(location.href).searchParams.get('audience');let category='all',audience=['naissance','bebe','enfant','ado','adulte'].includes(initialAudience)?initialAudience:'all';
+  function applyFilters(){let visible=0;document.querySelectorAll('.filter-item').forEach(item=>{const categoryOK=category==='all'||item.dataset.category===category,audienceOK=audience==='all'||(item.dataset.audience||'').split(' ').includes(audience);item.hidden=!categoryOK||!audienceOK;if(!item.hidden)visible++;});const count=document.getElementById('filter-count'),empty=document.getElementById('filter-empty');if(count)count.textContent=`${visible} référence${visible>1?'s':''} affichée${visible>1?'s':''}`;if(empty)empty.hidden=visible!==0;document.querySelectorAll('[data-filter]').forEach(button=>{const active=button.dataset.filter===category;button.classList.toggle('active',active);button.setAttribute('aria-pressed',String(active));});document.querySelectorAll('[data-audience-filter]').forEach(button=>{const active=button.dataset.audienceFilter===audience;button.classList.toggle('active',active);button.setAttribute('aria-pressed',String(active));});}
+  document.querySelectorAll('[data-filter]').forEach(button=>button.addEventListener('click',()=>{category=button.dataset.filter;applyFilters();}));document.querySelectorAll('[data-audience-filter]').forEach(button=>button.addEventListener('click',()=>{audience=button.dataset.audienceFilter;applyFilters();}));if(document.querySelector('.filter-item'))applyFilters();render();
 })();
 /* Avis : activation explicite après qualification du stockage et de l’origine. */
 (async () => {
