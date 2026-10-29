@@ -1,6 +1,6 @@
 {
   "format": "boutique-export/1",
-  "dateUTC": "2026-10-27T21:20:46.194836Z",
+  "dateUTC": "2026-10-29T22:03:11.300774+00:00",
   "brandSlug": "feerivane",
   "name": "Féérivane",
   "branche": "entreprise/feerivane",
@@ -14,8 +14,8 @@
   "files": [
     {
       "path": "404.html",
-      "sha256": "25beea04c5f70b789903a9876fc40547cc6b3942e12904dba6f50876ec956099",
-      "octets": 11272
+      "sha256": "bf8416e960ab63beb20b0ce6d634ea96f23a142acaadc7f799a1a2dd90c98a4c",
+      "octets": 11406
     },
     {
       "path": "app.js",
@@ -24,8 +24,8 @@
     },
     {
       "path": "avis.html",
-      "sha256": "35c0e1a9fa1acd0c43d971449d5d776b909cbc8630a1ceacb97fa5e5c471ff4f",
-      "octets": 13299
+      "sha256": "1f95b903c967450d9b005265e0730bcc9202bdb2a5f18cf5e22b1510704499ff",
+      "octets": 13433
     },
     {
       "path": "brand.json",
@@ -34,8 +34,8 @@
     },
     {
       "path": "catalogue.html",
-      "sha256": "a832394a156dded1fdef2b725c7de57feb7f8378b5748bc823f7832d4326f997",
-      "octets": 22182
+      "sha256": "78035ebfcabdbc2b5dc6a673558f19a9aebbf1947e810dbfcc374c6d6f84d335",
+      "octets": 22316
     },
     {
       "path": "catalogue.json",
@@ -44,33 +44,33 @@
     },
     {
       "path": "conditions.html",
-      "sha256": "da5190d213d6ddf82f6876cb5e2e5bc560946abb527a8e0549a42f5214226202",
-      "octets": 12001
+      "sha256": "26c571b56bb1b9d57ee0a21b34dec962388464c6362d9a8f6add75ab820b486f",
+      "octets": 12279
     },
     {
       "path": "confidentialite.html",
-      "sha256": "865c3170f85cdd1fb1d767011fc8cdba43b67077015f435b9dcdfad71a5209db",
-      "octets": 13405
+      "sha256": "7297c7ceaaf023c659ec6546460e5b3403410046e3f62bcfe50fc39262147088",
+      "octets": 13545
     },
     {
       "path": "contact.html",
-      "sha256": "c09b2d7c383a5a2cfcae797b2918d9fde12a062a05b8b4943bcb266df5d4be81",
-      "octets": 11660
+      "sha256": "3ea9c01a690297493b3b5ec8cd3f771b2e0fa9c49fa16e398963bf94322dee1d",
+      "octets": 11863
     },
     {
       "path": "guide.html",
-      "sha256": "de640a9e4ea95734287e7279746bcc9a259224b3382e80e0e0b6f044756fc4bf",
-      "octets": 11843
+      "sha256": "ba90349b0f6f3024fa78662d4d8ff6745052c86e7ae6de0ac01a9264b4572d60",
+      "octets": 11977
     },
     {
       "path": "index.html",
-      "sha256": "8aa89815a3f852d2048fb9f4dba4a65d1fb5cce70fe983861cb521f93ad24a20",
-      "octets": 26275
+      "sha256": "28b3e0fbfde44c1f4f0ab2402b35fc7464e588807e46101c97024723d156908c",
+      "octets": 26409
     },
     {
       "path": "livraison.html",
-      "sha256": "74d37f89c06a916e56b2c0b2b082982490e7d6d31d8f5e15a3fe8d77b3bff47f",
-      "octets": 11894
+      "sha256": "01bf92ea8898e5461d7a61da20c67cfb619d621e4534d25060e5a1e2113656cf",
+      "octets": 12028
     },
     {
       "path": "media/embleme.svg",
@@ -119,53 +119,53 @@
     },
     {
       "path": "mentions-legales.html",
-      "sha256": "f55a0d8ae37c45d2bb0dfb7c03f3403c76bfb2ab405ae5331a9e90886514f14d",
-      "octets": 12178
+      "sha256": "a8d692d6cda51b1f48d429fe347e12bcd08131922f3a679adf2c6a49c5b2c981",
+      "octets": 12456
     },
     {
       "path": "produits/feerivane-cj-122125a0-e459-4986-b512-f92c606b99bb.html",
-      "sha256": "de69d7b9bfee7bde5925f2eeaae9333759477e9c29146da255ea8eec5fe4349b",
-      "octets": 13291
+      "sha256": "1e7be4fb06f80e9c93f847d04b9136c2568e9f9c8f5e1b5f79b4889c6cd78f7b",
+      "octets": 13425
     },
     {
       "path": "produits/feerivane-cj-2084200180513361921.html",
-      "sha256": "d5cccea6634d0e7ba6a2f787c559827c79874a04e07daddfb49bb7908526bf8a",
-      "octets": 13144
+      "sha256": "fbfaed721fc1e16a59394ca440658175424bec9a2228f17a85a6414fb4e74a08",
+      "octets": 13278
     },
     {
       "path": "produits/feerivane-cj-2410220638191619000.html",
-      "sha256": "02c4610d5ba395087cc322738b172091a7791cf95a092f4404f88ea0e3b2bd81",
-      "octets": 13233
+      "sha256": "5ec48ed9a5c7f37719a38402526e4efc04f7b88a6ccf864bb4a80d98b245b225",
+      "octets": 13367
     },
     {
       "path": "produits/feerivane-cj-2509061500421605000.html",
-      "sha256": "86f3c67cf7dc38a03edcd386f51b1fffe3fa32037108b62a83db5de15cb560ce",
-      "octets": 13060
+      "sha256": "21319e1b8880a1896069756aa4685e7730af05b85dec5745cfec05b24de5c943",
+      "octets": 13194
     },
     {
       "path": "produits/feerivane-cj-2510081447231625000.html",
-      "sha256": "3d8154dc09a696de0b36c78003f8189ecf334deec466b0a6296e9e237fff1e11",
-      "octets": 13206
+      "sha256": "f6e5ec5cdac659eb1105352b7b8741f22c3d529b29ec2a6952d51f52393e9483",
+      "octets": 13340
     },
     {
       "path": "produits/feerivane-cj-2510170651451627900.html",
-      "sha256": "77dc675c31de779ba861adbcf298a33c61247178622d733ffe80fda2968a414d",
-      "octets": 13230
+      "sha256": "5aa8824475bce6c28a5b23ee6ed976dd1813cf83e1acaa2aa545054dfbdcc9b3",
+      "octets": 13364
     },
     {
       "path": "produits/feerivane-cj-2510240632501620300.html",
-      "sha256": "a8d4e68b1587fa9cd14b5d705890add00d647ab489b3f61852e05b3d2c329c17",
-      "octets": 13075
+      "sha256": "79461f592f8abf229d1351f74842ce37dbe6384c9760f341958bb7ebbf6ae3c3",
+      "octets": 13209
     },
     {
       "path": "produits/feerivane-cj-df6dd0f2-fe0a-4d50-98ff-aa743747cdb8.html",
-      "sha256": "28181e38e263483b395bf753b6e7f56bbf4bfba15e900e0bbea69e4621086a60",
-      "octets": 13238
+      "sha256": "b3546e0b7b67d5207abf4355ce1814dad956e303016ecd42a02a8ca16df87639",
+      "octets": 13372
     },
     {
       "path": "retours.html",
-      "sha256": "fccfc1bdf43b346b4f814eddb37b497c27b7fca2133fec5e6cd720a0ff76b547",
-      "octets": 11966
+      "sha256": "7d0178fda4852b1a71d45cd57779e263c8748a3a42ec4c26d704204914b3f1dc",
+      "octets": 12244
     },
     {
       "path": "robots.txt",
@@ -182,5 +182,13 @@
       "sha256": "d1d5743e37e21b21d16fb158bd6930cf0e5bab8cace30ba6111e804536be8984",
       "octets": 29097
     }
-  ]
+  ],
+  "contactSAV": {
+    "email": "miniandmerveilles@gmail.com",
+    "mailto": "mailto:miniandmerveilles@gmail.com",
+    "salesEnabled": false,
+    "envoiMessageEffectue": false,
+    "comptesPrivesModifies": false,
+    "portee": "contact public et SAV uniquement"
+  }
 }
