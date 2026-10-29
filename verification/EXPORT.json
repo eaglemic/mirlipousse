@@ -1,6 +1,6 @@
 {
   "format": "boutique-export/1",
-  "dateUTC": "2026-10-27T20:55:29.929542Z",
+  "dateUTC": "2026-10-29T22:03:12.265951+00:00",
   "brandSlug": "moustelio",
   "name": "Moustélio",
   "branche": "entreprise/moustelio",
@@ -14,8 +14,8 @@
   "files": [
     {
       "path": "404.html",
-      "sha256": "2ae653a1a9d7087a9608a4034146088c504c1d5d2b804730e3903cd3d61bdeb9",
-      "octets": 6430
+      "sha256": "e12df0bbe0de67fb96d1325f5590575dfbd0b84bc6fb6c45aed44a626dfe81f2",
+      "octets": 6564
     },
     {
       "path": "app.js",
@@ -24,8 +24,8 @@
     },
     {
       "path": "avis.html",
-      "sha256": "08096d85981aa1d243aa596b232ea9bc2a6d6c7745b7edb254adfbe11facf5e2",
-      "octets": 8456
+      "sha256": "4f404aa23f88c57af33fd3412d551301370944a12e0aad25517c00962f385e79",
+      "octets": 8590
     },
     {
       "path": "brand.json",
@@ -34,8 +34,8 @@
     },
     {
       "path": "catalogue.html",
-      "sha256": "6819fd520aec6a088dd6f46e7a0a86551b9cefdb65dd535aae24fc37cd3d2c13",
-      "octets": 10293
+      "sha256": "d940d5e3dd283b970dbff0c0abff49e151cf153251b575dac1e19fa32ab629fb",
+      "octets": 10427
     },
     {
       "path": "catalogue.json",
@@ -44,33 +44,33 @@
     },
     {
       "path": "conditions.html",
-      "sha256": "8df06f86a1df9de350ea21e0833b7f18baa6774dfa02f37cfe6ef5ae25dc91c1",
-      "octets": 7159
+      "sha256": "eb6b0e4907e6ac501792e0a6effd38a4ce537ba6ab750f84eee42f8a26bc0e26",
+      "octets": 7437
     },
     {
       "path": "confidentialite.html",
-      "sha256": "4169e47c429e495233501b437e3fd13a5b422c2814001ccc582adf9601e6c0d5",
-      "octets": 8563
+      "sha256": "a84907c9411a95c7bc92941a542b68e3015d1ecd60dfcf0f3698c60f0546f56a",
+      "octets": 8703
     },
     {
       "path": "contact.html",
-      "sha256": "8cccdc762b59ceefe0674eee788d7343aec5398e2ce47e4562987adf03f053f5",
-      "octets": 6818
+      "sha256": "357bb9a713276f33a54c1cea747b74826b0c51462cf67b7ca9f476f08941468c",
+      "octets": 7021
     },
     {
       "path": "guide.html",
-      "sha256": "448671fbb9fce08130c5a312ac83177f1b87e80ec9177eb886f7e3db41cc3326",
-      "octets": 6881
+      "sha256": "1020e102c2d0006f084b293fb29fa99daa4d3ad4b3c1171936ed353ddeef5717",
+      "octets": 7015
     },
     {
       "path": "index.html",
-      "sha256": "b3be9df2ce3dd560230787c87d84f5f119eb374ec6a1bd6c703cbad789fccc2b",
-      "octets": 15143
+      "sha256": "98867a987dbc9ea7fcbfca9a7be8ff62c8015be9b62bae9cfea1a5dade388e58",
+      "octets": 15277
     },
     {
       "path": "livraison.html",
-      "sha256": "24396c2da856bce0f7dc0d072cecae03262c44bf35bb19b204488f686c91a0ef",
-      "octets": 7052
+      "sha256": "12357f9439d04b1e698e25e4e6c6bd9fb66998e9217645c11434f1d891c92b57",
+      "octets": 7186
     },
     {
       "path": "media/embleme.svg",
@@ -94,28 +94,28 @@
     },
     {
       "path": "mentions-legales.html",
-      "sha256": "06ac375536442ac129158c47dede31189a2cea0ee3546e42e4a01bad5cbf6852",
-      "octets": 7336
+      "sha256": "8473f5ec81c47b8d7a3428a957a15ef3903b7750e99ce8be84ca1f3ac44d1f8f",
+      "octets": 7614
     },
     {
       "path": "produits/moustelio-cj-1393471868522074112.html",
-      "sha256": "3d097e3ba283a9e9017004d9f178ab717ce445f478c9ac3e5d394b3f6b671773",
-      "octets": 8179
+      "sha256": "30bacb72f5b8b1f2ae530ac35318bd5cc3aeb3b042e7b235db94ee3bd0d36431",
+      "octets": 8313
     },
     {
       "path": "produits/moustelio-cj-1432907858357391360.html",
-      "sha256": "5bc7ce6e926f2e62ae5a1fcaebe31ef05ef7310b42c06f35ed235734e0d5487c",
-      "octets": 8169
+      "sha256": "57de98235c0cf8da74dcd8a6c7fdd604ad909d6173304b44dd4cb926a955188b",
+      "octets": 8303
     },
     {
       "path": "produits/moustelio-cj-2408220512361601700.html",
-      "sha256": "5fa8ca4fc40249ef95a72ed2c6810a571c28cd0bedd0060be0116044301fbc33",
-      "octets": 8254
+      "sha256": "58b47874e1c4f6c03a6e6c06a9472a7291032a789da178c2599c81f17326b5cc",
+      "octets": 8388
     },
     {
       "path": "retours.html",
-      "sha256": "1ee79e52a8752478f4934700f10f0a61c0c8faac2975d726bc2943d1689be747",
-      "octets": 7124
+      "sha256": "f96330b7f5e3784ada39b39dbfee734eadd98c9c72577047626ec02cb241fcc6",
+      "octets": 7402
     },
     {
       "path": "robots.txt",
@@ -132,5 +132,13 @@
       "sha256": "649640a9a3fa10dc2ebf777f8d9fd4bc22fff5f5df821515fac71b7f3121041a",
       "octets": 29097
     }
-  ]
+  ],
+  "contactSAV": {
+    "email": "miniandmerveilles@gmail.com",
+    "mailto": "mailto:miniandmerveilles@gmail.com",
+    "salesEnabled": false,
+    "envoiMessageEffectue": false,
+    "comptesPrivesModifies": false,
+    "portee": "contact public et SAV uniquement"
+  }
 }
