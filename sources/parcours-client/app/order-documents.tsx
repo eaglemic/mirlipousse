@@ -55,6 +55,6 @@ export default function OrderDocuments({order,accessToken,onBusyChange,onWithdra
     </div>}
    </>}
   {!receipt&&<button type="button" className="text-link" disabled={busy} onClick={()=>checkReceipt()}>Vérifier la réception de ma demande</button>}
-  <p className="commerce-error" role="status">{error}</p><p>Vous pouvez aussi écrire à <a href="mailto:Gaelle2027@icloud.com">Gaelle2027@icloud.com</a>. Ne publiez pas votre code d’accès dans un avis.</p>
+  <p className="commerce-error" role="status">{error}</p><p>Vous pouvez aussi écrire à <a href="mailto:miniandmerveilles@gmail.com">miniandmerveilles@gmail.com</a>. Ne publiez pas votre code d’accès dans un avis.</p>
  </section>;
 }

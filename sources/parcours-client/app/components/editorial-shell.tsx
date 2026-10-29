@@ -26,7 +26,7 @@ export function LegalFooterLinks() {
 }
 
 export function EditorialFooter() {
-  return <footer className="editorial-footer"><a className="brand" href="/"><BrandWordmark/></a><p>Laissons grandir l’imagination.</p><nav aria-label="Découvrir la boutique"><a href="/guides">Le carnet d’idées</a><a href="/medias">Médias</a></nav><LegalFooterLinks/><small>Collection en préparation · Achats non ouverts</small></footer>;
+  return <footer className="editorial-footer"><a className="brand" href="/"><BrandWordmark/></a><p>Laissons grandir l’imagination.</p><nav aria-label="Découvrir la boutique"><a href="/guides">Le carnet d’idées</a><a href="/medias">Médias</a></nav><LegalFooterLinks/><p data-contact-sav>Contact &amp; SAV : <a href="mailto:miniandmerveilles@gmail.com">miniandmerveilles@gmail.com</a></p><small>Collection en préparation · Achats non ouverts</small></footer>;
 }
 
 export function Breadcrumbs({ label, path, parent }: { label: string; path: string; parent?: { label: string; path: string } }) {

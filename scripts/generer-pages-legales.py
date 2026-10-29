@@ -47,7 +47,7 @@ styles.append('<link rel="stylesheet" href="/legal.css">')
 
 def text_html(raw):
     value = escape(raw).replace('\n', '<br>')
-    value = value.replace('Gaelle2027@icloud.com', '<a href="mailto:Gaelle2027@icloud.com">Gaelle2027@icloud.com</a>')
+    value = value.replace('miniandmerveilles@gmail.com', '<a href="mailto:miniandmerveilles@gmail.com">miniandmerveilles@gmail.com</a>')
     if DATA.get('phonePublicAuthorised') and DATA.get('phonePublic') == '+33785713797':
         value = value.replace('07 85 71 37 97', '<a href="tel:+33785713797">07 85 71 37 97</a>')
     if DATA['mediatorDesignated']:
@@ -72,7 +72,7 @@ def body(slug, data):
         out.append('<section id="section-' + str(i) + '"><h2>' + escape(s['title']) + '</h2>' + ''.join('<p>' + text_html(p) + '</p>' for p in s['paragraphs']) + '</section>')
     out.append('</div>')
     if data.get('guaranteeBoxText'):
-        out.append('<section class="legal-guarantee" aria-labelledby="encadre-garanties"><h2 id="encadre-garanties">Encadré réglementaire français — garanties</h2><p>Vendeur répondant des garanties : BACH Gaëlle — Mini &amp; Merveilles, 7 rue de l’Aramon, 11220 Talairan, France ; <a href="mailto:Gaelle2027@icloud.com">Gaelle2027@icloud.com</a>.</p><p>Les repères et l’encadré ci-dessous reproduisent le droit français. Ils ne réduisent pas les protections impératives applicables à un consommateur en Belgique.</p><pre>' + escape(data['guaranteeBoxText']) + '</pre><p><a href="' + escape(data['guaranteeBoxSource'], quote=True) + '">Consulter le texte réglementaire sur Légifrance</a></p></section>')
+        out.append('<section class="legal-guarantee" aria-labelledby="encadre-garanties"><h2 id="encadre-garanties">Encadré réglementaire français — garanties</h2><p>Vendeur répondant des garanties : BACH Gaëlle — Mini &amp; Merveilles, 7 rue de l’Aramon, 11220 Talairan, France ; <a href="mailto:miniandmerveilles@gmail.com">miniandmerveilles@gmail.com</a>.</p><p>Les repères et l’encadré ci-dessous reproduisent le droit français. Ils ne réduisent pas les protections impératives applicables à un consommateur en Belgique.</p><pre>' + escape(data['guaranteeBoxText']) + '</pre><p><a href="' + escape(data['guaranteeBoxSource'], quote=True) + '">Consulter le texte réglementaire sur Légifrance</a></p></section>')
     if data.get('sources'):
         out.append('<section><h2>Pour consulter les sources officielles</h2><ul>' + ''.join('<li><a href="' + escape(s['url'], quote=True) + '">' + escape(s['label']) + '</a></li>' for s in data['sources']) + '</ul></section>')
     out.append('<p class="legal-updated">Version documentaire : ' + escape(DOCUMENT_DATE) + '. Les informations publiées ne valent pas certification de conformité ni ouverture des ventes.</p>')
@@ -86,7 +86,7 @@ def plain(data):
         chunks.extend([sec['title'], *sec['paragraphs']])
     if data.get('guaranteeBoxText'):
         chunks.extend(['ENCADRÉ RÉGLEMENTAIRE FRANÇAIS — GARANTIES',
-                       'Vendeur répondant des garanties : BACH Gaëlle, 7 rue de l’Aramon, 11220 Talairan, France ; Gaelle2027@icloud.com.',
+                       'Vendeur répondant des garanties : BACH Gaëlle, 7 rue de l’Aramon, 11220 Talairan, France ; miniandmerveilles@gmail.com.',
                        'Le droit français reproduit ici ne réduit pas les protections impératives applicables au consommateur belge.',
                        data['guaranteeBoxText'], data['guaranteeBoxSource']])
     return '\n\n'.join(chunks) + '\n'
