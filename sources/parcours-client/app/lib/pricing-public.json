@@ -8,13 +8,7 @@
   "registrationStatus": "pending",
   "products": [
     {
-      "id": "cj-1443498935560835072",
-      "apiId": "cj-1443498935560835072",
-      "aliases": [
-        "cj-1443498935560835072"
-      ],
-      "pid": "1443498935560835072",
-      "vid": "1443498935623749632",
+      "id": "mm-p-823e50754eaf2e54744e3eb4ba764152e87c19283266142e89d337ec6a1b2b84",
       "name": "Kit de fouille de pierres et gemmes",
       "category": "loisirs-creatifs",
       "categoryLabel": "Loisirs créatifs",
@@ -31,14 +25,9 @@
       "priceNotice": "Prix cible de préparation, non contractuel. Livraison en plus, à confirmer ; achats fermés.",
       "variants": [
         {
-          "id": "1443498935623749632",
-          "variantId": "1443498935623749632",
-          "label": "Gem Dig Kit Dig Up 17 Gems STEM Science & Educational Toys Make Great Kids Activities A",
-          "variantKey": "A",
-          "availableForPreview": true,
-          "availableForCheckout": false,
-          "priceQualifiedForCheckout": false,
-          "stockRecheckedToday": false
+          "id": "mm-v-3c1c133af999c662b568fc33c3ff366f664f2c611fcacd691a8087b742e2d78c",
+          "label": "Modèle : A",
+          "availableForCheckout": false
         }
       ],
       "shippingStandard": {
@@ -56,9 +45,7 @@
           "etaBusinessDays": null,
           "etaLabel": "Délai à confirmer avant ouverture",
           "trackingIncluded": null,
-          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur.",
-          "scope": "Une unité de cette variante, destination pays seulement ; devis panier et adresse à recalculer.",
-          "extraFeesStatus": "total_transport_observe_a_confirmer"
+          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur."
         },
         "BE": {
           "mode": "home",
@@ -74,22 +61,14 @@
           "etaBusinessDays": null,
           "etaLabel": "Délai à confirmer avant ouverture",
           "trackingIncluded": null,
-          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur.",
-          "scope": "Une unité de cette variante, destination pays seulement ; devis panier et adresse à recalculer.",
-          "extraFeesStatus": "total_transport_observe_a_confirmer"
+          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur."
         }
       },
       "safetyQualified": false,
       "ageQualified": false
     },
     {
-      "id": "cj-2407170610431615300",
-      "apiId": "cj-2407170610431615300",
-      "aliases": [
-        "cj-2407170610431615300"
-      ],
-      "pid": "2407170610431615300",
-      "vid": "2407170610431615500",
+      "id": "mm-p-3304df193601a8fdb6590949202f9c1c572bb0342fe174696c3ca8a2167bda17",
       "name": "Sac bandoulière fraise pour enfant",
       "category": "sacs-enfants",
       "categoryLabel": "Sacs enfants",
@@ -106,14 +85,9 @@
       "priceNotice": "Prix cible de préparation, non contractuel. Livraison en plus, à confirmer ; achats fermés.",
       "variants": [
         {
-          "id": "2407170610431615500",
-          "variantId": "2407170610431615500",
-          "label": "Cute Strawberry Fruit Cartoon Children's Crossbody Bag Red",
-          "variantKey": "Red",
-          "availableForPreview": true,
-          "availableForCheckout": false,
-          "priceQualifiedForCheckout": false,
-          "stockRecheckedToday": false
+          "id": "mm-v-0675da0d17aeb40b786a863693f561cf13f00e9125f855f0234adb9906a8ec88",
+          "label": "Modèle : Red",
+          "availableForCheckout": false
         }
       ],
       "shippingStandard": {
@@ -131,9 +105,7 @@
           "etaBusinessDays": null,
           "etaLabel": "Délai à confirmer avant ouverture",
           "trackingIncluded": null,
-          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur.",
-          "scope": "Une unité de cette variante, destination pays seulement ; devis panier et adresse à recalculer.",
-          "extraFeesStatus": "total_transport_observe_a_confirmer"
+          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur."
         },
         "BE": {
           "mode": "home",
@@ -149,22 +121,14 @@
           "etaBusinessDays": null,
           "etaLabel": "Délai à confirmer avant ouverture",
           "trackingIncluded": null,
-          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur.",
-          "scope": "Une unité de cette variante, destination pays seulement ; devis panier et adresse à recalculer.",
-          "extraFeesStatus": "total_transport_observe_a_confirmer"
+          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur."
         }
       },
       "safetyQualified": false,
       "ageQualified": false
     },
     {
-      "id": "cj-1768205411733221376",
-      "apiId": "cj-1768205411733221376",
-      "aliases": [
-        "cj-1768205411733221376"
-      ],
-      "pid": "1768205411733221376",
-      "vid": "1768205411821301760",
+      "id": "mm-p-0e2212657d8635a8dabf95c69735291c6da92e85ac353c40e2baa2229c6057dc",
       "name": "Sac tressé pour enfant",
       "category": "sacs-enfants",
       "categoryLabel": "Sacs enfants",
@@ -181,14 +145,9 @@
       "priceNotice": "Prix cible de préparation, non contractuel. Livraison en plus, à confirmer ; achats fermés.",
       "variants": [
         {
-          "id": "1768205411821301760",
-          "variantId": "1768205411821301760",
-          "label": "Children's Straw Handmade Knitted Messenger Bag Pink One Shoulder",
-          "variantKey": "Pink One Shoulder",
-          "availableForPreview": true,
-          "availableForCheckout": false,
-          "priceQualifiedForCheckout": false,
-          "stockRecheckedToday": false
+          "id": "mm-v-c858403c51f1590dbd9ede81fe4ef8e249c0559afd9c16c2c424af8a7123b833",
+          "label": "Modèle : Pink One Shoulder",
+          "availableForCheckout": false
         }
       ],
       "shippingStandard": {
@@ -206,9 +165,7 @@
           "etaBusinessDays": null,
           "etaLabel": "Délai à confirmer avant ouverture",
           "trackingIncluded": null,
-          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur.",
-          "scope": "Une unité de cette variante, destination pays seulement ; devis panier et adresse à recalculer.",
-          "extraFeesStatus": "total_transport_observe_a_confirmer"
+          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur."
         },
         "BE": {
           "mode": "home",
@@ -224,22 +181,14 @@
           "etaBusinessDays": null,
           "etaLabel": "Délai à confirmer avant ouverture",
           "trackingIncluded": null,
-          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur.",
-          "scope": "Une unité de cette variante, destination pays seulement ; devis panier et adresse à recalculer.",
-          "extraFeesStatus": "total_transport_observe_a_confirmer"
+          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur."
         }
       },
       "safetyQualified": false,
       "ageQualified": false
     },
     {
-      "id": "cj-1677148647701618688",
-      "apiId": "cj-1677148647701618688",
-      "aliases": [
-        "cj-1677148647701618688"
-      ],
-      "pid": "1677148647701618688",
-      "vid": "1677148647789699072",
+      "id": "mm-p-b6849588037d268d287c9bdda053281b8cb33f647cc06dd24ca98c715fe431c9",
       "name": "Sac à dos léger à motif pour enfant",
       "category": "sacs-enfants",
       "categoryLabel": "Sacs enfants",
@@ -256,14 +205,9 @@
       "priceNotice": "Prix cible de préparation, non contractuel. Livraison en plus, à confirmer ; achats fermés.",
       "variants": [
         {
-          "id": "1677148647789699072",
-          "variantId": "1677148647789699072",
-          "label": "Cartoon Cute Children Lightweight Backpack White",
-          "variantKey": "White",
-          "availableForPreview": true,
-          "availableForCheckout": false,
-          "priceQualifiedForCheckout": false,
-          "stockRecheckedToday": false
+          "id": "mm-v-149b2b6b899532c9cd17d2038fe58f7ab2394628fae95b9fe8ce54927521d3ec",
+          "label": "Modèle : White",
+          "availableForCheckout": false
         }
       ],
       "shippingStandard": {
@@ -281,9 +225,7 @@
           "etaBusinessDays": null,
           "etaLabel": "Délai à confirmer avant ouverture",
           "trackingIncluded": null,
-          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur.",
-          "scope": "Une unité de cette variante, destination pays seulement ; devis panier et adresse à recalculer.",
-          "extraFeesStatus": "total_transport_observe_a_confirmer"
+          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur."
         },
         "BE": {
           "mode": "home",
@@ -299,22 +241,14 @@
           "etaBusinessDays": null,
           "etaLabel": "Délai à confirmer avant ouverture",
           "trackingIncluded": null,
-          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur.",
-          "scope": "Une unité de cette variante, destination pays seulement ; devis panier et adresse à recalculer.",
-          "extraFeesStatus": "total_transport_observe_a_confirmer"
+          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur."
         }
       },
       "safetyQualified": false,
       "ageQualified": false
     },
     {
-      "id": "cj-28d791f0-e7f4-4f7c-b9a1-9c4bd728c047",
-      "apiId": "cj-28d791f0-e7f4-4f7c-b9a1-9c4bd728c047",
-      "aliases": [
-        "cj-28d791f0-e7f4-4f7c-b9a1-9c4bd728c047"
-      ],
-      "pid": "28D791F0-E7F4-4F7C-B9A1-9C4BD728C047",
-      "vid": "0A7A86F9-1B74-42BA-98EB-CB04451DAA77",
+      "id": "mm-p-aabc0acf34b25b5c039b465d32e7b2a11cda79bd08951c49bf1e5ad34f3d9eba",
       "name": "Sac à dos dinosaure",
       "category": "sacs-enfants",
       "categoryLabel": "Sacs enfants",
@@ -331,14 +265,9 @@
       "priceNotice": "Prix cible de préparation, non contractuel. Livraison en plus, à confirmer ; achats fermés.",
       "variants": [
         {
-          "id": "0A7A86F9-1B74-42BA-98EB-CB04451DAA77",
-          "variantId": "0A7A86F9-1B74-42BA-98EB-CB04451DAA77",
-          "label": "Dinosaur cartoon backpack blue",
-          "variantKey": "blue",
-          "availableForPreview": true,
-          "availableForCheckout": false,
-          "priceQualifiedForCheckout": false,
-          "stockRecheckedToday": false
+          "id": "mm-v-9ae322840a5418696fdb1771f30ea4bff2f05cb8cb5e42db16005edc00d1e57f",
+          "label": "Modèle : blue",
+          "availableForCheckout": false
         }
       ],
       "shippingStandard": {
@@ -356,9 +285,7 @@
           "etaBusinessDays": null,
           "etaLabel": "Délai à confirmer avant ouverture",
           "trackingIncluded": null,
-          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur.",
-          "scope": "Une unité de cette variante, destination pays seulement ; devis panier et adresse à recalculer.",
-          "extraFeesStatus": "total_transport_observe_a_confirmer"
+          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur."
         },
         "BE": {
           "mode": "home",
@@ -374,22 +301,14 @@
           "etaBusinessDays": null,
           "etaLabel": "Délai à confirmer avant ouverture",
           "trackingIncluded": null,
-          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur.",
-          "scope": "Une unité de cette variante, destination pays seulement ; devis panier et adresse à recalculer.",
-          "extraFeesStatus": "total_transport_observe_a_confirmer"
+          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur."
         }
       },
       "safetyQualified": false,
       "ageQualified": false
     },
     {
-      "id": "cj-90e2c080-d1cf-414b-9b38-74fe6f8709d8",
-      "apiId": "cj-90e2c080-d1cf-414b-9b38-74fe6f8709d8",
-      "aliases": [
-        "cj-90e2c080-d1cf-414b-9b38-74fe6f8709d8"
-      ],
-      "pid": "90E2C080-D1CF-414B-9B38-74FE6F8709D8",
-      "vid": "46D28A43-6921-400B-96B2-AF02ED096FED",
+      "id": "mm-p-faf13d79dd653e119dff8ef046492a36deebb69f7eb3417b2bfc84bddee00e80",
       "name": "Sac à dos panda en peluche",
       "category": "sacs-enfants",
       "categoryLabel": "Sacs enfants",
@@ -406,14 +325,9 @@
       "priceNotice": "Prix cible de préparation, non contractuel. Livraison en plus, à confirmer ; achats fermés.",
       "variants": [
         {
-          "id": "46D28A43-6921-400B-96B2-AF02ED096FED",
-          "variantId": "46D28A43-6921-400B-96B2-AF02ED096FED",
-          "label": "Plush panda backpack Black 38cm",
-          "variantKey": "Black-38cm",
-          "availableForPreview": true,
-          "availableForCheckout": false,
-          "priceQualifiedForCheckout": false,
-          "stockRecheckedToday": false
+          "id": "mm-v-8cee9b945c3041ec01d9de78a91c4d989a11da081e4c1bf04faf398adf63f097",
+          "label": "Modèle : Black-38cm",
+          "availableForCheckout": false
         }
       ],
       "shippingStandard": {
@@ -431,9 +345,7 @@
           "etaBusinessDays": null,
           "etaLabel": "Délai à confirmer avant ouverture",
           "trackingIncluded": null,
-          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur.",
-          "scope": "Une unité de cette variante, destination pays seulement ; devis panier et adresse à recalculer.",
-          "extraFeesStatus": "total_transport_observe_a_confirmer"
+          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur."
         },
         "BE": {
           "mode": "home",
@@ -449,22 +361,14 @@
           "etaBusinessDays": null,
           "etaLabel": "Délai à confirmer avant ouverture",
           "trackingIncluded": null,
-          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur.",
-          "scope": "Une unité de cette variante, destination pays seulement ; devis panier et adresse à recalculer.",
-          "extraFeesStatus": "total_transport_observe_a_confirmer"
+          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur."
         }
       },
       "safetyQualified": false,
       "ageQualified": false
     },
     {
-      "id": "cj-d4a2c882-1da7-459a-9b7f-06044f3e381a",
-      "apiId": "cj-d4a2c882-1da7-459a-9b7f-06044f3e381a",
-      "aliases": [
-        "cj-d4a2c882-1da7-459a-9b7f-06044f3e381a"
-      ],
-      "pid": "D4A2C882-1DA7-459A-9B7F-06044F3E381A",
-      "vid": "18260993-F15E-4055-AE7A-038816033390",
+      "id": "mm-p-fc63e665654e6369c22956728944b831fe20fa5fa4d4e5238ac1cf5cb4aa4b87",
       "name": "Petit sac à dos à motif pour enfant",
       "category": "sacs-enfants",
       "categoryLabel": "Sacs enfants",
@@ -481,14 +385,9 @@
       "priceNotice": "Prix cible de préparation, non contractuel. Livraison en plus, à confirmer ; achats fermés.",
       "variants": [
         {
-          "id": "18260993-F15E-4055-AE7A-038816033390",
-          "variantId": "18260993-F15E-4055-AE7A-038816033390",
-          "label": "Fashion Personality Kindergarten Cartoon Backpack Small Coffee squirrel",
-          "variantKey": "Coffee squirrel",
-          "availableForPreview": true,
-          "availableForCheckout": false,
-          "priceQualifiedForCheckout": false,
-          "stockRecheckedToday": false
+          "id": "mm-v-b16226bee645d7bd177d713f2b78cba9a85dc55de4d7b021e8a9cebb5c833c46",
+          "label": "Modèle : Coffee squirrel",
+          "availableForCheckout": false
         }
       ],
       "shippingStandard": {
@@ -506,9 +405,7 @@
           "etaBusinessDays": null,
           "etaLabel": "Délai à confirmer avant ouverture",
           "trackingIncluded": null,
-          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur.",
-          "scope": "Une unité de cette variante, destination pays seulement ; devis panier et adresse à recalculer.",
-          "extraFeesStatus": "total_transport_observe_a_confirmer"
+          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur."
         },
         "BE": {
           "mode": "home",
@@ -524,22 +421,14 @@
           "etaBusinessDays": null,
           "etaLabel": "Délai à confirmer avant ouverture",
           "trackingIncluded": null,
-          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur.",
-          "scope": "Une unité de cette variante, destination pays seulement ; devis panier et adresse à recalculer.",
-          "extraFeesStatus": "total_transport_observe_a_confirmer"
+          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur."
         }
       },
       "safetyQualified": false,
       "ageQualified": false
     },
     {
-      "id": "cj-2507060525441623500",
-      "apiId": "cj-2507060525441623500",
-      "aliases": [
-        "cj-2507060525441623500"
-      ],
-      "pid": "2507060525441623500",
-      "vid": "2507060525441623700",
+      "id": "mm-p-3a2083c3a6856ddc2b8801a954374a70948305d8029d14519e759db405de9b21",
       "name": "Pull enfant à motif brodé",
       "category": "vetements-enfants",
       "categoryLabel": "Vêtements enfants",
@@ -556,14 +445,9 @@
       "priceNotice": "Prix cible de préparation, non contractuel. Livraison en plus, à confirmer ; achats fermés.",
       "variants": [
         {
-          "id": "2507060525441623700",
-          "variantId": "2507060525441623700",
-          "label": "Children's Sweater Cartoon Embroidery Children Khaki 80",
-          "variantKey": "Khaki-80",
-          "availableForPreview": true,
-          "availableForCheckout": false,
-          "priceQualifiedForCheckout": false,
-          "stockRecheckedToday": false
+          "id": "mm-v-e14cc52b4bac899f4a39ab2ed55601f8f57bbb0f8ca81276afa65e04b6d5df3e",
+          "label": "Modèle : Khaki-80",
+          "availableForCheckout": false
         }
       ],
       "shippingStandard": {
@@ -581,9 +465,7 @@
           "etaBusinessDays": null,
           "etaLabel": "Délai à confirmer avant ouverture",
           "trackingIncluded": null,
-          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur.",
-          "scope": "Une unité de cette variante, destination pays seulement ; devis panier et adresse à recalculer.",
-          "extraFeesStatus": "total_transport_observe_a_confirmer"
+          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur."
         },
         "BE": {
           "mode": "home",
@@ -599,22 +481,14 @@
           "etaBusinessDays": null,
           "etaLabel": "Délai à confirmer avant ouverture",
           "trackingIncluded": null,
-          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur.",
-          "scope": "Une unité de cette variante, destination pays seulement ; devis panier et adresse à recalculer.",
-          "extraFeesStatus": "total_transport_observe_a_confirmer"
+          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur."
         }
       },
       "safetyQualified": false,
       "ageQualified": false
     },
     {
-      "id": "cj-0371a284-5c24-49ec-900a-59d7c824c310",
-      "apiId": "cj-0371a284-5c24-49ec-900a-59d7c824c310",
-      "aliases": [
-        "cj-0371a284-5c24-49ec-900a-59d7c824c310"
-      ],
-      "pid": "0371A284-5C24-49EC-900A-59D7C824C310",
-      "vid": "13DBA1A0-F46D-4B91-92DA-75E389037D5A",
+      "id": "mm-p-41f5e7627e3575f06b31b2db676cd8a12cac15ddd56999167f75b7ea4f304624",
       "name": "Sous-vêtements thermiques pour enfant",
       "category": "vetements-enfants",
       "categoryLabel": "Vêtements enfants",
@@ -631,14 +505,9 @@
       "priceNotice": "Prix cible de préparation, non contractuel. Livraison en plus, à confirmer ; achats fermés.",
       "variants": [
         {
-          "id": "13DBA1A0-F46D-4B91-92DA-75E389037D5A",
-          "variantId": "13DBA1A0-F46D-4B91-92DA-75E389037D5A",
-          "label": "Children wear thermal underwear outside Pink 130cm",
-          "variantKey": "Pink-130cm",
-          "availableForPreview": true,
-          "availableForCheckout": false,
-          "priceQualifiedForCheckout": false,
-          "stockRecheckedToday": false
+          "id": "mm-v-0325b626cf9ab40188bcbd5b399e6f04086f969be8b7ae2c3e787f2e6b83724a",
+          "label": "Modèle : Pink-130cm",
+          "availableForCheckout": false
         }
       ],
       "shippingStandard": {
@@ -656,9 +525,7 @@
           "etaBusinessDays": null,
           "etaLabel": "Délai à confirmer avant ouverture",
           "trackingIncluded": null,
-          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur.",
-          "scope": "Une unité de cette variante, destination pays seulement ; devis panier et adresse à recalculer.",
-          "extraFeesStatus": "total_transport_observe_a_confirmer"
+          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur."
         },
         "BE": {
           "mode": "home",
@@ -674,22 +541,14 @@
           "etaBusinessDays": null,
           "etaLabel": "Délai à confirmer avant ouverture",
           "trackingIncluded": null,
-          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur.",
-          "scope": "Une unité de cette variante, destination pays seulement ; devis panier et adresse à recalculer.",
-          "extraFeesStatus": "total_transport_observe_a_confirmer"
+          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur."
         }
       },
       "safetyQualified": false,
       "ageQualified": false
     },
     {
-      "id": "cj-1402446458522832896",
-      "apiId": "cj-1402446458522832896",
-      "aliases": [
-        "cj-1402446458522832896"
-      ],
-      "pid": "1402446458522832896",
-      "vid": "1402446460066336768",
+      "id": "mm-p-c94d83d5543500ec60ad90fd03419e6f56987e0b3e02ca956d2279da035d2fc8",
       "name": "Sac à dos à oreilles de lapin",
       "category": "sacs-enfants",
       "categoryLabel": "Sacs enfants",
@@ -706,14 +565,9 @@
       "priceNotice": "Prix cible de préparation, non contractuel. Livraison en plus, à confirmer ; achats fermés.",
       "variants": [
         {
-          "id": "1402446460066336768",
-          "variantId": "1402446460066336768",
-          "label": "Cute Bunny Ears Bowknot Backpack Student Blue 16inches",
-          "variantKey": "Blue-16inches",
-          "availableForPreview": true,
-          "availableForCheckout": false,
-          "priceQualifiedForCheckout": false,
-          "stockRecheckedToday": false
+          "id": "mm-v-740751c98c26da32799844d3bfec1b832a34781067b8bb64b0a0e778dd8a7c59",
+          "label": "Modèle : Blue-16inches",
+          "availableForCheckout": false
         }
       ],
       "shippingStandard": {
@@ -731,9 +585,7 @@
           "etaBusinessDays": null,
           "etaLabel": "Délai à confirmer avant ouverture",
           "trackingIncluded": null,
-          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur.",
-          "scope": "Une unité de cette variante, destination pays seulement ; devis panier et adresse à recalculer.",
-          "extraFeesStatus": "total_transport_observe_a_confirmer"
+          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur."
         },
         "BE": {
           "mode": "home",
@@ -749,22 +601,14 @@
           "etaBusinessDays": null,
           "etaLabel": "Délai à confirmer avant ouverture",
           "trackingIncluded": null,
-          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur.",
-          "scope": "Une unité de cette variante, destination pays seulement ; devis panier et adresse à recalculer.",
-          "extraFeesStatus": "total_transport_observe_a_confirmer"
+          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur."
         }
       },
       "safetyQualified": false,
       "ageQualified": false
     },
     {
-      "id": "cj-1399662745170874368",
-      "apiId": "cj-1399662745170874368",
-      "aliases": [
-        "cj-1399662745170874368"
-      ],
-      "pid": "1399662745170874368",
-      "vid": "1399662746596937728",
+      "id": "mm-p-5a35d5de2bf93d32b4ae6d3c0628ef1846d34afb220e7600bdaecd89c53da652",
       "name": "Petit sac à dos fraise pour enfant",
       "category": "sacs-enfants",
       "categoryLabel": "Sacs enfants",
@@ -781,14 +625,9 @@
       "priceNotice": "Prix cible de préparation, non contractuel. Livraison en plus, à confirmer ; achats fermés.",
       "variants": [
         {
-          "id": "1399662746596937728",
-          "variantId": "1399662746596937728",
-          "label": "New Korean Children's Backpack Cartoon Dinosaur Boys And Girls Small School Bag Kindergarten Anti-Lost Backpack Pink",
-          "variantKey": "Pink",
-          "availableForPreview": true,
-          "availableForCheckout": false,
-          "priceQualifiedForCheckout": false,
-          "stockRecheckedToday": false
+          "id": "mm-v-e1e1c1dd4d9dfa4d2f03805077bac69cca4de8144e75214a4635a7d347c65b35",
+          "label": "Modèle : Pink",
+          "availableForCheckout": false
         }
       ],
       "shippingStandard": {
@@ -806,9 +645,7 @@
           "etaBusinessDays": null,
           "etaLabel": "Délai à confirmer avant ouverture",
           "trackingIncluded": null,
-          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur.",
-          "scope": "Une unité de cette variante, destination pays seulement ; devis panier et adresse à recalculer.",
-          "extraFeesStatus": "total_transport_observe_a_confirmer"
+          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur."
         },
         "BE": {
           "mode": "home",
@@ -824,23 +661,14 @@
           "etaBusinessDays": null,
           "etaLabel": "Délai à confirmer avant ouverture",
           "trackingIncluded": null,
-          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur.",
-          "scope": "Une unité de cette variante, destination pays seulement ; devis panier et adresse à recalculer.",
-          "extraFeesStatus": "total_transport_observe_a_confirmer"
+          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur."
         }
       },
       "safetyQualified": false,
       "ageQualified": false
     },
     {
-      "id": "mirlipousse-cj-6803c9e5-7539-4e9d-b1a3-8b3bd8c92b63",
-      "apiId": "cj-6803c9e5-7539-4e9d-b1a3-8b3bd8c92b63",
-      "aliases": [
-        "mirlipousse-cj-6803c9e5-7539-4e9d-b1a3-8b3bd8c92b63",
-        "cj-6803c9e5-7539-4e9d-b1a3-8b3bd8c92b63"
-      ],
-      "pid": "6803C9E5-7539-4E9D-B1A3-8B3BD8C92B63",
-      "vid": "0AB1A691-F69E-4719-9A0F-139F78B47E08",
+      "id": "mm-p-cb664a3c1b8a99d09e3e9363a54e69ad72c8e528e3cba9dc3221d375939b5284",
       "name": "Puzzle en bois animaux de la ferme",
       "category": "puzzles-reflexion",
       "categoryLabel": "Puzzles & réflexion",
@@ -857,14 +685,9 @@
       "priceNotice": "Prix cible de préparation, non contractuel. Livraison en plus, à confirmer ; achats fermés.",
       "variants": [
         {
-          "id": "0AB1A691-F69E-4719-9A0F-139F78B47E08",
-          "variantId": "0AB1A691-F69E-4719-9A0F-139F78B47E08",
-          "label": "Children's poultry animal wooden puzzle Goose",
-          "variantKey": "Goose",
-          "availableForPreview": true,
-          "availableForCheckout": false,
-          "priceQualifiedForCheckout": false,
-          "stockRecheckedToday": false
+          "id": "mm-v-6106673eb034c4fe22e5a876b4aa0ea00e904ff0b7edeac844f333dc8e649d58",
+          "label": "Modèle : Goose",
+          "availableForCheckout": false
         }
       ],
       "shippingStandard": {
@@ -882,9 +705,7 @@
           "etaBusinessDays": null,
           "etaLabel": "Délai à confirmer avant ouverture",
           "trackingIncluded": null,
-          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur.",
-          "scope": "Une unité de cette variante, destination pays seulement ; devis panier et adresse à recalculer.",
-          "extraFeesStatus": "total_transport_observe_a_confirmer"
+          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur."
         },
         "BE": {
           "mode": "home",
@@ -900,23 +721,14 @@
           "etaBusinessDays": null,
           "etaLabel": "Délai à confirmer avant ouverture",
           "trackingIncluded": null,
-          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur.",
-          "scope": "Une unité de cette variante, destination pays seulement ; devis panier et adresse à recalculer.",
-          "extraFeesStatus": "total_transport_observe_a_confirmer"
+          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur."
         }
       },
       "safetyQualified": false,
       "ageQualified": false
     },
     {
-      "id": "mirlipousse-cj-1382549875220156416",
-      "apiId": "cj-1382549875220156416",
-      "aliases": [
-        "mirlipousse-cj-1382549875220156416",
-        "cj-1382549875220156416"
-      ],
-      "pid": "1382549875220156416",
-      "vid": "1382549876826574848",
+      "id": "mm-p-9c2b061e744230456518dc7610ebc8031a2b41947efc37f7d1f0a956131a8acd",
       "name": "Puzzle chiffres et animaux",
       "category": "puzzles-reflexion",
       "categoryLabel": "Puzzles & réflexion",
@@ -933,14 +745,9 @@
       "priceNotice": "Prix cible de préparation, non contractuel. Livraison en plus, à confirmer ; achats fermés.",
       "variants": [
         {
-          "id": "1382549876826574848",
-          "variantId": "1382549876826574848",
-          "label": "Children's Cartoon Number Animal Puzzle Steamship",
-          "variantKey": "Steamship",
-          "availableForPreview": true,
-          "availableForCheckout": false,
-          "priceQualifiedForCheckout": false,
-          "stockRecheckedToday": false
+          "id": "mm-v-2e1be01a1cc32e85ad79a698a76ba5cb62fda58f7a5a079b2bd403da56866272",
+          "label": "Modèle : Steamship",
+          "availableForCheckout": false
         }
       ],
       "shippingStandard": {
@@ -958,9 +765,7 @@
           "etaBusinessDays": null,
           "etaLabel": "Délai à confirmer avant ouverture",
           "trackingIncluded": null,
-          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur.",
-          "scope": "Une unité de cette variante, destination pays seulement ; devis panier et adresse à recalculer.",
-          "extraFeesStatus": "total_transport_observe_a_confirmer"
+          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur."
         },
         "BE": {
           "mode": "home",
@@ -976,23 +781,14 @@
           "etaBusinessDays": null,
           "etaLabel": "Délai à confirmer avant ouverture",
           "trackingIncluded": null,
-          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur.",
-          "scope": "Une unité de cette variante, destination pays seulement ; devis panier et adresse à recalculer.",
-          "extraFeesStatus": "total_transport_observe_a_confirmer"
+          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur."
         }
       },
       "safetyQualified": false,
       "ageQualified": false
     },
     {
-      "id": "mirlipousse-cj-2406150900481611300",
-      "apiId": "cj-2406150900481611300",
-      "aliases": [
-        "mirlipousse-cj-2406150900481611300",
-        "cj-2406150900481611300"
-      ],
-      "pid": "2406150900481611300",
-      "vid": "2406150900481611500",
+      "id": "mm-p-bad7ce63d87ba6a6a3669d3e7f7d63e9c5588b0930ffc0affe9e8fd1d7b2167c",
       "name": "Jeu de réflexion parent-enfant",
       "category": "puzzles-reflexion",
       "categoryLabel": "Puzzles & réflexion",
@@ -1009,14 +805,9 @@
       "priceNotice": "Prix cible de préparation, non contractuel. Livraison en plus, à confirmer ; achats fermés.",
       "variants": [
         {
-          "id": "2406150900481611500",
-          "variantId": "2406150900481611500",
-          "label": "Quick Resolution Parent-child Concentration Thinking Puzzle Toy 128PCS English Color Box",
-          "variantKey": "128PCS English Color Box",
-          "availableForPreview": true,
-          "availableForCheckout": false,
-          "priceQualifiedForCheckout": false,
-          "stockRecheckedToday": false
+          "id": "mm-v-1e9509ffccc903a382425c7939fa8f9593ca8a1cbc3a24522c987c0216c5791a",
+          "label": "Modèle : 128PCS English Color Box",
+          "availableForCheckout": false
         }
       ],
       "shippingStandard": {
@@ -1034,9 +825,7 @@
           "etaBusinessDays": null,
           "etaLabel": "Délai à confirmer avant ouverture",
           "trackingIncluded": null,
-          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur.",
-          "scope": "Une unité de cette variante, destination pays seulement ; devis panier et adresse à recalculer.",
-          "extraFeesStatus": "total_transport_observe_a_confirmer"
+          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur."
         },
         "BE": {
           "mode": "home",
@@ -1052,23 +841,14 @@
           "etaBusinessDays": null,
           "etaLabel": "Délai à confirmer avant ouverture",
           "trackingIncluded": null,
-          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur.",
-          "scope": "Une unité de cette variante, destination pays seulement ; devis panier et adresse à recalculer.",
-          "extraFeesStatus": "total_transport_observe_a_confirmer"
+          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur."
         }
       },
       "safetyQualified": false,
       "ageQualified": false
     },
     {
-      "id": "mirlipousse-cj-7d9cb8a7-0917-47fc-825e-c26cab320373",
-      "apiId": "cj-7d9cb8a7-0917-47fc-825e-c26cab320373",
-      "aliases": [
-        "mirlipousse-cj-7d9cb8a7-0917-47fc-825e-c26cab320373",
-        "cj-7d9cb8a7-0917-47fc-825e-c26cab320373"
-      ],
-      "pid": "7D9CB8A7-0917-47FC-825E-C26CAB320373",
-      "vid": "1493119457873235968",
+      "id": "mm-p-815ce8de9c4b71f2e0256fa1f5652074166304c369b58ac924b2502ec45a6411",
       "name": "Jeu d’encastrement de cylindres en bois",
       "category": "puzzles-reflexion",
       "categoryLabel": "Puzzles & réflexion",
@@ -1085,14 +865,9 @@
       "priceNotice": "Prix cible de préparation, non contractuel. Livraison en plus, à confirmer ; achats fermés.",
       "variants": [
         {
-          "id": "1493119457873235968",
-          "variantId": "1493119457873235968",
-          "label": "Montessori kindergarten early education toy building blocks Wood",
-          "variantKey": "Wood",
-          "availableForPreview": true,
-          "availableForCheckout": false,
-          "priceQualifiedForCheckout": false,
-          "stockRecheckedToday": false
+          "id": "mm-v-9261bbd476ed376f40e153a638ceaaf8440ebc1bb5f39e768b2533a04df2ae5c",
+          "label": "Modèle : Wood",
+          "availableForCheckout": false
         }
       ],
       "shippingStandard": {
@@ -1110,9 +885,7 @@
           "etaBusinessDays": null,
           "etaLabel": "Délai à confirmer avant ouverture",
           "trackingIncluded": null,
-          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur.",
-          "scope": "Une unité de cette variante, destination pays seulement ; devis panier et adresse à recalculer.",
-          "extraFeesStatus": "total_transport_observe_a_confirmer"
+          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur."
         },
         "BE": {
           "mode": "home",
@@ -1128,23 +901,14 @@
           "etaBusinessDays": null,
           "etaLabel": "Délai à confirmer avant ouverture",
           "trackingIncluded": null,
-          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur.",
-          "scope": "Une unité de cette variante, destination pays seulement ; devis panier et adresse à recalculer.",
-          "extraFeesStatus": "total_transport_observe_a_confirmer"
+          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur."
         }
       },
       "safetyQualified": false,
       "ageQualified": false
     },
     {
-      "id": "mirlipousse-cj-a98eba8c-80a7-4027-b33d-45fe2d33dbc8",
-      "apiId": "cj-a98eba8c-80a7-4027-b33d-45fe2d33dbc8",
-      "aliases": [
-        "mirlipousse-cj-a98eba8c-80a7-4027-b33d-45fe2d33dbc8",
-        "cj-a98eba8c-80a7-4027-b33d-45fe2d33dbc8"
-      ],
-      "pid": "A98EBA8C-80A7-4027-B33D-45FE2D33DBC8",
-      "vid": "0AD9F24B-3113-40D2-B0B9-913CEE69BA4C",
+      "id": "mm-p-b2383fefd2e9ba541a86cc2d51f3704441d0ffa500a9ebd64ccd2cf5a5aa7990",
       "name": "Bandes de papier pour étoiles en origami",
       "category": "loisirs-creatifs",
       "categoryLabel": "Loisirs créatifs",
@@ -1161,14 +925,9 @@
       "priceNotice": "Prix cible de préparation, non contractuel. Livraison en plus, à confirmer ; achats fermés.",
       "variants": [
         {
-          "id": "0AD9F24B-3113-40D2-B0B9-913CEE69BA4C",
-          "variantId": "0AD9F24B-3113-40D2-B0B9-913CEE69BA4C",
-          "label": "Gradient slip colored star origami 1cm 8 packs",
-          "variantKey": "1cm 8 packs",
-          "availableForPreview": true,
-          "availableForCheckout": false,
-          "priceQualifiedForCheckout": false,
-          "stockRecheckedToday": false
+          "id": "mm-v-cc4a829fd563e01c4e2bbae625d0c62b09d239b944dde0201bacc30864d30994",
+          "label": "Modèle : 1cm 8 packs",
+          "availableForCheckout": false
         }
       ],
       "shippingStandard": {
@@ -1186,9 +945,7 @@
           "etaBusinessDays": null,
           "etaLabel": "Délai à confirmer avant ouverture",
           "trackingIncluded": null,
-          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur.",
-          "scope": "Une unité de cette variante, destination pays seulement ; devis panier et adresse à recalculer.",
-          "extraFeesStatus": "total_transport_observe_a_confirmer"
+          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur."
         },
         "BE": {
           "mode": "home",
@@ -1204,23 +961,14 @@
           "etaBusinessDays": null,
           "etaLabel": "Délai à confirmer avant ouverture",
           "trackingIncluded": null,
-          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur.",
-          "scope": "Une unité de cette variante, destination pays seulement ; devis panier et adresse à recalculer.",
-          "extraFeesStatus": "total_transport_observe_a_confirmer"
+          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur."
         }
       },
       "safetyQualified": false,
       "ageQualified": false
     },
     {
-      "id": "mirlipousse-cj-2410260314571602100",
-      "apiId": "cj-2410260314571602100",
-      "aliases": [
-        "mirlipousse-cj-2410260314571602100",
-        "cj-2410260314571602100"
-      ],
-      "pid": "2410260314571602100",
-      "vid": "2410260314571602300",
+      "id": "mm-p-2f38175ac582b0b7de4cc98b402e5b8afacb2a8843c097698943fe84b32c3ac7",
       "name": "Ciseaux de loisirs créatifs en plastique",
       "category": "loisirs-creatifs",
       "categoryLabel": "Loisirs créatifs",
@@ -1237,14 +985,9 @@
       "priceNotice": "Prix cible de préparation, non contractuel. Livraison en plus, à confirmer ; achats fermés.",
       "variants": [
         {
-          "id": "2410260314571602300",
-          "variantId": "2410260314571602300",
-          "label": "Children's Plastic Children's Educational Scissors Blue Nude",
-          "variantKey": "Blue-Nude",
-          "availableForPreview": true,
-          "availableForCheckout": false,
-          "priceQualifiedForCheckout": false,
-          "stockRecheckedToday": false
+          "id": "mm-v-5f9e7eea07469b48f6890d462b907d0c6df02ed671acdd753b70db46e38ab21c",
+          "label": "Modèle : Blue-Nude",
+          "availableForCheckout": false
         }
       ],
       "shippingStandard": {
@@ -1262,9 +1005,7 @@
           "etaBusinessDays": null,
           "etaLabel": "Délai à confirmer avant ouverture",
           "trackingIncluded": null,
-          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur.",
-          "scope": "Une unité de cette variante, destination pays seulement ; devis panier et adresse à recalculer.",
-          "extraFeesStatus": "total_transport_observe_a_confirmer"
+          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur."
         },
         "BE": {
           "mode": "home",
@@ -1280,23 +1021,14 @@
           "etaBusinessDays": null,
           "etaLabel": "Délai à confirmer avant ouverture",
           "trackingIncluded": null,
-          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur.",
-          "scope": "Une unité de cette variante, destination pays seulement ; devis panier et adresse à recalculer.",
-          "extraFeesStatus": "total_transport_observe_a_confirmer"
+          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur."
         }
       },
       "safetyQualified": false,
       "ageQualified": false
     },
     {
-      "id": "mirlipousse-cj-1765008428654661632",
-      "apiId": "cj-1765008428654661632",
-      "aliases": [
-        "mirlipousse-cj-1765008428654661632",
-        "cj-1765008428654661632"
-      ],
-      "pid": "1765008428654661632",
-      "vid": "1765008428730159104",
+      "id": "mm-p-0d6bbc93ab1278d3eba2af5a6874f4887a6b734ef2dd7048fe7a65211db1391e",
       "name": "Seau de plage en silicone",
       "category": "jeux-plein-air",
       "categoryLabel": "Jeux de plein air",
@@ -1313,14 +1045,9 @@
       "priceNotice": "Prix cible de préparation, non contractuel. Livraison en plus, à confirmer ; achats fermés.",
       "variants": [
         {
-          "id": "1765008428730159104",
-          "variantId": "1765008428730159104",
-          "label": "Silicone Beach Bucket Children's Early Education Educational Toys Beige",
-          "variantKey": "Beige",
-          "availableForPreview": true,
-          "availableForCheckout": false,
-          "priceQualifiedForCheckout": false,
-          "stockRecheckedToday": false
+          "id": "mm-v-02e51846da84c6fe88a72a0ab32be9cd804630fcc6c92b38ab616c2582eee0a4",
+          "label": "Modèle : Beige",
+          "availableForCheckout": false
         }
       ],
       "shippingStandard": {
@@ -1338,9 +1065,7 @@
           "etaBusinessDays": null,
           "etaLabel": "Délai à confirmer avant ouverture",
           "trackingIncluded": null,
-          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur.",
-          "scope": "Une unité de cette variante, destination pays seulement ; devis panier et adresse à recalculer.",
-          "extraFeesStatus": "total_transport_observe_a_confirmer"
+          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur."
         },
         "BE": {
           "mode": "home",
@@ -1356,23 +1081,14 @@
           "etaBusinessDays": null,
           "etaLabel": "Délai à confirmer avant ouverture",
           "trackingIncluded": null,
-          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur.",
-          "scope": "Une unité de cette variante, destination pays seulement ; devis panier et adresse à recalculer.",
-          "extraFeesStatus": "total_transport_observe_a_confirmer"
+          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur."
         }
       },
       "safetyQualified": false,
       "ageQualified": false
     },
     {
-      "id": "mirlipousse-cj-ffd645ea-e4eb-4976-9c8e-80cc0b436c6a",
-      "apiId": "cj-ffd645ea-e4eb-4976-9c8e-80cc0b436c6a",
-      "aliases": [
-        "mirlipousse-cj-ffd645ea-e4eb-4976-9c8e-80cc0b436c6a",
-        "cj-ffd645ea-e4eb-4976-9c8e-80cc0b436c6a"
-      ],
-      "pid": "FFD645EA-E4EB-4976-9C8E-80CC0B436C6A",
-      "vid": "F4330554-F70F-401D-B37F-EDE0B19D4BD5",
+      "id": "mm-p-c21b8fd2c991af41a57c4d25fc85e980531b5d29726c3ff33034e9f4004366f7",
       "name": "Blocs de construction en arc-en-ciel",
       "category": "eveil-construction",
       "categoryLabel": "Éveil & construction",
@@ -1389,14 +1105,9 @@
       "priceNotice": "Prix cible de préparation, non contractuel. Livraison en plus, à confirmer ; achats fermés.",
       "variants": [
         {
-          "id": "F4330554-F70F-401D-B37F-EDE0B19D4BD5",
-          "variantId": "F4330554-F70F-401D-B37F-EDE0B19D4BD5",
-          "label": "Rainbow arched building blocks Picture color",
-          "variantKey": "Picture color",
-          "availableForPreview": true,
-          "availableForCheckout": false,
-          "priceQualifiedForCheckout": false,
-          "stockRecheckedToday": false
+          "id": "mm-v-c63204ba5822e694461424c87a185b7cd859d05868a7421fcf52c60f30f8d0f7",
+          "label": "Modèle : Picture color",
+          "availableForCheckout": false
         }
       ],
       "shippingStandard": {
@@ -1414,9 +1125,7 @@
           "etaBusinessDays": null,
           "etaLabel": "Délai à confirmer avant ouverture",
           "trackingIncluded": null,
-          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur.",
-          "scope": "Une unité de cette variante, destination pays seulement ; devis panier et adresse à recalculer.",
-          "extraFeesStatus": "total_transport_observe_a_confirmer"
+          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur."
         },
         "BE": {
           "mode": "home",
@@ -1432,23 +1141,14 @@
           "etaBusinessDays": null,
           "etaLabel": "Délai à confirmer avant ouverture",
           "trackingIncluded": null,
-          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur.",
-          "scope": "Une unité de cette variante, destination pays seulement ; devis panier et adresse à recalculer.",
-          "extraFeesStatus": "total_transport_observe_a_confirmer"
+          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur."
         }
       },
       "safetyQualified": false,
       "ageQualified": false
     },
     {
-      "id": "mirlipousse-cj-2406150930491617200",
-      "apiId": "cj-2406150930491617200",
-      "aliases": [
-        "mirlipousse-cj-2406150930491617200",
-        "cj-2406150930491617200"
-      ],
-      "pid": "2406150930491617200",
-      "vid": "2406150930491617700",
+      "id": "mm-p-372c0e81aeec591e14c83d00006f31a06a77e5123a3024fc700e3cd31385f073",
       "name": "Fusée à empiler en silicone",
       "category": "eveil-construction",
       "categoryLabel": "Éveil & construction",
@@ -1465,14 +1165,9 @@
       "priceNotice": "Prix cible de préparation, non contractuel. Livraison en plus, à confirmer ; achats fermés.",
       "variants": [
         {
-          "id": "2406150930491617700",
-          "variantId": "2406150930491617700",
-          "label": "Space Shuttle Rocket Toys Assembled Children's Building Blocks 1 Accumulation Rocket",
-          "variantKey": "1 Accumulation Rocket",
-          "availableForPreview": true,
-          "availableForCheckout": false,
-          "priceQualifiedForCheckout": false,
-          "stockRecheckedToday": false
+          "id": "mm-v-5b437d19a031a2a323e0a1b4c09f8439fdc3c78066bead54c7835e5add717a8d",
+          "label": "Modèle : 1 Accumulation Rocket",
+          "availableForCheckout": false
         }
       ],
       "shippingStandard": {
@@ -1490,9 +1185,7 @@
           "etaBusinessDays": null,
           "etaLabel": "Délai à confirmer avant ouverture",
           "trackingIncluded": null,
-          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur.",
-          "scope": "Une unité de cette variante, destination pays seulement ; devis panier et adresse à recalculer.",
-          "extraFeesStatus": "total_transport_observe_a_confirmer"
+          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur."
         },
         "BE": {
           "mode": "home",
@@ -1508,23 +1201,14 @@
           "etaBusinessDays": null,
           "etaLabel": "Délai à confirmer avant ouverture",
           "trackingIncluded": null,
-          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur.",
-          "scope": "Une unité de cette variante, destination pays seulement ; devis panier et adresse à recalculer.",
-          "extraFeesStatus": "total_transport_observe_a_confirmer"
+          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur."
         }
       },
       "safetyQualified": false,
       "ageQualified": false
     },
     {
-      "id": "mirlipousse-cj-1695327556238581760",
-      "apiId": "cj-1695327556238581760",
-      "aliases": [
-        "mirlipousse-cj-1695327556238581760",
-        "cj-1695327556238581760"
-      ],
-      "pid": "1695327556238581760",
-      "vid": "1695327556309884928",
+      "id": "mm-p-090d59841e56c16c833352b9d16f87f21644e4b2b09f2b4508b5307621cfe7d4",
       "name": "Jeu d’équilibre animaux",
       "category": "eveil-construction",
       "categoryLabel": "Éveil & construction",
@@ -1541,14 +1225,9 @@
       "priceNotice": "Prix cible de préparation, non contractuel. Livraison en plus, à confirmer ; achats fermés.",
       "variants": [
         {
-          "id": "1695327556309884928",
-          "variantId": "1695327556309884928",
-          "label": "Animal Jenga Balance Building Blocks Hand-eye Coordination Toys Fun Zoo",
-          "variantKey": "Fun Zoo",
-          "availableForPreview": true,
-          "availableForCheckout": false,
-          "priceQualifiedForCheckout": false,
-          "stockRecheckedToday": false
+          "id": "mm-v-8aef1e2e68cd752ba5a5a70a2db27ced920d6a002589551e7b14f732e3393f33",
+          "label": "Modèle : Fun Zoo",
+          "availableForCheckout": false
         }
       ],
       "shippingStandard": {
@@ -1566,9 +1245,7 @@
           "etaBusinessDays": null,
           "etaLabel": "Délai à confirmer avant ouverture",
           "trackingIncluded": null,
-          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur.",
-          "scope": "Une unité de cette variante, destination pays seulement ; devis panier et adresse à recalculer.",
-          "extraFeesStatus": "total_transport_observe_a_confirmer"
+          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur."
         },
         "BE": {
           "mode": "home",
@@ -1584,23 +1261,14 @@
           "etaBusinessDays": null,
           "etaLabel": "Délai à confirmer avant ouverture",
           "trackingIncluded": null,
-          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur.",
-          "scope": "Une unité de cette variante, destination pays seulement ; devis panier et adresse à recalculer.",
-          "extraFeesStatus": "total_transport_observe_a_confirmer"
+          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur."
         }
       },
       "safetyQualified": false,
       "ageQualified": false
     },
     {
-      "id": "mirlipousse-cj-1728960399522926592",
-      "apiId": "cj-1728960399522926592",
-      "aliases": [
-        "mirlipousse-cj-1728960399522926592",
-        "cj-1728960399522926592"
-      ],
-      "pid": "1728960399522926592",
-      "vid": "1728960399590035456",
+      "id": "mm-p-66c510a11b209638abf985bcc519dfc9d66b383871d72b541eaf48c5f3004345",
       "name": "Trousse de rangement portable",
       "category": "trousses-rangement",
       "categoryLabel": "Trousses & rangement",
@@ -1617,14 +1285,9 @@
       "priceNotice": "Prix cible de préparation, non contractuel. Livraison en plus, à confirmer ; achats fermés.",
       "variants": [
         {
-          "id": "1728960399590035456",
-          "variantId": "1728960399590035456",
-          "label": "Pencil Case Large Capacity Portable Storage Bag Purple Pencil case",
-          "variantKey": "Purple-Pencil case",
-          "availableForPreview": true,
-          "availableForCheckout": false,
-          "priceQualifiedForCheckout": false,
-          "stockRecheckedToday": false
+          "id": "mm-v-c5c6940b2d369141e6933cc4a74ee6a5cba2f5b7587dffabc8c3c7505bced8d9",
+          "label": "Modèle : Purple-Pencil case",
+          "availableForCheckout": false
         }
       ],
       "shippingStandard": {
@@ -1642,9 +1305,7 @@
           "etaBusinessDays": null,
           "etaLabel": "Délai à confirmer avant ouverture",
           "trackingIncluded": null,
-          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur.",
-          "scope": "Une unité de cette variante, destination pays seulement ; devis panier et adresse à recalculer.",
-          "extraFeesStatus": "total_transport_observe_a_confirmer"
+          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur."
         },
         "BE": {
           "mode": "home",
@@ -1660,23 +1321,14 @@
           "etaBusinessDays": null,
           "etaLabel": "Délai à confirmer avant ouverture",
           "trackingIncluded": null,
-          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur.",
-          "scope": "Une unité de cette variante, destination pays seulement ; devis panier et adresse à recalculer.",
-          "extraFeesStatus": "total_transport_observe_a_confirmer"
+          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur."
         }
       },
       "safetyQualified": false,
       "ageQualified": false
     },
     {
-      "id": "mirlipousse-cj-1796776735170637824",
-      "apiId": "cj-1796776735170637824",
-      "aliases": [
-        "mirlipousse-cj-1796776735170637824",
-        "cj-1796776735170637824"
-      ],
-      "pid": "1796776735170637824",
-      "vid": "1796776735258718208",
+      "id": "mm-p-0946c65623867fcdec4b37ba6980148f160f2628f69d604a9d2421d2e5d4d630",
       "name": "Trousse de rangement à compartiments",
       "category": "trousses-rangement",
       "categoryLabel": "Trousses & rangement",
@@ -1693,14 +1345,9 @@
       "priceNotice": "Prix cible de préparation, non contractuel. Livraison en plus, à confirmer ; achats fermés.",
       "variants": [
         {
-          "id": "1796776735258718208",
-          "variantId": "1796776735258718208",
-          "label": "Pencil Case Storage With Multifunctional And Large Capacity Purple Candy Donut",
-          "variantKey": "Purple Candy Donut",
-          "availableForPreview": true,
-          "availableForCheckout": false,
-          "priceQualifiedForCheckout": false,
-          "stockRecheckedToday": false
+          "id": "mm-v-14382cf98050eee307f0828b93f408cd5e3b1519755419e9ed7f3db01dacf9e8",
+          "label": "Modèle : Purple Candy Donut",
+          "availableForCheckout": false
         }
       ],
       "shippingStandard": {
@@ -1718,9 +1365,7 @@
           "etaBusinessDays": null,
           "etaLabel": "Délai à confirmer avant ouverture",
           "trackingIncluded": null,
-          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur.",
-          "scope": "Une unité de cette variante, destination pays seulement ; devis panier et adresse à recalculer.",
-          "extraFeesStatus": "total_transport_observe_a_confirmer"
+          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur."
         },
         "BE": {
           "mode": "home",
@@ -1736,23 +1381,14 @@
           "etaBusinessDays": null,
           "etaLabel": "Délai à confirmer avant ouverture",
           "trackingIncluded": null,
-          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur.",
-          "scope": "Une unité de cette variante, destination pays seulement ; devis panier et adresse à recalculer.",
-          "extraFeesStatus": "total_transport_observe_a_confirmer"
+          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur."
         }
       },
       "safetyQualified": false,
       "ageQualified": false
     },
     {
-      "id": "mirlipousse-cj-2406260653231601900",
-      "apiId": "cj-2406260653231601900",
-      "aliases": [
-        "mirlipousse-cj-2406260653231601900",
-        "cj-2406260653231601900"
-      ],
-      "pid": "2406260653231601900",
-      "vid": "2406260653231602300",
+      "id": "mm-p-590a9263bb170573e6b3a48b08eb80e02fad9d999085e5fd5d4e60bf8f2e3dae",
       "name": "Trousse transparente à motif",
       "category": "trousses-rangement",
       "categoryLabel": "Trousses & rangement",
@@ -1769,14 +1405,9 @@
       "priceNotice": "Prix cible de préparation, non contractuel. Livraison en plus, à confirmer ; achats fermés.",
       "variants": [
         {
-          "id": "2406260653231602300",
-          "variantId": "2406260653231602300",
-          "label": "Large Capacity Cartoon Transparent Pencil Case Green",
-          "variantKey": "Green",
-          "availableForPreview": true,
-          "availableForCheckout": false,
-          "priceQualifiedForCheckout": false,
-          "stockRecheckedToday": false
+          "id": "mm-v-5441ea041314ce4aeb07026281e63b49f3ff6dc08c671d4d736ee43917f23c10",
+          "label": "Modèle : Green",
+          "availableForCheckout": false
         }
       ],
       "shippingStandard": {
@@ -1794,9 +1425,7 @@
           "etaBusinessDays": null,
           "etaLabel": "Délai à confirmer avant ouverture",
           "trackingIncluded": null,
-          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur.",
-          "scope": "Une unité de cette variante, destination pays seulement ; devis panier et adresse à recalculer.",
-          "extraFeesStatus": "total_transport_observe_a_confirmer"
+          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur."
         },
         "BE": {
           "mode": "home",
@@ -1812,23 +1441,14 @@
           "etaBusinessDays": null,
           "etaLabel": "Délai à confirmer avant ouverture",
           "trackingIncluded": null,
-          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur.",
-          "scope": "Une unité de cette variante, destination pays seulement ; devis panier et adresse à recalculer.",
-          "extraFeesStatus": "total_transport_observe_a_confirmer"
+          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur."
         }
       },
       "safetyQualified": false,
       "ageQualified": false
     },
     {
-      "id": "mirlipousse-cj-2411100316571609400",
-      "apiId": "cj-2411100316571609400",
-      "aliases": [
-        "mirlipousse-cj-2411100316571609400",
-        "cj-2411100316571609400"
-      ],
-      "pid": "2411100316571609400",
-      "vid": "2411100316571609600",
+      "id": "mm-p-88c1178fb21dabd82de1073b3513347226eb6a31f91c8e7bb3aa5e6ffa41810a",
       "name": "Petit tableau de dessin effaçable",
       "category": "loisirs-creatifs",
       "categoryLabel": "Loisirs créatifs",
@@ -1845,14 +1465,9 @@
       "priceNotice": "Prix cible de préparation, non contractuel. Livraison en plus, à confirmer ; achats fermés.",
       "variants": [
         {
-          "id": "2411100316571609600",
-          "variantId": "2411100316571609600",
-          "label": "Child Drawing Doodle Board Magnetic Double-sided Tiny Whiteboard Writing Erasable Blue Whiteboard",
-          "variantKey": "Blue Whiteboard",
-          "availableForPreview": true,
-          "availableForCheckout": false,
-          "priceQualifiedForCheckout": false,
-          "stockRecheckedToday": false
+          "id": "mm-v-fbf382d0a4b0bdb416cbb8c8556ba5b8016161409397c735617d003a9ab3a771",
+          "label": "Modèle : Blue Whiteboard",
+          "availableForCheckout": false
         }
       ],
       "shippingStandard": {
@@ -1870,9 +1485,7 @@
           "etaBusinessDays": null,
           "etaLabel": "Délai à confirmer avant ouverture",
           "trackingIncluded": null,
-          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur.",
-          "scope": "Une unité de cette variante, destination pays seulement ; devis panier et adresse à recalculer.",
-          "extraFeesStatus": "total_transport_observe_a_confirmer"
+          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur."
         },
         "BE": {
           "mode": "home",
@@ -1888,23 +1501,14 @@
           "etaBusinessDays": null,
           "etaLabel": "Délai à confirmer avant ouverture",
           "trackingIncluded": null,
-          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur.",
-          "scope": "Une unité de cette variante, destination pays seulement ; devis panier et adresse à recalculer.",
-          "extraFeesStatus": "total_transport_observe_a_confirmer"
+          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur."
         }
       },
       "safetyQualified": false,
       "ageQualified": false
     },
     {
-      "id": "mirlipousse-cj-1726049085276303360",
-      "apiId": "cj-1726049085276303360",
-      "aliases": [
-        "mirlipousse-cj-1726049085276303360",
-        "cj-1726049085276303360"
-      ],
-      "pid": "1726049085276303360",
-      "vid": "1726049085376966656",
+      "id": "mm-p-d1d04026b47a3ea576be5755882112f48202c219680036cf97b78c3abd9baa41",
       "name": "Livre de dessin à plusieurs faces",
       "category": "loisirs-creatifs",
       "categoryLabel": "Loisirs créatifs",
@@ -1921,14 +1525,9 @@
       "priceNotice": "Prix cible de préparation, non contractuel. Livraison en plus, à confirmer ; achats fermés.",
       "variants": [
         {
-          "id": "1726049085376966656",
-          "variantId": "1726049085376966656",
-          "label": "10-sided Children's Early Education Picture Book Double-sided Graffiti Drawing Board Pink Animal",
-          "variantKey": "Pink Animal",
-          "availableForPreview": true,
-          "availableForCheckout": false,
-          "priceQualifiedForCheckout": false,
-          "stockRecheckedToday": false
+          "id": "mm-v-217f30f037f8e62d9a94cab2c0edc1b2461e2d39b5ec59f4d2e0d27189072956",
+          "label": "Modèle : Pink Animal",
+          "availableForCheckout": false
         }
       ],
       "shippingStandard": {
@@ -1946,9 +1545,7 @@
           "etaBusinessDays": null,
           "etaLabel": "Délai à confirmer avant ouverture",
           "trackingIncluded": null,
-          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur.",
-          "scope": "Une unité de cette variante, destination pays seulement ; devis panier et adresse à recalculer.",
-          "extraFeesStatus": "total_transport_observe_a_confirmer"
+          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur."
         },
         "BE": {
           "mode": "home",
@@ -1964,23 +1561,14 @@
           "etaBusinessDays": null,
           "etaLabel": "Délai à confirmer avant ouverture",
           "trackingIncluded": null,
-          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur.",
-          "scope": "Une unité de cette variante, destination pays seulement ; devis panier et adresse à recalculer.",
-          "extraFeesStatus": "total_transport_observe_a_confirmer"
+          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur."
         }
       },
       "safetyQualified": false,
       "ageQualified": false
     },
     {
-      "id": "mirlipousse-cj-1824293787209191424",
-      "apiId": "cj-1824293787209191424",
-      "aliases": [
-        "mirlipousse-cj-1824293787209191424",
-        "cj-1824293787209191424"
-      ],
-      "pid": "1824293787209191424",
-      "vid": "1824293787347603456",
+      "id": "mm-p-6e3ed3af67270101e1306ffe56084d6c8d70072f26972bb33aac5ead782acc2f",
       "name": "Trousse dépliable à compartiments",
       "category": "trousses-rangement",
       "categoryLabel": "Trousses & rangement",
@@ -1997,14 +1585,9 @@
       "priceNotice": "Prix cible de préparation, non contractuel. Livraison en plus, à confirmer ; achats fermés.",
       "variants": [
         {
-          "id": "1824293787347603456",
-          "variantId": "1824293787347603456",
-          "label": "Light Blue",
-          "variantKey": "Light Blue",
-          "availableForPreview": true,
-          "availableForCheckout": false,
-          "priceQualifiedForCheckout": false,
-          "stockRecheckedToday": false
+          "id": "mm-v-b339ac1caacb3f36edf88fcd8f6b8596318dc61d48a2f738ae2bf56c278940c0",
+          "label": "Modèle : Light Blue",
+          "availableForCheckout": false
         }
       ],
       "shippingStandard": {
@@ -2022,9 +1605,7 @@
           "etaBusinessDays": null,
           "etaLabel": "Délai à confirmer avant ouverture",
           "trackingIncluded": null,
-          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur.",
-          "scope": "Une unité de cette variante, destination pays seulement ; devis panier et adresse à recalculer.",
-          "extraFeesStatus": "total_transport_observe_a_confirmer"
+          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur."
         },
         "BE": {
           "mode": "home",
@@ -2040,23 +1621,14 @@
           "etaBusinessDays": null,
           "etaLabel": "Délai à confirmer avant ouverture",
           "trackingIncluded": null,
-          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur.",
-          "scope": "Une unité de cette variante, destination pays seulement ; devis panier et adresse à recalculer.",
-          "extraFeesStatus": "total_transport_observe_a_confirmer"
+          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur."
         }
       },
       "safetyQualified": false,
       "ageQualified": false
     },
     {
-      "id": "mirlipousse-cj-2412090236531628600",
-      "apiId": "cj-2412090236531628600",
-      "aliases": [
-        "mirlipousse-cj-2412090236531628600",
-        "cj-2412090236531628600"
-      ],
-      "pid": "2412090236531628600",
-      "vid": "2412090236531628700",
+      "id": "mm-p-8ddea62e164911139031e71eb1d4647181e176bc7968440b0cbc59d4c59b3367",
       "name": "Trousse transparente avec poignée",
       "category": "trousses-rangement",
       "categoryLabel": "Trousses & rangement",
@@ -2073,14 +1645,9 @@
       "priceNotice": "Prix cible de préparation, non contractuel. Livraison en plus, à confirmer ; achats fermés.",
       "variants": [
         {
-          "id": "2412090236531628700",
-          "variantId": "2412090236531628700",
-          "label": "Transparent Pencil Case INS Style Milk Salty Series Carrying Case Large Capacity Waterproof Purple",
-          "variantKey": "Purple",
-          "availableForPreview": true,
-          "availableForCheckout": false,
-          "priceQualifiedForCheckout": false,
-          "stockRecheckedToday": false
+          "id": "mm-v-7294c29edcccf42d03ee667e40d29a945761db0e3698bc0b868427f83879b22b",
+          "label": "Modèle : Purple",
+          "availableForCheckout": false
         }
       ],
       "shippingStandard": {
@@ -2098,9 +1665,7 @@
           "etaBusinessDays": null,
           "etaLabel": "Délai à confirmer avant ouverture",
           "trackingIncluded": null,
-          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur.",
-          "scope": "Une unité de cette variante, destination pays seulement ; devis panier et adresse à recalculer.",
-          "extraFeesStatus": "total_transport_observe_a_confirmer"
+          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur."
         },
         "BE": {
           "mode": "home",
@@ -2116,23 +1681,14 @@
           "etaBusinessDays": null,
           "etaLabel": "Délai à confirmer avant ouverture",
           "trackingIncluded": null,
-          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur.",
-          "scope": "Une unité de cette variante, destination pays seulement ; devis panier et adresse à recalculer.",
-          "extraFeesStatus": "total_transport_observe_a_confirmer"
+          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur."
         }
       },
       "safetyQualified": false,
       "ageQualified": false
     },
     {
-      "id": "mirlipousse-cj-2508141412481628100",
-      "apiId": "cj-2508141412481628100",
-      "aliases": [
-        "mirlipousse-cj-2508141412481628100",
-        "cj-2508141412481628100"
-      ],
-      "pid": "2508141412481628100",
-      "vid": "2508141412481628300",
+      "id": "mm-p-ea4c1ecbd9b5033435289ccf4fa486cdcdc67df328a902eca44c372abdeb0b25",
       "name": "Trousse en tissu à nœud",
       "category": "trousses-rangement",
       "categoryLabel": "Trousses & rangement",
@@ -2149,14 +1705,9 @@
       "priceNotice": "Prix cible de préparation, non contractuel. Livraison en plus, à confirmer ; achats fermés.",
       "variants": [
         {
-          "id": "2508141412481628300",
-          "variantId": "2508141412481628300",
-          "label": "Ins Soft Fabric Pencil Case Student Minimalist Bow Buggy Bag Pink",
-          "variantKey": "Pink",
-          "availableForPreview": true,
-          "availableForCheckout": false,
-          "priceQualifiedForCheckout": false,
-          "stockRecheckedToday": false
+          "id": "mm-v-194c6c21617875c0f7a21ee06b0c9014dd93e64b4e0a472224fe454750250bb8",
+          "label": "Modèle : Pink",
+          "availableForCheckout": false
         }
       ],
       "shippingStandard": {
@@ -2174,9 +1725,7 @@
           "etaBusinessDays": null,
           "etaLabel": "Délai à confirmer avant ouverture",
           "trackingIncluded": null,
-          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur.",
-          "scope": "Une unité de cette variante, destination pays seulement ; devis panier et adresse à recalculer.",
-          "extraFeesStatus": "total_transport_observe_a_confirmer"
+          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur."
         },
         "BE": {
           "mode": "home",
@@ -2192,23 +1741,14 @@
           "etaBusinessDays": null,
           "etaLabel": "Délai à confirmer avant ouverture",
           "trackingIncluded": null,
-          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur.",
-          "scope": "Une unité de cette variante, destination pays seulement ; devis panier et adresse à recalculer.",
-          "extraFeesStatus": "total_transport_observe_a_confirmer"
+          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur."
         }
       },
       "safetyQualified": false,
       "ageQualified": false
     },
     {
-      "id": "mirlipousse-cj-2406260652501629800",
-      "apiId": "cj-2406260652501629800",
-      "aliases": [
-        "mirlipousse-cj-2406260652501629800",
-        "cj-2406260652501629800"
-      ],
-      "pid": "2406260652501629800",
-      "vid": "2406260652511621300",
+      "id": "mm-p-13913e34a4a36153d8285a15a5c6113ad2f8453fffb4ead91245c644f3cbaac3",
       "name": "Trousse pastel à damier — lapin",
       "category": "trousses-rangement",
       "categoryLabel": "Trousses & rangement",
@@ -2225,14 +1765,9 @@
       "priceNotice": "Prix cible de préparation, non contractuel. Livraison en plus, à confirmer ; achats fermés.",
       "variants": [
         {
-          "id": "2406260652511621300",
-          "variantId": "2406260652511621300",
-          "label": "Large Capacity Cartoon Detachable Pencil Case 7334 Girl Pink",
-          "variantKey": "7334 Girl Pink",
-          "availableForPreview": true,
-          "availableForCheckout": false,
-          "priceQualifiedForCheckout": false,
-          "stockRecheckedToday": false
+          "id": "mm-v-4316be8785e822cf0d1835c0f05e11d1cec98fb50de143a3eeaba072b83cf299",
+          "label": "Rose — motif lapin",
+          "availableForCheckout": false
         }
       ],
       "shippingStandard": {
@@ -2250,9 +1785,7 @@
           "etaBusinessDays": null,
           "etaLabel": "Délai à confirmer avant ouverture",
           "trackingIncluded": null,
-          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur.",
-          "scope": "Une unité de cette variante, destination pays seulement ; devis panier et adresse à recalculer.",
-          "extraFeesStatus": "devis_panier_adresse_requis"
+          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur."
         },
         "BE": {
           "mode": "home",
@@ -2268,9 +1801,7 @@
           "etaBusinessDays": null,
           "etaLabel": "Délai à confirmer avant ouverture",
           "trackingIncluded": null,
-          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur.",
-          "scope": "Une unité de cette variante, destination pays seulement ; devis panier et adresse à recalculer.",
-          "extraFeesStatus": "devis_panier_adresse_requis"
+          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur."
         }
       },
       "safetyQualified": false,
@@ -2339,6 +1870,5 @@
       "message": "Point relais à l’étude : aucun prestataire ni point de retrait qualifié."
     }
   },
-  "notice": "Tarifs indicatifs de préparation : aucun paiement possible, frais et disponibilité à confirmer avant ouverture.",
-  "sourceScope": "30 références réellement présentes, mêmes PID/VID et IDs publics. Aucun coût d’achat ou de fournisseur dans ce fichier."
+  "notice": "Tarifs indicatifs de préparation : aucun paiement possible, frais et disponibilité à confirmer avant ouverture."
 }

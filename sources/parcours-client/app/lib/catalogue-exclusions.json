@@ -3,17 +3,11 @@
   "brand": "mirlipousse",
   "entries": [
     {
-      "supplierProductId": "2406200657031625700",
-      "supplierVariantIds": [
-        "2406200657031625900"
-      ],
-      "supplierProductSku": "CJYD2064609",
-      "supplierVariantSkus": [
-        "CJYD206460901AZ"
-      ],
-      "aliases": [
-        "mirlipousse-cj-2406200657031625700",
-        "cj-2406200657031625700"
+      "id": "mm-p-a932c691c5cfaeebaab7959fe3153d3b5b5efaaf2f59a9bf0599550917328fc9",
+      "variantIds": [
+        "mm-v-6ea6d310cfae11e2a435ab9085697910afe7e9d3840d0f56e74c3e23aa2b4844",
+        "mm-v-54831743f405a7d121b19e6f76463e4f5b99decca2a49eb141642fd4c1fc3e84",
+        "mm-v-5300c7c71386cb20bbb7e472a2c6b6ffc859b0771049bb9d47ad701b97a7616a"
       ],
       "reason": "withdrawn_by_owner",
       "scope": "new_catalogue_quotes_and_purchases_only",

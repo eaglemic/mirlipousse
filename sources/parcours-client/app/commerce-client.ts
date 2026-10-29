@@ -1,9 +1,10 @@
+import {publicProductId,publicVariantId} from './lib/public-identities.mjs';
 /** Contrat commerce : prix et états serveur font autorité, aucune donnée bancaire. */
 export const API_ORIGIN = 'https://mirlipousse-boutique.yellowghost64.chatgpt.site';
 export type Item = {id:string;variantId:string;quantity:number};
 export type DeliveryMode = 'home'|'pickup';
 export type Variant = {id:string;label:string;availableForCheckout:boolean};
-export type RemoteCatalogue = {salesEnabled:boolean;products:{id:string;aliases?:string[];supplierProductId:string;variants:Variant[]}[];deliveryMethods:{mode:DeliveryMode;service:'standard';countries:string[];availableForPreview:boolean;qualifiedForCheckout:boolean;reason?:string}[]};
+export type RemoteCatalogue = {salesEnabled:boolean;products:{id:string;variants:Variant[]}[];deliveryMethods:{mode:DeliveryMode;service:'standard';countries:string[];availableForPreview:boolean;qualifiedForCheckout:boolean;reason?:string}[]};
 export type Pickup = {id:string;provider:string;name:string;addressLine1:string;postalCode:string;city:string;country:string};
 export type Quote = {ok:true;salesEnabled:boolean;previewOnly:boolean;canPrepareCheckout?:boolean;country:string;currency:'EUR';subtotalIndicativeCents:number|null;shippingIndicativeCents:number|null;totalIndicativeCents:number|null;delivery:{mode:DeliveryMode;service:'standard';qualifiedForCheckout:boolean;availableForPreview:boolean;etaBusinessDays?:number[]|null};blockers?:string[]};
 export type ContractSummary={version:string;bundleHash:string;deliveryText:string;termsText?:string;items:{name:string;variantLabel:string;quantity:number;unitPriceCents:number;lineTotalCents:number}[];totalCents:number;currency:'EUR'};
@@ -36,7 +37,7 @@ export async function api(path:string,body?:unknown,accessToken?:string,signal?:
 }
 export function readCatalogue(value:any):RemoteCatalogue{
   if(!object(value)||value.ok!==true||value.brand!=='mirlipousse'||typeof value.salesEnabled!=='boolean'||!Array.isArray(value.products)||value.products.length>150||!Array.isArray(value.deliveryMethods))throw new CommerceError('INVALID_RESPONSE');
-  for(const p of value.products)if(!object(p)||!text(p.id)||!text(p.supplierProductId)||!Array.isArray(p.variants)||p.variants.length>150||p.variants.some((v:any)=>!object(v)||!text(v.id)||!text(v.label)||typeof v.availableForCheckout!=='boolean'))throw new CommerceError('INVALID_RESPONSE');
+  for(const p of value.products)if(!object(p)||!text(p.id)||publicProductId(p.id)!==p.id||!Array.isArray(p.variants)||p.variants.length>150||p.variants.some((v:any)=>!object(v)||!text(v.id)||publicVariantId(v.id)!==v.id||!text(v.label)||typeof v.availableForCheckout!=='boolean'))throw new CommerceError('INVALID_RESPONSE');
   for(const d of value.deliveryMethods)if(!object(d)||!['home','pickup'].includes(d.mode)||d.service!=='standard'||!Array.isArray(d.countries)||d.countries.some((c:any)=>!['FR','BE'].includes(c))||typeof d.availableForPreview!=='boolean'||typeof d.qualifiedForCheckout!=='boolean')throw new CommerceError('INVALID_RESPONSE');
   return value as unknown as RemoteCatalogue;
 }
@@ -50,7 +51,7 @@ export function readQuote(value:any,country:string,mode:DeliveryMode,items?:Item
 export function canPrepareCheckout(catalogue:RemoteCatalogue|null,quote:Quote|null,items:Item[],country:string){
  return catalogue?.salesEnabled===true&&quote?.salesEnabled===true&&quote.canPrepareCheckout===true&&quote.previewOnly===true&&quote.country===country&&quote.delivery.mode==='home'
   &&catalogue.deliveryMethods.some(d=>d.mode==='home'&&d.service==='standard'&&d.countries.includes(country)&&d.availableForPreview)
-  &&items.length>0&&items.every(i=>catalogue.products.some(p=>(p.id===i.id||p.aliases?.includes(i.id))&&p.variants.some(v=>v.id===i.variantId&&v.availableForCheckout)));
+  &&items.length>0&&items.every(i=>catalogue.products.some(p=>p.id===i.id&&p.variants.some(v=>v.id===i.variantId&&v.availableForCheckout)));
 }
 /** Le jeton opaque reste en RAM ; la validation cryptographique appartient au serveur. */
 export function readCheckoutPreparation(value:any,orderToken:string,country:string,now=Date.now()):CheckoutQuote|Order{

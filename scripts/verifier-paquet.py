@@ -24,18 +24,17 @@ if sum(name.endswith('.html') and name != '404.html' for name in actual) != proo
     raise ValueError('NOMBRE_PAGES_DIVERGENT')
 
 # Une ancienne génération ne doit pas remettre un article retiré dans la vitrine.
+# Seuls des handles boutique opaques sont stockés dans le dépôt public.
 exclusions = json.loads((root / 'sources/parcours-client/app/lib/catalogue-exclusions.json').read_text())
-for entry in exclusions['entries']:
-    pid = entry['supplierProductId']
-    aliases = [pid, *entry['aliases']]
-    image = '/media/catalogue-cj/' + pid + '.webp'
-    if image.lstrip('/') in actual:
-        raise ValueError('PHOTO_PRODUIT_EXCLU: ' + pid)
-    for name in actual:
-        if name.endswith(('.html', '.js')):
-            body = (root / 'public' / name).read_text()
-            if image in body or (name.endswith('.html') and any(alias in body for alias in aliases)):
-                raise ValueError('PRODUIT_EXCLU_REINTRODUIT: ' + name)
+prices = json.loads((root / 'sources/parcours-client/app/lib/pricing-public.json').read_text())
+blocked = {entry['id'] for entry in exclusions['entries']}
+if any(product['id'] in blocked for product in prices['products']):
+    raise ValueError('PRODUIT_EXCLU_REINTRODUIT_DANS_CATALOGUE')
+for name in actual:
+    if name.endswith('.html'):
+        body = (root / 'public' / name).read_text()
+        if any(('produit=' + identifier) in body or ('data-product-id="' + identifier + '"') in body for identifier in blocked):
+            raise ValueError('PRODUIT_EXCLU_REINTRODUIT: ' + name)
 
 class Assets(HTMLParser):
     def __init__(self):
