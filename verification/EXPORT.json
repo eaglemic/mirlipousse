@@ -1,6 +1,6 @@
 {
   "format": "boutique-export/1",
-  "dateUTC": "2026-10-27T20:55:30.615358Z",
+  "dateUTC": "2026-10-29T22:03:12.890669+00:00",
   "brandSlug": "ondivane",
   "name": "Ondivane",
   "branche": "entreprise/ondivane",
@@ -14,8 +14,8 @@
   "files": [
     {
       "path": "404.html",
-      "sha256": "072545cbf75d3ad941840d37973c8115d43e4c0620fb881c0de96ea254474333",
-      "octets": 6441
+      "sha256": "f098e6c1758df724216294d4ee3e893765de9a3ac1f7af27805cf943464b7c07",
+      "octets": 6575
     },
     {
       "path": "app.js",
@@ -24,8 +24,8 @@
     },
     {
       "path": "avis.html",
-      "sha256": "2507d0b35654957ec407d65b7f0f5f4d1d9f4ebd732935078d4dd1a94fa52141",
-      "octets": 8464
+      "sha256": "b554b6a9df0cc91aa4e07b99ff706599d32b7779c44b8c313a54ff1a7a347fb8",
+      "octets": 8598
     },
     {
       "path": "brand.json",
@@ -34,8 +34,8 @@
     },
     {
       "path": "catalogue.html",
-      "sha256": "7905032d79cc10349c93b0d0973870d5d1fbe9a0659e531ec7f46b8dda41068d",
-      "octets": 10447
+      "sha256": "276b8eb04d79fd055d293d7feab97c6b9b0d5a08e1321c753c829fd66d89e41d",
+      "octets": 10581
     },
     {
       "path": "catalogue.json",
@@ -44,33 +44,33 @@
     },
     {
       "path": "conditions.html",
-      "sha256": "287cc695297def93031774cfecf97c35ea5c48b3e030f86fb4e734ae60762239",
-      "octets": 7170
+      "sha256": "138d8886d68e14d667c3f558a951b2369facbba6b4738b29feae969e605c4841",
+      "octets": 7448
     },
     {
       "path": "confidentialite.html",
-      "sha256": "31f6029fa87f20ab9c926cb4e75b2e78a3133ad2f32c4b0702abacc6125dee7e",
-      "octets": 8574
+      "sha256": "3bc178f6a41cce1188a82da68d708406bccf2a8e7296a96b6816bf89e7a017e0",
+      "octets": 8714
     },
     {
       "path": "contact.html",
-      "sha256": "854114dc26a5da09ce6c1ce997478fc3e6fe2069bb11ccb9b3a3a47debf7b0d9",
-      "octets": 6829
+      "sha256": "1fc02410f04d0fff8f8a01148c2419ec57b81b73f03b2f4577d31b65a1908ff0",
+      "octets": 7032
     },
     {
       "path": "guide.html",
-      "sha256": "5dac95d5a8e616b79d2d7a739a337817c201dcc16a9748c36904a94a8a42c97d",
-      "octets": 6912
+      "sha256": "f01f42552493e220a379a9bca0d008b0a7e0812f8553455c9fbfabd9eb4d3a37",
+      "octets": 7046
     },
     {
       "path": "index.html",
-      "sha256": "b436662bb07600eb43bf64e6a2fc1df69411cd743d6e19e47ca004eb77a5acee",
-      "octets": 15021
+      "sha256": "cda24ec59d2d930e04dc1d5c9f2713a4e65c4775621620aa2ee741715a4ed160",
+      "octets": 15155
     },
     {
       "path": "livraison.html",
-      "sha256": "9b8311e7b2b44615576d9ffb8f390185ab30ed098e77ea3d4293c9bf14bc0c5e",
-      "octets": 7063
+      "sha256": "f03c443a11753959e4bc0b41e035163ad66e24be064e5a016ba618ce43eefd50",
+      "octets": 7197
     },
     {
       "path": "media/embleme.svg",
@@ -94,28 +94,28 @@
     },
     {
       "path": "mentions-legales.html",
-      "sha256": "92b26252c177953f0c791dfcd3ab821b060deb914daba1117dfba4559641caa7",
-      "octets": 7347
+      "sha256": "27134ff6e8389882650b4742c81f66288853ca046a7b51c49502ff1bf11829b8",
+      "octets": 7625
     },
     {
       "path": "produits/ondivane-cj-1664837768888987648.html",
-      "sha256": "fa163fee9ca3462d88ce88f798324a41ce177171a79253af519591bf4225fe29",
-      "octets": 8268
+      "sha256": "a126b7c78502610350b3c06b5cbedc2c384ee306ca12aecd5a64025dfb21a0e4",
+      "octets": 8402
     },
     {
       "path": "produits/ondivane-cj-1793100703481733120.html",
-      "sha256": "f9d6e7f60b4edacc9a542025a9fb255be21ca580ab72ffdf28a2033d081298ce",
-      "octets": 8347
+      "sha256": "cf589f28a97d92d6185f7616f41efc74298230032a5d561955b0241238e1a18d",
+      "octets": 8481
     },
     {
       "path": "produits/ondivane-cj-2504071556161606100.html",
-      "sha256": "3f462f1834885513dbe7fc5386edee691a06a4fd5dd62536896e9ee6fd793356",
-      "octets": 8161
+      "sha256": "b272ccb57bc9a331a6e640fe9095498a3fcd82729fcd2b067a181c3f0e432278",
+      "octets": 8295
     },
     {
       "path": "retours.html",
-      "sha256": "39205d1a37a7bf2f84571d71afe022d55f9d224c62c2116a1ec991208832909d",
-      "octets": 7135
+      "sha256": "5aadfbe386fa334b04e40188b192a97bb6c26531c531c507d3b77706f023b59f",
+      "octets": 7413
     },
     {
       "path": "robots.txt",
@@ -132,5 +132,13 @@
       "sha256": "00bc27c4d4a94f145dbd2bb15056f2f467323ff458a75a508ecd69e8292d1a17",
       "octets": 29097
     }
-  ]
+  ],
+  "contactSAV": {
+    "email": "miniandmerveilles@gmail.com",
+    "mailto": "mailto:miniandmerveilles@gmail.com",
+    "salesEnabled": false,
+    "envoiMessageEffectue": false,
+    "comptesPrivesModifies": false,
+    "portee": "contact public et SAV uniquement"
+  }
 }
