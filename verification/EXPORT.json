@@ -1,6 +1,6 @@
 {
   "format": "boutique-export/1",
-  "dateUTC": "2026-10-27T20:55:29.060925Z",
+  "dateUTC": "2026-10-29T22:03:13.184647+00:00",
   "brandSlug": "pliorea",
   "name": "Plioréa",
   "branche": "entreprise/pliorea",
@@ -14,8 +14,8 @@
   "files": [
     {
       "path": "404.html",
-      "sha256": "466beb8e6f2881f9da15ecc13f2c77a1da927420dfd9d44461e64b45448b5bd6",
-      "octets": 5746
+      "sha256": "a9343a3b2f45894f8bf7a99dc86f3d883b59a323a3980ab6650fc1731cf4c5d5",
+      "octets": 5880
     },
     {
       "path": "app.js",
@@ -24,8 +24,8 @@
     },
     {
       "path": "avis.html",
-      "sha256": "d1aad0cddf8846c46af5ba08437b728b9f6ed67818c75004e7107d4a00f17af8",
-      "octets": 7768
+      "sha256": "8fb3f9dc3497a1889fdfa54f33c92ca8e5465955b24138a89de21b0e8e1e8b35",
+      "octets": 7902
     },
     {
       "path": "brand.json",
@@ -34,8 +34,8 @@
     },
     {
       "path": "catalogue.html",
-      "sha256": "5bde7d6e7b9044bcd58767db1452d2d73097a453dad0392577e1bdc3b4f4058e",
-      "octets": 8747
+      "sha256": "3dfbd1b3c3d0508c2d40e203485c1b4c0754f07d8af7d22f1a68d5760656a74d",
+      "octets": 8881
     },
     {
       "path": "catalogue.json",
@@ -44,33 +44,33 @@
     },
     {
       "path": "conditions.html",
-      "sha256": "b601564378b40d4823cf3adf2677aa0d46866e1e7390e557f2cc086bfcd30203",
-      "octets": 6475
+      "sha256": "a419ddaa7b5db81f87939e957d98f731a87162f1d8fa0405d22bc0f6e525c411",
+      "octets": 6753
     },
     {
       "path": "confidentialite.html",
-      "sha256": "2977631172ef994e470d6c65f3d8dd9516dc5d9aebcaa3253914b3130bea4fbc",
-      "octets": 7879
+      "sha256": "2b863a95af4d665eda7e325532fc534b2f0fe2e3c07db63657d31f435515a0f3",
+      "octets": 8019
     },
     {
       "path": "contact.html",
-      "sha256": "ce3140591f6265c4368cd82765a624617586b05ee4bbda2748f1cc15a79518de",
-      "octets": 6134
+      "sha256": "77ba87bd3003dcd8577ef151e8ec802439401fe214163b234b6e266afbe3e67d",
+      "octets": 6337
     },
     {
       "path": "guide.html",
-      "sha256": "25f61b44146dbb49e4dbc72f3a1bddd0bf9d3ab5ac73ecbcc8e0f5f8e3dd27ee",
-      "octets": 6197
+      "sha256": "f2e20f6a24f0caa6fd800b16b2e89e73e98b317c13757c6d974e2ba46cacceca",
+      "octets": 6331
     },
     {
       "path": "index.html",
-      "sha256": "60ee3552a8aeaac433082831ec2696ccbbc790aaa8707b624118ff0a302d743c",
-      "octets": 13520
+      "sha256": "e560233f34126787e886b56ae28dfaea45be00915b6605157506ead94321b84f",
+      "octets": 13654
     },
     {
       "path": "livraison.html",
-      "sha256": "0113e1481b85dd13b0de4dae37cc4553d59807470e5c85f6088803576addba95",
-      "octets": 6368
+      "sha256": "c8514c9ee0fc472a8b67ffa320cf1408a5b509388c9bb9dfd33dd61450aa3789",
+      "octets": 6502
     },
     {
       "path": "media/embleme.svg",
@@ -89,23 +89,23 @@
     },
     {
       "path": "mentions-legales.html",
-      "sha256": "37531fd1a021e587ed9e8055b7f0ff553dc6d61a6d9953f5fa33fea226035bee",
-      "octets": 6652
+      "sha256": "ff33e0b6a4d19923517cce0407cd7a14e2d1df068d52606933a23d4905084834",
+      "octets": 6930
     },
     {
       "path": "produits/pliorea-cj-1386852733046362112.html",
-      "sha256": "2011721507651b2b790d9d26410848866fe7da49a658c34be52788ac70475d25",
-      "octets": 7550
+      "sha256": "f8324e80f72f9886b7c7d6bc2b2027da6ba02354b9d4268b56d8d6b0a34bd097",
+      "octets": 7684
     },
     {
       "path": "produits/pliorea-cj-f7ac6d42-0df8-41bc-a1b1-fb43131085e3.html",
-      "sha256": "b13d0f6c138111bcbb56506aff8ebee5ba12b670adf80258f5f7973b4b952523",
-      "octets": 7614
+      "sha256": "87ddc4f27378061fd9cde5e882ea0622730d8ee5cf666bf422858ca28be75db7",
+      "octets": 7748
     },
     {
       "path": "retours.html",
-      "sha256": "c68152b12e08b612c2372250183bff8bbd095860d47fcbff177860ed117df2e8",
-      "octets": 6440
+      "sha256": "012547ad85fbd74a9cc01ff3191e865edb57acacb3c746ab7b0cd099b8c83dea",
+      "octets": 6718
     },
     {
       "path": "robots.txt",
@@ -122,5 +122,13 @@
       "sha256": "e1191f5541daf42b0c6596507d080f133aed4220a9e3b842158b27fdd8b2d8ae",
       "octets": 29097
     }
-  ]
+  ],
+  "contactSAV": {
+    "email": "miniandmerveilles@gmail.com",
+    "mailto": "mailto:miniandmerveilles@gmail.com",
+    "salesEnabled": false,
+    "envoiMessageEffectue": false,
+    "comptesPrivesModifies": false,
+    "portee": "contact public et SAV uniquement"
+  }
 }
