@@ -1,6 +1,6 @@
 {
   "format": "boutique-export/1",
-  "dateUTC": "2026-10-27T20:55:29.265301Z",
+  "dateUTC": "2026-10-29T22:03:10.653850+00:00",
   "brandSlug": "burozea",
   "name": "Burozéa",
   "branche": "entreprise/burozea",
@@ -14,8 +14,8 @@
   "files": [
     {
       "path": "404.html",
-      "sha256": "0d07bdef3a1488587efcc7197434fb1456c8a2c492e889503272d7192e9e0ee7",
-      "octets": 6159
+      "sha256": "c9fa2004a36502c9eb8c5bcdd7b11ba45c114afea8cebc9fd0665fe4d04fcfe6",
+      "octets": 6293
     },
     {
       "path": "app.js",
@@ -24,8 +24,8 @@
     },
     {
       "path": "avis.html",
-      "sha256": "ccaf89c4da9fa484b0e80ca5d20df84624a782712f1742557e9de9bbcbc9e153",
-      "octets": 8181
+      "sha256": "5454b01920be9661a2a6321dc35dc55774832e0e00f0cb9df4da93f70c735bb7",
+      "octets": 8315
     },
     {
       "path": "brand.json",
@@ -34,8 +34,8 @@
     },
     {
       "path": "catalogue.html",
-      "sha256": "cfbd29b23a37e80c028085eebca89bc78576d9da14567aec0a85eefef5250def",
-      "octets": 10090
+      "sha256": "6593ae1a625d3d3ae15b54de97c884dd19dde23a4d874867d161c8f62d45907a",
+      "octets": 10224
     },
     {
       "path": "catalogue.json",
@@ -44,33 +44,33 @@
     },
     {
       "path": "conditions.html",
-      "sha256": "697c795218f2c65223642e55a3e80c8178356b52950d34d2477bcdb8b78a00db",
-      "octets": 6888
+      "sha256": "3579ed11ab6b30904a5dab64279d5ec1936605c79036afc81f1b62239f38c91e",
+      "octets": 7166
     },
     {
       "path": "confidentialite.html",
-      "sha256": "132ceed8b84da63f9788396be91cdf4c78529346de97c0ddc6ab8221de371edf",
-      "octets": 8292
+      "sha256": "39c6871d3aabf7a9e9d0b485d023fb89885a8ac495d86946ea8bc83a30094c00",
+      "octets": 8432
     },
     {
       "path": "contact.html",
-      "sha256": "138671467a6823632c7159cf431267cb16ce8c582d711be04cea90e3fecce646",
-      "octets": 6547
+      "sha256": "38b91a872287188ebf1e16dd277454bc30aebe92e005df451ba90e58e5bdb54d",
+      "octets": 6750
     },
     {
       "path": "guide.html",
-      "sha256": "1ecf1e5a61e32549831f5ec7803562a03e1983302d651ab402daff6018496b83",
-      "octets": 6621
+      "sha256": "e835cc276a40859f488949a056d94187ea72109aac763ead9b3a559a28e2fb11",
+      "octets": 6755
     },
     {
       "path": "index.html",
-      "sha256": "376838187a8cd9d39d5a1e96dc0c77223c5a5e2da9d775e145b788acd5396e75",
-      "octets": 14676
+      "sha256": "9cb498cec853888867683ac31a8352135cb8993a2f47fdbd33a7f87a5ba511af",
+      "octets": 14810
     },
     {
       "path": "livraison.html",
-      "sha256": "2a15d202285302516a20a4613c9d9a09158f26e265ec72e50b1cd26c2362ebf9",
-      "octets": 6781
+      "sha256": "51b21cfa2fb7ea183308fd8a6c64be55e33d7d95d0634d7c91ee0a40698b1151",
+      "octets": 6915
     },
     {
       "path": "media/burozea-cj-1380028552015122432.jpg",
@@ -94,28 +94,28 @@
     },
     {
       "path": "mentions-legales.html",
-      "sha256": "e1269da6c753dc10ed547855605c9ba20e77327383c7f041465a367f07c9d039",
-      "octets": 7065
+      "sha256": "391579940f3c190c8939eec29dbf8e345b02e4191615c4bf7724e955cb047588",
+      "octets": 7343
     },
     {
       "path": "produits/burozea-cj-1380028552015122432.html",
-      "sha256": "67b1108be84f1bd30170579e2ac8192674e07b9e3e98334fbb1711f1c26bb50b",
-      "octets": 7862
+      "sha256": "f27ae3d1258d67a8f7084108cf20eb3d01776f428232527298c7b6917740f2c4",
+      "octets": 7996
     },
     {
       "path": "produits/burozea-cj-1646726512265547776.html",
-      "sha256": "1cf68a4b11ecafa1f76733c4f8e09e515b58ec10b6b84f7a1a362fd686b27f03",
-      "octets": 7857
+      "sha256": "9f14539f919947326bc60b3fa14aa4bff5f6ab5376a0be6ee2ed72d2b11bbf1d",
+      "octets": 7991
     },
     {
       "path": "produits/burozea-cj-1703055389602238464.html",
-      "sha256": "27ba8dba7e267361d409e8f6830f4360958f679c180c2a5462fb3a38409990a2",
-      "octets": 7880
+      "sha256": "7cb44058f6d4e6ccb81d0dce82dd7fbd6781b407c9b32de6b7118280200f251c",
+      "octets": 8014
     },
     {
       "path": "retours.html",
-      "sha256": "5c8df24116cdbf2b506ebb9d10efd64dd3fbaa8d6897ed3b2de60c273cdb5f32",
-      "octets": 6853
+      "sha256": "bcbd67a06ce6ca0bb1896ed6b8ab46368f869bbab795d36d27f5c96144b7b583",
+      "octets": 7131
     },
     {
       "path": "robots.txt",
@@ -132,5 +132,13 @@
       "sha256": "eb4b0252f4b1d54359035c957b43aeec9fcaf931be2aac3487c54d9cc7c03381",
       "octets": 29097
     }
-  ]
+  ],
+  "contactSAV": {
+    "email": "miniandmerveilles@gmail.com",
+    "mailto": "mailto:miniandmerveilles@gmail.com",
+    "salesEnabled": false,
+    "envoiMessageEffectue": false,
+    "comptesPrivesModifies": false,
+    "portee": "contact public et SAV uniquement"
+  }
 }
