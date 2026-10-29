@@ -1,6 +1,6 @@
 {
   "format": "mirlipousse-export-statique/2",
-  "dateUTC": "2026-10-29T22:01:44.117187+00:00",
+  "dateUTC": "2026-10-29T23:00:56.838091+00:00",
   "succes": true,
   "origineCandidateNonReservee": "https://mirlipousse.onrender.com",
   "pagesHTML": 29,
@@ -24,8 +24,8 @@
     "_next/static/css/index.DCsEXdMs.css": "c48992c81d3650577d9a92cf12961a84919c76fe95e88eabecbd0f61da657a11",
     "_next/static/css/page.D_71ifoz.css": "795d871f7682abc54a574eb21f976e1c26bd39efcc61ca7d577c7edfc04e9273",
     "apple-touch-icon.png": "90b5de154394609ccfeccde3e6d67306403184386c8db83dfda12e3d2556156f",
-    "assets/catalogue-BUciiC93.js": "3d90e57924299666bbd759e8d04c2245f8a136aedec05314daec321afc24d4d1",
     "assets/catalogue-Bhmass9N.css": "efc633d567c018ef6f99c40b71d447d2d66a67c21d0c613c83e1d4ebb21fbb2b",
+    "assets/catalogue-CQVv7MVQ.js": "d16265b51114af09c98ca6804a24d1b8083ef0ecf767c112b41a7a1a52f73aec",
     "assets/catalogue-CpBJTyU8.css": "19c763abcdcdd4a15c27a268939e57ec5628d339917280c1166a0d683bc477b0",
     "assets/catalogue-Cu5MpgKO.css": "e4e0dca31469bb5d9e1ea70e86d055e89119a82744255ef38bb4070f417721c1",
     "assets/catalogue-DCvd8723.css": "f2a794edd9b4d8dfcfcfbb26ef264c691f8f870de79473d09eda6f39e1578971",
@@ -50,7 +50,7 @@
     "collections/jeux-aventure/index.html": "40467c63519ca38e2d7e109ee13e2ad1b0b052eee0a2401cac6506c4a51f1c18",
     "collections/jeux-creatifs/index.html": "d607a6f5b8cb318d1d08d9867031137607bf1fc54763f6e9bbc0ace50de36b7d",
     "collections/jouets-eveil/index.html": "93b0547e05b35b9bba83aa3704210fcc5d60684b65a9b9b0729dff993f340239",
-    "commande/merci/index.html": "185a327a6e4b9fb34e882f40a7cb4d5936674ddd5c8eb1410aea2a9ef2626fdb",
+    "commande/merci/index.html": "f18f46c125a3d394d2efe0e649230ce984c0b2b1b9967bee23cf54f9761236ef",
     "confidentialite/index.html": "734fa63529eab2ffdfdb906eef9b99a08f0a73646a2c169f991a7f5f44b70503",
     "connexion-cj-11ede6e316d77e9738711f2e.html": "2e93b258cd0f70080ebf4ca0a1290fcf0b0e591b1a0a9211d242fac649b097c8",
     "connexion-mondialrelay-4aa11290ef6313fc570f2a7e.html": "4395f6fc4270524badb232f00bb6d7e8a4b7005359c45c6a8197dded9fb7ca73",
@@ -74,7 +74,7 @@
     "illustrations/petits-batisseurs.svg": "4abaeea0fd8840f1b06e61471b27aec77a5180a828ead6b90a1333ec3b07f918",
     "illustrations/pochon-tresors.svg": "4ef96c0b9bc7abeb91f3a2fb7036d11e1290fb37397bebd9379f58c58b273a6d",
     "illustrations/sac-exploration.svg": "1683dafc1770b20f97001b227620009a4f9eb3449f348dd170d918f9423ced65",
-    "index.html": "a3380a6cb2df70cc1755c6bfe4a87848a37004704c3e9ddab9de28369ab57514",
+    "index.html": "3560086fa82225270207145edd86e1d047f1694d4fe09cbc00be12236f6e7b32",
     "informations-legales/index.html": "cdad28b168952aace749f85c7ad358f8e02ed8a9691d3fd0d61cdfebfa066bec",
     "legal.css": "e3e289031dae78c2553ffc2db02c537170c372ef56725cab57a6278d4b363c86",
     "livraison-retours/index.html": "296da8d1d48fc68acf570102dfc48c159bc13573e4b761776e480be7b54901a6",
@@ -509,5 +509,12 @@
     "envoiMessageEffectue": false,
     "comptesPrivesModifies": false,
     "portee": "contact public et SAV uniquement"
+  },
+  "preparationTechniqueOuverture": {
+    "runtimeOuvert": false,
+    "produitsReelsQualifies": 0,
+    "donneesReglementaires": "affichage conditionnel des seuls champs publics relus, par variante",
+    "testsClient": 48,
+    "nouvelleAuthentificationClient": false
   }
 }

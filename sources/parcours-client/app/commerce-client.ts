@@ -3,7 +3,8 @@ import {publicProductId,publicVariantId} from './lib/public-identities.mjs';
 export const API_ORIGIN = 'https://mirlipousse-boutique.yellowghost64.chatgpt.site';
 export type Item = {id:string;variantId:string;quantity:number};
 export type DeliveryMode = 'home'|'pickup';
-export type Variant = {id:string;label:string;image?:string;imageAlt?:string;indicativePriceCents?:number|null;availableForCheckout:boolean};
+export type RegulatoryInfo = {manufacturer:string;responsibleEU:string;warnings:string;ageLabel:string|null};
+export type Variant = {id:string;label:string;image?:string;imageAlt?:string;indicativePriceCents?:number|null;availableForCheckout:boolean;regulatory?:RegulatoryInfo|null};
 export type RemoteCatalogue = {salesEnabled:boolean;products:{id:string;variants:Variant[]}[];deliveryMethods:{mode:DeliveryMode;service:'standard';countries:string[];availableForPreview:boolean;qualifiedForCheckout:boolean;reason?:string}[]};
 export type Pickup = {id:string;provider:string;name:string;addressLine1:string;postalCode:string;city:string;country:string};
 export type Quote = {ok:true;salesEnabled:boolean;previewOnly:boolean;canPrepareCheckout?:boolean;country:string;currency:'EUR';subtotalIndicativeCents:number|null;shippingIndicativeCents:number|null;totalIndicativeCents:number|null;delivery:{mode:DeliveryMode;service:'standard';qualifiedForCheckout:boolean;availableForPreview:boolean;etaBusinessDays?:number[]|null};blockers?:string[]};
@@ -44,6 +45,8 @@ export function readCatalogue(value:any):RemoteCatalogue{
     if(!object(v)||!text(v.id)||publicVariantId(v.id)!==v.id||variantIds.has(v.id)||!text(v.label)||typeof v.availableForCheckout!=='boolean'
      ||v.image!==undefined&&(typeof v.image!=='string'||!/^\/media\/variantes\/image-[a-f0-9]{24}\.(?:jpg|png|webp|gif)$/.test(v.image))
      ||v.imageAlt!==undefined&&!text(v.imageAlt,500)||v.indicativePriceCents!==undefined&&!money(v.indicativePriceCents))throw new CommerceError('INVALID_RESPONSE');variantIds.add(v.id);
+    if(v.regulatory!==undefined&&v.regulatory!==null&&(!object(v.regulatory)||!text(v.regulatory.manufacturer,500)||!text(v.regulatory.responsibleEU,500)
+     ||!text(v.regulatory.warnings,1000)||v.regulatory.ageLabel!==null&&!text(v.regulatory.ageLabel,120)))throw new CommerceError('INVALID_RESPONSE');
    }
   }
   for(const d of value.deliveryMethods)if(!object(d)||!['home','pickup'].includes(d.mode)||d.service!=='standard'||!Array.isArray(d.countries)||d.countries.some((c:any)=>!['FR','BE'].includes(c))||typeof d.availableForPreview!=='boolean'||typeof d.qualifiedForCheckout!=='boolean')throw new CommerceError('INVALID_RESPONSE');
