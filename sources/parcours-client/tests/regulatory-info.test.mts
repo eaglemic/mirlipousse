@@ -6,7 +6,7 @@ import ProductRegulatoryInfo from '../app/components/product-regulatory-info.tsx
 import {readCatalogue,type Variant} from '../app/commerce-client.ts';
 const id='mm-p-'+'a'.repeat(64),vid='mm-v-'+'b'.repeat(64);
 const info={manufacturer:'Fabricant légal fictif — fabricant@example.invalid',responsibleEU:'Opérateur UE fictif — ue@example.invalid',warnings:'Ne pas <inventer> une précaution.',ageLabel:null};
-const v:Variant={id:vid,label:'Bleu fictif',availableForCheckout:true,regulatory:info};
+const v:Variant={id:vid,label:'Bleu fictif',priceCents:1900,priceStatus:'fixed',priceIncludesShipping:false,availableForCheckout:true,regulatory:info};
 const catalogue=(variant:unknown)=>({ok:true,brand:'mirlipousse',salesEnabled:true,products:[{id,variants:[variant]}],deliveryMethods:[]});
 test('seule la variante choisie et ouverte expose ses faits réglementaires, sans âge inventé ni HTML exécuté',()=>{
  const html=renderToString(React.createElement(ProductRegulatoryInfo,{variant:v}));assert(html.includes('Fabricant légal fictif'));assert(html.includes('Opérateur UE fictif'));

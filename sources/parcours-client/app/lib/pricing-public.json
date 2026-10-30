@@ -1,6 +1,6 @@
 {
   "format": "mirlipousse-pricing-public/1",
-  "dateUTC": "2026-10-28T13:55:08.778487+00:00",
+  "dateUTC": "2026-10-30T10:43:50.686548+00:00",
   "brand": "mirlipousse",
   "currency": "EUR",
   "mode": "preparation",
@@ -15,19 +15,41 @@
       "legacyCategory": "creativite",
       "currency": "EUR",
       "indicativePriceCents": 2190,
-      "priceStatus": "indicatif_a_confirmer",
-      "priceLabel": "21,90 € · prix indicatif",
+      "priceStatus": "fixed",
+      "priceLabel": "21,90 €",
       "priceCustomer": null,
       "purchaseEnabled": false,
       "checkoutEligible": false,
-      "priceValidated": false,
+      "priceValidated": true,
       "priceIncludesShipping": false,
-      "priceNotice": "Prix cible de préparation, non contractuel. Livraison en plus, à confirmer ; achats fermés.",
+      "priceNotice": "Prix de l’article en euros, hors livraison. Les commandes restent fermées.",
       "variants": [
         {
           "id": "mm-v-3c1c133af999c662b568fc33c3ff366f664f2c611fcacd691a8087b742e2d78c",
           "label": "Modèle : A",
-          "availableForCheckout": false
+          "indicativePriceCents": 2190,
+          "availableForCheckout": false,
+          "priceCents": 2190,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-67f79643a0b30a874668a8d2672bb13d404236a4e005a2555d2be0dd268d2dc8",
+          "label": "B",
+          "indicativePriceCents": 2190,
+          "availableForCheckout": false,
+          "priceCents": 2190,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-cb1a33f859083aa89cc8af7d0bd741b5ae91453596816e7da266ae7446bf230d",
+          "label": "C",
+          "indicativePriceCents": 2190,
+          "availableForCheckout": false,
+          "priceCents": 2190,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
         }
       ],
       "shippingStandard": {
@@ -65,7 +87,8 @@
         }
       },
       "safetyQualified": false,
-      "ageQualified": false
+      "ageQualified": false,
+      "priceCents": 2190
     },
     {
       "id": "mm-p-3304df193601a8fdb6590949202f9c1c572bb0342fe174696c3ca8a2167bda17",
@@ -75,19 +98,23 @@
       "legacyCategory": "aventure",
       "currency": "EUR",
       "indicativePriceCents": 2090,
-      "priceStatus": "indicatif_a_confirmer",
-      "priceLabel": "20,90 € · prix indicatif",
+      "priceStatus": "fixed",
+      "priceLabel": "20,90 €",
       "priceCustomer": null,
       "purchaseEnabled": false,
       "checkoutEligible": false,
-      "priceValidated": false,
+      "priceValidated": true,
       "priceIncludesShipping": false,
-      "priceNotice": "Prix cible de préparation, non contractuel. Livraison en plus, à confirmer ; achats fermés.",
+      "priceNotice": "Prix de l’article en euros, hors livraison. Les commandes restent fermées.",
       "variants": [
         {
           "id": "mm-v-0675da0d17aeb40b786a863693f561cf13f00e9125f855f0234adb9906a8ec88",
           "label": "Modèle : Red",
-          "availableForCheckout": false
+          "indicativePriceCents": 2090,
+          "availableForCheckout": false,
+          "priceCents": 2090,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
         }
       ],
       "shippingStandard": {
@@ -125,7 +152,8 @@
         }
       },
       "safetyQualified": false,
-      "ageQualified": false
+      "ageQualified": false,
+      "priceCents": 2090
     },
     {
       "id": "mm-p-0e2212657d8635a8dabf95c69735291c6da92e85ac353c40e2baa2229c6057dc",
@@ -135,19 +163,68 @@
       "legacyCategory": "aventure",
       "currency": "EUR",
       "indicativePriceCents": 1490,
-      "priceStatus": "indicatif_a_confirmer",
-      "priceLabel": "14,90 € · prix indicatif",
+      "priceStatus": "fixed",
+      "priceLabel": "14,90 €",
       "priceCustomer": null,
       "purchaseEnabled": false,
       "checkoutEligible": false,
-      "priceValidated": false,
+      "priceValidated": true,
       "priceIncludesShipping": false,
-      "priceNotice": "Prix cible de préparation, non contractuel. Livraison en plus, à confirmer ; achats fermés.",
+      "priceNotice": "Prix de l’article en euros, hors livraison. Les commandes restent fermées.",
       "variants": [
         {
           "id": "mm-v-c858403c51f1590dbd9ede81fe4ef8e249c0559afd9c16c2c424af8a7123b833",
           "label": "Modèle : Pink One Shoulder",
-          "availableForCheckout": false
+          "indicativePriceCents": 1490,
+          "availableForCheckout": false,
+          "priceCents": 1490,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-6caf179026c26fced120f7c4a30b2952ad3f91dfbe5bbf74a5b731fe26dc0476",
+          "label": "Yellow One Shoulder",
+          "indicativePriceCents": 1490,
+          "availableForCheckout": false,
+          "priceCents": 1490,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-bcd297d42f5953c1af6203b1f659148ef2d482b9910671b9b8a02983a6618423",
+          "label": "Rose One Shoulder",
+          "indicativePriceCents": 1490,
+          "availableForCheckout": false,
+          "priceCents": 1490,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-8bc9c5b3974bf06074bd737095591b40544c7ce8a25f747e058bc8d5b5772f3f",
+          "label": "Pink Crossbody",
+          "indicativePriceCents": 1490,
+          "availableForCheckout": false,
+          "priceCents": 1490,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-d7bcc66b5021ca1426d6eedd8884de64dc3617b0d2add7191ab4c062cc262ecc",
+          "label": "Yellow Crossbody",
+          "indicativePriceCents": 1490,
+          "availableForCheckout": false,
+          "priceCents": 1490,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-9d7e3c9962cc0eef859cafb134b02e6ba2cea4511c3cbe0e75d5908a98890e56",
+          "label": "Rose Red Crossbody",
+          "indicativePriceCents": 1490,
+          "availableForCheckout": false,
+          "priceCents": 1490,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
         }
       ],
       "shippingStandard": {
@@ -185,7 +262,8 @@
         }
       },
       "safetyQualified": false,
-      "ageQualified": false
+      "ageQualified": false,
+      "priceCents": 1490
     },
     {
       "id": "mm-p-b6849588037d268d287c9bdda053281b8cb33f647cc06dd24ca98c715fe431c9",
@@ -195,19 +273,59 @@
       "legacyCategory": "aventure",
       "currency": "EUR",
       "indicativePriceCents": 1290,
-      "priceStatus": "indicatif_a_confirmer",
-      "priceLabel": "12,90 € · prix indicatif",
+      "priceStatus": "fixed",
+      "priceLabel": "12,90 €",
       "priceCustomer": null,
       "purchaseEnabled": false,
       "checkoutEligible": false,
-      "priceValidated": false,
+      "priceValidated": true,
       "priceIncludesShipping": false,
-      "priceNotice": "Prix cible de préparation, non contractuel. Livraison en plus, à confirmer ; achats fermés.",
+      "priceNotice": "Prix de l’article en euros, hors livraison. Les commandes restent fermées.",
       "variants": [
         {
           "id": "mm-v-149b2b6b899532c9cd17d2038fe58f7ab2394628fae95b9fe8ce54927521d3ec",
           "label": "Modèle : White",
-          "availableForCheckout": false
+          "indicativePriceCents": 1290,
+          "availableForCheckout": false,
+          "priceCents": 1290,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-e9d224034afafa1c34c7c0273c0541804d65f56fa9c9643bf4943e650b174571",
+          "label": "Violet",
+          "indicativePriceCents": 1290,
+          "availableForCheckout": false,
+          "priceCents": 1290,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-48a10f8ec9401d6babf7aa1e8f0c7ea78d30910d7e8e875dda98b5db4498f93c",
+          "label": "Bleu",
+          "indicativePriceCents": 1290,
+          "availableForCheckout": false,
+          "priceCents": 1290,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-f6ea75df516fa486ef8638eb8caf16d00d9c79f5d6f555d29fec27c81e74d31b",
+          "label": "Noir",
+          "indicativePriceCents": 1290,
+          "availableForCheckout": false,
+          "priceCents": 1290,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-4bdcb2e2055bc99b7c5ecbb8726b683a5cc784e73925a3c9a5388aa401bcfd8e",
+          "label": "Rose",
+          "indicativePriceCents": 1290,
+          "availableForCheckout": false,
+          "priceCents": 1290,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
         }
       ],
       "shippingStandard": {
@@ -245,7 +363,8 @@
         }
       },
       "safetyQualified": false,
-      "ageQualified": false
+      "ageQualified": false,
+      "priceCents": 1290
     },
     {
       "id": "mm-p-aabc0acf34b25b5c039b465d32e7b2a11cda79bd08951c49bf1e5ad34f3d9eba",
@@ -255,19 +374,59 @@
       "legacyCategory": "aventure",
       "currency": "EUR",
       "indicativePriceCents": 1290,
-      "priceStatus": "indicatif_a_confirmer",
-      "priceLabel": "12,90 € · prix indicatif",
+      "priceStatus": "fixed",
+      "priceLabel": "12,90 €",
       "priceCustomer": null,
       "purchaseEnabled": false,
       "checkoutEligible": false,
-      "priceValidated": false,
+      "priceValidated": true,
       "priceIncludesShipping": false,
-      "priceNotice": "Prix cible de préparation, non contractuel. Livraison en plus, à confirmer ; achats fermés.",
+      "priceNotice": "Prix de l’article en euros, hors livraison. Les commandes restent fermées.",
       "variants": [
         {
           "id": "mm-v-9ae322840a5418696fdb1771f30ea4bff2f05cb8cb5e42db16005edc00d1e57f",
           "label": "Modèle : blue",
-          "availableForCheckout": false
+          "indicativePriceCents": 1290,
+          "availableForCheckout": false,
+          "priceCents": 1290,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-c4edda8b5f95b0c2344dab2eb204045dd00fb68b2f0659c3e37b551df66f612c",
+          "label": "gules",
+          "indicativePriceCents": 1290,
+          "availableForCheckout": false,
+          "priceCents": 1290,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-37e25addde72dc14dfb18618baa64ded97b70f44bc7c3051a657702573210c72",
+          "label": "Rose",
+          "indicativePriceCents": 1290,
+          "availableForCheckout": false,
+          "priceCents": 1290,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-00f0f225f6c1e5a42f3dd0e4b07782c75bb28c069bdddc30df9b5c5b0adad4aa",
+          "label": "green",
+          "indicativePriceCents": 1290,
+          "availableForCheckout": false,
+          "priceCents": 1290,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-1b32d9c426d66380b9be8b0b6a9c0546ebe6831a13016e12d79cdfe29d5461ea",
+          "label": "Navy Blue",
+          "indicativePriceCents": 1290,
+          "availableForCheckout": false,
+          "priceCents": 1290,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
         }
       ],
       "shippingStandard": {
@@ -305,7 +464,8 @@
         }
       },
       "safetyQualified": false,
-      "ageQualified": false
+      "ageQualified": false,
+      "priceCents": 1290
     },
     {
       "id": "mm-p-faf13d79dd653e119dff8ef046492a36deebb69f7eb3417b2bfc84bddee00e80",
@@ -315,19 +475,23 @@
       "legacyCategory": "aventure",
       "currency": "EUR",
       "indicativePriceCents": 1890,
-      "priceStatus": "indicatif_a_confirmer",
-      "priceLabel": "18,90 € · prix indicatif",
+      "priceStatus": "fixed",
+      "priceLabel": "18,90 €",
       "priceCustomer": null,
       "purchaseEnabled": false,
       "checkoutEligible": false,
-      "priceValidated": false,
+      "priceValidated": true,
       "priceIncludesShipping": false,
-      "priceNotice": "Prix cible de préparation, non contractuel. Livraison en plus, à confirmer ; achats fermés.",
+      "priceNotice": "Prix de l’article en euros, hors livraison. Les commandes restent fermées.",
       "variants": [
         {
           "id": "mm-v-8cee9b945c3041ec01d9de78a91c4d989a11da081e4c1bf04faf398adf63f097",
           "label": "Modèle : Black-38cm",
-          "availableForCheckout": false
+          "indicativePriceCents": 1890,
+          "availableForCheckout": false,
+          "priceCents": 1890,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
         }
       ],
       "shippingStandard": {
@@ -365,7 +529,8 @@
         }
       },
       "safetyQualified": false,
-      "ageQualified": false
+      "ageQualified": false,
+      "priceCents": 1890
     },
     {
       "id": "mm-p-fc63e665654e6369c22956728944b831fe20fa5fa4d4e5238ac1cf5cb4aa4b87",
@@ -375,19 +540,113 @@
       "legacyCategory": "aventure",
       "currency": "EUR",
       "indicativePriceCents": 1690,
-      "priceStatus": "indicatif_a_confirmer",
-      "priceLabel": "16,90 € · prix indicatif",
+      "priceStatus": "fixed",
+      "priceLabel": "16,90 €",
       "priceCustomer": null,
       "purchaseEnabled": false,
       "checkoutEligible": false,
-      "priceValidated": false,
+      "priceValidated": true,
       "priceIncludesShipping": false,
-      "priceNotice": "Prix cible de préparation, non contractuel. Livraison en plus, à confirmer ; achats fermés.",
+      "priceNotice": "Prix de l’article en euros, hors livraison. Les commandes restent fermées.",
       "variants": [
         {
           "id": "mm-v-b16226bee645d7bd177d713f2b78cba9a85dc55de4d7b021e8a9cebb5c833c46",
           "label": "Modèle : Coffee squirrel",
-          "availableForCheckout": false
+          "indicativePriceCents": 1690,
+          "availableForCheckout": false,
+          "priceCents": 1690,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-c4bd0012ad0bf6063784496376ddb3b617cd57ae7f2215b390248d5a551bbbbe",
+          "label": "Yellow puppy",
+          "indicativePriceCents": 1690,
+          "availableForCheckout": false,
+          "priceCents": 1690,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-85aa484ce0eb46aa0494f756c11771735a4d25feeae1353ff47df432c4cbf6aa",
+          "label": "Coffee monkey",
+          "indicativePriceCents": 1690,
+          "availableForCheckout": false,
+          "priceCents": 1690,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-c8c182c3379bdb8d6cf60f5621351922b930d87720ebf2a60703b0552e0bd151",
+          "label": "Lapin",
+          "indicativePriceCents": 1690,
+          "availableForCheckout": false,
+          "priceCents": 1690,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-b3f81a0a9e71e6d1155e1f039c6c2003b4dcc622d657b4ae52dfa729c7f5a21e",
+          "label": "Red owl",
+          "indicativePriceCents": 1690,
+          "availableForCheckout": false,
+          "priceCents": 1690,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-6061b32af3aa32eab155f9c62681c68950c8da6fec2b81eb6a50dd1caca53ecf",
+          "label": "Orange tiger",
+          "indicativePriceCents": 1690,
+          "availableForCheckout": false,
+          "priceCents": 1690,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-d15e2540376fd182052eda9a446e22bdfdd096c6e3af891dec9c72181ba61ea7",
+          "label": "Dinosaur",
+          "indicativePriceCents": 1690,
+          "availableForCheckout": false,
+          "priceCents": 1690,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-763a76906676023a06b17e657b6a31943133c3835bf2942ef441560c4a41d59f",
+          "label": "Giraffe",
+          "indicativePriceCents": 1690,
+          "availableForCheckout": false,
+          "priceCents": 1690,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-caa895c15ac21db85e01dfc3598b1bef9b32dae8ba4d0d627d8ada0149b995d6",
+          "label": "Yellow chick",
+          "indicativePriceCents": 1690,
+          "availableForCheckout": false,
+          "priceCents": 1690,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-0924cdc2e32b0bc69ef2123f6477c002571e97d803ce257a4946ad8a98ffd709",
+          "label": "Piggy",
+          "indicativePriceCents": 1690,
+          "availableForCheckout": false,
+          "priceCents": 1690,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-742881353a829a2d5ba6df0a1595e85bdf11873135f545f7265ce2bd3829f2b2",
+          "label": "Pink lamb",
+          "indicativePriceCents": 1690,
+          "availableForCheckout": false,
+          "priceCents": 1690,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
         }
       ],
       "shippingStandard": {
@@ -425,7 +684,8 @@
         }
       },
       "safetyQualified": false,
-      "ageQualified": false
+      "ageQualified": false,
+      "priceCents": 1690
     },
     {
       "id": "mm-p-3a2083c3a6856ddc2b8801a954374a70948305d8029d14519e759db405de9b21",
@@ -435,19 +695,68 @@
       "legacyCategory": "quotidien",
       "currency": "EUR",
       "indicativePriceCents": 1890,
-      "priceStatus": "indicatif_a_confirmer",
-      "priceLabel": "18,90 € · prix indicatif",
+      "priceStatus": "fixed",
+      "priceLabel": "18,90 €",
       "priceCustomer": null,
       "purchaseEnabled": false,
       "checkoutEligible": false,
-      "priceValidated": false,
+      "priceValidated": true,
       "priceIncludesShipping": false,
-      "priceNotice": "Prix cible de préparation, non contractuel. Livraison en plus, à confirmer ; achats fermés.",
+      "priceNotice": "Prix de l’article en euros, hors livraison. Les commandes restent fermées.",
       "variants": [
         {
           "id": "mm-v-e14cc52b4bac899f4a39ab2ed55601f8f57bbb0f8ca81276afa65e04b6d5df3e",
           "label": "Modèle : Khaki-80",
-          "availableForCheckout": false
+          "indicativePriceCents": 1890,
+          "availableForCheckout": false,
+          "priceCents": 1890,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-e6d0539966e6e8d56f0667af7535734101266d27a4462129c22daa4f9b4741b2",
+          "label": "Khaki · 90",
+          "indicativePriceCents": 1890,
+          "availableForCheckout": false,
+          "priceCents": 1890,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-807331b81ce4cab928f43709cf4511056123d5454df4cdb83d20abbaf7e1e0ca",
+          "label": "Khaki · 100",
+          "indicativePriceCents": 1890,
+          "availableForCheckout": false,
+          "priceCents": 1890,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-b0d1acfc015c1580359f9834eb60e6cb356ac86f088e7bcdadf85845db89d287",
+          "label": "Khaki · 110",
+          "indicativePriceCents": 1890,
+          "availableForCheckout": false,
+          "priceCents": 1890,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-b02b3d1a9bbc3fae219d67933b5150cc815b22852591fe50653dae219df4c354",
+          "label": "Khaki · 120",
+          "indicativePriceCents": 1890,
+          "availableForCheckout": false,
+          "priceCents": 1890,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-e40f2877a1e63251ead0b5caba41bcda86810254b01f5a3246868930f89e30ab",
+          "label": "Khaki · 130",
+          "indicativePriceCents": 1890,
+          "availableForCheckout": false,
+          "priceCents": 1890,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
         }
       ],
       "shippingStandard": {
@@ -485,7 +794,8 @@
         }
       },
       "safetyQualified": false,
-      "ageQualified": false
+      "ageQualified": false,
+      "priceCents": 1890
     },
     {
       "id": "mm-p-41f5e7627e3575f06b31b2db676cd8a12cac15ddd56999167f75b7ea4f304624",
@@ -495,19 +805,338 @@
       "legacyCategory": "quotidien",
       "currency": "EUR",
       "indicativePriceCents": 990,
-      "priceStatus": "indicatif_a_confirmer",
-      "priceLabel": "9,90 € · prix indicatif",
+      "priceStatus": "fixed",
+      "priceLabel": "9,90 €",
       "priceCustomer": null,
       "purchaseEnabled": false,
       "checkoutEligible": false,
-      "priceValidated": false,
+      "priceValidated": true,
       "priceIncludesShipping": false,
-      "priceNotice": "Prix cible de préparation, non contractuel. Livraison en plus, à confirmer ; achats fermés.",
+      "priceNotice": "Prix de l’article en euros, hors livraison. Les commandes restent fermées.",
       "variants": [
         {
           "id": "mm-v-0325b626cf9ab40188bcbd5b399e6f04086f969be8b7ae2c3e787f2e6b83724a",
           "label": "Modèle : Pink-130cm",
-          "availableForCheckout": false
+          "indicativePriceCents": 990,
+          "availableForCheckout": false,
+          "priceCents": 990,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-24ba407b1d273987b290b08a424736eacfc69cd84855f63ff713d3f30b1e74e3",
+          "label": "Blanc · 100cm",
+          "indicativePriceCents": 990,
+          "availableForCheckout": false,
+          "priceCents": 990,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-9c960a06ff56fa2b651ce83f67469689cdbc58a5c63f48219891ba7f71b6d837",
+          "label": "Rose · 100cm",
+          "indicativePriceCents": 990,
+          "availableForCheckout": false,
+          "priceCents": 990,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-584067256d877c7e46815a24396e93e445ba6194f8e717572d92f90e50d67cad",
+          "label": "Bleu · 120cm",
+          "indicativePriceCents": 990,
+          "availableForCheckout": false,
+          "priceCents": 990,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-53e55f3454873ae9dcd90ad6364d51fb7a745ee593ddfe7f1d0cba27fd7616ae",
+          "label": "Noir · 140cm",
+          "indicativePriceCents": 990,
+          "availableForCheckout": false,
+          "priceCents": 990,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-75114d079e5bed9a2b2688ed7f345dcbcc88bb0b620623f22c7f0cd15ace4cec",
+          "label": "Marron · 100cm",
+          "indicativePriceCents": 990,
+          "availableForCheckout": false,
+          "priceCents": 990,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-9edea133a799850dc25d816eadf3f8192453df832bdf8242bf4df6bed3334114",
+          "label": "Rose · 90cm",
+          "indicativePriceCents": 990,
+          "availableForCheckout": false,
+          "priceCents": 990,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-73338618a0c3e2ec49161dfe9e5eaaed436a5d359cd7dbc904098fd49fb8b38f",
+          "label": "Marron · 120cm",
+          "indicativePriceCents": 990,
+          "availableForCheckout": false,
+          "priceCents": 990,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-7ae5620b48da27c2d063da26081cc222ad2045bc127b16a98fb932eed5c064ad",
+          "label": "Camel · 110cm",
+          "indicativePriceCents": 990,
+          "availableForCheckout": false,
+          "priceCents": 990,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-f630465fe161b1c3daebabfdb2c23c34c5aaf4ff75cbdcc3a85e6387403909fe",
+          "label": "Bleu · 130cm",
+          "indicativePriceCents": 990,
+          "availableForCheckout": false,
+          "priceCents": 990,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-168a881b59f229400045fe52182b4523315b0274a7855563ad24a97485242917",
+          "label": "Marron · 140cm",
+          "indicativePriceCents": 990,
+          "availableForCheckout": false,
+          "priceCents": 990,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-d6c202aa70b231dde7c78e6dba787285d351bbc23e23fe7a2d1a0447c46aa309",
+          "label": "Noir · 100cm",
+          "indicativePriceCents": 990,
+          "availableForCheckout": false,
+          "priceCents": 990,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-7a3f24670911b32bb47d8813f390336c2aad4f7b17dbbe81ea0373bfade54500",
+          "label": "Blanc · 140cm",
+          "indicativePriceCents": 990,
+          "availableForCheckout": false,
+          "priceCents": 990,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-c1bacd6194c9d0dbf812a3e6025f0eaf31fc822ff4fcb057170fa192f26b1054",
+          "label": "Camel · 120cm",
+          "indicativePriceCents": 990,
+          "availableForCheckout": false,
+          "priceCents": 990,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-029d57410342fe854780965c467c5b18636b120478039029838d911d22f1e021",
+          "label": "Bleu · 90cm",
+          "indicativePriceCents": 990,
+          "availableForCheckout": false,
+          "priceCents": 990,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-b131d4f3d60efadcf11375a714156a0023c2835e3fa69f2184aa2130225ac1eb",
+          "label": "Camel · 100cm",
+          "indicativePriceCents": 990,
+          "availableForCheckout": false,
+          "priceCents": 990,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-bb0d2836fbd72e5e27236d2855dd32a3a63f2d09065591ef12e3b37360f30391",
+          "label": "Blanc · 110cm",
+          "indicativePriceCents": 990,
+          "availableForCheckout": false,
+          "priceCents": 990,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-328e3e663a512eab36c25caeb9580c8fa8c92a52a1a95f0fff6b88565321d2af",
+          "label": "Marron · 90cm",
+          "indicativePriceCents": 990,
+          "availableForCheckout": false,
+          "priceCents": 990,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-60307e58e6435b3ce1a5928d76e30034b2cf529e555a15a89f49542b8cb48342",
+          "label": "Bleu · 100cm",
+          "indicativePriceCents": 990,
+          "availableForCheckout": false,
+          "priceCents": 990,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-632b5e19c26c816119816fa58b97d5ac5aef3feee79cc49271860a674b5014dd",
+          "label": "Bleu · 140cm",
+          "indicativePriceCents": 990,
+          "availableForCheckout": false,
+          "priceCents": 990,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-a964f8a6ae843b44a8e304a212049ae141ec4d9a332a3402dd52926060be5ccd",
+          "label": "Bleu · 110cm",
+          "indicativePriceCents": 990,
+          "availableForCheckout": false,
+          "priceCents": 990,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-d89ce20424b56cd89cff0dd3e69f70a352067bd037d37aab659ae83208a99f79",
+          "label": "Noir · 110cm",
+          "indicativePriceCents": 990,
+          "availableForCheckout": false,
+          "priceCents": 990,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-4926bef95bb0acffa03b6c18bc7572bcf8110e8124069bc7fcbdac27e3e8c292",
+          "label": "Rose · 140cm",
+          "indicativePriceCents": 990,
+          "availableForCheckout": false,
+          "priceCents": 990,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-9d889df667c41e556baccfe6eed6ede049e95e760a92f8561d652000c7173de2",
+          "label": "Blanc · 130cm",
+          "indicativePriceCents": 990,
+          "availableForCheckout": false,
+          "priceCents": 990,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-8a1db551c0d89beab3a6944a06ec3e66c81f3a2098b26f80b22fa5cf4223fa5a",
+          "label": "Rose · 120cm",
+          "indicativePriceCents": 990,
+          "availableForCheckout": false,
+          "priceCents": 990,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-e4986ddb5b8595e5df1a855fd36dd83dbdbae05683bf95e0c0739f0790bddb01",
+          "label": "Camel · 130cm",
+          "indicativePriceCents": 990,
+          "availableForCheckout": false,
+          "priceCents": 990,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-7866bf02e9df9a844cdd8c5953328c21be14d852e0b72fdab4011c2e507e41f9",
+          "label": "Blanc · 90cm",
+          "indicativePriceCents": 990,
+          "availableForCheckout": false,
+          "priceCents": 990,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-b710526ed5d972aa9fd06b1eeccde4257f3a97a57b294e17e4b957aab211d229",
+          "label": "Marron · 130cm",
+          "indicativePriceCents": 990,
+          "availableForCheckout": false,
+          "priceCents": 990,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-901636f475db329beebd115630502919d52d3c9e594ea129d77673e867257244",
+          "label": "Noir · 130cm",
+          "indicativePriceCents": 990,
+          "availableForCheckout": false,
+          "priceCents": 990,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-9abe91878240ecba78aaf3709cb024db87a0c5e2fb4f76ede1cf5b3f7cd08a44",
+          "label": "Noir · 90cm",
+          "indicativePriceCents": 990,
+          "availableForCheckout": false,
+          "priceCents": 990,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-702c23d87036186b310dfc1fbdb436759e9f160e0c9905e0bee3f63b493c6b48",
+          "label": "Camel · 140cm",
+          "indicativePriceCents": 990,
+          "availableForCheckout": false,
+          "priceCents": 990,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-3ae2c5b6563ecf1195413a2663a3fff4d80860c3d0bc6a095f1a0317114fa48c",
+          "label": "Rose · 110cm",
+          "indicativePriceCents": 990,
+          "availableForCheckout": false,
+          "priceCents": 990,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-8db350bc8cce91ea60feb13bef2f4f43449527abdae5c29417d047c4ae65fb48",
+          "label": "Noir · 120cm",
+          "indicativePriceCents": 990,
+          "availableForCheckout": false,
+          "priceCents": 990,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-a51d805e8d760ad0880674e2a4ce74c1991f0af3ece29e283ac3d654515bdd2d",
+          "label": "Camel · 90cm",
+          "indicativePriceCents": 990,
+          "availableForCheckout": false,
+          "priceCents": 990,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-682043585be315ba38bc854afe2561ddfe600617123e93c8b57a4a41784d55fe",
+          "label": "Blanc · 120cm",
+          "indicativePriceCents": 990,
+          "availableForCheckout": false,
+          "priceCents": 990,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-7e28d85686cf0c7beff94cd2754a7d8c932881d124f9b79cc10dd5ed5cc786d2",
+          "label": "Marron · 110cm",
+          "indicativePriceCents": 990,
+          "availableForCheckout": false,
+          "priceCents": 990,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
         }
       ],
       "shippingStandard": {
@@ -545,7 +1174,8 @@
         }
       },
       "safetyQualified": false,
-      "ageQualified": false
+      "ageQualified": false,
+      "priceCents": 990
     },
     {
       "id": "mm-p-c94d83d5543500ec60ad90fd03419e6f56987e0b3e02ca956d2279da035d2fc8",
@@ -555,19 +1185,41 @@
       "legacyCategory": "aventure",
       "currency": "EUR",
       "indicativePriceCents": 1890,
-      "priceStatus": "indicatif_a_confirmer",
-      "priceLabel": "18,90 € · prix indicatif",
+      "priceStatus": "fixed",
+      "priceLabel": "18,90 €",
       "priceCustomer": null,
       "purchaseEnabled": false,
       "checkoutEligible": false,
-      "priceValidated": false,
+      "priceValidated": true,
       "priceIncludesShipping": false,
-      "priceNotice": "Prix cible de préparation, non contractuel. Livraison en plus, à confirmer ; achats fermés.",
+      "priceNotice": "Prix de l’article en euros, hors livraison. Les commandes restent fermées.",
       "variants": [
         {
           "id": "mm-v-740751c98c26da32799844d3bfec1b832a34781067b8bb64b0a0e778dd8a7c59",
           "label": "Modèle : Blue-16inches",
-          "availableForCheckout": false
+          "indicativePriceCents": 1890,
+          "availableForCheckout": false,
+          "priceCents": 1890,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-3175f9d0a5b2481d1396b1d2d8a24e0f0c549fecb5f3421c107ba2b6c961349d",
+          "label": "Noir · 16inches",
+          "indicativePriceCents": 1890,
+          "availableForCheckout": false,
+          "priceCents": 1890,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-b58960aaec62177257da903f54b1351fa0eac5e284356f03aec8a80407bf1ca9",
+          "label": "Rose · 16inches",
+          "indicativePriceCents": 1890,
+          "availableForCheckout": false,
+          "priceCents": 1890,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
         }
       ],
       "shippingStandard": {
@@ -605,7 +1257,8 @@
         }
       },
       "safetyQualified": false,
-      "ageQualified": false
+      "ageQualified": false,
+      "priceCents": 1890
     },
     {
       "id": "mm-p-5a35d5de2bf93d32b4ae6d3c0628ef1846d34afb220e7600bdaecd89c53da652",
@@ -615,19 +1268,68 @@
       "legacyCategory": "aventure",
       "currency": "EUR",
       "indicativePriceCents": 1190,
-      "priceStatus": "indicatif_a_confirmer",
-      "priceLabel": "11,90 € · prix indicatif",
+      "priceStatus": "fixed",
+      "priceLabel": "11,90 €",
       "priceCustomer": null,
       "purchaseEnabled": false,
       "checkoutEligible": false,
-      "priceValidated": false,
+      "priceValidated": true,
       "priceIncludesShipping": false,
-      "priceNotice": "Prix cible de préparation, non contractuel. Livraison en plus, à confirmer ; achats fermés.",
+      "priceNotice": "Prix de l’article en euros, hors livraison. Les commandes restent fermées.",
       "variants": [
         {
           "id": "mm-v-e1e1c1dd4d9dfa4d2f03805077bac69cca4de8144e75214a4635a7d347c65b35",
           "label": "Modèle : Pink",
-          "availableForCheckout": false
+          "indicativePriceCents": 1190,
+          "availableForCheckout": false,
+          "priceCents": 1190,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-ab5ab9f2c72f33cccdb09efd191ef9656542e863b9e55189c899f8f825d80a98",
+          "label": "Rouge",
+          "indicativePriceCents": 1190,
+          "availableForCheckout": false,
+          "priceCents": 1190,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-abc1ae4136ac1934e177a6cd31a6ec7f638f0c92b414f4752761317109d3317c",
+          "label": "Rose rouge",
+          "indicativePriceCents": 1190,
+          "availableForCheckout": false,
+          "priceCents": 1190,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-f5ec7d806201b07d0a01f61de9cee72af8d5861781d9095d1e6f2440c6420c72",
+          "label": "Vert",
+          "indicativePriceCents": 1190,
+          "availableForCheckout": false,
+          "priceCents": 1190,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-c48cb0e7495cd8243b31ba1f533693323254278a33fb43409d789b86ec4f160f",
+          "label": "Jaune",
+          "indicativePriceCents": 1190,
+          "availableForCheckout": false,
+          "priceCents": 1190,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-6d97bca0b0cc252a9b83fceea254124bedb545d18b67708ad1a9f44670674dd5",
+          "label": "Bleu",
+          "indicativePriceCents": 1190,
+          "availableForCheckout": false,
+          "priceCents": 1190,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
         }
       ],
       "shippingStandard": {
@@ -665,7 +1367,8 @@
         }
       },
       "safetyQualified": false,
-      "ageQualified": false
+      "ageQualified": false,
+      "priceCents": 1190
     },
     {
       "id": "mm-p-cb664a3c1b8a99d09e3e9363a54e69ad72c8e528e3cba9dc3221d375939b5284",
@@ -675,19 +1378,131 @@
       "legacyCategory": "creativite",
       "currency": "EUR",
       "indicativePriceCents": 690,
-      "priceStatus": "indicatif_a_confirmer",
-      "priceLabel": "6,90 € · prix indicatif",
+      "priceStatus": "fixed",
+      "priceLabel": "6,90 €",
       "priceCustomer": null,
       "purchaseEnabled": false,
       "checkoutEligible": false,
-      "priceValidated": false,
+      "priceValidated": true,
       "priceIncludesShipping": false,
-      "priceNotice": "Prix cible de préparation, non contractuel. Livraison en plus, à confirmer ; achats fermés.",
+      "priceNotice": "Prix de l’article en euros, hors livraison. Les commandes restent fermées.",
       "variants": [
         {
           "id": "mm-v-6106673eb034c4fe22e5a876b4aa0ea00e904ff0b7edeac844f333dc8e649d58",
           "label": "Modèle : Goose",
-          "availableForCheckout": false
+          "indicativePriceCents": 690,
+          "availableForCheckout": false,
+          "priceCents": 690,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-119e0a5760bd4ef09ee1f83359d7575d57f6b8670eff0f0935f9bb81a754ec3a",
+          "label": "A",
+          "indicativePriceCents": 690,
+          "availableForCheckout": false,
+          "priceCents": 690,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-a278288a04223ed4404a436968252f64851cfe4329917c95be03858173172808",
+          "label": "Sheep",
+          "indicativePriceCents": 690,
+          "availableForCheckout": false,
+          "priceCents": 690,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-a52eab5aa81b7a624fc6296398b7ee060e059788348f18f30d0dfd3b357b0fbb",
+          "label": "Dog",
+          "indicativePriceCents": 690,
+          "availableForCheckout": false,
+          "priceCents": 690,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-399609421023eab3c3e4632b42bf751b4acddf9f8d3cc1edddc7a2dc32429c28",
+          "label": "Lapin",
+          "indicativePriceCents": 690,
+          "availableForCheckout": false,
+          "priceCents": 690,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-58be217d4fa4531ba40d70661785df920037926f520391d3b97228225fb14a46",
+          "label": "Horse",
+          "indicativePriceCents": 690,
+          "availableForCheckout": false,
+          "priceCents": 690,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-adb27dc0877daeb063dfa2c5369ae690e724ade6d7b2f9803f170d91092d4e0b",
+          "label": "Duck",
+          "indicativePriceCents": 690,
+          "availableForCheckout": false,
+          "priceCents": 690,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-64f52d1cdafff2530a447e88b3cc8b69b995f9d2592464e0bf25108acf5b83ee",
+          "label": "Cow",
+          "indicativePriceCents": 690,
+          "availableForCheckout": false,
+          "priceCents": 690,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-00c520eef270e5b880f89abc96476a6919220f5e3a35d233f074c4dc1e4daa0d",
+          "label": "Parrot",
+          "indicativePriceCents": 690,
+          "availableForCheckout": false,
+          "priceCents": 690,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-f058edb8a1cba37a826b166cc0b8c40d3fdf1729fbcf62875b740b05ca113ed7",
+          "label": "Rooster",
+          "indicativePriceCents": 690,
+          "availableForCheckout": false,
+          "priceCents": 690,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-1db27e6694efa7c1b4c66b5c208173d5756cd80fecb345432402d7be118c2a4e",
+          "label": "Pig",
+          "indicativePriceCents": 690,
+          "availableForCheckout": false,
+          "priceCents": 690,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-46bcf2dd7ee4f1eb6739a84e77fcdce61dbd17e2f7e8f24e536aeac74e32ba65",
+          "label": "Cat",
+          "indicativePriceCents": 690,
+          "availableForCheckout": false,
+          "priceCents": 690,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-2ad47a2fd3cd12c13caddbb6f7b6dcddeaa3e5f084f453676b6c179938dca30c",
+          "label": "Donkey",
+          "indicativePriceCents": 690,
+          "availableForCheckout": false,
+          "priceCents": 690,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
         }
       ],
       "shippingStandard": {
@@ -725,7 +1540,8 @@
         }
       },
       "safetyQualified": false,
-      "ageQualified": false
+      "ageQualified": false,
+      "priceCents": 690
     },
     {
       "id": "mm-p-9c2b061e744230456518dc7610ebc8031a2b41947efc37f7d1f0a956131a8acd",
@@ -735,19 +1551,284 @@
       "legacyCategory": "creativite",
       "currency": "EUR",
       "indicativePriceCents": 890,
-      "priceStatus": "indicatif_a_confirmer",
-      "priceLabel": "8,90 € · prix indicatif",
+      "priceStatus": "fixed",
+      "priceLabel": "8,90 €",
       "priceCustomer": null,
       "purchaseEnabled": false,
       "checkoutEligible": false,
-      "priceValidated": false,
+      "priceValidated": true,
       "priceIncludesShipping": false,
-      "priceNotice": "Prix cible de préparation, non contractuel. Livraison en plus, à confirmer ; achats fermés.",
+      "priceNotice": "Prix de l’article en euros, hors livraison. Les commandes restent fermées.",
       "variants": [
         {
           "id": "mm-v-2e1be01a1cc32e85ad79a698a76ba5cb62fda58f7a5a079b2bd403da56866272",
           "label": "Modèle : Steamship",
-          "availableForCheckout": false
+          "indicativePriceCents": 890,
+          "availableForCheckout": false,
+          "priceCents": 890,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-476c89a20617323188cb29b6a85ee90d28ab57f0206636887e4bd44eed9fd4b2",
+          "label": "Aircraft",
+          "indicativePriceCents": 890,
+          "availableForCheckout": false,
+          "priceCents": 890,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-fd02660fa01376099daa6441434314d9be3ca0c7e1d54893d69656996222db28",
+          "label": "Dinosaur",
+          "indicativePriceCents": 890,
+          "availableForCheckout": false,
+          "priceCents": 890,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-9e9665751efd9d96697785f80499974f5a340e76a6f8444690020d99c91520eb",
+          "label": "Ambulance",
+          "indicativePriceCents": 890,
+          "availableForCheckout": false,
+          "priceCents": 890,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-ffa618d2a637d6bbdadbdaa2b56600e3a3b4613bd0f71dca25ce9a54dfcd8600",
+          "label": "Little bear",
+          "indicativePriceCents": 890,
+          "availableForCheckout": false,
+          "priceCents": 890,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-ef6647770d07f825be2afb327ba280f9640940fdb2fec2b48fdae555dfe920f7",
+          "label": "Whale",
+          "indicativePriceCents": 890,
+          "availableForCheckout": false,
+          "priceCents": 890,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-2d7bcb779026e39ea2f960a31a360ed8686210aed5038952838d0020e8729706",
+          "label": "Woodpecker",
+          "indicativePriceCents": 890,
+          "availableForCheckout": false,
+          "priceCents": 890,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-4208eb1f5760ff2ce796403c97c452eea6a6dbff5107e3828b3130d48de1e931",
+          "label": "Giraffe",
+          "indicativePriceCents": 890,
+          "availableForCheckout": false,
+          "priceCents": 890,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-34efd9e8d3ed67f09c827d466ef61c1527e034829505c68d456aeb14d84489af",
+          "label": "Crocodile",
+          "indicativePriceCents": 890,
+          "availableForCheckout": false,
+          "priceCents": 890,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-eb54911c0584112117afeb3a9b4489af35b53f96af76eeb22e55683eef308fd9",
+          "label": "Caterpillar",
+          "indicativePriceCents": 890,
+          "availableForCheckout": false,
+          "priceCents": 890,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-6b7621231058c84ac1ca008110ce21d6bad2982515b3cc9f1bfb497a7d28f30a",
+          "label": "Rocket",
+          "indicativePriceCents": 890,
+          "availableForCheckout": false,
+          "priceCents": 890,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-17292c244f5577e104838621acfcd611f2d50ffb663bc1b0c1e2b17a2407a609",
+          "label": "Lapin — chiffres de 1 à 10",
+          "indicativePriceCents": 890,
+          "availableForCheckout": false,
+          "priceCents": 890,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-17a6dbb384642ab16e0805ce16b6700384c19510048db33810f3773701fae3b6",
+          "label": "Hot air balloon",
+          "indicativePriceCents": 890,
+          "availableForCheckout": false,
+          "priceCents": 890,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-75f00af8d9b2fb704e1bc3fe164603343627795eba4d82a5d833b22903935ae0",
+          "label": "Fox",
+          "indicativePriceCents": 890,
+          "availableForCheckout": false,
+          "priceCents": 890,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-9337bbb0106f8be194752326979ff13c3fcf72ec002125f723dc5c1d1e0ec25f",
+          "label": "Car",
+          "indicativePriceCents": 890,
+          "availableForCheckout": false,
+          "priceCents": 890,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-827d39a7fc8d85a2721ae22a01908f595b9901bcf3e0f2a69bc10ebb7ca420f9",
+          "label": "Bus",
+          "indicativePriceCents": 890,
+          "availableForCheckout": false,
+          "priceCents": 890,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-67459446ff316c00c088792d9ca713dbc1cba18ff5acd3febb941fc45c48188a",
+          "label": "Public vehicle",
+          "indicativePriceCents": 890,
+          "availableForCheckout": false,
+          "priceCents": 890,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-a0f110ec44b6b1d28c4478f1cb11897e2d1e2b18252864a1bc07634f8411235f",
+          "label": "Police car",
+          "indicativePriceCents": 890,
+          "availableForCheckout": false,
+          "priceCents": 890,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-7c7e47f65ed7da96fb0bca0fb6c96b6018b4fe28146776d09383fe39b3d01883",
+          "label": "Boy",
+          "indicativePriceCents": 890,
+          "availableForCheckout": false,
+          "priceCents": 890,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-4dbc72942ce6abf270d0b88a293bc9f34fd08099bb82af6f17f51462ba8f8518",
+          "label": "Caterpillar1",
+          "indicativePriceCents": 890,
+          "availableForCheckout": false,
+          "priceCents": 890,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-8fe0a33dbd9472eb39d07a0c4764b649590a4f4b2db95bb6d3e54310285636e3",
+          "label": "Crocodile1",
+          "indicativePriceCents": 890,
+          "availableForCheckout": false,
+          "priceCents": 890,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-39e4ed1e3fb769fa22de22123985c18168432a7bb7cac5fbe97f67509968800a",
+          "label": "Dinosaur1",
+          "indicativePriceCents": 890,
+          "availableForCheckout": false,
+          "priceCents": 890,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-1c9403ca969d2f6bc3c0d5d6f4a10d0d56a62fc869d48c47f530bd3b3ef08513",
+          "label": "Fire truck",
+          "indicativePriceCents": 890,
+          "availableForCheckout": false,
+          "priceCents": 890,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-82a94e4c87a77ae3ac1b038dafd9196754880aca61d9d2bfb1ac8218adf930d8",
+          "label": "Giraffe1",
+          "indicativePriceCents": 890,
+          "availableForCheckout": false,
+          "priceCents": 890,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-bd0fa004476d2f2b9ab580c465e414f2f6871256b48618878fc8a5a50968403f",
+          "label": "Girl",
+          "indicativePriceCents": 890,
+          "availableForCheckout": false,
+          "priceCents": 890,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-fb74440b720d239ab4ff69d8ae63f31b4a98e9eb03e46ef0b35d8eb05be17a2e",
+          "label": "Monkey",
+          "indicativePriceCents": 890,
+          "availableForCheckout": false,
+          "priceCents": 890,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-aef4c4fe8328e1377a0ac9a5db2c8d89620b3fd49db570240af39cfdada4e3df",
+          "label": "Plane",
+          "indicativePriceCents": 890,
+          "availableForCheckout": false,
+          "priceCents": 890,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-bf30fa5647aa254ce49a898a889ca257de224b5e3f34b6ce89452da9ad2d5138",
+          "label": "Lapin rose — chiffres de 1 à 12",
+          "indicativePriceCents": 890,
+          "availableForCheckout": false,
+          "priceCents": 890,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-65745b018963f312034fb3d2b4db81d74d4de254fd3a230b2fc553007cec01e2",
+          "label": "Small fish",
+          "indicativePriceCents": 890,
+          "availableForCheckout": false,
+          "priceCents": 890,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-1b80e28c7af2ffd01d4f5f304fb9fd162db156d9476b510cdfaf9e0f5e830128",
+          "label": "Tyrannosaurus",
+          "indicativePriceCents": 890,
+          "availableForCheckout": false,
+          "priceCents": 890,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
         }
       ],
       "shippingStandard": {
@@ -785,7 +1866,8 @@
         }
       },
       "safetyQualified": false,
-      "ageQualified": false
+      "ageQualified": false,
+      "priceCents": 890
     },
     {
       "id": "mm-p-bad7ce63d87ba6a6a3669d3e7f7d63e9c5588b0930ffc0affe9e8fd1d7b2167c",
@@ -795,19 +1877,23 @@
       "legacyCategory": "creativite",
       "currency": "EUR",
       "indicativePriceCents": 890,
-      "priceStatus": "indicatif_a_confirmer",
-      "priceLabel": "8,90 € · prix indicatif",
+      "priceStatus": "fixed",
+      "priceLabel": "8,90 €",
       "priceCustomer": null,
       "purchaseEnabled": false,
       "checkoutEligible": false,
-      "priceValidated": false,
+      "priceValidated": true,
       "priceIncludesShipping": false,
-      "priceNotice": "Prix cible de préparation, non contractuel. Livraison en plus, à confirmer ; achats fermés.",
+      "priceNotice": "Prix de l’article en euros, hors livraison. Les commandes restent fermées.",
       "variants": [
         {
           "id": "mm-v-1e9509ffccc903a382425c7939fa8f9593ca8a1cbc3a24522c987c0216c5791a",
           "label": "Modèle : 128PCS English Color Box",
-          "availableForCheckout": false
+          "indicativePriceCents": 890,
+          "availableForCheckout": false,
+          "priceCents": 890,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
         }
       ],
       "shippingStandard": {
@@ -845,7 +1931,8 @@
         }
       },
       "safetyQualified": false,
-      "ageQualified": false
+      "ageQualified": false,
+      "priceCents": 890
     },
     {
       "id": "mm-p-815ce8de9c4b71f2e0256fa1f5652074166304c369b58ac924b2502ec45a6411",
@@ -855,19 +1942,32 @@
       "legacyCategory": "creativite",
       "currency": "EUR",
       "indicativePriceCents": 1990,
-      "priceStatus": "indicatif_a_confirmer",
-      "priceLabel": "19,90 € · prix indicatif",
+      "priceStatus": "fixed",
+      "priceLabel": "19,90 €",
       "priceCustomer": null,
       "purchaseEnabled": false,
       "checkoutEligible": false,
-      "priceValidated": false,
+      "priceValidated": true,
       "priceIncludesShipping": false,
-      "priceNotice": "Prix cible de préparation, non contractuel. Livraison en plus, à confirmer ; achats fermés.",
+      "priceNotice": "Prix de l’article en euros, hors livraison. Les commandes restent fermées.",
       "variants": [
         {
           "id": "mm-v-9261bbd476ed376f40e153a638ceaaf8440ebc1bb5f39e768b2533a04df2ae5c",
           "label": "Modèle : Wood",
-          "availableForCheckout": false
+          "indicativePriceCents": 1990,
+          "availableForCheckout": false,
+          "priceCents": 1990,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-2a94a7407674d174ecd84eff2d657973ac1b6e6ac455f0681ed9906ddaa72967",
+          "label": "Color",
+          "indicativePriceCents": 1990,
+          "availableForCheckout": false,
+          "priceCents": 1990,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
         }
       ],
       "shippingStandard": {
@@ -905,7 +2005,8 @@
         }
       },
       "safetyQualified": false,
-      "ageQualified": false
+      "ageQualified": false,
+      "priceCents": 1990
     },
     {
       "id": "mm-p-b2383fefd2e9ba541a86cc2d51f3704441d0ffa500a9ebd64ccd2cf5a5aa7990",
@@ -915,19 +2016,140 @@
       "legacyCategory": "creativite",
       "currency": "EUR",
       "indicativePriceCents": 1790,
-      "priceStatus": "indicatif_a_confirmer",
-      "priceLabel": "17,90 € · prix indicatif",
+      "priceStatus": "fixed",
+      "priceLabel": "17,90 €",
       "priceCustomer": null,
       "purchaseEnabled": false,
       "checkoutEligible": false,
-      "priceValidated": false,
+      "priceValidated": true,
       "priceIncludesShipping": false,
-      "priceNotice": "Prix cible de préparation, non contractuel. Livraison en plus, à confirmer ; achats fermés.",
+      "priceNotice": "Prix de l’article en euros, hors livraison. Les commandes restent fermées.",
       "variants": [
         {
           "id": "mm-v-cc4a829fd563e01c4e2bbae625d0c62b09d239b944dde0201bacc30864d30994",
           "label": "Modèle : 1cm 8 packs",
-          "availableForCheckout": false
+          "indicativePriceCents": 1790,
+          "availableForCheckout": false,
+          "priceCents": 1790,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-46554150826d446663a7b8f17e8d9eb486c868eeeafea9d0c6f950ebe7339fe6",
+          "label": "Noir",
+          "indicativePriceCents": 1790,
+          "availableForCheckout": false,
+          "priceCents": 1790,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-6bf530dc28fb67ad5242ea286d1e43e489fc77ae13acc18029f8b4caa4e50e56",
+          "label": "36 colors",
+          "indicativePriceCents": 1790,
+          "availableForCheckout": false,
+          "priceCents": 1790,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-dbe48296fe18a970e06272753fec7a24d218359f1cafb6e0f6b8901436eb6edb",
+          "label": "36 color2",
+          "indicativePriceCents": 1790,
+          "availableForCheckout": false,
+          "priceCents": 1790,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-5f388dbe308173fe4ee943deaa6138a9b3589a66d56dca1f2b83815c9aa6da79",
+          "label": "Violet",
+          "indicativePriceCents": 1790,
+          "availableForCheckout": false,
+          "priceCents": 1790,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-7951535b169d8de1256f6cb719bd377b5221bbd4b80440d56ab80f85fde09805",
+          "label": "Rose",
+          "indicativePriceCents": 1790,
+          "availableForCheckout": false,
+          "priceCents": 1790,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-e3ebd4a02cf4f6df08385a490688dfb48ae2ebc4d560227ed85bd26d1f5aa436",
+          "label": "24 color2",
+          "indicativePriceCents": 1790,
+          "availableForCheckout": false,
+          "priceCents": 1790,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-5dbfa923d57b4564aa2e1db38828227e5f9e618b92c356390406dfc979e55509",
+          "label": "24 colors",
+          "indicativePriceCents": 1790,
+          "availableForCheckout": false,
+          "priceCents": 1790,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-ce9646c25ac56fa082302355f1b95de81b6a551c7e5d8a01af95b0a1b92b6091",
+          "label": "3mm 8 packs",
+          "indicativePriceCents": 1790,
+          "availableForCheckout": false,
+          "priceCents": 1790,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-b582a290f402187cdce76eea3b9a78d93ddd2cb63de5680fc4a5e98b7f063e34",
+          "label": "Café",
+          "indicativePriceCents": 1790,
+          "availableForCheckout": false,
+          "priceCents": 1790,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-dc3ac51fc4a0afa8cb3369a4a6c7aaf788ee81a37c3c7038f376fbb01aa47953",
+          "label": "Bleu",
+          "indicativePriceCents": 1790,
+          "availableForCheckout": false,
+          "priceCents": 1790,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-4e2f4e3456625f4cdfd1acff780d4cbc6b3a8c4a47488533c89f9d30916ee617",
+          "label": "15 colors",
+          "indicativePriceCents": 1790,
+          "availableForCheckout": false,
+          "priceCents": 1790,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-cca3f6b3b206789786890f6eeefde5033f1a8225e16221e9fa7c73afda6c138e",
+          "label": "Jaune",
+          "indicativePriceCents": 1790,
+          "availableForCheckout": false,
+          "priceCents": 1790,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-ce2202e9528740a4c723d3d7196662df47e0a03511eca0cdf115080a2cc27275",
+          "label": "Rouge",
+          "indicativePriceCents": 1790,
+          "availableForCheckout": false,
+          "priceCents": 1790,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
         }
       ],
       "shippingStandard": {
@@ -965,7 +2187,8 @@
         }
       },
       "safetyQualified": false,
-      "ageQualified": false
+      "ageQualified": false,
+      "priceCents": 1790
     },
     {
       "id": "mm-p-2f38175ac582b0b7de4cc98b402e5b8afacb2a8843c097698943fe84b32c3ac7",
@@ -975,19 +2198,50 @@
       "legacyCategory": "creativite",
       "currency": "EUR",
       "indicativePriceCents": 590,
-      "priceStatus": "indicatif_a_confirmer",
-      "priceLabel": "5,90 € · prix indicatif",
+      "priceStatus": "fixed",
+      "priceLabel": "5,90 €",
       "priceCustomer": null,
       "purchaseEnabled": false,
       "checkoutEligible": false,
-      "priceValidated": false,
+      "priceValidated": true,
       "priceIncludesShipping": false,
-      "priceNotice": "Prix cible de préparation, non contractuel. Livraison en plus, à confirmer ; achats fermés.",
+      "priceNotice": "Prix de l’article en euros, hors livraison. Les commandes restent fermées.",
       "variants": [
         {
           "id": "mm-v-5f9e7eea07469b48f6890d462b907d0c6df02ed671acdd753b70db46e38ab21c",
           "label": "Modèle : Blue-Nude",
-          "availableForCheckout": false
+          "indicativePriceCents": 590,
+          "availableForCheckout": false,
+          "priceCents": 590,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-c28e06bd4996585ad920293b359c9406e59694e140a29d6b0cc31ef6b75d4264",
+          "label": "Vert · Nude",
+          "indicativePriceCents": 590,
+          "availableForCheckout": false,
+          "priceCents": 590,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-a27a874ca7e77bc0bc6ebf67a5e3932278b1dbb318b01fa1ebc8555cbb384783",
+          "label": "Orange · Nude",
+          "indicativePriceCents": 590,
+          "availableForCheckout": false,
+          "priceCents": 590,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-bfcbcb3d9c2edb7ad8296d1033bd5b4a1cd6872dbae600e622aee259e5f4a3f8",
+          "label": "Tri color · 3PC",
+          "indicativePriceCents": 590,
+          "availableForCheckout": false,
+          "priceCents": 590,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
         }
       ],
       "shippingStandard": {
@@ -1025,7 +2279,8 @@
         }
       },
       "safetyQualified": false,
-      "ageQualified": false
+      "ageQualified": false,
+      "priceCents": 590
     },
     {
       "id": "mm-p-0d6bbc93ab1278d3eba2af5a6874f4887a6b734ef2dd7048fe7a65211db1391e",
@@ -1035,19 +2290,50 @@
       "legacyCategory": "aventure",
       "currency": "EUR",
       "indicativePriceCents": 3090,
-      "priceStatus": "indicatif_a_confirmer",
-      "priceLabel": "30,90 € · prix indicatif",
+      "priceStatus": "fixed",
+      "priceLabel": "30,90 €",
       "priceCustomer": null,
       "purchaseEnabled": false,
       "checkoutEligible": false,
-      "priceValidated": false,
+      "priceValidated": true,
       "priceIncludesShipping": false,
-      "priceNotice": "Prix cible de préparation, non contractuel. Livraison en plus, à confirmer ; achats fermés.",
+      "priceNotice": "Prix de l’article en euros, hors livraison. Les commandes restent fermées.",
       "variants": [
         {
           "id": "mm-v-02e51846da84c6fe88a72a0ab32be9cd804630fcc6c92b38ab616c2582eee0a4",
           "label": "Modèle : Beige",
-          "availableForCheckout": false
+          "indicativePriceCents": 3090,
+          "availableForCheckout": false,
+          "priceCents": 3090,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-8d87b6cd387a473baf4e9ad7760a1ed03fcb47ed48a324e0f84e5ddcec06acfa",
+          "label": "Jaune",
+          "indicativePriceCents": 3090,
+          "availableForCheckout": false,
+          "priceCents": 3090,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-597b8c4f094414075a9b882b80452f6ffc64414da8fccf38a6bbb8290faa1308",
+          "label": "Bleu",
+          "indicativePriceCents": 3090,
+          "availableForCheckout": false,
+          "priceCents": 3090,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-d7e64753855288403991cc31ea3ce706b8c4e9aeb53acc90e289035e771d6c24",
+          "label": "Rose",
+          "indicativePriceCents": 3090,
+          "availableForCheckout": false,
+          "priceCents": 3090,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
         }
       ],
       "shippingStandard": {
@@ -1085,7 +2371,8 @@
         }
       },
       "safetyQualified": false,
-      "ageQualified": false
+      "ageQualified": false,
+      "priceCents": 3090
     },
     {
       "id": "mm-p-c21b8fd2c991af41a57c4d25fc85e980531b5d29726c3ff33034e9f4004366f7",
@@ -1095,19 +2382,23 @@
       "legacyCategory": "creativite",
       "currency": "EUR",
       "indicativePriceCents": 1090,
-      "priceStatus": "indicatif_a_confirmer",
-      "priceLabel": "10,90 € · prix indicatif",
+      "priceStatus": "fixed",
+      "priceLabel": "10,90 €",
       "priceCustomer": null,
       "purchaseEnabled": false,
       "checkoutEligible": false,
-      "priceValidated": false,
+      "priceValidated": true,
       "priceIncludesShipping": false,
-      "priceNotice": "Prix cible de préparation, non contractuel. Livraison en plus, à confirmer ; achats fermés.",
+      "priceNotice": "Prix de l’article en euros, hors livraison. Les commandes restent fermées.",
       "variants": [
         {
           "id": "mm-v-c63204ba5822e694461424c87a185b7cd859d05868a7421fcf52c60f30f8d0f7",
           "label": "Modèle : Picture color",
-          "availableForCheckout": false
+          "indicativePriceCents": 1090,
+          "availableForCheckout": false,
+          "priceCents": 1090,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
         }
       ],
       "shippingStandard": {
@@ -1145,7 +2436,8 @@
         }
       },
       "safetyQualified": false,
-      "ageQualified": false
+      "ageQualified": false,
+      "priceCents": 1090
     },
     {
       "id": "mm-p-372c0e81aeec591e14c83d00006f31a06a77e5123a3024fc700e3cd31385f073",
@@ -1155,19 +2447,32 @@
       "legacyCategory": "creativite",
       "currency": "EUR",
       "indicativePriceCents": 1190,
-      "priceStatus": "indicatif_a_confirmer",
-      "priceLabel": "11,90 € · prix indicatif",
+      "priceStatus": "fixed",
+      "priceLabel": "11,90 €",
       "priceCustomer": null,
       "purchaseEnabled": false,
       "checkoutEligible": false,
-      "priceValidated": false,
+      "priceValidated": true,
       "priceIncludesShipping": false,
-      "priceNotice": "Prix cible de préparation, non contractuel. Livraison en plus, à confirmer ; achats fermés.",
+      "priceNotice": "Prix de l’article en euros, hors livraison. Les commandes restent fermées.",
       "variants": [
         {
           "id": "mm-v-5b437d19a031a2a323e0a1b4c09f8439fdc3c78066bead54c7835e5add717a8d",
           "label": "Modèle : 1 Accumulation Rocket",
-          "availableForCheckout": false
+          "indicativePriceCents": 1190,
+          "availableForCheckout": false,
+          "priceCents": 1190,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-c3415dbb96997e5ef697108ca6b4ec5f1b8847af15ba6e96922e56e9d2412c6b",
+          "label": "2 Stacking Rocket",
+          "indicativePriceCents": 1190,
+          "availableForCheckout": false,
+          "priceCents": 1190,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
         }
       ],
       "shippingStandard": {
@@ -1205,7 +2510,8 @@
         }
       },
       "safetyQualified": false,
-      "ageQualified": false
+      "ageQualified": false,
+      "priceCents": 1190
     },
     {
       "id": "mm-p-090d59841e56c16c833352b9d16f87f21644e4b2b09f2b4508b5307621cfe7d4",
@@ -1215,19 +2521,32 @@
       "legacyCategory": "creativite",
       "currency": "EUR",
       "indicativePriceCents": 2190,
-      "priceStatus": "indicatif_a_confirmer",
-      "priceLabel": "21,90 € · prix indicatif",
+      "priceStatus": "fixed",
+      "priceLabel": "21,90 €",
       "priceCustomer": null,
       "purchaseEnabled": false,
       "checkoutEligible": false,
-      "priceValidated": false,
+      "priceValidated": true,
       "priceIncludesShipping": false,
-      "priceNotice": "Prix cible de préparation, non contractuel. Livraison en plus, à confirmer ; achats fermés.",
+      "priceNotice": "Prix de l’article en euros, hors livraison. Les commandes restent fermées.",
       "variants": [
         {
           "id": "mm-v-8aef1e2e68cd752ba5a5a70a2db27ced920d6a002589551e7b14f732e3393f33",
           "label": "Modèle : Fun Zoo",
-          "availableForCheckout": false
+          "indicativePriceCents": 2190,
+          "availableForCheckout": false,
+          "priceCents": 2190,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-7e82e72156ef897dad3b327be3b8f2662488be756cbd54321f5f178d99a1c0dc",
+          "label": "Cat",
+          "indicativePriceCents": 2190,
+          "availableForCheckout": false,
+          "priceCents": 2190,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
         }
       ],
       "shippingStandard": {
@@ -1265,7 +2584,8 @@
         }
       },
       "safetyQualified": false,
-      "ageQualified": false
+      "ageQualified": false,
+      "priceCents": 2190
     },
     {
       "id": "mm-p-66c510a11b209638abf985bcc519dfc9d66b383871d72b541eaf48c5f3004345",
@@ -1275,19 +2595,68 @@
       "legacyCategory": "quotidien",
       "currency": "EUR",
       "indicativePriceCents": 1390,
-      "priceStatus": "indicatif_a_confirmer",
-      "priceLabel": "13,90 € · prix indicatif",
+      "priceStatus": "fixed",
+      "priceLabel": "13,90 €",
       "priceCustomer": null,
       "purchaseEnabled": false,
       "checkoutEligible": false,
-      "priceValidated": false,
+      "priceValidated": true,
       "priceIncludesShipping": false,
-      "priceNotice": "Prix cible de préparation, non contractuel. Livraison en plus, à confirmer ; achats fermés.",
+      "priceNotice": "Prix de l’article en euros, hors livraison. Les commandes restent fermées.",
       "variants": [
         {
           "id": "mm-v-c5c6940b2d369141e6933cc4a74ee6a5cba2f5b7587dffabc8c3c7505bced8d9",
           "label": "Modèle : Purple-Pencil case",
-          "availableForCheckout": false
+          "indicativePriceCents": 1390,
+          "availableForCheckout": false,
+          "priceCents": 1390,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-213b4c42c69e60d42368ea88aa848ff02c6419ede0552e37d95d0718031b11fc",
+          "label": "Rose · Pencil case",
+          "indicativePriceCents": 1390,
+          "availableForCheckout": false,
+          "priceCents": 1390,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-c64e69047d01f49acb66fa45fcfe7f0fafa78eab02524acd6444b32d4093f5ae",
+          "label": "Bleu ciel · Pencil case",
+          "indicativePriceCents": 1390,
+          "availableForCheckout": false,
+          "priceCents": 1390,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-053e11f788cb0abd28b6f1bf27367a0bc31ce1ccb8516032f941c8fe2751ba47",
+          "label": "Oat rice · Pencil case",
+          "indicativePriceCents": 1390,
+          "availableForCheckout": false,
+          "priceCents": 1390,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-b3e168e609041a96430e24b02cfeada2acf50875928dcb68dd45beb840f2e41d",
+          "label": "Vert menthe · Pencil case",
+          "indicativePriceCents": 1390,
+          "availableForCheckout": false,
+          "priceCents": 1390,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-b700b51a42d9dfd4f2757aad13983b57ea4f8d6d7dba8fab8ff389319dd38f8e",
+          "label": "Bean paste green · Pencil case",
+          "indicativePriceCents": 1390,
+          "availableForCheckout": false,
+          "priceCents": 1390,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
         }
       ],
       "shippingStandard": {
@@ -1325,7 +2694,8 @@
         }
       },
       "safetyQualified": false,
-      "ageQualified": false
+      "ageQualified": false,
+      "priceCents": 1390
     },
     {
       "id": "mm-p-0946c65623867fcdec4b37ba6980148f160f2628f69d604a9d2421d2e5d4d630",
@@ -1335,19 +2705,68 @@
       "legacyCategory": "quotidien",
       "currency": "EUR",
       "indicativePriceCents": 990,
-      "priceStatus": "indicatif_a_confirmer",
-      "priceLabel": "9,90 € · prix indicatif",
+      "priceStatus": "fixed",
+      "priceLabel": "9,90 €",
       "priceCustomer": null,
       "purchaseEnabled": false,
       "checkoutEligible": false,
-      "priceValidated": false,
+      "priceValidated": true,
       "priceIncludesShipping": false,
-      "priceNotice": "Prix cible de préparation, non contractuel. Livraison en plus, à confirmer ; achats fermés.",
+      "priceNotice": "Prix de l’article en euros, hors livraison. Les commandes restent fermées.",
       "variants": [
         {
           "id": "mm-v-14382cf98050eee307f0828b93f408cd5e3b1519755419e9ed7f3db01dacf9e8",
           "label": "Modèle : Purple Candy Donut",
-          "availableForCheckout": false
+          "indicativePriceCents": 990,
+          "availableForCheckout": false,
+          "priceCents": 990,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-56f70a7c80d7a827cb29edd19eea3073f8c458c9f492c893a7ba2d5f19aa7bad",
+          "label": "Pink Candy Donut",
+          "indicativePriceCents": 990,
+          "availableForCheckout": false,
+          "priceCents": 990,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-2a2a191cecd25421d567fe26a3ccd407410bc4cb68458b4fb89fa10e5fe80b2e",
+          "label": "Blue Candy Donut",
+          "indicativePriceCents": 990,
+          "availableForCheckout": false,
+          "priceCents": 990,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-c0e8612fbdfa0a5de2f821d28f2569f976892702b05dd2de035cc07ee35a1984",
+          "label": "Purple Cherry Blossom Donut",
+          "indicativePriceCents": 990,
+          "availableForCheckout": false,
+          "priceCents": 990,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-4935aa64db052063428c33151676df516ac2852f65cc515fc178076197b98d81",
+          "label": "Pink Cherry Blossom Donut",
+          "indicativePriceCents": 990,
+          "availableForCheckout": false,
+          "priceCents": 990,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-5ac8fa0c5343a57c882aae32a9535764ff1f671b9f50990bcf7b551502ae98c0",
+          "label": "Blue Cherry Blossom Donut",
+          "indicativePriceCents": 990,
+          "availableForCheckout": false,
+          "priceCents": 990,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
         }
       ],
       "shippingStandard": {
@@ -1385,7 +2804,8 @@
         }
       },
       "safetyQualified": false,
-      "ageQualified": false
+      "ageQualified": false,
+      "priceCents": 990
     },
     {
       "id": "mm-p-590a9263bb170573e6b3a48b08eb80e02fad9d999085e5fd5d4e60bf8f2e3dae",
@@ -1395,19 +2815,50 @@
       "legacyCategory": "quotidien",
       "currency": "EUR",
       "indicativePriceCents": 1090,
-      "priceStatus": "indicatif_a_confirmer",
-      "priceLabel": "10,90 € · prix indicatif",
+      "priceStatus": "fixed",
+      "priceLabel": "10,90 €",
       "priceCustomer": null,
       "purchaseEnabled": false,
       "checkoutEligible": false,
-      "priceValidated": false,
+      "priceValidated": true,
       "priceIncludesShipping": false,
-      "priceNotice": "Prix cible de préparation, non contractuel. Livraison en plus, à confirmer ; achats fermés.",
+      "priceNotice": "Prix de l’article en euros, hors livraison. Les commandes restent fermées.",
       "variants": [
         {
           "id": "mm-v-5441ea041314ce4aeb07026281e63b49f3ff6dc08c671d4d736ee43917f23c10",
           "label": "Modèle : Green",
-          "availableForCheckout": false
+          "indicativePriceCents": 1090,
+          "availableForCheckout": false,
+          "priceCents": 1090,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-d1f957888a6fd0768cfd4791bc47cda8ba44e999a90ce8efb19ba1563c3587a3",
+          "label": "Bleu",
+          "indicativePriceCents": 1090,
+          "availableForCheckout": false,
+          "priceCents": 1090,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-3a824f3ac2d28e603a7ddbc913f561eebfbd974bd523f764c2ec99757f68d75a",
+          "label": "Beige",
+          "indicativePriceCents": 1090,
+          "availableForCheckout": false,
+          "priceCents": 1090,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-0c7840d3cf4a1625af53c510d03f6cd6b680983244f5a77efb810daf627bae96",
+          "label": "Noir",
+          "indicativePriceCents": 1090,
+          "availableForCheckout": false,
+          "priceCents": 1090,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
         }
       ],
       "shippingStandard": {
@@ -1445,7 +2896,8 @@
         }
       },
       "safetyQualified": false,
-      "ageQualified": false
+      "ageQualified": false,
+      "priceCents": 1090
     },
     {
       "id": "mm-p-88c1178fb21dabd82de1073b3513347226eb6a31f91c8e7bb3aa5e6ffa41810a",
@@ -1455,19 +2907,50 @@
       "legacyCategory": "creativite",
       "currency": "EUR",
       "indicativePriceCents": 1190,
-      "priceStatus": "indicatif_a_confirmer",
-      "priceLabel": "11,90 € · prix indicatif",
+      "priceStatus": "fixed",
+      "priceLabel": "11,90 €",
       "priceCustomer": null,
       "purchaseEnabled": false,
       "checkoutEligible": false,
-      "priceValidated": false,
+      "priceValidated": true,
       "priceIncludesShipping": false,
-      "priceNotice": "Prix cible de préparation, non contractuel. Livraison en plus, à confirmer ; achats fermés.",
+      "priceNotice": "Prix de l’article en euros, hors livraison. Les commandes restent fermées.",
       "variants": [
         {
           "id": "mm-v-fbf382d0a4b0bdb416cbb8c8556ba5b8016161409397c735617d003a9ab3a771",
           "label": "Modèle : Blue Whiteboard",
-          "availableForCheckout": false
+          "indicativePriceCents": 1190,
+          "availableForCheckout": false,
+          "priceCents": 1190,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-51160dd66f155818ddf5014b0bbd2ad0a5a2a8df1003514425bce1ae07eda316",
+          "label": "Pink Whiteboard",
+          "indicativePriceCents": 1190,
+          "availableForCheckout": false,
+          "priceCents": 1190,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-5e14d48394007619cc69e2f8c84d0e6987c3efda5b91ba2a3a80da7359dd98e1",
+          "label": "Green Whiteboard",
+          "indicativePriceCents": 1190,
+          "availableForCheckout": false,
+          "priceCents": 1190,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-22601b941c848e1d8d92c88039d2b430f70b9a4f5f95529e9570da8cdc3c8257",
+          "label": "Purple Whiteboard",
+          "indicativePriceCents": 1190,
+          "availableForCheckout": false,
+          "priceCents": 1190,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
         }
       ],
       "shippingStandard": {
@@ -1505,7 +2988,8 @@
         }
       },
       "safetyQualified": false,
-      "ageQualified": false
+      "ageQualified": false,
+      "priceCents": 1190
     },
     {
       "id": "mm-p-d1d04026b47a3ea576be5755882112f48202c219680036cf97b78c3abd9baa41",
@@ -1515,19 +2999,104 @@
       "legacyCategory": "creativite",
       "currency": "EUR",
       "indicativePriceCents": 1390,
-      "priceStatus": "indicatif_a_confirmer",
-      "priceLabel": "13,90 € · prix indicatif",
+      "priceStatus": "fixed",
+      "priceLabel": "13,90 €",
       "priceCustomer": null,
       "purchaseEnabled": false,
       "checkoutEligible": false,
-      "priceValidated": false,
+      "priceValidated": true,
       "priceIncludesShipping": false,
-      "priceNotice": "Prix cible de préparation, non contractuel. Livraison en plus, à confirmer ; achats fermés.",
+      "priceNotice": "Prix de l’article en euros, hors livraison. Les commandes restent fermées.",
       "variants": [
         {
           "id": "mm-v-217f30f037f8e62d9a94cab2c0edc1b2461e2d39b5ec59f4d2e0d27189072956",
           "label": "Modèle : Pink Animal",
-          "availableForCheckout": false
+          "indicativePriceCents": 1390,
+          "availableForCheckout": false,
+          "priceCents": 1390,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-64e9c1f5eea19071d41cd39e04981009cd9aa3733daff2dbe60def7466028f09",
+          "label": "Pink Car",
+          "indicativePriceCents": 1390,
+          "availableForCheckout": false,
+          "priceCents": 1390,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-c8a796c0ce002b49036459abd68775bfa01e0e0b1fb1346c189027d8a7b8348d",
+          "label": "Red Dinosaur World",
+          "indicativePriceCents": 1390,
+          "availableForCheckout": false,
+          "priceCents": 1390,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-53ea77db34c50dcddff2696880ded95b0df79b4e9d2aba69bc094bda172e641f",
+          "label": "Blue Little Dinosaur",
+          "indicativePriceCents": 1390,
+          "availableForCheckout": false,
+          "priceCents": 1390,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-7fc14c5b6b595fc38cc5c3872ccc7bc8b7c2bc5fc6a3498d14e78740c87b60df",
+          "label": "Blue Bird Style",
+          "indicativePriceCents": 1390,
+          "availableForCheckout": false,
+          "priceCents": 1390,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-d7bbc8256bda8e3d41aa436048c60cddad3cad21811e8cdc736019c4920cd7a7",
+          "label": "Green Dinosaur Style",
+          "indicativePriceCents": 1390,
+          "availableForCheckout": false,
+          "priceCents": 1390,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-96ec96227dec073a503bfdb1fa798da5309dfc92abd0140582a0e1fbd8f674b2",
+          "label": "Cute Bird Style",
+          "indicativePriceCents": 1390,
+          "availableForCheckout": false,
+          "priceCents": 1390,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-0dc0ce66cd4445124985b342836bc1e9b7ba6e6e171356975a315e26894c570e",
+          "label": "Bear Style",
+          "indicativePriceCents": 1390,
+          "availableForCheckout": false,
+          "priceCents": 1390,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-fd3c5630db8e0dae132b5265c45284693ddf5ca5772e81e79ea39ccadbb91af1",
+          "label": "Panda Dinosaur",
+          "indicativePriceCents": 1390,
+          "availableForCheckout": false,
+          "priceCents": 1390,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-3bb6f78342a8fdddcfabc08c9cec3d17d30f16e6dac571b31ebce42cc9711cdb",
+          "label": "Blue Animals 10 Sides",
+          "indicativePriceCents": 1390,
+          "availableForCheckout": false,
+          "priceCents": 1390,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
         }
       ],
       "shippingStandard": {
@@ -1565,7 +3134,8 @@
         }
       },
       "safetyQualified": false,
-      "ageQualified": false
+      "ageQualified": false,
+      "priceCents": 1390
     },
     {
       "id": "mm-p-6e3ed3af67270101e1306ffe56084d6c8d70072f26972bb33aac5ead782acc2f",
@@ -1575,19 +3145,50 @@
       "legacyCategory": "quotidien",
       "currency": "EUR",
       "indicativePriceCents": 2390,
-      "priceStatus": "indicatif_a_confirmer",
-      "priceLabel": "23,90 € · prix indicatif",
+      "priceStatus": "fixed",
+      "priceLabel": "23,90 €",
       "priceCustomer": null,
       "purchaseEnabled": false,
       "checkoutEligible": false,
-      "priceValidated": false,
+      "priceValidated": true,
       "priceIncludesShipping": false,
-      "priceNotice": "Prix cible de préparation, non contractuel. Livraison en plus, à confirmer ; achats fermés.",
+      "priceNotice": "Prix de l’article en euros, hors livraison. Les commandes restent fermées.",
       "variants": [
         {
           "id": "mm-v-b339ac1caacb3f36edf88fcd8f6b8596318dc61d48a2f738ae2bf56c278940c0",
           "label": "Modèle : Light Blue",
-          "availableForCheckout": false
+          "indicativePriceCents": 2390,
+          "availableForCheckout": false,
+          "priceCents": 2390,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-93f613f1f381fc568e32f9f6fd256022977d8a87641859bc03b8c867745be06e",
+          "label": "Rose",
+          "indicativePriceCents": 2390,
+          "availableForCheckout": false,
+          "priceCents": 2390,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-51b72d58ea2469c2eff9eac31606b42bc6dfe272c4c82548f276ba1d45e29320",
+          "label": "Jaune",
+          "indicativePriceCents": 2390,
+          "availableForCheckout": false,
+          "priceCents": 2390,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-5005cf5cff2c42564ca8ff6435004f683b6e286c0c0a2367aa2136644f6ced7f",
+          "label": "Bleu",
+          "indicativePriceCents": 2390,
+          "availableForCheckout": false,
+          "priceCents": 2390,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
         }
       ],
       "shippingStandard": {
@@ -1625,7 +3226,8 @@
         }
       },
       "safetyQualified": false,
-      "ageQualified": false
+      "ageQualified": false,
+      "priceCents": 2390
     },
     {
       "id": "mm-p-8ddea62e164911139031e71eb1d4647181e176bc7968440b0cbc59d4c59b3367",
@@ -1635,19 +3237,77 @@
       "legacyCategory": "quotidien",
       "currency": "EUR",
       "indicativePriceCents": 990,
-      "priceStatus": "indicatif_a_confirmer",
-      "priceLabel": "9,90 € · prix indicatif",
+      "priceStatus": "fixed",
+      "priceLabel": "9,90 €",
       "priceCustomer": null,
       "purchaseEnabled": false,
       "checkoutEligible": false,
-      "priceValidated": false,
+      "priceValidated": true,
       "priceIncludesShipping": false,
-      "priceNotice": "Prix cible de préparation, non contractuel. Livraison en plus, à confirmer ; achats fermés.",
+      "priceNotice": "Prix de l’article en euros, hors livraison. Les commandes restent fermées.",
       "variants": [
         {
           "id": "mm-v-7294c29edcccf42d03ee667e40d29a945761db0e3698bc0b868427f83879b22b",
           "label": "Modèle : Purple",
-          "availableForCheckout": false
+          "indicativePriceCents": 990,
+          "availableForCheckout": false,
+          "priceCents": 990,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-3ddd9d612ba0b76e52f40387006c248762c4a17f4e8c0ced18412b2224aaa0b0",
+          "label": "Rose",
+          "indicativePriceCents": 990,
+          "availableForCheckout": false,
+          "priceCents": 990,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-671dd805ae25f6feadf9482043f6e7d755986c79a7495bfdb9168ac433d11a90",
+          "label": "Marron",
+          "indicativePriceCents": 990,
+          "availableForCheckout": false,
+          "priceCents": 990,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-b578cb683878b9e332c92a3ead73226fc9f35d966d253eba71add916ee19ace2",
+          "label": "Noir",
+          "indicativePriceCents": 990,
+          "availableForCheckout": false,
+          "priceCents": 990,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-e0c6da73b6524a2b6e045bddf049592457bd8e443406f6ceb2df0116dc2d1196",
+          "label": "Bleu",
+          "indicativePriceCents": 990,
+          "availableForCheckout": false,
+          "priceCents": 990,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-3a73946beed2ab30a4e80c11ded5850c139359261800bb74fd74b8adc61ed0ec",
+          "label": "Vert",
+          "indicativePriceCents": 990,
+          "availableForCheckout": false,
+          "priceCents": 990,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-bc693ac2c0b77afd56665817b34ee99f40fc3f7eae9475ffc06cf0f8c0f3fc11",
+          "label": "Blanc",
+          "indicativePriceCents": 990,
+          "availableForCheckout": false,
+          "priceCents": 990,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
         }
       ],
       "shippingStandard": {
@@ -1685,7 +3345,8 @@
         }
       },
       "safetyQualified": false,
-      "ageQualified": false
+      "ageQualified": false,
+      "priceCents": 990
     },
     {
       "id": "mm-p-ea4c1ecbd9b5033435289ccf4fa486cdcdc67df328a902eca44c372abdeb0b25",
@@ -1695,19 +3356,68 @@
       "legacyCategory": "quotidien",
       "currency": "EUR",
       "indicativePriceCents": 890,
-      "priceStatus": "indicatif_a_confirmer",
-      "priceLabel": "8,90 € · prix indicatif",
+      "priceStatus": "fixed",
+      "priceLabel": "8,90 €",
       "priceCustomer": null,
       "purchaseEnabled": false,
       "checkoutEligible": false,
-      "priceValidated": false,
+      "priceValidated": true,
       "priceIncludesShipping": false,
-      "priceNotice": "Prix cible de préparation, non contractuel. Livraison en plus, à confirmer ; achats fermés.",
+      "priceNotice": "Prix de l’article en euros, hors livraison. Les commandes restent fermées.",
       "variants": [
         {
           "id": "mm-v-194c6c21617875c0f7a21ee06b0c9014dd93e64b4e0a472224fe454750250bb8",
           "label": "Modèle : Pink",
-          "availableForCheckout": false
+          "indicativePriceCents": 890,
+          "availableForCheckout": false,
+          "priceCents": 890,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-c59402f7d62f6d9cdf5d1b845a29c9ef0c10a537fb3ac1ef2baaa08344764caf",
+          "label": "Noir",
+          "indicativePriceCents": 890,
+          "availableForCheckout": false,
+          "priceCents": 890,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-b1d5d76cfc68692e9933950a9781a70fb9ddcd85fed55ed34069383b1e3539f1",
+          "label": "Silver Gray",
+          "indicativePriceCents": 890,
+          "availableForCheckout": false,
+          "priceCents": 890,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-f2a4374d25bdd562c92124f1b0b58058cfe9860070e9bf755bc59361c8c2b791",
+          "label": "Jaune",
+          "indicativePriceCents": 890,
+          "availableForCheckout": false,
+          "priceCents": 890,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-646847c5b91963e12c505c24df041c0da05291b5742b8abe9aa0e1885f09498a",
+          "label": "Lake Water Green Color",
+          "indicativePriceCents": 890,
+          "availableForCheckout": false,
+          "priceCents": 890,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        },
+        {
+          "id": "mm-v-d313b56a50e828989fda4e378e836bc786587db067b4c179231173070cbd1960",
+          "label": "Violet",
+          "indicativePriceCents": 890,
+          "availableForCheckout": false,
+          "priceCents": 890,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
         }
       ],
       "shippingStandard": {
@@ -1745,7 +3455,8 @@
         }
       },
       "safetyQualified": false,
-      "ageQualified": false
+      "ageQualified": false,
+      "priceCents": 890
     },
     {
       "id": "mm-p-13913e34a4a36153d8285a15a5c6113ad2f8453fffb4ead91245c644f3cbaac3",
@@ -1755,19 +3466,23 @@
       "legacyCategory": "quotidien",
       "currency": "EUR",
       "indicativePriceCents": 1290,
-      "priceStatus": "indicatif_a_confirmer",
-      "priceLabel": "12,90 € · prix indicatif",
+      "priceStatus": "fixed",
+      "priceLabel": "12,90 €",
       "priceCustomer": null,
       "purchaseEnabled": false,
       "checkoutEligible": false,
-      "priceValidated": false,
+      "priceValidated": true,
       "priceIncludesShipping": false,
-      "priceNotice": "Prix cible de préparation, non contractuel. Livraison en plus, à confirmer ; achats fermés.",
+      "priceNotice": "Prix de l’article en euros, hors livraison. Les commandes restent fermées.",
       "variants": [
         {
           "id": "mm-v-4316be8785e822cf0d1835c0f05e11d1cec98fb50de143a3eeaba072b83cf299",
           "label": "Rose — motif lapin",
-          "availableForCheckout": false
+          "indicativePriceCents": 1290,
+          "availableForCheckout": false,
+          "priceCents": 1290,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
         }
       ],
       "shippingStandard": {
@@ -1805,7 +3520,73 @@
         }
       },
       "safetyQualified": false,
-      "ageQualified": false
+      "ageQualified": false,
+      "priceCents": 1290
+    },
+    {
+      "id": "mm-p-fb6a8bbf82368b3a6832ebe570fc800614b18daf721d04d8670dee675fbfb453",
+      "name": "Satellite solaire en bois à assembler",
+      "category": "eveil-construction",
+      "categoryLabel": "Éveil & construction",
+      "legacyCategory": "creativite",
+      "currency": "EUR",
+      "indicativePriceCents": 490,
+      "priceStatus": "fixed",
+      "priceLabel": "4,90 €",
+      "priceCustomer": null,
+      "purchaseEnabled": false,
+      "checkoutEligible": false,
+      "priceValidated": true,
+      "priceIncludesShipping": false,
+      "priceNotice": "Prix de l’article en euros, hors livraison. Les commandes restent fermées.",
+      "variants": [
+        {
+          "id": "mm-v-3de2108e27bad22718efccbbb63be058dbb1f473266560f28c86015c42002136",
+          "label": "Satellite à assembler",
+          "indicativePriceCents": 490,
+          "availableForCheckout": false,
+          "priceCents": 490,
+          "priceStatus": "fixed",
+          "priceIncludesShipping": false
+        }
+      ],
+      "shippingStandard": {
+        "FR": {
+          "mode": "home",
+          "service": "standard",
+          "label": "Livraison standard à domicile",
+          "availableForPreview": false,
+          "qualifiedForCheckout": false,
+          "quoteAvailable": false,
+          "indicativeCents": null,
+          "priceCents": null,
+          "priceStatus": "tarif_a_confirmer",
+          "priceLabel": "Livraison à confirmer",
+          "etaBusinessDays": null,
+          "etaLabel": "Délai à confirmer avant ouverture",
+          "trackingIncluded": null,
+          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur."
+        },
+        "BE": {
+          "mode": "home",
+          "service": "standard",
+          "label": "Livraison standard à domicile",
+          "availableForPreview": false,
+          "qualifiedForCheckout": false,
+          "quoteAvailable": false,
+          "indicativeCents": null,
+          "priceCents": null,
+          "priceStatus": "tarif_a_confirmer",
+          "priceLabel": "Livraison à confirmer",
+          "etaBusinessDays": null,
+          "etaLabel": "Délai à confirmer avant ouverture",
+          "trackingIncluded": null,
+          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur."
+        }
+      },
+      "safetyQualified": false,
+      "ageQualified": false,
+      "priceCents": 490
     }
   ],
   "categories": [
@@ -1817,7 +3598,7 @@
     {
       "id": "eveil-construction",
       "label": "Éveil & construction",
-      "count": 3
+      "count": 4
     },
     {
       "id": "loisirs-creatifs",
@@ -1870,5 +3651,6 @@
       "message": "Point relais à l’étude : aucun prestataire ni point de retrait qualifié."
     }
   },
-  "notice": "Tarifs indicatifs de préparation : aucun paiement possible, frais et disponibilité à confirmer avant ouverture."
+  "notice": "Prix des articles fixes en euros, hors livraison. Livraison à confirmer ; les commandes restent fermées.",
+  "priceGridSHA256": "bde0c64981262081ac9814a214d4fd60b8c9a2e608887a48bea5a6e97f5d45ce"
 }

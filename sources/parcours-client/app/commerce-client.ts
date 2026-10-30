@@ -4,7 +4,7 @@ export const API_ORIGIN = 'https://mirlipousse-boutique.yellowghost64.chatgpt.si
 export type Item = {id:string;variantId:string;quantity:number};
 export type DeliveryMode = 'home'|'pickup';
 export type RegulatoryInfo = {manufacturer:string;responsibleEU:string;warnings:string;ageLabel:string|null};
-export type Variant = {id:string;label:string;image?:string;imageAlt?:string;indicativePriceCents?:number|null;availableForCheckout:boolean;regulatory?:RegulatoryInfo|null};
+export type Variant = {id:string;label:string;image?:string;imageAlt?:string;priceCents:number;priceStatus:'fixed';priceIncludesShipping:false;indicativePriceCents?:number|null;availableForCheckout:boolean;regulatory?:RegulatoryInfo|null};
 export type RemoteCatalogue = {salesEnabled:boolean;products:{id:string;variants:Variant[]}[];deliveryMethods:{mode:DeliveryMode;service:'standard';countries:string[];availableForPreview:boolean;qualifiedForCheckout:boolean;reason?:string}[]};
 export type Pickup = {id:string;provider:string;name:string;addressLine1:string;postalCode:string;city:string;country:string};
 export type Quote = {ok:true;salesEnabled:boolean;previewOnly:boolean;canPrepareCheckout?:boolean;country:string;currency:'EUR';subtotalIndicativeCents:number|null;shippingIndicativeCents:number|null;totalIndicativeCents:number|null;delivery:{mode:DeliveryMode;service:'standard';qualifiedForCheckout:boolean;availableForPreview:boolean;etaBusinessDays?:number[]|null};blockers?:string[]};
@@ -44,7 +44,7 @@ export function readCatalogue(value:any):RemoteCatalogue{
    for(const v of p.variants){
     if(!object(v)||!text(v.id)||publicVariantId(v.id)!==v.id||variantIds.has(v.id)||!text(v.label)||typeof v.availableForCheckout!=='boolean'
      ||v.image!==undefined&&(typeof v.image!=='string'||!/^\/media\/variantes\/image-[a-f0-9]{24}\.(?:jpg|png|webp|gif)$/.test(v.image))
-     ||v.imageAlt!==undefined&&!text(v.imageAlt,500)||v.indicativePriceCents!==undefined&&!money(v.indicativePriceCents))throw new CommerceError('INVALID_RESPONSE');variantIds.add(v.id);
+     ||v.imageAlt!==undefined&&!text(v.imageAlt,500)||!Number.isSafeInteger(v.priceCents)||v.priceCents<1||v.priceCents>200000||v.priceStatus!=='fixed'||v.priceIncludesShipping!==false||v.indicativePriceCents!==undefined&&v.indicativePriceCents!==v.priceCents)throw new CommerceError('INVALID_RESPONSE');variantIds.add(v.id);
     if(v.regulatory!==undefined&&v.regulatory!==null&&(!object(v.regulatory)||!text(v.regulatory.manufacturer,500)||!text(v.regulatory.responsibleEU,500)
      ||!text(v.regulatory.warnings,1000)||v.regulatory.ageLabel!==null&&!text(v.regulatory.ageLabel,120)))throw new CommerceError('INVALID_RESPONSE');
    }
@@ -55,7 +55,7 @@ export function readCatalogue(value:any):RemoteCatalogue{
 export function readQuote(value:any,country:string,mode:DeliveryMode,items?:Item[]):Quote{
   if(!object(value)||value.ok!==true||typeof value.salesEnabled!=='boolean'||typeof value.previewOnly!=='boolean'||value.country!==country||value.currency!=='EUR'||!['subtotalIndicativeCents','shippingIndicativeCents','totalIndicativeCents'].every(k=>money(value[k]))||!object(value.delivery)||value.delivery.mode!==mode||value.delivery.service!=='standard'||typeof value.delivery.qualifiedForCheckout!=='boolean'||typeof value.delivery.availableForPreview!=='boolean')throw new CommerceError('INVALID_RESPONSE');
   if(value.canPrepareCheckout!==undefined&&typeof value.canPrepareCheckout!=='boolean')throw new CommerceError('INVALID_RESPONSE');
-  if(items){if(!Array.isArray(value.items)||value.items.length!==items.length)throw new CommerceError('INVALID_RESPONSE');const wanted=new Map(items.map(i=>[i.id+'|'+i.variantId,i.quantity])),seen=new Set<string>();if(wanted.size!==items.length)throw new CommerceError('INVALID_RESPONSE');for(const line of value.items){const key=object(line)?line.id+'|'+line.variantId:'';if(!object(line)||seen.has(key)||wanted.get(key)!==line.quantity||!money(line.unitIndicativeCents)||!money(line.lineIndicativeCents)||line.lineIndicativeCents!==(line.unitIndicativeCents===null?null:line.unitIndicativeCents*line.quantity))throw new CommerceError('INVALID_RESPONSE');seen.add(key);}}
+  if(items){if(!Array.isArray(value.items)||value.items.length!==items.length)throw new CommerceError('INVALID_RESPONSE');const wanted=new Map(items.map(i=>[i.id+'|'+i.variantId,i.quantity])),seen=new Set<string>();if(wanted.size!==items.length)throw new CommerceError('INVALID_RESPONSE');for(const line of value.items){const key=object(line)?line.id+'|'+line.variantId:'';if(!object(line)||seen.has(key)||wanted.get(key)!==line.quantity||!money(line.unitIndicativeCents)||!money(line.lineIndicativeCents)||line.lineIndicativeCents!==(line.unitIndicativeCents===null?null:line.unitIndicativeCents*line.quantity))throw new CommerceError('INVALID_RESPONSE');if(line.unitPriceCents!==undefined&&(line.unitPriceCents!==line.unitIndicativeCents||line.linePriceCents!==line.lineIndicativeCents))throw new CommerceError('INVALID_RESPONSE');seen.add(key);}}
   return value as unknown as Quote;
 }
 /** L’admission du formulaire n’est pas un devis final et n’autorise aucun paiement. */

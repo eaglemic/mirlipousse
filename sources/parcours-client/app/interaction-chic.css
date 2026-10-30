@@ -1,0 +1,17 @@
+/* Interactions sobres : les actions restent immédiates. */
+.button,.icon-button,.product-like,.quick-add,.age-card,.category-tabs button,.model-option,.product-models-badge{transition:transform 180ms cubic-bezier(.2,.8,.2,1),box-shadow 220ms ease,border-color 180ms ease,background-color 180ms ease}
+.button{box-shadow:0 3px 10px #293e2710,inset 0 1px 0 #ffffff25}
+.button:disabled,.icon-button:disabled,.quick-add:disabled{transform:none;box-shadow:none}
+.age-card[aria-pressed=true]{box-shadow:0 0 0 2px #5b735438,0 7px 22px #4f69451c,inset 0 1px 0 #ffffffa0}
+.category-tabs button[aria-pressed=true]{box-shadow:0 3px 13px #526e3821,inset 0 1px 0 #ffffff85}
+.model-option[aria-pressed=true]{background:linear-gradient(140deg,#f7f9ef,#eaf0e2);box-shadow:inset 0 0 0 1px #416b48,0 0 0 3px #6b875218,0 5px 15px #416b4814}
+.button:focus-visible,.icon-button:focus-visible,.age-card:focus-visible,.category-tabs button:focus-visible,.model-option:focus-visible,.product-models-badge:focus-visible,.quick-add:focus-visible,.product-like:focus-visible{outline:2px solid #386348;outline-offset:4px}
+.button:not(:disabled):active,.icon-button:not(:disabled):active,.product-like:active,.quick-add:not(:disabled):active,.age-card:active,.category-tabs button:active,.model-option:active,.product-models-badge:active{transform:translateY(0) scale(.985);transition-duration:90ms}
+@media(hover:hover) and (pointer:fine){
+ .button:not(:disabled):hover,.icon-button:not(:disabled):hover{transform:translateY(-2px);box-shadow:0 8px 22px #263e2721,inset 0 1px 0 #ffffff45}
+ .age-card:hover,.model-option:hover{transform:translateY(-2px);box-shadow:0 8px 22px #526d3e1c}
+ .age-card[aria-pressed=true]:hover,.model-option[aria-pressed=true]:hover{box-shadow:0 0 0 3px #6b875221,0 9px 23px #416b4820}
+ .category-tabs button:hover,.product-models-badge:hover{transform:translateY(-1px);box-shadow:0 4px 15px #526d3e20}
+ .product-like:hover,.quick-add:hover{transform:scale(1.05);box-shadow:0 5px 16px #263e2725}
+}
+@media(prefers-reduced-motion:reduce){.button,.icon-button,.product-like,.quick-add,.age-card,.category-tabs button,.model-option,.product-models-badge{animation:none!important;transition:none!important;transform:none!important}}

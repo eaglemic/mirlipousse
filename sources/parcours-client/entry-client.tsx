@@ -12,3 +12,4 @@ import "./app/commerce.css";
 import "./app/ages.css";
 
 import "./app/brand.css";
+import "./app/interaction-chic.css";

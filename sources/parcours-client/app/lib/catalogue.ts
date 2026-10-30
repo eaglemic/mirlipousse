@@ -4,9 +4,9 @@ import variantCatalogue from "./variants-public.json";
 import ageEvidence from "./age-evidence-public.json";
 import {readAgeEvidence,type AgeCoverage} from "../age-groups";
 import {isCatalogueExcluded} from "../catalogue-exclusions";
-export type ProductVariant={id:string;label:string;image?:string;imageAlt?:string;indicativePriceCents?:number|null;availableForCheckout:boolean};
-export type Product = {ageKnown?:boolean;ageGroups?:string[];ageGroupCoverage?:AgeCoverage[];ageSource?:string;ageEvidenceStatus?:string;indicativePriceCents?:number|null;priceStatus?:string;priceLabel?:string;catalogueCategory?:string;catalogueCategoryLabel?:string;variants?:ProductVariant[];id:string; name:string; subtitle:string; category:'eveil'|'creativite'|'aventure'|'quotidien'; age:'0-2'|'3-5'|'6-8'|'9-12'|null; ageLabel:string; priceCents:null; image:string; color:string; description:string; details:string[]; demo:false; defaultVariantId:string;};
-const baseProducts: Product[] = [
+export type ProductVariant={id:string;label:string;image?:string;imageAlt?:string;priceCents:number;priceStatus:"fixed";priceIncludesShipping:false;indicativePriceCents?:number|null;availableForCheckout:boolean};
+export type Product = {ageKnown?:boolean;ageGroups?:string[];ageGroupCoverage?:AgeCoverage[];ageSource?:string;ageEvidenceStatus?:string;indicativePriceCents?:number|null;priceStatus?:string;priceLabel?:string;catalogueCategory?:string;catalogueCategoryLabel?:string;variants?:ProductVariant[];id:string; name:string; subtitle:string; category:'eveil'|'creativite'|'aventure'|'quotidien'; age:'0-2'|'3-5'|'6-8'|'9-12'|null; ageLabel:string; priceCents:number; priceIncludesShipping?:false; image:string; color:string; description:string; details:string[]; demo:false; defaultVariantId:string;};
+const baseProducts: (Omit<Product,"priceCents">&{priceCents:null})[] = [
   {
     "id": "mm-p-823e50754eaf2e54744e3eb4ba764152e87c19283266142e89d337ec6a1b2b84",
     "name": "Kit de fouille de pierres et gemmes",
@@ -510,10 +510,28 @@ const baseProducts: Product[] = [
     ],
     "demo": false,
     "defaultVariantId": "mm-v-4316be8785e822cf0d1835c0f05e11d1cec98fb50de143a3eeaba072b83cf299"
+  },
+  {
+    "id": "mm-p-fb6a8bbf82368b3a6832ebe570fc800614b18daf721d04d8670dee675fbfb453",
+    "name": "Satellite solaire en bois à assembler",
+    "subtitle": "Créer & imaginer",
+    "category": "creativite",
+    "age": null,
+    "ageLabel": "",
+    "priceCents": null,
+    "image": "/media/variantes/image-983071268dc9dd4c72c39b46.jpg",
+    "color": "#f4f2ed",
+    "description": "Un modèle de satellite à assembler, avec des pièces en bois et des éléments électriques selon la fiche article. Le kit est proposé non assemblé.",
+    "details": [
+      "Matières annoncées : bois et métal.",
+      "Modèle à assembler soi-même ; éléments électriques et contenu exact à confirmer avant la vente."
+    ],
+    "demo": false,
+    "defaultVariantId": "mm-v-3de2108e27bad22718efccbbb63be058dbb1f473266560f28c86015c42002136"
   }
 ];
 
 const variantProducts=new Map(variantCatalogue.products.map(p=>[p.id,p]));
 const prices = new Map<string, any>(pricing.products.map((p:any)=>[p.id,p]));
 const ages = readAgeEvidence(ageEvidence);
-export const products:Product[] = baseProducts.filter(p=>!isCatalogueExcluded(p)).map(p=>{const v=prices.get(p.id);const a=ages.get(p.id);if(!a||a.variantId!==p.defaultVariantId)throw Error("AGE_PRODUCT_MISMATCH");return {...p,ageKnown:a.ageKnown,ageGroups:a.ageGroups,ageGroupCoverage:a.ageGroupCoverage,ageLabel:a.ageLabel==="Âge non renseigné"?"":a.ageLabel.split(" · ")[0],ageSource:a.ageSource,ageEvidenceStatus:a.qualificationStatus,details:p.details,indicativePriceCents:v?.indicativePriceCents??null,priceStatus:v?.priceStatus||"tarif_a_confirmer",priceLabel:v?.priceLabel||"Tarif à confirmer",catalogueCategory:v?.category||p.category,catalogueCategoryLabel:v?.categoryLabel||p.subtitle,variants:(variantProducts.get(p.id)?.variants||v?.variants||[]).map((x:any)=>({...x,indicativePriceCents:x.id===p.defaultVariantId?(v?.indicativePriceCents??null):null,availableForCheckout:false}))};});
+export const products:Product[] = baseProducts.filter(p=>!isCatalogueExcluded(p)).map(p=>{const v=prices.get(p.id);if(!v||!Number.isSafeInteger(v.priceCents)||v.priceCents<1||v.priceStatus!=="fixed")throw Error("PRICE_PRODUCT_MISMATCH");const a=ages.get(p.id);if(!a||a.variantId!==p.defaultVariantId)throw Error("AGE_PRODUCT_MISMATCH");return {...p,ageKnown:a.ageKnown,ageGroups:a.ageGroups,ageGroupCoverage:a.ageGroupCoverage,ageLabel:a.ageLabel==="Âge non renseigné"?"":a.ageLabel.split(" · ")[0],ageSource:a.ageSource,ageEvidenceStatus:a.qualificationStatus,details:p.details,priceCents:v.priceCents,priceIncludesShipping:false,indicativePriceCents:v.priceCents,priceStatus:"fixed",priceLabel:v.priceLabel,catalogueCategory:v?.category||p.category,catalogueCategoryLabel:v?.categoryLabel||p.subtitle,variants:(variantProducts.get(p.id)?.variants||v?.variants||[]).map((x:any)=>{if(!Number.isSafeInteger(x.priceCents)||x.priceCents<1||x.priceStatus!=="fixed")throw Error("PRICE_VARIANT_MISMATCH");return {...x,indicativePriceCents:x.priceCents,availableForCheckout:false}})};});
