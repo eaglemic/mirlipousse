@@ -168,5 +168,25 @@ export function beginAttempt():Attempt{
   try{const active=localStorage.getItem(STORE+'.active');if(active){const saved=attempts().find(a=>a.orderToken===active);if(saved)return saved;throw new CommerceError('STORAGE_UNAVAILABLE');}const next=newAttempt();localStorage.setItem(STORE+'.active',next.orderToken);if(localStorage.getItem(STORE+'.active')!==next.orderToken)throw new CommerceError('STORAGE_UNAVAILABLE');return next;}catch(error){if(error instanceof CommerceError)throw error;throw new CommerceError('STORAGE_UNAVAILABLE');}
 }
 export function finishAttempt(orderToken:string){try{if(localStorage.getItem(STORE+'.active')===orderToken)localStorage.removeItem(STORE+'.active');}catch{/* Les accès historiques restent conservés. */}}
-export function validAccess(orderToken:string,accessToken:string):boolean{return UUID.test(orderToken)&&TOKEN.test(accessToken);}
+export function validAccess(orderToken:string,accessToken:string):boolean{return typeof orderToken==='string'&&typeof accessToken==='string'&&UUID.test(orderToken)&&TOKEN.test(accessToken);}
+/** La saisie ou l’import seul ne modifie jamais les accès déjà conservés. */
+export async function restorePrivateAccess(orderToken:string,accessToken:string):Promise<{order:Order;accessSaved:boolean}>{
+ if(!validAccess(orderToken,accessToken))throw new CommerceError('ORDER_NOT_FOUND');
+ const order=readOrder(await api('/api/commandes/suivi?orderToken='+encodeURIComponent(orderToken),undefined,accessToken),orderToken);
+ let previous:string|null=null,written=false;
+ try{
+  previous=localStorage.getItem(STORE);
+  const saved=attempts().map(({orderToken,accessToken,createdAt})=>({orderToken,accessToken,createdAt}));
+  const existing=saved.find(attempt=>attempt.orderToken===orderToken);
+  if(existing?.accessToken===accessToken)return {order,accessSaved:true};
+  const attempt={orderToken,accessToken,createdAt:existing?.createdAt||new Date().toISOString()};
+  const next=JSON.stringify([...saved.filter(item=>item.orderToken!==orderToken),attempt].slice(-20));
+  localStorage.setItem(STORE,next);written=true;
+  if(localStorage.getItem(STORE)!==next)throw Error();
+ }catch{
+  if(written)try{if(previous===null)localStorage.removeItem(STORE);else localStorage.setItem(STORE,previous)}catch{/* Le stockage reste indisponible ; le fichier privé permet une nouvelle reprise. */}
+  return {order,accessSaved:false};
+ }
+ return {order,accessSaved:true};
+}
 export const orderLabels:Record<string,string>={prepared:'Préparation en cours',submitting:'Vérification en cours',pending:'Paiement en attente',uncertain:'Réponse à vérifier',review:'Vérification par le service client',paid:'Paiement confirmé côté serveur',failed:'Paiement non abouti',expired:'Tentative expirée',cancellation_requested:'Annulation demandée, en attente de confirmation',cancelled:'Annulation confirmée'};
