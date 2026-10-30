@@ -1,6 +1,7 @@
 """Générer les documents publics et raccorder leurs liens, sans activer les ventes."""
 from pathlib import Path
 from html import escape
+from html.parser import HTMLParser
 import json
 import re
 
@@ -36,9 +37,41 @@ TEMPLATE = (PUBLIC / 'contact/index.html').read_text()
 header = TEMPLATE.split('<body>', 1)[1].split('<main', 1)[0]
 footer_match = re.search(r'<footer\b[^>]*class="editorial-footer"[^>]*>[\s\S]*?</footer>', TEMPLATE)
 assert footer_match, 'FOOTER_EDITORIAL_ABSENT'
-footer = footer_match[0]
-footer = re.sub(r'<nav\b[^>]*>[\s\S]*?</nav>', '', footer)
-footer = footer.replace('<small>', '<nav aria-label="Découvrir la boutique"><a href="/guides/">Le carnet d’idées</a><a href="/medias/">Médias</a></nav>' + NAV + '<small>', 1)
+class FooterNavigationPoint(HTMLParser):
+    """Trouver le statut directement sous le footer, hors du lien de marque."""
+    VOID = {'area', 'base', 'br', 'col', 'embed', 'hr', 'img', 'input',
+            'link', 'meta', 'param', 'source', 'track', 'wbr'}
+
+    def __init__(self, source):
+        super().__init__()
+        self.lines = source.splitlines(keepends=True)
+        self.parents = []
+        self.positions = []
+
+    def handle_starttag(self, tag, attrs):
+        if tag == 'small' and self.parents == ['footer']:
+            line, column = self.getpos()
+            self.positions.append(sum(len(part) for part in self.lines[:line - 1]) + column)
+        if tag not in self.VOID:
+            self.parents.append(tag)
+
+    def handle_endtag(self, tag):
+        if tag in self.VOID:
+            return
+        assert self.parents and self.parents[-1] == tag, 'FOOTER_EDITORIAL_MAL_FORME'
+        self.parents.pop()
+
+def footer_with_navigation(source):
+    # Le wordmark possède aussi un <small> : ses descendants restent dans le
+    # lien de marque. Les navigations doivent être des enfants directs du footer.
+    source = re.sub(r'<nav\b[^>]*>[\s\S]*?</nav>', '', source)
+    insertion = FooterNavigationPoint(source)
+    insertion.feed(source)
+    assert not insertion.parents and len(insertion.positions) == 1, 'STATUT_FOOTER_EDITORIAL_ABSENT_OU_MULTIPLE'
+    position = insertion.positions[0]
+    return source[:position] + '<nav aria-label="Découvrir la boutique"><a href="/guides/">Le carnet d’idées</a><a href="/medias/">Médias</a></nav>' + NAV + source[position:]
+
+footer = footer_with_navigation(footer_match[0])
 styles = []
 for link in re.findall(r'<link\b[^>]*>', TEMPLATE.split('</head>', 1)[0]):
     if 'rel="stylesheet"' in link and '/legal.css' not in link:
@@ -116,7 +149,7 @@ for f in PUBLIC.rglob('*.html'):
     if '<footer' not in html:
         continue
     if 'class="editorial-footer"' in html:
-        html = re.sub(r'<footer\b[^>]*class="editorial-footer"[^>]*>[\s\S]*?</footer>', lambda _: footer, html)
+        html = re.sub(r'<footer\b[^>]*class="editorial-footer"[^>]*>[\s\S]*?</footer>', lambda match: footer_with_navigation(match[0]), html)
     elif 'class="legal-footer-nav"' not in html:
         html = html.replace('</footer>', NAV + '</footer>')
     if '/legal.css' not in html:
