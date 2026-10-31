@@ -1,6 +1,6 @@
 {
   "format": "mirlipousse-ages-public/1",
-  "dateUTC": "2026-10-28T19:04:22.329853+00:00",
+  "dateUTC": "2026-10-31T14:30:37Z",
   "policy": {
     "sourceDeclaredAgeIsSafetyCertification": false,
     "groupRule": "intersection_integer_age_not_whole_band_qualification",
@@ -19,7 +19,7 @@
     "3-5": 4,
     "6-8": 6,
     "9-12": 3,
-    "age-inconnu": 25
+    "age-inconnu": 24
   },
   "products": [
     {
@@ -189,24 +189,6 @@
       "purchaseEnabled": false,
       "checkoutEligible": false,
       "variantId": "mm-v-b16226bee645d7bd177d713f2b78cba9a85dc55de4d7b021e8a9cebb5c833c46",
-      "ageEvidenceAvailable": false
-    },
-    {
-      "id": "mm-p-3a2083c3a6856ddc2b8801a954374a70948305d8029d14519e759db405de9b21",
-      "name": "Pull enfant à motif brodé",
-      "ageKnown": false,
-      "ageMinYears": null,
-      "ageMaxYears": null,
-      "qualificationStatus": "not_documented",
-      "ageLabel": "Âge non renseigné",
-      "ageGroups": [],
-      "ageGroupCoverage": [],
-      "ageQualified": false,
-      "safetyQualified": false,
-      "ageSource": "",
-      "purchaseEnabled": false,
-      "checkoutEligible": false,
-      "variantId": "mm-v-e14cc52b4bac899f4a39ab2ed55601f8f57bbb0f8ca81276afa65e04b6d5df3e",
       "ageEvidenceAvailable": false
     },
     {

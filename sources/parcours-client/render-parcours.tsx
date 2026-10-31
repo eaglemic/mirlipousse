@@ -8,6 +8,7 @@ import OrderStatus from './app/order-status';
 import {products} from './app/lib/catalogue';
 import {AGE_GROUPS,matchesAge,ageCoverageLabel} from './app/age-groups';
 import {euros} from './app/commerce-client';
+import {isCatalogueExcluded} from './app/catalogue-exclusions';
 const ROOT=path.resolve(new URL('..',import.meta.url).pathname),BASE=process.argv[2]?path.resolve(process.argv[2]):path.join(ROOT,'base/public'),OUT=process.argv[3]?path.resolve(process.argv[3]):path.join(ROOT,'candidat/public');
 if(BASE===OUT)throw Error('BASE_ET_SORTIE_DISTINCTES_REQUISES');
 const build=JSON.parse(await readFile(new URL('./dist-catalogue/.vite/manifest.json',import.meta.url),'utf8'));const entry=build['entry-client.tsx'];if(!entry?.isEntry||!/^assets\/catalogue-[A-Za-z0-9_-]+\.js$/.test(entry.file))throw Error('ENTREE_BUILD_INVALIDE');
@@ -56,8 +57,10 @@ for(const directory of process.argv.includes('--app-only')?[]:await readdir(path
  if(ageDirectories.has(directory))continue;
  const relative='collections/'+directory+'/index.html';const current=await readFile(path.join(BASE,relative),'utf8');
  const html=current.replace(/<article\b[\s\S]*?<\/article>/g,article=>{
-  const match=article.match(/[?&]produit=([^&#"]+)/);if(!match)return article;
-  const product=products.find(p=>p.id===decodeURIComponent(match[1]));if(!product)return article;
+  const match=article.match(/data-product-id=["']([^"']+)["']/)||article.match(/[?&]produit=([^&#"]+)/);if(!match)return article;
+  let id:string;try{id=decodeURIComponent(match[1]);}catch{return article;}
+  if(isCatalogueExcluded(id))return '';
+  const product=products.find(p=>p.id===id);if(!product)return article;
   let changed=article.replace(/<p class="concept-label">[\s\S]*?<\/p>/,'<p class="concept-label">'+euros(product.priceCents)+' · hors livraison</p>');
   if(!product.ageLabel)changed=changed.replace(/<span class="age-badge">[^<]*<\/span>/,'');
   else changed=changed.replace(/<span class="age-badge">[^<]*<\/span>/,'<span class="age-badge">'+product.ageLabel.split(' · ')[0]+'</span>');

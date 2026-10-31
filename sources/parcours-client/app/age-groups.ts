@@ -4,7 +4,7 @@ export type AgeCoverage={group:string;coveredIntegerAges:number[];fullBandCovere
 export type AgeEvidence={id:string;variantId:string;ageKnown:boolean;ageLabel:string;ageGroups:string[];ageGroupCoverage:AgeCoverage[];ageSource:string;ageEvidenceAvailable:boolean;qualificationStatus:string};
 export type AgeAnnotated={ageKnown?:boolean;ageGroups?:string[];ageGroupCoverage?:AgeCoverage[]};
 export function readAgeEvidence(value:any):Map<string,AgeEvidence>{
- if(value?.format!=='mirlipousse-ages-public/1'||!Array.isArray(value.products)||value.products.length!==31)throw Error('AGE_EVIDENCE_INVALID');
+ if(value?.format!=='mirlipousse-ages-public/1'||!Array.isArray(value.products)||value.products.length!==30)throw Error('AGE_EVIDENCE_INVALID');
  const result=new Map<string,AgeEvidence>();const groups=new Set<string>(AGE_GROUPS.map(g=>g.id));
  const publicFields=new Set(['id','name','ageKnown','ageMinYears','ageMaxYears','qualificationStatus','ageLabel','ageGroups','ageGroupCoverage','ageQualified','safetyQualified','ageSource','purchaseEnabled','checkoutEligible','variantId','ageEvidenceAvailable']);
  for(const item of value.products){

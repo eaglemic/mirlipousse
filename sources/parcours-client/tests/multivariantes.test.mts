@@ -8,9 +8,9 @@ import {readCatalogue,readQuote,canPrepareCheckout,CommerceError} from '../app/c
 const bag=products.find(p=>p.name==='Sac à dos léger à motif pour enfant')!;
 const [first,second]=bag.variants!;
 const publicCatalogue=()=>({ok:true,brand:'mirlipousse',salesEnabled:false,products:products.map(p=>({id:p.id,variants:p.variants})),deliveryMethods:[{mode:'home',service:'standard',countries:['FR','BE'],availableForPreview:true,qualifiedForCheckout:false}]});
-test('31 produits uniques,205 variantes imbriquées et5 vrais coloris du sac',()=>{
- assert.equal(products.length,31);assert.equal(new Set(products.map(p=>p.id)).size,31);
- assert.equal(products.reduce((n,p)=>n+p.variants!.length,0),205);
+test('30 produits uniques,199 variantes imbriquées et5 vrais coloris du sac',()=>{
+ assert.equal(products.length,30);assert.equal(new Set(products.map(p=>p.id)).size,30);
+ assert.equal(products.reduce((n,p)=>n+p.variants!.length,0),199);
  assert.equal(bag.variants!.length,5);assert.equal(new Set(bag.variants!.map(v=>v.image)).size,5);
  for(const p of products){assert(p.variants!.some(v=>v.id===p.defaultVariantId));for(const v of p.variants!){assert.match(v.id,/^mm-v-[a-f0-9]{64}$/);assert.match(v.image!,/^\/media\/variantes\/image-[a-f0-9]{24}\.(jpg|png)$/);assert.equal(v.availableForCheckout,false);}}
 });
@@ -39,7 +39,7 @@ test('Ajouts répétés et rapides gardent10 unités et20 lignes sans changer de
  assert.equal(addTrialLine([],bag,first.id,20).length,0);
 });
 test('Catalogue distant valide les options opaques sans doubler produit ou variante',()=>{
- assert.equal(readCatalogue(publicCatalogue()).products.length,31);
+ assert.equal(readCatalogue(publicCatalogue()).products.length,30);
  for(const transform of [
   (x:any)=>x.products.push(x.products[0]),
   (x:any)=>x.products[0].variants.push(x.products[0].variants[0]),

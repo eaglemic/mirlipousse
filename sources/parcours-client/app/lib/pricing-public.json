@@ -1,6 +1,6 @@
 {
   "format": "mirlipousse-pricing-public/1",
-  "dateUTC": "2026-10-30T10:43:50.686548+00:00",
+  "dateUTC": "2026-10-31T14:30:37Z",
   "brand": "mirlipousse",
   "currency": "EUR",
   "mode": "preparation",
@@ -688,120 +688,10 @@
       "priceCents": 1690
     },
     {
-      "id": "mm-p-3a2083c3a6856ddc2b8801a954374a70948305d8029d14519e759db405de9b21",
-      "name": "Pull enfant à motif brodé",
-      "category": "vetements-enfants",
-      "categoryLabel": "Vêtements enfants",
-      "legacyCategory": "quotidien",
-      "currency": "EUR",
-      "indicativePriceCents": 1890,
-      "priceStatus": "fixed",
-      "priceLabel": "18,90 €",
-      "priceCustomer": null,
-      "purchaseEnabled": false,
-      "checkoutEligible": false,
-      "priceValidated": true,
-      "priceIncludesShipping": false,
-      "priceNotice": "Prix de l’article en euros, hors livraison. Les commandes restent fermées.",
-      "variants": [
-        {
-          "id": "mm-v-e14cc52b4bac899f4a39ab2ed55601f8f57bbb0f8ca81276afa65e04b6d5df3e",
-          "label": "Modèle : Khaki-80",
-          "indicativePriceCents": 1890,
-          "availableForCheckout": false,
-          "priceCents": 1890,
-          "priceStatus": "fixed",
-          "priceIncludesShipping": false
-        },
-        {
-          "id": "mm-v-e6d0539966e6e8d56f0667af7535734101266d27a4462129c22daa4f9b4741b2",
-          "label": "Khaki · 90",
-          "indicativePriceCents": 1890,
-          "availableForCheckout": false,
-          "priceCents": 1890,
-          "priceStatus": "fixed",
-          "priceIncludesShipping": false
-        },
-        {
-          "id": "mm-v-807331b81ce4cab928f43709cf4511056123d5454df4cdb83d20abbaf7e1e0ca",
-          "label": "Khaki · 100",
-          "indicativePriceCents": 1890,
-          "availableForCheckout": false,
-          "priceCents": 1890,
-          "priceStatus": "fixed",
-          "priceIncludesShipping": false
-        },
-        {
-          "id": "mm-v-b0d1acfc015c1580359f9834eb60e6cb356ac86f088e7bcdadf85845db89d287",
-          "label": "Khaki · 110",
-          "indicativePriceCents": 1890,
-          "availableForCheckout": false,
-          "priceCents": 1890,
-          "priceStatus": "fixed",
-          "priceIncludesShipping": false
-        },
-        {
-          "id": "mm-v-b02b3d1a9bbc3fae219d67933b5150cc815b22852591fe50653dae219df4c354",
-          "label": "Khaki · 120",
-          "indicativePriceCents": 1890,
-          "availableForCheckout": false,
-          "priceCents": 1890,
-          "priceStatus": "fixed",
-          "priceIncludesShipping": false
-        },
-        {
-          "id": "mm-v-e40f2877a1e63251ead0b5caba41bcda86810254b01f5a3246868930f89e30ab",
-          "label": "Khaki · 130",
-          "indicativePriceCents": 1890,
-          "availableForCheckout": false,
-          "priceCents": 1890,
-          "priceStatus": "fixed",
-          "priceIncludesShipping": false
-        }
-      ],
-      "shippingStandard": {
-        "FR": {
-          "mode": "home",
-          "service": "standard",
-          "label": "Livraison standard à domicile",
-          "availableForPreview": true,
-          "qualifiedForCheckout": false,
-          "quoteAvailable": true,
-          "indicativeCents": 1090,
-          "priceCents": null,
-          "priceStatus": "estimation_pays_a_confirmer",
-          "priceLabel": "10,90 € indicatifs pour 1 article",
-          "etaBusinessDays": null,
-          "etaLabel": "Délai à confirmer avant ouverture",
-          "trackingIncluded": null,
-          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur."
-        },
-        "BE": {
-          "mode": "home",
-          "service": "standard",
-          "label": "Livraison standard à domicile",
-          "availableForPreview": true,
-          "qualifiedForCheckout": false,
-          "quoteAvailable": true,
-          "indicativeCents": 1290,
-          "priceCents": null,
-          "priceStatus": "estimation_pays_a_confirmer",
-          "priceLabel": "12,90 € indicatifs pour 1 article",
-          "etaBusinessDays": null,
-          "etaLabel": "Délai à confirmer avant ouverture",
-          "trackingIncluded": null,
-          "trackingLabel": "Suivi communiqué à l’expédition seulement s’il est fourni par le transporteur."
-        }
-      },
-      "safetyQualified": false,
-      "ageQualified": false,
-      "priceCents": 1890
-    },
-    {
       "id": "mm-p-41f5e7627e3575f06b31b2db676cd8a12cac15ddd56999167f75b7ea4f304624",
       "name": "Sous-vêtements thermiques pour enfant",
       "category": "vetements-enfants",
-      "categoryLabel": "Vêtements enfants",
+      "categoryLabel": "Vêtements thermiques",
       "legacyCategory": "quotidien",
       "currency": "EUR",
       "indicativePriceCents": 990,
@@ -3617,8 +3507,8 @@
     },
     {
       "id": "vetements-enfants",
-      "label": "Vêtements enfants",
-      "count": 2
+      "label": "Vêtements thermiques",
+      "count": 1
     },
     {
       "id": "jeux-plein-air",

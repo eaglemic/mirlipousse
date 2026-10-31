@@ -127,23 +127,6 @@ const baseProducts: (Omit<Product,"priceCents">&{priceCents:null})[] = [
     "defaultVariantId": "mm-v-b16226bee645d7bd177d713f2b78cba9a85dc55de4d7b021e8a9cebb5c833c46"
   },
   {
-    "id": "mm-p-3a2083c3a6856ddc2b8801a954374a70948305d8029d14519e759db405de9b21",
-    "name": "Pull enfant à motif brodé",
-    "subtitle": "Les petites habitudes",
-    "category": "quotidien",
-    "age": null,
-    "ageLabel": "Âge non renseigné",
-    "priceCents": null,
-    "image": "/media/articles/e877096285ab686d07e0cea0c22ebe3d6f73677ff565bccc427ca7495488321a.webp",
-    "color": "#f4f2ed",
-    "description": "Un pull enfant à manches longues et motif brodé.",
-    "details": [
-      "Matières annoncées : Fibre d’alcool polyvinylique (Vinylon) indiquée par la fiche article."
-    ],
-    "demo": false,
-    "defaultVariantId": "mm-v-e14cc52b4bac899f4a39ab2ed55601f8f57bbb0f8ca81276afa65e04b6d5df3e"
-  },
-  {
     "id": "mm-p-41f5e7627e3575f06b31b2db676cd8a12cac15ddd56999167f75b7ea4f304624",
     "name": "Sous-vêtements thermiques pour enfant",
     "subtitle": "Les petites habitudes",

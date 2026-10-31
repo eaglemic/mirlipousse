@@ -12,6 +12,20 @@
       "reason": "withdrawn_by_owner",
       "scope": "new_catalogue_quotes_and_purchases_only",
       "excludeAllVariantsOfProduct": true
+    },
+    {
+      "id": "mm-p-3a2083c3a6856ddc2b8801a954374a70948305d8029d14519e759db405de9b21",
+      "variantIds": [
+        "mm-v-807331b81ce4cab928f43709cf4511056123d5454df4cdb83d20abbaf7e1e0ca",
+        "mm-v-b02b3d1a9bbc3fae219d67933b5150cc815b22852591fe50653dae219df4c354",
+        "mm-v-b0d1acfc015c1580359f9834eb60e6cb356ac86f088e7bcdadf85845db89d287",
+        "mm-v-e14cc52b4bac899f4a39ab2ed55601f8f57bbb0f8ca81276afa65e04b6d5df3e",
+        "mm-v-e40f2877a1e63251ead0b5caba41bcda86810254b01f5a3246868930f89e30ab",
+        "mm-v-e6d0539966e6e8d56f0667af7535734101266d27a4462129c22daa4f9b4741b2"
+      ],
+      "reason": "withdrawn_by_owner",
+      "scope": "new_catalogue_quotes_and_purchases_only",
+      "excludeAllVariantsOfProduct": true
     }
   ]
 }
