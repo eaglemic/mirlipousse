@@ -40,3 +40,4 @@
 
 /* Choix de pièces : contrôle natif, ventes toujours fermées. */
 .variant-choice{display:grid;gap:.4rem;font-weight:600;margin:.8rem 0}.variant-select{display:block;max-width:100%;width:100%;padding:.7rem;border:1px solid currentColor;border-radius:.4rem;background:var(--paper,#fff);color:inherit;font:inherit}.product-bottom{flex-wrap:wrap}.product-bottom>.variant-choice,.product-bottom>.variant-honesty{flex-basis:100%}.variant-honesty{font-weight:400}
+.variant-select:focus-visible{outline:2px solid var(--accent);outline-offset:3px;box-shadow:0 0 0 5px color-mix(in srgb,var(--accent) 14%,transparent)}.add-selection:disabled{opacity:.5;cursor:not-allowed}

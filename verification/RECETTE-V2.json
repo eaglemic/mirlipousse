@@ -7,8 +7,9 @@
   "perimetre": "12 groupes fonctionnels historiques avant seules finitions CSS/référence, puis complément final 3 profils ; aucune extension de leurs dates/portées.",
   "references": [
     {
-      "path": "NATIF-V2-FONCTIONNEL-12.json",
-      "sha256": "1efb0f7f45efa79af1d53e55fd30cf7e0e0adcca96f27cb8b30c5a2c1c84fb7d"
+      "sha256": "1efb0f7f45efa79af1d53e55fd30cf7e0e0adcca96f27cb8b30c5a2c1c84fb7d",
+      "archivePrivee": true,
+      "nature": "recette fonctionnelle historique archivée hors dépôt"
     },
     {
       "path": "NATIF-V2-COMPLEMENT-3.json",

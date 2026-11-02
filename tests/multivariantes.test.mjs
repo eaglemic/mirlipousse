@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import vm from 'node:vm';
-import {restoreSelection,addSelection,exactOption} from '../public/selection-state.mjs';
+import {restoreSelection,addSelection,exactOption,groupVariantOptions,variantGroup} from '../public/selection-state.mjs';
 import {publicProductId,publicVariantId} from '../public/public-identities.mjs';
 
 const catalogue=JSON.parse(readFileSync(new URL('../public/catalogue.json',import.meta.url)));
@@ -55,10 +55,10 @@ function ui({stored=null,refuse=false,salesEnabled=false}={}){
  const doc={getElementById:id=>ids[id]??null,body:new Element(),documentElement:{dataset:{motionStudio:'fixture'}},addEventListener(){},
  querySelector:name=>name==='.menu-toggle'?menu:null,
  querySelectorAll:name=>({'.variant-select':selects,'.add-selection':buttons,'.selection-toggle':[toggle]})[name]??[],createElement:()=>new Element()};
- const context=vm.createContext({document:doc,location:{href:'https://mini-moi.invalid/'},URL,JSON,Map,Set,Error,restoreSelection,addSelection,exactOption,
+ const context=vm.createContext({document:doc,location:{href:'https://mini-moi.invalid/'},URL,JSON,Map,Set,Error,restoreSelection,addSelection,exactOption,groupVariantOptions,
  localStorage:{getItem:key=>{if(refuse)throw Error('fixture read refusal');return store.get(key)??null;},setItem:(key,value)=>{writes++;if(refuse)throw Error('fixture write refusal');store.set(key,value);}},setTimeout:()=>1,clearTimeout(){},fetch:()=>{network++;throw Error('network forbidden');}});
  const source=readFileSync(new URL('../public/app.js',import.meta.url),'utf8');
- assert(source.startsWith("import {restoreSelection,addSelection,exactOption} from './selection-state.mjs';\n"));
+ assert(source.startsWith("import {restoreSelection,addSelection,exactOption,groupVariantOptions} from './selection-state.mjs';\n"));
  vm.runInContext(source.slice(source.indexOf('\n')+1),context);
  return {ids,selects,photos,buttons,toggle,store,get writes(){return writes;},get network(){return network;}};
 }
@@ -73,10 +73,29 @@ test('Vrai code DOM : choix → photo exacte → identité exacte, double-clic e
  app.toggle.events.click();assert.equal(app.ids.selection.open,true);assert.equal(app.network,0);
 });
 test('Vrai code DOM : stockage refusé ou corrompu ne remplace pas l’ancienne sélection',()=>{
- const refused=ui({refuse:true});refused.buttons[0].events.click();assert.equal(refused.ids['selection-items'].children.length,1);assert.equal(refused.writes,0);assert.match(refused.ids.feedback.textContent,/temporaire/);
- const corrupted=ui({stored:'{invalid'});corrupted.buttons[0].events.click();assert.equal(corrupted.writes,0);assert.equal(corrupted.store.get('boutique:mini-et-moi:selection:v1'),'{invalid');
+ const refused=ui({refuse:true});refused.selects[0].value=products[0].defaultVariantId;refused.selects[0].events.change();refused.buttons[0].events.click();assert.equal(refused.ids['selection-items'].children.length,1);assert.equal(refused.writes,0);assert.match(refused.ids.feedback.textContent,/temporaire/);
+ const corrupted=ui({stored:'{invalid'});corrupted.selects[0].value=products[0].defaultVariantId;corrupted.selects[0].events.change();corrupted.buttons[0].events.click();assert.equal(corrupted.writes,0);assert.equal(corrupted.store.get('boutique:mini-et-moi:selection:v1'),'{invalid');
  for(const variantId of ['',null,0]){const saved=JSON.stringify([{id:products[0].id,variantId}]),invalid=ui({stored:saved});invalid.buttons[0].events.click();assert.equal(invalid.writes,0);assert.equal(invalid.store.get('boutique:mini-et-moi:selection:v1'),saved);}
  assert.throws(()=>ui({salesEnabled:true}),/Configuration/);
+});
+test('Toutes les50 variantes restent groupées sans nouveau modèle, prix ou taille inventé',()=>{
+ const before=JSON.stringify(products);
+ for(const p of products){const groups=groupVariantOptions(p),all=groups.flatMap(g=>g.variants);assert.equal(all.length,p.variants.length);assert.deepEqual(new Set(all.map(v=>v.id)),new Set(p.variants.map(v=>v.id)));assert(all.every(v=>variantGroup(v.label)!==null));}
+ assert.equal(JSON.stringify(products),before);
+});
+test('Filtres de tailles : adultes, bébé, enfant strictement séparés ; aucun âge déduit des T/Y',()=>{
+ let adult=0,child=0,baby=0;
+ for(const p of products){const a=groupVariantOptions(p,'adulte').flatMap(g=>g.variants),b=groupVariantOptions(p,'bebe').flatMap(g=>g.variants),c=groupVariantOptions(p,'enfant').flatMap(g=>g.variants);
+  assert(a.every(v=>['Femme','Homme'].includes(variantGroup(v.label))));assert(b.every(v=>variantGroup(v.label)==='Bébé'));assert(c.every(v=>['Fille','Garçon','Enfant'].includes(variantGroup(v.label))));adult+=a.length;baby+=b.length;child+=c.length;
+  assert.equal(groupVariantOptions(p,'ado').length,0);assert.equal(groupVariantOptions(p,'naissance').length,0);
+ }
+ assert.equal(adult+child+baby,50);assert(adult>0&&child>0&&baby>0);
+ assert.equal(variantGroup('Pointure38 · Noir'),null);assert.equal(variantGroup(null),null);
+});
+test('Sans choix explicite, aucune taille par défaut ni nouvelle écriture locale',()=>{
+ const app=ui();assert(app.selects.every(s=>s.value===''));assert.equal(app.writes,0);
+ app.buttons[0].events.click();assert.equal(app.ids['selection-items'].children.length,0);assert.equal(app.writes,0);
+ app.selects[0].value=products[0].variants[2].id;app.selects[0].events.change();app.buttons[0].events.click();assert.equal(app.ids['selection-items'].children.length,1);
 });
 test('Ancienne collection sans taille reste visible et ne devient jamais une pièce par défaut',()=>{
  const app=ui({stored:JSON.stringify([products[0].id])});

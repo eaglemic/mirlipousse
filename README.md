@@ -38,4 +38,10 @@ L’illustration fournie par l’utilisateur représente l’univers Mini & Moi,
 
 ## Tenues coordonnées enfant + adulte
 
-Le catalogue est exclusivement composé de 3 références documentant de vraies variantes assorties enfant et adulte. Aucun article enfant ou adulte seul. Les anciennes pages non assorties indiquent leur retrait et sont noindex ; le sitemap ne les publie plus. Chaque pièce fournisseur reste individuelle : aucune offre de lot famille ou de prix duo n’est inventée. Les dix motifs restent des projets numériques. Ventes fermées. Les anciens caches CDN d’images ne sont pas prétendus purgés.
+Le catalogue est exclusivement composé de 3 références documentant de vraies variantes assorties enfant et adulte. Aucun article enfant ou adulte seul. Les anciens liens retrouvent une collection encore présentée ou la page des duos ; aucune ancienne référence fournisseur n’est listée dans les fichiers courants. Le sitemap ne publie que les adresses actuelles. Chaque pièce fournisseur reste individuelle : aucune offre de lot famille ou de prix duo n’est inventée. Les dix motifs restent des projets numériques. Ventes fermées. Les anciens caches CDN d’images ne sont pas prétendus purgés.
+
+## Confidentialité des sources
+
+Les références fournisseur et les pièces commerciales brutes sont archivées hors du dépôt public. Le build contrôle une attestation opaque épinglée, les 3 collections enfant + adulte, les 50 variantes et les photos exactes. Cette attestation ne constitue pas une qualification de vente.
+
+Les anciennes sélections locales restent conservées sans substitution de taille. Les anciens liens passent par la page 404 puis rejoignent une collection actuelle ou les duos quand JavaScript est disponible. Le site public et ce README restent partageables. Le retrait des fichiers courants ne supprime pas leur présence dans les anciens commits Git.

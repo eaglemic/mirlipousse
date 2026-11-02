@@ -1,0 +1,8 @@
+# Pièces commerciales privées : conservées hors dépôt sur le disque Données.
+verification/DUOS-SOURCE.json
+verification/VARIANTES-OPAQUES-SOURCE.json
+verification/NATIF-V2-FONCTIONNEL-12.json
+verification/REMISE-V2.json
+public/produits/mini-et-moi-cj-*.html
+prive/
+__pycache__/

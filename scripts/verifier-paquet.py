@@ -25,24 +25,32 @@ if EXPECTED=='nuitrelia':
  markup=''.join(p.read_text() for p in PUBLIC.rglob('*.html'))
  assert 'mirlipousse' not in markup.replace(shared_reviews,'"endpoint": null').lower()
 else:assert catalogue['adultOnly'] is False
-# Mini & Moi : la preuve de variantes fournisseur prime sur les tags marketing.
+# La preuve brute reste en archive privée. Cette attestation publique épinglée
+# conserve exactement les produits, rôles, options, libellés et photos validés.
+# Ni appel fournisseur ni donnée privée n'est nécessaire au build public.
 assert catalogue.get('duosOnly') is True and r.get('duosOnly') is True,'DUOS_OBLIGATOIRES'
-duo_path=BASE/'verification'/'DUOS-SOURCE.json';duo_sha=hashlib.sha256(duo_path.read_bytes()).hexdigest()
-assert duo_sha==r.get('duosSourceSHA256')=='4b151d7745ccfcec17b2ebf6aa443fc9670ef7876bdac3e1f52bca7291ea4b53','PREUVE_DUOS_NON_QUALIFIEE'
-duo_source=json.loads(duo_path.read_text());assert duo_source['format']=='mini-et-moi-duos-source/1' and duo_source['salesEnabled'] is False
-models={m['pid']:m for m in duo_source['models']}
-assert len(models)==len(duo_source['models']) and set(models)==set(duo_source['allowedPIDs'])
-def opaque_product(pid):return 'mm-p-'+hashlib.sha256(('mini-merveilles:product:v1|cj-'+pid.lower()).encode()).hexdigest()
-def opaque_variant(vid):return 'mm-v-'+hashlib.sha256(('mini-merveilles:variant:v1|'+vid.lower()).encode()).hexdigest()
-by_public={opaque_product(pid):model for pid,model in models.items()}
-assert {p['id'] for p in catalogue['products']}==set(by_public) and len(catalogue['products'])==len(models),'CATALOGUE_HORS_DUOS_VERIFIES'
+for private_name in ['DUOS-SOURCE.json','VARIANTES-OPAQUES-SOURCE.json','NATIF-V2-FONCTIONNEL-12.json','REMISE-V2.json']:
+ assert not (BASE/'verification'/private_name).exists(),'PIECE_PRIVEE_DANS_DEPOT'
+assert not list(PUBLIC.glob('produits/mini-et-moi-cj-*.html')),'ALIAS_FOURNISSEUR_DANS_DEPOT'
+att_path=BASE/'verification'/'ATTESTATION-CATALOGUE.json'
+assert not att_path.is_symlink() and att_path.resolve().is_relative_to(BASE.resolve()),'ATTESTATION_NON_LOCALE'
+assert hashlib.sha256(att_path.read_bytes()).hexdigest()==r.get('attestationCatalogueSHA256')=='e60f7d11471d41467b0818b6c732955da87a20cc8270f4680a2340529a811f04','PIN_ATTESTATION_MODIFIE'
+att=json.loads(att_path.read_text())
+assert set(att)=={'format','sourceDuosSHA256','sourcePresentationSHA256','catalogueSHA256','salesEnabled','qualificationCommerciale','products'},'ATTESTATION_SCHEMA_INVALIDE'
+assert att['format']=='mini-moi-attestation-catalogue-public/1' and att['salesEnabled'] is False and att['qualificationCommerciale'] is False
+assert att['sourceDuosSHA256']==r.get('duosSourceSHA256')=='4b151d7745ccfcec17b2ebf6aa443fc9670ef7876bdac3e1f52bca7291ea4b53','PREUVE_DUOS_NON_QUALIFIEE'
+assert att['sourcePresentationSHA256']==r['multivariantes']['presentationPinSHA256']=='3b8c6495806f44ff29f052d0b27d9cbab60a9a42642905decc7626d80708e67c','PIN_PRESENTATION_MODIFIE'
+assert hashlib.sha256((PUBLIC/'catalogue.json').read_bytes()).hexdigest()==att['catalogueSHA256'],'CATALOGUE_SOURCE_DIFFERENT'
+by_public={m['id']:m for m in att['products']}
+assert len(by_public)==len(att['products'])==3
+assert {p['id'] for p in catalogue['products']}==set(by_public),'CATALOGUE_HORS_DUOS_VERIFIES'
 variant_ids=set()
 for product in catalogue['products']:
  model=by_public[product['id']]
- assert model['publicId']=='mini-et-moi-cj-'+model['pid'] and all(model.get(k) is True for k in ['sameSupplierModel','coordinatedFamilyRange','enfantEtAdulteProuves','variantRolesExplicit']),'MODELE_NON_ASSORTI'
+ assert all(model.get(k) is True for k in ['sameSupplierModel','coordinatedFamilyRange','enfantEtAdulteProuves','variantRolesExplicit']),'MODELE_NON_ASSORTI'
  assert not {'pid','vid','duoProof'} & set(product),'PREUVE_PRIVEE_DANS_CATALOGUE_PUBLIC'
  options=product['variants'];assert isinstance(options,list) and 0<len(options)<=150
- assert product['defaultVariantId'] in {v['id'] for v in options},'VARIANTE_INITIALE_PERDUE'
+ assert product['defaultVariantId']==model['defaultVariantId'] and product['defaultVariantId'] in {v['id'] for v in options},'VARIANTE_INITIALE_PERDUE'
  for variant in options:
   assert re.fullmatch(r'mm-v-[a-f0-9]{64}',variant['id']) and variant['id'] not in variant_ids,'VARIANTE_DUPLIQUEE'
   variant_ids.add(variant['id']);assert variant['availableForCheckout'] is False and variant['indicativePriceCents'] is None
@@ -51,26 +59,16 @@ for product in catalogue['products']:
   assert re.fullmatch(r'/media/variantes/image-[a-f0-9]{24}\.(?:jpg|png)',variant['image'])
   asset=PUBLIC/variant['image'].lstrip('/');assert asset.is_file() and not asset.is_symlink()
   assert hashlib.sha256(asset.read_bytes()).hexdigest()[:24] in asset.name,'PHOTO_OCTETS_DIFFERENTS'
- for field,role in [('childVariants','enfant'),('adultVariants','adulte')]:
-  variants=model.get(field);assert isinstance(variants,list) and variants,'VARIANTE_'+role.upper()+'_REQUISE'
-  assert len({v['vid'] for v in variants})==len(variants),'VARIANTE_DUPLIQUEE'
-  for variant in variants:
-   assert variant['sourceField'] and variant['sourceText'] and variant['role']==role,'ROLE_OU_TAILLE_NON_PROUVE'
-   assert opaque_variant(variant['vid']) in {v['id'] for v in options},'VARIANTE_DUO_DOCUMENTEE_PERDUE'
-assert len(variant_ids)==50,'VARIANTES_SOURCE_INCOMPLETES'
-# Source privée opaque : couple exact option/libellé/photo. Le pin DUOS reste
-# inchangé et vérifie déjà les cinquante VID, indépendamment de ce contrôle.
-presentation_path=BASE/'verification'/'VARIANTES-OPAQUES-SOURCE.json'
-assert hashlib.sha256(presentation_path.read_bytes()).hexdigest()=='3b8c6495806f44ff29f052d0b27d9cbab60a9a42642905decc7626d80708e67c','PIN_PRESENTATION_MODIFIE'
-presentation=json.loads(presentation_path.read_text());assert presentation['format']=='mini-moi-opaque-presentation-source/1'
-assert len(presentation['products'])==3
-for product,source in zip(catalogue['products'],presentation['products']):
- assert product['id']==source['id'] and product['defaultVariantId']==source['defaultVariantId'],'PRESENTATION_PARENT_DIFFERENT'
- actual_options=[{k:v[k] for k in ['id','label','image','imageAlt']} for v in product['variants']]
- expected_options=[{k:v[k] for k in ['id','label','image','imageAlt']} for v in source['options']]
+ children,adults=model['childVariantIds'],model['adultVariantIds']
+ assert isinstance(children,list) and children and isinstance(adults,list) and adults,'VARIANTES_ENFANT_ADULTE_REQUISES'
+ assert len(set(children))==len(children) and len(set(adults))==len(adults) and not set(children)&set(adults),'ROLE_VARIANTE_DUPLIQUE'
+ assert set(children)|set(adults)=={v['id'] for v in options},'VARIANTE_DUO_DOCUMENTEE_PERDUE'
+ actual_options=[{k:v[k] for k in ['id','label','image','imageAlt']} for v in options]
+ expected_options=[{k:v[k] for k in ['id','label','image','imageAlt']} for v in model['options']]
  assert actual_options==expected_options,'PRESENTATION_VARIANTE_DIFFERENTE'
- for option in source['options']:
+ for option in model['options']:
   assert hashlib.sha256((PUBLIC/option['image'].lstrip('/')).read_bytes()).hexdigest()==option['imageSHA256'],'PHOTO_SOURCE_DIFFERENTE'
+assert len(variant_ids)==50,'VARIANTES_SOURCE_INCOMPLETES'
 
 
 class Links(HTMLParser):

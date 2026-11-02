@@ -6,6 +6,23 @@ export function exactOption(products,id,variantId){
  const option=product?.variants.find(v=>v.id===variantId);
  return option?{product,option}:null;
 }
+// Classer seulement les rôles littéralement présents dans les libellés publics.
+// Une taille T/Y/cm n'est jamais convertie en âge, couleur ou stock supposé.
+export const VARIANT_GROUPS=Object.freeze(['Bébé','Fille','Garçon','Enfant','Femme','Homme']);
+export function variantGroup(label){
+ if(typeof label!=='string')return null;
+ const parts=label.split(' · ').map(value=>value.trim());
+ return VARIANT_GROUPS.find(group=>parts.some(part=>part.startsWith(group+' ')))??null;
+}
+export function groupVariantOptions(product,audience='all'){
+ const groups=new Map(VARIANT_GROUPS.map(name=>[name,[]]));groups.set('Autres tailles documentées',[]);
+ const allowed=group=>audience==='all'||audience==='adulte'&&['Femme','Homme'].includes(group)||audience==='bebe'&&group==='Bébé'||audience==='enfant'&&['Fille','Garçon','Enfant'].includes(group);
+ for(const variant of Array.isArray(product?.variants)?product.variants:[]){
+  const group=variantGroup(variant.label);
+  if(allowed(group))groups.get(group??'Autres tailles documentées').push(variant);
+ }
+ return [...groups].filter(([,variants])=>variants.length).map(([label,variants])=>({label,variants}));
+}
 /** Same local storage key. A historical collection choice never asserted a
  * clothing size: keep it pending instead of silently choosing a default piece. */
 export function restoreSelection(value,products){

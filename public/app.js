@@ -1,4 +1,4 @@
-import {restoreSelection,addSelection,exactOption} from './selection-state.mjs';
+import {restoreSelection,addSelection,exactOption,groupVariantOptions} from './selection-state.mjs';
 /* Vitrine fermée : sélection locale de pièces, aucune route de commande. */
 (() => {
   'use strict';
@@ -8,6 +8,15 @@ import {restoreSelection,addSelection,exactOption} from './selection-state.mjs';
   for(const p of config.products){
     if(!/^mm-p-[a-f0-9]{64}$/.test(p.id)||productIds.has(p.id)||p.purchaseEnabled!==false||!Array.isArray(p.variants)||!p.variants.length||p.variants.length>150||!p.variants.some(v=>v.id===p.defaultVariantId))throw Error('Catalogue de présentation invalide');productIds.add(p.id);
     for(const v of p.variants){if(!/^mm-v-[a-f0-9]{64}$/.test(v.id)||variantIds.has(v.id)||v.availableForCheckout!==false||!/^\/media\/variantes\/image-[a-f0-9]{24}\.(jpg|png)$/.test(v.image)||typeof v.label!=='string'||v.label.length>200)throw Error('Variante de présentation invalide');variantIds.add(v.id);}
+  }
+  // Les anciennes URL restent reconnues sans publier leur liste de références.
+  // La page 404 du site charge ce même module ; la destination reste locale.
+  const legacy=/^\/produits\/(mini-et-moi-cj-[A-Za-z0-9_-]{1,76})\.html$/.exec(location.pathname??'');
+  if(legacy){
+    const preserved=restoreSelection([legacy[1]],config.products).unresolved[0];
+    const product=config.products.find(p=>p.id===preserved?.id);
+    location.replace(product?`/produits/${product.id}.html`:'/duos.html');
+    return; // Ne pas lire, écrire ni vider la sélection pendant ce transfert.
   }
   document.body.classList.add('js');
   const products=new Map(config.products.map(p=>[p.id,p]));
@@ -33,11 +42,34 @@ import {restoreSelection,addSelection,exactOption} from './selection-state.mjs';
     });
     unresolved.forEach((line,index)=>{const item=document.createElement('li'),name=document.createElement('span'),remove=document.createElement('button');const product=products.get(line.id);name.textContent=product?`${product.name} — ${line.variantId?'ancienne variante à reconfirmer':'ancienne collection conservée, taille à choisir'}. Aucune pièce ne lui est substituée.`:'Ancienne référence conservée, à reconfirmer. Aucun article ne lui est substitué.';remove.type='button';remove.textContent='Retirer';remove.addEventListener('click',()=>{unresolved=unresolved.filter((_,i)=>i!==index);persist();render();});item.append(name,remove);list.append(item);});
   }
+  const variantControls=[],explicitChoices=new WeakSet();
+  function refreshVariantChoices(){
+    for(const {select,product,button}of variantControls){
+      const previous=explicitChoices.has(select)?select.value:'';
+      const groups=groupVariantOptions(product,audience),options=groups.flatMap(group=>group.variants);
+      const placeholder=document.createElement('option');placeholder.value='';placeholder.textContent=options.length?`Choisir une pièce · ${options.length} choix`:'Aucune taille dans ce filtre';
+      const nodes=groups.map(group=>{const node=document.createElement('optgroup');node.label=group.label;for(const variant of group.variants){const option=document.createElement('option');option.value=variant.id;option.textContent=variant.label;node.append(option);}return node;});
+      select.replaceChildren(placeholder,...nodes);
+      select.value=options.some(variant=>variant.id===previous)?previous:'';
+      select.disabled=options.length===0;
+      select.setAttribute('aria-label',`Choisir une pièce et sa taille : ${product.name}`);
+      if(button)button.disabled=!select.value;
+    }
+  }
   document.querySelectorAll('.variant-select').forEach(select=>{
     const product=products.get(select.dataset.product);if(!product)return;
+    const scope=select.closest('.product-card,.product-detail'),button=scope?.querySelector('.add-selection');
+    if(scope?.classList.contains('product-card')){
+      scope.classList.add('filter-item');scope.dataset.category=product.category;
+      scope.dataset.audience=product.audienceTags.join(' ');
+    }
+    variantControls.push({select,product,button});
     select.addEventListener('change',()=>{
-      const exact=exactOption(config.products,product.id,select.value);if(!exact)return;
-      const scope=select.closest('.product-card,.product-detail'),photo=scope?.querySelector('img');
+      const exact=exactOption(config.products,product.id,select.value);
+      if(button)button.disabled=!exact;
+      if(!exact){explicitChoices.delete(select);return;}
+      explicitChoices.add(select);
+      const photo=scope?.querySelector('img');
       if(photo){photo.src=exact.option.image;photo.alt=exact.option.imageAlt;}
     });
   });
@@ -56,8 +88,8 @@ import {restoreSelection,addSelection,exactOption} from './selection-state.mjs';
   menu.addEventListener('click',()=>{const open=menu.getAttribute('aria-expanded')!=='true';menu.setAttribute('aria-expanded',String(open));navigation.classList.toggle('open',open);});
   document.addEventListener('keydown',event=>{if(event.key==='Escape'&&navigation.classList.contains('open')){navigation.classList.remove('open');menu.setAttribute('aria-expanded','false');menu.focus();}});
   const initialAudience=new URL(location.href).searchParams.get('audience');let category='all',audience=['naissance','bebe','enfant','ado','adulte'].includes(initialAudience)?initialAudience:'all';
-  function applyFilters(){let visible=0;document.querySelectorAll('.filter-item').forEach(item=>{const categoryOK=category==='all'||item.dataset.category===category,audienceOK=audience==='all'||(item.dataset.audience||'').split(' ').includes(audience);item.hidden=!categoryOK||!audienceOK;if(!item.hidden)visible++;});const count=document.getElementById('filter-count'),empty=document.getElementById('filter-empty');if(count)count.textContent=`${visible} référence${visible>1?'s':''} affichée${visible>1?'s':''}`;if(empty)empty.hidden=visible!==0;document.querySelectorAll('[data-filter]').forEach(button=>{const active=button.dataset.filter===category;button.classList.toggle('active',active);button.setAttribute('aria-pressed',String(active));});document.querySelectorAll('[data-audience-filter]').forEach(button=>{const active=button.dataset.audienceFilter===audience;button.classList.toggle('active',active);button.setAttribute('aria-pressed',String(active));});}
-  document.querySelectorAll('[data-filter]').forEach(button=>button.addEventListener('click',()=>{category=button.dataset.filter;applyFilters();}));document.querySelectorAll('[data-audience-filter]').forEach(button=>button.addEventListener('click',()=>{audience=button.dataset.audienceFilter;applyFilters();}));if(document.querySelector('.filter-item'))applyFilters();render();
+  function applyFilters(){let visible=0;document.querySelectorAll('.filter-item').forEach(item=>{const categoryOK=category==='all'||item.dataset.category===category,audienceOK=audience==='all'||(item.dataset.audience||'').split(' ').includes(audience);item.hidden=!categoryOK||!audienceOK;if(!item.hidden)visible++;});const count=document.getElementById('filter-count'),empty=document.getElementById('filter-empty');if(count)count.textContent=`${visible} référence${visible>1?'s':''} affichée${visible>1?'s':''}`;if(empty)empty.hidden=visible!==0;document.querySelectorAll('[data-filter]').forEach(button=>{const active=button.dataset.filter===category;button.classList.toggle('active',active);button.setAttribute('aria-pressed',String(active));});document.querySelectorAll('[data-audience-filter]').forEach(button=>{const active=button.dataset.audienceFilter===audience;button.classList.toggle('active',active);button.setAttribute('aria-pressed',String(active));});refreshVariantChoices();}
+  document.querySelectorAll('[data-filter]').forEach(button=>button.addEventListener('click',()=>{category=button.dataset.filter;applyFilters();}));document.querySelectorAll('[data-audience-filter]').forEach(button=>button.addEventListener('click',()=>{audience=button.dataset.audienceFilter;applyFilters();}));if(document.querySelector('.filter-item'))applyFilters();else refreshVariantChoices();render();
 })();
 /* Avis : activation explicite après qualification du stockage et de l’origine. */
 (async () => {
