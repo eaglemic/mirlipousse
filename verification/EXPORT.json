@@ -1,6 +1,6 @@
 {
   "format": "boutique-export/1",
-  "dateUTC": "2026-11-01T23:43:21+00:00",
+  "dateUTC": "2026-11-02T00:36:07.472875+00:00",
   "brandSlug": "mini-et-moi",
   "name": "Mini & Moi",
   "branche": "entreprise/mini-et-moi",
@@ -14,18 +14,18 @@
   "files": [
     {
       "path": "404.html",
-      "sha256": "aff70dc3d5947526d8e81384f4fb866302b5624683431be5593f899ce753e3e7",
-      "octets": 23870
+      "sha256": "27a416b93917c2f995f19947a2fef3c5a3ce0fd0165867ee33709b1ba4d8e655",
+      "octets": 23865
     },
     {
       "path": "adultes.html",
-      "sha256": "df6893869206e22dd499d4fe6a97eb2db93365aae7bd2cb7b59bd0f9e580e5ea",
-      "octets": 24301
+      "sha256": "a8f7df043269277be487d5b116473ec25059709b64b332fbc8f3ee21aa2eace4",
+      "octets": 24296
     },
     {
       "path": "ages.html",
-      "sha256": "7bc96725680706f886afa4eac7daf60880fd1924ec8918c1fe5426689954e475",
-      "octets": 24431
+      "sha256": "4ab7ddcf9b5478fb1c2bc5541c2acf23a1b13461299cd38559cf94d58965b22e",
+      "octets": 24426
     },
     {
       "path": "app.js",
@@ -34,8 +34,8 @@
     },
     {
       "path": "avis.html",
-      "sha256": "5b9cc4b5d1a214378c171abdbb8ed845fc92fca80b969f486b05975391db043c",
-      "octets": 25902
+      "sha256": "c6159cb761c548eafe078991eacb590d124c497d4bf6618b437e27067b0617bf",
+      "octets": 25897
     },
     {
       "path": "brand.json",
@@ -44,8 +44,8 @@
     },
     {
       "path": "catalogue.html",
-      "sha256": "751b14326c3e5f15d5c42de2fc8ad310385a048d789af5e9d952dc1f77a72cf1",
-      "octets": 35036
+      "sha256": "d8d3cecbb71cc87d6d0740f125cd23def0534bbaa1a8e69f5c0750f19a9545f5",
+      "octets": 35031
     },
     {
       "path": "catalogue.json",
@@ -54,48 +54,48 @@
     },
     {
       "path": "conditions.html",
-      "sha256": "e626df56e6cb76945708206e39b3ea7fa2ac000f683ff987325bc487c76cfa0c",
-      "octets": 24743
+      "sha256": "2da4d544fa5d0a0562edb24b979f930ef3f114434617748ba944755407b0c726",
+      "octets": 24738
     },
     {
       "path": "confidentialite.html",
-      "sha256": "ffbc4862ebc824d20a926e57aa2143698e3b6ad8719ae8b065205083deb5bfb7",
-      "octets": 26009
+      "sha256": "435f22476795d5f80e57409d1edb8c35d48680388e5008dc71ccbef81573d55e",
+      "octets": 26004
     },
     {
       "path": "contact.html",
-      "sha256": "305549be6b096303be2113f23bd8cb5ce0f8fabc529f77421353d7c4c6ea6451",
-      "octets": 24327
+      "sha256": "f87b367e4b31eafc1243b89fcd989cb0353a2f3b7a205040cee7f701e7c6808d",
+      "octets": 24322
     },
     {
       "path": "duos.html",
-      "sha256": "037c21671e2688179fbee787fafaf5cec6851cc8d09810699c37603b28898c9b",
-      "octets": 35032
+      "sha256": "91d20ed15125123a959d330b2ca7d58fc7f76cda07b19c142f1a5673b42fdc7c",
+      "octets": 35027
     },
     {
       "path": "enfants.html",
-      "sha256": "df6893869206e22dd499d4fe6a97eb2db93365aae7bd2cb7b59bd0f9e580e5ea",
-      "octets": 24301
+      "sha256": "a8f7df043269277be487d5b116473ec25059709b64b332fbc8f3ee21aa2eace4",
+      "octets": 24296
     },
     {
       "path": "familles.html",
-      "sha256": "800c383c5eab8beb34768c62fe7f6d5ffd7b4d4e9f072bba05d853ce8698ed0a",
-      "octets": 25146
+      "sha256": "28e7efc4a15cec5399458d0adb9ff651beef6e4634b83e7652f3e597f257e0e0",
+      "octets": 25141
     },
     {
       "path": "guide.html",
-      "sha256": "04eeb2ab33d0f9e5eeafc35bdc8008e352482c91342d48b78e539aa3e67bfda5",
-      "octets": 24483
+      "sha256": "2617f6e45e5cb1bd2ac32d9e855475584b14f69d8a82715fa769f1581ca06637",
+      "octets": 24478
     },
     {
       "path": "index.html",
-      "sha256": "a0cabddfd0132e3d30feb47733742cf88aa5e04cc8750fb58fbe5f3e77621909",
-      "octets": 39057
+      "sha256": "f68aeb7a61ce5ebf640149bb2400f837f4b23c7687c7e9c64741d9b581a587fb",
+      "octets": 39052
     },
     {
       "path": "livraison.html",
-      "sha256": "d1189a5083b9ca5e0e57c9ccdeefa53cd2a3b0b468c3a3ea57a17dd774460ce4",
-      "octets": 24492
+      "sha256": "dcc9a4e28342fed7776208178f09e48439079f42feffa06b85303e279a793c70",
+      "octets": 24487
     },
     {
       "path": "media/embleme.svg",
@@ -124,8 +124,8 @@
     },
     {
       "path": "mentions-legales.html",
-      "sha256": "d57e5dee436aa16f02e1751c818c2312b861522185e83ad3d84a8e5ae7ac1fcd",
-      "octets": 24916
+      "sha256": "34d5ace78e17ec42110041502de4073fdac55ff3dede869f40de893faf68f6b3",
+      "octets": 24911
     },
     {
       "path": "motifs/DESIGNS.json",
@@ -144,8 +144,8 @@
     },
     {
       "path": "motifs/index.html",
-      "sha256": "d6c7bc7cebe3fa730a051d9074f60e49dbca10ebce655e135cab7e8ca3468833",
-      "octets": 31563
+      "sha256": "a2722c0642cdf2e0f71841ec9bfdc0a1b0d45f8c072d177527b47445f38af74a",
+      "octets": 31558
     },
     {
       "path": "motifs/licences/DEJAVU-PERMISSION.txt",
@@ -264,18 +264,18 @@
     },
     {
       "path": "produits/mm-p-46c8f7161a84def1fb263539cf9be3b6337b29699c1d8fdd95b2cf4f46539802.html",
-      "sha256": "7a82c6a4aedd9b9fe65744c744c48e257c05a590ffc8b38da0544b4434a91e10",
-      "octets": 27214
+      "sha256": "801e45b6dd96ad21252bd3af11d7d405b0dbb54fcf9c636d5f4898884180f862",
+      "octets": 27209
     },
     {
       "path": "produits/mm-p-7ee141d9c55307037884078b7c11f564f24f0f6ff59e7622e9de508588ae157d.html",
-      "sha256": "6bef8e59fd211d5de1a2a4588d4c8de21c1716e006a565e809300f0aee9cea76",
-      "octets": 28389
+      "sha256": "ec96d5e60e91ca1949f9d0cc58a8aaedbc386e7b3882b1d21df08ca7ee33f28c",
+      "octets": 28384
     },
     {
       "path": "produits/mm-p-946767e8ffc1c6383851affbd61e2416d01b27061f68ffb87f88dc03fdffc0af.html",
-      "sha256": "82631a99f5951df11bfaef7bcaf112dd1504e85565071f81144b8c0418f499bd",
-      "octets": 29067
+      "sha256": "1a8e85877e9f0509160df2a6c93592ca1f059be8c80269a4c5e9323f931b276b",
+      "octets": 29062
     },
     {
       "path": "public-identities.mjs",
@@ -284,8 +284,8 @@
     },
     {
       "path": "retours.html",
-      "sha256": "37c8eac4cfc557c206fba4b7f4c060fac1e49246e655865ce1c8260aef6dc0ec",
-      "octets": 24708
+      "sha256": "e623755a836547c0c4299ddd47573ff6ac0498f4fc5c8e7ace1d6c72d19e7b84",
+      "octets": 24703
     },
     {
       "path": "robots.txt",
