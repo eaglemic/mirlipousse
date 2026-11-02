@@ -1,6 +1,6 @@
 import {publicProductId,publicVariantId} from './lib/public-identities.mjs';
 /** Contrat commerce : prix et états serveur font autorité, aucune donnée bancaire. */
-export const API_ORIGIN = 'https://mirlipousse-boutique.yellowghost64.chatgpt.site';
+export const API_ORIGIN = 'https://mirlipousse-boutique.eaglemic.chatgpt.site';
 export type Item = {id:string;variantId:string;quantity:number};
 export type DeliveryMode = 'home'|'pickup';
 export type RegulatoryInfo = {manufacturer:string;responsibleEU:string;warnings:string;ageLabel:string|null};
